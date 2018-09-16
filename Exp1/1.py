@@ -10,8 +10,7 @@ def parseURL(content):
     pattern = re.compile(('^\w*:*//'))
     for link in soup.findAll('a', {'href': pattern}):
         url = link.get('href', '')
-        url = urljoin('')
-        print url
+        url = urljoin(sys.argv[1], url)
         urlset.add(url)
 
     return  urlset
@@ -25,11 +24,9 @@ def write_outputs(urls, filename):
 
 
 def main():
-    url = 'http://www.baidu.com'
-    # url = sys.argv[1]
+    url = sys.argv[1]
     content = urllib2.urlopen(url).read()
     urls = parseURL(content)
-    print urls
     write_outputs(urls, 'res1.txt')
 
 

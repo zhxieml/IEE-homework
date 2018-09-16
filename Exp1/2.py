@@ -1,11 +1,15 @@
 import urllib2
+from urlparse import urljoin
 from bs4 import BeautifulSoup
+import sys
 
 def parseIMG(content):
     imgset = set()
     soup = BeautifulSoup(content, features='html.parser')
     for link in soup.findAll('img'):
-        imgset.add(link.get('src', ''))
+        url = link.get('src', '')
+        url = urljoin(sys.argv[1], url)
+        imgset.add(url)
 
     return imgset
 
@@ -18,11 +22,9 @@ def write_outputs(urls, filename):
 
 
 def main():
-    url = 'http://www.baidu.com'
-    # url = 'http://www.sjtu.edu.cn'
+    url = sys.argv[1]
     content = urllib2.urlopen(url).read()
     urls = parseIMG(content)
-    print urls
     write_outputs(urls, 'res2.txt')
 
 
