@@ -43,7 +43,6 @@ def write_outputs(info, filename):
 
 
 def main():
-    url = sys.argv[1]
     req = urllib2.Request(sys.argv[1], None, {'User-agent': 'Custom User Agent'})
     content = urllib2.urlopen((req)).read()
     content = content.replace('<br/>', '')
