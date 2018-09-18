@@ -19,8 +19,6 @@ for i in soup.findAll('a', {'href': re.compile('^/pic/page/')}):
         nextPage = urljoin(url, i['href'])
 
 for i in soup.findAll('div', {'id':re.compile('^qiushi_tag')}):
-    # print unicode.encode(i['id']).split('_')[-1]
-    # print i.img['src']
     print i
     id = i['id'].split('_')[-1]
     id = id.encode('utf-8')
