@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="a3ede5937b5bb525aa0ae3ef31d33659">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<title>发现 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://explore">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/explore">
+<meta id="znonce" name="znonce" content="d9af3cdc602641f78d9028761372b19a">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+</head>
+
+<body class="zhi page-explore">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li current" id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+
+
+
+<div id="zh-recommend">
+<div id="zh-recommend-title" class="page-title">
+<i class="zg-icon zg-icon-feedlist"></i>
+<span>编辑推荐</span>
+<a href="/explore/recommendations" class="zg-link-gray zg-right" data-za-c="explore" data-za-a="visit_explore_recommendations" data-za-l="editor_recommendations_more"><span>更多推荐 &raquo;</span></a>
+</div>
+<div id="zh-recommend-list">
+
+
+<div class="top-recommend-feed feed-item">
+<h2><a target='_blank' class="post-link" href="https://zhuanlan.zhihu.com/p/44376285" data-za-element-name="Title">【iG Rookie 2018】双赛季常规赛MVP怎样炼成？</a></h2>
+<div class="avatar">
+<a title="PentaQ刺猬电竞社"
+data-hovercard="p$t$pentaq-ci-wei-dian-jing-she"
+class="zm-item-link-avatar"
+target="_blank"
+href="/org/pentaq-ci-wei-dian-jing-she">
+<img src="https://pic3.zhimg.com/v2-e354b4848c773d9ec7526caac42e2a3d_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="author-info">
+<span class="author-link-line">
+<a class="name author-link"
+href="/org/pentaq-ci-wei-dian-jing-she"
+data-hovercard="p$t$pentaq-ci-wei-dian-jing-she"
+>PentaQ刺猬电竞社</a><span class="icon icon-badge-id-an icon-badge" data-tooltip="s$b$优秀回答者 · 已认证的个人"></span></span><span class="badge-summary"><a href="/people/pentaq-ci-wei-dian-jing-she#hilightbadge" target="_blank">电子竞技话题优秀回答者</a></span><span class="bio">志在电竞未来。品质、趣味、硬核。</span>
+</div>
+<div class="post-content">
+<textarea hidden class="content">&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-f2f311efc56ef906de1972cc49fd6e72_b.jpg&quot; data-rawwidth=&quot;3000&quot; data-rawheight=&quot;2000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;3000&quot; data-original=&quot;https://pic2.zhimg.com/v2-f2f311efc56ef906de1972cc49fd6e72_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;文：麦迪、小博&lt;/i&gt;&lt;br&gt;&lt;i&gt;编辑：丹尼二狗&lt;/i&gt;&lt;br&gt;&lt;i&gt;图：PentaQ、网络、一村、梁文迪&lt;/i&gt;&lt;/p&gt;&lt;p&gt;夏日的气息逐渐褪去，我们迎来了LPL一年一度群雄并起的时刻。LPL前列豪强们在赛季末尾争夺一个联赛冠军以及进入全球总决赛的宝贵名额。目前，RNG和IG已经锁定世界赛名额，剩下的最后一支队伍将在EDG、RW以及JDG之中诞生。&lt;/p&gt;&lt;p&gt;9月10日，在LPL夏季赛半决赛IG vs JDG的比赛之前，官方宣布了常规赛MVP最终人选——Rookie。在随后的BO5之中，IG苦战五局战胜JDG，赛后Rookie狂喜，而Baolan落泪。超强的实力和天赋是成功的利器，然而我们更加相信“念念不忘，终有回响”的坚韧精神。&lt;/p&gt;&lt;hr&gt;&lt;h2&gt;&lt;b&gt;蝉联意味着什么？&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;“常规赛MVP”是从2017年开始评选的奖项，用于表彰在每个赛季常规赛中表现最为出色的LPL选手。从2017年年初至今我们共经历四届常规赛，也因此诞生了三位极其优秀的选手。&lt;/p&gt;&lt;p&gt;2017年春季赛的Doinb，2017年夏季赛的Xiaohu，以及2018年全年的Rookie——一位在该奖项设立之后首次蝉联的选手。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-1c28e5ab6080a7ae1f972c0d84a4440b_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2200&quot; data-rawheight=&quot;1467&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2200&quot; data-original=&quot;https://pic2.zhimg.com/v2-1c28e5ab6080a7ae1f972c0d84a4440b_r.jpg&quot;&gt;&lt;figcaption&gt;LPL首位常规赛MVP获得者Doinb，一张照片该概括了那个赛季他的表现&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;蝉联究竟意味着什么？事实上，哪怕是纵观2018年，都已经不是Rookie第一年拿出这样的表现。从2015年来到LPL坐镇中单之后，Rookie始终示人以强大实力的一面，伴随着IG一路走至今日，其竞技状态以及对胜利的渴望鲜有下滑，同时还以乐观的天性收获了大量粉丝——无怪乎本赛季刚刚接手IG的教练金晶洙能够对Rookie给出“接近完美的职业选手”的盛赞了。&lt;/p&gt;&lt;p&gt;当不久之前LPL常规赛第十一周的比赛仍在进行中时，常规赛MVP的评选已经在幕后悄然开始。作为LPL职业联赛的数据支持团队，PentaQ参与了常规赛MVP评选的全过程，而如同NBA的常规赛MVP评选一样，最终这一殊荣必然与关联了“优秀数据表现的超一流选手”及“专家们的高度认可”两项指标，于是本次评选除了参考最强战力值（BOR）来评选以外，还将参考各方代表的投票结果。&lt;/p&gt;&lt;p&gt;最终，在汇总了26位代表的选票之后——他们包括LPL常驻媒体、LPL中英文解说及官方赛事工作人员们，Rookie最终以23张第一选票，2张第二选票，1张第三选票的优秀数据在35位参与评选的选手中排名第一，加上同样排名第一的最强战力值，常规赛MVP当仁不让，一锤定音！&lt;/p&gt;&lt;p&gt;这一次蝉联常规赛MVP，意味着Rookie选手对于自身实力的良好保持，对于电竞精神的优秀诠释，更是拥有绝对说服力的赛场数据以及LPL权威人士们集体意见的综合体。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-4ea84b9d5dd9a25107339d85c2270341_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;3000&quot; data-rawheight=&quot;2000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;3000&quot; data-original=&quot;https://pic1.zhimg.com/v2-4ea84b9d5dd9a25107339d85c2270341_r.jpg&quot;&gt;&lt;/figure&gt;&lt;hr&gt;&lt;h2&gt;&lt;b&gt; 从单线王者到团队领袖&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;想要从数据入手分析Rookie选手，首先需要了解LPL最佳阵容及常规赛MVP所用到的数据得分——即最强战力BOR（Best of Rift）的具体定义。&lt;/p&gt;&lt;p&gt;【最强战力】，是由PentaQ Hard Candy数据团队与腾讯官方共同设计，为LPL职业联赛推出的、用纯数据形式评测选手在较长的赛事段内发挥水平的综合算法。主要包含四个方向，通过多维度的数据比较，用特定算法得出总分——以此作为较长的赛段内不同选手的“战斗力”指标算法，并根据版本改动等实际情况进行迭代调整。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;【最强战力】包含四个方向综合评定：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1、&lt;b&gt;DVP：&lt;/b&gt;DVP是每场比赛后评选MVP的核心参考分数，它主要用于评估一名选手在单一场次中的队内贡献，DVP“数据最有价值选手”的缩写。&lt;/p&gt;&lt;p&gt;2、&lt;b&gt;PSR：&lt;/b&gt;PSR是一个完整的比赛周后评选【每周最佳阵容】的核心参考分数，它主要用于评估一名选手在所有同位置选手中的表现，PSR是“职业选手状态值”的缩写；&lt;/p&gt;&lt;p&gt;3、&lt;b&gt;胜率：&lt;/b&gt;选手在赛段内的胜率，作为【最强战力】考量中选手与团队合作取胜的体现，通过特定算法处理后纳入总分；&lt;/p&gt;&lt;p&gt;4、&lt;b&gt;MVP次数：&lt;/b&gt;MVP是一场比赛中最具有正面影响比赛能力的选手，MVP次数考量了一位选手“率领队伍获胜并取得关键性表现”的能力，通过特定算法处理后纳入总分；&lt;/p&gt;&lt;p&gt;了解了【最强战力】的详细定义，接下来我们分析上面所涉及到的四点在Rookie身上的体现。&lt;/p&gt;&lt;p&gt;首先从MVP次数和胜率上来看，Rookie在常规赛中获得 &lt;b&gt;15&lt;/b&gt; 次MVP，仅次于Doinb的 &lt;b&gt;16&lt;/b&gt; 次，他带领的IG在常规赛中拿下 &lt;b&gt;18-1&lt;/b&gt; 的佳绩，胜率达到 &lt;b&gt;75.5%&lt;/b&gt; ，在夏季赛常规赛出场数超过总场次40%的选手中最高（根据MVP评选规则低于40%的选手不计入评选中，TheShy有些可惜）。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-a4f428492ad446485a7f6f6968e310aa_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;3000&quot; data-rawheight=&quot;2000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;3000&quot; data-original=&quot;https://pic1.zhimg.com/v2-a4f428492ad446485a7f6f6968e310aa_r.jpg&quot;&gt;&lt;figcaption&gt;Rookie获得2018春季赛常规赛MVP&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;接下来再看PSR和DVP，也就是Rookie在具体数据上的表现:&lt;/p&gt;&lt;p&gt;截至目前，这三年间，Rookie累计完成了 &lt;b&gt;1645&lt;/b&gt; 次击杀，已经成为LPL历史击杀数第二多，仅次于Uzi的选手。而光在本赛季常规赛内，Rookie就完成 &lt;b&gt;227&lt;/b&gt; 次击杀，是全联盟唯一一个超过200次击杀的选手。&lt;/p&gt;&lt;p&gt;最细观察Rookie的单杀数据，会发现一个有趣的现象——去年他是对位单杀最多的中单，以 &lt;b&gt;46&lt;/b&gt; 次单杀荣膺2017年度单杀王；到了2018年春季赛常规赛结束的时候，Rookie却只打出 &lt;b&gt;7&lt;/b&gt; 个单杀。而本赛季，Rookie完成 &lt;b&gt;26&lt;/b&gt; 次单杀，但非常明显的是对位单杀的数量有所下降，更多的是从上单到辅助等各个位置。&lt;/p&gt;&lt;p&gt;从这些数据中不难看出Rookie的变化——也许是自身意识，也许是教练组的要求，也许三年LPL的生涯之后单人对线的优势已满足不了他的雄心，也许他只是更加想要赢下比赛。不过不可否认的是，现在的他已经改变了自己的一些游戏理解，并且在“新模式”下依旧表现优异。&lt;/p&gt;&lt;p&gt;今年夏季赛，Rookie尽在掌握。常规赛结束后，他完成 &lt;b&gt;60&lt;/b&gt; 次成功突袭，突袭价值为 &lt;b&gt;1.21&lt;/b&gt; ，在所有中单里位居头名。每一次在地图上的消失都会让对方其他路倍感压力，凶狠，高效。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-33416b2f8621db7b67a8c10390eba9af_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;3000&quot; data-rawheight=&quot;2000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;3000&quot; data-original=&quot;https://pic2.zhimg.com/v2-33416b2f8621db7b67a8c10390eba9af_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;另一点也别忘了，夏季赛LPL的竞争力可是不降反增——除了春季赛强队RW、EDG等，东部赛区JDG和SNG电商队也开始崭露头角，,相比于春季赛，IG的18-1来的更加不易。&lt;/p&gt;&lt;p&gt;纵观全局，IG夏季赛常规赛胜率从 &lt;b&gt;88.1%&lt;/b&gt; 降到 &lt;b&gt;75.5% &lt;/b&gt;，15分钟领先率从 &lt;b&gt;76.2%&lt;/b&gt; 降到 &lt;b&gt;63.3%&lt;/b&gt; ，在LPL排名第三位——当团队没有那么容易打开局面的时候，就需要有人能站出来，Rookie便常常是那个站出来的人。通过多次力挽狂澜的游走，在其他路崩盘之际挽回队伍节奏，我们看到了在IG对阵EDG时Rookie杰斯5级抓下拿下双杀止住颓势，也看到在对阵RNG时Rookie瑞兹5级游走以1敌3挽救团队，在队伍最需要他的时候，他站了出来。&lt;/p&gt;&lt;p&gt;根据过往的数据经验来看，单杀越多的选手往往被单杀次数也不少——毕竟一旦要全力进攻，防守就难以开展。那么来看看Rookie夏季赛的阵亡数据吧——本赛季场均阵亡只有 &lt;b&gt;2.0&lt;/b&gt; 次，不光是队内阵亡最少的，也是LPL场均阵亡最少中单的之一。最多的击杀，最少的阵亡，他能以 &lt;b&gt;5.5&lt;/b&gt; 的KDA在常规赛中单里排名第一也就不足为奇了。&lt;/p&gt;&lt;p&gt;活着就有输出，这句话一点不假。Rookie在团战里是IG的绝对输出核心，整个2018年IG的“三叉戟”都在大显神威，但Rookie的伤害占比依然高达 &lt;b&gt;28.7%&lt;/b&gt; ，分均伤害高达 &lt;b&gt;608&lt;/b&gt; ，在所有出场数超过40%的中单中也稳居第一。&lt;/p&gt;&lt;p&gt;不仅会打架，也能打架。除了伤害高，Rookie &lt;b&gt;72.2% &lt;/b&gt;的场均参战率也为LPL最高。&lt;/p&gt;&lt;p&gt;许多LPL的中单在采访时说过“认为Rookie是最强的对手”，但对于Rookie来说最强的对手也许只剩下他自己，他就在超越自己的路上一步步独行，从一位中单位上的王者转变为一个带领团队胜利的领袖。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-9b2ffa69a0fb4e3bb7b334366885ecaa_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;3000&quot; data-rawheight=&quot;2000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;3000&quot; data-original=&quot;https://pic3.zhimg.com/v2-9b2ffa69a0fb4e3bb7b334366885ecaa_r.jpg&quot;&gt;&lt;/figure&gt;&lt;hr&gt;&lt;h2&gt;&lt;b&gt;高手如云，何以称王？&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在计算综合得分后，Rookie拥有 &lt;b&gt;80.63&lt;/b&gt; 的数据得分及 &lt;b&gt;94.87&lt;/b&gt; 的投票得分，以高达 &lt;b&gt;175.5&lt;/b&gt; 的总分，超出第二名的Ming近20分——这是关于LPL首次常规赛MVP是如何蝉联的故事。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-a0c681ef37d1a0805db24fe0b85cb605_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;1589&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic4.zhimg.com/v2-a0c681ef37d1a0805db24fe0b85cb605_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;在所有参加评选的LPL选手中，中单选手共有六位，他们分别是Rookie、Doinb、Xiaohu、Scout、Yagao、Yuuki，他们中有LPL成名老将，也有本赛季初露锋芒的新秀，表现各有千秋。&lt;/p&gt;&lt;p&gt;在这六位各有特点的选手中，Rookie表现如何？又是怎样以超高数据拿到第一的？&lt;/p&gt;&lt;p&gt;从伤害端看，Rookie、Doinb、Xiaohu在队内均是主要的输出核心，但Rookie表现最好。相比之下，由于队伍风格不同，在IG这样的三核队伍想要打出同样的伤害占比就需要贡献出更多的输出，这点我们可以在分均伤害里看到——在Rookie的分均伤害高达 &lt;b&gt;606 &lt;/b&gt;，大幅领先其他选手的情况下，伤害占比却只有略微优势。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-e7ec0d5f186c2eebb9a8b9a24137762c_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;544&quot; data-rawheight=&quot;483&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;544&quot; data-original=&quot;https://pic4.zhimg.com/v2-e7ec0d5f186c2eebb9a8b9a24137762c_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;从对线上看，Rookie依旧保持了他在中路的统治力，不管是场均15分钟压刀数还是经济差均是LPL中单位上第一。新秀Yagao本赛季表现也十分亮眼，但在以上对线数据上与其他中单相比还是略有差距。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-6ab57902a297e252d7d244c68f53d38b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;470&quot; data-rawheight=&quot;454&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;470&quot; data-original=&quot;https://pic4.zhimg.com/v2-6ab57902a297e252d7d244c68f53d38b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;从单杀上看，Yuuki曾是单杀王的有力竞争者，本赛季拿下 &lt;b&gt;17 &lt;/b&gt;个单杀，在前半程的比赛中几乎每个BO3中都有单杀，曾一度领跑单杀榜。没想到Rookie半程发力，在初次使用新版阿卡丽的比赛中单场完成整整 &lt;b&gt;5&lt;/b&gt; 次单杀——更巧的是那场比赛他的对手就是Yuuki。此一役之后Rookie一路领跑，最终完成 &lt;b&gt;26&lt;/b&gt; 次单杀。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-f1c6f7a0b1e7d095828f7a0803cbfcb7_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;546&quot; data-rawheight=&quot;482&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;546&quot; data-original=&quot;https://pic2.zhimg.com/v2-f1c6f7a0b1e7d095828f7a0803cbfcb7_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;至于Scout，从数据上看该选手与Rookie在风格上有许多共同之处——均是队内领袖；同时在对线能力、游走突袭、参战率的数据表现都十分相似。但有些可惜的是，本赛季常规赛Scout及EDG队伍状态均有所起伏，在赛季中后期表现不如前期优秀。&lt;/p&gt;&lt;p&gt;总的来说，Rookie囊括了其他LPL优秀中单选手的突出优点，并将进攻做到极致。如果要用一个字来形容这个选手的话，那就是“凶”——无论是单线压制，游走突袭，亦或是团战里的爆炸输出，Rookie都能打出凶狠凌厉的个人风格，通过操作以及大局观为队伍掠夺一切可能的优势。并且，他的“凶”也影响到了整个队伍的风格，本赛季的IG无论顺逆均能打出精彩的进攻表现，血性十足，&lt;b&gt;0.90&lt;/b&gt; 的血腥程度（分均爆发人头数）十分惊人。&lt;/p&gt;&lt;hr&gt;&lt;h2&gt;&lt;b&gt;尾声：一个老韩援的新征程&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;输出之王？击杀之王？单杀之王？也许对夏季赛MVP Rookie来说，这个奖项的意义还有更多。&lt;/p&gt;&lt;p&gt;Rookie正式出道是在还被称为OGN的韩国赛区的S3冬季赛，他在KTA战队担任替补中单。&lt;/p&gt;&lt;p&gt;2014年，在那个几乎被三星蓝白支配的赛季，Rookie作为一名新秀开始冉冉升起。春季赛对阵世界冠军归来的SKT，初生牛犊不怕虎的Rookie就用乐芙兰单杀了Faker的死歌（实际上上单慎给了一个R，但可以理解为单杀），技惊四座。夏季赛，野王 KaKao带领KTA闯入季后赛决赛，与三星蓝大战五局最终夺冠，Rookie也拿到了职业生涯第一个冠军。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-4216b131dcad248c4e611d8bc47789c2_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;700&quot; data-rawheight=&quot;315&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;700&quot; data-original=&quot;https://pic3.zhimg.com/v2-4216b131dcad248c4e611d8bc47789c2_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;可惜在后来的冒泡赛中KTA零比三惨败给NJWS，无缘S4全球总决赛。冒泡赛的糟糕表现也让Rookie饱受质疑。赛季结束后，大批韩援来华，Rookie与同队上野Save和KaKao一起加入IG，开启了LPL生涯。&lt;/p&gt;&lt;p&gt;后来的事情我们也知道，拥有高昂身价的KaKao和Save发挥差强人意，IG不得不临时变阵，姿态换到上路，Rookie在中单位上开始崭露锋芒。常规赛打完，IG排名第五顺利进入季后赛。最终，IG在季后赛面对当时如日中天的EDG。结果可想而知，被对线单杀、被多人越塔，三场比赛Rookie毫无节奏，IG也被EDG以三比零淘汰出局。那个BO5的惨败，给Rookie上了深刻的一课。&lt;/p&gt;&lt;p&gt;S5之后，IG状态开始下滑，S6春季赛、夏季赛、S7春季赛均止步季后赛第一轮，各方不满和质疑也随之而来。虽然整体成绩一般，但Rookie的竞技水平仍然一直处于LPL第一梯队，也是广大IG粉丝仍然抱有希望的重要原因。&lt;/p&gt;&lt;p&gt;S7开始之后，随着TheShy的加入以及2018年Jackeyove的上场，IG迎来阵容的完全体。所有人都期望这支完全体IG能一飞冲天，他们也没有让粉丝失望，常规赛18-1的傲人战绩领跑全联盟。虽然季后赛半决赛遗憾的输给了RNG泪洒赛场，但Rookie还是在场均20分钟压刀、分均伤害等多项数据上排名前列，获得了常规赛MVP。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-6f0d683b7f80880589d58e9c816d69be_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;2958&quot; data-rawheight=&quot;1972&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2958&quot; data-original=&quot;https://pic2.zhimg.com/v2-6f0d683b7f80880589d58e9c816d69be_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;胜利后的褒奖往往更加甘甜，在拿到这个奖项之后，IG迎来与夏季赛黑马JDG的半决赛BO5对局。对曾经在春季赛半决赛倒下IG来说，这场BO5不容有失，当然，这也是JDG拿到S8门票、证明自己最直接的方式。&lt;/p&gt;&lt;p&gt;鏖战五局之后，IG终于做到了。他们击败顽强的JDG与RNG会师决赛，同时也拿到S8全球总决赛的门票，这一刻Rookie等了三年，也努力了三年。&lt;/p&gt;&lt;p&gt;爱笑、脾气好、中文好、喜欢唱歌、不爱吃皮蛋，这个特点鲜明的大男孩在最好的年纪带给我们他最好的自己，无关国籍，只为最爱的游戏。&lt;/p&gt;&lt;p&gt;而这个大男孩在获得常规赛MVP之后，也注定要经历更加艰难的战斗。属于一个韩援的新征程，正在缓缓拉开序幕。在恭喜之余，我们同样拭目以待。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-f2f311efc56ef906de1972cc49fd6e72_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;3000&quot; data-rawheight=&quot;2000&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;3000&quot; data-original=&quot;https://pic2.zhimg.com/v2-f2f311efc56ef906de1972cc49fd6e72_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/v2-f2f311efc56ef906de1972cc49fd6e72_200x112.jpg" data-rawwidth="3000" data-rawheight="2000" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/v2-f2f311efc56ef906de1972cc49fd6e72_r.jpg"><i>文：麦迪、小博</i> <i>编辑：丹尼二狗</i> <i>图：PentaQ、网络、一村、梁文迪</i>夏日的气息逐渐褪去，我们迎来了LPL一年一度群雄并起的时刻。LPL前列豪强们在赛季末尾争夺一个联赛冠军以及进入全球总决赛的宝贵名额。目前，RNG和IG已经锁定世界赛名额，剩下的最后一支队伍…
+</div>
+<p class="hidden-default"><a class="post-link entry-link" target="_blank"
+href="https://zhuanlan.zhihu.com/p/44376285">2018-09-12</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >文章</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/45128050" data-za-element-name="Title">在谈论流动儿童教育前，必须先消除这些误解</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >文章</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/44876006" data-za-element-name="Title">玩滑雪 | 从小白到大神之单板之路（2）</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >来滑雪吧</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/30771079" data-za-element-name="Title">如何选滑雪板----理工男兼滑雪专家给出最全攻略</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+<span class="zg-right zg-gray-normal feed-meta" >问答</span>
+<h2><a class="question_link" href="/question/22759920/answer/486938209" target="_blank" data-id="1284683" data-za-element-name="Title">
+热爱极限运动的人真的不怕死吗？
+</a></h2>
+</div>
+
+
+</div>
+</div>
+<div class="explore-tab" id="js-explore-tab">
+<a class="zg-anchor-hidden" name="daily-hot"></a>
+<a class="zg-anchor-hidden" name="monthly-hot"></a>
+<ul class="tab-navs clearfix">
+<li class="tab-nav"><a class="anchor" href="#daily-hot" data-za-c="explore" data-za-a="visit_explore_daily_trendings" data-za-l="explore_daily_trendings">今日最热</a></li>
+<li class="tab-nav"><a class="anchor" href="#monthly-hot" data-za-c="explore" data-za-a="visit_explore_monthly_trendings" data-za-l="explore_monthly_trendings">本月最热</a></li>
+</ul>
+<div class="tab-panel">
+<div data-type="daily" data-zop-feedlist>
+<div class="explore-feed feed-item" data-offset="1">
+<h2><a class="question_link" href="/question/271959252/answer/495431991" target="_blank" data-id="22710267" data-za-element-name="Title">
+如何评价贾樟柯电影《江湖儿女》（Ash is Purest White）？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="120147534"
+data-atoken="495431991"
+data-collapsed="0"
+data-created="1537458360"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/271959252/answer/495431991">
+<meta itemprop="answer-id" content="120147534">
+<meta itemprop="answer-url-token" content="495431991">
+<a class="zg-anchor-hidden" name="answer-120147534"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>3975</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">3975</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$jia-zhang-ke-45"
+target="_blank" href="/people/jia-zhang-ke-45"
+>贾樟柯</a><span class="icon icon-badge-identity icon-badge" data-tooltip="s$b$已认证的个人"></span></span><span class="badge-summary">电影导演</span>
+
+
+<span title="欢迎关注微信「柯首映」" class="bio">
+欢迎关注微信「柯首映」
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="3975">
+
+
+<span class="answer-tag">
+<span class="text">收录于 </span>
+
+
+<span class="text">编辑推荐</span>
+
+
+
+</span>
+
+
+<span class="zg-bull text">•</span><span class="voters text"><a href="#" class="more text"><span class="js-voteCount">3975</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="22710267" data-action="/answer/content" data-author-name="贾樟柯" data-entry-url="/question/271959252/answer/495431991">
+
+<textarea hidden class="content">&lt;p&gt;       上一次来知乎聊《山河故人》是三年前了，很高兴又跟大家在知乎上见面，前几天参加了盐沙龙·大家谈，也聊到了《江湖儿女》的一些创作背景。&lt;/p&gt;&lt;p&gt;       《山河故人》差不多发行快结束的时候，我就特别想拍一个关于江湖的电影。一个直接的原因是我有一个好朋友那时候中风了。他以前是个大哥，早年间，我见过他在江湖特别能打的场景，但是那一年他突然中风。我忙完《山河故人》去看他，他已经可以拄着拐杖走了，但是他穿的衣服比我们提早一个季节，比如说我们穿T恤、衬衫，他已经要穿毛背心了，一下跟我们拉开距离，物是人非，让我非常感慨。&lt;/p&gt;&lt;p&gt;       很早就想拍江湖，因为我是山西汾阳出生，县城里面长大的孩子，特别是70年代末，还有很多街头生活，大哥也非常多。完全是很简单的情感，一条街可以变成一帮人，一座县城可以变成一个江湖。既有青春时候荷尔蒙飞扬的记忆，更有若干年后，当我读书再回故乡，发现每个人最后命运的轨迹不一样，很多人是进入到生活的正轨，有的人当了公务员，有的人开始衰老。前一阵子我写了一篇文章讲那时候就想拍一个江湖片，江湖既是我浪漫的想象世界，更是我真实体验过的生活。&lt;/p&gt;&lt;p&gt;         对我来说，江湖一定有一个动荡的变化剧烈的时代，就像看的那些电影里面的年代，胡金铨《龙门客栈》、《侠女》等大部分放在动荡的背景里面，都是社会积聚转型，非常不平静，人的生活有非常多危机的背景，充满危机的生活环境，是江湖必要的元素。另外，这其中的人际关系，江湖那些有魅力的人，除了身强力壮特别能打之外，更主要的，他们非常会处理人际关系，非常懂得人情世故，有很多做人的智慧。&lt;/p&gt;&lt;p&gt;        在《江湖儿女》这个电影里面有一个关键词叫情义。我学过一阵形意拳，教我形意拳的师傅问我们：关羽对曹操和关羽对刘备都是如何？我们不知道怎么回答，也不知道什么意思。他说关羽对刘备是有情、有义，关羽对曹操是有义、无情。那时候我才知道这种情义是可以掰开的，这就是江湖的原则。这个义更多的可能是一种做人的底线，情没有，但作为人，还有要互相遵守的一些原则、承诺，一诺千金，所谓义薄云天。最终不一定都是爱情关系、朋友亲情关系，而是一种公义、正义，这些在我成长过程中影响都非常大。所以我觉得江湖首先是一种剧变、危机时候的社会，还有复杂的人际关系。&lt;/p&gt;&lt;p&gt;        其次是儿女，儿女就是有情、有义的这些人。我一直想拍这样的影片，而且我不想把它放在一个时间点，我想拍的是随着时间的推移，人怎么被改变，江湖道义、江湖情义怎么改变。&lt;/p&gt;&lt;p&gt;我拍完《山河故人》，那个突发事件让我决心坐下来，开始写这个电影。&lt;/p&gt;&lt;p&gt;       片名《江湖儿女》四个字，我是在2009年的时候最早听说的，那时候我拍纪录片《海上传奇》，这个纪录片是要在上海、香港、台湾采访很多老上海人，他们讲很多老上海的故事。我就找到《小城之春》的女主演韦伟女士，她的话题里面有一部分谈自己，一部分谈背后的导演。她说费穆导演晚年筹备的最后一部影片叫《江湖儿女》，我一听这个名字就特别有感觉，这一次写剧本就借用了他的这样一部片名，来写当代的故事。&lt;/p&gt;&lt;p&gt;        这个剧本开始写作之后，制片、投资方听说我在写《江湖儿女》，都以为是写古装片，后来知道我写当下的故事，都建议是不是起别的名字。我后来坚持用《江湖儿女》，因为我觉得江湖情义在当下社会会是什么样子，这是我用这个电影想探讨的，所以保留了《江湖儿女》的中文名字。英文名字有过变化，一开始叫《Money &amp;amp; Love》。当时为什么起这个名字？也跟故事有关。有时候我失眠会听广播，广播里面有很多情感节目，都在诉说，听来听去不是缺钱就是缺爱情。我就写一个金钱与爱情的故事，这17年一对男女也是缺钱且缺爱情。后来，我写到廖凡和赵涛的一场戏。因为大同有十几个火山组成的火山群，我写剧本的时候常去那里散步，我就把一个场景放在那个火山。赵涛有一句对白跟廖凡说：经过高温燃烧，火山灰是最干净的。我写完这句就想用“火山灰是最洁白的”，因为我觉得人这一生经过很多的情感、生活的历练，就好像高温燃烧一样，最后烟飞云散，挺悲哀，但同时也非常珍贵，因为人再有多少的毛病、缺点，最终还是非常珍贵，这样就改成了英文片名《Ash is Purest White》。&lt;/p&gt;&lt;p&gt;        剧本写的过程就开始琢磨谁来演，一开始我挺悲观，因为电影时间跨度非常大，从2001年到2018年。为什么有这么大的跨度？我觉得人到了这个年龄。过去我写剧本，不会把人物放在长时间里面考虑，因为没有时间经验，那时候生活才刚开始，很新鲜，谁会去想十几年间遇到的一些事情，也不会想时间对人的改变。到40多岁，经历了一些事情之后，就有点像装软件，最终是装上软件。软件是什么？就是时间感，是看人看事情，不看一时一地，而是看一个比较长的时间。这样的电影，演员怎么办？因为他们是从二十五六岁，演到四十多岁，这么长的时间跨度，难度很大。特别是故事起点，人的形象已经定型了，所以形象的塑造很难办的一件事情。&lt;/p&gt;&lt;p&gt;       当时就在想谁能演，后来我想赵涛可以，因为她在《山河故人》里面也演过时间跨度比较长的角色。但需要强调，整个剧本写的时候，我没有跟她沟通。大家老误解，觉得我写出片名来就找好了女主角，其实没有，每次我们写完都要郑重地讨论，确实她比较合适。我大部分写的角色都是北方女性，我自己是山西人，喜欢方言写作，特别不会用普通话写对白，不知道怎么表达感情，比如山西话有很多词，普通话里面是不用的，但山西话可以非常精确地表现那个人的状态，所以赵涛演我的角色也跟我用山西的语言写剧本有关，再加上她是一个非常好的演员，就觉得她还可以。&lt;/p&gt;&lt;p&gt;         那另外一个男的就想到廖凡，我是他的影迷。廖凡面临两个问题，一个是形象，怎么从二十多岁演到四十多岁，另外是怎么克服山西对白。后来我觉得，只要他是好演员，他就能解决方言这个问题。廖凡看了剧本很喜欢，他在造型上想了很多方法，我也没见过他留大胡子，他说到中年的时候就留胡子，然后说胡子还要有点灰白，年龄感还是挺大的，我觉得一下解决了很多问题。我们也请了很好的化妆师给廖凡和赵涛化妆，是法国专门化年轻妆的，确实技术非常好。方言的问题则找了山西省话剧院的老师，给他把对白录出来，他用三个月时间来学，等他进组跟我们拍剧的时候，我非常激动，我觉得他的山西话到了六级水平，比我的英文水平高很多。&lt;/p&gt;&lt;p&gt;        赵涛还面临一个问题，女性皮肤会是更敏感，怎么呈现二十多岁到四十多岁的皮肤？我们开玩笑说组成“《江湖儿女》皮肤工作组”，由赵涛、摄影师、化妆师、灯光指导组成的，他们在现场做很多沟通，用灯光、摄影的技巧来弥补化妆的不足。另一方面，她在表演的时候找声音的位置，找得很好，做了三个声音位置区别。年轻的时候，声音位置有点干脆，有点尖，逐渐把声音放下来，一直演中年的时候就是比较厚、比较宽的声音。这都仰仗演员高超的技术。演员要爱这个角色，也要有这个技术。技术是很重要的，如果没有演不同年龄段的经验和技术，很难想象这个电影怎么完成。&lt;/p&gt;&lt;p&gt;         另外是时代的再现，怎么重现17年前的街道、车站、麻将室、disco厅等等。我拍戏特别喜欢拍公共空间，人物的剧情发展都会放在公共空间，剧情的发展也会放在公共空间里。17年过去了，社会环境的变化非常大，猛一看跟今天非常像，但那个模糊感拿不准。这时候，美术的压力就非常大，我们用考证的方法来呈现，这里面最难的实际上是人。有一场戏是在一个茶楼，那上面在那个年代一会儿唱京剧、一会儿变魔术，各种年龄层的人都有，属于一种演出模式。我们在拍这些场景的时候，准备拍2001年，副导演说明天需要300个演员，带回来，有一半不能用，十几年前的脸跟现在的脸不一样，国人长得真的变了，皮肤、骨骼跟17年前是完全不一样，你仔细看，我也不知道怎么会变，我觉得是不是汉堡包吃多了，一看就是长期出入麦当劳、肯德基的面孔。我们在剧组就说，明天过滤一下，不要有汉堡包脸进来，每一个人都要挑适合那个年代的。&lt;/p&gt;&lt;p&gt;       我正好从2001年开始有了第一台DV摄影机，那时候还叫掌中宝，但是还没有到高级，只是家用的，我用那个拍了很多记录素材。这个工作习惯一直到后来才减少了，从来没有整理过，也没有剪辑过，我就跟美术指导一起看过去拍的记录。记录里面就有那个年代的公共汽车是什么样的，通讯器材是什么样的。我记得美术指导跟我讨论一个问题，我们俩就在那儿傻掉了。他问我，贾导2001年，你记得染不染头发？我一下愣住了，我觉得好像是染，他说不染。他说不染，我觉得好像是，太早，没有染。我一说染，美术指导糊涂了，说可能是染。我说看素材，翻来一看，那时候已经开始染发了。&lt;/p&gt;&lt;p&gt;       看这些素材过程中让我特别兴奋，突然发现这十几年我一直用不同的摄影机拍不同的素材，有家用的掌中宝，有后面的HD DV，有16毫米，有35毫米，有一款数码摄影机，他原理是每秒拍24张照片的摄影机，一直到现在的6K、8K高像素的摄影机都有。回看这十几年中的影像，确实这十几年电影处在一个活跃期，特别是数码技术崛起之后，电影技术进入到数码时代之后变化是非常快的，有很多影像现在拍不出来了，我们最早用掌中宝的DV，那时候拍方形的，现在已经都可变了，那时候只能拍4:3。像素也有低的，但有一种美感。2001年拍的，今天的目光看虚的，但就那种时代感，那种数码记录人的社会形态，特别有意思。我跟摄影指导说，我们可不可以用多种摄影机来这个电影影像的拍摄？摄影指导是我第一次合作，是法国的一个摄影师，他拍过很多著名的电影，他看了我的素材之后非常喜欢，他对技术要求非常严格，但是他看后非常喜欢，之后他就跟我说，有两种拍法，一种拍法是让影像有强烈的对比，一种是缓慢的过渡，我说我喜欢缓慢的过渡。因为这17年处在一个剧变里面，我们身处其中是不自知的，不自觉的，突然回头看，发现绿皮火车换高铁了，摩托罗拉换苹果手机了。&lt;/p&gt;&lt;p&gt;        人在其中，每一个变化到来的时候并不知道会给人带来什么，我一直记得我上高中的时候学英语，主要是教大家计算机的词汇，讲互联网可以做什么，完全是当科幻片来看，但这几年全实现了，我觉得我见证了科幻小说实现的那一天。我想做出这种不自知。我们就从最低象素的摄影机用起，做那种渐变，做了大概三个多月，在不同地区，不同光线下。所以《江湖儿女》这个影片引用六种摄影机呈现17年的变化，于是现场就很搞笑。我们在大同拍的时候，三百多人的摄制组，浩浩荡荡，一堆人围着一台摄影机，旁边围观的都觉得我们是骗子。&lt;/p&gt;&lt;p&gt;        还有音乐，有一些场景比如用了disco，因为那时候年轻人就没啥地方去，打台球、disco，没事干才会打架。可去的地方太少了，disco里面用了《YMCA》这首歌，卡拉OK用了《浅醉一生》，是《喋血双雄》的主题音乐。除此之外，还有电子乐，我觉得林强的电子乐抽象感跟电影背后时间流逝很贴切，就做了这样的贴合。&lt;/p&gt;&lt;p&gt;        整个电影最新鲜的还是拍江湖。其实我过去很多电影也是有江湖味，有江湖感的，比如说《站台》是一个文工团流浪演出，10年里面走乡串户演出，也算江湖生涯，但直接拍这种江湖人士，拍大哥的故事还是第一次。第一次，我就想一定要拍出生活环境中的江湖，不是香港电影里面的江湖，也不是意大利电影中的江湖，他就是江湖儿女。在不自知中，大家已经是江湖中人，那些处理人的关系、方法也都是中国式的。我觉得这是最难的。&lt;/p&gt;&lt;p&gt;说到底写江湖就是写人情，写江湖就是写人和人的关系。    &lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+上一次来知乎聊《山河故人》是三年前了，很高兴又跟大家在知乎上见面，前几天参加了盐沙龙·大家谈，也聊到了《江湖儿女》的一些创作背景。 《山河故人》差不多发行快结束的时候，我就特别想拍一个关于江湖的电影。一个直接的原因是我有一个好朋友那时候中…
+
+<a href="/question/271959252/answer/495431991" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/271959252/answer/495431991">发布于 2018-09-20</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-22710267"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>509 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="2">
+<h2><a class="question_link" href="/question/35604710/answer/495344848" target="_blank" data-id="6448533" data-za-element-name="Title">
+患抑郁症是种怎样的体验？到底能让人多痛苦？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="120131596"
+data-atoken="495344848"
+data-collapsed="0"
+data-created="1537448577"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/35604710/answer/495344848">
+<meta itemprop="answer-id" content="120131596">
+<meta itemprop="answer-url-token" content="495344848">
+<a class="zg-anchor-hidden" name="answer-120131596"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>208</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">208</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$symphonicpoems"
+target="_blank" href="/people/symphonicpoems"
+>Symphonic Poems</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="208">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">208</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="6448533" data-action="/answer/content" data-author-name="Symphonic Poems" data-entry-url="/question/35604710/answer/495344848">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;对于有些人来说，一觉醒来之后还有明天，并不是一件令人开心的事情。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我八年级（也就是初二）第一次寻求学校心理咨询室的帮助，从2014年起开始接受专业心理治疗；比较讽刺的是，可能是因为症状开始得太早又持续得太久，我一直到前段时间症状大有减轻，才伴随着某个机会顿悟，之前向心理医生的叙述是多么地不准确，并且在这么多年后得到确诊。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;临床心理学很重要的一个诊断指标是dehabilitating，大概英文的意思是“阻止当事人进行正常的生活”。这在美国大学心理系是个常考知识点，也是“抑郁情绪”和“抑郁症”（DSM-5的Major Depressive Disorder）的分水岭。这也是为什么在一些不发达部落大家把妇女能否正常地照顾自己小孩作为当事妇女有没有生病的鉴别方式。举个例子，比如小罗说“我觉得很丧，我躺在床上不想起床去上课。最后拖到了最后一分钟，想想，诶，这门课还是有出勤分的，自我鼓励了半天，我最后还是去上课了；差一分钟迟到，好险。” 如果只听这个表述，医生大概率是不会认为当事人有抑郁症的。而相比之下，如果小红说，“虽然我的确知道这门课的出勤分对我来说很重要，虽然我觉得逃课甚至是迟到都是不好的，既不是好的工作原则，也是对家长钱财的浪费........但我还是完全起不来床。” 医生会对这个比较担忧。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我也未能幸免。许多本来很轻松的日常活动，比如洗脸、刷牙、洗澡、收拾房间，对我来说都极其艰难。我症状严重的时候连吃饭都不想。在已经很小的校园里，走路都是巨大的折磨。我11年级的时候经常在从一个教室去另外一个教室的路上感到完全不想动了，只能让一起去上课的朋友跟我一起在走廊边坐一会。我症状严重的时候经常在睡前想，“啊，假如我闭眼之后去世的话，明天早上太阳升起之后，我就不用再努力地劝说自己吃东西了。” 最严重的一段时间，我一方面认知上知道自己不能不吃东西，另一方面又强烈地感受着身体食欲的衰败，在连续的两天间我无法让自己对任何事物产生食欲，最后强迫自己吃了一小块黑巧克力，差点吐出来；感觉不那么想吐之后又强迫自己吃了半小盒酸奶，感觉特别难受。大概有连续两年，我对劝自己吃东西的责任下降了很多，我当时以为“我已经是大人了，少吃一点也无所谓”，但后来我发现自己常常胃痛，似乎是把自己饿出了胃病；就在那之后恢复了对劝自己吃东西的说服。不过现在我的问题已经不是没有食欲了，而是暴饮暴食倾向。不过这点我现在控制得也比较好了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;除了日常生活变得困难，许多在遥远的过去我本来很享受的事情，变得很难让我感到愉快，更不用提从中获得充实、快乐、和进步了。我最近一两年状态好了不少，假期回国找滑冰教练上课，她还能津津有味地说起我最严重的时候上课时滑着滑着不知怎的就哭了T^T的事情（“我还特别自责地想，难道我说她说过分了？可是我也没说她啊...”） ；我大一的时候还在上钢琴课，那个时候我主观感觉练琴没有那么地痛苦了，但是那种严苛反复的自我批评还是让我很难坚持下来。但之前我是一个能愉快地在家一天练琴五六个小时，多的时候十一个小时，小小的时候就对爸爸妈妈说，“为了弹钢琴我什么都愿意~!”的人呀。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;作为哲学系的同学，我反而觉得上哲学课是很有益于身心健康的事情。至少对我来说比较享受的英文世界分析哲学研究形而上学问题的做哲学的方式是这样的。Sound argument= valid logic form + true premises 这样的思考方式在生活的自我分析上很有帮助。虽然看似稳固又安全，但这种方法论能给你的保护其实也是有限的：因为实际上要在生活中要分析的事情并不是“语言是不是好的分析工具”这种相对而言比较客观的问题，而是在一层又一层情绪的雾霭里理解世界理解自己——这是有很大主观成分的，比如“小花枯萎了到底是不是我的错”。也因此，有的时候不仅仅需要理性，也需要情商上的成熟和对人生经历的理性反思来确保自己的平衡心境。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我自杀冲动强的时候，是意识不到这是自杀冲动的。我常常在感觉太过痛苦的时候在脑海里细致地计划着如何自杀。我第一次产生自杀冲动的时候还年龄很小，也只有第一次的时候有一种直觉上的荒诞感；但现在回想起来，从那以后每产生一次自杀冲动，我的警觉感就下降一次；到后来基本上没什么危机的意识了。我最近一段时间在亲朋好友的鼓励（读作“溺爱”）下进步很大，能及时自己发现了。有时我实在不想麻烦别人照顾我，又为一不小心大家可能会感受到的震惊和压力感到潜在的愧疚，就自己在手机上开浏览器的无痕迹浏览，搜关于其他自杀者的报道。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;不得不说，中文世界的大多数言论还是很刻薄的..... 我读着这些言论，想着假如我自杀成功了，别人会怎样负面地诋毁我，粗暴地否认我，就可以比较容易地督促自己意识到去死并不比活着更好。虽然道理我都懂，但不可否认的是，能从外界视角审阅自己，甚至包括仅仅因为采用了外界视角所以可以对自己尽情谴责不用被自己对自己的怜悯纠缠——这个感觉，实话实说，是悲哀地很令人放松的。比如我尽量生动地在日记里模仿过，假如我自杀成功了，当网民抱着键盘来我微博参观历史遗迹时，会用怎么样的语气对我说什么样话。坦白来说这种简单强烈的鄙夷，相比于挣扎于自我怜悯与自我反思之间，这种病态的轻松对于深陷于痛苦的人来说是令人迷恋的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但我逐渐地在对此变得警觉，因为这种喘息很容易诱惑人去实施行动。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;意识到这种危险这也是心理医生给我的很大帮助之一。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;虽然比较好的美国大学都有配备心理医生，但似乎一个很小范围内的共识是，学校的心理医生都没有权威医院的心理医生好。我认识两个就读于毫无争议的世界名校的本科生，都被他们的学校误诊过。一个比较令人心碎的事实是，我们觉得比较有效的心理医生，无一例外都是收费在300$-400$一个小时的。在接受心理治疗的过程中，总有一个阶段能意识到，我居然定期花着这么多的钱仅仅进行着“话疗：这是一种很愧疚也很无奈的心态——假如我没这么多问题，这些钱拿去给我妈妈买点包也好啊。而在我获得诊断之前，我也活在一种荒谬的苍白之中——我花了这么多钱、精力、时间，而彼时的我居然都不知道到底为什么我在本应无忧无虑的条件下能把日子过得这么痛苦。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我之前一直以为人本来就是应该走每一步都很累的，人本来就应该是时时刻刻感觉胸腔钝痛的，再加上我的确有迷走神经晕厥这个病，所以医生一直都没法排除医疗原因导致的身体症状。我是直到有天我在微博上刷到一条消息，“之前我有抑郁症的时候，刷两个盘子都觉得很累”。我当时感到很震惊——我试着自己做饭快一年了，而我一直以为我刷一个盘子就已经很累很累是因为我做家务不熟练导致的。真的是不禁感到讽刺又好笑——很多时候我以为的“冷静又自然” “放松又平和”的感觉，原来其实并不是冷静，也并不平和。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;对于青少年来说，高中、大学这段最瑰丽最有趣最无忧无虑的生活，我很大部分的每日精力和时间都花在一点点地练习和鼓励自己好好活下去。这种体验、尝试、反思，其实没什么诗意和浪漫的成分，也是极其令人疲惫的。不仅如此，这种事情你还要认真做，丝毫不能懈怠，不然本来进展缓慢的人生，就会变成原地打转，甚至逆流而下。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我经常责怪自己，觉得浪费了许多条件和资源，包括我自己更小时候的努力。平心而论我几乎想不出什么进入青春期之后我具体的进步，因为我很难记得学过的知识，也常常在感到精力欠奉的时候一项一项地辞去选上了的学生活动领导职位，退出之前的活动。举个例子，中学历史课的时候我学过苏俄近代史和中国近代史，而且当时对于考试和作业来说对弘大时间线和多角度史料的要求都是很高的，我当时想了很多方式让自己尽量记得久一点。对于考试成绩来说，我的方法似乎也是有效果的。但我现在说起许多本来应该至少有个模糊的印象的历史片段时，心里就是浑浊的茫然。其他我一开始变得症状比较严重的时候还不习惯这种退化，经常对着以前写的文章和曲子听着以前弹琴的录音，在心里责备自己挥霍光阴浪费生命。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我有段时间经常用吃东西来鼓励自己。美国大学的食堂也每天都能吃到许多的冰淇淋、喝很多可乐，还经常有炸薯条。那个时候好像除了晚饭的时候喝可乐吃冰淇淋，我想不到什么让我能把这一天过完的期待。我上大学前九十斤，现在一百二十多斤。&lt;/p&gt;&lt;p&gt;再后来我觉得吃东西不健康，就鼓励自己热爱生活，很努力地去体察一些生活里值得我感谢的美好的小事，并且勤奋记录——其实比较糟糕的是，这些事情的美好是独立于我感受到的难过的。而且仔细检视，这其中更多的还是我自己身处的环境带给我的友善体验，把我扔到大街上去的话我完全没法获得这种视角，所以很快我就能意识到这种所谓的“岁月静好”式的反思是建立在许多事情之上的，也是没什么实质上的安慰效果的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;知道我有抑郁症的人不算医生们半只手就数得过来，我从来不在别人面前袒露抑郁的症状——虽然我在得到确诊之前一直以为这是正常的保持礼貌。我不喜欢和别人提到抑郁也不太喜欢描述感受- 我并不把这归结为人类的恶，或者对别人的不信任。只是人类对自己经历之外的事情本来就是缺乏想象力的。不仅痛苦的是，快乐的也是。我也并不渴望同情。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;很多人指责抑郁症的人不够坚强，不够努力，过分在乎情绪世界，而我应该就是一个在硬抗的状态能熟练忽视自己的心情而一次次在生活里撞击着抑郁给人带来的客观能力边界，并且渐渐习惯了这种疼痛的人—— &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我之前上日文课，每天醒着的时间除了做其他课的作业都在背单词- 但是不知怎的我就是背不下来单词，而且不是背得不熟练或是不准确，而是一个单词都背不下来。除了偶尔一两天，偶发性的，奇迹般的，单词背得又快又好又准确。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;大一的时候我第一次在课上想哭的时候还在心里感到非常惊慌，找了个借口偷偷出门哭。我现在已经能很自如直接放弃与流泪冲动的斗争而直接放任自己静悄悄地流眼泪了，我意识到这样还能多点精力好好听课努力思考，眼泪是透明的，教室里的别人不会注意到的。我很严重的时候经常边流泪边做作业，可能是指责“抑郁症的人都不努力”的一个清晰的反面例子。做不出作业就多做一会儿，心情不好就忽视它，反正不可能心情短期内好起来，那还不如抓住每分每秒多做作业。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;抑郁会伴随发作的一个病症还有焦虑，之前学symbolic logic 的时候每次考试我都正确率在95%以上，但期末考试的时候在考场上就进入了“不知道为什么但我一道题也不会做”的状态。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;有种比较清晰的感觉是思维的保险丝似乎非常容易熔断，在进行一些比较密集的思考，哪怕是理性思考时，会忽然似乎没法前进。我对这个的对应就是慢慢想别着急实在不行写下来。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;不仅要推石头，还在每天推石头的过程里都意识到自己的四肢无力像吸满了水海绵一样，既无力又沉重。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我一边在每日生活里观察着自己能做些什么来更好地服务于自己，另一边不可避免地会每天都检查到自己今天的退步，比如我中学的时候读一页难度相同的历史或者文学差不多是一分钟或者一分半，现在可能需要十分钟，还必须得边读边记笔记；这种差距是很令人感到窒息的。更不用说做之前症状没这么严重时做过的题，当时只觉得“除了这一部分有点难其他都好分数也还行”，到现在“一道也做不出”这种挫折感。但我觉得我的一个无奈的进步是，虽然如此，但还是要努力地保持一个冷静的心态，好保证自己从基本层面的正常运转。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;虽然当你有意无意地意识到一些曾经被你珍惜的属性，比如“领导能力很强” “弹钢琴好” “学习轻松很聪明” “创造力强感知力细腻” “效率超高”逐渐在消磨中变得模糊，你是会不可避免地感到失落的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但是这些失落比不上一种更深沉的沮丧，这种带着这样的状态在岁月之中生活，心中“自己”的样子逐渐模糊的过程： 因为很多时候本来简明的“快乐” “无聊” “喜欢这门课” “这个知识点有意思”的感觉都变得不清晰了，需要从其他侧面去观察自己对事物的态度。只能在直接感受变得不清晰的时候去通过其他方式来确认自己的一些属性的时候，感觉上有种茫然的困惑。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;而我比较确定的一点是我对谈恋爱的愧疚： 我是在谈恋爱之后状态大幅度变好的，又是在状态变好了不少后之后意识到之前的叙述不准确重新找医生才被确诊的- 但（试图）追对方和跟对方告白之前我毫不知情自己的抑郁，以为很多我的感受本来就是生活的常态；可能//也看不太出来。我爱着的对方是个像天使一样的人，我常常觉得抱歉。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我自己抑郁的原因很清晰，我自己的抑郁症完全是心因的，所以一直没有吃药；我自己的情况也不太适合gap year。这种挣扎，我依然进行着。只不过对于我而言很幸运的是，在被确诊之前我已经很习惯与这个东西挣扎了，所以确认好像对于我意义就是提高警觉心认认真真地克服心魔，不要自我折磨了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;之所以写这个回答是因为有个熟人得了抑郁症。她妈妈私下跟我聊天的时候说，”你知道么，我真的好想好想知道她的感受啊，我想知道她吃了冰淇淋是否还会开心，想知道她打游戏是不是能轻松起来，想知道她躺在床上不说话是身体不舒服还是心里想哭，想知道她在阳光下是觉得风景美好还是压力很大。这样哪怕我不能立刻减轻她的痛苦，我也可以知道我的孩子在经受怎样的难关，进而尽可能地去做点什么，什么也好，让她开心起来。”&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;她妈妈说这话的样子令我动容，所以我挣扎着拼凑起勇气时间和精力写了这个回答。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;结尾放上我以前觉得前路永夜的时候鼓励自己用的想法： 如果现在挣扎，如果感到心碎，那希望有朝一日我能这样：能在反复扣问的痛苦中获得凛然，能在不断前进的残酷中看到诗意。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<b>对于有些人来说，一觉醒来之后还有明天，并不是一件令人开心的事情。</b> 我八年级（也就是初二）第一次寻求学校心理咨询室的帮助，从2014年起开始接受专业心理治疗；比较讽刺的是，可能是因为症状开始得太早又持续得太久，我一直到前段时间症状大有减轻，才伴…
+
+<a href="/question/35604710/answer/495344848" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-20" target="_blank" href="/question/35604710/answer/495344848">编辑于 昨天 05:59</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-6448533"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>47 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="3">
+<h2><a class="question_link" href="/question/295386983/answer/495405233" target="_blank" data-id="27918449" data-za-element-name="Title">
+如何看待菲尔兹和阿贝尔奖双料得主 Michael Atiyah 宣称自己证明了黎曼猜想?
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="120142692"
+data-atoken="495405233"
+data-collapsed="0"
+data-created="1537455474"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/295386983/answer/495405233">
+<meta itemprop="answer-id" content="120142692">
+<meta itemprop="answer-url-token" content="495405233">
+<a class="zg-anchor-hidden" name="answer-120142692"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1304</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1304</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$sun-ao-74"
+target="_blank" href="/people/sun-ao-74"
+>Sun Ao</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/sun-ao-74#hilightbadge" target="_blank">数学话题优秀回答者</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1304">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1304</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27918449" data-action="/answer/content" data-author-name="Sun Ao" data-entry-url="/question/295386983/answer/495405233">
+
+<textarea hidden class="content">&lt;p&gt;谢邀。既然问题是如何看待Atiyah宣称自己证明了黎曼猜想，那么看待的角度可以是多元化的。对于这个猜想证明本身，我想等到24号Atiyah做了报告以后学界自然会有评价。&lt;/p&gt;&lt;p&gt;我想从另一个角度看这个问题。包括上次在arxiv上Atiyah贴出自己证明S^6上没有复结构的文章，很多人都质疑为什么Atiyah为什么不拿出来给其他人先看一看。但实际上，从那篇文章的致谢就能看出来，Atiyah应该是拿给一些人看过的，可惜这些人或许都不能给他足够好的建议。我们看看那篇preprint里感谢了什么人：&lt;/p&gt;&lt;p&gt;-首先是几何学四个火枪手“gang of 4”的另外三个人：Bott、Hirzebruch、Singer。前两位早就去世了，第三位比Atiyah都还大5岁，对这项工作应该都是没有实际关联的；&lt;/p&gt;&lt;p&gt;-然后是Jim Simons。Simons当然是很伟大的数学家，现在也回归到了数学，但他估计是没法给出很中肯的建议的。何况他当时也已经78了；&lt;/p&gt;&lt;p&gt;-Sullivan和Lebrun，两人当时一个75一个59，相对上面的人还算年轻，也都在学术界活跃。但从致谢里的词就能看出来，两人对这个证明并不看好；&lt;/p&gt;&lt;p&gt;-Hitchin和Berndt，当时前者70，后者查不到年龄，从毕业年份来看至少也快60了。看致谢，估计两人也是提了不少建议，并不认可这个证明；&lt;/p&gt;&lt;p&gt;-Robert Bryant，当时已经63岁。值得注意的是之前陈省身关于S^6上复结构的进展工作，就是由他写下来的。Blaine Lawson，当时74岁。从Atiyah的致谢里可以看出来，这两人很可能是不相信这个证明的，因为他们一直在push Atiyah把证明写清楚；&lt;/p&gt;&lt;p&gt;-Andrew Ranicki，当时67岁了，而且是作为Atiyah文章的抄写员，数学上可能并没有给Atiyah建议。&lt;/p&gt;&lt;p&gt;看看这个list，无论这里面的人是赞同还是反对，我们都能看到一个现象。能和Atiyah谈数学的人年纪都太大了。Lebrun在这个list里面算年轻的，当时也将近60了。&lt;/p&gt;&lt;p&gt;从math genealogy可以看到，Atiyah在93年以后就再没有带过学生了。虽然Atiyah培养出了许多优秀的数学家，比如Hitchin、Donaldson、Lusztig、Kronheimer，但他们大多成名已久，有自己独立工作的领域，又分散在世界各地，未必有机会和Atiyah讨论数学。&lt;/p&gt;&lt;p&gt;上了年纪的人，本身思维能力就必然下降，更何况是数学这种对严格性有要求的学科。很多问题大的想法有了，还有许多细枝末节需要处理。这些细枝末节又有可能产生新的本质性的问题。上了年纪的数学家，往往会采取和年轻数学家合作的方式研究数学。年轻人精力旺盛，对于年纪大的数学家是很好的补充。即使是Siu、Taubes这种大家公认的独行侠（60+的年纪独立完成百页的大文章），他们在年纪大了以后也会有许多工作是和其他人共同完成。&lt;/p&gt;&lt;p&gt;即使不是和年轻人共同工作，有年轻人一同讨论也是很有益的。比如Schoen-Yau之前贴出了他们关于正质量猜想的高维解法的文章，非常艰深；而我了解有不少年轻人（例如Scheon的学生Chao Li）在follow up这项工作，而Schoen-Yau也根据年轻人的反馈来修改自己的文章。不管这篇文章最后能不能解决高维正质量猜想这个问题，这个模式其实是对这个领域有好处的。&lt;/p&gt;&lt;p&gt;数学看起来是很个人英雄主义的学科，大家都被Wiles对费马大定理的证明和Perelman对庞加莱猜想的证明感动。但大家也不要忘记了Wiles的学生和同事们是如何帮助Wiles度过最困难的时光的，也不要忘记Perelman把文章挂到Arxiv后那些帮助他补充证明的数学家们。&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+谢邀。既然问题是如何看待Atiyah宣称自己证明了黎曼猜想，那么看待的角度可以是多元化的。对于这个猜想证明本身，我想等到24号Atiyah做了报告以后学界自然会有评价。我想从另一个角度看这个问题。包括上次在arxiv上Atiyah贴出自己证明S^6上没有复结构的文章…
+
+<a href="/question/295386983/answer/495405233" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/295386983/answer/495405233">发布于 2018-09-20</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27918449"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>添加评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="4">
+<h2><a class="question_link" href="/question/60987107/answer/495289309" target="_blank" data-id="16618830" data-za-element-name="Title">
+你见过的最残忍的照片是什么？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="120121457"
+data-atoken="495289309"
+data-collapsed="0"
+data-created="1537441904"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/60987107/answer/495289309">
+<meta itemprop="answer-id" content="120121457">
+<meta itemprop="answer-url-token" content="495289309">
+<a class="zg-anchor-hidden" name="answer-120121457"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>2109</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">2109</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$jian-feng-50-54"
+target="_blank" href="/people/jian-feng-50-54"
+>马永新</a></span><span title="不喜闲聊，请勿打搅" class="bio">
+不喜闲聊，请勿打搅
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="2109">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">2109</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="16618830" data-action="/answer/content" data-author-name="马永新" data-entry-url="/question/60987107/answer/495289309">
+
+<textarea hidden class="content">&lt;p&gt;动物摆拍，一些几乎把动物折腾到死来摆拍的黑镜头，胶水，钉子，绳子来固定动物的各种动作，无所不用其极。照片看似有趣，实则惨不忍睹。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-a706a0dd336d8e7a3bdba8e75fad0e91_b.jpg&quot; data-rawwidth=&quot;1005&quot; data-rawheight=&quot;1143&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-034ebe601a4357d5fb24f63c6052ecef_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1005&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-a706a0dd336d8e7a3bdba8e75fad0e91_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;腿上的大块渗血显示它被外力扭伤过&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-1c683417a624eb962e406954e3f3668b_b.jpg&quot; data-rawwidth=&quot;582&quot; data-rawheight=&quot;297&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-676c62ca4bffaba2125cc172adec0ca8_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;582&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-1c683417a624eb962e406954e3f3668b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-2c39e8ea2b718c4f7a554f6b8b09afa4_b.jpg&quot; data-rawwidth=&quot;978&quot; data-rawheight=&quot;725&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-bd65b3ca56cdbb5274c09101864a7652_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;978&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-2c39e8ea2b718c4f7a554f6b8b09afa4_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;两个都伤得惨不忍睹。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-f231fcea118707bc9e01ff7a3b9235ee_b.jpg&quot; data-rawwidth=&quot;260&quot; data-rawheight=&quot;156&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-adb2707e83e8f468c97dd1ef21fe2b27_b.jpg&quot; class=&quot;content_image&quot; width=&quot;260&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-e3b90c683d6e834b4afedf8732958ee2_b.jpg&quot; data-rawwidth=&quot;220&quot; data-rawheight=&quot;325&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-b305378e03233c3c07a39bb91cbd10a0_b.jpg&quot; class=&quot;content_image&quot; width=&quot;220&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-988086de60718ae360e562d17b784797_b.jpg&quot; data-rawwidth=&quot;1067&quot; data-rawheight=&quot;667&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-f5b610f0f3ba7a8eed602fc1866172ea_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1067&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-988086de60718ae360e562d17b784797_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;半个身子都在慎血……&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-56877698cefd80f4c5629191a8310d79_b.jpg&quot; data-rawwidth=&quot;222&quot; data-rawheight=&quot;237&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-b7a063d6ec3b7a4559e01f2158185009_b.jpg&quot; class=&quot;content_image&quot; width=&quot;222&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;林蛙被贴在树上动不了，然后在它身上贴各种动物。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-84a9f2446a007eeeef71553acc289a59_b.jpg&quot; data-rawwidth=&quot;489&quot; data-rawheight=&quot;1361&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-d44274c2e593307c2663c9075bb2c372_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;489&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-84a9f2446a007eeeef71553acc289a59_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;名叫Shikhei的印尼摄影师发布的青蛙竖中指照片，专家指出，树蛙不可能主动竖中指，它的肌肉不允许它这样做。摄影师“是用线来迫使动物摆成各种姿势，后期再ps掉。因为这类照片的动物抬起的肢体总会排在一条直线上。”&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-6a454e61a8b9a0e3a85fefcdfda349ce_b.jpg&quot; data-rawwidth=&quot;1073&quot; data-rawheight=&quot;1233&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-38dcebd47832af23093a05636ef4cf95_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1073&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-6a454e61a8b9a0e3a85fefcdfda349ce_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-80324eee8eaa9a2ebe52f650740ea1e4_b.jpg&quot; data-rawwidth=&quot;944&quot; data-rawheight=&quot;652&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-c03c0e2b0b705139f05f4a4ef2e8fc8c_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;944&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-80324eee8eaa9a2ebe52f650740ea1e4_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-66bb02bc45104db90aeeae1f2d2b2b56_b.jpg&quot; data-rawwidth=&quot;939&quot; data-rawheight=&quot;1088&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-b6c92b8076459e0d5dbfd12b03e00f21_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;939&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-66bb02bc45104db90aeeae1f2d2b2b56_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-94e733c6bd7207b9e940eeff2336c952_b.jpg&quot; data-rawwidth=&quot;936&quot; data-rawheight=&quot;544&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-a544ac79e79f89784fe1cf98d8851b7e_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;936&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-94e733c6bd7207b9e940eeff2336c952_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-bcf37f293994432e4251b39222ddf73e_b.jpg&quot; data-rawwidth=&quot;899&quot; data-rawheight=&quot;1172&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-ba481b5aa1d7d474387dab83c3c0321b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;899&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-bcf37f293994432e4251b39222ddf73e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;用线固定各种姿态，后面再p掉&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-0baff348878cd3ffdd29e5188b5f3af2_b.jpg&quot; data-rawwidth=&quot;940&quot; data-rawheight=&quot;636&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-83131591a16acdeaa97222a982b9e07e_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;940&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-0baff348878cd3ffdd29e5188b5f3af2_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-133ea2f0d4fbfd536bc17c86d582177d_b.jpg&quot; data-rawwidth=&quot;853&quot; data-rawheight=&quot;529&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-69f409b90eebfb57e79151b67677c251_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;853&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-133ea2f0d4fbfd536bc17c86d582177d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-640f3236ee04da6bc1b4672a5e057a1f_b.jpg&quot; data-rawwidth=&quot;872&quot; data-rawheight=&quot;506&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-639824ed69b9c5517c0ede8e8cb7bfa7_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;872&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-640f3236ee04da6bc1b4672a5e057a1f_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-1f067fc921462adcea272a31aa773b35_b.jpg&quot; data-rawwidth=&quot;910&quot; data-rawheight=&quot;1266&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-137f1596c3419fa5ce3d5efa8acf2c1d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;910&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-1f067fc921462adcea272a31aa773b35_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;以下这张作品，更是Shikhei Goh在国家地理杂志摄影比际大赛中拿过奖的。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-11bef9ad60aa13eab419faa5075165ad_b.jpg&quot; data-rawwidth=&quot;930&quot; data-rawheight=&quot;667&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-9bb108f0759cb42292a7d576e732b065_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;930&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-11bef9ad60aa13eab419faa5075165ad_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;看同系列别的照片就会发现其实是把蜻蜓固定在枯枝上然后人为用水喷。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-27b7bcfd27a9b04b62b35a32a186bf78_b.jpg&quot; data-rawwidth=&quot;945&quot; data-rawheight=&quot;644&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-f08b83cac03df341b6e2da20fb2e355a_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;945&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-27b7bcfd27a9b04b62b35a32a186bf78_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;还有摄影师Nicolas Reusens这张入选了2014索尼世界摄影大赛精彩的作品，也是摆拍。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-5b43124c9cdea865473815095c23853d_b.jpg&quot; data-rawwidth=&quot;884&quot; data-rawheight=&quot;646&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-e6a83157f0108b13c25ad56cc7eec673_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;884&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-5b43124c9cdea865473815095c23853d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;搜索一下他的其他照片，还有这样的……&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-fad4049dfce99515ef80bc8f80fbe8e6_b.jpg&quot; data-rawwidth=&quot;881&quot; data-rawheight=&quot;569&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-ba6af2a30642da54631106cd92d4151f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;881&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-fad4049dfce99515ef80bc8f80fbe8e6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;【一匹“野狼”从两棵桦树之间探出头】&lt;/p&gt;&lt;p&gt;真相却是，狼被铁链拴在后面那棵树上。饲养员就把生肉扔到狼的面前，诱导它钻进两棵树之间的缝隙……摄影师再在旁边趁机按下快门。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-3718b6d7d97ab1c7995861389a6ebe5e_b.jpg&quot; data-rawwidth=&quot;1068&quot; data-rawheight=&quot;585&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-d9b598fc43e2e463f4f8aa165504fb7e_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1068&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-3718b6d7d97ab1c7995861389a6ebe5e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;《每日邮报》发布的这组“狼失其鹿，熊狼大战”图，鹿是人工摆放的死鹿，狼和熊也都是听从驯兽师的命令，故意“演”了一出“打戏”。&lt;/p&gt;&lt;p&gt;然而，这组图却在不同的平台被转发了上万次。利益链条背后是它们的眼泪。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-753fcf992bf1652c014eb9195514011a_b.jpg&quot; data-rawwidth=&quot;957&quot; data-rawheight=&quot;843&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-9a78899f243b402075ca419585f817a6_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;957&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-753fcf992bf1652c014eb9195514011a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在这些利益的背后，被圈养的是一个个可怜的动物。它们被迫配合人类摆出特定姿势，成为无良摄影师追名逐利的工具。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-3dc282f171fa69c58e344e0ae8bb3fed_b.jpg&quot; data-rawwidth=&quot;1071&quot; data-rawheight=&quot;682&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-e501e6713a97277548e3e7b4c5358012_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1071&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-3dc282f171fa69c58e344e0ae8bb3fed_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;摆拍生态摄影并不是新闻，把虫子钉在木头上等雀鸟吃、用胶水把雀鸟固定在树上拍照、又或是剪掉树枝好拍摄鸟巢，种种生态摄影所带来的是一张张令人惊讶的照片，​​及一次次可怕的生态灾难。让我们觉得逗趣的“萌照”背后，是以对动物的残忍虐待换来的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-467b13aed4dd12c27aea5e17750443e0_b.jpg&quot; data-rawwidth=&quot;928&quot; data-rawheight=&quot;1176&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-561cc91674662ae669b02714aa77353e_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;928&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-467b13aed4dd12c27aea5e17750443e0_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-2c9c9f477b052b1e809900806a554d20_b.jpg&quot; data-rawwidth=&quot;1012&quot; data-rawheight=&quot;1443&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-79c0ac97ec57d1671e2062b499cad1e1_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1012&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-2c9c9f477b052b1e809900806a554d20_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-732ddce1b9e8a46d02037a9fc512ec1e_b.jpg&quot; data-rawwidth=&quot;882&quot; data-rawheight=&quot;574&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-7eca48bd58648248a0cfc8e59331a146_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;882&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-732ddce1b9e8a46d02037a9fc512ec1e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-ad322cae81662139dde5caba53b6abe6_b.jpg&quot; data-rawwidth=&quot;1059&quot; data-rawheight=&quot;729&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-488ff9fef60d127560938ae42f793559_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1059&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-ad322cae81662139dde5caba53b6abe6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-4d5ea85a7a3b0f316b7c0c46ec3a8bfd_b.jpg&quot; data-rawwidth=&quot;1039&quot; data-rawheight=&quot;662&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-9455b4bbf0d5634b00c0f1b938b1eb93_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1039&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-4d5ea85a7a3b0f316b7c0c46ec3a8bfd_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-ab1c5d8daa9e7195abf7d2b90556f57c_b.jpg&quot; data-rawwidth=&quot;937&quot; data-rawheight=&quot;1170&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-4dcab7f4150942dd4a53496a6d54ff5c_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;937&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-ab1c5d8daa9e7195abf7d2b90556f57c_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-8372f1b0a9a83a26ff2e156ea82dc3a8_b.jpg&quot; data-rawwidth=&quot;1058&quot; data-rawheight=&quot;1147&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-8886780266888a8d6388f0b37941aa9d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1058&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-8372f1b0a9a83a26ff2e156ea82dc3a8_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;相关报道&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//fotomen.cn/2013/07/29/baipai-2/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;伤不起的印尼摆拍摄影&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//m.sohu.com/a/203067270_661496&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;野生动物摆拍造假&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//sn.people.com.cn/n2/2017/0505/c186331-30137955.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;野生动物摄影居然是摆拍的&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//3g.163.com/news/article/CKDDMGPL0001875P.html%3Fclickfrom%3Dsogou_adapt&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;揭秘拍摄野生动物背后：饲养员指导动物摆造型，每个动物明码标价&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;所有文字资料与图片均来自于网络&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-71e4db364d12d6f8124ce2033cc670bd_200x112.jpg" data-rawwidth="1005" data-rawheight="1143" data-size="normal" data-watermark="watermark" data-original-src="v2-71e4db364d12d6f8124ce2033cc670bd" data-watermark-src="v2-a706a0dd336d8e7a3bdba8e75fad0e91" data-private-watermark-src="v2-034ebe601a4357d5fb24f63c6052ecef" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-71e4db364d12d6f8124ce2033cc670bd_r.jpg">
+动物摆拍，一些几乎把动物折腾到死来摆拍的黑镜头，胶水，钉子，绳子来固定动物的各种动作，无所不用其极。照片看似有趣，实则惨不忍睹。腿上的大块渗血显示它被外力扭伤过 两个都伤得惨不忍睹。 半个身子都在慎血…… 林蛙被贴在树上动不了，然后在它身上…
+
+<a href="/question/60987107/answer/495289309" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-20" target="_blank" href="/question/60987107/answer/495289309">编辑于 09:48</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-16618830"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>140 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="5">
+<h2><a class="question_link" href="/question/26576967/answer/495261777" target="_blank" data-id="2813739" data-za-element-name="Title">
+C罗到底有多强？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="120116490"
+data-atoken="495261777"
+data-collapsed="0"
+data-created="1537438712"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/26576967/answer/495261777">
+<meta itemprop="answer-id" content="120116490">
+<meta itemprop="answer-url-token" content="495261777">
+<a class="zg-anchor-hidden" name="answer-120116490"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>509</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">509</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$ba-er-da-nuo"
+target="_blank" href="/people/ba-er-da-nuo"
+>巴尔达诺</a><span class="icon icon-badge-identity icon-badge" data-tooltip="s$b$已认证的个人"></span></span><span class="badge-summary">阿根廷传奇中锋，前皇马总经理</span>
+
+
+<span title="前皇家马德里总经理，主教练" class="bio">
+前皇家马德里总经理…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="509">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">509</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="2813739" data-action="/answer/content" data-author-name="巴尔达诺" data-entry-url="/question/26576967/answer/495261777">
+
+<textarea hidden class="content">&lt;p&gt;C罗是21世纪足球的典型代表。这位足球界的超级英雄像是从实验室里创造出来的，或者说，我们一直在等待他的出现。 他像个机器人，每天遵循着指令而不是个人意志去生活，这让他获得了非常人的力量和身体素质。&lt;/p&gt;&lt;p&gt;他先是下定决心成为最好的球员，随后便不知疲倦地投入到足球事业中。他那让人印象深刻的身躯包裹了一颗征服者的野心，一颗修道士的恒心，以及一颗艺术家的虚荣心。在皇马的历史上，也就只有斯蒂法诺和劳尔能够和他相提并论；而在他这个时代的足球世界，能够和他并驾齐驱的也只有梅西。但在为这两个人排名之前要十分谨慎，因为对于像C罗这样有着钢铁意志的人，即使是面对命运也绝不会让自己屈居第二。&lt;/p&gt;&lt;p&gt;C罗的优势首先在于他的身体，他那古罗马角斗士一样的外形会让人产生惧怕。当他从球员通道走出来的一刻，就已经让球场变成了罗马斗兽场。如果梅西的背后是街道，那C罗的背后或许就是健身房。&lt;/p&gt;&lt;p&gt;我认识一些球员，他们喜欢用举铁来解决足球问题。他们希望通过挥洒汗水让自己变得更强壮，可最后却因此失去了速度与灵活性，而这些能力恰恰是赢得比赛必不可少的。但C罗不同，因为他泡在健身房是为了把他的弓打造得更加强韧，而弓上的箭在赛场上全都会射向对方的球门——C罗的奔跑速度、灵活度和弹跳力已经碾压全场。这个时候如果再扔给他们一颗足球，他的优势就能够全面爆发。最好的C罗，会让对手时时刻刻都感受到威胁和危险，无论球在哪个半场，因为他是全场的前锋。&lt;/p&gt;&lt;p&gt;为了打造完美，他走火入魔、不知疲倦，每次训练就只差和足球发生肉体关系。或许这样我们才能够解释，为什么C罗的技术就是力量和速度，而这还不会影响到他的准确度。C罗的控球能力强到像是把球吸在脚上一样，而且他那无法预测的传射轨迹依然未被破解。人们会原谅进球功臣的自私性格，对于运动天才我们也要接受他们合理的虚荣心。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Cristiano representa un fútbol modelo siglo XXI. El superhéroe con condiciones futbolísticas que parecen creadas en un laboratorio. Lo esperábamos. Desde su aspecto de androide, pasando por una gesticulación más mecánica que artística, hasta llegar a esa zancada, ese salto y ese tiro de potencia sobrenatural. &lt;/p&gt;&lt;p&gt;Primero tomó la decisión de ser el mejor y luego se puso a esa incansable tarea. La construcción de ese cuerpo impresionante oculta una ambición de conquistador, una perseverancia de monje y una vanidad de artista. En la historia del Real Madrid, solo se le interpone Alfredo Di Stéfano y la leyenda de Raúl. En el fútbol mundial de su época, solo interfiere Leo Messi. Pero conviene ser precavido antes de colocarle, a un tipo de voluntad de hierro como Ronaldo, el cartel de número «2», porque no se resigna ni ante la predestinación. &lt;/p&gt;&lt;p&gt;La superioridad de Ronaldo empieza siendo física. Su apariencia de gladiador es intimidante, al punto de que basta verlo salir por el túnel para que la cancha nos parezca un circo romano. Si a Messi se le entrevé la calle, a Cristiano se le adivina el gimnasio.&lt;/p&gt;&lt;p&gt;He conocido a jugadores que quisieron solucionar problemas futbolísticos levantando pesas y, en su afán por ser más fuertes, terminaron perdiendo velocidad y agilidad, virtudes que manejadas con astucia son primordiales para desequilibrar. Cristiano utiliza el gimnasio para tensar el arco del que saldrán todas las flechas hacia la portería. Si corre, se quedan todos atrás; si frena, pasan todos de largo; si salta, es igual de inalcanzable, solo que en vertical. Y si a todo eso le sumamos una pelota, la superioridad ya resulta abusiva. El mejor Ronaldo es un delantero de todo el campo que provoca sensación de peligro aún entrando en contacto con el balón en su propia área.&lt;/p&gt;&lt;p&gt;Incansable en su obsesión por la perfección, tras cada entrenamiento solo le faltaría tener relaciones carnales con la pelota. Es la única manera de explicar que su técnica una la potencia y la velocidad, sin poner en peligro la precisión. Controla la pelota como si estuviera imantada; tiene un tiro de trayectoria incierta que todavía no ha sido descifrado ni por el balón. Como al goleador se le perdona el egoísmo, al crack hay que aceptarle una buena dosis de vanidad.&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+C罗是21世纪足球的典型代表。这位足球界的超级英雄像是从实验室里创造出来的，或者说，我们一直在等待他的出现。 他像个机器人，每天遵循着指令而不是个人意志去生活，这让他获得了非常人的力量和身体素质。他先是下定决心成为最好的球员，随后便不知疲倦地…
+
+<a href="/question/26576967/answer/495261777" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-20" target="_blank" href="/question/26576967/answer/495261777">编辑于 2018-09-21</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-2813739"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>36 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-panel">
+<div data-type="monthly" data-zop-feedlist>
+<div class="explore-feed feed-item" data-offset="1">
+<h2><a class="question_link" href="/question/292243843/answer/480549884" target="_blank" data-id="27219989" data-za-element-name="Title">
+如何评价华晨宇的新歌《寒鸦少年》？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="117442978"
+data-atoken="480549884"
+data-collapsed="0"
+data-created="1535487632"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/292243843/answer/480549884">
+<meta itemprop="answer-id" content="117442978">
+<meta itemprop="answer-url-token" content="480549884">
+<a class="zg-anchor-hidden" name="answer-117442978"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>879</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">879</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+<span class="name">知乎用户</span></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="879">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">879</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27219989" data-action="/answer/content" data-author-name="浔小笙" data-entry-url="/question/292243843/answer/480549884">
+
+<textarea hidden class="content">&lt;p&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-d080c141609344b3ec1dd886e1f82143_b.jpg&quot; data-rawwidth=&quot;720&quot; data-rawheight=&quot;1280&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-f3932f4efb7853deac2e41f158073f44_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;720&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-d080c141609344b3ec1dd886e1f82143_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;《寒鸦少年》表意微解读&lt;/p&gt;&lt;p&gt;燃歌一发果然睡不着觉，手抖码字&lt;br&gt; 小时候是《斗破苍穹》的忠实迷妹，原著陆续看了几遍，后来也有看一些改编的漫画与3D动画，萧炎逆袭的经历可谓是爽快，自以为对人物有一定理解。&lt;br&gt; 华晨宇这首歌通过歌词的具象化描述，编曲的处理，音色细节的把控营造了极强的画面感，层次分明，场景丰富，戏剧化地表现了心境的变化。&lt;/p&gt;&lt;p&gt;在bridge的部分抒情化处理宛若神笔，他自身的精神境界对哲学的探索思考都体现在这一段上，大气又凄美的抒情段给这首歌深深刻上了华晨宇的独特标志——&lt;b&gt;干净透彻的孩童般赤子之心与智慧老者的洞察融为一体，&quot;少年老成&lt;/b&gt;”四个字也与他本人的气质相符合，宏大与渺小也是他一直探寻的命题。&lt;/p&gt;&lt;p&gt;电视剧版《斗破苍穹》着重讲述萧炎从天才少年一夜之间变成废柴之后被退婚，立下三年之约讨回自己的尊严的前期故事。&lt;/p&gt;&lt;p&gt;华晨宇一直有的热血中二少年情结可以寄托于萧炎，他不受外界所扰的孤傲与执着追求体现在大气的作曲中，也与斗破的核心精神相符。因此作为亲儿子的曲被斗破爸爸一次相中，之后再填词也是情理之中了。&lt;br&gt;&lt;b&gt;&lt;i&gt;非专业人士，以下纯属个人主观感受，主要侧重于对歌词和歌曲表达上的分析，音乐性上不做过多评价&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Prelude&lt;/b&gt;&lt;br&gt; 极度颓靡自嘲般的riff化钢伴循环往复，一组和弦逐渐向上推动却又戛然而止回到底谷，贯穿整个歌曲，却不显单调，仿佛少年独自一人走在夜里像乌鸦一般低哑的喃喃自语，仿佛可以看到那少年略微上扬的嘴角。也描绘了少年在世间遭遇的不公与的境遇，世间的夜晚的一切仿佛那扭曲的嘴脸，发出银铃般的耻笑，玩弄着天真的少年。他感觉自己很可笑，很渺小，一无是处，只有不断地被吞噬，不断地在下垂，却怎么挣扎也逃不出这个丑恶的牢笼。少年看透了人们的冷眼与嘲笑，更看不起这个软弱无能的自己，充满挑衅的上扬的音符暗藏的是心中的不甘的怒火在熊熊燃烧。(&lt;i&gt;在这里点赞设计，情绪一下子就出来了，也定下来了暗黑的基调&lt;/i&gt;)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Verse&lt;/b&gt;&lt;br&gt; 气声较重，配有高八度的和声，&quot;&lt;b&gt;默剧&lt;/b&gt;&quot;的又配有回声般的低声喃呢重复，萦绕耳旁。&quot;&lt;b&gt;试探的证据&lt;/b&gt;&quot;咬字断开，比较短促，唱出了在黑暗中试探摸爬滚打之感。&quot;&lt;b&gt;暴晒很彻底&lt;/b&gt;&quot;又是轻轻带过，少年此刻已经正视了自己的挫败，轻描淡写地讲述着血与泪交织的陨落与心酸。&lt;br&gt; &quot;&lt;b&gt;月光正坐下在祷告&lt;/b&gt;&quot;前面&quot;&lt;b&gt;月光&lt;/b&gt;&quot;两字吟唱声比较重，表现了轻盈月夜的寂静，独自一人徜徉在此，仿佛能感受到一草一木的一颦一蹙。万物有灵，少年用体内的斗气让自己情绪平息下来，感知万物的呼吸，让自己接受现状。却发现即使再安静，内心深处的乌鸦也无法停下聒噪地不听叫喊着。&quot;&lt;b&gt;张开&lt;/b&gt;&quot;二字的一个小小的滑音极为精妙，体现了脱离控制的内心深处，&quot;&lt;b&gt;嘴巴，嘴巴，嘴巴&lt;/b&gt;&quot;反复蓄势，暗示已经不可控的某种声音正要蠢蠢欲动，即将爆发。整体背景持续出现的三十二分音符的聒噪鼓点烘托了情绪，疯狂暗示着看似平静自述的内心下某种焦躁与不甘。(&lt;i&gt;吹爆编曲，不复杂却做到了一体化，代入感很强，细节控的大哥的每一个咬字和处理都值得品味&lt;/i&gt;)&lt;/p&gt;&lt;p&gt;&lt;b&gt;Chorus&lt;/b&gt;&lt;br&gt; 既然如此，既然无法忽视，既然无法接受既然无法做到真正的平静，那不如就彻底表达出来。&lt;br&gt; &quot;&lt;b&gt;我&lt;/b&gt;&quot;转音理直气壮，这就是我现在的模样，谁也无权质疑，我再也不去怀念以前被称为天才少年的骄傲，只握紧双拳，走好现在的每一步。&quot;&lt;b&gt;走吧,走吧&lt;/b&gt;&quot;再次把心中的决绝唱出来，我无需你们在我得意时的歌颂，也不理会种种在我失意时的诋毁，只顾背一把玄重尺奋勇走着独自的道路。向那些嘲笑自己的人喊出无畏的年少轻狂的誓言与口号，等着我们的决斗，三十年河东，三十年河西，莫欺少年穷。再对自己做出承诺，咬字特别重的&quot;&lt;b&gt;收敛起稚气练习&lt;/b&gt;&quot;是咬牙坚持，不出头不罢休的决心。少年告诉自己只有有了的不计日夜的修炼与忍受非常人可以承受的折磨，才能够来日理直气壮地去叫那些瞧不起他的人后悔，去反转既定的废柴剧本。&lt;/p&gt;&lt;p&gt;&lt;b&gt;Verse&lt;/b&gt;&lt;br&gt; 第二段的主歌比之前底层多铺了一层鼓点，声音也更加的坚定与执着。心态变了，心更加坚韧的少年仿佛一下子成熟起来了，&quot;&lt;b&gt;看透&lt;/b&gt;&quot;两字略带笑意，爽朗地说出，是真心的感谢那些嘲笑他的人给了他一个辨清人的机会。&quot;&lt;b&gt;傻瓜，傻瓜，傻瓜&lt;/b&gt;”三次就是说给那些人听，声音逐渐放大以确保他们听清楚，让他们千万不要后悔当初的种种。&lt;/p&gt;&lt;p&gt;&lt;b&gt;Chorus&lt;/b&gt;&lt;br&gt; 继续呐喊心中的誓言，你们都等着三年之约。&lt;/p&gt;&lt;p&gt;(&lt;i&gt;说实话我真的不是很喜欢这种硬核的呐喊式的副歌，太中二? 又或是除了重音之外的歌词比较尴尬? 如果就在这里结束的话这首歌也只能算大哥作品中一般的摇滚吧&lt;/i&gt;)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;b&gt;Bridge&lt;/b&gt;(惊喜)&lt;br&gt; 副歌完了由高转到低的结束句类似《齐天》的尾声，歌曲完全可以在此处结束。随着乐器的延音，人们也从爆发中沉静下来，此时无声胜有声。在此刻结束，少年的形象已经树立，但总觉得少了点什么。难道三年之后证明了自己，让当年那些人住嘴，完成了报仇就足够了吗？短暂的留白给了我们思考的空间，沉思，是反思与探索自我的最好方式，少年接下来绵长的自语与感慨才使他真正变得有血有肉，不是成为复仇的机器，而是纵使世界欺骗了我，我也不被它蒙蔽了内心的良知。&lt;br&gt;&lt;br&gt; 这一段点睛之笔是意料之外的，摇滚之中放进像《寻》宝宝和《巨鹿》的那样的开阔大气的旋律不仅没有在摇滚中显得突兀，反而提高了整首歌的水准(&lt;i&gt;本来以为这首中二摇滚歌最多就像《拆弹专家》那样重在一种情绪表达&lt;/i&gt;)使歌曲意境格外宏阔，不仅仅是提高了歌曲的张力，把歌曲拉宽，而且把主题升华到了一种哲学层面的探讨。&lt;br&gt;&lt;br&gt; 换气声的加入表示无奈与感慨，少年的心里此刻住着一个苍老的小孩，经历了这一切他已经不是着眼于眼前的执念，他深谙时间才是真正的无情之物，纵使三年之后大仇得报又能怎样，世界如此之大，我短暂的一生不过如尘埃般渺小，微不足道。时间匆匆流逝，哪里来得及你去回顾，哪里等得了你去踌躇，为了心无旁骛地埋头前进，只好去忘记自己其实有比复仇更好的释怀的归途。此时拖长&quot;&lt;b&gt;归途&lt;/b&gt;&quot;二字是内心的另一个自我在提醒自己。少年什么都明白，他此刻是在扪心自问自己这样选择的对与错，怀赤子之心与报男儿之辱之间永远没有一个两全其美的选择。&lt;br&gt;&lt;br&gt; 钢琴铺垫，情绪不断抬高渲染，少年此时心潮澎湃，泪水涌出却硬生生地忍住并告诉自己&quot;&lt;b&gt;不如停住&lt;/b&gt;&quot;，&quot;&lt;b&gt;会&lt;/b&gt;&quot;字在低吟之中升高音调是体现了少年去坚信美好，坚信未来的决心与决绝。&lt;br&gt;&lt;br&gt; 他想明白了所有的意义最后只剩下了&quot;&lt;b&gt;守护&lt;/b&gt;&quot;二字，这两个字是低吟却意味非凡，缺格外坚定沉着。少年报仇的目的不是阐明&quot;&lt;b&gt;真相&lt;/b&gt;&quot;，不是为了让别人后悔，而是为了有能力去守护自己想要守护的人，而不是像原来那样让薰儿和父亲来出手保护自己，去替自己的懦弱而背负，而成为笑柄。一生不是为了成为强者，战无不胜，而是为了有能力守护那些心中的珍惜的美好的事物。&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;Chorus&lt;/b&gt;&lt;br&gt; 少年走出了内心的迷茫，这次的呐喊更加的有力。&quot;&lt;b&gt;反转&lt;/b&gt;&quot;只为了你，不管他人怎么看我，不管真相是否被埋没，我只做好自己能做的，只去守候自己珍视的足矣。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;很多人提到词配不上曲的问题，笔者以为中二热血的词虽说不能很好的体现曲子的深度，缺少共鸣，且记忆点较少。但在前期斗破这个主题之下，新锐词人丁彦雪可谓是做到了最大化的词与曲与表意的契合。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;贴合人物的戏剧性描写使得曲子具象化。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;而华晨宇原本的有深度的曲又使斗破里萧炎的形象立体化。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;所以不愧称为一次不错的合作，各方面表意的高度统一使人很难察觉出贴片的痕迹。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-20de542360275c485f1e02e5df799b77_b.jpg&quot; data-rawwidth=&quot;1365&quot; data-rawheight=&quot;2048&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-24fcdf01d65ebf26de1b5457de68a87e_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1365&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-20de542360275c485f1e02e5df799b77_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;图源自放肆站&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-93c118211697f79ad122858350ff8e78_b.jpg&quot; data-rawwidth=&quot;908&quot; data-rawheight=&quot;4096&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-666ddd5825046be82c2f6140c671eefc_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;908&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-93c118211697f79ad122858350ff8e78_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;附:精彩乐评指路&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//m.weibo.cn/1842357963/4278495146734121&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;m.weibo.cn/1842357963/4&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;278495146734121&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;   音乐性&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//m.weibo.cn/1730317584/4278648980662112&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;m.weibo.cn/1730317584/4&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;278648980662112&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;   音乐表达&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//m.weibo.cn/2857896064/4278874026468303&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;m.weibo.cn/2857896064/4&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;278874026468303&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;   vocal&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-8854e8e2972919dc233cb96b03784580_200x112.jpg" data-rawwidth="720" data-rawheight="1280" data-size="normal" data-watermark="watermark" data-original-src="v2-8854e8e2972919dc233cb96b03784580" data-watermark-src="v2-d080c141609344b3ec1dd886e1f82143" data-private-watermark-src="v2-f3932f4efb7853deac2e41f158073f44" data-tags="politic" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-8854e8e2972919dc233cb96b03784580_r.jpg">
+《寒鸦少年》表意微解读燃歌一发果然睡不着觉，手抖码字 小时候是《斗破苍穹》的忠实迷妹，原著陆续看了几遍，后来也有看一些改编的漫画与3D动画，萧炎逆袭的经历可谓是爽快，自以为对人物有一定理解。 华晨宇这首歌通过歌词的具象化描述，编曲的处理，音色…
+
+<a href="/question/292243843/answer/480549884" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-08-29" target="_blank" href="/question/292243843/answer/480549884">编辑于 2018-08-31</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27219989"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>92 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="2">
+<h2><a class="question_link" href="/question/68592527/answer/480621775" target="_blank" data-id="19665919" data-za-element-name="Title">
+极限运动中有哪些炫酷瞬间？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="117456081"
+data-atoken="480621775"
+data-collapsed="0"
+data-created="1535505213"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/68592527/answer/480621775">
+<meta itemprop="answer-id" content="117456081">
+<meta itemprop="answer-url-token" content="480621775">
+<a class="zg-anchor-hidden" name="answer-117456081"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1452</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1452</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$yun-dong-fen-zi-cheng-lan-wen-hua"
+target="_blank" href="/org/yun-dong-fen-zi-cheng-lan-wen-hua"
+>运动分子 橙蓝文化</a><span class="OrgIcon sprite-global-icon-org-14" data-tooltip="s$b$已认证的官方帐号"></span></span><span class="badge-summary">已认证的官方帐号</span>
+
+
+<span title="发现运动的有趣一面。看运动发声！" class="bio">
+发现运动的有趣一面。看运动发声！
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1452">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1452</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="19665919" data-action="/answer/content" data-author-name="运动分子 橙蓝文化" data-entry-url="/question/68592527/answer/480621775">
+
+<textarea hidden class="content">&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/22759920/answer/486938209&quot; class=&quot;internal&quot;&gt;热爱极限运动的人真的不怕死吗？&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;2016年7月31日，美国职业跳伞玩家&lt;b&gt;卢克·艾金斯&lt;/b&gt;（Luke Aikins）尝试&lt;b&gt;不携带降落伞以及任何保护措施从7600米高空跳下&lt;/b&gt;，并且最终成功跳到离地约100米的一张30X30米缓冲网上。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-19d129f4300f08a99641830f3a2eb2c9_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1280&quot; data-rawheight=&quot;720&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1280&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-19d129f4300f08a99641830f3a2eb2c9_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-c1f4719120cf486e3abde293e716c4ac_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;540&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-c1f4719120cf486e3abde293e716c4ac_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这也是人类历史上第一次尝试“无伞跳伞”并成功。&lt;/p&gt;&lt;p&gt;在空中艾金斯根据风向，只能依靠自己身体的倾斜度，来调整下坠的方向，落入网中的艾金斯再下坠60米后才停稳。&lt;/p&gt;&lt;p&gt;他有一个专门定制的“校准镜”，当他当下的方向不能落入网内，就会发出红色警告，让他抓紧时间调整身体姿态。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;整个过程持续130秒，已经不光是炫酷，算的上超级刺激（恐高的就别点视频了）……&lt;/p&gt;&lt;a class=&quot;video-box&quot; href=&quot;//link.zhihu.com/?target=https%3A//www.zhihu.com/video/1017848761145585664&quot; target=&quot;_blank&quot; data-video-id=&quot;&quot; data-video-playable=&quot;true&quot; data-name=&quot;7600米高度无降落伞无保护跳伞&quot; data-poster=&quot;https://pic2.zhimg.com/80/v2-4d3e87d3e776eefe034fe23e4d5a8b49_b.jpg&quot; data-lens-id=&quot;1017848761145585664&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;https://pic2.zhimg.com/80/v2-4d3e87d3e776eefe034fe23e4d5a8b49_b.jpg&quot;&gt;&lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;7600米高度无降落伞无保护跳伞&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;https://www.zhihu.com/video/1017848761145585664&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;卢克·艾金斯和他的团队为这个准备了整整两年。&lt;/p&gt;&lt;p&gt;为了绝对保证这次跳伞的安全，他之前挑战试跳了34次之多,每次都会在离地面约304米的高度打开降落伞。&lt;/p&gt;&lt;p&gt;正式跳的降落点上架设有一张有⅓足球场大小的大网，材质很坚硬，可防止反弹，架设高度有100米高度。在地面看这网不算小，在空中就只是一个点而已了——7600米，很多民航短途客机也不过是这个高度。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-b1724e0e3ebd0b738d39ba4e2af564f6_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;992&quot; data-rawheight=&quot;558&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;992&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-b1724e0e3ebd0b738d39ba4e2af564f6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;当天在3个跳伞员的陪同下，艾金斯从&lt;b&gt;7620米高空&lt;/b&gt;，不带降落伞跳下。在3000米高度的时候，当时的坠落速度达到最大为&lt;b&gt;240公里/小时&lt;/b&gt;，艾金斯的心率不高，只有&lt;b&gt;148&lt;/b&gt;，接近很多人慢跑时的心率。&lt;/p&gt;&lt;p&gt;过程中他仅能依靠翻身、摆动手臂等动作调整自己的位置，落入网中的难度不亚于“在几米高空中向篮筐投篮并且命中”，一旦失败就直接成肉泥了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;最终他以&lt;b&gt;193公里/小时&lt;/b&gt;的下降速度掉到缓冲网里。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-184fea890d0b744c71b8da0055b1ae1b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;540&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-184fea890d0b744c71b8da0055b1ae1b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-68de105b2bfa8575b2834158e837213b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;960&quot; data-rawheight=&quot;732&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;960&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-68de105b2bfa8575b2834158e837213b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;当然42岁的卢克·艾金斯不是那种为了炫酷不要命的玩家。&lt;/p&gt;&lt;p&gt;他出生在一个跳伞世家，12岁就开始双人跳伞，16岁正式开始单人跳伞，一年跳800余回，他是有着18000多次的跳伞经验的超级跳伞运动员，也是美国降伞协会的安全及训练顾问，并为美国特种部队提供跳伞训练。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-16e8b95fa1b8585a0060e2d84c10d76d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;652&quot; data-rawheight=&quot;338&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;652&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-16e8b95fa1b8585a0060e2d84c10d76d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;艾金斯回忆自己那次挑战，他说从地面到指定高度大概要半个小时。起飞的一个瞬间他有点后悔，想着自己还有老婆孩子，不知道为什么要做这样一件事。即便跳出后有人陪伴，实际上另外三个人也完全没法帮助他，只能作为记录员一样的存在。&lt;/p&gt;&lt;p&gt;最后的落网不算太完美（稍微有点偏），但谢天谢地，他完成的很好。&lt;/p&gt;&lt;hr&gt;&lt;p&gt;另一个与极限运动有关的内容：&lt;a href=&quot;https://zhuanlan.zhihu.com/p/40356596&quot; class=&quot;internal&quot;&gt;无保护攀岩和翼装飞行，世界上最危险的运动——玩不好你就挂了！&lt;/a&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-0e20568ebfb22a6910a37391ac4ef9db_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;720&quot; data-rawheight=&quot;188&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;720&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-0e20568ebfb22a6910a37391ac4ef9db_r.jpg&quot;&gt;&lt;/figure&gt;&lt;hr&gt;&lt;p&gt;一些有趣的运动科普：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/35083244/answer/479766102&quot; class=&quot;internal&quot;&gt;为什么说博尔特的200米纪录比100米纪录更惊世骇俗？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/33183989/answer/470993748&quot; class=&quot;internal&quot;&gt;谁是世界上跑得最快的人？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20385329/answer/464360267&quot; class=&quot;internal&quot;&gt;游泳选手比赛时佩戴的泳镜和我们戴的有什么不一样？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/279760350/answer/447550959&quot; class=&quot;internal&quot;&gt;你见过的「一项体育运动玩到极致的好」是什么样子的？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/68353118/answer/268635986&quot; class=&quot;internal&quot;&gt;为什么运动鞋的鞋底不是水平的，而是鞋跟比前掌更高？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/39665045/answer/275431053&quot; class=&quot;internal&quot;&gt;精心布局却被一下破局的故事，邢慧娜的万米夺冠堪称经典&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/63537524/answer/278065154&quot; class=&quot;internal&quot;&gt;波士顿马拉松有什么令人叹为观止的细节？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/31028898/answer/289526704&quot; class=&quot;internal&quot;&gt;坚持跑步真的会让皮肤更好吗？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/265683706/answer/297252158&quot; class=&quot;internal&quot;&gt;职业运动员进入 30 岁后都有哪些转变？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/269246773/answer/361697379&quot; class=&quot;internal&quot;&gt;田径中的田赛和径赛，到底谁更难？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20246923/answer/371723651&quot; class=&quot;internal&quot;&gt;为什么人到中年，很少有身材苗条的？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/20268444/answer/375837257&quot; class=&quot;internal&quot;&gt;「有氧运动须超过一定时间才能减脂」是真理还是谬论？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/25378124/answer/399953701&quot; class=&quot;internal&quot;&gt;同一个人体重 120 斤和 100 斤的世界是完全不同的吗？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/37309249&quot; class=&quot;internal&quot;&gt;世界顶级中长跑运动员的100米大概可以跑多快？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/27766438/answer/404026262&quot; class=&quot;internal&quot;&gt;奥运会射击允不允许狙击手参赛？&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/271296044/answer/461649288&quot; class=&quot;internal&quot;&gt;为什么 NBA 转播比 CBA 转播看着更有「质感」？&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;知乎机构号：&lt;a href=&quot;https://www.zhihu.com/org/yun-dong-fen-zi-cheng-lan-wen-hua/activities&quot; class=&quot;internal&quot;&gt;运动分子 橙蓝文化&lt;/a&gt;&lt;/p&gt;&lt;p&gt;知乎专栏：&lt;a href=&quot;https://zhuanlan.zhihu.com/yundongfenzi&quot; class=&quot;internal&quot;&gt;运动分子&lt;/a&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/50/v2-19d129f4300f08a99641830f3a2eb2c9_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="1280" data-rawheight="720" data-watermark="" data-original-src="" data-watermark-src="" data-private-watermark-src="" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/50/v2-19d129f4300f08a99641830f3a2eb2c9_r.jpg">
+<a href="https://www.zhihu.com/question/22759920/answer/486938209" class="internal">热爱极限运动的人真的不怕死吗？</a>2016年7月31日，美国职业跳伞玩家<b>卢克·艾金斯</b>（Luke Aikins）尝试<b>不携带降落伞以及任何保护措施从7600米高空跳下</b>，并且最终成功跳到离地约100米的一张30X30米缓冲网上。 这也是人类历史上第一次尝试“无伞跳伞”并成功。在…
+
+<a href="/question/68592527/answer/480621775" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-08-29" target="_blank" href="/question/68592527/answer/480621775">编辑于 2018-09-07</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-19665919"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>161 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="3">
+<h2><a class="question_link" href="/question/54734401/answer/480875946" target="_blank" data-id="14113911" data-za-element-name="Title">
+做开发你遇到最无理的需求是什么？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="117502140"
+data-atoken="480875946"
+data-collapsed="0"
+data-created="1535523101"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/54734401/answer/480875946">
+<meta itemprop="answer-id" content="117502140">
+<meta itemprop="answer-url-token" content="480875946">
+<a class="zg-anchor-hidden" name="answer-117502140"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>739</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">739</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$qin-hao-han-68"
+target="_blank" href="/people/qin-hao-han-68"
+>MasterMiao</a></span><span title="插科打诨/讲真实的故事/不编段子/黑的有理有据" class="bio">
+插科打诨/讲真实的故事/不编段子/黑的有…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="739">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">739</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="14113911" data-action="/answer/content" data-author-name="MasterMiao" data-entry-url="/question/54734401/answer/480875946">
+
+<textarea hidden class="content">&lt;p&gt;鄙人作为一个全栈程序员，接了一个物流仓储管理系统的外包，团队还未组建，先与客户对需求。&lt;/p&gt;&lt;p&gt;“你们对于这个系统有什么要求吗？”&lt;/p&gt;&lt;p&gt;“你就给我们弄一个系统就好了嘛。”&lt;/p&gt;&lt;p&gt;“为什么不上一个专业的erp系统呢？”&lt;/p&gt;&lt;p&gt;&lt;b&gt;“因为我们公司的业务简单嘛，用不着这么专业的东西。”&lt;/b&gt;&lt;/p&gt;&lt;p&gt;“那你看我们做成一个啥样的呢？”&lt;/p&gt;&lt;p&gt;“你们就照着正常的物流系统搞搞嘛，搞的符合我们公司流程一点。”&lt;/p&gt;&lt;p&gt;然后我费了好大劲组建团队，研究了客户提供的市场上比较通用的两个物流管理系统，然后拉着客户问，这个要不要，那个要不要，又费了好大劲搞清楚了他们公司的工作流程，基本确定了需求（是的，客户并不知道自己要什么，是我们给他写的需求说明）。又扯来扯去，最终在距离除夕夜几天的时候，在客户那里一项一项对需求，一项一项对合同，一点一点看原型图，客户保证了“我们想要的东西就是这样”，我也明确了“确定了之后系统很可能很难大改，一定谨慎”之后，签署了合同，并收取了约50%的订金。&lt;/p&gt;&lt;p&gt;具体的开发我们一路按照进度进行（实际上是远超进度的），开发过程中，我也去客户那里跑了好几次，确认了具体功能的实现方式和需要改动的地方。客户在开发途中要求加入的一些小功能，我们也同意并实现了。在距离合同交期还有三个月的时候，我拿着主要功能基本已经完全实现的系统找客户核对，客户领导表示“做的非常好，就是这个样子，辛苦你们了”，我也就开开心心地回去了。&lt;/p&gt;&lt;p&gt;然而在距离交期还有一个多月的时候，我们测试的差不多了，客户也要求提前交付，我们便带上最终的产品前往交付了。结果，交付时出了幺蛾子，客户的工作人员表示我们的系统与他们的想象相距甚远，不符合他们公司的工作流程，甚至根本无法投入使用。然后给我们提出了修改意见，三项修改、三项新功能，工作量难以评估，对于现有数据库结构的修改也很大，甚至可以说，以一套复杂的工作流程替代了原有的工作流程，整个系统推翻重来。&lt;/p&gt;&lt;p&gt;沟通过程中，甲方领导的几句话深深地刻在了我的脑海中，&lt;b&gt;“你们这个东西做的太简单了，我们的业务是很复杂的。”、“你们只做到了需求上要求做的东西，需求上没提到的你们什么都没做。”&lt;/b&gt;&lt;/p&gt;&lt;p&gt;事到如今，我深深地困扰于与甲方的扯皮当中。我们完成了约定的需求，却拿不到应得的交付款项，如此多的新增，甲方也绝口不提合同的事，一口咬定无法投入使用则无法付款。具体的需求，他们至今也没有搞清楚，每天都有新变化，每次都搞不清楚自己到底想要什么，一会让我们抄一个系统，一会说就这么办就行了。我们已经做好了打持久战的准备，不是自己的锅，坚决不背。&lt;/p&gt;&lt;p&gt;最后言归正传，做开发时遇到最无理的需求是什么？其实世界上根本没有什么无理的需求，甲方或是产品提出需求，能做或不能做，沟通就是了。而在这其中，最无理的是需求提供方的不配合。平时糊弄差事，等到开发把活都干完了才提出这样不行、那样不行，把开发人员当猴给耍了，这才是最无理也是最无耻的行为。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+鄙人作为一个全栈程序员，接了一个物流仓储管理系统的外包，团队还未组建，先与客户对需求。“你们对于这个系统有什么要求吗？”“你就给我们弄一个系统就好了嘛。”“为什么不上一个专业的erp系统呢？”<b>“因为我们公司的业务简单嘛，用不着这么专业的东西…</b>
+
+<a href="/question/54734401/answer/480875946" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-08-29" target="_blank" href="/question/54734401/answer/480875946">编辑于 2018-09-03</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-14113911"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>142 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="4">
+<h2><a class="question_link" href="/question/31271400/answer/480672594" target="_blank" data-id="4691272" data-za-element-name="Title">
+孩子进入可怕的terrible two阶段，父母该如何与孩子相处？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="117465264"
+data-atoken="480672594"
+data-collapsed="0"
+data-created="1535508634"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/31271400/answer/480672594">
+<meta itemprop="answer-id" content="117465264">
+<meta itemprop="answer-url-token" content="480672594">
+<a class="zg-anchor-hidden" name="answer-117465264"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>541</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">541</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$ding-xiang-ma-ma-98"
+target="_blank" href="/org/ding-xiang-ma-ma-98"
+>丁香妈妈</a><span class="OrgIcon sprite-global-icon-org-14" data-tooltip="s$b$已认证的官方帐号"></span></span><span class="badge-summary">已认证的官方帐号</span>
+
+
+<span title="为学习型妈妈服务" class="bio">
+为学习型妈妈服务
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="541">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">541</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="4691272" data-action="/answer/content" data-author-name="丁香妈妈" data-entry-url="/question/31271400/answer/480672594">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;「terrible two」&lt;/b&gt;，中文叫做&lt;b&gt;「可怕的两岁」&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;只要经历过的妈妈都会有话说，还没经历的想必也都听说过。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这个时期的宝宝，一夜之间就从&lt;b&gt;天使宝宝&lt;/b&gt;变成&lt;b&gt;残酷嗜血的大型杀伤性武器&lt;/b&gt;，破坏你的情绪，撕扯你的耐性，让你无处可逃……&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;▶ &lt;b&gt;terrible 2 战况说明 &lt;/b&gt;◀&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;terrible 2 是孩子生命中的第一个叛逆期，标志着人类萌系幼崽向智人的转变的第一步。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这个时候孩子自我意识爆发，好奇心强，每天都是哲学三问：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;我是谁？&lt;br&gt;&lt;br&gt;我能干嘛？&lt;br&gt;&lt;br&gt;为什么我要听你们的？&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-1ebf947bc9a3308f12b442a7b128d2f4_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;191&quot; data-rawheight=&quot;191&quot; class=&quot;content_image&quot; width=&quot;191&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;孩子会尝试用言语和行动挑战大人的权威，来证明自己不是一个 baby，并乐此不疲。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;此阶段大概会从 1 岁半持续到 2 岁半，时间长短和爹妈怎么应对相关，如果处理得不好，这种叛逆会深入骨髓影响到三岁甚至到小学。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;▶ &lt;b&gt;杀伤性武器列举 &lt;/b&gt;◀&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;1. 口头禅就是「不」&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;杀伤力 ：★★★&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;——崽崽，来吃饭吧？&lt;br&gt;——我！不！要！&lt;br&gt;——崽崽，穿这件衣服吧？&lt;br&gt;——不！行！&lt;br&gt;——崽崽，我们出门吧？&lt;br&gt;——就！不！&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;自从学会了说「不」这个字， 他们就疯狂的迷恋上拒绝。什么要求都能用「不」怼回去，分分钟挑战你的神经。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-e545f408757f45a6035e7e0830272305_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;160&quot; data-rawheight=&quot;160&quot; class=&quot;content_image&quot; width=&quot;160&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. 莫名其妙的秩序感&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;杀伤力 ：★★★★&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;——饼干必须是完整的，碎的不行！ &lt;br&gt;——玩具不能移动，蜡笔的颜色放错了都要跟你拼命！&lt;br&gt;——上完厕所必须要自己冲，顺手帮忙给冲了恨不得要求你再拉一坨再冲一次！&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这个时候的孩子对自己和世界万物，都有着近乎苛刻的要求，稍不如意就情绪爆发，像一个不定时的炸弹。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;面对随时都可能出的状况，就像斗地主的时候突然被对方来了一个「王炸」，让人满脸发懵、措手不及。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-ec05d5010447d2dba93695af2cff8e19_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;160&quot; data-rawheight=&quot;160&quot; class=&quot;content_image&quot; width=&quot;160&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. 一言不合就崩溃&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;杀伤力： ★★★★★&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;——出门要抱，被拒绝直接马路上就地打滚儿……&lt;br&gt;——把黏土混合后发现分不开，可以为此哭了半小时……&lt;br&gt;——看着小猫说是狗，我说是猫，然后就哭了非说是狗……&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;每一个细节都要符合娃的想法，否则就崩溃，耳膜和心脏每天都要被轮番折磨，一不留神，自己的情绪也随之崩溃…… &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-7664e9ddeb14ae9f85e5530ed2cfdb66_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;160&quot; data-rawheight=&quot;160&quot; class=&quot;content_image&quot; width=&quot;160&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;▶ &lt;b&gt;叛逆背后的意义 &lt;/b&gt;◀&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;为什么娃变成这样？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;其实，孩子所表现出来的种种叛逆行为，是都是他们成长的证明，他们通过行动和言语在表达「我不一样」。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;两岁之前，孩子无法将自己和母亲的角色进行分离，会觉得「妈妈就是我我就是妈妈」。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;偶尔也会觉得所有人都和他一样，比如说他想吃糖，他就会觉得所有人都想吃糖。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;在这个阶段，他们会采用各种各样的手段来了解、试探别人跟自己的差别，甚至挑战这种人与人之间的差异。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;通过一次又一次和家长的博弈甚至是妥协，孩子才能明白现实和愿望的差距，知道「不是所有人都会围着我转」，逐渐学习到如何和这个世界和其他人平衡相处。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;▶ &lt;b&gt;父母保命不完全指南 &lt;/b&gt;◀&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;1. 有技巧地沟通&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;跟孩子沟通的时候，可以通过开放式的对话，&lt;/b&gt;而不是只能用「是」和「不」来回答的判断题，避免踩雷。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;举例：&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;——宝宝快来吃饭。&lt;br&gt;——不要吃！&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;换一个方式：&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;宝宝开饭啦，我们比比谁更先到座位上。&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;然后娃就会屁颠屁颠的跑向餐桌（机智）。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-c666a2867c2527246b4af23941598660_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;191&quot; data-rawheight=&quot;191&quot; class=&quot;content_image&quot; width=&quot;191&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;举例：&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;——崽崽，来穿衣服了。&lt;br&gt;——不！&lt;br&gt;——为什么不穿？！&lt;br&gt;——就是不！&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;换一个方式：&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;——崽崽快来，这两件外套你喜欢哪件？&lt;br&gt;——我喜欢汪汪队！&lt;br&gt;——来，我们赶紧穿上汪汪队，一起出去玩吧。&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;孩子高高兴兴顺顺利利地出门了，多和谐！&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;适当放权，是可以让这个小大人儿获得存在感的。当然，不是所有的事儿都让娃选择，比如说吃饭睡觉。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. 设置规则，忍让有度&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;孩子会用哭闹来达到目的，如果你扛不住妥协了，那这个机灵鬼就会记住这个「标准」，下次复用。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;提前设限让孩子知道「规则」的存在&lt;/b&gt;，比如说饭前一小时不能吃点心，提前就说好，说到就做到。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但也不建议事事定规则，只要是不涉及到娃自己的健康和安全，不影响到其他人的时候，就 let it be 吧。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. 接纳孩子的情绪和不完美&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;娃也不容易，全世界都不顺自己的意，充满了各种无力感和挫败感。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;接纳孩子的情绪，就像我们自己情绪不好的时候也希望被人理解。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;想哭就让他哭，想打滚就让他打滚（安全的地方），拒绝孩子的要求前可以先这么说：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;妈妈知道你很想吃巧克力，巧克力很好吃，吃不到你很难过……&lt;/blockquote&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;娃会觉得「妈妈虽然拒绝了我，但是还是爱我的」，还可以趁机教孩子认识自己的情绪，多棒。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;4. 佛系一些，不要和孩子一般见识&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我老婆也曾经跟两岁多的儿子吵到独自落泪，这些小怪物总有招逼得你变成后爹后妈，恨不得重新塞回到肚子里去。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;但我还是想说——放松些，别太放在心上，别跟小屁孩一般见识。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;觉得要爆发就离开冷静下，告诉自己「亲生的亲生的亲生的」，否则，头发越掉越多，发飙了娃也记不住，得不偿失啊。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-572ad2181471ef906778f5d3399febab_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;160&quot; data-rawheight=&quot;120&quot; class=&quot;content_image&quot; width=&quot;160&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-4616881104dfbef955228c8e296dd0e2_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;191&quot; data-rawheight=&quot;191&quot; class=&quot;content_image&quot; width=&quot;191&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2 岁这个阶段熬过去了是不是就好了？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;尽头？不存在的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-407dd31740a6cd68449eb3f9bb450fc1_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;160&quot; data-rawheight=&quot;160&quot; class=&quot;content_image&quot; width=&quot;160&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;孩子不断在成长，养个娃就跟打怪升级一样。&lt;/p&gt;&lt;p&gt;接下来，还有 3 岁、4 岁、5 岁…… 青春期……也许这本《父母养娃保命指南》还可以写的更长。&lt;/p&gt;&lt;hr&gt;&lt;p&gt;本文作者： &lt;a class=&quot;member_mention&quot; href=&quot;//www.zhihu.com/people/a7a123d45f6505eff7f1dec9bbc03d4b&quot; data-hash=&quot;a7a123d45f6505eff7f1dec9bbc03d4b&quot; data-hovercard=&quot;p$b$a7a123d45f6505eff7f1dec9bbc03d4b&quot;&gt;@叶壮&lt;/a&gt; 丨中科院心理所发展与教育心理学博士、美国心理科学协会（APS）会员&lt;/p&gt;&lt;p&gt;文章参考来源：丁妈说育儿公众号&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/ZUY_NGdl8ksqJRzBvXesHw&quot; data-draft-node=&quot;block&quot; data-draft-type=&quot;link-card&quot; data-image=&quot;https://pic4.zhimg.com/v2-c224eda23690f28b64eeaf1d94795cd7_180x120.jpg&quot; data-image-width=&quot;900&quot; data-image-height=&quot;505&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;让人闻风丧胆的「可怕的两岁」，你需要这份保命指南&lt;/a&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;面对孩子偶尔的「小情绪」，父母的沟通与接纳很重要&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;如何教孩子给情绪命名，怎么解决孩子的分离焦虑&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;关注「丁妈说育儿」养育中的难题这里都有答案&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;我有一个心愿，那就是孩子安分，岁月静好……&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-e396ed5a8a9debceecd9cbb179ffb392_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;191&quot; data-rawheight=&quot;191&quot; class=&quot;content_image&quot; width=&quot;191&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-aabf0516fb4fcdfcc81c7e3e513a6c44_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1308&quot; data-rawheight=&quot;640&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1308&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-aabf0516fb4fcdfcc81c7e3e513a6c44_r.jpg&quot;&gt;&lt;/figure&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-aabf0516fb4fcdfcc81c7e3e513a6c44_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="1308" data-rawheight="640" data-watermark="" data-original-src="" data-watermark-src="" data-private-watermark-src="" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-aabf0516fb4fcdfcc81c7e3e513a6c44_r.jpg">
+<b>「terrible two」</b>，中文叫做<b>「可怕的两岁」</b>。只要经历过的妈妈都会有话说，还没经历的想必也都听说过。 这个时期的宝宝，一夜之间就从<b>天使宝宝</b>变成<b>残酷嗜血的大型杀伤性武器</b>，破坏你的情绪，撕扯你的耐性，让你无处可逃…… ▶ <b>terrible 2 战况说明 </b>◀ <b>…</b>
+
+<a href="/question/31271400/answer/480672594" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-08-29" target="_blank" href="/question/31271400/answer/480672594">编辑于 2018-08-29</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-4691272"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>51 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic1.zhimg.com/v2-eb8f2ac7a8c3aecbffbd620f773cf47e_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="5">
+<h2><a class="question_link" href="/question/64931840/answer/480720241" target="_blank" data-id="18199227" data-za-element-name="Title">
+如何看待喜欢玩数独却连微积分都不会的人？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="117473984"
+data-atoken="480720241"
+data-collapsed="0"
+data-created="1535511553"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/64931840/answer/480720241">
+<meta itemprop="answer-id" content="117473984">
+<meta itemprop="answer-url-token" content="480720241">
+<a class="zg-anchor-hidden" name="answer-117473984"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1381</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1381</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$GalAster"
+target="_blank" href="/people/GalAster"
+>酱紫君</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/GalAster#hilightbadge" target="_blank">数学话题优秀回答者</a></span>
+
+
+
+<span title="无视过程的结果论者" class="bio">
+无视过程的结果论者
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1381">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1381</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="18199227" data-action="/answer/content" data-author-name="酱紫君" data-entry-url="/question/64931840/answer/480720241">
+
+<textarea hidden class="content">&lt;p&gt;道友这是看不起我组合学的小弟数独咯?&lt;/p&gt;&lt;p&gt;我大组合学, 立说两千余年&lt;/p&gt;&lt;p&gt;大师守定理, 天才死难题&lt;/p&gt;&lt;p&gt;不展开, 无约等, 不逼近, 无误差&lt;/p&gt;&lt;p&gt;数学理论新发明, 世界难题不断绝&lt;/p&gt;&lt;p&gt;数学正统在组合, 分析小辈何足道&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;//www.zhihu.com/equation?tex=%5Ccolor%7Bred%7D%7B%E8%9B%AE%E5%A4%B7%3A+%7D%5Cint+_%7Ba%7D%5E%7Bb%7Df%28x%29%5C%2Cdg%28x%29%5C+%5Cmathtt%7Bwhere%7D%5C++%5Cmu+_%7Bg%7D%28E%29%3D%5Cinf+%5Cleft%5C%7B%5Csum+_%7Bi%7D%5Cmu+_%7Bg%7D%28I_%7Bi%7D%29%5C+%3A%5C+E%5Csubset+%5Cbigcup+_%7Bi%7DI_%7Bi%7D%5Cright%5C%7D&quot; alt=&quot;\color{red}{蛮夷: }\int _{a}^{b}f(x)\,dg(x)\ \mathtt{where}\  \mu _{g}(E)=\inf \left\{\sum _{i}\mu _{g}(I_{i})\ :\ E\subset \bigcup _{i}I_{i}\right\}&quot; eeimg=&quot;1&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;//www.zhihu.com/equation?tex=%5Ccolor%7Bblue%7D%7B%E6%AD%A3%E7%BB%9F%3A+%7D%5CPhi+%28t%2Cu%29%3D%5Cexp+%5Cleft%28u%5Ctimes+%5Csum+_%7Bm%5Cgeq+1%7Dx_%7Bm%7D%7B%5Cfrac+%7Bt%5E%7Bm%7D%7D%7Bm%21%7D%7D%5Cright%29%3D1%2B%5Csum+_%7Bn%5Cgeq+1%7D%5Cleft%5C%7B%5Csum+_%7Bk%3D1%7D%5E%7Bn%7DB_%7Bn%2Ck%7D%28x_%7B1%7D%2Cx_%7B2%7D%2C%5Cldots+%29u%5E%7Bk%7D%5Cright%5C%7D%7B%5Cfrac+%7Bt%5E%7Bn%7D%7D%7Bn%21%7D%7D&quot; alt=&quot;\color{blue}{正统: }\Phi (t,u)=\exp \left(u\times \sum _{m\geq 1}x_{m}{\frac {t^{m}}{m!}}\right)=1+\sum _{n\geq 1}\left\{\sum _{k=1}^{n}B_{n,k}(x_{1},x_{2},\ldots )u^{k}\right\}{\frac {t^{n}}{n!}}&quot; eeimg=&quot;1&quot;&gt;&lt;/p&gt;&lt;p&gt;&amp;lt;&amp;lt;假装有图, 自行脑补&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;驱逐微积分, 还我组合学&lt;/p&gt;&lt;hr&gt;&lt;p&gt;你要是多研究研究数独, 投个论文也是轻轻松松.&lt;/p&gt;&lt;p&gt;合法数独有  6670903752021072936960 种你知道怎么算吗?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.afjarvis.staff.shef.ac.uk/sudoku/bertram.html&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;http://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;afjarvis.staff.shef.ac.uk&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;/sudoku/bertram.html&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;本质不同的数独有 5472730538 种你知道怎么证的吗?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.afjarvis.staff.shef.ac.uk/sudoku/sudgroup.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;The symmetry group of sudoku&lt;/a&gt;&lt;/p&gt;&lt;p&gt;唯一解数独至少要17个线索你会证吗?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//arxiv.org/abs/1201.0749&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Arxiv: Solving the Sudoku Minimum Number of Clues Problem&lt;/a&gt;&lt;/p&gt;&lt;p&gt;解数独是NPH你会证吗? 找到数独的另一个解也是NPH你会证吗?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www-imai.is.s.u-tokyo.ac.jp/%7Eyato/data2/MasterThesis.pdf&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;別解問題の計算論的複雑さと完全性およびパズルへの応用&lt;/a&gt;&lt;/p&gt;&lt;p&gt;数独怎么规约到01规划你会吗, 怎么规约到 SAT 你知道吗?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//syntacticsalt.com/blog/2016-03-07-solving-sudoku-via-sat.html%3Futm_source%3Dtuicool%26utm_medium%3Dreferral&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Solving sudoku via SAT&lt;/a&gt;&lt;/p&gt;&lt;p&gt;舞链算法听说过没, 会写吗?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.geometer.org/mathcircles/sudoku.pdf&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;http://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;geometer.org/mathcircle&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;s/sudoku.pdf&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;50ms 解数独的算法写的出来吗?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/Moe-Net/Deus/blob/master/Packages/Sudoku.m&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Github: Moe-Net/Deus/blob/master/Packages/Sudoku.m&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;谁TM告诉你高等数学就只有微积分, 大学数学就只有分析学的......&lt;/p&gt;&lt;p&gt;点开 Arxiv:math, 多看论文少说话: &lt;a href=&quot;//link.zhihu.com/?target=https%3A//arxiv.org/search/%3Fquery%3Dsudoku%26searchtype%3Dall%26source%3Dheader&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Search | arXiv e-print repository&lt;/a&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&amp;lt;&amp;lt;醒醒组合学已经删光啦....&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+道友这是看不起我组合学的小弟数独咯?我大组合学, 立说两千余年大师守定理, 天才死难题不展开, 无约等, 不逼近, 无误差数学理论新发明, 世界难题不断绝数学正统在组合, 分析小辈何足道\color{red}{蛮夷: }\int _{a}^{b}f(x)\,dg(x)\ \mathtt{where}\ \mu _{…
+
+<a href="/question/64931840/answer/480720241" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/64931840/answer/480720241">发布于 2018-08-29</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-18199227"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>75 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+<!-- <div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="SignFlow SignFlow--bordered" id="SidebarSignFlow">
+<div class="SignFlow-panel">
+<div class="title register">
+<h1>加入知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view register SignupForm" data-za-module="SignUpForm">
+<form action="/register/email" method="POST">
+<div class="input-wrapper">
+<input type="text" name="fullname" aria-label="姓名" data-placeholder="姓名" required>
+</div>
+<div class="input-wrapper">
+
+<input type="text" name="phone_num" class="account" aria-label="手机号" data-placeholder="手机号" required>
+
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" hidden> 
+<input type="password" name="password" aria-label="密码" data-placeholder="密码（不少于 8 位）" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="注册" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<span>已有帐号？<a href="#" class="switch-to-login">登录</a></span>
+</div>
+</form>
+</div>
+</div>
+<div class="SignFlow-panel" hidden>
+<div class="LoginForm">
+<div class="title login">
+<h1>登录知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view login" data-za-module="SignInForm">
+<form method="POST">
+<div class="input-wrapper">
+<input type="text" name="account" class="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="登录" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<label class="remember-me"><input type="checkbox" name="remember_me" checked value="true">记住我</label>
+<span class="middot">·</span>
+<button class="unable-login" type="button">无法登录？</button>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+<div class="zm-side-section">
+<div class="DownloadApp">
+<button class="DownloadApp-button">
+<span class="sprite-global-icon-qrcode"></span>
+下载知乎 App
+</button>
+</div>
+</div>
+
+
+<div class="shameimaru-placeholder" data-loc="explore_up" data-params='{}'></div>
+
+<div class="zm-side-section explore-side-section explore-side-section-roundtable">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="/roundtable" class="zg-link-gray zg-right" data-za-c="view_roundtable" data-za-a="visit_roundtable_home" data-za-l="explore_sidebar_trending_roundtable_more">更多圆桌 &raquo;</a>
+<h3>热门圆桌</h3>
+</div>
+<ul class="list hot-roundtables">
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/roundtable/nobel2018"><img src="https://pic4.zhimg.com/v2-9698f65b9d0945ea3b22f4b3a6b4b72f_m.jpg" alt="Path" class="avatar 40" /></a>
+<div class="content">
+
+<span class="status zg-right zg-gray-normal">
+还有 4 天开始
+</span>
+
+<a href="/roundtable/nobel2018" target="_blank" data-hovercard="r$t$nobel2018">2018 诺贝尔奖巡礼</a>
+<div class="meta">
+<span>15 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>5 个问题</span>
+</div>
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/roundtable/haojiaju"><img src="https://pic2.zhimg.com/v2-118d00f56500000048afe6b519048180_m.jpg" alt="Path" class="avatar 40" /></a>
+<div class="content">
+
+<a href="/roundtable/haojiaju" target="_blank" data-hovercard="r$t$haojiaju">买一件好家具</a>
+<div class="meta">
+<span>5778 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>34 个问题</span>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+
+<a href="/topics" class="zg-link-gray zg-right">更多话题 &raquo;</a>
+
+<h3>热门话题</h3>
+</div>
+<ul class="list hot-topics">
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19588303" data-hovercard="t$b$19588303"><img src="https://pic4.zhimg.com/ebec2d3ac_m.jpg" alt="节气" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19588303" target="_blank" data-hovercard="t$b$19588303">节气</a>
+<div class="meta">
+<span>4472 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/20076653" data-hovercard="t$b$20076653"><img src="https://pic4.zhimg.com/v2-c33e30071dc81061523af41056c2aa8e_m.jpg" alt="2018 年俄罗斯世界杯" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/20076653" target="_blank" data-hovercard="t$b$20076653">2018 年俄罗斯世界杯</a>
+<div class="meta">
+<span>160904 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+<a class="question_link" href="/question/294296518" target="_blank" data-id="27676332" data-za-element-name="Title">
+如何评价世界杯亚军克罗地亚0-6惨败西班牙？
+</a>
+
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19605143" data-hovercard="t$b$19605143"><img src="https://pic3.zhimg.com/f42569491_m.jpg" alt="端午节" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19605143" target="_blank" data-hovercard="t$b$19605143">端午节</a>
+<div class="meta">
+<span>6843 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="javascript:;" id="js-hot-fav-switch" class="zg-link-gray zg-right" data-za-c="collection" data-za-a="click_trending_collections_change" data-za-l="explore_sidebar_trending_collections_collection_name">换一换</a>
+<h3>热门收藏</h3>
+</div>
+<ul class="list hot-favlists">
+<li>
+<div class="content">
+<a href="/collection/41893350" target="_blank">有意义或有意思，感动或开脑洞</a>
+<div class="meta">
+<span>8080 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>2010 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/195628558" target="_blank">真实的外国</a>
+<div class="meta">
+<span>1526 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>476 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/31174528" target="_blank">我认为的精彩回答</a>
+<div class="meta">
+<span>170 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>141 条内容</span>
+</div>
+</div>
+</li>
+
+
+
+<li>
+<div class="content">
+<a href="/collection/70070923" target="_blank">很棒的答案。●▽●</a>
+<div class="meta">
+<span>665 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>272 条内容</span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="explore_down" data-params='{}'></div>
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/terms/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2018 知乎</span>
+
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1537686968000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.758ac409.js"></script>
+<meta name="entry" content="ZH.entryExplore" data-module-id="page-main">
+
+<script type="text/zscript" znonce="d9af3cdc602641f78d9028761372b19a"></script>
+
+<input type="hidden" name="_xsrf" value="128aab54265e3285eccb1ef5a2f5faa4"/>
+</body>
+</html>
