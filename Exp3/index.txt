@@ -1,0 +1,10 @@
+http://www.zhihu.com/	httpwww.zhihu.com
+http://www.zhihu.com	httpwww.zhihu.com
+http://www.zhihu.com/topic	httpwww.zhihu.comtopic
+https://www.zhihu.com/terms	httpswww.zhihu.comterms
+https://www.zhihu.com/terms/privacy	httpswww.zhihu.comtermsprivacy
+https://www.zhihu.com/org/signup	httpswww.zhihu.comorgsignup
+https://zhuanlan.zhihu.com	httpszhuanlan.zhihu.com
+http://www.zhihu.com/roundtable	httpwww.zhihu.comroundtable
+http://www.zhihu.com/explore	httpwww.zhihu.comexplore
+http://www.zhihu.com/app	httpwww.zhihu.comapp

@@ -2,22 +2,25 @@ import threading
 import Queue
 import time
 
+
 def get_page(page):
     print 'downloading page %s' % page
     time.sleep(0.5)
     return g.get(page, [])
 
+
 def get_all_links(content):
     return content
+
 
 def working():
     while True:
         page = q.get()
-##        if varLock.acquire():
+#        if varLock.acquire():
         if page not in crawled:
-##                varLock.release()
-##        else:
-##                varLock.release()
+#                varLock.release()
+#        else:
+#                varLock.release()
             content = get_page(page)
             outlinks = get_all_links(content)
             for link in outlinks:
@@ -27,6 +30,7 @@ def working():
                 crawled.append(page)
                 varLock.release()
             q.task_done()
+
 
 g = {'A':['B', 'C', 'D'],\
      'B':['E', 'F'],\

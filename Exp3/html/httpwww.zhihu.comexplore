@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="68b9a0df8318c33224b776cdfd85ed5e">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<title>发现 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://explore">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/explore">
+<meta id="znonce" name="znonce" content="f99add6dd5444ffbba6a8f4ddd3072b1">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+</head>
+
+<body class="zhi page-explore">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li current" id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+
+
+
+<div id="zh-recommend">
+<div id="zh-recommend-title" class="page-title">
+<i class="zg-icon zg-icon-feedlist"></i>
+<span>编辑推荐</span>
+<a href="/explore/recommendations" class="zg-link-gray zg-right" data-za-c="explore" data-za-a="visit_explore_recommendations" data-za-l="editor_recommendations_more"><span>更多推荐 &raquo;</span></a>
+</div>
+<div id="zh-recommend-list">
+
+
+<div class="top-recommend-feed feed-item">
+<h2><a class="question_link" href="/question/296814730/answer/503223203" target="_blank" data-id="28235853" data-za-element-name="Title">
+为什么率先发现 PD-L1 的华人学者陈列平教授没有获得 2018 年诺贝尔生理学或医学奖？
+</a></h2>
+<div class="avatar">
+<a title="BioArtReports"
+data-hovercard="p$t$bioart"
+class="zm-item-link-avatar"
+target="_blank"
+href="/org/bioart">
+<img src="https://pic1.zhimg.com/v2-c7ce2d2b47e1072210f163396ccf1886_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+
+<div class="feed-main">
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$bioart"
+target="_blank" href="/org/bioart"
+>BioArtReports</a><span class="OrgIcon sprite-global-icon-org-14" data-tooltip="s$b$已认证的官方帐号"></span></span><span class="badge-summary">已认证的官方帐号</span>
+
+
+<span title="一心关注生命科学，只为分享更多有种、有趣、有料的信息。" class="bio">
+一心关注生命科学，只为分享更多…
+</span>
+</span>
+</div>
+<div class="zm-item-rich-text" data-resourceid="28235853" data-action="/answer/content">
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/50/v2-bbb64915de9b47268c798dcdbbe6407d_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="496" data-rawheight="242" data-watermark="" data-original-src="" data-watermark-src="" data-private-watermark-src="" data-qrcode-value="http://weixin.qq.com/r/DUwYAOrE_LeHra5j9xkf" data-tags="qrcode" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/50/v2-bbb64915de9b47268c798dcdbbe6407d_r.jpg">
+<b>本文首发于微信公众号 BioArt</b><b>BioArt，一心关注生命科学，只分享更多有种、有趣、有料的信息。</b><b>关注请扫下方二维码或微信搜索公众号BioArt。投稿、合作、转载授权事宜请联系微信ID：fullbellies</b><b>或邮箱：sinobioart@bioart.com.cn</b> <b>撰文 | 迦 溆</b> <b>责编 | 狄德罗</b> …
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="recommend-feed feed-item">
+<span class="zg-right zg-gray-normal feed-meta" >问答</span>
+<h2><a class="question_link" href="/question/297043060/answer/503193533" target="_blank" data-id="28286544" data-za-element-name="Title">
+如何通俗地理解 2018 年诺贝尔化学奖「蛋白质进化」？在我们生活中有什么实际应用？
+</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+
+<span class="zg-right zg-gray-normal feed-meta" >9527的篮球梦</span>
+
+<h2><a class="post-link" target="_blank" href="https://zhuanlan.zhihu.com/p/45006841" data-za-element-name="Title">森林狼的内乱到底因何而起？</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+<span class="zg-right zg-gray-normal feed-meta" >问答</span>
+<h2><a class="question_link" href="/question/60522025/answer/500747190" target="_blank" data-id="16432349" data-za-element-name="Title">
+如何看待现在越来越多的微信用户只展示三天的朋友圈状态？
+</a></h2>
+</div>
+
+
+
+<div class="recommend-feed feed-item">
+<span class="zg-right zg-gray-normal feed-meta" >问答</span>
+<h2><a class="question_link" href="/question/297043060/answer/503205103" target="_blank" data-id="28286544" data-za-element-name="Title">
+如何通俗地理解 2018 年诺贝尔化学奖「蛋白质进化」？在我们生活中有什么实际应用？
+</a></h2>
+</div>
+
+
+</div>
+</div>
+<div class="explore-tab" id="js-explore-tab">
+<a class="zg-anchor-hidden" name="daily-hot"></a>
+<a class="zg-anchor-hidden" name="monthly-hot"></a>
+<ul class="tab-navs clearfix">
+<li class="tab-nav"><a class="anchor" href="#daily-hot" data-za-c="explore" data-za-a="visit_explore_daily_trendings" data-za-l="explore_daily_trendings">今日最热</a></li>
+<li class="tab-nav"><a class="anchor" href="#monthly-hot" data-za-c="explore" data-za-a="visit_explore_monthly_trendings" data-za-l="explore_monthly_trendings">本月最热</a></li>
+</ul>
+<div class="tab-panel">
+<div data-type="daily" data-zop-feedlist>
+<div class="explore-feed feed-item" data-offset="1">
+<h2><a class="question_link" href="/question/293392735/answer/503793751" target="_blank" data-id="27475584" data-za-element-name="Title">
+有哪些演技长相俱佳却没有红的女演员？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121668467"
+data-atoken="503793751"
+data-collapsed="0"
+data-created="1538658527"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/293392735/answer/503793751">
+<meta itemprop="answer-id" content="121668467">
+<meta itemprop="answer-url-token" content="503793751">
+<a class="zg-anchor-hidden" name="answer-121668467"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>2006</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">2006</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$yan-fang-man-83"
+target="_blank" href="/people/yan-fang-man-83"
+>水弓山今</a></span><span title="电商/美食爱好者/体重障碍狂" class="bio">
+电商/美食爱好者/体重障碍狂
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="2006">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">2006</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27475584" data-action="/answer/content" data-author-name="水弓山今" data-entry-url="/question/293392735/answer/503793751">
+
+<textarea hidden class="content">&lt;p&gt;陈紫函算是一个吧，被嘲笑说是万年女二的她，演过很多角色。性感不输柳岩，优雅不输赵雅芝，她是一个备受争议的女明星，经常以性感出境。已经40岁的她看起来毫无岁月留下的痕迹，身材好到爆，满脸的胶原蛋白，简直就是冻龄女神！&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-0f8ee6b865fa80147e5047bf8da8dce3_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;645&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-e67317b2242dc2a545884faf094210e9_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-0f8ee6b865fa80147e5047bf8da8dce3_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-12e11ccdb4765bf32b3eb9f15956c4f4_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;682&quot; data-rawheight=&quot;933&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-a7716fe795b8ca46695c3baf16ca19dd_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;682&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-12e11ccdb4765bf32b3eb9f15956c4f4_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;她是《大汉天子》里端庄大气的平阳公主，但大众只是记住了她的脸，这部戏让她的师弟黄晓明火了。。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-e0d1fbd21b5cdfa6848ca0470189b624_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;351&quot; data-rawheight=&quot;495&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-03c8cced01324eea49d7ec78fc093d73_b.jpg&quot; class=&quot;content_image&quot; width=&quot;351&quot;&gt;&lt;/figure&gt;&lt;p&gt;刘涛版《白蛇传》里的敢爱敢恨的小青，这眉眼间的神态把青蛇诠释的恰到好处啊，与经典版青蛇陈美琪相比，更添了一抹妖气，到现在还有人叫她“小青”~然而她还是没有压的住刘涛的气势。。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-e1648b5673a057ca9ef589976ac26ec2_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;568&quot; data-rawheight=&quot;624&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-7dc0f235b5177be6d953c1845a8d9bb5_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;568&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-e1648b5673a057ca9ef589976ac26ec2_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;《倚天屠龙记》里的蛛儿，整部剧中，陈紫函的脸要么脏，要么布满伤疤，几乎没有还她完美容颜，再加上这部戏又汇集了贾静雯，高圆圆等超级美女。。。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-ac7a8fb8bbb5d0097c9608ff035f2fc9_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;558&quot; data-rawheight=&quot;394&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-0b4070eb11eb8a3ee1595af0e1830398_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;558&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-ac7a8fb8bbb5d0097c9608ff035f2fc9_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;同年她参演了《神雕侠侣》里的郭芙，美貌不输小龙女，一身行头十分亮眼~然而此剧让杨幂一举成名，单单撂下了陈紫函原地踏步。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-4c6a00441df03d71474e0afdf2ea9198_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;666&quot; data-rawheight=&quot;419&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-d13f7f66cc6742c73984442618ce411c_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;666&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-4c6a00441df03d71474e0afdf2ea9198_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;b&gt;在《东周列国·春秋篇》里的陈紫函&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;王宦娘时期。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;陈紫函的样貌基本就定格了。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;虽然有些稚嫩，但之后古装上一直没怎么变。&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-020b8917f749ea2a79a3e73ee04e0dc2_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;902&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-4faf3ab23d1513b695539de6ad055af5_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-020b8917f749ea2a79a3e73ee04e0dc2_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;自2001年出道至今15年的时间里，她前前后后拍了有近百部的作品！在百度百科上，她的作品足足有7页之多。她是《金叉谍影》里外表娇媚动人，性格沉静大方，端庄优雅的端敏郡主&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-8df14a861593857a9daf5250a5be880c_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;266&quot; data-rawheight=&quot;400&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-fe1a071d4c3e1a0cd2a601061b7f8c12_b.jpg&quot; class=&quot;content_image&quot; width=&quot;266&quot;&gt;&lt;/figure&gt;&lt;p&gt;她是《古剑奇谭》红玉&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-373a7387fad082071051b036b8977bb2_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;600&quot; data-rawheight=&quot;365&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-4f54d2a81d6858a144d5be46478e85d9_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;600&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-373a7387fad082071051b036b8977bb2_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;她是《倩女幽魂》里清丽雅致，敢爱敢恨的上官玉儿&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-83f76702f3c42fec7af0250f209ce4c6_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;574&quot; data-rawheight=&quot;405&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-317888804a9b5ca2c69efb8e2d1aa5d7_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;574&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-83f76702f3c42fec7af0250f209ce4c6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;她是《天天有喜》里的兰英，八妹，白梅瑛的八姐，天真烂漫，相信人性本善的狐狸精&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-7e6838f3ec187ada5d70ec2de96f840b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;550&quot; data-rawheight=&quot;366&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-bbd4e5e70a2d708c37083590843a8d63_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-7e6838f3ec187ada5d70ec2de96f840b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;她是雷剧《新济公活佛》里的胭脂&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-08569c3305699d39af6cfc30154c1e5d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;549&quot; data-rawheight=&quot;366&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-8ea933bcb0892579aa077fb50b018053_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;549&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-08569c3305699d39af6cfc30154c1e5d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;她是《神话》里的一代毒后吕雉，那时候的老胡还是小鲜肉一枚啊！然而，最后赚到这部电视剧好口碑的却是饰演痴情吕素的金莎。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-159f7ef45cdb1d24584d0e12103f630e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;550&quot; data-rawheight=&quot;374&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-4bfe5177012125d0a7a8f5a68f798ae0_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-159f7ef45cdb1d24584d0e12103f630e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;她是《就想赖着你》里的腹黑女友丁卉，言承旭和ella都因为此剧人气大增，陈紫函再次走红失败&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-17a98765c66f957b88fcc2521304aaf5_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;550&quot; data-rawheight=&quot;366&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-c726a029a3971f0f7b4aa0e8c7eb71ce_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-17a98765c66f957b88fcc2521304aaf5_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;再看看其他跟她相关的女星，上大学那会儿，陈紫函与蒋勤勤，金巧巧同班同寝，因相貌出众，三人并称为北电的三朵金花~&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-b7a3fbb61b514abae00a94293e16d4c5_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;546&quot; data-rawheight=&quot;561&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-8c83d49ac621a1d1f50d34cf45053701_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;546&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-b7a3fbb61b514abae00a94293e16d4c5_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;   她与蒋勤勤同届，不仅如此，她还是比赵薇，陈坤和黄晓明高两届的师姐&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-88562d05d64bb9a6e58c6a8252b4717b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;496&quot; data-rawheight=&quot;305&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-8b3142cfd6225ac0f28bcbb495aaaa3f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;496&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-88562d05d64bb9a6e58c6a8252b4717b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;当师弟师妹红的发紫，紫的都快要发黑的时候，陈紫函依旧没有红。。。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-e48a5bdb489985e9f0c195c15a246786_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;266&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-1637552847903c51d149483e9d22918d_b.jpg&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;&lt;/figure&gt;&lt;p&gt;她出道多年，不论是善良温柔的，还是阴险狠毒的，或是呆萌可爱的，陈紫函都挑战过，还被很多观众称为“古装女王”，但是却唯独没有那么一部戏、一个角色让她爆红。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-06bd8baef535796844bf87c2d0743ecf_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;550&quot; data-rawheight=&quot;365&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-be38ffab536c50528de836cd38ab6346_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-06bd8baef535796844bf87c2d0743ecf_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;2012年，从《黎明绝杀》中忠于信仰，为爱而终的国民党特工“叶子”、《江湖儿女》中豪迈直爽的土匪头子“梅姑”、和智慧与美貌并存的日本女人“康田惠子”。《活佛济公3》中古韵十足的“胭脂”、《妈妈你到底在哪里》中饱受坎坷的“若芸”，每一个角色都深入人心，演绎精彩，但依旧没有能够红。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-58d631392eb94b44288110deb4c9f01e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;450&quot; data-rawheight=&quot;292&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-a05c18ba24a33f1cdda69aaf9f4d2071_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;450&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-58d631392eb94b44288110deb4c9f01e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;还被叶璇在节目中嘲笑说是千年女二&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-435e8d7e60530faf302214de0f54f574_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;491&quot; data-rawheight=&quot;268&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-6098cf1509fabfab04582a5bfa8c295d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;491&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-435e8d7e60530faf302214de0f54f574_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;虽然她说的是事实，不过那么多观众面前说出来，陈紫涵颜面尽失。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-590eff5dd1c2505ed23d234e1d98b7b3_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;554&quot; data-rawheight=&quot;390&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-96c0d64c1ee612421d61afc8ffc31b3b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;554&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-590eff5dd1c2505ed23d234e1d98b7b3_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;不过叶璇并没有因此罢休，而是继续让她难堪&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-cb829d105cdb84b6c52d9bf404289fd6_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;554&quot; data-rawheight=&quot;415&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-6063862c6ac6637a0995687a5189a32e_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;554&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-cb829d105cdb84b6c52d9bf404289fd6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-f7269d23d29754caf7154abaa65b12a4_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;554&quot; data-rawheight=&quot;439&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-b25ce0abb30a94deff6012832db33b9d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;554&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-f7269d23d29754caf7154abaa65b12a4_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;暗指陈紫函是小三，面对这种尴尬的场面，陈紫函&lt;b&gt;“我特别喜欢你”，&lt;/b&gt;一句话尽在不言中。很有女神的大度包容风范。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-b8fb83c32204e7910d47520bd78fef2a_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;494&quot; data-rawheight=&quot;278&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-707c7c23090f6e2757826aeff81f0159_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;494&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-b8fb83c32204e7910d47520bd78fef2a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;陈紫函的颜值和演技加在一起真的能在圈里面排上号，她的实力本来不应该让她仅仅走到今天的这个位置，也不能说她完全没红过，一直被称“古装女王”的她在她出镜率最高的那几年一直是华谊的电视剧当家花旦，为公司赚的钱甚至并不比几个专攻电影的一姐少。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-5aca1360b5dbae7eee153adeddc424d3_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;550&quot; data-rawheight=&quot;367&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-2c03122c0f5c8255cae3486a7764d806_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;550&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-5aca1360b5dbae7eee153adeddc424d3_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;但她始终在二线徘徊，甚至连媒体都开始不明白，追问她：有没有觉得自己演了这么多戏，为什么还不红？陈紫函回答：随缘吧，火不火不重要，自己只是喜欢演戏，喜欢拍戏的感觉，这才是一个好演员的素养和心态。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-05c52cc811102acc7bbdd2e20d2f4950_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;715&quot; data-rawheight=&quot;939&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-1bc5c6f7eed3daa0ffaa39a1a4fff321_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;715&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-05c52cc811102acc7bbdd2e20d2f4950_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic3.zhimg.com/50/v2-89b53c0c98525da2b8b43cd4a6329a21_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="500" data-rawheight="645" data-watermark="watermark" data-original-src="v2-89b53c0c98525da2b8b43cd4a6329a21" data-watermark-src="v2-0f8ee6b865fa80147e5047bf8da8dce3" data-private-watermark-src="v2-e67317b2242dc2a545884faf094210e9" data-tags="politic" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic3.zhimg.com/50/v2-89b53c0c98525da2b8b43cd4a6329a21_r.jpg">
+陈紫函算是一个吧，被嘲笑说是万年女二的她，演过很多角色。性感不输柳岩，优雅不输赵雅芝，她是一个备受争议的女明星，经常以性感出境。已经40岁的她看起来毫无岁月留下的痕迹，身材好到爆，满脸的胶原蛋白，简直就是冻龄女神！她是《大汉天子》里端庄大气…
+
+<a href="/question/293392735/answer/503793751" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-04" target="_blank" href="/question/293392735/answer/503793751">编辑于 2018-10-04</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27475584"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>227 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="2">
+<h2><a class="question_link" href="/question/37421586/answer/503798379" target="_blank" data-id="7175596" data-za-element-name="Title">
+医生遇到过哪些「这居然都能死」的病人？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121669308"
+data-atoken="503798379"
+data-collapsed="0"
+data-created="1538658972"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/37421586/answer/503798379">
+<meta itemprop="answer-id" content="121669308">
+<meta itemprop="answer-url-token" content="503798379">
+<a class="zg-anchor-hidden" name="answer-121669308"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>216</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">216</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$deng-bo-yun"
+target="_blank" href="/people/deng-bo-yun"
+>邓铂鋆</a></span><span title="克莱登大学教育处选课系统管理员（非事业编）" class="bio">
+克莱登大学教育处选课系统管理员（非事业…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="216">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">216</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="7175596" data-action="/answer/content" data-author-name="邓铂鋆" data-entry-url="/question/37421586/answer/503798379">
+
+<textarea hidden class="content">&lt;p&gt;A是VIP，跟院长谈笑风生。A住院做手术，各路大佬照拂，术后情况平稳。A早年有心脏病，由于身份特殊，一直没人管得了他戒烟，住院期间因为抽烟被护士抓住批评了好几次。某晚，A偷偷到阳台上抽烟，被护士发现后掐灭烟头返回病房。之后，A自觉喉咙难受，A觉得抽烟着凉这事跟医护人员讲了会丢面子，没跟医护人员说，自服中成药含化片就睡了。至第二天早晨，A不适症状加重，开始出现胸闷、气喘，仍然自认为是受凉感冒，没有向医护人员求助。上午8点，医生查房时发现A身体不适，给予心电监护、吸氧等处置。8点30分左右，A突然意识不清、呼吸困难，血氧饱和度88，心率190次/分，血压220/100mmHg。医护人员开始抢救，给予利尿、平喘、降压、镇静等药物处理，最终A死于急性心梗导致的心源性猝死。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;B是一名年高德勋的长老，VIP病人。B患有多种老年慢性病，在医院的悉心治疗下，病情平稳，生活基本自理，可以在病房见客、读书。由于长期患有多种老年慢性疾病，B存在电解质紊乱、低钠低钾血症、抗利尿激素分泌不当综合症等问题。为此，医生给B开了盐剂、氢化可的松、托伐普坦等药物。但是，服用盐剂容易口干，B平日饮水较多，增加了心脏负担。某日，B出现药物不良反应，医生调整药物，导致B的肺部感染加重，并发快速心律失常；再加上B日常饮水较多，心脏前负荷重，诱发了急性左心衰。深夜，B口渴醒来，怕影响护工休息，摸黑起身饮水，不慎呛咳，致病情加剧，死于呼吸循环衰竭。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在生理状态下，人的腹膜腔是个潜在的腔隙，除了少量的润滑液外，里面没有气体是真空的，犹如未充气的薄膜塑料袋，前后壁是紧贴在一起没有张开。腹腔内的脏器，它们在腹膜腔里就如真空包装袋里的物品，由于表面同样包裹了这层光滑的腹膜，使得脏器间能小范围的相互滑动。实施腹腔镜微创手术的时候，医生需要在手术的时候向病人腹腔充入气体，将前后腹壁分开，形成诊断和治疗的操作空间，这一操作称为人工气腹。某日，医生在操作腹腔镜微创手术的时候，麻醉医生突然发现病人的静脉点滴不滴了。麻醉医生用空注射器回抽输液管路，居然抽出大量气体……事后查明，人工气腹压力过高，气体通过手术中损伤的静脉血管，进入了病人的循环系统，导致病人因气体栓塞死亡。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+A是VIP，跟院长谈笑风生。A住院做手术，各路大佬照拂，术后情况平稳。A早年有心脏病，由于身份特殊，一直没人管得了他戒烟，住院期间因为抽烟被护士抓住批评了好几次。某晚，A偷偷到阳台上抽烟，被护士发现后掐灭烟头返回病房。之后，A自觉喉咙难受，A觉得…
+
+<a href="/question/37421586/answer/503798379" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-04" target="_blank" href="/question/37421586/answer/503798379">编辑于 2018-10-05</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-7175596"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>30 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="3">
+<h2><a class="question_link" href="/question/293415543/answer/503973729" target="_blank" data-id="27480659" data-za-element-name="Title">
+数学中有哪些表面没有关系但是内在有深刻联系的问题？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121701212"
+data-atoken="503973729"
+data-collapsed="0"
+data-created="1538681911"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/293415543/answer/503973729">
+<meta itemprop="answer-id" content="121701212">
+<meta itemprop="answer-url-token" content="503973729">
+<a class="zg-anchor-hidden" name="answer-121701212"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>31</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">31</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$yanze-chen"
+target="_blank" href="/people/yanze-chen"
+>Ze Brother</a></span><span title="数学。数论。热爱编程" class="bio">
+数学。数论。热爱编程
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="31">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">31</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27480659" data-action="/answer/content" data-author-name="Ze Brother" data-entry-url="/question/293415543/answer/503973729">
+
+<textarea hidden class="content">&lt;p&gt;随便答一个。（好像其他答案也提到了Ramanujan Conjecture，我献丑了。）&lt;/p&gt;&lt;p&gt;Ramanujan Conjecture 最简单的表述是说 &lt;img src=&quot;//www.zhihu.com/equation?tex=%5CDelta%28z%29%3Dq%5Cprod_%7Bn%3D1%7D%5E%5Cinfty%281-q%5En%29%5E%7B24%7D&quot; alt=&quot;\Delta(z)=q\prod_{n=1}^\infty(1-q^n)^{24}&quot; eeimg=&quot;1&quot;&gt; 作为关于q的形式幂级数展开 &lt;img src=&quot;//www.zhihu.com/equation?tex=%5Csum_%7Bn%3D1%7D%5E%5Cinfty+a_nq%5En&quot; alt=&quot;\sum_{n=1}^\infty a_nq^n&quot; eeimg=&quot;1&quot;&gt; 的系数 &lt;img src=&quot;//www.zhihu.com/equation?tex=a_n&quot; alt=&quot;a_n&quot; eeimg=&quot;1&quot;&gt; 满足 &lt;img src=&quot;//www.zhihu.com/equation?tex=%7Ca_p%7C%3C2p%5E%5Cfrac%7B11%7D%7B2%7D&quot; alt=&quot;|a_p|&amp;lt;2p^\frac{11}{2}&quot; eeimg=&quot;1&quot;&gt; 。考虑这个函数的动机是，如果 &lt;img src=&quot;//www.zhihu.com/equation?tex=q%3D2%5Cpi+iz&quot; alt=&quot;q=2\pi iz&quot; eeimg=&quot;1&quot;&gt; ， &lt;img src=&quot;//www.zhihu.com/equation?tex=z&quot; alt=&quot;z&quot; eeimg=&quot;1&quot;&gt; 取之于上半平面，把上半平面看成 &lt;img src=&quot;//www.zhihu.com/equation?tex=%5Cmathbb%7BC%7D&quot; alt=&quot;\mathbb{C}&quot; eeimg=&quot;1&quot;&gt; 上椭圆曲线的模空间，那么 &lt;img src=&quot;//www.zhihu.com/equation?tex=z&quot; alt=&quot;z&quot; eeimg=&quot;1&quot;&gt; 对应的椭圆曲线的判别式由 &lt;img src=&quot;//www.zhihu.com/equation?tex=%5CDelta%28z%29&quot; alt=&quot;\Delta(z)&quot; eeimg=&quot;1&quot;&gt; 给出。 &lt;img src=&quot;//www.zhihu.com/equation?tex=%5CDelta%28z%29&quot; alt=&quot;\Delta(z)&quot; eeimg=&quot;1&quot;&gt; 是一个 &lt;img src=&quot;//www.zhihu.com/equation?tex=SL_2%28%5Cmathbb%7BZ%7D%29&quot; alt=&quot;SL_2(\mathbb{Z})&quot; eeimg=&quot;1&quot;&gt; 上秩为12的cusp form。&lt;/p&gt;&lt;p&gt;这个最简单的表述形式，很多高中生都能看懂，然而这个定理最终的证明居然是Deligne在70年代证明著名的Weil猜想的一个副产品。简单的说，1970年前后Deligne对每个cusp form构造了一个 &lt;img src=&quot;//www.zhihu.com/equation?tex=%5Cell&quot; alt=&quot;\ell&quot; eeimg=&quot;1&quot;&gt; -adic Galois表示，在这个构造中得到了一个副产品，就是Weil Conjecture implies Ramanujan Conjecture。几年后Deligne证明了Weil Conjecture，也就顺便解决了Ramanujan Conjecture。整个过程中用到了当时代数几何最新最重要最深刻的工具，也就是etale cohomology，which is still highly nontrivial today.&lt;/p&gt;&lt;p&gt;事实上这个定理的上述陈述完全是平凡的，somehow用到的知识量小于哥德巴赫猜想（连素数的定义都不需要知道，只涉及四则运算），然而证明却（至少）用到了arithmetic theory of modular curves，涵盖了大量的复几何、复分析、代数几何、数论，也算是非常以小见大了。&lt;/p&gt;&lt;p&gt;不仅如此，这个猜想还有很多推广。最简单是推广到全部cuspidal newform，然后是推广为“GL（2）上的cuspidal automorphic representation的local component一定是tempered”。为了做这个推广，首先需要定义一个classical modular form对应的automorphic representation，然后根据tensor product theorem他一定是local component的restricted tensor product。在spherical p-adic component上，classical理论的Hecke operator可以解释为spherical Hecke algebra的action的特征值，于是经典的Ramanujan conjecture等价于这个local component is tempered。事实上在 &lt;img src=&quot;//www.zhihu.com/equation?tex=%5Cinfty&quot; alt=&quot;\infty&quot; eeimg=&quot;1&quot;&gt; component上，tempered 等价于 Selberg conjecture。&lt;/p&gt;&lt;p&gt;最后，如果想继续推广到更一般的connected reductive group，直接的推广是错的，需要加上Whittaker model存在的条件。当然generalized Ramanujan conjecture可以被Langlands functorality推出。在这个过程中，更多的数学被联系了进来，之间的联系也更加深刻而复杂。&lt;/p&gt;&lt;p&gt;暂时没时间了，先写这么多，有人看我再补充。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+随便答一个。（好像其他答案也提到了Ramanujan Conjecture，我献丑了。）Ramanujan Conjecture 最简单的表述是说 \Delta(z)=q\prod_{n=1}^\infty(1-q^n)^{24} 作为关于q的形式幂级数展开 \sum_{n=1}^\infty a_nq^n 的系数 a_n 满足 |a_p|&lt;2p^\frac{11}{2} …
+
+<a href="/question/293415543/answer/503973729" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-05" target="_blank" href="/question/293415543/answer/503973729">编辑于 2018-10-05</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27480659"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>1 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="4">
+<h2><a class="question_link" href="/question/296140869/answer/503908406" target="_blank" data-id="28086271" data-za-element-name="Title">
+动漫中有哪些外挂般的技能设定呢？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121689332"
+data-atoken="503908406"
+data-collapsed="0"
+data-created="1538669022"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/296140869/answer/503908406">
+<meta itemprop="answer-id" content="121689332">
+<meta itemprop="answer-url-token" content="503908406">
+<a class="zg-anchor-hidden" name="answer-121689332"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>51</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">51</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+<span class="name">知乎用户</span></span><span title="小目标：日本漫画规制迷思" class="bio">
+小目标：日本漫画规制迷思
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="51">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">51</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28086271" data-action="/answer/content" data-author-name="zecy" data-entry-url="/question/296140869/answer/503908406">
+
+<textarea hidden class="content">&lt;p&gt;.&lt;/p&gt;&lt;p&gt;概念系能力都有成为外挂和挂中挂的潜力。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;其中那种干涉概念、以概念为操作对象的能力，算是外挂能力；而那种能修改概念的能力，就是挂中挂。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;什么叫概念系能力呢，直接理解就是能够干涉「概念」的、对「概念」起作用的能力。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;什么叫「概念」呢，你可以看作是对某样食物的定义，可以看作是对某样事物的理解，可以看作是对某样事物的认知。前面的那三个短句，就是「概念」的概念。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;所谓外挂，就是程序之外的程序，规则之外的规则。概念就是世界的规则，能干涉规则、修改规则，就是外挂无疑。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;比如说，玩一个游戏，NPC 有「近战 NPC 」和「远攻 NPC 」两种，不管这两种 NPC 有多少数量，「近战 NPC 」和「远攻 NPC 」这两个概念分别都能覆盖各自所有的 NPC 。那么所谓的干涉概念，就是能够以「近战 NPC 」或者「远攻 NPC 」为对象进行干涉，比如让全部「近战 NPC 」都死掉。而修改概念，就是能把「近战 NPC 」改成「远攻 NPC 」。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;典型的概念系能力有哪些呢。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;比如干涉「生死」的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;时髦点的「直死魔眼」，朴素点的「死亡笔记」。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;比如干涉「运气」的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;像幸运超人这种的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;还有比如干涉「重量」「方向」「位置」「大小」「强弱」「快慢」「冷热」「因果」等等的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;再有比如干涉「效果」的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;像我们见得最多的就是「魔法免疫」类的，不管是什么魔法，反正都能消除，这里「魔法」就是一种概念。典型的主角或者最终 BOSS 的能力。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;另外时间系、空间系虽然因为有明确的特征通常独立讨论，但根据具体的设置也可以是概念系能力。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;另外还有一种就是经常配给背景角色（典型如神）的「全知全能」。如果是配给 BOSS 的话会是大幅削弱或者是设置了明显弱点的版本。比如《魔法禁书目录》第二卷的「金色大衍术」就是大幅削弱的全能魔法。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;当然也有《境界线上的地平线》这种大家的武器都像开挂一样，于是就神仙打架的作品。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+.概念系能力都有成为外挂和挂中挂的潜力。 其中那种干涉概念、以概念为操作对象的能力，算是外挂能力；而那种能修改概念的能力，就是挂中挂。 什么叫概念系能力呢，直接理解就是能够干涉「概念」的、对「概念」起作用的能力。 什么叫「概念」呢，你可以看作…
+
+<a href="/question/296140869/answer/503908406" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/296140869/answer/503908406">发布于 2018-10-05</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28086271"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>16 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="5">
+<h2><a class="question_link" href="/question/297189044/answer/503851307" target="_blank" data-id="28318836" data-za-element-name="Title">
+上海为什么要叫上海，不叫海上？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121678969"
+data-atoken="503851307"
+data-collapsed="0"
+data-created="1538663871"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/297189044/answer/503851307">
+<meta itemprop="answer-id" content="121678969">
+<meta itemprop="answer-url-token" content="503851307">
+<a class="zg-anchor-hidden" name="answer-121678969"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>609</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">609</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$ji-lu-77-98"
+target="_blank" href="/people/ji-lu-77-98"
+>甪甪</a></span><span title="硬件工程师" class="bio">
+硬件工程师
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="609">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">609</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28318836" data-action="/answer/content" data-author-name="甪甪" data-entry-url="/question/297189044/answer/503851307">
+
+<textarea hidden class="content">&lt;p&gt;[转载]1955年，毛主席到上海视察，游览在黄浦江上，毛泽东突然向陪同人员提一个问题:“你们知道上海还有个下海吗？”在场的上海人，无言以对，谁也回答不出来。毛泽东说:“应该有。”&lt;/p&gt;&lt;p&gt;毛主席的话，如同在黄浦江中投下一块大石头，于是上海市开始寻找这个不为人知的下海。&lt;/p&gt;&lt;p&gt;找来找去，还真的找到了。在虹口区发现一座叫下海庙的小庙，位于昆明路73号。&lt;/p&gt;&lt;p&gt;据史料记载，下海庙始建于清乾隆年间。从前，这一带多是渔村。渔民出海打鱼，需要祈求神的保佑，便建了这座小庙，奉祀护海女神妈祖。下海庙俗称夏海庙、义王庙，位于虹口区昆明路73号，始建时仅有房屋9间。嘉庆年间荒塌，又重修。咸丰四年(公元1854年)又购地8亩多，逐步扩建。光绪二十五年(公元1899年)，又增建后殿等10余间。抗日战争初期，下海庙被日军炮火焚毁。1941年起，重新修建。&lt;/p&gt;&lt;p&gt;为了寻找下海人们才注意到它的存在，这时候的它，小得不能再小，而且破烂不堪。&lt;/p&gt;&lt;p&gt;庙小故事多。上海人通过这座小庙破解了上海、下海的由来。&lt;/p&gt;&lt;p&gt;黄浦江的“浦”，在吴方言区原意是小河，多指人工河。宋代为解决吴淞江泄水能力，在吴淞江两岸，大约每隔五里开通一条进入吴淞江的水道，这种支流水道称为浦。吴淞江两岸共有18个浦。&lt;/p&gt;&lt;p&gt;当时，吴淞江现在虹口区海门路一段，南岸有一个浦，称作上海浦。与上海浦相对着，北岸有个浦，叫下海浦。&lt;/p&gt;&lt;p&gt;江南河流命名有个习惯，接近源头的支流称为里或上，靠近下游的称为外或下。上海浦和下海浦，因为位置得名。&lt;/p&gt;&lt;p&gt;上海之名起源于上海浦，但是最后成名是因为酒。&lt;/p&gt;&lt;p&gt;上海本是河流名。后来在这一带设置了专门管理酒税的机关——酒务。因地近上海浦，就称为上海务。上海务滨江临海，人流众多，交易繁忙，税收大增。因为酒，上海务的名气也像酒一样逐渐有了度数。&lt;/p&gt;&lt;p&gt;鸦片战争后，上海成为对外通商口岸，一下子繁荣起来，竟然发展成为世界最大的都会之一。&lt;/p&gt;&lt;p&gt;从一条小河，变成收税的办公场所，再变成世界最大的城市之一，这是上海的经历。&lt;/p&gt;&lt;p&gt;而它的比肩兄弟下海，走的却是另一条道路。&lt;/p&gt;&lt;p&gt;明初，因吴淞江河道已经严重淤塞，另外开挖了一条新河，这条河大致是现在的苏州河下游。于是，下海浦被抛弃了。清末，黄浦江西岸被辟为租界，兴建船坞、码头、堆栈、工厂，下海浦渐渐淤塞。1922年，下海浦被完全填埋了。原来的下海浦变成街路，就是现在的海门路。下海没有了。只有一个残破小庙——下海庙，记着它的往事。&lt;/p&gt;&lt;p&gt;可喜的是，1990年，经上海市和虹口区宗教事务部门批准，由上海市佛教协会筹建修复下海庙。1992年1月30日正式开放，恢复为佛教活动场所。&lt;/p&gt;&lt;p&gt;有意思的是，庙中有一块纪念碑，落款处刻的是“上海下海庙”。上海、下海肩并肩，又坐在一起了。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+[转载]1955年，毛主席到上海视察，游览在黄浦江上，毛泽东突然向陪同人员提一个问题:“你们知道上海还有个下海吗？”在场的上海人，无言以对，谁也回答不出来。毛泽东说:“应该有。”毛主席的话，如同在黄浦江中投下一块大石头，于是上海市开始寻找这个不为…
+
+<a href="/question/297189044/answer/503851307" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/297189044/answer/503851307">发布于 2018-10-04</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28318836"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>69 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-panel">
+<div data-type="monthly" data-zop-feedlist>
+<div class="explore-feed feed-item" data-offset="1">
+<h2><a class="question_link" href="/question/289042749/answer/492092337" target="_blank" data-id="26508177" data-za-element-name="Title">
+在一个有爱的家庭里成长对一个人影响有多大?
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="119540285"
+data-atoken="492092337"
+data-collapsed="0"
+data-created="1537003709"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/289042749/answer/492092337">
+<meta itemprop="answer-id" content="119540285">
+<meta itemprop="answer-url-token" content="492092337">
+<a class="zg-anchor-hidden" name="answer-119540285"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>946</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">946</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$wan-jin-you-39"
+target="_blank" href="/people/wan-jin-you-39"
+>万金油</a></span><span title="wjydwsw不讲正确无用的套话，探究事物背后的真相" class="bio">
+wjydwsw不讲正确无用的套话，探究事物背…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="946">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">946</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="26508177" data-action="/answer/content" data-author-name="万金油" data-entry-url="/question/289042749/answer/492092337">
+
+<textarea hidden class="content">&lt;p&gt;做买卖的时候，本钱很重要。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;小本钱只能做小生意，大本钱可以做大生意。&lt;/p&gt;&lt;p&gt;没有足够的本钱，即使看到大机会也抓不住。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;做生意有赚有赔，不敢赔钱那就做不了生意。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;本钱少的话经不起赔钱，风险大的生意不敢做，&lt;/p&gt;&lt;p&gt;做风险小的生意，又被打价格战的同行挤死。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;生意还没做起来就想着盈利，从生意里赶紧榨取利润，&lt;/p&gt;&lt;p&gt;结果作大死，把前途光明的好生意搞砸了，悔之晚矣。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;本钱多的话就经得住赔钱，敢于去尝试高风险高回报的生意，&lt;/p&gt;&lt;p&gt;还敢故意去赔钱，前期一直亏本做生意，烧钱换流量培育市场。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;于是把经不起烧钱打不起价格战和急于盈利的同行全都挤死了，&lt;/p&gt;&lt;p&gt;自己垄断整个市场，盈利自然很多。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在有爱的家庭里成长，也是人生的本钱。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;人和人交往，是通过付出、回馈的正循环来加深关系的。&lt;/p&gt;&lt;p&gt;你敬我一尺，我敬你一丈，两人之间的关系逐步升温。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但也有很多人，即使我们付出了很多爱，但得不到回报。&lt;/p&gt;&lt;p&gt;如果一下子付出很多，很可能收不回对应的爱。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;于是，爱的本钱少的人，就不敢很快付出很多爱，&lt;/p&gt;&lt;p&gt;总是等待别人先爱自己，别人付出多少自己再付出多少。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;爱的本钱多的人，不大在意爱的投资上有损失。&lt;/p&gt;&lt;p&gt;敢于主动出击，而不是被动等待，因此收获爱的几率提高很多。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;爱的本钱多的人，敢于一开始就投资很多爱，追加投资很多很快，&lt;/p&gt;&lt;p&gt;因此能够迅速成为被投资人的大股东，分享被投资人的丰厚回报。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;做生意需要经验，爱也需要经验。没有经验的人，&lt;/p&gt;&lt;p&gt;既不知道该怎么去爱别人，也不知道怎么鉴定别人的爱。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;从小目睹父母如何做生意，那自己做生意会少走很多弯路。&lt;/p&gt;&lt;p&gt;从小就有足够多的爱，很少需要通过失败的经验学习如何爱人。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;赚钱不急于一时，可以慢慢学习赚钱，从第一桶金做起。&lt;/p&gt;&lt;p&gt;爱人却需要赶时间，错过了青春年华，就很难收获爱情和友情了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;爱和钱都是维系一个人生存的基本条件，&lt;/p&gt;&lt;p&gt;父母最好给自己的孩子提供足够的本钱。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果爱和钱都足够，那自然最好，&lt;/p&gt;&lt;p&gt;如果不能给孩子足够的钱，那至少可以给他们足够的爱。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+做买卖的时候，本钱很重要。 小本钱只能做小生意，大本钱可以做大生意。没有足够的本钱，即使看到大机会也抓不住。 做生意有赚有赔，不敢赔钱那就做不了生意。 本钱少的话经不起赔钱，风险大的生意不敢做，做风险小的生意，又被打价格战的同行挤死。 生意还…
+
+<a href="/question/289042749/answer/492092337" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/289042749/answer/492092337">发布于 2018-09-15</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-26508177"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>54 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic3.zhimg.com/v2-4f279b26ee4b2e4b786a2c0d5b279d6d_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=492092337" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="2">
+<h2><a class="question_link" href="/question/294522214/answer/492242001" target="_blank" data-id="27726470" data-za-element-name="Title">
+如何评价 2018 数学建模国赛？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="119567480"
+data-atoken="492242001"
+data-collapsed="0"
+data-created="1537022427"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/294522214/answer/492242001">
+<meta itemprop="answer-id" content="119567480">
+<meta itemprop="answer-url-token" content="492242001">
+<a class="zg-anchor-hidden" name="answer-119567480"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>780</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">780</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$bi-xiao-tian-99"
+target="_blank" href="/people/bi-xiao-tian-99"
+>毕导</a><span class="icon icon-badge-identity icon-badge" data-tooltip="s$b$已认证的个人"></span></span><span class="badge-summary">清华大学 化学工程系博士在读</span>
+
+
+<span title="膜技术博士，公众号“毕导”" class="bio">
+膜技术博士，公众号“…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="780">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">780</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27726470" data-action="/answer/content" data-author-name="毕导" data-entry-url="/question/294522214/answer/492242001">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;一、奇怪的留言&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;今天早上，我像往常一样打开公号后台，发现有几百条留言都在和我说&lt;b&gt;秋衣秋裤&lt;/b&gt;。真是粉大十八变啊，都知道提醒我天冷加衣了。我的心头热乎乎的，直到看到下面的一些留言&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-71118c011792c6ac632a2f4564414785_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;911&quot; data-rawheight=&quot;519&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-d2b27f8ff155fb855d390cbb1ef8faa0_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;911&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-71118c011792c6ac632a2f4564414785_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我写的微信推送押中建模大赛的题了？？？我现在这么牛逼的吗！瞪着求知的双眼我仔细查了一下，原来是我2016年写过的一篇&lt;u&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzUxMjcwMzM2MA%3D%3D%26mid%3D2247488731%26idx%3D1%26sn%3D5a181360cbdba270f037e1bb40a82743%26chksm%3Df9613a34ce16b32263943dfb95d7fe1026d27cbcdb423566913ee7b615fc4c84f7373669640d%26scene%3D21%23wechat_redirect&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;供暖前秋衣要外穿&lt;/a&gt;&lt;/u&gt;的文章，刚好命中了今年&lt;b&gt;全国大学生数学建模大赛A题&lt;/b&gt;，所以大家才这么激动啊。&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;这特么的能不激动吗！&lt;/b&gt;你关注的沙雕博主两年前写的沙雕文里给出了一次国家级数学大赛的微分方程和完整求解过程，你还会觉得他沙雕吗？不你不会，显然你会对他肃然起敬甚至以身相许。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我在网上找到了这道题，大概长这样&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-34e36af402bb86f0a8d40b199953e95d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;589&quot; data-rawheight=&quot;628&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-6a2f373789b32baf635f68ed520dcec0_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;589&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-34e36af402bb86f0a8d40b199953e95d_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-57c11b63785f63918ca8cd74a6d54144_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;769&quot; data-rawheight=&quot;892&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-17fe67564aeb3ab2b06a694aba7e7186_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;769&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-57c11b63785f63918ca8cd74a6d54144_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;题目看着很热闹，翻译一下就是：你在一个高温环境里工作，为了防止热死，给自己加了三层隔热服。那么这三层衣服应该怎么穿才不会热skr人？如何才能保证自己在65度的环境里工作1小时但皮肤温度不超过47度？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-a2238ceea8719c230bf9cedb8e97b87d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;280&quot; data-rawheight=&quot;146&quot; class=&quot;content_image&quot; width=&quot;280&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;而我的那篇秋衣外穿的文章说的是：你要在一个寒冷的环境里生活，为了防止冻死，给自己穿了两层衣服，一件风衣和一件秋衣。这两层衣服应该怎么穿，才能更保暖？&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-9678f8770b18feaa8d7c9dc9a0d97d9a_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;540&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-b2e51174018d150252b9838e151a7966_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-9678f8770b18feaa8d7c9dc9a0d97d9a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我的推送建模 vs 国赛A题建模&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这两个问题的思路简直是一模一样啊，本质都是分析&lt;b&gt;怎么穿衣服才能不冷又不热&lt;/b&gt;的问题，表现了出题者和毕导对人民大众的关怀。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;现在回来再看大家的留言，就有些五味杂陈...平时一个个都说我沙雕，现在后台全都在问性感毕导能不能在线指导。大家求助“&lt;b&gt;秋衣外穿&lt;/b&gt;”那篇建模思路的心情我能理解，但好歹打对这四个字啊...&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-ef144e8155e28f13cbe9c5c8390539cd_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;917&quot; data-rawheight=&quot;493&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-5179570fb9f8bb3c09e351eb8b1512e8_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;917&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-ef144e8155e28f13cbe9c5c8390539cd_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;整整一天，公众号后台和微博私信里堆满了嗷嗷待哺的考生，一个个都希望我出一篇教程，还有粉丝当我好忽悠，想不着痕迹地问例题...你就不能好好学学下面那个粉丝直接点诚恳点吗...&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-3ef2d742707bf3faeef9200af5f065ae_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;451&quot; data-rawheight=&quot;327&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-0c82f0378a64c0f30fac85b889f1c5a7_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;451&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-3ef2d742707bf3faeef9200af5f065ae_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-35fac9afdc64625df7afb8c9ac2f7660_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;499&quot; data-rawheight=&quot;539&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-8e4f6d746bb6b54e1f4c3e273e532754_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;499&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-35fac9afdc64625df7afb8c9ac2f7660_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;好在毕导我浸淫中国建模界多年，拥有丰富的建模经验。既然这么多困难群众问我这道题，我肯定还是要拉一把的。下面我就为大家介绍一下&lt;b&gt;建模大赛是一个多么逗逼的存在&lt;/b&gt;，以及A题的解题思路。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;二、建模的精髓&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;中国大学生数学建模竞赛(英文简称CUMCM，即China Undergraduate Mathematical Contest in Mengbi)，是我国高校规模最大的基础性学科竞赛，也是&lt;b&gt;全世界规模最大&lt;/b&gt;的数学建模竞赛。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-c9fc736059426e2ef5ea1c6bf5ef1859_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;547&quot; data-rawheight=&quot;449&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-39965a23622e9a4e2acde90aa48a494f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;547&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-c9fc736059426e2ef5ea1c6bf5ef1859_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;今年国赛是在9月13号20:00公布A、B两道题目，任选一道作答。比赛要求&lt;b&gt;3人组队&lt;/b&gt;参赛，并在9月16日晚上20:00交一篇论文。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-8a19cf764bf939033b34498c2ee3a418_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;682&quot; data-rawheight=&quot;491&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-0a286cb905c02cddcb8d62d40ed256cb_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;682&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-8a19cf764bf939033b34498c2ee3a418_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;建模大赛的题目通常取材于人民群众的日常生活，比如如何设计一个保暖舒适的浴缸(2016美赛)，如何评价葡萄酒的好坏(2012国赛)，需要多大的风才能吹牛(我瞎编的)等等。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-739fc3baa871602aca6d1f6030acc50f_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;520&quot; data-rawheight=&quot;403&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-1970996b54a74b3e0075940dfe00cc72_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;520&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-739fc3baa871602aca6d1f6030acc50f_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如何用流体力学吹牛&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这种题目通常是开放而复杂的问题，加上比赛时间紧张，参赛选手面对题目又往往屁都看不懂，因此建模大赛非常考验选手的&lt;b&gt;创新意识&lt;/b&gt;和&lt;b&gt;团队精神&lt;/b&gt;。&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;理想参赛3人团队配置是：&lt;b&gt;对数理化狂热到无所不知的建模大神&lt;/b&gt; + &lt;b&gt;信奉算法至上想用Matlab解出整个世界的编程皇帝&lt;/b&gt; + &lt;b&gt;随便给个数据就能分析出一万字规律的论文判官&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但实际参赛时的队伍大概分为以下几种类型：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;大腿carry型&lt;/b&gt;：建模、编程、写文章都懂的大腿 + 帮忙下载题目和订外卖的学渣A + 帮忙打探其他组进度的学渣B；&lt;/li&gt;&lt;li&gt;&lt;b&gt;各司其职型&lt;/b&gt;：一个数学系的A + 一个计算机系的B + 一个文科妹子C；&lt;/li&gt;&lt;li&gt;&lt;b&gt;民主协商型&lt;/b&gt;：3个平平无奇的人因为建模而相聚在一起，因为谁都没有什么技能点而只好用石头剪刀布决定分工；&lt;/li&gt;&lt;li&gt;&lt;b&gt;桃园结义型&lt;/b&gt;：3人一看完题目后就迅速决定不求同年同月同日生，但求同年同月同日死。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-ee5cf4af2d646ec286241bd2b135fe06_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;639&quot; data-rawheight=&quot;520&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-83c2773bca7fa3c9ac8c1f2f5c5c0403_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;639&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-ee5cf4af2d646ec286241bd2b135fe06_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;国赛只有3天，这就要求团队必须对时间有着精准的把控。&lt;/b&gt;根据我的经验，大部分团队是这样度过的&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-e48c08cf1916c1168f0833000df9263e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;743&quot; data-rawheight=&quot;949&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-e2bcc59d29fb0ecf87194ccae90e589b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;743&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-e48c08cf1916c1168f0833000df9263e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;早年我本科参赛的时候，建模的团队作战理论还局限于&lt;b&gt;建模手&lt;/b&gt;、&lt;b&gt;程序员&lt;/b&gt;、&lt;b&gt;写手&lt;/b&gt;的经典配置。但到了互联网高度发达的今天，许多团队选择加入“&lt;b&gt;侦察员&lt;/b&gt;”这一角色。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;侦察员&lt;/b&gt;在团队中负责外联工作，进行数据搜集。起初他们的搜索途径还比较常规，都是查查知网万方啥的。但随着时代的进步，&lt;b&gt;侦察员&lt;/b&gt;的思路也越来越活跃，同时也对我国淘宝客服水平提出了更高的要求。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-d9257f65c19889c83b86067e953a732b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;797&quot; data-rawheight=&quot;325&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-32404b66d9e22486672ba765c36e2481_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;797&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-d9257f65c19889c83b86067e953a732b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;客服连matlab都画好了&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但显然国赛时间比较紧，题目比较难。目前2天过去，淘宝卖家还没有解出A题&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-4f30fdcfef5e6ab9812b543404d901ba_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;901&quot; data-rawheight=&quot;397&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-5297173fc6d564f236d90dc9b70c3b40_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;901&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-4f30fdcfef5e6ab9812b543404d901ba_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;逼的人家只能下架！&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这也导致各团队的侦察员只能来给我的公众号和微博发消息求助。我早年也经常参赛，以&lt;b&gt;模风诡谲&lt;/b&gt;、&lt;b&gt;思路刁钻&lt;/b&gt;叱咤我国大学生建模界。多年来得了一堆三等奖，虽然只在参加即送三等奖的比赛中得过。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;令人遗憾的是，我国主流数学界一直认为我的建模方法路子太野，因此人送绰号“&lt;b&gt;清华第一野模&lt;/b&gt;”。比如下面这些是我曾经在公众号上建过的模型&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-a48d7f41c025c25dfde39c75507b5c83_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;960&quot; data-rawheight=&quot;293&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-16be6ffc3c8457b64c095fbad32c907b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;960&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-a48d7f41c025c25dfde39c75507b5c83_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;而下面这些是在以往的国赛中出现的获奖作品，难道看上去真的比我的建模水平优秀那么多吗？嗯，好像是的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-a201a4f27e459bd2119e828c674289ea_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;201&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-4ba4d728273accb14425567314848742_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-a201a4f27e459bd2119e828c674289ea_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2017年部分国赛获奖论文模型&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但现在我要重操旧业，找回初心。下面就由清华第一野模为大家解析一下全国大学生建模比赛A题的思路！&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;三、解题思路&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我们重新审视一下题干：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;高温防护服有I、II、III三层。其中I层与外界环境接触，III层与皮肤之间存在空隙，将此空隙记为IV层；&lt;/li&gt;&lt;li&gt;将体内温度控制在37ºC的假人放置在实验室的高温环境中测试；&lt;/li&gt;&lt;li&gt;当环境温度为&lt;b&gt;65ºC&lt;/b&gt;、IV层的厚度为5.5 mm时，如何才能确保&lt;b&gt;工作60分钟&lt;/b&gt;时，假人皮肤&lt;b&gt;外侧温度不超过47ºC&lt;/b&gt;，且超过44ºC的时间不超过5分钟？&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-8e27d8a983dfca3ceed65ab72d05914b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;300&quot; data-rawheight=&quot;168&quot; class=&quot;content_image&quot; width=&quot;300&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这其实完全就是一个传热学的问题啊，许多人在后台跟我说，不懂传热。但是作为一个学化工的人，我们随时随地都能从裤子里掏出一本三传一反，这个A题对我还不是小儿科！&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;首先，题中的人要深入七八十度的环境中工作，这种工作环境可以说是极其恶劣。本题的出题人很可能是一位消防员叔叔，或者一个吐鲁番的导游，或者是一个烤全羊的全羊。但这都不重要，我们还是按消防员来算吧。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-60ba8e249d970188f4781f2f740321ed_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;592&quot; data-rawheight=&quot;427&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-1f03586e77258b2d030646a1c90a2edb_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;592&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-60ba8e249d970188f4781f2f740321ed_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;同志，请建立数学模型并计算我的温度分布场&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在建模大赛中，模型建得越精细，那计算结果就会越准确，但算起来会越艰难，这就对你和大腿之间的友情深度提出了更高的要求；如果你瞎JB建一个简陋模型，算起来会很轻松，但成果可能就主要靠后期写论文同学的想象力和词汇量了。因此，如何根据团队能力建立一个难度适中、结果完整的模型就显得尤为重要。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;鲁迅先生曾经说过，一个出色的建模往往从一个成功的简化开始。这道题的核心是&lt;b&gt;人穿着衣服站在热环境中&lt;/b&gt;。所以要想简化这个模型，首先要解决的是一个哲学问题：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-573244585985ac2b5201c4508fda30e6_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;579&quot; data-rawheight=&quot;93&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;579&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-573244585985ac2b5201c4508fda30e6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;是啊，在建模的时候，人究竟还算不算人呢？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果把穿着防护服的人按照下图这样的模型录入到matlab里进行数据分析，倒是很美观而精细&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-d2ad9a8d273af5eef93cdbbd2d99c68b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;789&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-5a51ad412eb91aa37fa9287bfa86f033_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-d2ad9a8d273af5eef93cdbbd2d99c68b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但这特么就没法玩了……在建模时肯定要把人简化成一些&lt;b&gt;规则的几何体&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果我们认为这个消防员是一个海绵宝宝，那传热模型大概就长这样&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-49c9936155388102b3b639d903e2c619_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;887&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-aa95405e610679f0f964fa9b286ac338_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-49c9936155388102b3b639d903e2c619_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这样问题就简化为了一个&lt;b&gt;黄色方块被加热的问题&lt;/b&gt;，非常好算，但这样的模型要想拿一等奖可能就比较难。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果像我下图这样把人画得唯妙唯肖，那就得用&lt;b&gt;有限元&lt;/b&gt;求解很久，但是有希望冲击金牌的&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-5b02557fa9feaba8e8e830fc28247ac6_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;977&quot; data-rawheight=&quot;816&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-00cd2ee4ad1018732b625240a35b763c_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;977&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-5b02557fa9feaba8e8e830fc28247ac6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;国赛毕竟只有3天，建模时一定不能太复杂。经过我的思考，我建议，直接把人简化为一根圆柱&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-f83d86f94236af35d37b440fed8bfa74_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;986&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-f7b265d09c3794eac0caca4d1cf0dc47_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-f83d86f94236af35d37b440fed8bfa74_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我周围有人在看到我的建模后提出了异议：你这什么&lt;b&gt;辣鸡&lt;/b&gt;模型？我头呢？我脚呢？我踏马脸都被你简化没了也就不需要你帮忙防护了！而且就算简化成圆柱也有个问题：圆柱的上下底面的散热和侧面的散热显然是不一样的，这不还是很难算吗！&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;但我认为从建模的角度来讲，只要躯干足够长，就不用再考虑它的上下底面散热了。在建模的世界里，人人都是&lt;b&gt;姚明&lt;/b&gt;，这不是太大的问题。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-ca9c8620b0f3036225e3caea464d0636_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;862&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-92ceb8f35ea26608370c6ec23a40663d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-ca9c8620b0f3036225e3caea464d0636_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;下面要解决的问题是，穿了三层衣服的人站在热的环境里会发生什么。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;题目里没说是什么衣服，这就很难办。究竟穿的是&lt;b&gt;老大爷夏天乘凉的背心&lt;/b&gt;，还是&lt;b&gt;全身封闭的防化服&lt;/b&gt;？高温作业的人应该穿&lt;b&gt;紧身衣&lt;/b&gt;还是&lt;b&gt;Oversize&lt;/b&gt;比较隔热？在这一瞬间我觉得我踏马不是学化工的，我是学服装设计的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;最后我设计的模型是这样的，一个柱坐标下径向多层界面的常物性非稳态传热过程。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-b84e45186717de1b26d5e3eabc81cc21_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1080&quot; data-rawheight=&quot;605&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-3f1a40a62b262b3964c48e028014ff1f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1080&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-b84e45186717de1b26d5e3eabc81cc21_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在我们所处的世界里，有温度差，就有热量传递。在衣服的布料里，热会由高温环境向低温的人体传导，导热速率由&lt;b&gt;傅立叶定律&lt;/b&gt;描述。假设衣服是均匀的各向同材料，其内部存在唯一的柱坐标下的径向温度场&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-59819279f8f39d0213c6a6ad662ffedc_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;224&quot; data-rawheight=&quot;129&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-8197c6e61c8ba731fe265baf297af54f_b.jpg&quot; class=&quot;content_image&quot; width=&quot;224&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-9db1e67ac646c17b839bce1f0f8e666b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;691&quot; data-rawheight=&quot;56&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;691&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-9db1e67ac646c17b839bce1f0f8e666b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;热空气在衣服表面流动时会与衣服进行对流换热。这可以用牛顿冷却定律来描述&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-35658fc0ec9e37052d46baf50f506190_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;284&quot; data-rawheight=&quot;73&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-88053c01d1d962943b40ce39664ef5af_b.jpg&quot; class=&quot;content_image&quot; width=&quot;284&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-0c05d09b9743c88d55b263036f8ba740_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;871&quot; data-rawheight=&quot;46&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;871&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-0c05d09b9743c88d55b263036f8ba740_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;对于胖子还存在出汗换热这种特殊的存在&lt;/b&gt;，我不太会算，这也应该不在本题的考虑范围内。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在衣服内部导热都遵循基本微分方程&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-3cb85e2637a74190beb8eec73aaa71a3_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;293&quot; data-rawheight=&quot;96&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-b724aa356ea1afdbd138388cff64733e_b.jpg&quot; class=&quot;content_image&quot; width=&quot;293&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-861eb61310f0d3117142defea31d4a09_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;535&quot; data-rawheight=&quot;197&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-1120bf53cebb6a0902d0327e510397bf_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;535&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-861eb61310f0d3117142defea31d4a09_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-a4c26f84decc70ca3dcb4563b300ffee_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;566&quot; data-rawheight=&quot;103&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-413f7d8c653a89feb68507f08a28d0a8_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;566&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-a4c26f84decc70ca3dcb4563b300ffee_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;即&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-90dee8d3cbe632b53cc4408d362fbb14_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;308&quot; data-rawheight=&quot;112&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-c7ca2c48530135a7c8ca2d4a000f2e83_b.jpg&quot; class=&quot;content_image&quot; width=&quot;308&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;为了求定解还需要给定初始条件和边界条件。初始条件貌似不难，两边的初始温度都给了。传热中边界条件分为三类：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;第一类是给定物体表面温度分布随时间的变化，其函数关系式为&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-110a63e63544d391b7fcf1dedde6344c_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;198&quot; data-rawheight=&quot;51&quot; class=&quot;content_image&quot; width=&quot;198&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;第二类是给定物体表面热流密度的分布随时间的变化，其函数关系为&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-8c5e2269ddcf1a2d3e7b7e973d067ba7_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;277&quot; data-rawheight=&quot;81&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-1148c0a187c4b58ce5570bba1a7cd11d_b.jpg&quot; class=&quot;content_image&quot; width=&quot;277&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;第三类是给定物体表面上的对流换热系数h和周围流体温度T0，又称为对流边界条件。第三类边界条件可表示为导热量和表面温度的函数&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-a45a4af1f4103ef385c6daf10b88f068_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;347&quot; data-rawheight=&quot;82&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-a1a6dbaad063acadfc2f20b11011044c_b.jpg&quot; class=&quot;content_image&quot; width=&quot;347&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;大概传热的思路就是这样的，有了这些基础已经可以列出方程了。具体计算求解的时候可以将衣服网格化，将微分方程变成差分方程求离散的点温度。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;结语&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;不过毕导最后还是要提醒各位，上面只给了模型和传热学的&lt;b&gt;基本方程&lt;/b&gt;供大家参考，核心的公式和计算过程还是要大家自己思考！毕竟建模没有唯一的答案，真正厉害的东西还是得靠小组三人的头脑！&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;如果你看完这些公式后觉得大有收获的话，那我估计你得不了奖了……&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;总之比赛时间宝贵，大家看完后该建模的赶紧去建，该写论文的赶紧去写，别再水手机看毕导推文了！反正都给我一起向得奖冲鸭！&lt;/p&gt;&lt;hr&gt;&lt;p&gt;在公众号“毕导”后台回复“&lt;b&gt;建模&lt;/b&gt;”，可获得我&lt;b&gt;整理的传热学公式、本题解题思路&lt;/b&gt;和&lt;b&gt;画圆柱的代码&lt;/b&gt;呀！&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-7341db959ea74c36cb782dc4e58065ab_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="911" data-rawheight="519" data-watermark="watermark" data-original-src="v2-7341db959ea74c36cb782dc4e58065ab" data-watermark-src="v2-71118c011792c6ac632a2f4564414785" data-private-watermark-src="v2-d2b27f8ff155fb855d390cbb1ef8faa0" data-tags="politic" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-7341db959ea74c36cb782dc4e58065ab_r.jpg">
+<b>一、奇怪的留言</b> 今天早上，我像往常一样打开公号后台，发现有几百条留言都在和我说<b>秋衣秋裤</b>。真是粉大十八变啊，都知道提醒我天冷加衣了。我的心头热乎乎的，直到看到下面的一些留言 我写的微信推送押中建模大赛的题了？？？我现在这么牛逼的吗！瞪着求知的…
+
+<a href="/question/294522214/answer/492242001" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-15" target="_blank" href="/question/294522214/answer/492242001">编辑于 2018-09-15</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27726470"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>62 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="3">
+<h2><a class="question_link" href="/question/293986592/answer/492169727" target="_blank" data-id="27607609" data-za-element-name="Title">
+如何看待字节跳动招聘收到的算法工程师简历的数量远超需求？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="119554293"
+data-atoken="492169727"
+data-collapsed="0"
+data-created="1537013867"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/293986592/answer/492169727">
+<meta itemprop="answer-id" content="119554293">
+<meta itemprop="answer-url-token" content="492169727">
+<a class="zg-anchor-hidden" name="answer-119554293"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>518</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">518</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$huo-hua-de-41"
+target="_blank" href="/people/huo-hua-de-41"
+>霍华德</a><span class="icon icon-badge-identity icon-badge" data-tooltip="s$b$已认证的个人"></span></span><span class="badge-summary">新加坡国立大学 电子及计算机工程系博士</span>
+
+
+<span title="鹅宝/自然语言处理" class="bio">
+鹅宝/自然…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="518">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">518</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27607609" data-action="/answer/content" data-author-name="霍华德" data-entry-url="/question/293986592/answer/492169727">
+
+<textarea hidden class="content">&lt;p&gt;1. 算法岗位不像安卓和ios有大量需求：&lt;/p&gt;&lt;p&gt;很多公司一个组算法岗的head count也就1-2个人，而且还大量被优秀的实习生提前就锁定了。跟之前安卓ios火爆时，海量的需求是有明显差别的，那个公司当时都想做个app，所以产生了巨量的岗位需求，而算法岗需求一直很稳定，而且需求最多的恰恰不是你们想象的CV，而是推荐、搜索、广告，这三个岗位但凡是个互联网公司都需要，汽车之家、58、携程、知乎太多太多了，而相比cv独角兽才几家。&lt;/p&gt;&lt;p&gt;2. 算法门槛比安卓ios高：&lt;/p&gt;&lt;p&gt;这是我前几天发的阿里算法岗的笔试题，考察内容主要是parser和正则表达引擎，要用到trie tree。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-886d39421b2d1b0cbfbf34b77d9b44d0_b.jpg&quot; data-rawwidth=&quot;1766&quot; data-rawheight=&quot;1079&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-05177080a477fd0e016a7c2430aee9c9_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1766&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-886d39421b2d1b0cbfbf34b77d9b44d0_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;哪怕是现在简历岗位比已经几百了，不少公司还在抱怨招不到合适的候选人，这种情况在当年安卓ios时代根本无法想象。&lt;/p&gt;&lt;p&gt;3. 看看mooc真的是不够的&lt;/p&gt;&lt;p&gt;我觉得大家都被mooc误导了，觉得看看cs229，cs231就可以转行了，其实这只是万里长征第一步，仅仅有机器学习的知识是不够的。算法工程师首先是一名工程师，作为工程师最重要的就是工程能力和代码能力，而这恰恰是看几节mooc无法学会的，需要长期的锻炼和实践。不说多吧，五万行代码打底，才能让你在激烈的算法竞争中脱引而出。&lt;/p&gt;&lt;p&gt;结论：&lt;b&gt;算法有风险，入行需谨慎&lt;/b&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-5ddbffc4d77d5823e1938960abfb24c4_200x112.jpg" data-rawwidth="1766" data-rawheight="1079" data-size="normal" data-watermark="watermark" data-original-src="v2-5ddbffc4d77d5823e1938960abfb24c4" data-watermark-src="v2-886d39421b2d1b0cbfbf34b77d9b44d0" data-private-watermark-src="v2-05177080a477fd0e016a7c2430aee9c9" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-5ddbffc4d77d5823e1938960abfb24c4_r.jpg">
+1. 算法岗位不像安卓和ios有大量需求：很多公司一个组算法岗的head count也就1-2个人，而且还大量被优秀的实习生提前就锁定了。跟之前安卓ios火爆时，海量的需求是有明显差别的，那个公司当时都想做个app，所以产生了巨量的岗位需求，而算法岗需求一直很稳…
+
+<a href="/question/293986592/answer/492169727" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-15" target="_blank" href="/question/293986592/answer/492169727">编辑于 2018-09-16</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27607609"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>58 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="4">
+<h2><a class="question_link" href="/question/294757579/answer/492215267" target="_blank" data-id="27778792" data-za-element-name="Title">
+如何看待贝拉米的几次改变?
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="119562639"
+data-atoken="492215267"
+data-collapsed="0"
+data-created="1537019395"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/294757579/answer/492215267">
+<meta itemprop="answer-id" content="119562639">
+<meta itemprop="answer-url-token" content="492215267">
+<a class="zg-anchor-hidden" name="answer-119562639"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>75</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">75</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$wang-zhe-12-22-75"
+target="_blank" href="/people/wang-zhe-12-22-75"
+>八云的饭团</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="75">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">75</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27778792" data-action="/answer/content" data-author-name="八云的饭团" data-entry-url="/question/294757579/answer/492215267">
+
+<textarea hidden class="content">&lt;p&gt;谢邀，可我不是大佬哦。贝拉米是一个活着的配角，一个随着剧情成长的配角，这说明海贼王是一个挺不错的作品。&lt;/p&gt;&lt;p&gt;一个好的作品，作者铺好肥沃的土壤作为世界观和背景，把角色当做一个个种子撒下，然后与读者一样，观察每个角色在这个温室中的成长。所有事件和角色变化是环境造就，概率发生，性格使然，合乎自然，而不是作者硬性设定，强行展开，如牵线木偶剧。&lt;/p&gt;&lt;p&gt;准确讲贝拉米经历过四次改变，五个状态。&lt;/p&gt;&lt;p&gt;一，原始小混混–模板街头巴托&lt;/p&gt;&lt;p&gt;在北海小地方与他的小跟班们为祸一方，恰如曾经的绿毛街霸脑残粉巴托洛米奥。&lt;/p&gt;&lt;p&gt;这种人生让小混混头领贝拉米偶尔心生疑惑，一辈子就这么混下去？世界更广阔的地方是怎样的？&lt;/p&gt;&lt;p&gt;二，遇到偶像神迹后的热血小头目–模板阿龙&lt;/p&gt;&lt;p&gt;巴托遇到了断头者路飞，贝拉米遇到了高富帅明哥。&lt;/p&gt;&lt;p&gt;人生有了新的动力，有了想要跟随的目标。&lt;/p&gt;&lt;p&gt;在德岛篇，部分读者可能会愤怒明哥对贝拉米太冷酷残忍薄情，其实贝拉米自己也是有问题的。&lt;/p&gt;&lt;p&gt;想想另一个霸王色船长草帽路飞遇到这时候的贝拉米是什么感觉？泼酒打人事件是夏虫不可语冰的无奈。出身天龙人，比路飞更高傲，眼界更开阔的明哥大概从来都瞧不起贝拉米，当年他没当场拒绝贝拉米只不过远来是客，和气生财罢了。&lt;/p&gt;&lt;p&gt;&lt;b&gt;这造成了贝拉米一生的误解。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;这时的贝拉米和阿龙一样，立马着手于“从小地方攒钱，买武器，招人，然后争霸的模式”，这种想法在世界有着巨大的黑幕–世界政府，有着无法逾越的四皇势力面前，几乎是空想，相比下阿龙想通过东海小渔村的财政收入征服世界，真是敢想！&lt;/p&gt;&lt;p&gt;明哥对这种模式给予过非常深刻的评价，他的另一个手下，经营人口交易的那位，强调人口交易有大利益可图时，明哥说的是场子就送给你了，现在新的时代即将到来，马上就是“smile”的时代了。&lt;/p&gt;&lt;p&gt;这就是说这些小人物还以为在世界政府和四皇的阴影下，可以通过经商致富？明哥已经把所有的资源投入在军工综合体上，用走私武器摆平黑白两道，用SMILE组成军队，用凯撒的生化武器促进军备竞赛，他不但要当商人，还要当武装实力最雄厚的商人。&lt;/p&gt;&lt;p&gt;贝拉米也好，开人口交易场的部下也好，并不明白，巨富绝不是攒出来的，是通过掠夺跨越式壮大的。&lt;/p&gt;&lt;p&gt;三，洗心革面的海贼–模板洗脑巴托&lt;/p&gt;&lt;p&gt;与路飞一战，贝拉米变成了一个真正的海贼。&lt;/p&gt;&lt;p&gt;这里面有两个重要的关键点，在贝拉米重逢路飞时，他主动说出来了。&lt;/p&gt;&lt;p&gt;一是他去了空岛，二是他失去了所有同伴。&lt;/p&gt;&lt;p&gt;如果贝拉米没有后来去空岛，那他被路飞打败，只会归咎于自己&lt;b&gt;武力值&lt;/b&gt;不如草帽，“草帽，你不过是打服了我。”可贝拉米去了空岛，认识到路飞拥有梦想和他的境界差距之大。大概还从空岛的居民口中听说了大英雄草帽路飞是怎么艰难推翻神艾尼路，一个拥有雷电果实，被认为无法战胜的可怕敌人。&lt;/p&gt;&lt;p&gt;贝拉米轻描淡写的说他失去了所有同伴，从空岛下来，他与原来的部下眼界已经不一样了，是继续待在老部下那里，做着海贼游戏，还是追求真正的海贼冒险，贝拉米选择了后者。这是一种勇气，不是每个人在认识到世界的真实后，依然有勇气舍弃自己前半生的积累，从头开始的，莫利亚就没从失败中走出来，我……就宁愿和老部下们过家家。&lt;/p&gt;&lt;p&gt;所以贝拉米蜕变成一个拥有梦想的海贼，大概梦想是将自己的偶像明哥推上世界之巅。&lt;/p&gt;&lt;p&gt;可惜了，如果是跟随其他争霸者，他会很受欢迎，但是明哥团是很特殊的，他全团是灭世者领导着一群厌世者。最高干部从明哥小时候奉他为王，不是为了争霸，是为了毁掉世界。&lt;/p&gt;&lt;p&gt;从baby5，游泳男的故事可以看出明哥团干部，都经历过过深的人生创伤，已经对世界不抱希望。&lt;/p&gt;&lt;p&gt;这个绝望的群体不可能接纳热情充满希望的新生贝拉米，要明哥和贝拉米说什么？你的好意我心领了，我没想当海上霸主，我只是想借凯多的手，把整个世界拖入深渊，一起毁灭。&lt;/p&gt;&lt;p&gt;这也是我为什么把他和巴托联系到一起，这两个人太类似，没有自己的梦想，将梦想寄托给自己属意的偶像，&lt;b&gt;这也是贝拉米的悲剧。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;四，被背叛的孤儿–模板战败莫利亚&lt;/p&gt;&lt;p&gt;明哥给贝拉米下达了个可笑的任务，去暗杀路飞，强如明哥，聪明如贝拉米，知道这是个送死任务。&lt;/p&gt;&lt;p&gt;明哥就是想践踏贝拉米的正直感，喂喂喂，我这里是凶恶不择手段的明哥海贼团，你突然跑回来说改过自新了，重新做人了，还要堂堂正正的活下去。&lt;/p&gt;&lt;p&gt;你不是想要归宿么，打不过可以暗杀啊，听说草帽和你私交不错，你可以背后捅刀子啊，完成了就让你加入家族。&lt;/p&gt;&lt;p&gt;接下来的剧情贝拉米很煎熬，非常有趣的是路飞被困在竞技场，没有人可以脱离，除了……明哥部下才知道的密道。&lt;/p&gt;&lt;p&gt;于是贝拉米一边带着杀意，一边把路飞通过密道带出去，就是为了获得与他单独的机会，这时大概还在纠结是战斗还是暗杀。&lt;/p&gt;&lt;p&gt;斗鱼小哥来了，事到如今难道你还想堂堂正正的和草帽打？果然你根本做不成大事，他的袭击尤其是明哥要贝拉米死的消息彻底击溃了贝拉米。&lt;/p&gt;&lt;p&gt;再愚钝也明白自己在明哥心里，&lt;b&gt;连一个利用的棋子&lt;/b&gt;都不是，想想莫奈和威哥的结局，贝拉米是很羡慕这种为偶像而死的待遇的，他想要明哥的认可，得到一个自己的归宿。&lt;/p&gt;&lt;p&gt;&lt;b&gt;把梦想寄托给别人，就得承受这种被人辜负的风险。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;这时候的贝拉米被斗鱼小子殴打就是因为他成了一个没归宿的孤儿，像兵败失去一切的莫利亚一样，再也无法相信任何事情了。&lt;/p&gt;&lt;p&gt;五，寻找信念的流浪者–模板脱狱版老沙，解脱版阿金&lt;/p&gt;&lt;p&gt;原本，贝拉米像阿拉巴斯坦宫殿下的罗宾一样，就死在大家看不见的角落里就行了，所以他宁愿死在&lt;b&gt;另一个人他尊敬&lt;/b&gt;的人手下，偏偏路飞就是那种别人说“你让我死”，他扣扣鼻屎“我干嘛要听你的？？？”&lt;/p&gt;&lt;p&gt;所以贝拉米被罗救治后，怼罗多管闲事。&lt;/p&gt;&lt;p&gt;重新开始人生的贝拉米前途空空如也，踏上了追寻人生信念的道路。&lt;/p&gt;&lt;p&gt;要注意他带着路飞的生命卡，必将在后续剧情起到伏兵作用。&lt;/p&gt;&lt;p&gt;这时的贝拉米就像脱狱后的老沙，&lt;b&gt;知道自己之前都是错的，但是又没有新的目标&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;老沙为了这，在第一次越狱机会出现前，也拒绝了逃走，因为内心被那该死的草帽掏空了。&lt;/p&gt;&lt;p&gt;老沙过去信奉的是力量，是冥王的力量，注意他把巴洛克社的干部当做可以舍弃的棋子，从地下对实际上的二把手罗宾下杀手，把mr3吸干喂鲨鱼来看，只有冥王才是他的同伴。&lt;/p&gt;&lt;p&gt;和路飞一战后，第二次越狱，他确实改变了，也是多亏了路飞的&lt;b&gt;影响。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;且不说罗宾在路飞手下的成长，曾经的部下mr2在监狱脱逃时，硬拼出一线机会，曾经的部下mr3在监狱大boss的无解追杀时，成为唯一有效支援，在顶上战争时又冒险摸上行刑台，打脸黄猿大将，怒怼战国元帅。&lt;/p&gt;&lt;p&gt;甚平“哎，没有人可以在监狱里抵御麦哲伦的毒。”&lt;/p&gt;&lt;p&gt;路飞“这蜡烛铠甲轻便实用美观，蜡烛男你真厉害。”&lt;/p&gt;&lt;p&gt;黄猿“哈哈没有人能在老夫精准的射线下，打开火拳的手铐！”&lt;/p&gt;&lt;p&gt;路飞“艾斯，我们逃出去了。”&lt;/p&gt;&lt;p&gt;麦哲伦“等着吃瘪吧，正义之门绝不会为海贼打开！”&lt;/p&gt;&lt;p&gt;路飞“门真的开了。”&lt;/p&gt;&lt;p&gt;鹰眼“接我一刀，让一切结束吧！”&lt;/p&gt;&lt;p&gt;路飞“哎，刀刀男是你，什么，社长叫你保护我？”&lt;/p&gt;&lt;p&gt;“这些打大佬脸的都是你的手下？沙鳄鱼。”&lt;/p&gt;&lt;p&gt;克罗克戴尔阴沉着脸“曾经是！”&lt;/p&gt;&lt;p&gt;老沙一定会想你们这些人在我手下成事不足，为什么跟随草帽不但发挥各种奇兵作用，关键还这么有骨气，他一定会思索也许追求冥王的战力让自己忽视了发挥身边部下能力的可能，所以顶上他会意外的回护mr1，在路飞绕场一周事件后，才会嘴mr1，大佬我也要去新世界。&lt;/p&gt;&lt;p&gt;我认为现在的贝拉米，就是这种追寻着什么的迷惘状态，而日后一定也会傲娇的在某个关键时刻出场，“我可不是你的部下，我们连朋友都不是，只是欠你人情，不还你不舒服。”&lt;/p&gt;&lt;p&gt;然后又是煽情心理描写“草帽，我来报恩了，从那时起，我就下定决心，就算用上这条性命也要让你成为海贼王。”&lt;/p&gt;&lt;p&gt;那脑洞下贝拉米会以什么方式起到伏兵作用吧，可能是替身。&lt;/p&gt;&lt;p&gt;贝拉米的能力和路飞很像，在某个需要分兵迷惑对手的场景中，带上草帽和面罩伪装路飞，为他的行动提供那关键的几秒钟。&lt;/p&gt;&lt;p&gt;赤犬“你敢，我打穿你这冒牌货！”&lt;/p&gt;&lt;p&gt;放心吧贝拉米，上一个伪装成路飞的草帽海贼，拿着小锤锤，睡了大妈一夜，也生猛活蹦乱跳着，就是他血肉尽失，只剩一副骨架般枯槁，算了，这不是大问题。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;衍生想谈的，人的主观性带来的巨大不同。&lt;/p&gt;&lt;p&gt;贝拉米的果实能力是非常类似路飞的，而且是下限加强版。&lt;/p&gt;&lt;p&gt;橡胶果实初期限制了路飞的实力，因为一开始的橡胶果实只能&lt;b&gt;延伸&lt;/b&gt;攻击，不能加强攻击。&lt;/p&gt;&lt;p&gt;一直到出海，路飞才掌握了&lt;b&gt;压缩&lt;/b&gt;出拳，到了水之都，学会了二挡，才能靠泵的原理，让双腿弹簧化，而这些，贝拉米吃果实时就能做到。&lt;/p&gt;&lt;p&gt;这两个人的相遇正说明一个有梦想有热情眼界开阔人能做到怎样的地步，而没有这些的人只能做个被一拳击溃的小混混。&lt;/p&gt;&lt;p&gt;而现在尾田告诉我们，即使走过了一段弯路，也可以重新出发，第一次重新出发的贝拉米达到了类似巴托般的超新星实力，期待他的再次蜕变。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;出海之时，拥有弹簧能力的贝拉米恐怕也是被期待有大成就的，现在套用经常形容利文斯顿的话，“我努力拼搏，只是想追上那个被期待的自己。”&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+谢邀，可我不是大佬哦。贝拉米是一个活着的配角，一个随着剧情成长的配角，这说明海贼王是一个挺不错的作品。一个好的作品，作者铺好肥沃的土壤作为世界观和背景，把角色当做一个个种子撒下，然后与读者一样，观察每个角色在这个温室中的成长。所有事件和角…
+
+<a href="/question/294757579/answer/492215267" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-15" target="_blank" href="/question/294757579/answer/492215267">编辑于 2018-09-15</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27778792"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>14 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div><div class="explore-feed feed-item" data-offset="5">
+<h2><a class="question_link" href="/question/64737739/answer/492266032" target="_blank" data-id="18121382" data-za-element-name="Title">
+贝吉塔为什么无法超越孙悟空？
+</a></h2>
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="119571807"
+data-atoken="492266032"
+data-collapsed="0"
+data-created="1537024934"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/64737739/answer/492266032">
+<meta itemprop="answer-id" content="119571807">
+<meta itemprop="answer-url-token" content="492266032">
+<a class="zg-anchor-hidden" name="answer-119571807"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1913</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1913</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$WanPlusSW"
+target="_blank" href="/people/WanPlusSW"
+>框框框子</a></span><span title="不错，她就是我的Darling！" class="bio">
+不错，她就是我的Darling！
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1913">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1913</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="18121382" data-action="/answer/content" data-author-name="框框框子" data-entry-url="/question/64737739/answer/492266032">
+
+<textarea hidden class="content">&lt;p&gt;因为孙悟空比贝吉塔聪明的多……&lt;/p&gt;&lt;p&gt;我发现很多人真的是被龙珠超和龙珠GT带坏了脑子，搞的孙悟空就是一个傻大黑粗，只知道修炼的二傻子，实际上孙悟空从头到尾一直碾压贝吉塔，无论是在智商上还是在战斗技巧上，包括在把妹的技术上都远远超过了贝吉塔。&lt;/p&gt;&lt;p&gt;两个人第一次接触的时候，贝吉塔纯粹靠蛮力，孙悟空已经学了一手界王拳+气息控制，爆发出的战斗力远远超过了常态贝吉塔，最高能到4倍界王拳，3.2万战斗力，贝吉塔这时候才1.8万。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-33b57be9e967ac7a429b1eed6abdda08_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;732&quot; data-rawheight=&quot;716&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-74356405591d06bd4a7b2b03a5353766_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;732&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-33b57be9e967ac7a429b1eed6abdda08_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;三倍界王拳的孙悟空其实就已经吊打贝吉塔了，要知道三倍界王拳的孙悟空战斗力就2.4万，要不是为了保护地球非要跟贝吉塔对波，干掉贝吉塔轻轻松松。&lt;/p&gt;&lt;p&gt;3.2万战斗力什么概念？贝吉塔濒死复活两次以后才3万，虽然能对付萨波和多多利亚，但是被不到6万战斗力的利库姆吊锤。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-2321abfa6d2fbc646a31f5c3069380ff_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;689&quot; data-rawheight=&quot;832&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-d8b99297ec6ca08e05bfb5c6cc3435a7_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;689&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-2321abfa6d2fbc646a31f5c3069380ff_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;在地球上，如果不是贝吉塔靠着变巨猿扳回场子，估计这货早就被留下来了。&lt;/p&gt;&lt;p&gt;超级赛亚人篇就更不用说了，早早就开始疯狂利用赛亚人濒死复活特性开始训练的孙悟空濒死复活的次数比贝吉塔还多一次（用了四颗仙豆），而且利用100倍重力训练直接把战斗力抬到了开界王拳能跟初段弗利萨对砍的地步（到那美克星有9万基础战斗力）。&lt;/p&gt;&lt;p&gt;这时候孙悟空的战斗力是指数增长，战斗力增长能带来肉体强度增长，肉体强度增长又能带来界王拳倍数的增长，从赛亚人入侵地球篇到弗利萨篇变超级赛亚人之前也就不到两个月，孙悟空能承受的界王拳倍数从4倍涨到20倍，常规模式也从2倍承受涨到10倍，战斗力其实也就翻了10倍，贝吉塔如果濒死个四次+100倍训练估计也有同样水平，但是人家有界王拳啊。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-042c2274c65996d249f09949d96f32f0_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;696&quot; data-rawheight=&quot;616&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-8da6eae365ddcba64ed6bc00149a4d2f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;696&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-042c2274c65996d249f09949d96f32f0_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;到了人造人篇，孙悟空第一个想到超越超级赛亚人，然后第一个想到了超越超级赛亚人最合理的办法。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-5c923dce81f129fcbbb7e64b8378c1c3_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;698&quot; data-rawheight=&quot;492&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-52dbb53926dafcce04b77000bcbfb8de_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;698&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-5c923dce81f129fcbbb7e64b8378c1c3_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;办法就是超级赛亚人全功率……这玩意其实就等于削弱版的超级赛亚人2。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-7b71061f5bb14b722ad4c0ecff9dcfce_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;703&quot; data-rawheight=&quot;545&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-3ed06f33869ebb891f5993ec974d63a1_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;703&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-7b71061f5bb14b722ad4c0ecff9dcfce_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;到布欧篇你以为就贝吉塔智商占上风了？&lt;/p&gt;&lt;p&gt;然而还是孙悟空最聪明鸡贼。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-1a49aa37d6f01d3cacc52bc20330dfc6_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;829&quot; data-rawheight=&quot;840&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-042a46dc4cd0d9c2abe4aa87c89a8877_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;829&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-1a49aa37d6f01d3cacc52bc20330dfc6_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;先一步开发出了超级赛亚人3且不说，最后还留下了机会，表示要给年轻人时间，全世界不能依靠他一个人拯救（当然最后因为漫画外原因还是他拯救的。）&lt;/p&gt;&lt;p&gt;实际上孙悟空从人造人篇开始就一直在寻找能代替自己的战士了，而且一直在想办法培养新一代能够守护地球的战士（悟饭、悟天、欧布），这要比贝吉塔强太多了。&lt;/p&gt;&lt;p&gt;而且你看个龙珠超和GT就要吐槽悟空和琪琪感情了？开始吹贝吉塔和布尔玛的感情？&lt;/p&gt;&lt;p&gt;原作里明明是悟空和琪琪感情更好啊！&lt;/p&gt;&lt;p&gt;悟空和悟饭之间琪琪确实看悟饭很重要，可是那是和悟饭比，女人经常都是看儿子比老公重要，但是你要拿他和其他人比一比？&lt;/p&gt;&lt;p&gt;贝吉塔一开始可是真的不把布尔玛和特兰克斯的命当回事的。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-7ca0b0285d86e2e1e2f3fd89232af931_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;759&quot; data-rawheight=&quot;598&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-d8a21e211e2b4254879d0ff1e5e8e827_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;759&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-7ca0b0285d86e2e1e2f3fd89232af931_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;包括在未来世界的布尔玛，因为那个世界贝吉塔早早战死，布尔玛根本没有感受到贝吉塔后来的一些改变，只能给特兰克斯吹嘘，最后贝吉塔勉强表现不错，布尔玛的谎才给圆了回去。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-cf85d51c935fa54f71e7eeb8c26d295e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;742&quot; data-rawheight=&quot;623&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-c34537aca683a477c52daf5770c8307d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;742&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-cf85d51c935fa54f71e7eeb8c26d295e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;而孙悟空就完全不一样了。&lt;/p&gt;&lt;p&gt;尊重琪琪且不说，任何事情做之前先问琪琪意见，堪称龙珠里最怕老婆的男人，比克说什么？&lt;/p&gt;&lt;p&gt;超级赛亚人也是有弱点的。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-0154ade8726fbc65f6c1209b32d9dd3e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;731&quot; data-rawheight=&quot;642&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-e24ea1e2945670d0011faecc4028e610_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;731&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-0154ade8726fbc65f6c1209b32d9dd3e_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;超级赛亚人的弱点就是她老婆。&lt;/p&gt;&lt;p&gt;然后到布欧篇里，夫妻两个感情刻画更出彩一些。&lt;/p&gt;&lt;p&gt;悟空回来的场景：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-63fd617136b63f20acc37dfa9a23dd45_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;722&quot; data-rawheight=&quot;510&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-13e9c1bef9107854598905b7fda19a99_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;722&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-63fd617136b63f20acc37dfa9a23dd45_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;悟空去打武道会的场景：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-78dab955d035ad7ad7f48362cf67a250_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;719&quot; data-rawheight=&quot;775&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-bded588eb2fccd5dd5d145b0ce5ea602_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;719&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-78dab955d035ad7ad7f48362cf67a250_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;两口子眼神一对就知道有没有，到底傻不傻心里还没点数么？&lt;/p&gt;&lt;p&gt;人家只是个武痴，不是个傻子。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/50/v2-2aec8bde0f3659bbff81fe14b2317a35_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="732" data-rawheight="716" data-watermark="watermark" data-original-src="v2-2aec8bde0f3659bbff81fe14b2317a35" data-watermark-src="v2-33b57be9e967ac7a429b1eed6abdda08" data-private-watermark-src="v2-74356405591d06bd4a7b2b03a5353766" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/50/v2-2aec8bde0f3659bbff81fe14b2317a35_r.jpg">
+因为孙悟空比贝吉塔聪明的多……我发现很多人真的是被龙珠超和龙珠GT带坏了脑子，搞的孙悟空就是一个傻大黑粗，只知道修炼的二傻子，实际上孙悟空从头到尾一直碾压贝吉塔，无论是在智商上还是在战斗技巧上，包括在把妹的技术上都远远超过了贝吉塔。两个人第…
+
+<a href="/question/64737739/answer/492266032" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-15" target="_blank" href="/question/64737739/answer/492266032">编辑于 2018-09-15</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-18121382"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>234 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic4.zhimg.com/v2-05597a0ac57651fdcfea7729f14e623a_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=492266032" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+<!-- <div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="SignFlow SignFlow--bordered" id="SidebarSignFlow">
+<div class="SignFlow-panel">
+<div class="title register">
+<h1>加入知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view register SignupForm" data-za-module="SignUpForm">
+<form action="/register/email" method="POST">
+<div class="input-wrapper">
+<input type="text" name="fullname" aria-label="姓名" data-placeholder="姓名" required>
+</div>
+<div class="input-wrapper">
+
+<input type="text" name="phone_num" class="account" aria-label="手机号" data-placeholder="手机号" required>
+
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" hidden> 
+<input type="password" name="password" aria-label="密码" data-placeholder="密码（不少于 8 位）" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="注册" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<span>已有帐号？<a href="#" class="switch-to-login">登录</a></span>
+</div>
+</form>
+</div>
+</div>
+<div class="SignFlow-panel" hidden>
+<div class="LoginForm">
+<div class="title login">
+<h1>登录知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view login" data-za-module="SignInForm">
+<form method="POST">
+<div class="input-wrapper">
+<input type="text" name="account" class="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="登录" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<label class="remember-me"><input type="checkbox" name="remember_me" checked value="true">记住我</label>
+<span class="middot">·</span>
+<button class="unable-login" type="button">无法登录？</button>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+<div class="zm-side-section">
+<div class="DownloadApp">
+<button class="DownloadApp-button">
+<span class="sprite-global-icon-qrcode"></span>
+下载知乎 App
+</button>
+</div>
+</div>
+
+
+<div class="shameimaru-placeholder" data-loc="explore_up" data-params='{}'></div>
+
+<div class="zm-side-section explore-side-section explore-side-section-roundtable">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="/roundtable" class="zg-link-gray zg-right" data-za-c="view_roundtable" data-za-a="visit_roundtable_home" data-za-l="explore_sidebar_trending_roundtable_more">更多圆桌 &raquo;</a>
+<h3>热门圆桌</h3>
+</div>
+<ul class="list hot-roundtables">
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/roundtable/nobel2018"><img src="https://pic3.zhimg.com/v2-823d5358a5ae386a0147cac32a9966d4_m.jpg" alt="Path" class="avatar 40" /></a>
+<div class="content">
+
+<span class="status zg-right zg-gray-normal">
+还有 7 天结束
+</span>
+
+<a href="/roundtable/nobel2018" target="_blank" data-hovercard="r$t$nobel2018">2018 诺贝尔奖巡礼</a>
+<div class="meta">
+<span>11526 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>67 个问题</span>
+</div>
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/roundtable/haojiaju"><img src="https://pic2.zhimg.com/v2-118d00f56500000048afe6b519048180_m.jpg" alt="Path" class="avatar 40" /></a>
+<div class="content">
+
+<a href="/roundtable/haojiaju" target="_blank" data-hovercard="r$t$haojiaju">买一件好家具</a>
+<div class="meta">
+<span>5788 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>34 个问题</span>
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+
+<a href="/topics" class="zg-link-gray zg-right">更多话题 &raquo;</a>
+
+<h3>热门话题</h3>
+</div>
+<ul class="list hot-topics">
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19588303" data-hovercard="t$b$19588303"><img src="https://pic4.zhimg.com/ebec2d3ac_m.jpg" alt="节气" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19588303" target="_blank" data-hovercard="t$b$19588303">节气</a>
+<div class="meta">
+<span>4525 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/20076653" data-hovercard="t$b$20076653"><img src="https://pic4.zhimg.com/v2-c33e30071dc81061523af41056c2aa8e_m.jpg" alt="2018 年俄罗斯世界杯" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/20076653" target="_blank" data-hovercard="t$b$20076653">2018 年俄罗斯世界杯</a>
+<div class="meta">
+<span>160597 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+<a class="question_link" href="/question/35881225" target="_blank" data-id="6559253" data-za-element-name="Title">
+有哪些关于足球的冷知识？
+</a>
+
+</div>
+</li>
+
+<li class="clearfix">
+<a target="_blank" class="avatar-link" href="/topic/19605143" data-hovercard="t$b$19605143"><img src="https://pic3.zhimg.com/f42569491_m.jpg" alt="端午节" class="avatar 40" /></a>
+<div class="content">
+<a href="/topic/19605143" target="_blank" data-hovercard="t$b$19605143">端午节</a>
+<div class="meta">
+<span>6841 人关注</span>
+
+</div>
+</div>
+<div class="bottom">
+
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="javascript:;" id="js-hot-fav-switch" class="zg-link-gray zg-right" data-za-c="collection" data-za-a="click_trending_collections_change" data-za-l="explore_sidebar_trending_collections_collection_name">换一换</a>
+<h3>热门收藏</h3>
+</div>
+<ul class="list hot-favlists">
+<li>
+<div class="content">
+<a href="/collection/41893350" target="_blank">有意义或有意思，感动或开脑洞</a>
+<div class="meta">
+<span>8189 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>2010 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/195628558" target="_blank">真实的外国</a>
+<div class="meta">
+<span>1763 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>497 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/31174528" target="_blank">我认为的精彩回答</a>
+<div class="meta">
+<span>197 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>141 条内容</span>
+</div>
+</div>
+</li>
+
+
+
+<li>
+<div class="content">
+<a href="/collection/70070923" target="_blank">很棒的答案。●▽●</a>
+<div class="meta">
+<span>707 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>272 条内容</span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="explore_down" data-params='{}'></div>
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/terms/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2018 知乎</span>
+
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1538912072000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.758ac409.js"></script>
+<meta name="entry" content="ZH.entryExplore" data-module-id="page-main">
+
+<script type="text/zscript" znonce="f99add6dd5444ffbba6a8f4ddd3072b1"></script>
+
+<input type="hidden" name="_xsrf" value="2860337e8ee68b04061d2574f7144844"/>
+</body>
+</html>
