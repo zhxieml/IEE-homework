@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 # -*- coding:utf8 -*-
-
-
+import urllib2, cookielib, urllib
+from bs4 import BeautifulSoup
+import sys
 
 def bbs_set(id, pw, text):
-    import urllib2, cookielib, urllib
-    from bs4 import BeautifulSoup
-
     cj = cookielib.CookieJar()                                              # Initialize the Cookie
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
     urllib2.install_opener(opener)
@@ -31,8 +29,6 @@ def bbs_set(id, pw, text):
     print str(soup.find('textarea').string.strip().encode('utf-8'))         # Check if the update is successful
 
 def main():
-    import sys
-
     id = sys.argv[1]
     pw = sys.argv[2]
     text = sys.argv[3].decode('utf-8').encode('gbk')                        # urlencode: 'gbk' is the default encoding
