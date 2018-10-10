@@ -20,7 +20,8 @@ def get_page(page):
         req = urllib2.Request(page, None, {'User-agent': 'Custom User Agent'})
         content = urllib2.urlopen(req, timeout=10).read()
     except Exception, err:
-        print page, err
+        print err, page
+        return None
     else:
         return content
 
@@ -72,16 +73,19 @@ def crawl(seed, method, max_page):
     while tocrawl:
         page = tocrawl.pop()
         if page not in crawled:
-            count += 1
-            print count, page
             content = get_page(page)
+            if content == None:
+                print "Overtime!"
+                continue
+            else:
+                count += 1
+                print count, page
+                add_page_to_folder(page, content)
+                outlinks = get_all_links(content, page)
+                globals()['union_%s' % method](tocrawl, outlinks)
+                crawled.append(page)
 
-            add_page_to_folder(page, content)
-            outlinks = get_all_links(content, page)
-            globals()['union_%s' % method](tocrawl, outlinks)
-            crawled.append(page)
-
-            graph[page] = outlinks
+                graph[page] = outlinks
 
         if count == max_page:
             break
@@ -96,7 +100,7 @@ if __name__ == '__main__':
     req = urllib2.Request(page, None, {'User-agent': 'Custom User Agent'})
     content = urllib2.urlopen(req).read()
 
-    print crawl('http://www.zhihu.com/', 'bfs', 10)
+    print crawl('http://www.zhihu.com/', 'bfs', 30)
 
     # seed = sys.argv[1]
     # method = sys.argv[2]
