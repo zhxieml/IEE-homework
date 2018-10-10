@@ -83,8 +83,6 @@ def crawl(seed, method, max_page):
 
             graph[page] = outlinks
 
-            # ...
-            # ...
         if count == max_page:
             break
     return graph, crawled

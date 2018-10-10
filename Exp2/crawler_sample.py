@@ -35,10 +35,10 @@ def crawl(seed, method):
             crawled.append(page)
     return graph, crawled
 
-g = {'A':['B', 'C', 'D'],\
-     'B':['E', 'F'],\
-     'D':['G', 'H'],\
-     'E':['I', 'J'],\
+g = {'A':['B', 'C', 'D'],
+     'B':['E', 'F'],
+     'D':['G', 'H'],
+     'E':['I', 'J'],
      'G':['K', 'L']}
 
 def main():

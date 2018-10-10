@@ -32,7 +32,6 @@ def main():
     id = sys.argv[1]
     pw = sys.argv[2]
     text = sys.argv[3].decode('utf-8').encode('gbk')                        # urlencode: 'gbk' is the default encoding
-    print text
 
     bbs_set(id, pw, text)
 
