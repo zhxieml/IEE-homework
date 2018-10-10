@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth enable-dark-theme">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="c001570129241bb89f4aefb436fb3de4">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<title>知乎视频用户协议（试行） - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/terms/video">
+<meta id="znonce" name="znonce" content="c61a6be3468440c6aa5b8b6f5429f5a9">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/pages/terms/main.644acd1e.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+<div class="zh-terms">
+<ol class="zh-terms-sidenav zh-document-sidenav">
+<li><a href="#sec-definition">定义</a></li>
+<li><a href="#sec-about">关于视频</a></li>
+<li><a href="#sec-spec">视频服务规范</a></li>
+<li><a href="#sec-ip">知识产权</a></li>
+<li><a href="#sec-complain">侵权投诉</a></li>
+<li><a href="#sec-notice">关于通知</a></li>
+<li><a href="#sec-disclaimer">免责声明</a></li>
+<li><a href="#sec-protection">反盗版防盗链</a></li>
+<li><a href="#sec-other">其他</a></li>
+</ol>
+<div class="zh-terms-content zh-document">
+<h1>知乎视频用户协议（试行）</h1>
+<p>欢迎你使用知乎视频产品（以下简称「视频」或「本产品」）。</p>
+<p>为使用知乎视频产品，你应当阅读并遵守《知乎视频用户协议》（以下简称：本协议），以及《知乎协议》、《知乎社区管理规定》、知乎视频的各项制度规范等。</p>
+<p>请你务必审慎阅读、充分理解各条款内容，如果你对本协议的任何条款表示异议，你可以选择不使用本产品。你使用本产品，即视为你已阅读并同意本协议下的全部条款。未成年人应在法定监护人的陪同下阅读本协议并使用本产品，对未经法定监护人许可的使用造成的相关责任应由你自行承担。</p>
+<div id="section-definition" data-section="sec-definition">
+<a name="sec-definition" class="zg-anchor-hidden"></a>
+<h2>定义</h2>
+<ol>
+<li><p>视频上传用户：指经有效注册、开通知乎帐号后，在知乎中以视频的媒介方式，向其他用户分享自己的知识、经验和见解的个人，简称为「上传用户」。</p></li>
+<li><p>视频浏览用户：指使用知乎产品观看视频的个人，简称为「浏览用户」。</p></li>
+<li><p>知乎：是指北京智者天下科技有限公司及其相关服务可能存在的运营关联单位。</p></li>
+<li><p>知乎用户：是指使用知乎视频产品的上传用户、浏览用户，简称为「你」。</p></li>
+</ol>
+</div>
+<div id="section-about" data-section="sec-about">
+<a name="sec-about" class="zg-anchor-hidden"></a>
+<h2>关于视频</h2>
+<ol>
+<li><p>知乎视频是一种新的媒介方式。知乎作为网络服务提供者，为知乎用户实现视频产品功能提供相应技术支持。</p></li>
+<li><p>是否使用视频由知乎用户自行决定，知乎仅作为提供视频产品的中立平台方，为本产品的顺利实现提供技术支持。</p></li>
+<li><p>为保证产品体验和业务安全，知乎拥有视频产品在法律法规范围内的解释权及决定权。</p></li>
+</ol>
+</div>
+<div id="section-spec" data-section="sec-spec">
+<a name="sec-spec" class="zg-anchor-hidden"></a>
+<h2>视频服务规范</h2>
+<div id="section-spec-1" data-section="sec-spec-1">
+<a name="sec-spec-1" class="zg-anchor-hidden"></a>
+<h3>视频平台服务</h3>
+<ol>
+<li><p>你有权就知乎视频使用问题通过邮件至 i@zhihu.com 向知乎提出意见，知乎会尽快响应，如该问题能及时解决的，知乎将及时协助你解决相应问题。</p></li>
+<li><p>你理解并同意，使用知乎视频产品时应加强个人资料的保护意识，并注意个人账号的密码保护，如因黑客行为或用户的保管疏忽导致账号、密码遭他人非法盗取、使用或遭受损失，知乎不承担任何责任。由此造成的损失你应当独立承担，知乎因此遭受损失的，你也应当予以赔偿。</p></li>
+<li><p>你理解并同意，因你违反本协议或相关协议、规则的规定，导致或产生第三方主张的任何索赔、要求或损失，你应当独立承担责任；知乎因此遭受损失的，你也应负责全额赔偿。</p></li>
+<li><p>你理解并同意，因业务发展需要、突发情势等，知乎可能会临时变更，暂停、限制或者终止知乎部分或全部服务，知乎将努力但不保证能做到事先通知。你知悉并愿意承担该类风险。</p></li>
+<li><p>你理解并同意，知乎有权在提供网络服务过程中以各种方式投放各种商业性广告或其他任何类型的商业信息。</p></li>
+<li><p>你理解并同意，不得通过使用任何自动化程序、软件、引擎、网络爬虫、网页分析工具、数据挖掘工具或类似工具，接入知乎视频平台服务、收集或处理通过知乎视频平台服务所提供的内容，由此造成的全部损失你应当独立承担。</p></li>
+<li><p>你理解并同意，在使用本产品过程中，不得使用或利用知乎视频知识产权（包括我们的商标、品牌、标志、任何其他专有数据或任何网页的布局或设计），或在其他方面侵犯知乎任何知识产权（包括试图对知乎平台或所使用的软件进行逆向工程），由此造成的全部损失你应当独立承担。</p></li>
+<li><p>你理解并同意，我方不对你在本服务中相关数据的删除或储存失败负责。知乎可以根据实际情况自行决定用户在本服务中数据的最长储存期限，并在服务器上为其分配数据最大存储空间等。你可根据自己的需要自行备份本服务中的相关数据。你停止使用本服务或本服务终止，我方可以从服务器上永久地删除用户的数据。本服务停止、终止后，我方没有义务向你返还任何数据。</p></li>
+<li><p>你同意在使用我方平台服务过程中，遵守以下法律法规：《中华人民共和国保守国家秘密法》、《中华人民共和国著作权法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《互联网电子公告服务管理规定》、《信息网络传播权保护条例》等有关计算机及互联网规定的法律、法规。在任何情况下，我方一旦合理地认为你的行为可能违反上述法律、法规，可以在任何时候，不经事先通知终止向你提供服务。</p></li>
+</ol>
+</div>
+<div id="section-spec-2" data-section="sec-spec-2">
+<a name="sec-spec-2" class="zg-anchor-hidden"></a>
+<h3>视频平台规范</h3>
+<ol>
+<li>
+<p>如果发生以下情况，知乎有权立即暂停、中止、停止或永久拒绝你对本产品的使用，并按照相关协议、规则对你做出处理；同时，知乎有权向你追偿因此产生的违约金或损害赔偿金。</p>
+<ol>
+<li><p>你发布违反国家相关法律法规及「七条底线」、「九不准」管理规定的信息；</p></li>
+<li><p>你的行为违反了《知乎协议》、《知乎社区管理规定》中对于用户行为规范的相关约定；</p></li>
+<li><p>你发布的内容受到行政司法机关违法调查或受到第三方的侵权投诉，尚未解决；</p></li>
+<li><p>你以非法目的使用本产品；</p></li>
+<li><p>你对本产品的使用可能对未成年人产生危害；</p></li>
+<li><p>你将本产品或本产品涉及的任何文档、图片、音频、视频、技术接口提供或转让给其他任何第三方，或利用知乎所提供的功能、信息、内容或服务从事本协议以外的任何商业活动；</p></li>
+<li><p>你未经知乎事先书面同意，将获知的知乎未公布的信息告知其他任何第三方；</p></li>
+<li><p>其他知乎认为不适合在知乎传播的内容。</p></li>
+</ol>
+</li>
+<li><p>如果知乎发现或收到他人举报或投诉用户违反本协议约定的，知乎有权不经通知对相关内容进行删除、屏蔽，并视行为情节对违规用户处以包括但不限于警告、限制或禁止使用部分或全部功能、服务暂停直至终止。</p></li>
+<li><p>知乎是一个基于内容的信息服务平台，你应当对在知乎上的注册信息的真实性、合法性、有效性承担全部责任，不得冒充他人或利用他人的名义传播任何信息，不得恶意使用注册帐号导致其他用户误认。否则，知乎有权立即停止提供服务，注销用户的知乎帐号，你应当自行承担由此而产生的一切法律责任。</p></li>
+</ol>
+</div>
+<div id="section-spec-3" data-section="sec-spec-3">
+<a name="sec-spec-3" class="zg-anchor-hidden"></a>
+<h3>视频用户处罚规范</h3>
+<ol>
+<li>
+<p>发布违反知乎社区管理规定内容：</p>
+<ol>
+<li>
+<p>处理原则</p>
+<p>为了知乎社区秩序， 视频上传用户必须遵守知乎社区管理规定，不得发布违反法律法规、泄露个人隐私、人身攻击、辱骂他人、恶意营销等内容。</p>
+</li>
+<li>
+<p>处理标准</p>
+<p>一经用户举报，运营人员审核，违规内容会被删除，帐号会根据社区帐号管理规定进行禁言，情节严重者帐号会直接封禁。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>发布恶意营销内容</p>
+<ol>
+<li>
+<p>处理原则</p>
+<p>在知乎未授权情况下，知乎禁止视频上传用户与直接或间接利益关系的第三方在本产品中进行恶意推广。恶意推广内容包括但不限于：</p>
+<ol>
+<li><p>发送与视频无关的第三方网址、社交平台、网盘代码等的垃圾广告信息；</p></li>
+<li><p>利用知乎视频平台进行商业宣传或其他商业行动；</p></li>
+<li><p>使用文字、语音、图片等任何形式宣传其他同类型语音、视频平台。</p></li>
+</ol>
+</li>
+<li>
+<p>处理标准</p>
+<p>经用户举报、运营人员审核通过，违规内容会被删除，知乎会根据社区帐号管理规定对帐号进行禁言，情节严重者会直接封禁帐号。</p>
+</li>
+</ol>
+</li>
+<li>
+<p>破坏产品功能</p>
+<ol>
+<li>
+<p>处理原则</p>
+<p>为了保障知乎视频安全，知乎禁止上传用户通过任何手段给知乎视频带来安全隐患，破坏视频功能包括但不限于：</p>
+<ol>
+<li><p>通过知乎视频上传干扰、破坏或限制知乎平台的软件病毒或其他计算机代码、档案和程序；</p></li>
+<li><p>干预或试图干预任何用户或任何其他方接入我方平台服务。</p></li>
+</ol>
+</li>
+<li>
+<p>处理标准</p>
+<p>一经运营人员发现，知乎保留追究讲者相关法律责任的一切权利。</p>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+<div id="section-ip" data-section="sec-ip">
+<a name="sec-ip" class="zg-anchor-hidden"></a>
+<h2>知识产权</h2>
+<ol>
+<li>
+<p>基本原则</p>
+<ol>
+<li><p>尊重知识产权是知乎运营的基本原则之一。如无相反证明，知乎将视频上传用户视为视频上传用户在知乎平台上传、发布内容的版权所有人。未经视频上传用户授权许可，其他用户不得违反法律相关规定，以任何载体或形式使用视频上传用户的内容。</p></li>
+<li><p>你理解并同意，知乎有权免费将视频上传用户发表的内容用于知乎各种形态的产品和服务上，包括但不限于网站以及发表的应用或其他互联网产品。知乎视频上传用户用户独家授权知乎享有以自己名义就针对讲者内容的侵权行为进行维权并独立追究侵权者责任的权利。</p></li>
+<li><p>你理解并同意，在同等条件下，知乎优先享有视频上传用户内容延伸权利（包括但不限于出版权、改编权、汇编权、翻译权、表演权、摄制权、广播权等）。</p></li>
+<li><p>你理解并同意，知乎视频由知乎独立自主开发完成，本产品的著作权、商标权、专利权、商业秘密等知识产权、其他相关权利均独立归属知乎所有。</p></li>
+<li><p>你理解并同意，知乎对用户上传的所有信息的真实性、合法性、无害性、有效性等不负任何单独或连带之保证责任，用户因其所传播的信息而引发的相关法律责任由用户自行承担。你理解并认可你可能会接触到不正确的、令人不快的或不适当的内容和信息，你不会因此追究知乎的责任。</p></li>
+<li><p>你理解并同意，知乎不对用户在知乎平台上传、发布的任何内容和信息背书、推荐或表达观点，也不对任何内容和信息的错误以及由此产生的损失或损坏承担任何责任，你对使用知乎视频需自行承担相关的风险。</p></li>
+<li><p>知乎对网络知识产权保护尽合理、审慎的义务，在有理由相信视频存在侵犯任何第三人权利的作品时，有权不事先通知并删除该涉嫌侵权视频。</p></li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="section-complain" data-section="sec-complain">
+<a name="sec-complain" class="zg-anchor-hidden"></a>
+<h2>侵权投诉</h2>
+<p>如果发现知乎上存在侵权内容，包括但不限于涉及个人隐私、造谣与诽谤、商业侵权、侵犯版权等，请与知乎取得联系（邮箱：i@zhihu.com）。为了保证问题能够及时有效地处理，请务必提交真实有效、完整清晰的材料，否则投诉将无法受理。您需要向知乎提供的投诉材料包括：</p>
+<ol>
+<li><p>权利人的身份信息，包括姓名（对自然人）、名称（对组织机构）、通信地址、联系方式、身份证明文件（对自然人）和工商营业执照或组织机构代码证（对组织机构）；</p></li>
+<li><p>权利人对涉嫌侵权视频拥有著作权和/或其他依法可以行使权利的权属证明；</p></li>
+<li><p>举报人的身份证明，身份证明可以是身份证或护照；</p></li>
+<li><p>如果举报人非权利人，请举报人提供代表权利人进行举报的书面授权证明。</p></li>
+</ol>
+<p>为确保投诉材料的真实性，在版权投诉中，您还需要签署以下法律声明：</p>
+<ol>
+<li><p>我本人为所举报内容的合法权利人；</p></li>
+<li><p>我举报的发布在知乎社区中的视频侵犯了本人相应的合法权益；</p></li>
+<li><p>如果本举报内容不完全属实，本人将承担由此产生的一切法律责任，并承担和赔偿知乎因根据投诉人的通知书对相关帐号的处理而造成的任何损失，包括但不限于知乎因向被投诉方赔偿而产生的损失及知乎名誉、商誉损害等。</p></li>
+</ol>
+<p>知乎自收到举报的七个工作日内处理完毕并给出回复。处理期间，不提供任何电话、邮件及其他方式的查询服务。</p>
+<p>此为知乎视频唯一的官方版权投诉渠道，暂不提供其他方式处理此业务。</p>
+</div>
+<div id="section-notice" data-section="sec-notice">
+<a name="sec-notice" class="zg-anchor-hidden"></a>
+<h2>关于通知</h2>
+<p>关于本产品的各种规则、通知、提示等信息，知乎可能会以网页公告、网页提示、电子邮箱、手机短信、用户注册的知乎帐户的管理系统内发送站内信等方式中的一种或多种，向你送达。该等信息一经知乎采取前述任何一种方式公布或发送，即视为你已经接受并同意，对你产生约束力。若你不接受的，你可以立即停止使用本产品。</p>
+</div>
+<div id="section-disclaimer" data-section="sec-disclaimer">
+<a name="sec-disclaimer" class="zg-anchor-hidden"></a>
+<h2>免责声明</h2>
+<ol>
+<li><p>知乎仅提供相应的网络技术支持，视频均由讲者录制、上传及发布，包括录制音频、背景音乐、曲库、图片等内容均由讲者自行提供并由独立承担全部法律责任。</p></li>
+<li><p>知乎将尽可能保存视频产生的合法内容，但不承诺永久保存上述内容，讲者应自行就前述内容备份。</p></li>
+<li><p>知乎在目前技术水平下，确保服务的连贯性和安全性，最大程度地保障本产品的正常运行。但由于不可抗力、病毒、木马、黑客攻击、系统不稳定、通信线路故障、第三方服务瑕疵、政府行为等原因可能导致的运行中断、数据丢失以及其他的损失和风险，是当时行业技术水平所无法避免的且知乎无法控制的，由此给你造成的产品延迟和暂缓、数据或信息丢失等损失，你同意放弃追究知乎的责任。</p></li>
+<li><p>上传用户在使用知乎服务中发布的任何内容、信息等并不反映或代表知乎的观点、立场或政策，知乎对此不承担任何责任。</p></li>
+</ol>
+</div>
+<div id="section-protection" data-section="sec-protection">
+<a name="sec-protection" class="zg-anchor-hidden"></a>
+<h2>反盗版和防盗链等技术措施声明</h2>
+<ol>
+<li><p>为保护知识产权，知乎已对本网站全部正版视频内容采取了反盗版和防盗链等技术措施。并且添加、设置权利管理电子信息。任何网站、应用程序、聚合软件或其他软件未经知乎许可，不得以任何方式（包括但不限于：删除、隐匿或者修改知乎域名，在视频呈现过程中以任何方式屏蔽、删除知乎标识等）改变视频内容。未经知乎许可不得以任何方式（包括但不限于：嵌套、深度链接、盗播、盗取、盗链等）直接或间接地使用知乎相关视频内容，或使用其他未经知乎许可使用知乎视频内容及占用知乎服务器、带宽资源的非法行为，否则知乎将保留追究侵权者相关法律责任的权利。</p></li>
+</ol>
+</div>
+<div id="section-other" data-section="sec-other">
+<a name="sec-other" class="zg-anchor-hidden"></a>
+<h2>其他</h2>
+<ol>
+<li><p>你一经使用本协议下任何服务，即视为你已阅读并同意接受本协议及上述内容的约束。知乎有权在必要时单方修改本协议或上述内容，相关内容变更后，如果你继续使用本产品，即视为你已接受修改后的相关内容。如果你不接受修改后的相关内容，应当停止使用相关产品。</p></li>
+<li><p>本协议所有条款的标题仅为阅读方便，本身并无实际涵义，不能作为本协议涵义解释的依据。</p></li>
+<li><p>本协议的成立、生效、履行、解释及纠纷解决，适用中华人民共和国大陆地区法律。</p></li>
+<li><p>因本协议引起的或与本协议有关的任何争议，各方应友好协商解决；协商不成的，你同意将纠纷或争议提交至知乎所在地有管辖权的人民法院管辖。</p></li>
+</ol>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+</div>
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/terms/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2018 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1539154579000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script type="text/json" class="json-inline" data-name="disabled_components">["tooltip","back_to_top"]</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-misc.2ba8b8ed.js"></script>
+<meta name="entry" content="ZH.entryTerms" data-module-id="page-misc">
+
+<script type="text/zscript" znonce="c61a6be3468440c6aa5b8b6f5429f5a9"></script>
+
+<input type="hidden" name="_xsrf" value="47ff40e75dce0c5adc3d9ef375d13c32"/>
+</body>
+</html>

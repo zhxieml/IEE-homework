@@ -17,7 +17,10 @@ class Bitarray:
         
         index = n / 8
         position = n % 8
-        return (self.bitarray[index] & (1 << (7 - position))) > 0 
+        return (self.bitarray[index] & (1 << (7 - position))) > 0
+
+    def get_size(self):
+        return self.size
 
 if __name__ == "__main__":
     bitarray_obj = Bitarray(32000)

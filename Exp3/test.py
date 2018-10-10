@@ -1,5 +1,7 @@
 # -*- coding: utf8 -*-
 from Bitarray import Bitarray
+import random
+import string
 
 def RSHash(key):
     a    = 378551
@@ -99,49 +101,51 @@ def test_hash_function(func, size, filename):
 
 
 def main():
-    funcs = ['BKDRHash', 'RSHash', 'JSHash', 'SDBMHash', 'DEKHash']
+    # funcs = ['BKDRHash', 'RSHash', 'JSHash', 'SDBMHash', 'DEKHash']
+    # #
+    # # for func in funcs:
+    # #     print test_hash_function(eval(func), 12, 'pg1661.txt')
     #
-    # for func in funcs:
-    #     print test_hash_function(eval(func), 12, 'pg1661.txt')
+    # bit_obj = Bitarray(800000)
+    #
+    # words = []
+    # f = open('pg1661.txt','r')
+    # for line in f.xreadlines():		#逐行读取文本
+    #     for word in line.strip().split(' '):	#以空格分割，将文本变为词
+    #         if word not in words:
+    #             words.append(word)
+    #
+    # f.close()
+    #
+    #
+    # for word in words:
+    #     for func in funcs:
+    #         bit_obj.set(eval(func)(word) % 800000)
+    #
+    # test_words = []
+    # f = open('test.txt','r')
+    # for line in f.xreadlines():		#逐行读取文本
+    #     for test_word in line.strip().split(' '):	#以空格分割，将文本变为词
+    #         if test_word not in test_words:
+    #             test_words.append(line.strip().split(' ')[0])		#将词加入words
+    # f.close()
+    #
+    # count = 0
+    #
+    # print len(words), len(test_words)
+    #
+    # for test_word in test_words:
+    #     if test_word not in words:
+    #         for func in funcs:
+    #             if not bit_obj.get(eval(func)(test_word) % 800000):
+    #                 count += 1
+    #                 break
+    #
+    # print count
+    for i in range(100):
+        ran_str = ''.join(random.sample(string.ascii_letters + string.digits, 8))
 
-    bit_obj = Bitarray(800000)
-
-    words = []
-    f = open('pg1661.txt','r')
-    for line in f.xreadlines():		#逐行读取文本
-        for word in line.strip().split(' '):	#以空格分割，将文本变为词
-            if word not in words:
-                words.append(word)
-
-    f.close()
-
-
-    for word in words:
-        for func in funcs:
-            bit_obj.set(eval(func)(word) % 800000)
-
-    test_words = []
-    f = open('test.txt','r')
-    for line in f.xreadlines():		#逐行读取文本
-        for test_word in line.strip().split(' '):	#以空格分割，将文本变为词
-            if test_word not in test_words:
-                test_words.append(line.strip().split(' ')[0])		#将词加入words
-    f.close()
-
-    count = 0
-
-    print len(words), len(test_words)
-
-    for test_word in test_words:
-        if test_word not in words:
-            for func in funcs:
-                if not bit_obj.get(eval(func)(test_word) % 800000):
-                    count += 1
-                    break
-
-    print count
-
-
+        print ran_str
 
 
 if __name__ == '__main__':
