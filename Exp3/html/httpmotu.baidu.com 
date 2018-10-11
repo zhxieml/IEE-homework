@@ -1,0 +1,675 @@
+<!--STATUS OK-->
+
+<!doctype html>
+<html>
+<head>
+	<!-- use fis reset.css-->
+	<meta charset="utf-8">
+	<title>百度魔图官方网站</title>
+	<meta content="魔图,图片处理,motu,魔图精灵,百度魔图,photowonder,美图,美容,ps,瘦脸,特效,滤镜,相框,恶搞,装饰,图片剪裁,拼图" name="Keywords"/>
+	<meta content="百度魔图（原魔图精灵）是一款好玩易用的掌上美图工具，致力于提供手机上图片拍摄、美化和分享的一站式图片服务。" name="Description"/>
+        <link rel="shortcut icon" href="https://www.baidu.com/cache/icon/favicon.ico" type="image/x-icon" />
+        <link rel="icon" sizes="any"  href="https://www.baidu.com/cache/icon/favicon.svg"  />
+	<script>
+		/*JS做简单的移动版跳转。。*/
+		var deviceList = [
+			'iPod',
+			'iPhone',
+			'Android'
+		];
+		var isMobile = false;
+		for(var i=0,len=deviceList.length; i<len; i++) {
+			if(navigator.userAgent.indexOf(deviceList[i]) != -1) {
+				isMobile = true;
+				break;
+			}
+		}
+		if(isMobile == true) {
+		    window.top.location.replace('/webapp/index.html');
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="http://shouji.baidu.com/resource/css/mobile-titlebar.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]><script src="/static/html5.js"></script><![endif]-->
+	<script type="text/javascript">
+	var hotNews = [{
+				
+				"text" : "Android 5.1.6，能赚钱的版本来袭，小伙伴们快来升级体验吧！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 1,
+				"time" : "2017-11-02"
+			},{
+				
+				"text" : "Android 5.1.5，丰富的社区活动来袭，快来升级体验吧",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 1,
+				"time" : "2017-11-02"
+			},{
+				
+				"text" : "Android 5.1.4，修复部分机型拍照界面适配问题",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2017-10-23"
+			},{
+				
+				"text" : "Android 5.1.3，修复特效相机音量键拍照bug",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2017-08-09"
+			},{
+				
+				"text" : "Android 5.1.2，新增仙剑滤镜！新增消除笔",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2017-05-08"
+			},{
+				
+				"text" : "iOS 3.6.4，更新首页，开屏页，适配iOS10！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2017-03-01"
+			},{
+				
+				"text" : "Android 5.1.1，新增3DLUT大片滤镜！拼图支持下载字体",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2017-01-20"
+			},{
+				
+				"text" : "iOS 3.6.3，新增变妆、贴纸、马赛克、涂鸦等多种素材！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2016-12-17"
+			},{
+				
+				"text" : "iOS 3.6.2，新增水波倒影功能和更多圣诞素材！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2016-12-03"
+			},{
+				
+				"text" : "iOS 3.6.1，社区支持修改头像和昵称，添加好友评论点赞通知！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2016-11-11"
+			},{
+				
+				"text" : "Android 5.1.0，新增水波倒影，让你的照片更有趣",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-11-04"
+			},{
+				
+				"text" : "iOS 3.6.0，新增社区功能，整体换肤！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2016-09-29"
+			},{
+				
+				"text" : "Android 5.0.1，新增美妆！新增染发！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-09-28"
+			},{
+				
+				"text" : "iOS 3.5.4，新增眼影功能，涂鸦、文字泡泡可直接使用！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2016-08-12"
+			},{
+				
+				"text" : "Android 5.0.0，新增美妆！新增关注频道！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-08-04"
+			},{
+				
+				"text" : "iOS 3.5.3，新增睫毛功能，素材中心优化！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2016-07-08"
+			},{
+				
+				"text" : "Android 3.8.4，首页大改版！新增活动！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-06-12"
+			},{
+				
+				"text" : "Android 3.8.3，优化性能！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-05-19"
+			},{
+				
+				"text" : "Android 3.7.9，拼图模糊背景刷爆朋友圈！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-04-18"
+			},{
+				
+				"text" : "Android 3.7.8，图片社区功能重磅上线！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-03-22"
+			},{
+				
+				"text" : "Android 3.7.7，优化细节体验！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-01-15"
+			},{
+				
+				"text" : "Android 3.7.6，修复一些小Bug！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2016-01-11"
+			},{
+				
+				"text" : "Android 3.7.5，新增4:3和1:1拼图！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-12-31"
+			},{
+				
+				"text" : "Android3.7.4，圣诞版火热上线，拼图新增调整边距功能！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-12-23"
+			},{
+				
+				"text" : "iOS 3.4.8，圣诞将至，欢乐变装Hi起来！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-12-18"
+			},{
+				
+				"text" : "iOS 3.4.7，适配iOS9，适配iPhone6s, 6sp！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-12-08"
+			},{
+				
+				"text" : "Android3.7.3，首页改版，拼图支持文字编辑！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-12-07"
+			},{
+				
+				"text" : "Android3.7.1，拼图改版，可变换拼图底色和底纹。",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-11-20"
+			},{
+				
+				"text" : "Android3.6.9，魔鬼变妆上线，让我们一起“鬼”混吧！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-10-30"
+			},{
+				
+				"text" : "iOS 3.4.6，魔鬼变妆上线，让我们一起“鬼”混吧！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-10-20"
+			},{
+				
+				"text" : "新增热门TV、KTV模板，即可下载使用，你就是明星！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-10-16"
+			},{
+				
+				"text" : "Android 3.6.4，素材中心新增滤镜频道，多种滤镜随心下！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-09-10"
+			},{
+				
+				"text" : "iOS 3.4.5，新增多款彩妆、特效、马赛克效果！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-09-05"
+			},{
+				
+				"text" : "Android 3.6.3，素材中心全新改版，各种素材应有尽有！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-08-28"
+			},{
+				
+				"text" : "Android 3.6.2，紧随潮流，魔图君重磅推出彩妆系列！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-08-24"
+			},{
+				
+				"text" : "iOS 3.4.4，新增3款经典特效，1款人像特效！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-08-20"
+			},{
+				
+				"text" : "Android 3.6.0，新增美妆，马赛克，精品特效！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-08-12"
+			},{
+				
+				"text" : "iOS 3.4.3，自动美容升级，自动彩妆定位！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-07-27"
+			},{
+				
+				"text" : "Android 3.5.8，精美相框全量上新！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-07-25"
+			},{
+				
+				"text" : "iOS 3.4.2，全新马赛克，自动美容升级，美妆精准定位！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-07-20"
+			},{
+				
+				"text" : "Android 3.5.6，全新马赛克，全新祛痘，优化彩妆定位！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-07-14"
+			},{
+				
+				"text" : "iOS 3.4.1，更多综艺模板，让你一秒变明星！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-07-07"
+			},{
+				
+				"text" : "Android 3.5.2，新增拼图模板，大片模板！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-06-25"
+			},{
+				
+				"text" : "iOS 3.4.0，自动美容升级，新增大片模板台词！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-06-18"
+			},{
+				
+				"text" : "Android 3.5.1, 自动美容再升级，新增大片模板台词！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-06-10"
+			},{
+				
+				"text" : "iOS 3.3.9，制作你的专属大片！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-06-01"
+			},{
+				
+				"text" : "魔图Android新增鸡汤模式，自动大眼功能！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-05-26"
+			},{
+				
+				"text" : "上电视！当导演！出镜KTV！ 玩转大片都帮你实现！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-05-12"
+			},{
+				
+				"text" : "iOS 3.3.8，涂鸦，马赛克，文字泡泡全量上新！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-05-11"
+			},{
+				
+				"text" : "Android 3.4.1，相框、背景全量上新，超多超好玩！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-04-30"
+			},{
+				
+				"text" : "iOS 3.3.7，全新视觉，更新更快更萌！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-04-30"
+			},{
+				
+				"text" : "Android 3.4.0，文字泡泡全量上新，超多超好玩！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-04-22"
+			},{
+				
+				"text" : "Android 3.3.9，涂鸦、马赛克全量上新，超多超好玩！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-04-14"
+			}, {
+				
+				"text" : "百度魔图Android3.3.8版本，提高素材下载稳定性！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-04-08"
+			}, {
+				
+				"text" : "百度魔图iOS3.3.6版本，首页华丽变身啦~！",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2015-04-07"
+			}, {
+				
+				"text" : "百度魔图Android3.3.7版本，全新视觉，更新更快更萌！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-03-27"
+			},{
+				
+				"text" : "百度魔图Android3.3.6版本，首页华丽变身啦~！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-03-10"
+			},{
+				
+				"text" : "百度魔图新春逗逼求红包表情，强势来袭~！",
+				"href" : "http://motu.baidu.com/download.htm#android",
+				"isnew" : 0,
+				"time" : "2015-02-11"
+			}, {
+				
+				"text" : "百度魔图新增可人滤镜“磨皮+美肤”",
+				"href" : "http://motu.baidu.com/download.htm#iphone",
+				"isnew" : 0,
+				"time" : "2013-04-26"
+			}, {
+                                           "text" : "全场礼品免费疯抢！仅10天双倍积分",
+				"href" : "http://xiangce.baidu.com/zt/jf/",
+				"isnew" : 0,
+				"time" : "2012-12-25"
+			},{
+				"text" : "完美适配iPhone5 百度魔图iOS2.0.6发布",
+				"href" : "http://zx.sj.91.com/content/2012-12-03/20121203230303955.shtml",
+				"isnew" : 0,
+				"time" : "2012-12-04"
+			}, {
+				"text" : "人脸识别技术：百度魔图2.0.4眼线腮红更易用",
+				"href" : "http://news.skycn.com/article/38296.html",
+				"isnew" : 0,
+				"time" : "2012-10-16"
+			}, {
+				"text" : "百度魔图推2.0版 6大升级打造尖端手机照片APP",
+				"href" : "http://www.baiduer.com.cn/2012-08/28845.html/2012-08-02-19-24",
+				"isnew" : 0,
+				"time" : "2012-08-24"
+			}, {
+				"text" : "度娘做推销员 iPhone百度魔图不火都难",
+				"href" : "http://www.cnmo.com/soft/136813.html",
+				"isnew" : 0,
+				"time" : "2012-08-13"
+			}];
+	</script>
+</head>
+<body class="page-main">
+<section id="page">
+	<div id="header">
+		<div id="logo" class="logo">
+			<img src="img/motu-logo.png">
+		</div>
+		<ul class="top-nav">
+			<li><a href="index.htm" class="normal current" onclick="_hmt.push(['_trackEvent', 'software', 'download', 'nav_home']);">魔图首页</a></li>
+			<li><a href="feature.htm" class="normal" onclick="_hmt.push(['_trackEvent', 'software', 'download', 'nav_intro']);">功能介绍</a></li>
+			<li>
+				<div id="drop-down-con" class="drop-down-con">
+					<a href="#" class="download" id="download-current" onclick="_hmt.push(['_trackEvent', 'software', 'download', 'nav_down']);">软件下载<span class="drop-icon"></span></a>
+					<a class="download-label label-top" href="download.htm#iphone" onclick="_hmt.push(['_trackEvent', 'software', 'download', 'nav_down_iphone']);">iPhone版</a>
+					<a class="download-label" href="download.htm#android" onclick="_hmt.push(['_trackEvent', 'software', 'download', 'nav_down_android']);">Android版</a>
+				</div>
+			</li>
+		</ul>
+		
+		<div style="clear:both;"></div>
+	</div>
+	<div id="banner" class="banner">
+		<div class="banner-inner">
+			<a class="iphone-button" href="download.htm#iphone" onclick="_hmt.push(['_trackEvent', 'software', 'download', 'index_iphone_down']);"></a>
+			<a class="android-button" href="download.htm#android" onclick="_hmt.push(['_trackEvent', 'software', 'download', 'index_android_down']);"></a>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="carousel-content">
+			<div id="carousel" class="carousel">
+				<div class="carousel-inner">
+					<img data-href="http://motu.baidu.com/download.htm#iphone" class="first" id="carousel-img-0" width="614" height="121" src="img/banner20141113.jpg" />
+					<!-- <img id="carousel-img-1" width="614" height="121" src="img/1.jpg" />
+					<img id="carousel-img-2" width="614" height="121" src="img/2.jpg" />
+					<img id="carousel-img-3" width="614" height="121" src="img/3.jpg" /> -->
+				</div>
+				<!-- div id="carousel-btn" class="carousel-btn">
+					<a class="current" id="carousel-btn-0" data-count ="0" href="#">1</a>
+					<a id="carousel-btn-1" data-count ="1" href="#">1</a>
+					<a id="carousel-btn-2" data-count ="2" href="#">1</a>
+					<a id="carousel-btn-3" data-count ="3" href="#">2</a>
+				</div -->
+			</div>
+			<div class="xiangce-desc">
+				<a href="http://mopai.baidu.com/home/">
+				<img src="/img/baidu_mopai.png" />
+				</a>
+			</div>
+		</div>
+		<div id="slider" class="slider">
+			<a id="slider-left" class="slider-left" href=""></a>
+			<div id="slider-outer" class="slider-outer">
+				<div id="slider-inner" class="slider-inner">
+					<div>
+						<img src="img/desc1.jpg">
+						<dl>
+							<dt>特效相机</dt>
+							<dd>实时特效相机，随时拍出艺术范儿</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="img/desc2.jpg">
+						<dl>
+							<dt>美容</dt>
+							<dd>轻松瘦脸瘦身，HOLD住完美身材</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="img/desc3.jpg">
+						<dl>
+							<dt>装饰</dt>
+							<dd>海量装饰，秀出个性照片</dd>
+						</dl>
+					</div>
+					
+					<div>
+						<img src="img/desc4.jpg">
+						<dl>
+							<dt>眼线、腮红</dt>
+							<dd>精致眼线打造魅惑电眼，俏皮腮红衬托甜美清新</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="img/desc5.jpg">
+						<dl>
+							<dt>拼图</dt>
+							<dd>随意拼图，打造自己的照片墙</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="img/desc1.jpg">
+						<dl>
+							<dt>特效相机</dt>
+							<dd>实时特效相机，随时拍出艺术范儿</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="img/desc2.jpg">
+						<dl>
+							<dt>美容</dt>
+							<dd>轻松瘦脸瘦身，HOLD住完美身材</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="img/desc3.jpg">
+						<dl>
+							<dt>装饰</dt>
+							<dd>海量装饰，秀出个性照片</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="img/desc4.jpg">
+						<dl>
+							<dt>眼线、腮红</dt>
+							<dd>精致眼线打造魅惑电眼，俏皮腮红衬托甜美清新</dd>
+						</dl>
+					</div>
+					<div>
+						<img src="img/desc5.jpg">
+						<dl>
+							<dt>拼图</dt>
+							<dd>随意拼图，打造自己的照片墙</dd>
+						</dl>
+					</div>
+					
+					
+				</div>
+			</div>
+			<a id="slider-right" class="slider-right" href=""></a>
+		</div>
+		<div class="news">
+			<div class="hot-material">
+				<h5>热门素材</h5>
+				<ul class="material-con">
+					<li>
+						<img src="img/materials01.jpg">
+						<p>饰品</p>
+					</li>
+					<li>
+						<img src="img/materials02.jpg">
+						<p>饰品</p>
+					</li>
+					<li>
+						<img src="img/materials03.jpg">
+						<p>饰品</p>
+					</li>
+					<li>
+						<img src="img/materials04.jpg">
+						<p>恶搞</p>
+					</li>
+					<li>
+						<img src="img/materials05.jpg">
+						<p>恶搞</p>
+					</li>
+					<li>
+						<img src="img/materials06.jpg">
+						<p>恶搞</p>
+					</li>
+					<li>
+						<img src="img/materials07.jpg">
+						<p>恶搞</p>
+					</li>
+					<li>
+						<img src="img/materials08.jpg">
+						<p>贴纸</p>
+					</li>
+					<li>
+						<img src="img/materials09.jpg">
+						<p>贴纸</p>
+					</li>
+					<li>
+						<img src="img/materials10.jpg">
+						<p>贴纸</p>
+					</li>
+			
+				</ul>
+				
+				<div style="clear:both"></div>
+			</div>
+			<div class="dynamics">
+				<h5>最新动态</h5>
+				<ul id="dynamics-con" class="dynamics-con">
+
+				</ul>
+				
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="links">
+			<span>友情链接 : </span>
+			<a target="_blank" href="http://apk.hiapk.com/">安卓市场</a>
+			<a target="_blank" href="http://sj.91.com/">91</a>
+			<a target="_blank" href="http://www.appchina.com/">应用汇</a>
+			<a target="_blank" href="http://www.mumayi.com">木蚂蚁</a>
+			<a target="_blank" href="http://www.gao7.com/">搞趣</a>
+			<a target="_blank" href="http://app.tongbu.com/">同步推</a>
+                        <a target="_blank" href="http://app.sohu.com">搜狐应用中心</a>	
+                        <a target="_blank" href="http://www.wandoujia.com/" >豌豆荚</a>	
+		</div>
+		
+	</div>
+	<div id="footer">
+		<p class="center copyright">&#169;<i style="font-style:normal;" id="footer_year"></i><script>var yearNum = (new Date()).getFullYear();document.getElementById("footer_year").innerHTML = yearNum;</script> Baidu&nbsp;&nbsp;&nbsp;&nbsp;<a href="contact.htm">联系我们</a><span class="spacer">|</span><a href="problems_feature.htm">常见问题</a><span class="spacer">|</span><!-- a href="use_feature.htm">使用帮助</a><span class="spacer">|</span--><a href="feedback.htm">意见反馈</a></p>
+	</div>
+<script>
+var time=0;
+</script>
+	
+	
+	
+</section>
+<p class="follow">
+	<span>关注我们：</span>
+	<a class="sina-follow" href="http://t.sina.com.cn/motujingling"></a>
+	<a class="qq-follow" href="http://t.qq.com/motujingling"></a>
+	<a class="tieba-follow" href="http://tieba.baidu.com/f?kw=%B0%D9%B6%C8%C4%A7%CD%BC&fr=itb_favo&fp=favo"></a>
+</p>
+	
+
+<!--
+	 -->
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+	
+	function renderNews() {
+				var strArr = [];
+				if ($.isArray(hotNews)) {
+					for (var i = 0, l = hotNews.length; i < 8; i++) {
+						var obj = hotNews[i];
+						var iconStr = obj['isnew'] + "" == "1" ? "<span class='icon_new'></span>" : "";
+						strArr.push("<li><span><a target='_blank' href='" + obj['href'] + "'>" + obj['text'] + iconStr + "..............................................</a><span> (" + obj['time'] + ") </span></span></li>");
+					}
+
+					$("#dynamics-con").html(strArr.join(""));
+				}
+			}
+	
+	renderNews();
+	$("#drop-down-con").mouseover(function(){
+		$(this).addClass("drop-current");
+		$(".download-label").css("display","inline-block");
+	}).mouseout(function(){
+		$(this).removeClass("drop-current");
+		$(".download-label").css("display","none");
+	});
+
+	$("#carousel").click(function(e){
+		window.open($(e.target).attr("data-href"));
+	});
+	</script>
+	<script src="js/index.js"></script>
+<div style="display:none;">
+	<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ffcf8554354d95e4440ad7cd95c41128d' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+</body>
+</html>

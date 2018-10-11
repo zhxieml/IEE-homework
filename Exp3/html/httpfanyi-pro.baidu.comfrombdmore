@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>百度人工翻译_专业人工翻译平台 | 在线翻译 | 文档翻译</title>
+<meta name="description" content="为用户提供及时、精准的高质量人工翻译。中英短文本翻译快速准确，即时可取；论文、简历、证件、合同等文档翻译专业权威，支持多语种，翻译、审校、质检、排版、盖章，流程一体化，质量有保障，服务更放心。">
+<meta name="author" content="yaowei">
+<meta name="keywords" content="人工翻译,在线翻译,英文翻译,专业翻译,文档翻译,简历翻译,合同翻译,论文翻译,文献翻译,产品介绍翻译">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="baidu-site-verification" content="TtGUOvF7oa" />
+<link rel="icon" type="image/png" href="/static/human-translation/img/favicon-32x32_ca689c3.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/static/human-translation/img/favicon-16x16_e1883cf.png" sizes="16x16" />
+<link rel="shortcut icon" type="image/x-icon" href="/static/human-translation/img/favicon_d87cd2a.ico" />
+
+<style type="text/css">
+    .footer {
+        margin-top: 0 !important;
+    }
+    #whole-slider-block {
+        overflow: hidden;
+        height: 326px;
+    }
+</style>
+
+<link rel="stylesheet" href="/static/human-translation/js/third_party/outdated_browser/outdatedbrowser_289a3d9.css">
+<script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "//hm.baidu.com/hm.js?44abfd1486a26fd735a69da65e8f370b";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+            window.activityInfo = {
+                rebateRate: 0,
+                // 打折，属性名为打折条件，属性值为打几折，不打折等于10折
+                discountInfo: {
+                    0: 10
+                }
+            };
+            // 用来区分是否是线上环境
+            window.ISINPRODUCTIONENV = window.location.hostname === 'pro.fanyi.baidu.com' || window.location.hostname === 'fanyi-pro.baidu.com';
+        </script>
+<script>function addLoadEvent(t){var e=window.onload;window.onload="function"!=typeof window.onload?t:function(){e&&e(),t()}}var outdatedBrowser=function(t){function e(t){s.style.opacity=t/100,s.style.filter="alpha(opacity="+t+")"
+}function o(t){e(t),1==t&&(s.style.display="block"),100==t&&(u=!0)}function r(){var t=document.getElementById("btnCloseUpdateBrowser");
+s.style.backgroundColor=bkgColor,s.style.color=txtColor,s.children[0].style.color=txtColor,s.children[1].style.color=txtColor,t.onmousedown=function(){return s.style.display="none",!1
+}}function a(){var t=!1;if(window.XMLHttpRequest)t=new XMLHttpRequest;else if(window.ActiveXObject)try{t=new ActiveXObject("Msxml2.XMLHTTP")
+}catch(e){try{t=new ActiveXObject("Microsoft.XMLHTTP")}catch(e){t=!1}}return t}function n(t){var e=a();return e&&(e.onreadystatechange=function(){l(e)
+},e.open("GET",t,!0),e.send(null)),!1}function l(t){var e=document.getElementById("outdated");return 4==t.readyState&&(e.innerHTML=200==t.status||304==t.status?t.responseText:f,r()),!1
+}var s=document.getElementById("outdated");this.defaultOpts={bgColor:"#f25648",color:"#ffffff",lowerThan:"transform",languagePath:"../outdatedbrowser/lang/en.html"},t?("IE8"==t.lowerThan||"borderSpacing"==t.lowerThan?t.lowerThan="borderSpacing":"IE9"==t.lowerThan||"boxShadow"==t.lowerThan?t.lowerThan="boxShadow":"IE10"==t.lowerThan||"transform"==t.lowerThan||""==t.lowerThan||"undefined"==typeof t.lowerThan?t.lowerThan="transform":("IE11"==t.lowerThan||"borderImage"==t.lowerThan)&&(t.lowerThan="borderImage"),this.defaultOpts.bgColor=t.bgColor,this.defaultOpts.color=t.color,this.defaultOpts.lowerThan=t.lowerThan,this.defaultOpts.languagePath=t.languagePath,bkgColor=this.defaultOpts.bgColor,txtColor=this.defaultOpts.color,cssProp=this.defaultOpts.lowerThan,languagePath=this.defaultOpts.languagePath):(bkgColor=this.defaultOpts.bgColor,txtColor=this.defaultOpts.color,cssProp=this.defaultOpts.lowerThan,languagePath=this.defaultOpts.languagePath);
+var u=!0,d=function(){var t=document.createElement("div"),e="Khtml Ms O Moz Webkit".split(" "),o=e.length;return function(r){if(r in t.style)return!0;
+for(r=r.replace(/^[a-z]/,function(t){return t.toUpperCase()});o--;)if(e[o]+r in t.style)return!0;return!1}}();if(!d(""+cssProp)){if(u&&"1"!==s.style.opacity){u=!1;
+for(var i=1;100>=i;i++)setTimeout(function(t){return function(){o(t)}}(i),8*i)}" "===languagePath||0==languagePath.length?r():n(languagePath);
+var f='<h6>Your browser is out-of-date!</h6><p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p><p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>'
+}};addLoadEvent(function(){outdatedBrowser({bgColor:"#f25648",color:"#ffffff",lowerThan:"IE9",languagePath:""})});</script>
+<link rel="stylesheet" type="text/css" href="/static/human-translation/pkg/human-translation_sync_css_0_05ab0b0.css"/><link rel="stylesheet" type="text/css" href="/static/human-translation/pkg/human-translation_sync_css_4_7f893e3.css"/><link rel="stylesheet" type="text/css" href="/static/human-translation/pkg/human-translation_sync_css_2_2c84bad.css"/><link rel="stylesheet" type="text/css" href="/static/human-translation/pkg/human-translation_sync_css_1_3f05641.css"/></head>
+<body>
+
+<div class="container" id="index-page-container">
+<div class="header header-without-bottom" id="whole-page-header">
+<div class="inner cf">
+<h1><a href="/index" class="logo" data-stat-id="8" data-stat-is-prefix-page-name="false">百度人工翻译</a></h1>
+<ul class="navigation">
+<li><a href="/index" class="selected" data-stat-id="9" data-stat-is-prefix-page-name="false">首页</a></li>
+<li><a href="/quick" data-stat-id="10" data-stat-is-prefix-page-name="false">日常快译</a></li>
+<li><a href="/doc" data-stat-id="11" data-stat-is-prefix-page-name="false">专业翻译</a></li>
+<li class="service-ill">
+<a href="javascript:;" class="service-ill-head">服务说明<i class="arrow arrow-down"></i></a>
+<ol class="service-ill-panel">
+<li>
+<a href="javascript:;" class="no-hover-blue">服务说明<i class="arrow arrow-up"></i></a>
+</li>
+<li><a href="/aboutus" data-stat-id="12" data-stat-is-prefix-page-name="false">了解我们</a></li>
+<li><a href="/price" data-stat-id="13" data-stat-is-prefix-page-name="false">查看报价</a></li>
+<li><a href="/agreement" data-stat-id="14" data-stat-is-prefix-page-name="false">用户协议</a></li>
+<li><a href="/qa" data-stat-id="15" data-stat-is-prefix-page-name="false">常见问题</a></li>
+</ol>
+</li>
+</ul>
+<div class="header-notice">
+<span class="notice-title"></span>
+<div class="tip-box"></div>
+</div>
+<div class="user">
+<div class="wrap-login">
+<a href="javascript:" class="account-login" data-stat-id="16" data-stat-is-prefix-page-name="false">登录</a>
+<a href="https://passport.baidu.com/v2/?reg" class="account-register" data-stat-id="17" data-stat-is-prefix-page-name="false">注册</a>
+</div>
+</div>
+</div>
+</div>
+<script type="text/template" id="tpl-user">
+    <a href="/order" data-stat-id="18" data-stat-is-prefix-page-name="false" id="my-order">我的订单</a>
+	<div class="account-wrap">
+        <a href="/userpromotion" class="account-head user-name-block"><%=userName%></a>
+		<ol class="account-panel">
+			<li class="border-bottom">
+				<a href="/userpromotion" class="user-name-block"><%=userName%></a>
+			</li>
+            <li class="account-info-block border-bottom">
+                <h4>我的账户</h4>
+                <div class="account-info-container">
+                    <div class="account-info">
+                        <h5 class="grey">我的余额</h5>
+                        <span class="red">￥<em class="header-balance">0</em></span>
+                    </div>
+                    <div class="account-info">
+                        <h5 class="grey">优惠券</h5>
+                        <span class="red"><em class="header-coupon-count">0</em>张</span>
+                    </div>
+                </div>
+            </li>
+			<li><a href="https:\/\/passport.baidu.com\/?logout" class="account-logout" target="_self" data-stat-id="19" data-stat-is-prefix-page-name="false">退出</a></li>
+		</ol>
+	</div>
+</script>
+<script>
+    var isLogin = false;
+    </script>
+<div id="whole-slider-block">
+<div class="my-slider">
+<ul id="slider-container">
+</ul>
+</div>
+</div>
+<div class="whole-line-2 narrow-inner">
+<div class="line2-left">
+<div class="title">
+<a href="/quick" target="_self" data-stat-id="74">日常快译</a>
+</div>
+<div class="fe-co">
+<span>中英互译</span><span>在线输入</span><span>即时返回</span><span>中英&nbsp;<b style="color: #4395FF;">0.26元/字</b></span>
+</div>
+<p class="fe-long grey">中文3000字以内，英文1500词以内<br>
+适合零散短句，日常用语，商贸交流，紧急沟通，邮件往来，地址信息等短文本</p>
+<a class="big-btn blue-btn" href="/quick" data-stat-id="6">立即翻译</a>
+</div><div class="line2-right">
+<div class="title">
+<a href="/doc" target="_self" data-stat-id="75">专业翻译</a>
+</div>
+<div class="fe-co">
+<span>多语言翻译</span><span>上传文档</span><span>专业审校排版</span><span>最低&nbsp;<b style="color: #4395FF;">0.12元/字</b></span>
+</div>
+<div class="ico-container">
+<a href="/docintro?usagetype=0" data-stat-id="21" data-stat-add="专业论文">专业论文</a><a href="/docintro?usagetype=1" data-stat-id="21" data-stat-add="简历简介">简历简介</a><a href="/docintro?usagetype=2" data-stat-id="21" data-stat-add="证件资料">证件资料</a><a href="/docintro?usagetype=3" data-stat-id="21" data-stat-add="合同标书">合同标书</a><a href="/docintro?usagetype=4" data-stat-id="21" data-stat-add="留学移民">留学移民</a><a href="/docintro?usagetype=5" data-stat-id="21" data-stat-add="公司介绍">公司介绍</a><a href="/docintro?usagetype=6" data-stat-id="21" data-stat-add="文献出版">文献出版</a>
+</div>
+<a class="big-btn blue-btn" href="/doc" data-stat-id="7">立即上传</a>
+</div>
+</div>
+<div class="footer whole-footer-relative" id="whole-page-footer">
+<div class="inner cf">
+<div class="aboutus">
+<h4>友情链接</h4>
+<p>
+<a href="http://fanyi.baidu.com" target="_blank" data-stat-id="22" data-stat-is-prefix-page-name="false">百度翻译</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://fanyi.baidu.com/appdownload/download.html" target="_blank" data-stat-id="23" data-stat-is-prefix-page-name="false">百度翻译APP</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://api.fanyi.baidu.com/" target="_blank" data-stat-id="24" data-stat-is-prefix-page-name="false">百度翻译API</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.yeekit.com/" target="_blank" data-stat-id="89" data-stat-is-prefix-page-name="false">译库机辅翻译</a>
+</p>
+</div>
+<div class="friendlink">
+<h4>服务帮助</h4>
+<p>
+<a href="/price" target="_blank" data-stat-id="25" data-stat-is-prefix-page-name="false">查看报价</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/qa" target="_blank" data-stat-id="26" data-stat-is-prefix-page-name="false">常见问题</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:translate_pro@baidu.com" data-stat-id="27" data-stat-is-prefix-page-name="false">意见反馈</a>
+</p>
+<p class="copyright">
+©&nbsp;&nbsp;2018&nbsp;&nbsp;Baidu 版权所有</p>
+</div>
+<div class="contact">
+<h4>联系我们</h4>
+<p>
+<a href="https://ikefu.baidu.com/web/fanyi-pro" target="_blank">在线客服</a>&nbsp;&nbsp;&nbsp;&nbsp;客服热线：400-004-5271</p>
+<p style="margin-top: -5px">工作时间：9:00-24:00</p>
+</div>
+</div>
+</div>
+<div id="coupon-ad">
+<a id="close-coupon-ad"></a>
+</div>
+<div id="coupon-ad-overlay-bg">
+<div class="overlay-box-common" id="coupon-ad-success">
+<h1>领取成功</h1>
+<hr>
+<img src="/static/human-translation/widget/couponad/img/coupon-succ_ed6058f.png" width="225" height="102">
+<div class="coupon-button-group">
+<a class="red-button checkCoupon" href="/userpromotion">查看优惠券</a>
+<a class="red-button close-ad-overlay">关闭</a>
+</div>
+</div>
+<div class="overlay-box-common" id="coupon-ad-got">
+<h1>小主已经领取过啦！</h1>
+<div class="coupon-button-group">
+<a class="gray-button checkCoupon" href="/userpromotion">查看优惠券</a>
+<a class="gray-button close-ad-overlay">关闭</a>
+</div>
+</div>
+<div class="overlay-box-common" id="coupon-ad-old-user">
+<h1>您是老用户啦！</h1>
+<a class="red-button close-ad-overlay">关闭</a>
+</div>
+<div class="overlay-box-common" id="coupon-ad-err">
+<h1>Oops!! 服务器开小差了！</h1>
+<p>请您稍后再试！</p><br>
+<a class="gray-button close-ad-overlay">关闭</a>
+</div>
+</div>
+<script>
+            var hideAdByPage = false;
+    </script>
+<div id="coupon02-ad">
+<img src="/static/human-translation/widget/couponad02/img/close_11d90d3.png" id="close-coupon02-ad"/>
+</div>
+<script>
+            var hideAd2ByPage = true;
+    </script>
+</div>
+<script id="tpl-index-slider" type="text/html">
+    {{each sliderInfo img}}
+        <li><a href="{{img.url}}" data-stat-id="20" data-stat-add="{{img.id}}"><img width="1117" height="326" src="{{img.src}}" data-bg-color="{{img.color}}"></a></li>
+    {{/each}}
+</script>
+
+<div id="outdated">
+<h6>您的浏览器版本太低，将不能正常使用百度人工翻译！</h6>
+<p>要正常浏览本网站请升级至&nbsp;&nbsp;<a href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie">新版本 IE 浏览器</a>，或者安装&nbsp;&nbsp;<a href="http://liulanqi.baidu.com">百度浏览器</a></p>
+<p class="last"><a href="#" id="btnCloseUpdateBrowser" title="关闭">&times;</a></p>
+</div>
+
+<script type="text/javascript" src="http://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201810102222"></script>
+<a href="https://ikefu.baidu.com/web/fanyi-pro" target="_blank" id="wTitle" data-stat-id="95" data-stat-add="平台右下角图标" data-stat-is-prefix-page-name="false"></a>
+
+<script>
+        window.sliderInfo = JSON.parse('[{\x22id\x22:\x22001\x22,\x22src\x22:\x22https:\/\/gss0.bdstatic.com\/70cFfyinKgQIm2_p8IuM_a\/daf\/pic\/item\/37d3d539b6003af3e9fa972d3e2ac65c1038b63f.jpg\x22,\x22url\x22:\x22\/activity?id=04\x22,\x22color\x22:\x22#f9a326\x22,\x22startTime\x22:\x222017-11-07 00:00:00\x22,\x22endTime\x22:\x222017-11-30 23:59:59\x22},{\x22id\x22:\x22007\x22,\x22src\x22:\x22https:\/\/gss0.bdstatic.com\/70cFfyinKgQIm2_p8IuM_a\/daf\/pic\/item\/96dda144ad345982d43d2ed306f431adcbef8438.jpg\x22,\x22url\x22:\x22\/activity?id=1\x22,\x22color\x22:\x22#33b7ff\x22,\x22startTime\x22:\x222017-06-16 00:00:00\x22,\x22endTime\x22:\x222017-07-15 23:59:59\x22},{\x22id\x22:\x22002\x22,\x22src\x22:\x22https:\/\/gss0.bdstatic.com\/70cFfyinKgQIm2_p8IuM_a\/daf\/pic\/item\/09fa513d269759eec5a864b6b8fb43166c22dfd7.jpg\x22,\x22url\x22:\x22\/activity\x22,\x22color\x22:\x22#f6f6f6\x22,\x22startTime\x22:\x222014-05-18 00:00:00\x22,\x22endTime\x22:\x222025-05-18 00:00:00\x22},{\x22id\x22:\x22003\x22,\x22src\x22:\x22https:\/\/gss0.bdstatic.com\/70cFfyinKgQIm2_p8IuM_a\/daf\/pic\/item\/63d9f2d3572c11df4424bb5e692762d0f603c2d2.jpg\x22,\x22url\x22:\x22\/aboutus\x22,\x22color\x22:\x22#ffffff\x22,\x22startTime\x22:\x222014-05-18 00:00:00\x22,\x22endTime\x22:\x222025-05-18 00:00:00\x22},{\x22id\x22:\x22004\x22,\x22src\x22:\x22https:\/\/gss0.bdstatic.com\/70cFfyinKgQIm2_p8IuM_a\/daf\/pic\/item\/728da9773912b31b7eb1c9548c18367adbb4e1ea.jpg\x22,\x22url\x22:\x22\/aboutus\x22,\x22color\x22:\x22#efeff1\x22,\x22startTime\x22:\x222014-05-18 00:00:00\x22,\x22endTime\x22:\x222025-05-18 00:00:00\x22},{\x22id\x22:\x22005\x22,\x22src\x22:\x22https:\/\/gss0.bdstatic.com\/70cFfyinKgQIm2_p8IuM_a\/daf\/pic\/item\/060828381f30e9245878984c46086e061c95f7eb.jpg\x22,\x22url\x22:\x22\/doc\x22,\x22color\x22:\x22#f2f2f4\x22,\x22startTime\x22:\x222014-05-18 00:00:00\x22,\x22endTime\x22:\x222025-05-18 00:00:00\x22},{\x22id\x22:\x22006\x22,\x22src\x22:\x22https:\/\/gss0.bdstatic.com\/70cFfyinKgQIm2_p8IuM_a\/daf\/pic\/item\/a5c27d1ed21b0ef4824b9c23d7c451da81cb3e2f.jpg\x22,\x22url\x22:\x22\/doc\x22,\x22color\x22:\x22#f2f2f4\x22,\x22startTime\x22:\x222014-05-18 00:00:00\x22,\x22endTime\x22:\x222025-05-18 00:00:00\x22}]');
+        window.noticeInfo = JSON.parse('[{\x22title\x22:\x222018国庆节服务时间调整\x22,\x22pos\x22:1,\x22url\x22:\x22\x22,\x22hover\x22:\x22国庆假期期间（10月1日-10月5日），平台全天暂停服务，其他时间可正常下单。10月6日起恢复正常服务，客服会尽快处理订单，感谢您的理解！\x22,\x22startTime\x22:\x222018-09-27 00:00:00\x22,\x22endTime\x22:\x222018-10-07 23:59:59\x22},{\x22title\x22:\x22国庆假期期间（10月1日-10月5日），平台全天暂停服务，10月6日起开始正常服务\x22,\x22pos\x22:2,\x22url\x22:\x22\x22,\x22startTime\x22:\x222018-09-27 00:00:00\x22,\x22endTime\x22:\x222018-10-07 23:59:59\x22},{\x22title\x22:\x22国庆假期期间（10月1日-10月5日），平台全天暂停服务，10月6日起开始正常服务\x22,\x22pos\x22:3,\x22url\x22:\x22\x22,\x22startTime\x22:\x222018-09-27 00:00:00\x22,\x22endTime\x22:\x222018-10-07 23:59:59\x22},{\x22title\x22:\x22国庆假期期间（10月1日-10月5日），平台全天暂停服务，10月6日起开始正常服务\x22,\x22pos\x22:4,\x22url\x22:\x22\x22,\x22startTime\x22:\x222018-09-27 00:00:00\x22,\x22endTime\x22:\x222018-10-07 23:59:59\x22}]');
+    </script>
+</body><script type="text/javascript" src="/static/human-translation/modjs/mod_af3ef85.js"></script>
+<script type="text/javascript" src="/static/human-translation/pkg/human-translation_sync_js_0_a01b30e.js"></script>
+<script type="text/javascript" src="/static/human-translation/pkg/human-translation_sync_js_2_892ae7c.js"></script>
+<script type="text/javascript">!function(){    require('human-translation:widget/header/header');
+}();
+!function(){    require('human-translation:widget/footer/footer');
+}();
+!function(){    require('human-translation:widget/couponad/couponad');
+}();
+!function(){    require('human-translation:widget/couponad02/couponad02');
+}();
+!function(){            require("human-translation:static/js/base");
+        }();
+!function(){        require("human-translation:static/index/index");
+    }();</script></html>

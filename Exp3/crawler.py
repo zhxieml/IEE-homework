@@ -4,8 +4,9 @@ import urllib2
 import re
 import urlparse
 import os
-import urllib
-import sys
+import time
+import Queue
+import threading
 
 
 def valid_filename(s):
@@ -30,7 +31,7 @@ def get_all_links(content, page):
     links = []
     soup = BeautifulSoup(content, features='html.parser')
     for link in soup.findAll('a', {'href': re.compile('^http|^/')}):
-        links.append(urlparse.urljoin(page, link['href']))
+        links.append(urlparse.urljoin(page, link['href']).encode('utf-8'))
     return links
 
 
@@ -64,48 +65,46 @@ def add_page_to_folder(page, content):  # 将网页存到文件夹里，将网�
     f.close()
 
 
-def crawl(seed, method, max_page):
-    tocrawl = [seed]
-    crawled = []
-    graph = {}
-    count = 0
+def working(depth):
+    global count
+    while count < depth:
+        page = q.get()
+        if varLock.acquire():
+            if page not in crawled:
+                content = get_page(page)
+                if not content:
+                    print "Overtime!"
+                    continue
+                else:
+                    count += 1
+                    print count, page
+                    add_page_to_folder(page, content)
+                    outlinks = get_all_links(content, page)
+                    for link in outlinks:
+                        q.put(link)
+                    graph[page] = outlinks
+                    crawled.append(page)
+            varLock.release()
+            q.task_done()
 
-    while tocrawl:
-        page = tocrawl.pop()
-        if page not in crawled:
-            content = get_page(page)
-            if content == None:
-                print "Overtime!"
-                continue
-            else:
-                count += 1
-                print count, page
-                add_page_to_folder(page, content)
-                outlinks = get_all_links(content, page)
-                globals()['union_%s' % method](tocrawl, outlinks)
-                crawled.append(page)
 
-                graph[page] = outlinks
+def crawl(seed, thread_num, depth):
+    q.put(seed)
+    for i in range(thread_num):
+        t = threading.Thread(target=working, args=(depth, ))
+        t.setDaemon(True)
+        t.start()
+    q.join()
 
-            # ...
-            # ...
-        if count == max_page:
-            break
-    return graph, crawled
 
+crawled = []
+graph = {}
+count = 0
+varLock = threading.Lock()
+q = Queue.Queue()
 
 if __name__ == '__main__':
-
-    page = 'https://www.qiushibaike.com/pic/'
-    url = '/pic/page/2?s=4492933'
-
-    req = urllib2.Request(page, None, {'User-agent': 'Custom User Agent'})
-    content = urllib2.urlopen(req).read()
-
-    print crawl('http://www.zhihu.com/', 'bfs', 30)
-
-    # seed = sys.argv[1]
-    # method = sys.argv[2]
-    # max_page = sys.argv[3]
-
-    # graph, crawled = crawl(seed, method, max_page)
+    start = time.clock()
+    crawl('http://www.baidu.com/', 100, 10)
+    end = time.clock()
+    print end - start

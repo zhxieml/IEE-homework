@@ -42,7 +42,7 @@ g = {'A':['B', 'C', 'D'],\
      }
 
 start = time.clock()
-NUM = 1
+NUM = 100
 crawled = []
 graph = {}
 varLock = threading.Lock()

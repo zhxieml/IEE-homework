@@ -4,9 +4,9 @@
     <list default="true" id="59daccee-5fbe-4cb4-bcb4-7c0fa228bf07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Exp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exp1/res3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp1/res3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Exp2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Exp2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/httpscredit.szfw.orgCX20170607038331320388.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/httpscredit.szfw.orgCX20170607038331320388.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/httpswww.zhihu.comorgsignup" beforeDir="false" afterPath="$PROJECT_DIR$/html/httpswww.zhihu.comorgsignup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/httpswww.zhihu.comterms" beforeDir="false" afterPath="$PROJECT_DIR$/html/httpswww.zhihu.comterms" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/httpswww.zhihu.comtermsprivacy" beforeDir="false" afterPath="$PROJECT_DIR$/html/httpswww.zhihu.comtermsprivacy" afterDir="false" />
@@ -18,7 +18,33 @@
       <change beforePath="$PROJECT_DIR$/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/index.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exp3/bloomfilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/bloomfilter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/code/crawler_sample_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/code/crawler_sample_thread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exp3/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpsapp.mokahr.comapplyzhihu" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpsapp.mokahr.comapplyzhihu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpscredit.szfw.orgCX20170607038331320388.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpscredit.szfw.orgCX20170607038331320388.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.com" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comexplore" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comexplore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comnotifications" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comnotifications" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comorg_service_agreement" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comorg_service_agreement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comorg_use_norm" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comorg_use_norm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comorgsignup" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comorgsignup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comsettingsaccount" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comsettingsaccount" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comsettingsnotification" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comsettingsnotification" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comterms" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comterms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comterms2" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comterms2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comtermsprivacy" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comtermsprivacy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comtermsvideo" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comtermsvideo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comtopic" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpswww.zhihu.comtopic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpszhuanlan.zhihu.com" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpszhuanlan.zhihu.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpszhuanlan.zhihu.comp28852607" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpszhuanlan.zhihu.comp28852607" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.com" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.com" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comcontact" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comcontact" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comexplore" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comexplore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comjubao" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comjubao" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comorgsignup" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comorgsignup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comroundtable" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comroundtable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comtopic" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/html/httpwww.zhihu.comtopic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exp3/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Exp3/index.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +56,7 @@
     <session id="727695337">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="2" />
@@ -38,21 +64,22 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="976" />
-          <entry key="py" value="2354" />
+          <entry key="py" value="2371" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="3330" />
+          <entry key="Python" value="3347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -86,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="962">
               <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
             </state>
           </provider>
@@ -95,8 +122,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="418">
+              <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+              <folding>
+                <element signature="e#23#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbs_set_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
+            <state relative-caret-position="858">
               <caret line="33" column="100" selection-start-line="33" selection-start-column="100" selection-end-line="33" selection-end-column="100" />
               <folding>
                 <element signature="e#44#77#0" expanded="true" />
@@ -138,10 +168,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+    <option name="x" value="691" />
     <option name="y" value="25" />
-    <option name="width" value="953" />
-    <option name="height" value="830" />
+    <option name="width" value="1229" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -312,7 +342,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1849" height="912" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16046003" />
@@ -320,7 +350,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7805405" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47243243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39783785" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,7 +394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bbs_set_sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
+        <state relative-caret-position="858">
           <caret line="33" column="100" selection-start-line="33" selection-start-column="100" selection-end-line="33" selection-end-column="100" />
           <folding>
             <element signature="e#44#77#0" expanded="true" />
@@ -374,15 +404,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler_sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="962">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="418">
+          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,9 +4,7 @@ import urllib2
 import re
 import urlparse
 import os
-import urllib
 import sys
-
 
 def valid_filename(s):
     import string
@@ -93,17 +91,8 @@ def crawl(seed, method, max_page):
 
 
 if __name__ == '__main__':
+    seed = sys.argv[1]
+    method = sys.argv[2]
+    max_page = sys.argv[3]
 
-    page = 'https://www.qiushibaike.com/pic/'
-    url = '/pic/page/2?s=4492933'
-
-    req = urllib2.Request(page, None, {'User-agent': 'Custom User Agent'})
-    content = urllib2.urlopen(req).read()
-
-    print crawl('http://www.zhihu.com/', 'bfs', 30)
-
-    # seed = sys.argv[1]
-    # method = sys.argv[2]
-    # max_page = sys.argv[3]
-
-    # graph, crawled = crawl(seed, method, max_page)
+    print crawl(seed, method, max_page)

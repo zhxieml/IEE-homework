@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>国家网信办举报中心</title>
+<base target="_blank" />
+<style type="text/css">
+<!--
+* {margin:0;padding:0;}
+ul {list-style-type:none;}
+a {font-family: 宋体;line-height:22px;font-size: 12px;color:#000;text-decoration:none;}
+a:hover {text-decoration:underline;}
+img {border:0;}
+body {
+	font-family: 宋体;
+	font-size: 12px;
+	line-height:22px;
+	color:#000;
+}
+.banner { width:100%; background-image:url(http://images.china.cn/images1/ch/2014jb/2.jpg); background-repeat:repeat-x; text-align:center; height:204px;}
+.nav { width:100%; height:49px; border-bottom:1px solid #9dbacc; background-color:#c2dfff; text-align:center; color:#9dbacc; font-family:微软雅黑; font-size:16px; line-height:49px;}
+.nav a { padding:0 35px; font-family:微软雅黑; font-size:16px; color:#000000;}
+.box1 { float:left; height:1%; overflow:hidden;}
+.box1 h1 { font-size:18px; line-height:38px; font-family:微软雅黑; font-weight:normal; color:#0a59b8;}
+.box1 h1 a { line-height:38px; color:#858585; float:right;}
+.box1 h2 { font-size:18px; line-height:38px; font-family:微软雅黑; font-weight:normal; color:#d70000;}
+.box1 h2 a { font-size:18px; line-height:38px; font-family:微软雅黑; font-weight:normal; color:#d70000;}
+.box1 li { line-height:35px;}
+.box1 li a { font-size:14px; line-height:35px;}
+.kj { width:980px; margin:auto; height:1%; overflow:hidden; padding-top:20px;}
+.jbjg { font-size:20px; line-height:35px; padding-left:30px; background-image:url(http://images.china.cn/images1/ch/2014jb/20.jpg); background-position:left top; background-repeat:repeat-y;}
+.jbjg a { font-size:20px; line-height:35px;}
+.box2 { width:625px; float:left; margin-right:25px;}
+.box2 h1 { font-family:微软雅黑; line-height:30px; font-size:22px; padding:8px 0; color:#ff0000;}
+.box2 h1 a { font-family:微软雅黑; line-height:30px; font-size:22px; color:#ff0000;}
+.box2 li { font-size:16px; line-height:38px; font-weight:bold;}
+.box2 li a { font-size:16px; line-height:38px; font-weight:bold;}
+.box2 p a { color:#808080;}
+
+#topphoto { width:300px; display:inline; overflow:hidden; }
+#photocontent { width:300px; overflow:hidden; }
+#photolists { display: none; }
+#focus_photo_title { width:220px; height:20px; float: left; margin-left:10px; display:inline; position:relative; z-index:3000; text-align:left; overflow:hidden; }
+#focus_photo_title a { font-size: 12px; line-height: 20px; font-family: "宋体"; color:#FFFFFF }
+#focus_photo_nav { height: 20px; line-height: 20px; float:right; }
+.axx { padding: 3px; border-left: #cccccc 1px solid; font-size: 12px; line-height: 20px; }
+a.axx:link, a.axx:visited { color: #fff; font-size: 12px; background-color: #666; }
+a.axx:active, a.axx:hover { color: #fff; font-size: 12px; background-color: #999; }
+.bxx { padding: 3px; border-left: #cccccc 1px solid; font-size: 12px; line-height: 20px; }
+a.bxx:link, a.bxx:visited { color: #fff; font-size: 12px; background-color: #CE0609; }
+a.bxx:active, a.bxx:hover { color: #fff; font-size: 12px; background-color: #CE0609; }
+.STYLE1 { color: #000000 }
+
+/*页面返回顶部*/
+#webTop { display: none; width: 75px; height: 75px; margin-left: 500px; cursor: pointer; position: fixed; left: 50%; bottom: 20px; _position: absolute; _top : expression(documentElement.scrollTop + 460 + "px"); }
+#top { width: 60px; height: 330px; position: fixed; _position: absolute; right: 20px; bottom: 20px; top: auto; }
+#top li { width: 60px; height: 60px; overflow: hidden; margin-top: 5px; cursor: pointer; }
+#gn1 { background-color:#66cccc; }
+#gn1:hover { background-color:#009999;}
+#gn2 { background: url(http://images.china.cn/images1/ch/2012gq/kn_i2.gif); }
+#gn2:hover { background: url(http://images.china.cn/images1/ch/2012gq/kn_i2_cur.gif); }
+#gn3 { background: url(http://images.china.cn/images1/ch/2014jb/14.jpg); }
+#gn3:hover { background: url(http://images.china.cn/images1/ch/2014jb/14.jpg); }
+
+.titleon { font-size:18px; line-height:38px; font-family:微软雅黑; font-weight:normal; color:#d70000;}
+.titleon a { font-size:18px; line-height:38px; font-family:微软雅黑; font-weight:normal; color:#d70000;}
+.titleoff { font-size:18px; line-height:38px; font-family:微软雅黑; font-weight:normal; color:#d70000;}
+.titleoff a { font-size:18px; line-height:38px; font-family:微软雅黑; font-weight:normal; color:#d70000;}
+#BlkBlackTabcontent_11 { display: none; }
+
+
+-->
+</style>
+
+<script type="text/javascript" src="http://www.china.com.cn/jquery-1.7.min.js">
+</script>
+
+<script type="text/javascript">
+<!--
+$(function(){
+    // TODO：回到顶部    
+    $('#gn3').click(function(e) {
+        window.scrollTo(0,0);
+    });
+})
+-->
+</script>
+
+<script language="javascript" type="text/javascript">
+<!--
+//<![CDATA[
+function Show_BlkBlackTab(BlkBlackTabid_num,BlkBlackTabnum){
+    for(var i=0;i<2;i++){document.getElementById("BlkBlackTabcontent_"+BlkBlackTabid_num+i).style.display="none";}
+    for(var i=0;i<2;i++){document.getElementById("BlkBlackTabmenu_"+BlkBlackTabid_num+i).className="titleon";}
+    document.getElementById("BlkBlackTabmenu_"+BlkBlackTabid_num+BlkBlackTabnum).className="titleoff";
+    document.getElementById("BlkBlackTabcontent_"+BlkBlackTabid_num+BlkBlackTabnum).style.display="block";
+}
+//]]>
+-->
+</script>
+</head>
+<body>
+
+<div><iframe id="ifrHeader" src="http://www.12377.cn/node_543842.htm" width="100%" height="254" scrolling="no" marginheight="0" frameborder="0"></iframe></div>
+
+<div style="width:980px; margin:auto; padding:20px 0;"><img src="http://images.china.cn/images1/ch/2015jubao/0912-01.jpg" width="980" height="144" border="0" usemap="#Map" /> <map name="Map" id="Map">
+<area shape="rect" coords="723,22,927,114" href="http://www.piyao.org.cn/" />
+<area shape="rect" coords="37,14,277,131" href="http://www.12377.cn/node_552908.htm" />
+</map></div>
+
+<div style="width:980px; margin:auto; height:1%; overflow:hidden;">
+  <div class="box2"><h1><font style="font-family:宋体">·</font> <a   href="http://www.12377.cn/txt/2018-09/28/content_40520865.htm" ><FONT color=red>全国互联网企业党建工作座谈会在广东召开</FONT></a></h1><ul><li>· <a   href="http://www.12377.cn/txt/2018-10/08/content_40526217.htm" >全国网站平台知识技能竞赛中央主要新闻网站选拔赛在京举办</a></li><li>· <a   href="http://www.12377.cn/txt/2018-09/29/content_40522891.htm" >第五届世界互联网大会将于11月7日至9日举行</a></li><li>· <a   href="http://www.12377.cn/txt/2018-09/25/content_40516146.htm" >为网上精神家园筑牢安全防线——2018网络安全博览会侧记</a></li><li>· <a   href="http://www.12377.cn/txt/2018-09/21/content_40513545.htm" >2018国家网络安全宣传周法治日主题活动成功举办</a></li></ul>
+<p style="text-align:right; line-height:35px;"><a href="http://www.12377.cn/node_543799.htm" class=""  target="_blank">更多>></a></p>
+</div>
+
+<div class="box1" style="width:320px;">
+<h2 style="border-bottom:2px solid #d70000; margin-bottom:20px; color:#d70000;"><a href="http://www.12377.cn/node_543794.htm"><font id="BlkBlackTabmenu_10" onmouseover="setTimeout(&#39;Show_BlkBlackTab(1,0)&#39;,200);">公告栏</font></a> | <a href="http://www.12377.cn/node_543795.htm"><font id="BlkBlackTabmenu_11" onmouseover="setTimeout(&#39;Show_BlkBlackTab(1,1)&#39;,200);">曝光台</font></a></h2>
+
+<div id="BlkBlackTabcontent_10"><ul><li>·<a   href="http://www.12377.cn/txt/2018-09/12/content_40500190.htm" ><FONT color=red>2018年8月全国网络举报受理情况</FONT></a></li><li>·<a   href="http://www.12377.cn/txt/2018-09/12/content_40499933.htm" ><FONT color=red>中国互联网联合辟谣平台正式上线</FONT></a></li><li>·<a   href="http://www.12377.cn/txt/2017-12/29/content_40125198.htm" ><FONT color=red>关于停止发放举报奖金的公告</FONT></a></li><li>·<a   href="http://www.12377.cn/txt/2018-05/02/content_40313526.htm" ><FONT color=red>公告：有不法分子冒充举报中心工作人员行骗</FONT></a></li><li>·<a   href="http://www.12377.cn/txt/2018-08/15/content_40461282.htm" >2018年7月全国网络举报受理情况</a></li></ul></div>
+
+<div id="BlkBlackTabcontent_11"><ul><li>·<a   href="http://www.12377.cn/txt/2018-08/16/content_40463355.htm" >国家网信办会同五部门依法处置“内涵福利社”等19款短视频应用</a></li><li>·<a   href="http://www.12377.cn/txt/2018-06/13/content_40381514.htm" >国家网信办等三部门联合约谈“美拍”网络直播短视频平台</a></li><li>·<a   href="http://www.12377.cn/txt/2018-06/13/content_40381516.htm" >全国“扫黄打非”办公室公布“护苗2018”行动第二批案件</a></li><li>·<a   href="http://www.12377.cn/txt/2018-06/13/content_40381518.htm" >多部门联合行动对文化类“山寨社团”进行专项清理整顿</a></li><li>·<a   href="http://www.12377.cn/txt/2018-06/13/content_40381534.htm" >浙江网信办依法依规关闭一批违法违规网站以及用户账号</a></li></ul></div>
+</div>
+</div>
+
+<div class="kj"><a   href="http://www.12377.cn/txt/2018-09/25/content_40515330.htm" ><img src="http://www.12377.cn/images/2015-12/22/61e7d27c-fde2-429f-abdb-159fe633c99a.jpg"   border=0 width="980" height="80"> </a></div>
+
+<div class="kj">
+<div class="box1" style="width:300px;">
+<h1><a href="http://www.12377.cn/node_543837.htm" class=""  target="_blank">更多>></a>
+ 工作动态
+</h1>
+
+<div style="margin-bottom:20px;"><img src="http://images.china.cn/images1/ch/2014jb/9.jpg" width="300" height="3" /></div>
+
+<ul><li>·<a   href="http://www.12377.cn/txt/2018-09/12/content_40500194.htm" ><FONT color=red>2018年8月全国网络举报受理情况</FONT></a></li><li>·<a   href="http://www.12377.cn/txt/2018-08/15/content_40461215.htm" >2018年7月全国网络举报受理情况</a></li><li>·<a   href="http://www.12377.cn/txt/2018-08/01/content_40443417.htm" >2018年6月全国网络举报受理情况</a></li><li>·<a   href="http://www.12377.cn/txt/2018-06/29/content_40402447.htm" >2018年5月全国网络举报受理情况</a></li><li>·<a   href="http://www.12377.cn/txt/2018-05/31/content_40363797.htm" >2018年4月全国网络举报受理情况</a></li></ul></div>
+
+<div class="box1" style="width:300px; margin:0 25px;">
+<h1><a href="http://www.12377.cn/node_543792.htm" class=""  target="_blank">更多>></a>
+ 安全警示
+</h1>
+
+<div style="margin-bottom:20px;"><img src="http://images.china.cn/images1/ch/2014jb/9.jpg" width="300" height="3" /></div>
+
+<ul><li>·<a   href="http://www.12377.cn/txt/2018-10/08/content_40526229.htm" >“关怀式谣言”借“善心”横行网络 利益机制催生“灰色信息”产业链</a></li><li>·<a   href="http://www.12377.cn/txt/2018-09/29/content_40522940.htm" >找对象被骗百万元，征婚网站“白富美”有的竟是诈骗团伙！</a></li><li>·<a   href="http://www.12377.cn/txt/2018-09/28/content_40520876.htm" >国家计算机病毒应急处理中心监测发现十款违法移动应用</a></li><li>·<a   href="http://www.12377.cn/txt/2018-09/27/content_40519826.htm" >互联网二手交易平台“坑”多 监管亟待加强</a></li><li>·<a   href="http://www.12377.cn/txt/2018-09/26/content_40517945.htm" >校园贷又换新马甲 涉事公司否认存在“培训贷”</a></li></ul></div>
+
+<div class="box1" style="width:320px;">
+<h1><a href="http://www.12377.cn/node_543793.htm" class=""  target="_blank">更多>></a>
+ 网络治理
+</h1>
+
+<div style="margin-bottom:20px;"><img src="http://images.china.cn/images1/ch/2014jb/9.jpg" width="320" height="3" /></div>
+
+<ul><li>·<a   href="http://www.12377.cn/txt/2018-10/10/content_40529401.htm" >聚焦个人信息保护：手机APP过度采集 窃取贩卖屡禁不止</a></li><li>·<a   href="http://www.12377.cn/txt/2018-10/10/content_40529421.htm" >9月份河北省网信办依法依规查处31家违法违规网站</a></li><li>·<a   href="http://www.12377.cn/txt/2018-10/09/content_40527772.htm" >新华网：推进网络诚信建设 媒体当为先行者</a></li><li>·<a   href="http://www.12377.cn/txt/2018-10/09/content_40527806.htm" >让农村孩子走出沉迷手机游戏的误区</a></li><li>·<a   href="http://www.12377.cn/txt/2018-09/30/content_40524792.htm" >国家版权局约谈13家网络服务商 要求规范网络转载</a></li></ul></div>
+</div>
+
+<div class="kj"><a   href="http://www.12377.cn/node_548446.htm" ><img src="http://www.12377.cn/images/2015-12/22/08626648fc9917e3393019.jpg"   border=0 width="980" height="80"> </a></div>
+
+<div class="kj">
+<div class="box1" style="width:300px;">
+<h1><a href="http://www.12377.cn/node_543791.htm" class=""  target="_blank">更多>></a>
+ 法律法规
+</h1>
+
+<div style="margin-bottom:20px;"><img src="http://images.china.cn/images1/ch/2014jb/9.jpg" width="300" height="3" /></div>
+
+<ul><li>·<a   href="http://www.12377.cn/txt/2018-09/03/content_40485878.htm" >中华人民共和国电子商务法</a></li><li>·<a   href="http://www.12377.cn/txt/2016-11/08/content_9142165.htm" >中华人民共和国网络安全法</a></li><li>·<a   href="http://www.12377.cn/txt/2014-11/02/content_7339187.htm" >互联网信息服务管理办法</a></li><li>·<a   href="http://www.12377.cn/txt/2017-09/10/content_40006901.htm" >互联网群组信息服务管理规定</a></li><li>·<a   href="http://www.12377.cn/txt/2017-08/25/content_39098998.htm" >互联网跟帖评论服务管理规定</a></li></ul></div>
+
+<div class="box1" style="width:290px; margin:0 20px 0 25px;">
+<h1>相关举报机构
+</h1>
+
+<div style="margin-bottom:20px;"><img src="http://images.china.cn/images1/ch/2014jb/9.jpg" width="290" height="3" /></div>
+
+<p class="jbjg"><A title="" href="http://www.12388.gov.cn/" target=_blank>中纪委</A>：12388<BR><A title="" href="http://www.12309.gov.cn/" target=_blank>最高检</A>：12309 <BR><A title="" href="http://www.cyberpolice.cn/wfjb/" target=_blank>公安部</A>：110 <BR><A title="" href="http://www.12321.cn/" target=_blank>工信部</A>：12321 <BR><A title="" href="http://www.12318.gov.cn/" target=_blank>文化部</A>：12318 <BR><A title="" href="http://www.shdf.gov.cn/" target=_blank>扫黄办</A>：12390<BR></p></div>
+
+<div class="box1" style="width:335px;">
+<div style="margin-bottom:10px;"><a href="http://www.12377.cn/node_543853.htm"><img src="http://images.china.cn/images1/ch/2014jb/jb-141.jpg" width="335" height="105" border="0" /></a></div>
+
+<div style="margin-bottom:10px;">
+<a href="http://www.12377.cn/txt/2018-09/25/content_40515330.htm"><img src="http://images.china.cn/images1/ch/2015jubao/20170425-02.jpg" width="335" height="105" border="0" /></a>
+</div>
+<div>
+<p style="color:#ff1e1f;">国家网信办举报中心LOGO标志下载地址 （<a href="http://images.china.cn/images1/ch/2015jubao/20180912.ai" style="color:#ff1e1f;">ai格式</a> <a href="http://images.china.cn/images1/ch/2015jubao/20180912.zip" style="color:#ff1e1f;">png格式</a>）</p>
+
+<p style="color:#ff1e1f;">“网络举报”移动客户端BANNER下载地址（<a href="http://download.china.cn/ch/jpg/2015121900b.psd" style="color:#ff1e1f;">蓝色</a> <a href="http://download.china.cn/ch/jpg/2015121900g.psd" style="color:#ff1e1f;">绿色</a>）</p>
+</div>
+</div>
+</div>
+<div style="text-align:center"><iframe id="ifrFooter" src="http://www.12377.cn/node_543843.htm" width="980" height="250" scrolling="no" marginheight="0" frameborder="0"></iframe></div>
+
+
+<div id="top" style="bottom: 20px;">
+<ul>
+<li id="gn1" style="height:100px;"><a href="http://www.12377.cn/node_548446.htm"><img src="http://images.china.cn/images1/ch/2015jubao/2.jpg" width="60" height="100" border="0" /></a></li>
+
+<li id="gn1" style="height:80px;"><img src="http://images.china.cn/images1/ch/2015jubao/20170425-03.jpg" width="60" height="80" /></li>
+
+<li id="gn1" style="height:80px;"><a href="http://weibo.com/12377jbzx#1411020416234"><img src="http://images.china.cn/images1/ch/2015jubao/20170425-04.jpg" width="60" height="80" border="0" /></a></li>
+
+<li id="gn3" title="返回顶部">&#160;</li>
+</ul>
+</div>
+</body>
+</html>
+

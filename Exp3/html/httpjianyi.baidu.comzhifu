@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?fb481430f1a5a6c7044229532823b9fd";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+    
+<head>
+    <meta charset="UTF-8" />
+    <meta name="baidu-site-verification" content="GaTo5YnIV9" />
+    <title>百度用户服务中心-支付相关</title>
+    <meta name="keywords" content="百度服务中心、百度意见反馈、百度投诉反馈、百度倾听、百度帮助中心、百度产品投诉、百度产品意见">
+    <meta name="description" content="百度服务中心是百度客服官方网站，为您解决使用百度产品过程中遇到的问题，帮助用户更了解百度，也让百度更懂用户。">
+    <link rel="shortcut icon" href="/resources/images/favicon.ico"/>
+    
+
+<!--[if lt IE 9]>
+<script>window.location.href='zhifu2';</script>
+<![endif]-->
+
+
+
+        <link type="text/css" rel="stylesheet" href="/resources/pc/css/normalize.min.css?timestamp=20180719" />
+    <link type="text/css" rel="stylesheet" href="/resources/pc/css/global.min.css?timestamp=20180719" />
+        
+        <link type="text/css" rel="stylesheet" href="/resources/pc/css/zhifu.min.css?timestamp=20180719" />
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/resources/pc/js/lib/tangram-2.0.2.1.min.js"></script>
+    <!--[if (!IE)|(gte IE 9)]><!-->
+    <script type="text/javascript" src="/resources/pc/js/lib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201810102335"></script>
+        <script type="text/javascript" src="/resources/pc/js/dist/common.min.js?timestamp=20180719"></script>
+        <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/resources/js/lib/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="/resources/js/common.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $(function () {
+            login.init('https://passport.baidu.com', 'http://help.baidu.com/resources/html/jump.html', 'service_feedback');
+        });
+    </script>
+</head>
+<body>
+
+            <div class="header clear">
+    <div class="header-container">
+        <div class="logo">
+            <a href="/index"><span class="logo-span"></span></a>
+        </div>
+        <form class="search-form" action="/search" name="f" id="searchForm">
+            <input id="search_txt" value="请简单描述您遇到的问题" placeholder="请简单描述您遇到的问题" type="text" class="search-key" x-webkit-speech="true"  name="keywords" autocomplete="off"/>
+            <button id="searchbutton" class="search-btn" type="submit" value=""></button>
+            <ul id="searchSuggest" class="suggestion" style="display:none;"></ul>
+        </form>
+        <div class="loginfo">
+                        <div class="unlogin">
+                <a href="#" id="btnLogin">登录</a>
+                <a href="https://passport.baidu.com/v2/?reg&tpl=service_feedback&u=">注册</a>
+            </div>
+                    </div>
+    </div>
+</div>
+    
+
+<div class="banner">
+    <div class="title">
+        <span><a href="/">服务中心</a></span><span>></span><span>支付相关</span>
+    </div>
+</div><div class="sec-main pay-container">
+    <div class="ptlist">
+        <a target="_blank" href="http://8.baidu.com/">
+            <div class="item-icon item-licai"></div>
+        </a>
+        <div class="item">
+            <h1><a target="_blank" href="http://8.baidu.com/">百度理财</a></h1>
+            <p>百度理财，助百姓发财。高收益、0风险、1元起购、随存随取</p>
+            <div class="item-grey">
+                <p>24小时客服电话：95055</p>
+                <p>理财相关问题<a target="_blank" href="https://aikefu.baidu.com/?product=licai003">请与机器人直接对话</a></p>
+            </div>
+        </div>
+
+        <a target="_blank" href="http://yun.baidu.com/buy/center?tag=1">
+            <div class="item-icon item-yun"></div>
+        </a>
+        <div class="item">
+            <h1><a target="_blank" href="http://yun.baidu.com/buy/center?tag=1">百度网盘VIP</a></h1>
+            <p>专享20G文件上传、免费云冲印、历史版本等多项特权。</p>
+            <p class="item-grey">百度网盘VIP及付费相关问题<a target="_blank" href="/newadd?prod_id=29&category=2">请点击这里反馈</a></p>
+            <p><br></p>
+        </div>
+
+        <a target="_blank" href="https://wenku.baidu.com/user/browse/vip">
+            <div class="item-icon item-wenku"></div>
+        </a>
+        <div class="item">
+            <h1><a target="_blank" href="https://wenku.baidu.com/user/browse/vip">百度文库VIP</a></h1>
+            <p>互联网分享学习的开放平台，汇集1.8亿份高价值文档资料。</p>
+            <p class="item-grey">文库VIP及付费相关问题<a target="_blank" href="/newadd?prod_id=12&category=2">请点击这里反馈</a></p>
+        </div>
+
+        <a target="_blank" href="http://yuedu.baidu.com/vip/index?fr=fuwu">
+            <div class="item-icon item-yuedu"></div>
+        </a>
+        <div class="item">
+            <h1><a target="_blank" href="http://yuedu.baidu.com/vip/index?fr=fuwu">百度阅读会员</a></h1>
+            <p>正版电子书在线阅读，提供丰富的电子图书，保证最佳的阅读体验。</p>
+            <p class="item-grey">阅读VIP及付费相关问题<a target="_blank" href="https://tieba.baidu.com/p/4471901647?share=9105&fr=share">请点击这里反馈</a></p>
+        </div>
+
+        <a target="_blank" href="http://e.baidu.com">
+            <div class="item-icon item-tuiguang"></div>
+        </a>
+        <div class="item">
+            <h1><a target="_blank" href="http://e.baidu.com">百度推广</a></h1>
+            <p>百度推广，坐等客户，坐拥商机。您的客户正在百度找你。</p>
+            <div class="item-grey">
+                <p style="margin-bottom: 5px;">24小时客服电话：400-800-8888(售前)</p>
+　　　　　　　　<span style="margin-left: 2px;">400-921-9999(售后)</span>
+            </div>
+        </div>
+        
+        <a target="_blank" href="http://tieba.baidu.com/tbmall/tshow?red_tag=h2084874609">
+            <div class="item-icon item-tieba"></div>
+        </a>
+        <div class="item">
+            <h1><a target="_blank" href="http://tieba.baidu.com/tbmall/tshow?red_tag=h2084874609">百度贴吧</a></h1>
+            <p>全球最大的中文社区，以兴趣主题聚合志同道合者的互动平台。</p>
+            <p class="item-grey">贴吧会员及付费相关问题请点这里反馈<a target="_blank" href="http://tieba.baidu.com/hermes/feedback?red_tag=b2806418682">请点击这里反馈</a></p>
+        </div>
+    </div>
+</div>
+
+
+    <div class="footer">
+	<div class="footer-container">
+		<div class="about">
+			<a href="http://home.baidu.com" target="_blank">关于百度</a>
+			<a href="http://ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" target="_blank">ABOUT BAIDU</a>
+			<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>
+            <a href="/statement">举报受理声明</a>
+		</div>
+		<p>京ICP证030173号&emsp;京网文[2013]0934-983号&emsp;Copyright &copy;<script>document.write((new Date()).getFullYear());</script> Baidu</p>
+	</div>
+</div>
+<script>var sugapi="http://"+window.location.host;</script>
+<script type="text/javascript" src="/resources/pc/js/src/sug.js"></script>
+
+
+</body>
+
+
+</html>

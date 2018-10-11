@@ -4,6 +4,13 @@ from GeneralHashFunctions import *
 import random
 import string
 
+
+def create_random_string(a, b):
+    size = random.randint(a, b)
+    ran_str = ''.join(random.sample(string.ascii_letters + string.digits, size))
+    return ran_str
+
+
 def add_keyword(word, bitset, funcs):
     for func in funcs:
         bitset.set(eval(func)(word) % bitset.get_size())
@@ -22,61 +29,24 @@ def main():
     bit_obj = Bitarray(800000)
 
     words = []
-    f = open('pg1661.txt','r')
-    for line in f.xreadlines():
-        for word in line.strip().split(' '):
-            if word not in words:
-                words.append(word)
-
-    f.close()
+    train_num = 110000
+    while train_num > 0:
+        ran_str = create_random_string(1, 10)
+        if ran_str not in words:
+            words.append(ran_str)
+            train_num -= 1
 
     for word in words:
         add_keyword(word, bit_obj, funcs)
 
-    for i in range(1, 100000):
-        print bit_obj.get(i)
-
-    # test_words = []
-    # f = open('test.txt','r')
-    # for line in f.xreadlines():
-    #     if line.strip().split('\t')[0] not in test_words:
-    #         test_words.append(line.strip().split('\t')[0])
-    # f.close()
-    #
-    # count = 0
-    #
-    # print len(words), len(test_words)
-    # print words
-    # print test_words
-    #
-    # for test_word in test_words:
-    #     if test_word not in words:
-    #         print "!!"
-    #         exist = True
-    #         if not check(test_word, bit_obj, funcs):
-    #             exist = False
-    #             break
-    #
-    #         if exist:
-    #             count += 1
-    #             print count
-    #
-    # print count
-
-    print check('the', bit_obj, funcs)
     count = 0
-    test_num = 1000000
+    test_num = count_test = 100000
 
-    for i in range(1, 11):
-        for j in range(1, test_num / 10):
-            ran_str = ''.join(random.sample(string.ascii_letters + string.digits, i))
-
-            exist = True
-            if not check(ran_str, bit_obj, funcs):
-                exist = False
-                continue
-
-            if exist:
+    while count_test > 0:
+        ran_str = create_random_string(1, 10)
+        if ran_str not in words:
+            count_test -= 1
+            if check(ran_str, bit_obj, funcs):
                 count += 1
 
     print float(count) / test_num

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>千千音乐播放器_千千音乐-听见世界</title>
+    <meta content="千千音乐，最好的音乐播放器，免费的音乐播放器，千千音乐官网，千千音乐官方下载，千千手机音乐播放器，手机音乐播放器，无损音乐播放器，千千静听播放器，千千静听正式更名为千千音乐，千千音乐盒，千千音乐-听到极致" name="keywords"/>
+    <meta content="千千音乐，千千音乐PC客户端，音乐播放器，千千静听，千千手机音乐播放器，手机音乐播放器，千千静听正式更名为千千音乐" name="description"/>
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" type="text/css" href="//static4.qianqian.com/tms/download/static/static2018062202/css/page/home.css">
+    <style>html{overflow-x:hidden;}</style>
+    <link rel="shortcut icon" href="/static/images/qianqian_favicon.ico" />
+    <script type="text/javascript" src="//static4.qianqian.com/tms/download/static/static2018062202/js/lib/jquery.js"></script>
+    <script type="text/javascript" src="//static4.qianqian.com/tms/download/static/static2018062202/js/lib/require.js?1537442994746" data-main="//static4.qianqian.com/tms/download/static/static2018062202/js/home.js"></script>
+</head>
+<body id="home" >
+    <!-- 第一屏 -->
+    <div class="banner show">   
+        <div class="bannermain pos_r">
+            <div class="banner_qianqianlogo">
+                <a href="http://music.taihe.com" title="千千音乐" class="logo"></a>
+            </div>
+            <div class="banner_qianqianbtn pos_a opacity0">
+                <a href="http://music.taihe.com" title="音乐首页" class="simplified">音乐首页</a><span>|</span>
+                <a href="http://music.taihe.com/vip" title="会员专区" class="traditional" target="_blank">会员专区</a><span>|</span>
+                <a title="千千静听" class="traditional qianqian_header">千千静听</a>
+            </div>
+            <!-- 千千静听弹出框 -->
+            <div class="qianqian_pop" style="backgroun-size:cover;height:54px">
+                <ul>
+                    <li class="not_last"><a href="http://online.cdn.qianqian.com/qianqian/info/c11f5cdd1095fb7bc7b5927b0fc8372f.exe">简体</a></li>
+                    <li class="not_last"><a href="http://online.cdn.qianqian.com/qianqian/info/5c6678d391319c68f2bac71286d273fc.exe">繁体</a></li>
+                </ul>
+            </div>
+            <!-- 轮播图 -->
+            <div class="banner_container">
+                <div class="inner_wrap">
+                    <!-- phone -->
+                    <div class="phone_wrap">
+                        <div class="animated_1 opacity0">
+                            <div class="title pos_a"></div>
+                            <div class="phone_pic1 pos_a"></div>
+                            <!-- android版下载入口 -->
+                            <div class="phone_pic2 pos_a" c-tj='{"page":"pcweb","pos":"firstAndroidClick"}'></div>
+                            <!-- ios版下载入口 -->
+                            <div class="phone_pic3 pos_a" c-tj='{"page":"pcweb","pos":"firstIosClick"}'></div>                            
+                            <span class="android_version pos_a"></span>
+                            <span class="ios_version pos_a"></span>                        
+                        </div>
+                        <div class="phone_pic4 pos_a opacity0" style="height:483px"></div>
+                        <div class="phone_pic5 pos_a opacity0"></div>
+                        <div class="phone_shadow1 pos_a opacity0"></div>
+                        <div class="phone_shadow2 pos_a opacity0"></div>
+                    </div>
+                    <!-- computer -->
+                    <div class="computer_wrap">
+                        <div class="animated_2 opacity0">
+                            <div class="title pos_a"></div>
+                            <!-- windows版下载入口 -->
+                            <div class="computer_pic4 pos_a" c-tj='{"page":"pcweb","pos":"firstWindowsClick"}'></div>
+                            <!-- mac版下载入口 -->
+                            <div class="computer_pic5 pos_a" c-tj='{"page":"pcweb","pos":"firstMacClick"}'></div>
+                            <span class="win_version pos_a"></span>
+                            <span class="mac_version pos_a"></span>
+                            <div class="win_detail pos_a">更新日志 ></div>                            
+                        </div>
+                        <div class="computer_pic1 pos_a opacity0"></div>
+                        <div class="computer_pic2 pos_a opacity0"></div>
+                        <div class="computer_pic3 pos_a opacity0"></div>
+                    </div>
+                </div>
+                <div class="banner_icon">
+                    <div class="banner_icon_mid">
+                        <div class="icon_select pc" title="pc"></div><div class="phone" title="phone"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 下载按钮 -->
+            <div class="download_btn">
+                <div class="android" c-tj='{"page":"pcweb","pos":"secondAndroidClick"}'></div>
+                <div class="ios" c-tj='{"page":"pcweb","pos":"secondIosClick"}'></div>
+                <div class="win" c-tj='{"page":"pcweb","pos":"secondWindowsClick"}'></div>
+                <div class="mac" c-tj='{"page":"pcweb","pos":"secondMacClick"}'></div>
+                <div class="ipad" c-tj='{"page":"pcweb","pos":"secondIpadClick"}'></div>
+            </div>
+        </div>
+    </div>
+    <div class="screen_wrap">
+        <!-- 第二屏 -->
+        <div class="second_screen_wrap">
+            <div class="inner_wrap">
+                <div class="title pos_a opacity0"></div>
+                <div class="second_screen_pic1 pos_a opacity0"></div>
+                <div class="second_screen_pic2 pos_a opacity0"></div>
+                <div class="second_screen_pic3 pos_a opacity0"></div>
+                <div class="second_screen_pic4 pos_a opacity0"></div>
+            </div>
+        </div>
+        <!-- 第三屏 -->
+        <div class="third_screen_wrap">
+            <div class="inner_wrap">
+                <div class="title pos_a opacity0"></div>
+                <div class="third_screen_pic1 pos_a opacity0"></div>
+                <div class="third_screen_pic2 pos_a opacity0"></div>
+                <div class="third_screen_pic3 pos_a opacity0"></div>
+                <div class="third_screen_pic4 pos_a opacity0"></div> 
+                <div class="third_screen_pic5 pos_a opacity0"></div>   
+                <div class="third_screen_pic6 pos_a opacity0"></div>
+                <div class="third_screen_pic7 pos_a opacity0"></div>
+                <div class="third_screen_pic8 pos_a opacity0"></div>
+                <div class="third_screen_pic9 pos_a opacity0"></div> 
+                <div class="third_screen_pic10 pos_a opacity0"></div>               
+            </div>
+            <div class="logo_wrap opacity0"></div>
+        </div>
+        <!-- 第四屏 -->
+        <div class="fourth_screen_wrap">
+            <div class="inner_wrap">
+                <div class="title pos_a opacity0"></div>
+                <div class="logo_wrapper">
+                    <div class="goodnight opacity0"></div>
+                    <div class="sport opacity0"></div>
+                    <div class="work opacity0"></div>
+                    <div class="road opacity0"></div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="fifth_screen_wrap">
+            <div class="inner_wrap">
+                <div class="QRcode pos_a opacity0"></div>
+                <div class="title pos_a opacity0"></div>
+                <div class="footer_download_btn pos_a">
+                    <div class="android footer_btn" c-tj='{"page":"pcweb","pos":"thirdAndroidClick"}'></div>
+                    <div class="ios footer_btn" c-tj='{"page":"pcweb","pos":"thirdIosClick"}'></div>
+                    <div class="win footer_btn" c-tj='{"page":"pcweb","pos":"thirdWindowsClick"}'></div>
+                    <div class="mac footer_btn" c-tj='{"page":"pcweb","pos":"thirdMacClick"}'></div>
+                    <div class="ipad footer_btn" c-tj='{"page":"pcweb","pos":"thirdIpadClick"}'></div>   
+                    <div class="android_title footer_title pos_a "></div>     
+                    <div class="ios_title footer_title pos_a "></div>    
+                    <div class="win_title footer_title pos_a "></div>               
+                    <div class="mac_title footer_title pos_a "></div>    
+                    <div class="ipad_title footer_title pos_a "></div>    
+                </div>
+            </div>
+        </div>
+        <!-- 第四屏背景 -->
+        <div class="fourth_screen_bg"></div>  
+    </div>
+<script src="https://static0.qianqian.com/comm/logger/js/logger-1.0.1.js"></script>
+<script>
+    // 百度统计
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?03ebc396eb9eeb344da124bee12c91fb";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+    // crm
+    loggers.log("pv", {
+        page: 'web',
+        pid: '304',
+        viptype: 0// 0:非vip 1:vip 
+    })
+    loggers.logClick({
+        pid: '304'   //产品线标识码
+    })
+    var reg = new RegExp('(^|&)pst=([^&]*)(&|$)', 'i');
+    var res = window.location.search.substr(1).match(reg)
+    if(res != null){
+        if(unescape(res[2]).indexOf('web_') != -1){
+            $('.phone_pic1').css('background-image','url(//static3.qianqian.com/tms/download/static/static2018060701/img/phone_pic3_from_web.png)')
+        }
+    }
+</script>
+</body>
+</html><!--15659521300772122816101022-->
+<script> var _trace_page_logid = 1565952130; </script>

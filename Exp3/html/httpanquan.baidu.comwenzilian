@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/webstatic/js/toMobile.js"></script>
+
+    <title>百度安全服务平台 - 有AI更安全</title>
+    <meta name="keywords" content="DDoS攻击防御,渗透测试,应用加固,网址安全检测,活动防刷,渠道反作弊,隐私安全">
+    <meta name="description" content="百度安全服务平台基于百度十六年安全实战经验，依托人工智能和大数据，面向企业及个人用户提供安全解决方案。替身式防御、管家式服务，让您的业务安全无忧。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;IE=10;chrome=1">
+    <link rel="shortcut icon" href="/favicons.ico" type="image/x-icon">
+    <link rel="icon" href="/favicons.ico" type="image/x-icon">
+    <link href="/webstatic/lib/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="/webstatic/css/common.css" type="text/css" rel="stylesheet">
+
+    <link href="/webstatic/css/index.css" type="text/css" rel="stylesheet"></head>
+<body>
+<!--导航start-->
+<div class="menu mover">
+    <!--登录状态用style="display: block"控制显示-->
+    <!--未登录-->
+    <div class="mlogin no-login">
+        <a class="login-btn" href="#">登录</a>
+    </div>
+    <!--已登录-->
+    <div class="mlogin has-login">
+        <a class="backend-btn" href="/console/" target="_blank">控制台</a>
+        <div class="muser-name">
+            <a target="_blank" href="#" class="muser-link">
+                <span id="user_name"></span><i></i>
+            </a>
+            <div class="muser-down">
+                <a id="userCenter" href="#">用户中心</a>
+                <a id="quit_addr" href="#" target="_self">退出账户</a>
+            </div>
+        </div>
+    </div>
+    <!--登录状态end-->
+    <a href="/" class="mlogo"></a>
+    <ul class="mnavlist" id="mnavlist">
+    </ul>
+</div>
+<!--导航end--><!--  内容start  -->
+<div class="banner" id="banner">
+    <div class="banner-slider">
+        
+        <div class="slider-area">
+            <div class="slider-bar"></div>
+            <div class="slider-progress"></div>
+            <div class="slider-progress-bgc"></div>
+        </div>
+        
+        <div class="slider-area">
+            <div class="slider-bar"></div>
+            <div class="slider-progress"></div>
+            <div class="slider-progress-bgc"></div>
+        </div>
+        
+        <div class="slider-area">
+            <div class="slider-bar"></div>
+            <div class="slider-progress"></div>
+            <div class="slider-progress-bgc"></div>
+        </div>
+        
+        <div class="slider-area">
+            <div class="slider-bar"></div>
+            <div class="slider-progress"></div>
+            <div class="slider-progress-bgc"></div>
+        </div>
+        
+        <div class="slider-area">
+            <div class="slider-bar"></div>
+            <div class="slider-progress"></div>
+            <div class="slider-progress-bgc"></div>
+        </div>
+            </div>
+
+    
+        <div class="banner-container">
+            <div class="banner-img"
+                 style="background-image:url(/upload/ue/image/20180416/1523870508432643.png)">
+            </div>
+            <div class="banner-text banner1">
+                <div class="banner-head"><img src="/upload/ue/image/20180416/1523870497540118.svg">
+                </div>
+                <div class="banner-tips">基于生物识别的多因子身份认证解决方案</div>
+                                <a href="/page/28" class="ghost-btn home-slider-btn"> <span>查看详情</span> </a>
+                            </div>
+        </div>
+
+            
+        <div class="banner-container">
+            <div class="banner-img"
+                 style="background-image:url(/upload/ue/image/20180927/1538033660709724.png)">
+            </div>
+            <div class="banner-text banner1">
+                <div class="banner-head"><img src="/upload/ue/image/20180927/1538033620739190.svg">
+                </div>
+                <div class="banner-tips">企业数据隐私解决方案</div>
+                                <a href="/page/36" class="ghost-btn home-slider-btn"> <span>查看详情</span> </a>
+                            </div>
+        </div>
+
+            
+        <div class="banner-container">
+            <div class="banner-img"
+                 style="background-image:url(/upload/ue/image/20180427/1524796368141741.png)">
+            </div>
+            <div class="banner-text banner1">
+                <div class="banner-head"><img src="/upload/ue/image/20180427/1524796364470796.svg">
+                </div>
+                <div class="banner-tips">安全高效的智能设备系统升级方案</div>
+                                <a href="/page/29" class="ghost-btn home-slider-btn"> <span>查看详情</span> </a>
+                            </div>
+        </div>
+
+            
+        <div class="banner-container">
+            <div class="banner-img"
+                 style="background-image:url(/upload/ue/image/20180724/1532419209182597.png)">
+            </div>
+            <div class="banner-text banner1">
+                <div class="banner-head"><img src="/upload/ue/image/20180724/1532419203654630.svg">
+                </div>
+                <div class="banner-tips">自动化攻击 AI 模型的工具箱</div>
+                                <a href="/page/34" class="ghost-btn home-slider-btn"> <span>查看详情</span> </a>
+                            </div>
+        </div>
+
+            
+        <div class="banner-container">
+            <div class="banner-img"
+                 style="background-image:url(/upload/ue/image/20180122/1516624610429879.png)">
+            </div>
+            <div class="banner-text banner1">
+                <div class="banner-head"><img src="/upload/ue/image/20180122/1516624604703200.svg">
+                </div>
+                <div class="banner-tips">基于百度大脑清洗算法，T级别防护能力</div>
+                                <a href="/page/1" class="ghost-btn home-slider-btn"> <span>查看详情</span> </a>
+                            </div>
+        </div>
+
+            
+</div>
+
+<div class="saas-fuc-con">
+    <div class="saas-fuc clearfix">
+        <div class="saasfuc-item">
+            <img src="/webstatic/img/newicon/icon_zhinengyuce.svg" alt="">
+            <h4>智能预测</h4>
+            <p>从行为到情报，让威胁提前感知</p>
+        </div>
+        <div class="saasfuc-item">
+            <img src="/webstatic/img/newicon/icon_xietongfangyu.svg" alt="">
+            <h4>协同防御</h4>
+            <p>从单点到全局，让防御滴水不漏</p>
+        </div>
+        <div class="saasfuc-item">
+            <img src="/webstatic/img/newicon/icon_jingzhunsuyuan.svg" alt="">
+            <h4>精准溯源</h4>
+            <p>从发现到定位，让黑客无处遁形</p>
+        </div>
+        <div class="saasfuc-item last">
+            <img src="/webstatic/img/newicon/icon_rengongxiangying.svg" alt="">
+            <h4>应急响应</h4>
+            <p>从被动到主动，让响应反客为主</p>
+        </div>
+    </div>
+</div>
+
+<div class="security-products">
+    <div class="block-head">顶级安全团队为您打造下一代智能安全产品</div>
+    <div class="block-area" id="Production">
+        <div class="block-con">
+            
+            <div class="products-cell active">
+                <div class="product-bg-img">
+                    <img src="/upload/ue/image/20180416/1523871211945157.svg" alt="img"></div>
+                <div class="cell-back"></div>
+                <img src="/upload/ue/image/20180416/1523871205653754.svg" alt="img"
+                     class="product-up-img">
+                <div class="product-cell-head">AIID智慧认证</div>
+                <div class="product-cell-content">利用深度学习和生物识别技术，结合多因子综合认证思想，为用户提供完整、智能、灵活的身份认证解决方案</div>
+                <div class="ghost-btn"><a href="/page/28">查看详情</a></div>
+            </div>
+
+            
+            <div class="products-cell ">
+                <div class="product-bg-img">
+                    <img src="/upload/ue/image/20180427/1524796495694047.svg" alt="img"></div>
+                <div class="cell-back"></div>
+                <img src="/upload/ue/image/20180427/1524796492934697.svg" alt="img"
+                     class="product-up-img">
+                <div class="product-cell-head">安全OTA</div>
+                <div class="product-cell-content">百度安全OTA为智能设备提供安全高效的系统升级方案，适用于Android、Linux及嵌入式系统设备</div>
+                <div class="ghost-btn"><a href="/page/29">查看详情</a></div>
+            </div>
+
+            
+            <div class="products-cell ">
+                <div class="product-bg-img">
+                    <img src="/upload/ue/image/20180718/1531900898412319.svg" alt="img"></div>
+                <div class="cell-back"></div>
+                <img src="/upload/ue/image/20180718/1531900894303333.svg" alt="img"
+                     class="product-up-img">
+                <div class="product-cell-head">渠道推广反作弊</div>
+                <div class="product-cell-content">有效保障企业在移动App安装、拉新、激活等付费渠道做推广时的安全，避免遭受黑产侵袭，造成业务损失</div>
+                <div class="ghost-btn"><a href="/page/33">查看详情</a></div>
+            </div>
+
+            
+            <div class="products-cell ">
+                <div class="product-bg-img">
+                    <img src="/upload/ue/image/20180122/1516625123605780.svg" alt="img"></div>
+                <div class="cell-back"></div>
+                <img src="/upload/ue/image/20180122/1516625118300200.svg" alt="img"
+                     class="product-up-img">
+                <div class="product-cell-head">DDoS攻击防护</div>
+                <div class="product-cell-content">基于百度大脑清洗算法，精准识别恶意攻击。自建数T级别抗DDoS中心</div>
+                <div class="ghost-btn"><a href="/page/1">查看详情</a></div>
+            </div>
+
+            
+            <div class="products-cell ">
+                <div class="product-bg-img">
+                    <img src="/upload/ue/image/20180724/1532419276300356.svg" alt="img"></div>
+                <div class="cell-back"></div>
+                <img src="/upload/ue/image/20180724/1532419273112717.svg" alt="img"
+                     class="product-up-img">
+                <div class="product-cell-head">AdvBox</div>
+                <div class="product-cell-content">基于PaddlePaddle平台开发的针对AI模型本身进行攻击，生成对抗样本的开源工具箱，支持主流的对抗样本算法</div>
+                <div class="ghost-btn"><a href="/page/34">查看详情</a></div>
+            </div>
+
+            
+            <div class="products-cell ">
+                <div class="product-bg-img">
+                    <img src="/upload/ue/image/20180625/1529914844586689.svg" alt="img"></div>
+                <div class="cell-back"></div>
+                <img src="/upload/ue/image/20180625/1529914840768934.svg" alt="img"
+                     class="product-up-img">
+                <div class="product-cell-head">应用加固</div>
+                <div class="product-cell-content">为智能终端上的应用程序提供防逆向破解、防盗版、敏感数据防窃取等安全加固措施</div>
+                <div class="ghost-btn"><a href="/page/32">查看详情</a></div>
+            </div>
+
+            
+            <div class="products-cell ">
+                <div class="product-bg-img">
+                    <img src="/upload/ue/image/20180122/1516625218384527.svg" alt="img"></div>
+                <div class="cell-back"></div>
+                <img src="/upload/ue/image/20180122/1516625227655624.svg" alt="img"
+                     class="product-up-img">
+                <div class="product-cell-head">活动防刷</div>
+                <div class="product-cell-content">活动防刷能够有效识别与对抗黄牛党、羊毛党进行抽奖作弊、刷单刷水、恶意下单等问题</div>
+                <div class="ghost-btn"><a href="/page/17">查看详情</a></div>
+            </div>
+
+            
+        </div>
+        <div class="block-ctl">
+            <a href="#" class="bcprev"></a>
+            <a href="#" class="bcnext"></a>
+        </div>
+    </div>
+</div>
+<div class="security-solution">
+    <div class="block-head">企业级大数据&nbsp;行业专业解决方案</div>
+    <div class="block-second-head">数十载安全数据积累 + 数十万企业最佳安全实践模型<br>配合全网威胁情报协同联动，铸就更加智能、成熟的行业安全解决方案</div>
+    <div class="block-area" id="solutions">
+        <div class="block-con">
+
+            
+                <div class="solution-cell solution-act">
+                    <img src="/upload/ue/image/20180122/1516625562472741.png" alt="img"
+                         class="cell-bottom-img">
+                    <div class="cell-back"></div>
+                    <div class="solution-cell-head">IDC智云盾</div>
+                    <div class="solution-cell-content">领先的IDC基础设施安全防御方案，让IDC更懂安全</div>
+                    <div class="solution-cell-dis">
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_idc.svg)">
+                            <span>IDC</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_shuju.svg)">
+                            <span>数据</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_siyouyun.svg)">
+                            <span>私有云</span>
+                        </div>
+
+                        
+                    </div>
+                    <div class="ghost-btn"><a href="/page/6">查看详情</a></div>
+                </div>
+
+            
+                <div class="solution-cell ">
+                    <img src="/upload/ue/image/20180122/1516625702147369.png" alt="img"
+                         class="cell-bottom-img">
+                    <div class="cell-back"></div>
+                    <div class="solution-cell-head">云加速</div>
+                    <div class="solution-cell-content">网站加速和安全一站式服务，服务上百万网站，让网站访问更快、更安全、更稳定。</div>
+                    <div class="solution-cell-dis">
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_youxi.svg)">
+                            <span>游戏业</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_fuwu.svg)">
+                            <span>服务业</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_jinrong.svg)">
+                            <span>金融业</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_yiliao.svg)">
+                            <span>医疗业</span>
+                        </div>
+
+                        
+                    </div>
+                    <div class="ghost-btn"><a href="/page/7">查看详情</a></div>
+                </div>
+
+            
+                <div class="solution-cell ">
+                    <img src="/upload/ue/image/20180927/1538033736187048.png" alt="img"
+                         class="cell-bottom-img">
+                    <div class="cell-back"></div>
+                    <div class="solution-cell-head">隐私合规</div>
+                    <div class="solution-cell-content">智能隐私发现，监控治理一站式处理，保护公司数据隐私，提高数据流通性</div>
+                    <div class="solution-cell-dis">
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_hulianwang.svg)">
+                            <span>互联网</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_jinrong.svg)">
+                            <span>金融业</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_zhengfu.svg)">
+                            <span>政府</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_shuju.svg)">
+                            <span>数据</span>
+                        </div>
+
+                        
+                    </div>
+                    <div class="ghost-btn"><a href="/page/36">查看详情</a></div>
+                </div>
+
+            
+                <div class="solution-cell ">
+                    <img src="/upload/ue/image/20180122/1516625880155063.png" alt="img"
+                         class="cell-bottom-img">
+                    <div class="cell-back"></div>
+                    <div class="solution-cell-head">xSRC</div>
+                    <div class="solution-cell-content">百度多年安全实战经验输出，助您轻松建立自有安全应急响应中心</div>
+                    <div class="solution-cell-dis">
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_hulianwang.svg)">
+                            <span>互联网</span>
+                        </div>
+
+                        
+                    </div>
+                    <div class="ghost-btn"><a href="/page/8">查看详情</a></div>
+                </div>
+
+            
+                <div class="solution-cell ">
+                    <img src="/upload/ue/image/20180122/1516625920369453.png" alt="img"
+                         class="cell-bottom-img">
+                    <div class="cell-back"></div>
+                    <div class="solution-cell-head">gSRC</div>
+                    <div class="solution-cell-content">区域互联网安全监管的有效解决方案</div>
+                    <div class="solution-cell-dis">
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_hulianwang.svg)">
+                            <span>互联网</span>
+                        </div>
+
+                                                <div class="solution-cell-img"
+                             style="background: url(/upload/icon/icon_zhengfu.svg)">
+                            <span>政府</span>
+                        </div>
+
+                        
+                    </div>
+                    <div class="ghost-btn"><a href="/page/9">查看详情</a></div>
+                </div>
+
+            
+        </div>
+        <div class="block-ctl">
+            <a href="#" class="bcprev"></a>
+            <a href="#" class="bcnext"></a>
+        </div>
+    </div>
+</div>
+
+<div class="user-feedback">
+    <div class="feedback-head">因为了解&nbsp;所以信赖</div>
+    <div class="feedback-content">
+        <div class="feedback-quot"></div>
+        <div class="feedback-content-text">
+            百度安全对客户的需求响应及时。售后的服务速度快。当网站受到攻击时，DDoS攻击防护产品帮我们解决了很大问题，避免被攻击时造成无法访问的损失。
+        </div>
+        <div class="feedback-content-text">
+            百度安全的产品易用，客户体验优秀，且售后响应及时。在需要帮助的时候，能在第一时间进行协助，想客户之所想，急客户之所急。
+        </div>
+        <div class="feedback-content-text">
+            在与百度安全进行服务对接时，感受到了百度安全对客户服务的真挚与热情，WEB高级威胁感知加强了我们源站防护能力，第一时间进行预警让我们可避免很多未知的损失。
+        </div>
+        <div class="feedback-content-text">
+            百度安全对客户的需求理解清晰，技术能力强，为我们找到了很多关键的漏洞。服务流程完善，漏洞报告提交后，仍然及时跟进漏洞修复情况，是责任心很强的安全服务团队。
+        </div>
+        <div class="feedback-content-text">
+            百度安全技术能力一流，服务态度良好，能对客户提出的需求逐一消化解决。在互联网公司的背景下，可以做出服务央企的产品，实属不易。希望今后可以做出更多适用于央企的安全产品和服务。
+        </div>
+        <div class="feedback-user-info">
+            ——北京飞客互动信息技术有限公司&nbsp;&nbsp;马震豪&nbsp;&nbsp;运维经理
+        </div>
+        <div class="feedback-user-info">——北京承点科技有限公司&nbsp;&nbsp;CEO&nbsp;&nbsp;杨浩</div>
+        <div class="feedback-user-info">——重庆市猪八戒网络有限公司&nbsp;&nbsp;技术经理&nbsp;&nbsp;陈继安</div>
+        <div class="feedback-user-info">——永乐票务&nbsp;&nbsp;总裁助理&nbsp;&nbsp;刘鹏</div>
+        <div class="feedback-user-info">——中国能源建设集团&nbsp;&nbsp;科技信息部主任&nbsp;&nbsp;王聪生</div>
+    </div>
+    <div class="feedback-line-left"></div>
+    <div class="feedback-line-right"></div>
+    <br>
+    <div class="feedback-company-group">
+        <div class="feedback-company-cell active">
+            <img class="company-img" src="/webstatic/img/feike.png" alt="logo">
+        </div>
+        <div class="feedback-company-cell">
+            <img class="company-img" src="/webstatic/img/chengdian.png" alt="logo">
+        </div>
+        <div class="feedback-company-cell">
+            <img class="company-img" src="/webstatic/img/zhubajie.png" alt="logo">
+        </div>
+        <div class="feedback-company-cell">
+            <img class="company-img" src="/webstatic/img/yongle.png" alt="logo">
+        </div>
+        <div class="feedback-company-cell">
+            <img class="company-img" src="/webstatic/img/nengjian.png" alt="logo">
+        </div>
+    </div>
+</div>
+
+<div class="section-forum">
+    <div class="block-head">前沿领域的新观察</div>
+    <p class="sfinfo">行业资讯、前沿技术、开源实战、最佳实践，新鲜，有趣，实用</p>
+    <ul class="clearfix">
+        
+            <li>
+                <a href="/article/326" target="_blank">
+                <span class="section-forum-index-img"
+                      style="background: url(/upload/ue/image/20181010/1539169326592186.jpg) no-repeat center; background-size: cover">
+                </span>
+                    <span>信息安全关乎国家安全 百度携多方联动构建自动驾驶安全生态&#8203;&#8203;&#8203;&#8203;</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="/article/325" target="_blank">
+                <span class="section-forum-index-img"
+                      style="background: url(/upload/ue/image/20181010/1539169100777769.jpg) no-repeat center; background-size: cover">
+                </span>
+                    <span>国内首个深度学习工程师认证标准发布 百度成首家落地企业&#8203;&#8203;&#8203;&#8203;</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="/article/324" target="_blank">
+                <span class="section-forum-index-img"
+                      style="background: url(/upload/ue/image/20181010/1539167725734559.jpg) no-repeat center; background-size: cover">
+                </span>
+                    <span>眼皮下的冒牌货：Combosquatting域名抢注的测量研究&#8203;&#8203;&#8203;&#8203;</span>
+                </a>
+            </li>
+            </ul>
+</div>
+<!--  内容end  --><!--公共底部-->
+<div class="footer">
+    
+    <div class="new-service">
+        <span>
+            <img src="/webstatic/img/newicon/icon_7x24h.svg" alt="">7x24小时
+        </span>
+        <span>
+            <img src="/webstatic/img/newicon/icon_zhuanyehuatuandui.svg" alt="">专业化团队
+        </span>
+        <span>
+            <img src="/webstatic/img/newicon/icon_qiyejisrc.svg" alt="">企业级SRC
+        </span>
+    </div>
+        <div class="footer-container">
+        <div class="footer-cell contact-infos">
+            <div class="footer-cell-content">
+                <img src="/webstatic/img/newicon/icon_footer_shangwuzixun.svg" alt="zixun">
+                <p>商务咨询</p>
+                <p>400-805-4999</p>
+            </div>
+        </div>
+
+        <div class="footer-cell foot-border-left">
+<div class="footer-cell-head">安全产品</div>
+<div class="footer-cell-content">
+<a href="https://anquan.baidu.com/page/1" target="_blank">DDoS攻击防护</a>
+<a href="https://anquan.baidu.com/page/2" target="_blank">WEB应用防火墙</a>
+<a href="https://anquan.baidu.com/page/3" target="_blank">WEB高级威胁感知</a>
+<a href="https://anquan.baidu.com/page/28" target="_blank">AIID智慧认证</a>
+</div></div><div class="footer-cell false">
+<div class="footer-cell-head">解决方案</div>
+<div class="footer-cell-content">
+<a href="https://anquan.baidu.com/page/6" target="_blank">IDC智云盾</a>
+<a href="https://anquan.baidu.com/page/7" target="_blank">云加速</a>
+<a href="https://anquan.baidu.com/page/8" target="_blank">xSRC</a>
+<a href="https://anquan.baidu.com/page/9" target="_blank">gSRC</a>
+</div></div><div class="footer-cell false">
+<div class="footer-cell-head">安全服务</div>
+<div class="footer-cell-content">
+<a href="https://anquan.baidu.com/page/13" target="_blank">渗透测试</a>
+<a href="https://anquan.baidu.com/page/14" target="_blank">漏洞托管</a>
+<a href="https://anquan.baidu.com/page/15" target="_blank">安全咨询</a>
+<a href="https://anquan.baidu.com/page/16" target="_blank">安全培训</a>
+</div></div><div class="footer-cell false">
+<div class="footer-cell-head">开放服务</div>
+<div class="footer-cell-content">
+<a href="https://anquan.baidu.com/page/18" target="_blank">网址安全检测</a>
+<a href="https://anquan.baidu.com/page/19" target="_blank">SMS短信内容安全</a>
+<a href="https://anquan.baidu.com/page/20" target="_blank">IP信誉查询</a>
+</div></div><div class="footer-cell false">
+<div class="footer-cell-head">其他</div>
+<div class="footer-cell-content">
+<a href="https://anquan.baidu.com/pages/community.html" target="_blank">帮助与支持</a>
+<a href="https://anquan.baidu.com/forum" target="_blank">安全社区</a>
+<a href="mailto:anquan_business@baidu.com" target="">联系我们</a>
+</div></div>
+        <div class="footer-cell">
+            <div class="footer-cell-head">关注我们</div>
+            <div class="footer-cell-content">
+                <img src="/webstatic/img/newicon/icon_WeChat.jpg" alt="bar-code" width="121">
+            </div>
+        </div>
+    </div>
+    <div class="footer-tips">
+        <p id="relatedLinks">
+            <a href=https://oases.io/ target="_blank">OASES智能终端安全生态联盟</a>
+<a href=http://bsb.baidu.com/ target="_blank">网址检测</a>
+<a href=http://anquanbao.com/ target="_blank">安全宝</a>
+<a href=https://shoujiweishi.baidu.com/ target="_blank">手机卫士</a>
+<a href=http://ruiyan.baidu.com/ target="_blank">百度锐眼</a>
+<a href=http://bsrc.baidu.com/ target="_blank">BSRC</a>
+        <p>
+            <span>©2018 Baidu </span>
+            <a href="https://www.baidu.com/duty/" target="_blank">使用百度前必读</a>
+            <a href="http://help.baidu.com/" target="_blank">意见反馈</a>
+            <span>京ICP证030173号&nbsp;&nbsp;京公网安备1100002000001号</span>
+        </p>
+    </div>
+    
+        <div class="contact">
+            <a href="" class="gotop" id="backTop">
+                <img src="/webstatic/img/bbs/icon_backtothetop@1x.svg">
+            </a>
+            <a href="#" class="aboatqr concats">
+                咨询<br>留言
+            </a>
+        </div>
+
+        <div class="contact-info hidden-style concats-info">
+            <div class="contact-info-con">
+                <a href="/pages/apply-form.html" target="_blank">
+                    <img src="/webstatic/img/bbs/icon_shenqingshiyong_48.svg" alt="申请试用"
+                         class="contact-info-icon">
+                    <div class="contact-info-title">申请试用</div>
+                    <div class="contact-info-des">
+                        提交需求<br>专人回复
+                    </div>
+                </a>
+                <a href="https://zhiqiu.baidu.com/imcswebchat/roulette/in?id=7547&token=nfddrjuhb92g3rmjvi9ob9l8bilrol0j&domainID=baiduanquan&type=2"
+                   target="_blank">
+                    <img src="/webstatic/img/bbs/icon_zhinengkefu_48.svg" alt="智能客服"
+                         class="contact-info-icon">
+                    <div class="contact-info-title">智能客服</div>
+                    <div class="contact-info-des">
+                        全天在线<br>智能答疑
+                    </div>
+                </a>
+                <a href="https://zhiqiu.baidu.com/imcswebchat/chat/html/message.html?id=7360&token=ou5qte56q1a5nrsd2i7bvvo50to16s81&domainID=baiduanquan"
+                   target="_blank">
+                    <img src="/webstatic/img/bbs/icon_liuyanjianyi_48.svg" alt="留言建议"
+                         class="contact-info-icon">
+                    <div class="contact-info-title">留言建议</div>
+                    <div class="contact-info-des">
+                        用的不爽<br>立即吐槽
+                    </div>
+                </a>
+            </div>
+            <div class="contact-consult">
+                购买咨询<span class="contact-consult-phone">400-805-4999</span>
+            </div>
+        </div>
+    </div>
+<script src="https://hm.baidu.com/hm.js?bc03b77c07af0cbdcab6652e1d3f29a8"></script>
+<script src="/webstatic/lib/jquery.min.js"></script>
+<script src="/webstatic/js/renderPage.js"></script>
+<script src="/webstatic/js/index.js"></script></body>
+</html>
+
+
+
+<!--13153927550599538186101022-->
+<script> var _trace_page_logid = 1315392755; </script>

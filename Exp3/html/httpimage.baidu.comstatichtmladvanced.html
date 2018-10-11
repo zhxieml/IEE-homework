@@ -1,0 +1,283 @@
+<!DOCTYPE html>     
+<html><head> 
+<meta http-equiv='Content-Type' content="text/html; charset=utf-8">
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <title>百度图片高级搜索</title>
+        <style>
+            body, td {
+                font-size: 12px;
+                font-family: arial;
+            }
+            
+            option, form, select {
+                font-size: 100%;
+                font-family: arial;
+            } 
+            .borderline {
+                border: 1px solid #d2dee6;
+                background:#e6f1fc;
+            } 
+            .tit{font-size:14px; line-height:200%; padding:0 15px;}
+            .cont{margin:0 4px 4px 4px;}
+            .cont table{background:#fff;}
+            .cont table td{height:35px; text-align:left;}
+            .pdlt20{padding-left:20px; width:15%;}
+            .centertd{width:22%;}
+            .pdtp td{padding-top:15px;}
+            .lasttd{padding-top:10px; padding-bottom:10px;}
+            .cookie{line-height:20px; padding-top:3px;}
+            .link_2 {color: #7777CC;} 
+            .p14 {font-size: 14px;;} 
+            #ft {clear: both;line-height: 20px;text-align: center} 
+            #ft, #ft * {color: #77C;font-size: 12px;font-family: Arial;white-space: nowrap}
+            .container{width:850px; margin:0 auto; margin:0 auto; margin-bottom:20px; margin-top:5px;}
+        </style>
+        <SCRIPT>       
+        function f_site(){
+            var site = Trim(document.getElementById("siteid").value);
+            var str = "site:";
+            if (site != "undefined" && site != null && site != "") {
+                return str += site;
+            }
+            else {
+                return "";
+            }
+        }
+        
+        function setFocus(){
+            document.f.k1.focus(); 
+            changeNews(document.f, 'img')
+        }
+        
+        function f_submit(fm){        
+            fm.word.value = Trim(fm.k1.value + " " + f_site());
+                fm.tn.value = "baiduimage";
+                fm.ct.value = "201326592";
+                fm.cl.value = "2";
+                fm.istype.value = "2";
+                fm.action = "http://image.baidu.com/i";
+                fm.lm.value = fm.lmm.value;
+        };        
+        function Trim(TheString){
+            var len;
+            len = TheString.length;
+            while (TheString.substring(0, 1) == " ") {
+                TheString = TheString.substring(1, len);
+                len = TheString.length;
+            }
+            while (TheString.substring(len - 1, len) == " ") {
+                TheString = TheString.substring(0, len - 1);
+                len = TheString.length;
+            }
+            return TheString;
+        }
+        </script>
+</head>
+<body alink=#ff0000 bgcolor=#ffffff link=#0000cc text=#000000 vlink=#551a8b onLoad="setFocus();read();">
+        <form name=f action="http://image.baidu.com/i" onsubmit="return f_submit(this);">
+            <input type=hidden name=lm value=""><input type=hidden name=tn value="baiduimage">
+            <input type=hidden name=ct value="201326592"><input type=hidden name=cl value=""><input type=hidden name=word value=""><input type=hidden name=istype value="2">
+            <table width="100%" height="70" border="0" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td width="149" valign="top"><a href="http://image.baidu.com/" title="返回百度首页"><img src="http://img.baidu.com/img/img-jg.gif" border="0"></a></td>
+                        <td>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+                                <tbody>
+                                    <tr bgcolor="#e6f1fc">
+                                        <td height="24">
+                                        </td>
+                                        <td align="right">
+                                            <a href="http://www.baidu.com/search/image_help.html" class="p14">帮助</a>
+                                            | <a href="http://image.baidu.com/" class="p14">图片首页</a>
+                                            &nbsp;
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="container">
+                <div class="borderline">
+                    <div class="tit"><b>高级搜索</b></div>
+                    <div class="cont">
+                         <table width=100% cellspacing="0" cellpadding="0" border="0">
+                            <tr class="pdtp"><td class="pdlt20"><b>搜索结果</b></td>
+                                <td class="centertd">包含以下关键词</td>
+                                <td><input type="text" size="25" value="" name="k1"></td>
+                            </tr>
+                            <tr>
+                                <td class="pdlt20"><b id="lmTit">图片格式</b></td>
+                                <td><font id="lmDesc">选择搜索的图片格式</font></td>
+                                <td>
+                                    <select id="lmm" name="lmm">
+                                        <option selected="" value="-1">所有格式</option>
+                                        <option value="3">jpg</option>
+                                        <option value="1">gif</option>
+                                        <option value="2">bmp</option>
+                                        <option value="4">png</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                    <td class="pdlt20"><b>站内图片</b></td>
+                                    <td nowrap="" >在指定的网站内搜索</td>
+                                    <td><input type="text" size="30" value="" name="site" id="siteid"><em>例如baidu.com </em></td>
+                            </tr>
+                            <tr>
+                                    <td></td><td></td>
+                                    <td class="lasttd"><input type="submit" value="百度一下"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="container">
+            <div class="borderline">
+                <div class="tit"><b>个性设置</b></div>
+                <div class="cont">
+                     <table width=100%>
+                        <tr class="pdtp">
+                            <td  class="pdlt20"><b>搜索框提示</b></td>
+                            <td>是否在搜索时显示搜索框提示</td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td >
+                            <td>
+                                <input type="radio" id="sOn" checked="true" name="suSwitch">显示&nbsp;<input type="radio" id="sOff" name="suSwitch">不显示
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td>
+                            <td>
+                                <input type="button" onclick="save()" value="保存设置">
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="cookie">
+                        请先确认您的浏览器启用了cookie，否则无法使用个性设置。<a target="_blank" href="http://www.baidu.com/search/faq_image.html#05">如何启用cookie？</a>
+                    </div>                      
+                </div>
+            </div>
+        </div>
+        <div id="ft">
+            &copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>
+        </div>
+        <script> 
+            function changeNews(myform, is){
+                //z = myform.z;
+                lm = myform.lmm;
+                //_zTit = document.getElementById('zTit');
+                //_zDesc = document.getElementById('zDesc');
+                _lmTit = document.getElementById('lmTit');
+                _lmDesc = document.getElementById('lmDesc');
+                //zSelect = new Array;
+                lmSelect = new Array;
+                if (is == "news") {
+                }
+                else {
+                    try {
+                    
+                        //zSelect[0] = new Array("所有大小", "大图片", "中图片", "小图片", "壁纸800x600", "壁纸1024x768", "壁纸1200x960", "壁纸1600x1200","壁纸宽屏","壁纸1280x1024", "自定义大小");
+                        //zSelect[1] = new Array("0", "3", "2", "1", "4", "5", "6", "8","19","7", "9");
+                        //z.options.length = zSelect[0].length;
+                        //z.size="6";
+                        //for (i = 0; i < zSelect[0].length; i++) {
+                           //z.options[i] = new Option(zSelect[0][i], zSelect[1][i]);
+                        //}
+                        lmSelect[0] = new Array("所有格式", "jpg", "gif", "bmp", "png");
+                        lmSelect[1] = new Array("-1", "3", "1", "2", "4");
+                        lmm.options.length = lmSelect[0].length;
+                        for (i = 0; i < lmSelect[0].length; i++) {
+                            lmm.options[i] = new Option(lmSelect[0][i], lmSelect[1][i]);
+                        }
+                        //_zTit.innerHTML = "图片大小";
+                        //_zDesc.innerHTML = "选择您期望搜索的图片尺寸";
+                        _lmTit.innerHTML = "图片格式";
+                        _lmDesc.innerHTML = "选择您期望搜索的图片格式";
+                    } 
+                    catch (ex) {
+                        //alert("出错信息："+ex);
+                    }
+                }
+                
+                if (typeof(lmm) != "undefined") {
+                    //z.options[0].selected = true;
+                    lmm.options[0].selected = true;
+                }
+            };
+
+            function G(id){
+                return document.getElementById(id)
+            };
+            var iSug;
+            
+            function save(){            
+                if (!navigator.cookieEnabled) {
+                    alert("您已禁用cookie，设置修改无法生效");
+                    return;
+                }
+                if (G("sOff").checked) {
+                    setCk("sug", "0");
+                    iSug = 0;
+                }
+                else {
+                    setCk("sug", "1");
+                    if (iSug == 0) {
+                        (new Image()).src = "http://p.baidu.com/6.gif?p=12&" + new Date().getTime();
+                    }
+                    iSug = 1;
+                }
+                window.setTimeout(function(){
+                    location.href = "http://image.baidu.com";
+                }, 100)                
+            }
+            
+            function read(){
+                if (!navigator.cookieEnabled) 
+                    return;
+                if (getCk("sug") == "0") {
+                    G("sOff").checked = true;
+                    iSug = 0;
+                }
+                else {
+                    G("sOn").checked = true;
+                    iSug = 1;
+                }
+            }
+            
+            function setCk(name, value){
+                document.cookie = name + "=" + escape(value) + "; expires=Thu, 08 Jul 2038 10:05:14 GMT; path=/";
+            }
+            
+            function getCk(name){
+                var cookieValue = "";
+                var search = name + "=";
+                if (document.cookie.length > 0) {
+                    offset = document.cookie.indexOf(search);
+                    if (offset != -1) {
+                        offset += search.length;
+                        end = document.cookie.indexOf(";", offset);
+                        if (end == -1) 
+                            end = document.cookie.length;
+                        cookieValue = unescape(document.cookie.substring(offset, end));
+                    }
+                }
+                return cookieValue;
+            }
+        </script>
+        <script>
+        if(document.f.k1){
+            document.f.k1.value = decodeURIComponent(window.location.search.substring(6));
+        }
+        </script>   
+         <img src="http://image.baidu.com/pv/pv.gif?t=7" style="display:none">
+    </body>
+</html>
+<!--15728482270265655818101022-->
+<script> var _trace_page_logid = 1572848227; </script>

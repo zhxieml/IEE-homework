@@ -1,0 +1,476 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>北京互联网违法和不良信息举报中心</title>
+<link href="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/css/css.css" rel="stylesheet" type="text/css" />
+<SCRIPT language=JavaScript src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/js/scroll.js"></SCRIPT>
+<script src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/js/oyjc.js"></script>
+<style type="text/css">
+<!--
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+
+<!--
+.f02 {	font-size:12px;
+	color:#E9FF19;
+	text-decoration:none;
+}
+ul{ padding:0px; margin:0px;}
+li{ list-style:none}
+#box{position:relative;width:950px;height:119px;background:#fff;border-radius:5px;cursor:pointer;}
+#box .list{position:relative;width:950px;height:119px;overflow:hidden;}
+#box .list ul{position:absolute;top:0;left:0;}
+#box .list li{width:950px;height:119px;overflow:hidden;}
+#box .list ul li img{ width:950px; height:119px;}
+#box .count{position:absolute;right:0;bottom:5px;}
+#box .count li{color:#fff;float:left;width:20px;height:20px;cursor:pointer;margin-right:5px;overflow:hidden;background:#F90;opacity:0.7;filter:alpha(opacity=70);border-radius:20px;text-align:center; line-height:20px;}
+#box .count li.current{color:#fff;opacity:1;filter:alpha(opacity=100);font-weight:700;background:#f60;}
+#tmp{width:100px;height:100px;background:red;position:absolute;}
+-->
+
+</style></head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td align="center"><iframe id="top" src="http://www.bjjubao.org/node_181.htm" marginheight="0" scrolling="no" width="100%" frameborder="0" height="116"></iframe></td>
+    </tr>
+  </tbody>
+</table>
+<table width="950" border="0" align="center" cellpadding="0" cellspacing="6">
+  <tr>
+    <td width="296" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center"><SCRIPT language=JavaScript type=text/javascript>
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&blank.frames.length) {
+    d=blank.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+            </SCRIPT>
+              <div style="display:none; ">
+                <a  id="pageLink"  href="http://www.bjjubao.org/2017-08/07/content_16812.htm"  ><img src="http://www.bjjubao.org/2017-08/07/4437e65237581af2428f01.jpg"  alt='北京90家网站月均受理社会公众举报达到 ...' id="picsrc"   border="0"> </a><a  id="pageLink"  href="http://www.bjjubao.org/2016-05/05/content_15368.htm"  ><img src="http://www.bjjubao.org/2016-05/05/4437e67a50691895302604.jpg"  alt='网络社会监督工作者积极参与网易“健苗计 ...' id="picsrc"   border="0"> </a><a  id="pageLink"  href="http://www.bjjubao.org/2016-03/31/content_15299.htm"  ><img src="http://www.bjjubao.org/2016-03/31/4437e652375818670fd312.jpg"  alt='北京又有27家网站建立举报中心' id="picsrc"   border="0"> </a><a  id="pageLink"  href="http://www.bjjubao.org/2015-05/30/content_14548.htm"  ><img src="http://www.bjjubao.org/2015-05/30/4437e67a5069177321e701.jpg"  alt='首都网络监督者2014年举报不良信息3 ...' id="picsrc"   border="0"> </a><a  id="pageLink"  href="http://www.bjjubao.org/2012-11/01/content_8783.htm"  ><img src="http://www.bjjubao.org/2012-11/01/4437e652375811fc4ebf03.jpg"  alt='网络监督志愿者培训班现场' id="picsrc"   border="0"> </a></div>
+          <DIV id=showgdtp style="PADDING-TOP: 1px;PADDING-left: 4px">
+                <SCRIPT language=javascript type=text/javascript>
+<!---->
+flashpic("showgdtp","./99/js/pixviewer.swf",290,165);
+
+  </SCRIPT>
+            </DIV></td>
+      </tr>
+      <tr>
+        <td align="center"><table width="100%" height="5" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+        <table width="296" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/index_jbzx_16.gif" width="296" height="30" /></td>
+          </tr>
+          <tr>
+            <td align="center" class="border01"><table border="0" cellpadding="0" cellspacing="0" width="95%">              <tbody>                <tr>                  <td align="left" style="padding-bottom: 6px;"><a   href="http://www.bjjubao.org/2018-09/21/content_41354.html"  class="a6"  target="_blank" >八月份北京市互联网举报工作汇总</a></td>                </tr><tr>                  <td align="left" style="padding-bottom: 6px;"><a   href="http://www.bjjubao.org/2018-08/16/content_41328.html"  class="a6"  target="_blank" >七月份北京市互联网举报工作汇总</a></td>                </tr><tr>                  <td align="left" style="padding-bottom: 6px;"><a   href="http://www.bjjubao.org/2018-07/12/content_41327.html"  class="a6"  target="_blank" >六月份北京市互联网举报工作汇总</a></td>                </tr><tr>                  <td align="left" style="padding-bottom: 6px;"><a   href="http://www.bjjubao.org/2018-06/14/content_41326.html"  class="a6"  target="_blank" >五月份北京市互联网举报工作汇总</a></td>                </tr>            </tbody>            </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+                      <tbody>
+                        <tr>
+                          <td align="right" class="a2"><a href="http://www.bjjubao.org/node_192.htm" class=""  target="_blank">更多</a>
+                            &gt;&gt; </td>
+                        </tr>
+                      </tbody>
+                  </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="436" valign="top"><table width="100%" height="340" border="0" cellpadding="0" cellspacing="0" class="middleborder">
+      <tr>
+        <td align="center" valign="top"><table width="100%" height="43" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/index_jbzx_10.gif" class="middletitle">举报中心工作动态</td>
+          </tr>
+        </table>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">            <tr>              <td class="middletitle2"><a   href="http://www.bjjubao.org/2018-06/20/content_41015.html"   target="_blank" > 公告：有不法分子冒充举报中心工作人员行骗</a></td>            </tr>            <tr>              <td class="middletext">近期,我中心接到多起举报,举报人反映有不法分子冒充北京市互联网违法和不良信息举报中心工作人员,从事诈骗活动。<a   href="http://www.bjjubao.org/2018-06/20/content_41015.html"  target="_blank"  class="a2" >[全文..]</a></td>            </tr>          </table><table width="95%" border="0" cellpadding="0" cellspacing="0" height="6">
+            <tr>
+              <td height="6"></td>
+            </tr>
+          </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+          </table>
+          <table width="95%" border="0" cellpadding="0" cellspacing="0" class="dashed">
+            <tr>
+              <td></td>
+            </tr>
+          </table>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+              <tr>
+                <td><!--begin 681940-6041-1-->
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="95%"><tbody>                        <tr>                          <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2018-09/30/content_41359.html"   target="_blank" class="a1" >· 林妈妈：这份爱的守护，我会一直坚持下去！</a></td>                        </tr><tr>                          <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2017-08/07/content_16811.html"   target="_blank" class="a1" >· 北京90家网站月均受理社会公众举报达到百万</a></td>                        </tr><tr>                          <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2017-01/10/content_16386.htm"   target="_blank" class="a1" >· 北京市互联网举报中心号召广大网民积极举报网络色情低俗信息</a></td>                        </tr><tr>                          <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2016-12/17/content_16350.htm"   target="_blank" class="a1" >· 4000余名互联网“剑客”铲除不良信息超66万件</a></td>                        </tr><tr>                          <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2016-12/13/content_16348.htm"   target="_blank" class="a1" >· 北京市网信办责令凤凰网关停、限期整改违规栏目</a></td>                        </tr><tr>                          <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2016-12/13/content_16347.htm"   target="_blank" class="a1" >· 北京市网信办约见凤凰网总编辑进行警示谈话</a></td>                        </tr><tr>                          <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2016-07/28/content_15559.htm"   target="_blank" class="a1" >· 北京地区62家网站上半年受理举报330余万件 比去年同期增长25%</a></td>                        </tr> </tbody></table><!--end 681940-6041-1--></td>
+              </tr>
+            </tbody>
+          </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+            <tbody>
+              <tr>
+                <td align="right" class="a2"><!--begin 681905-0-5-->
+                  <a href="http://www.bjjubao.org/erjiye/node_184.htm" class=""  target="_blank">更多</a>                  &gt;&gt;
+                  <!--end 681905-0-5--></td>
+              </tr>
+            </tbody>
+          </table></td>
+      </tr>
+    </table></td>
+    <td width="194" valign="top"><table width="194" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="194" height="56" valign="top"><a href="http://report.bjjubao.org/rpt-recruit.jsp" target="_blank"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/index_jbzx_07.gif" width="194" height="59" border="0" /></a>
+            <table width="100%" height="6" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td></td>
+              </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td width="194" height="139" align="center" valign="top" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/index_jbzx_22.gif" style="background-repeat: repeat-x; overflow:hidden;"><table width="90%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="48">&nbsp;</td>
+            </tr>
+            <tr>
+              <td height="80" align="left" valign="top" class="white"><a href="http://www.bjjubao.org/erjiye/2006-04/10/content_3453.htm"  target="_blank"> 1、如何举报违法和不良信息<br />
+                2、哪些属于违法和不良信息</a><br />
+				<a href="http://www.bjjubao.org/2013-05/09/content_9863.htm"  target="_blank"> 3、举报奖励暂行办法</a><br />
+				<a href="http://www.bjjubao.org/2016-05/03/content_15360.html"  target="_blank"> 4、北京属地网站举报方式</a></td>
+				 
+            </tr>
+			
+        </table></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="100%" height="6" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td></td>
+            </tr>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="59"><a href="http://report.bjjubao.org/Report.action" target="_blank"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/index_jbzx_18.gif" width="194" height="59" border="0" /></a></td>
+            </tr>
+          </table>          </td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="100%" height="6" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td></td>
+            </tr>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="59"><a href="http://report.bjjubao.org/rpt-login.jsp" target="_blank"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/index_jbzx_21.gif" width="194" height="59" border="0" /></a></td>
+            </tr>
+          </table> </td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="930" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+		<div id="box">
+        <div class="list">
+          <ul class="li"><li><a   href="http://tjj.beijing.gov.cn/zt/bjsdscqgjjpc/"  target="_blank" ><img src="http://www.bjjubao.org/2018-09/06/1b451577-58b0-4abc-a997-8cfb5fd073d1.png"    border="0"> </a></li><li><a   href="http://www.12377.cn/node_548470.htm"  target="_blank" ><img src="http://www.bjjubao.org/2016-01/07/4437e67a506917f865ca01.jpg"    border="0"> </a></li>			</ul></div>
+      </div>
+          <script type="text/javascript">
+window.onload = function ()
+{
+        var oBox = document.getElementById("box");
+        var oList = oBox.getElementsByTagName("ul")[0];
+        var aImg = oBox.getElementsByTagName("img");
+        var timer = playTimer = null;
+        var index = i = 0;
+        var bOrder = true;
+        var aTmp = [];
+        var aBtn = null;
+        
+        //生成数字按钮
+        for (i = 0; i < aImg.length; i++) aTmp.push("<li>" + (i + 1) + "</li>");
+        
+        //插入元素
+        var oCount = document.createElement("ul");
+        oCount.className = "count";
+        oCount.innerHTML = aTmp.join("");
+        oBox.appendChild(oCount);        
+        aBtn = oBox.getElementsByTagName("ul")[1].getElementsByTagName("li");
+        
+        //初始化状态
+        cutover();
+        
+        //按钮点击切换
+        for (i = 0; i < aBtn.length; i++)
+        {
+                aBtn[i].index = i;
+                aBtn[i].onmouseover = function ()
+                {
+                        index = this.index;
+                        cutover()
+                }
+        }
+        
+        function cutover()
+        {
+                for (i = 0; i < aBtn.length; i++) aBtn[i].className = "";
+                aBtn[index].className = "current";                        
+                startMove(-(index * aImg[0].offsetHeight))
+        }
+        
+        function next()
+        {
+                bOrder ? index++ : index--;
+                index <= 0 && (index = 0, bOrder = true);
+                index >= aBtn.length - 1 && (index = aBtn.length - 1, bOrder = false)
+                cutover()
+        }
+        
+        playTimer = setInterval(next, 3000);
+        
+        //鼠标移入展示区停止自动播放
+        oBox.onmouseover = function ()
+        {
+                clearInterval(playTimer)
+        };
+        
+        //鼠标离开展示区开始自动播放
+        oBox.onmouseout = function ()
+        {
+                playTimer = setInterval(next, 3000)
+        };
+        function startMove(iTarget)
+        {
+                clearInterval(timer);
+                timer = setInterval(function ()
+                {
+                        doMove(iTarget)
+                }, 30)        
+        }
+        function doMove (iTarget)
+        {                
+                var iSpeed = (iTarget - oList.offsetTop) / 10;
+                iSpeed = iSpeed > 0 ? Math.ceil(iSpeed) : Math.floor(iSpeed);                
+                oList.offsetTop == iTarget ? clearInterval(timer) : oList.style.top = oList.offsetTop + iSpeed + "px"
+        }
+};
+  </script>
+	</td>
+  </tr>
+</table>
+<table width="950" border="0" align="center" cellpadding="0" cellspacing="6">
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="40%" align="center" valign="top"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="16" height="33"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_4.gif" width="16" height="33" /></td>
+            <td width="100" align="center" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_6.gif" class="f141">行业新闻</td>
+            <td width="16"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_8.gif" width="16" height="33" /></td>
+            <td background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_5.gif"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+                  <td align="right" valign="bottom" class="a2"><a href="http://www.bjjubao.org/erjiye/node_185.htm" class=""  target="_blank">更多</a>                    &gt;&gt; </td>
+                </tr>
+              </tbody>
+            </table></td>
+            <td width="8"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_7.gif" width="8" height="33" /></td>
+          </tr>
+        </table>
+              <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="8" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_9.gif"></td>
+                  <td align="center" valign="top" bgcolor="#FBFCFD"><table align="center" border="0" cellpadding="0" cellspacing="0" width="95%">                  <tbody>                    <tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2015-11/11/content_14867.htm"  class="a1"  target="_blank" >·防范网购诈骗 “双十一”让你“购”安心 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2015-11/11/content_14866.htm"  class="a1"  target="_blank" >·工商部门提醒：不是所有网购商品都可以“ ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2015-05/21/content_13939.htm"  class="a1"  target="_blank" >·为青少年成长营造健康的网络环境</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2014-09/12/content_12590.htm"  class="a1"  target="_blank" >·全国百家网站公布举报电话 快速处置公众 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2013-06/27/content_10023.htm"  class="a1"  target="_blank" >·国家互联网信息办部署集中清理三类信息保 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2013-05/10/content_9889.htm"  class="a1"  target="_blank" >·打击网络谣言 网站在行动</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2013-05/10/content_9888.htm"  class="a1"  target="_blank" >·首都互联网协会呼吁制定网络编辑职业准则 ...</a></td>                    </tr>                     </tbody>                </table></td>
+                  <td width="8" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_11.gif"></td>
+                </tr>
+                <tr>
+                  <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_18.gif" width="8" height="8" /></td>
+                  <td background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_19.gif"></td>
+                  <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_21.gif" width="8" height="8" /></td>
+                </tr>
+              </table>
+          <table width="100%" height="4" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td></td>
+                </tr>
+            </table></td>
+        <td width="60%" align="center" valign="top"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="16" height="33"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_4.gif" width="16" height="33" /></td>
+            <td width="100" align="center" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_6.gif" class="f141">网络安全知识</td>
+            <td width="16"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_8.gif" width="16" height="33" /></td>
+            <td background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_5.gif"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+                  <td align="right" valign="bottom" class="a2"><a href="http://www.bjjubao.org/erjiye/node_188.htm" class=""  target="_blank">更多</a>                    &gt;&gt; </td>
+                </tr>
+              </tbody>
+            </table></td>
+            <td width="8"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_7.gif" width="8" height="33" /></td>
+          </tr>
+        </table>
+              <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="8" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_9.gif"></td>
+                  <td align="center" valign="top" bgcolor="#FBFCFD"><table align="center" border="0" cellpadding="0" cellspacing="0" width="95%">                  <tbody>                    <tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/erjiye/2018-06/21/content_41075.html"  class="a1"  target="_blank" >·在线求职  谨防三种骗局</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/erjiye/2018-06/21/content_41074.html"  class="a1"  target="_blank" >·脱离游戏平台私下交易或遭遇诈骗</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/erjiye/2018-06/21/content_41073.html"  class="a1"  target="_blank" >·切记！短视频中奇葩行为不可盲目学</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/erjiye/2018-06/21/content_41072.html"  class="a1"  target="_blank" >·注意！网上传播炸药制造流程等信息严重违 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2010-02/26/content_3561.htm"  class="a1"  target="_blank" >·小方法 教你如何自己动手清除npf病毒 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2010-02/26/content_3560.htm"  class="a1"  target="_blank" >·确保安全 了解防火墙路由器两种设备的七 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2010-02/26/content_3559.htm"  class="a1"  target="_blank" >·修改系统注册表权限加强对木马病毒的防范 ...</a></td>                    </tr>                     </tbody>                </table></td>
+                  <td width="8" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_11.gif"></td>
+                </tr>
+                <tr>
+                  <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_18.gif" width="8" height="8" /></td>
+                  <td background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_19.gif"></td>
+                  <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_21.gif" width="8" height="8" /></td>
+                </tr>
+              </table>
+          <table width="100%" height="4" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td></td>
+                </tr>
+            </table></td>
+      </tr>
+      <tr>
+        <td width="40%" align="center" valign="top"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="16" height="33"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_4.gif" width="16" height="33" /></td>
+            <td width="100" align="center" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_6.gif" class="f141">案例分析</td>
+            <td width="16"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_8.gif" width="16" height="33" /></td>
+            <td background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_5.gif"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+                  <td align="right" valign="bottom" class="a2"><!--begin 681905-0-5-->
+                    <a href="http://www.bjjubao.org/erjiye/node_189.htm" class=""  target="_blank">更多</a>                    &gt;&gt;
+                    <!--end 681905-0-5--></td>
+                </tr>
+              </tbody>
+            </table></td>
+            <td width="8"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_7.gif" width="8" height="33" /></td>
+          </tr>
+        </table>
+              <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="8" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_9.gif"></td>
+                  <td align="center" valign="top" bgcolor="#FBFCFD"><table align="center" border="0" cellpadding="0" cellspacing="0" width="95%">                  <tbody>                    <tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2012-03/28/content_7411.htm"  class="a1"  target="_blank" >·公安机关打掉虚假报警网站“中国网络监察 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2012-01/05/content_7109.htm"  class="a1"  target="_blank" >·网络陷阱骗走七千万</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2012-01/05/content_7106.htm"  class="a1"  target="_blank" >·警惕岁末手机短信骗术翻新:《我要上春晚 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2011-07/19/content_6269.htm"  class="a1"  target="_blank" >·淘宝网上半年处理侵权信息4700万条　 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2010-02/26/content_3554.htm"  class="a1"  target="_blank" >·哈尔滨色情网站"炮兵俱乐部"创建者被判 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2010-02/26/content_3553.htm"  class="a1"  target="_blank" >·网上传播大量淫秽物品 色魔被判入狱10 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2010-02/26/content_3552.htm"  class="a1"  target="_blank" >·玩网游能中奖?骗子以客服名义诱导玩家汇 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2010-02/26/content_3551.htm"  class="a1"  target="_blank" >·4万元假币网上叫卖1000元 买卖假币 ...</a></td>                    </tr>                     </tbody>                </table></td>
+                  <td width="8" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_11.gif"></td>
+                </tr>
+                <tr>
+                  <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_18.gif" width="8" height="8" /></td>
+                  <td background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_19.gif"></td>
+                  <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_21.gif" width="8" height="8" /></td>
+                </tr>
+            </table></td>
+        <td width="60%" align="center" valign="top"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="16" height="33"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_4.gif" width="16" height="33" /></td>
+            <td width="100" align="center" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_6.gif" class="f141">政策法规</td>
+            <td width="16"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_8.gif" width="16" height="33" /></td>
+            <td valign="middle" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_5.gif"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+                  <td align="right" valign="bottom" class="a2"><a href="http://www.bjjubao.org/erjiye/node_190.htm" class=""  target="_blank">更多</a>                    &gt;&gt; </td>
+                </tr>
+              </tbody>
+            </table></td>
+            <td width="8"><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_7.gif" width="8" height="33" /></td>
+          </tr>
+        </table>
+              <table width="99%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="8" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_9.gif"></td>
+                  <td align="center" valign="top" bgcolor="#FBFCFD"><table align="center" border="0" cellpadding="0" cellspacing="0" width="95%">                  <tbody>                    <tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2017-08/07/content_16836.htm"  class="a1"  target="_blank" >·中华人民共和国网络安全法</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2017-08/04/content_16835.htm"  class="a1"  target="_blank" >·互联网新闻信息服务管理规定</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.baom.com.cn/fagui/2016-07/22/content_15551.htm"  class="a1"  target="_blank" >·移动互联网应用程序信息服务管理规定</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.baom.com.cn/fagui/2016-07/22/content_15550.htm"  class="a1"  target="_blank" >·互联网信息搜索服务管理规定</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2011-12/19/content_7070.htm"  class="a1"  target="_blank" >·《北京市微博客发展管理若干规定》(全文 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2011-04/08/content_5946.htm"  class="a1"  target="_blank" >·最高人民法院 最高人民检察院关于办理诈 ...</a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2009-12/03/content_3546.htm"  class="a1"  target="_blank" >·中国新闻工作者职业道德准则 <BR></a></td>                    </tr><tr>                      <td style="border-bottom: 1px dashed rgb(225, 225, 225); padding-top: 3px;" align="left"><a   href="http://www.bjjubao.org/2009-06/26/content_3545.htm"  class="a1"  target="_blank" >·互联网医疗保健信息服务管理办法</a></td>                    </tr>                     </tbody>                </table></td>
+                  <td width="8" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_11.gif"></td>
+                </tr>
+                <tr>
+                  <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_18.gif" width="8" height="8" /></td>
+                  <td background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_19.gif"></td>
+                  <td><img src="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/pic_21.gif" width="8" height="8" /></td>
+                </tr>
+            </table></td>
+      </tr>
+    </table></td>
+    <td width="200" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="rborder">
+      <tr>
+        <td><table width="100%" border="0" cellpadding="0" cellspacing="0" >
+          <tr>
+            <td height="27" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/index_jbzx_28.gif" class="f141">举报中心电话及邮箱</td>
+          </tr>
+        </table>
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rmailbox">
+                <tr>
+                  <td><strong>举报电话：</strong><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;010-67196565<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;010-67196566<br />
+                    <strong>举报邮箱</strong>：<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;jubao@bjwgb.gov.cn<br />
+                   </td>
+                </tr>
+            </table></td>
+      </tr>
+    </table>
+        <table width="100%" height="8" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rborder">
+          <tr>
+            <td><table width="100%" border="0" cellpadding="0" cellspacing="0" >
+                <tr>
+                  <td height="27" background="http://www.baom.com.cn/jianjie/templateRes/200910/15/99/99/images/index_jbzx_28.gif" class="f141">友情链接</td>
+                </tr>
+              </table>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rmailbox">
+                  <tr>
+                    <td><a href="http://www.baom.com.cn" target="_blank">首都互联网协会</a><br />
+                        <a href="http://www.qianlong.com/" target="_blank">千龙网 中国首都网</a><br />
+                        <a href="http://www.isc.org.cn/" target="_blank">中国互联网协会</a><br />
+                        <a href="http://www.cyberpolice.cn" target="_blank">公安部信息网络安全报警网</a><br />
+                        <a href="http://www.cert.org.cn/" target="_blank">网络应急中心</a><br />
+						<a href="http://www.shdf.gov.cn/" target="_blank">中国扫黄打非网</a><br />
+                      <a href="http://www.12377.cn" target="_blank">中国互联网举报中心</a></td>
+                  </tr>
+              </table></td>
+          </tr>
+      </table></td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr>
+      <td align="center"><iframe id="top" src="http://www.bjjubao.org/node_182.htm" marginheight="0" scrolling="no" width="100%" frameborder="0" height="80"></iframe></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

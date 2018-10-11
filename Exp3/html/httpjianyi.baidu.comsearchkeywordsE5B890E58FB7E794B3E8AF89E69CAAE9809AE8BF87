@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="zh-CN">
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?fb481430f1a5a6c7044229532823b9fd";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="baidu-site-verification" content="GaTo5YnIV9" />
+    <title>百度用户服务中心-搜索结果</title>
+    <meta name="keywords" content="百度服务中心、百度意见反馈、百度投诉反馈、百度倾听、百度帮助中心、百度产品投诉、百度产品意见">
+    <meta name="description" content="百度服务中心是百度客服官方网站，为您解决使用百度产品过程中遇到的问题，帮助用户更了解百度，也让百度更懂用户。">
+    <link rel="shortcut icon" href="/resources/images/favicon.ico"/>
+    
+
+<!--[if lt IE 9]>
+<script>window.location.href=replace(window.location.href, 'search', 'search2');</script>
+<![endif]-->
+
+
+
+        <link type="text/css" rel="stylesheet" href="/resources/pc/css/normalize.min.css?timestamp=20180719" />
+    <link type="text/css" rel="stylesheet" href="/resources/pc/css/global.min.css?timestamp=20180719" />
+        
+<link type="text/css" rel="stylesheet" href="/resources/pc/css/search.min.css?timestamp=20180719"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/resources/pc/js/lib/tangram-2.0.2.1.min.js"></script>
+    <!--[if (!IE)|(gte IE 9)]><!-->
+    <script type="text/javascript" src="/resources/pc/js/lib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201810102335"></script>
+        <script type="text/javascript" src="/resources/pc/js/dist/common.min.js?timestamp=20180719"></script>
+        <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/resources/js/lib/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="/resources/js/common.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $(function () {
+            login.init('https://passport.baidu.com', 'http://help.baidu.com/resources/html/jump.html', 'service_feedback');
+        });
+    </script>
+</head>
+<body>
+
+            <div class="header clear">
+    <div class="header-container">
+        <div class="logo">
+            <a href="/index"><span class="logo-span"></span></a>
+        </div>
+        <form class="search-form" action="/search" name="f" id="searchForm">
+            <input id="search_txt" value="帐号申诉未通过" placeholder="请简单描述您遇到的问题" type="text" class="search-key" x-webkit-speech="true"  name="keywords" autocomplete="off"/>
+            <button id="searchbutton" class="search-btn" type="submit" value=""></button>
+            <ul id="searchSuggest" class="suggestion" style="display:none;"></ul>
+        </form>
+        <div class="loginfo">
+                        <div class="unlogin">
+                <a href="#" id="btnLogin">登录</a>
+                <a href="https://passport.baidu.com/v2/?reg&tpl=service_feedback&u=">注册</a>
+            </div>
+                    </div>
+    </div>
+</div>
+    
+
+<div class="banner">
+    <div class="title">
+        <span><a href="/">服务中心</a></span><span>></span><span>搜索结果</span>
+    </div>
+</div>
+<div class="sec-main">
+    <div class="prod-bar fl" id="prodBar">
+    <ul>
+                        <li class="on" data-id="145">
+            <div class="picon">
+                <img src="/resources/images/icon/passport_64.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度帐号</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="99">
+            <div class="picon">
+                <img src="/resources/images/icon/zhanzhang_64.png" class="icon-img">
+            </div>
+            <div class="pname"><span>站长平台</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="79">
+            <div class="picon">
+                <img src="/resources/images/icon/wangye_74.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度搜索</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="158">
+            <div class="picon">
+                <img src="/resources/images/icon/jingyan_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>经验</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="87">
+            <div class="picon">
+                <img src="/resources/images/icon/baike_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百科</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="138">
+            <div class="picon">
+                <img src="/resources/images/icon/baiduyun_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度网盘</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="88">
+            <div class="picon">
+                <img src="/resources/images/icon/tieba_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>贴吧</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="119">
+            <div class="picon">
+                <img src="/resources/images/icon/browser_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度浏览器</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="82">
+            <div class="picon">
+                <img src="/resources/images/icon/map_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度地图</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="86">
+            <div class="picon">
+                <img src="/resources/images/icon/zhidao_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>知道</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="90">
+            <div class="picon">
+                <img src="/resources/images/icon/wenku_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>文库</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="147">
+            <div class="picon">
+                <img src="/resources/images/icon/zhongce_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度众测</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="117">
+            <div class="picon">
+                <img src="/resources/images/icon/lvyou_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度旅游</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="167">
+            <div class="picon">
+                <img src="/resources/images/icon/weishi_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度卫士</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="92">
+            <div class="picon">
+                <img src="/resources/images/icon/soucang_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度搜藏</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="155">
+            <div class="picon">
+                <img src="/resources/images/icon/licai_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度理财</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="122">
+            <div class="picon">
+                <img src="/resources/images/icon/shurufa_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度输入法</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="98">
+            <div class="picon">
+                <img src="/resources/images/icon/kaifang_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>数据开放平台</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="102">
+            <div class="picon">
+                <img src="/resources/images/icon/zhishu_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度指数</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="170">
+            <div class="picon">
+                <img src="/resources/images/icon/bainuolian_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百糯连</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="150">
+            <div class="picon">
+                <img src="/resources/images/icon/shadu_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度杀毒</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="200">
+            <div class="picon">
+                <img src="/resources/images/icon/iotscan_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度锐眼智能设备安全检测</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="120">
+            <div class="picon">
+                <img src="/resources/images/icon/shipin_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度影音</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="83">
+            <div class="picon">
+                <img src="/resources/images/icon/xinwen_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度新闻</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="84">
+            <div class="picon">
+                <img src="/resources/images/icon/image_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>图片搜索</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="113">
+            <div class="picon">
+                <img src="/resources/images/icon/hao123_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>Hao123</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="101">
+            <div class="picon">
+                <img src="/resources/images/icon/fengyun_64.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度风云榜</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="125">
+            <div class="picon">
+                <img src="/resources/images/icon/fanyi_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度翻译</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="85">
+            <div class="picon">
+                <img src="/resources/images/icon/cidian_57.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度词典</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="159">
+            <div class="picon">
+                <img src="/resources/images/icon/piaowu_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度票务</span><br><span>相关问题</span></div>
+                    </li>
+            </ul>
+    <!--<div class="search-more">
+        <a class="prev-prod" href="javascript:void(0);"><i></i></a>
+        <span>查看更多产品</span>
+        <a class="next-prod" href="javascript:void(0);"><i></i></a>
+    </div>-->
+</div>    <div class="content fl" id="mainContent">
+        <ul class="q-list">
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2340" target="_blank">百度<span style="color:#ff0000;">帐号申诉未通过</span>，忘记信息</a></div>
+        <div class="q-summary">1. 申请未通过的原因是由于您填写的申诉信息错误信息太多。建议您再次回想正确信息，重新提交申诉，如单纯的某一两项填写错误，不会完全影响到您的申诉结果。如您实在无法想起，建议您随机填写，但是随机填写可能会影响您的申诉结果。还请您再次确认该信息后提交申诉，我们会再次帮您进行...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2322" target="_blank">人工<span style="color:#ff0000;">申诉</span>时提示<span style="color:#ff0000;">帐号</span>在保护期，无法提交<span style="color:#ff0000;">申诉</span></a></div>
+        <div class="q-summary">您上一次的申诉是被短信终止的，您需要48小时后才能提交申诉。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2335" target="_blank">忘记<span style="color:#ff0000;">帐号</span>信息，<span style="color:#ff0000;">申诉</span>能否<span style="color:#ff0000;">通过</span></a></div>
+        <div class="q-summary">如您在填写申诉信息时，忘记申诉表单里所要填写的帐号信息，建议您仔细回想，根据系统提示进行填写，我们将对您填写的信息进行综合判定，如单纯的某一两项填写错误，不会完全影响到您的申诉结果。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2329" target="_blank"><span style="color:#ff0000;">帐号</span>未绑定邮箱，<span style="color:#ff0000;">申诉</span>时要求填写此信息</a></div>
+        <div class="q-summary">如您在填写申诉信息时，忘记申诉表单里所要填写的密保问题，建议您仔细回想，根据系统提示填写提交，我们将对您填写的信息进行综合判定。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=9&id=2110" target="_blank">原<span style="color:#ff0000;">帐号</span>无法登录，使用现手机登录变为新<span style="color:#ff0000;">帐号</span></a></div>
+        <div class="q-summary">建议您通过申诉找回原帐号，申诉成功后，会给您发送短信重置链接，您可通过此链接修改密保手机、邮箱及密码。请您登录手机帐号，将其绑定邮箱后，解绑手机，便于后期将手机号绑定在原常用帐号上。移动端：第一步：打开手机百度APP点击登录，点击登录下方的“忘记密码”；第二步：按系统提示...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2352" target="_blank"><span style="color:#ff0000;">帐号</span><span style="color:#ff0000;">申诉</span>可提交多少次</a></div>
+        <div class="q-summary">百度帐号申诉，每 2 小时可提交一次，每天可提交 6 次申诉，多次提交并不能提高帐号申诉通过率；如提示您 “申诉正在受理中”，则您距离上次申诉时间间隔未满 2 小时</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=9&id=2115" target="_blank"><span style="color:#ff0000;">帐号</span>长时间未使用，无法登录</a></div>
+        <div class="q-summary">建议您使用帐号密保手机或邮箱，验证登录帐号，如密保手机或邮箱不使用，或未绑定手机或邮箱，请您按照以下流程，提交申诉，（1）pc端：打开百度首页，点击登录-登录遇到问题，根据系统提示进行申诉；（2）移动端：打开手机百度app点击登录-忘记密码，根据系统提示进行申诉。申诉成功后，...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=9&id=2092" target="_blank">提示第三方<span style="color:#ff0000;">帐号</span>尚未绑定</a></div>
+        <div class="q-summary">建议您按照以下方式进行操作：目前百度首页，仅支持使用腾讯QQ、新浪微博进行第三方授权登录。1、打开百度首页，点击登录页面下方的腾讯QQ、新浪微博，即可通过第三方帐号授权登录百度帐号；2、如系统提示需要绑定一个百度帐号，需要填写您百度帐号绑定的手机号码，输入收到的短信验证，...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=20&id=2364" target="_blank">百度网盘被盗，<span style="color:#ff0000;">申诉</span>未成功</a></div>
+        <div class="q-summary">由于现在找回帐号只有一个申诉渠道，给您带来的不便敬请谅解，申诉失败说明您填写的帐号信息错误较多，建议您仔细回想下帐号信息，根据系统提示正确填写，再次提交申诉，我们会再次帮您进行审核。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2337" target="_blank">海外手机如何进行<span style="color:#ff0000;">帐号</span><span style="color:#ff0000;">申诉</span></a></div>
+        <div class="q-summary">请按照以下方式进行操作：第一步：打开百度首页，在登录页面点击“登录遇到问题”第二步：按提示输入帐号、验证码，点击下一步第三步：如验证方式不可用，可点击页面下端的“点此申诉”，弹出二维码后，需要用手机扫码到申诉页面（推荐使用手机百度app）第四步：扫码后按页面提示，输入当前可...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=8&id=2425" target="_blank">公用百度<span style="color:#ff0000;">帐号</span>，注册人已离职，如何找回<span style="color:#ff0000;">帐号</span></a></div>
+        <div class="q-summary">建议您通过申诉找回帐号，或可尝试联系帐号注册人，索取验证码登录帐号或修改密保信息。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2336" target="_blank">提示百度<span style="color:#ff0000;">帐号</span>被盗，<span style="color:#ff0000;">申诉</span>后仍无法使用</a></div>
+        <div class="q-summary">当系统检测到帐号可能存在安全风险，需要您进行安全验证，会提示您帐号疑似被盗。请根据系统提示完成验证，如未绑定密保手机，请绑定手机进行安全验证，将有助于提高帐号的安全性。您申诉成功后可以换帮密保工具，换绑成功后即可正常使用。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=20&id=2376" target="_blank"><span style="color:#ff0000;">帐号</span>被盗，绑定他人邮箱，如何填写<span style="color:#ff0000;">申诉</span>信息</a></div>
+        <div class="q-summary">如您帐号没有绑定邮箱，申诉过程当中不需要填写历史绑定邮箱，还请您仔细回想信息，准确填写申诉信息有助于您快速找回帐号。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=20&id=2387" target="_blank"><span style="color:#ff0000;">帐号</span>被他人恶意<span style="color:#ff0000;">申诉</span>找回</a></div>
+        <div class="q-summary">请按照以下方式进行操作：首先，为了帐号安全建议不要将帐号信息泄露给他人知晓；其次，建议您完善帐号信息，加强个人信息安全，如：1、绑定手机；2、绑定安全性较高的邮箱；3、定期修改邮箱密码，同时设置复杂度高的密码；4、设置登录保护；5、下载百度安全中心app等提高帐号安全性；</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=20&id=2398" target="_blank"><span style="color:#ff0000;">帐号</span>被绑定他人银行卡，无法提交<span style="color:#ff0000;">申诉</span></a></div>
+        <div class="q-summary">建议您先随意填写帐号信息，提交申诉后，致电百度帐号客服：010-80287828（客服时间：周一至周日9:00-21:00）详细描述您的问题，提供您的帐号信息进行咨询。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=9&id=2082" target="_blank">多个<span style="color:#ff0000;">帐号</span>，均未绑定手机或邮箱，无法登录</a></div>
+        <div class="q-summary">如您登录时，系统提示需要绑定手机，为了保护帐号信息安全，请您根据系统提示绑定手机，通过验证绑定手机进行登录。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2342" target="_blank"><span style="color:#ff0000;">申诉</span>成功，收到链接未满24小时，但已失效</a></div>
+        <div class="q-summary">如申诉链接还在24小时有效期，无法点击链接操作，可复制链接在手机其他浏览器中打开操作，此链接只能提交一次请确认修改后点击提交。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=20&id=2394" target="_blank"><span style="color:#ff0000;">帐号</span>已登录，提现时提示未登录</a></div>
+        <div class="q-summary">建议您重新登录尝试，如还是提示未登录建议您联系产品线客服进行咨询，</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=10&id=2341" target="_blank">百度<span style="color:#ff0000;">帐号</span><span style="color:#ff0000;">申诉</span>提交多久，会收到回复</a></div>
+        <div class="q-summary">申诉提交成功之后，会在48小时内回复您，请您查看手机是否安装短信屏蔽软件。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=passport&class=9&id=2091" target="_blank">多次修改密码，未能登录<span style="color:#ff0000;">帐号</span></a></div>
+        <div class="q-summary">如您修改密码时输入的是手机号码或邮箱，修改完密码后，再次登录时请使用手机号码或邮箱进行登录，如修改密码时使用的用户名，在登录时请使用用户名登录。</div>
+    </li>
+    </ul>
+
+<div class="page" id="page"></div>
+<input type="hidden" id="hidPageNum" value="1">
+<input type="hidden" id="hidTotalPage" value="5">
+<input type="hidden" id="hidTotalCount" value="99">    </div>
+</div>
+
+<div class="floatbar">
+    <a><i class="robot"></i></a>
+    <a href="javascript:window.scroll(0,0);"><i class="totop"></i></a>
+</div>
+<script type="text/javascript">
+
+    function initRobot() {
+        $('.robot').click(function () {
+            var pid = '' || '' || $('#pid').val();
+            if (pid) {
+                window.open('https://ikefu.baidu.com/web/bdhelp?pid=' + pid);
+            } else {
+                window.open('https://ikefu.baidu.com/web/bdhelp');
+            }
+        });
+    }
+    initRobot();
+
+</script>
+
+
+    <div class="footer">
+	<div class="footer-container">
+		<div class="about">
+			<a href="http://home.baidu.com" target="_blank">关于百度</a>
+			<a href="http://ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" target="_blank">ABOUT BAIDU</a>
+			<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>
+            <a href="/statement">举报受理声明</a>
+		</div>
+		<p>京ICP证030173号&emsp;京网文[2013]0934-983号&emsp;Copyright &copy;<script>document.write((new Date()).getFullYear());</script> Baidu</p>
+	</div>
+</div>
+<script>var sugapi="http://"+window.location.host;</script>
+<script type="text/javascript" src="/resources/pc/js/src/sug.js"></script>
+
+<script type="text/javascript" src="/resources/pc/js/dist/help.ui.min.js?timestamp=20180719"></script>
+<script type="text/javascript">
+    showPage(1, 5, 99, true, 'page');
+    var keywords = '%E5%B8%90%E5%8F%B7%E7%94%B3%E8%AF%89%E6%9C%AA%E9%80%9A%E8%BF%87';
+    $(function () {
+        searchPage.init(keywords);
+    });
+</script>
+
+</body>
+
+
+</html>
