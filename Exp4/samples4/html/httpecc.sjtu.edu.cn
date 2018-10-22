@@ -1,0 +1,518 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>上海交通大学课程中心</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="上海交通大学英文课程中心"/>
+    <meta name="description" content="上海交通大学英文课程中心" />
+    <link rel="shortcut icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/skin/theme/default/style.css" />
+    <script type="text/javascript" src="/static/jquery/jquery.pack.js"></script>
+    <script type="text/javascript" src="/static/lhgdialog/lhgdialog.min.js?skin=idialog"></script>
+    <script type="text/javascript" src="/static/jquery/jcarousellite.min.js"></script>
+    <script type="text/javascript" src="/static/js/base.js"></script>
+    <script type="text/javascript">
+        $(window).resize(function () {
+            reSizeBanner();
+        });
+
+        function reSizeBanner() {
+            var _width = $(window).width();
+            var _left = 1048;
+            var _searchleft = 250;
+            if (_width > 1200) {
+                _left = (_width - (_width - 1200) / 2) - 152;
+                _searchleft = (_width - 700) / 2;
+            }
+            else
+            {
+                
+            }
+            $("#semester").css("left", _left + "px");
+            $(".search").css("left", _searchleft + "px");
+            $("#banner .ul .img").css({ width: $(document).width() });
+        }
+
+        $(function () {
+            String.prototype.trim = function () { var str = this, str = str.replace(/^\s\s*/, ''), ws = /\s/, i = str.length; while (ws.test(str.charAt(--i))); return str.slice(0, i + 1); }
+
+            reSizeBanner();
+
+            $("#CenterArr1").css("width", "1070px");
+            $("#CenterArr1_ul").css("width", "1070px");
+            $("#CenterArr1_ul li").css("width", "267px");
+            $(".index_school td").css("width", "218px");
+            $(".school").css("width", "1200px");
+
+            $("#txtKeywords").focus(function () {
+                if ($(this).val().trim() == "Find a course by name,code or teacher")
+                    $(this).val("");
+            }).blur(function () {
+                if ($(this).val().trim() == "")
+                    $(this).val("Find a course by name,code or teacher");
+            });
+
+
+
+            $(".index_school td").hover(function () {
+                $(this).css({ "background-color": "#0f5c9f" });
+            }, function () {
+                $(this).css({ "background-color": "#0c538b" });
+            });
+
+            $("#course").mouseleave(function () {
+                $("#course").slideUp(200);
+                $("#item1_a").removeClass("xia1");
+            });
+
+            $("#semester").mouseleave(function () {
+                $(this).slideUp(200);
+                $("#item2_a").removeClass("xia1");
+            });
+
+            $(".changepic").hover(function () {
+                $(this).css({ "background": "rgba(51, 51, 51, 0.6)!important", "filter": "alpha(opacity=60)" });
+            }, function () {
+                $(this).css({ "background": "rgba(51, 51, 51, 0.3)!important", "filter": "alpha(opacity=30)" });
+            });
+
+            $("#CenterArr1").jCarouselLite({
+                btnPrev: "#LeftArr1",
+                btnNext: "#RightArr1",
+                auto: 0,
+                scroll: 4,
+                speed: 1000,
+                vertical: false,
+                visible: 4,
+                circular: true
+            });
+
+            $("#item1_a").mouseenter(function () {
+                $("#item2_a").removeClass("xia1");
+                $("#semester").slideUp(200);
+                if ($("#course").is(":animated"))
+                    return;
+                if ($(this).hasClass("xia1")) {
+                    $(this).removeClass("xia1");
+                    $("#course").slideUp(200);
+                }
+                else {
+                    $(this).addClass("xia1");
+                    $("#course").slideDown(200);
+                    $("#course").css("z-index", 999);
+                }
+            });
+
+            $("#item2_a").mouseenter(function () {
+                $("#item1_a").removeClass("xia1");
+                $("#course").slideUp(200);
+                if ($("#semester").is(":animated"))
+                    return;
+                if ($(this).hasClass("xia1")) {
+                    $(this).removeClass("xia1");
+                    $("#semester").slideUp(200);
+                }
+                else {
+                    $(this).addClass("xia1");
+                    $("#semester").slideDown(200);
+                }
+            });
+
+            $(".hideindex").mouseenter(function () {
+                $("#item2_a").removeClass("xia1");
+                $("#item1_a").removeClass("xia1");
+                $("#semester").slideUp(200);
+                $("#course").slideUp(200);
+            });
+
+            var marginleft = $(window).width() > 1200 ? ($(window).width() - 1200) / 2 : 0;
+            $(".text_content").css("margin-left", marginleft + "px");
+            $(window).resize(function () {
+                var marginleft1 = $(window).width() > 1200 ? ($(window).width() - 1200) / 2 : 0;
+                $(".text_content").css("margin-left", marginleft1 + "px");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="supersized"></div>
+    <div class="head hideindex">
+    <div class="w1200" id="head">
+        <div class="left"><a href="/" class="logo"></a></div>
+        <div class="right">
+            <ul>
+                <li class="li1">ENGLISH COURSE CATALOG</li>
+                <li class="li2" id="user">Welcome, Guest</li>
+                <li class="li3"><a id="login" href="javascript:">log in</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="indexlogin">
+    <div class="w1200">
+        <div class="right">
+            <ul>
+                <li class="indexlogin_li1"><a href="javascript:" onclick="javascript:JaccountLoad();">Jaccount</a></li>
+                <li class="indexlogin_li2"><input type="text" id="name" class="indexinput" value="Account Number" maxlength="20" /></li>
+                <li class="indexlogin_li3"><input type="text" id="pwd" class="indexinput" value="Password" maxlength="20" /><input type="password" id="pwd1" class="indexinput" maxlength="20" style="display:none;" /></li>
+                <li class="indexlogin_li4"></li>
+                <li style="padding-left:167px;"><span id="tip"></span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var default_name="Account Number";
+    var default_pwd = "Password";
+    //$(document).keypress(function (e) {
+    //    if (e.which == 13) {
+    //        $("#login").click();
+    //    }
+    //});
+
+    $(function () {
+        $("#name").val(default_name).keyup();
+        $("#name").focus(function () {
+            if ($(this).val() == default_name) {
+                $(this).val("").keyup();
+            }
+        }).blur(function () {
+        });
+
+        $("#pwd").val(default_pwd).keyup();
+        $("#pwd").focus(function () {
+            $(this).css("display", "none");
+            $("#pwd1").css("display", "block");
+            $("#pwd1").focus();
+        });
+        $(".indexlogin_li4").click(function () {
+            $(".indexlogin").slideUp("fast");
+            $("#head").removeClass("headbj");
+            $("#name").val(default_name);
+            $("#pwd").val(default_pwd);
+            $("#pwd1").val("");
+            $("#pwd").css("display", "block");
+            $("#pwd1").css("display", "none");
+            $("#login").html("log in");
+            $("#login").removeClass("signout").removeClass("signin").addClass("alogin");
+        });
+    });
+
+    function parseName(obj) {
+        if (obj.val() == "" || obj.val() == default_name) {
+            setFocus("Missing account number. Please correct and try again.");
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    function parsePwd(obj) {
+        if (obj.val() == "" || obj.val() == default_pwd) {
+            setFocus("Please enter your password.");
+            return false;
+        } else
+            return true;
+    }
+
+    function setFocus(tips)
+    {
+        $("#tip").show();
+        $("#tip").html(tips);
+    }
+</script>
+
+<script type="text/javascript">
+    var aclass = 'alogin';
+    var issign = false;
+    $(function () {
+        var admintype = '0';
+        $("#login").addClass(aclass);
+        if(aclass=="signout")
+        {   
+            issign=true;
+            $("#login").removeClass("alogin").removeClass("signin").addClass("signout");
+            $("#login").html("sign out");
+            if (admintype==3)
+            {
+                $("#user").html("Welcome,"+"<a href=\"/user/index.aspx\" target=\"_blank\" class=\"headuser\">[Guest]</a>");
+            } else if (admintype == 4) {
+                $("#user").html("Welcome," + "<a href=\"javascript:\" onclick=\"showaccount();\"  class=\"headuser\">[Guest]</a>");
+            }
+        }
+    });
+    $("#login").click(function ()
+    {   
+        $("#tip").html("");
+        if ($(this).hasClass("alogin")) {
+            $("#head").addClass("headbj");
+            $(".indexlogin").slideDown("slow");
+            $("#login").html("sign in");
+            $(this).removeClass("alogin").removeClass("signout").addClass("signin");
+        }
+        else if (!issign)
+        {
+            var _submitstatus = 0;
+            if (_submitstatus == 1)
+                return false;
+
+            var _return = true;
+
+            if (!parseName($("#name")))
+                _return = false;
+            else if (!parsePwd($("#pwd1")))
+                _return = false;
+
+            if (_return) {
+                _submitstatus = 1;
+
+                var _dataobj = new Object;
+                _dataobj.name = $("#name").val();
+                _dataobj.pwd = $("#pwd1").val();
+
+                $.ajax({
+                    type: "get",
+                    dataType: "",
+                    url: "/tools/userlogin.ashx",
+                    data: { name: _dataobj.name, pwd: _dataobj.pwd},
+                    success: function (data) {
+                        var datas = data.split('^');
+                        if(datas.length>0){
+                            switch (datas[0]) {
+                                case "-1":
+                                    setFocus("Missing account number. Please correct and try again.");
+                                    $("#name").focus();
+                                    break;
+                                case "-2":
+                                    setFocus("Please enter your password.");
+                                    $("#pwd1").focus();
+                                    break;
+                                case "-3":
+                                    setFocus("There was an error with your Account/Password combination. Please try again.");
+                                    $("#pwd1").focus();
+                                    break;
+                                case "1":
+                                    $("#login").removeClass("signin").removeClass("alogin").addClass("signout");
+                                    $(".indexlogin").slideUp("fast");
+                                    $("#login").html("sign out");
+                                    var admintype = datas[1];
+                                    if (admintype==3)
+                                    {
+                                        $("#user").html("Welcome,"+"<a href=\"/user/index.aspx\" target=\"_blank\" class=\"headuser\">["+datas[2]+"]</a>");
+                                    }else
+                                        $("#user").html("Welcome," + "<a href=\"javascript:\" onclick=\"showaccount();\" class=\"headuser\">[" + datas[2] + "]</a>");
+                                    $("#head").removeClass("headbj");
+                                    issign=true;
+                                    break;
+                                case "-4":
+                                    setFocus("Account number contains illegal characters . Please re-type.");
+                                    $("#name").focus();
+                                    break;
+                                case "-5":
+                                    setFocus("Password contains illegal characters . Please re-type.");
+                                    $("#name").focus();
+                                    break;
+                                case "-6":
+                                    setFocus("Your Account number has been locked.");
+                                    $("#name").focus();
+                                    break;
+                                case "-7":
+                                    setFocus("Your account has been verified many times today please try again after a hour");
+                                    $("#name").focus();
+                                    break;
+                                default:
+                                    setFocus("Error.");
+                                    break;
+                            }
+                        }
+
+                        _submitstatus = 0;
+                    }
+                });
+            }
+        }
+        else if (issign)
+        {
+            var _submitstatus = 0;
+            if (_submitstatus == 1)
+                return false;
+            $.ajax({
+                type: "get",
+                dataType: "",
+                url: "/tools/userloginout.ashx",
+                success: function (data) {
+                    _submitstatus = 0;
+                    $("#login").removeClass("signout").addClass("alogin");
+                    $("#name").val(default_name);
+                    $("#pwd").val(default_pwd);
+                    $("#pwd1").val("");
+                    $("#pwd").css("display", "block");
+                    $("#pwd1").css("display", "none");
+                    $("#login").html("log in");
+                    $("#tip").html("");
+                    $("#user").html("Welcome, Guest");
+                    $(".indexlogin").hide();
+                    issign=false;
+                }
+            });
+        }
+    });
+    function showaccount()
+    {
+        $.dialog({
+            id: 'account',
+            title: 'Your Account',
+            content: 'url:/html/account.html',
+            width: 640,
+            max: false,
+            min: false,
+            fixed: true,
+            lock: true,
+            drag: false,
+            resize: false,
+            zIndex: 99999
+        });
+    }
+</script>
+    <div class="sfnav" style="border-top: 1px solid #f2f1f6;">
+        <div class="w1200">
+            <ul>
+                <li class="hideindex"><a id="a1" class="nav_a" href="/index.html" style="width:140px;">HOME</a></li>
+                <li class="hideindex"><a id="a2" class="nav_a" href="/html/courselist.html" style="width:218px;">COURSE OVERVIEW</a></li>
+                <li class="hideindex"><a id="a3" class="nav_a" href="/html/courselist_1.html" style="width:270px;">RECOMMENDED COURSES</a></li>
+                <li class="hideindex" style="width: 255px;"><a id="a4" class="nav_a" href="/html/exchange.html">EXCHANGE PROGRAMMES</a></li>
+                <li style="width:160px;"><a id="item1_a" class="xia" href="javascript:void(0)">Schools</a></li>
+                <li style="width:152px;border:none;"><a id="item2_a" class="xia" href="javascript:void(0)">Semester</a></li>
+            </ul>
+        </div>
+    </div>
+    <ul class="semester" id="semester">
+        <li><a href="/html/courselist_0_index_Fall2018.html">Fall&nbsp;&nbsp;&nbsp;， 2018</a></li><li><a href="/html/courselist_0_index_Spring2018.html">Spring&nbsp;&nbsp;&nbsp;， 2018</a></li><li><a href="/html/courselist_0_index_Fall2017.html">Fall&nbsp;&nbsp;&nbsp;， 2017</a></li><li><a href="/html/courselist_0_index_Spring2017.html">Spring&nbsp;&nbsp;&nbsp;， 2017</a></li><li><a href="/html/courselist_0_index_Fall2016.html">Fall&nbsp;&nbsp;&nbsp;， 2016</a></li>
+    </ul>
+    <div class="course" id="course">
+        <div class="school">
+            <div id="LeftArr1"></div>
+            <div id="CenterArr1">
+                <ul id="CenterArr1_ul">
+                    <li><table class="index_school"><tr><td><a href="/html/college_1.html">School of Naval Architecture,Ocean & Civil Engineering</a></td></tr><tr><td><a href="/html/college_2.html">School of Mechanical Engineering</a></td></tr><tr><td><a href="/html/college_4.html">School of Electronic, Information and Electrical Engineering</a></td></tr></table></li><li><table class="index_school"><tr><td><a href="/html/college_8.html">School of Materials Science & Engineering</a></td></tr><tr><td><a href="/html/college_10.html">SJTU-Paris Tech Elite Institute of Technology</a></td></tr><tr><td><a href="/html/college_11.html">Department of Mathematics</a></td></tr></table></li><li><table class="index_school"><tr><td><a href="/html/college_12.html">School of Continuing Education</a></td></tr><tr><td><a href="/html/college_13.html">Department of Physics and Astronomy</a></td></tr><tr><td><a href="/html/college_14.html">School of International Education</a></td></tr></table></li><li><table class="index_school"><tr><td><a href="/html/college_16.html">School of Chemistry & Chemical Engineering</a></td></tr><tr><td><a href="/html/college_17.html">School of Environmental Science & Engineering</a></td></tr><tr><td><a href="/html/college_18.html">Antai College of Economics & Management</a></td></tr></table></li><li><table class="index_school"><tr><td><a href="/html/college_19.html">Koguan Law School</a></td></tr><tr><td><a href="/html/college_20.html">School of Foreign Languages</a></td></tr><tr><td><a href="/html/college_21.html">School of Humanities</a></td></tr></table></li><li><table class="index_school"><tr><td><a href="/html/college_22.html">School of International & Public Affairs</a></td></tr><tr><td><a href="/html/college_23.html">School of Media & Design</a></td></tr><tr><td><a href="/html/college_24.html">School of Life Sciences & Biotechnology</a></td></tr></table></li><li><table class="index_school"><tr><td><a href="/html/college_25.html">School of Agriculture & Biology</a></td></tr><tr><td><a href="/html/college_26.html">School of Medicine</a></td></tr><tr><td><a href="/html/college_27.html">School of Pharmacy</a></td></tr></table></li><li><table class="index_school"><tr><td><a href="/html/college_28.html">School of Microelectronics</a></td></tr><tr><td><a href="/html/college_29.html">School of Aeronautics & Astronautics</a></td></tr><tr><td><a href="/html/college_30.html">UM-SJTU Joint Institute</a></td></tr></table></li><li><table class="index_school"><tr><td><a href="/html/college_31.html">Department of Physical Education</a></td></tr><tr><td><a href="/html/college_34.html">School of Marxism</a></td></tr><tr><td><a href="/html/college_35.html">School of Biomedical Engineering</a></td></tr></table></li>
+                </ul>
+            </div>
+            <div id="RightArr1"></div>
+        </div>
+    </div>
+    <div class="ban">
+        <div class="search">
+        <ul>
+            <li class="search_input"><input type="text" id="txtKeywords" class="input" value="Find a course by name,code or teacher" /></li>
+            <li class="search_btn"><a href="javascript:void(0)" onclick="SiteSearch_En('#txtKeywords');">Search</a></li>
+        </ul>
+        </div>
+        <div class="changepic" id="toright">></div>
+        <div id="banner" class="home_scroll">
+            
+                    <div class="ul">
+                        <div class="img" style="background: url(/uploadfiles/2015/1/27/14093100462853.jpg) no-repeat center center;"></div>
+                        <div class="text">
+                            <div class="text_content">
+                                <h1>SHANGHAI JIAOTONG UNIVERSITY  ENGLISH COURSE CATALOG</h1>
+                                <p>Welcome to Shanghai Jiao Tong University Course Catalog. The catalog lists over 150 all-English teaching courses from 27 departments and includes course descriptions,teachers , and links to syllabuses and textbook information.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="ul">
+                        <div class="img" style="background: url(/uploadfiles/2015/1/27/14155070846832.jpg) no-repeat center center;"></div>
+                        <div class="text">
+                            <div class="text_content">
+                                <h1>SHANGHAI JIAOTONG UNIVERSITY  ENGLISH COURSE CATALOG</h1>
+                                <p>Welcome to Shanghai Jiao Tong University Course Catalog. The catalog lists over 150 all-English teaching courses from 27 departments and includes course descriptions,teachers , and links to syllabuses and textbook information.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+        </div>
+        <div class="changepic" id="toleft"><</div>
+        <script type="text/javascript">
+            var i = 0, count;
+            var _adObj;
+            $(document).ready(function () {
+                $("#course").hide();
+                count = $("#banner .ul").length;
+                $("#banner .ul:not(:first-child)").hide();
+                $(".changepic").hover(function () {
+                    $(this).addClass("picselect");
+                }, function () {
+                    $(this).removeClass("picselect");
+                });
+                $(".changepic").click(function () {
+                    clearTimeout(_adObj);
+                    changepic($(this).attr("id"));
+                });
+                $(".ban").hover(function () {
+                    $(".changepic").show();
+                }, function () {
+                    $(".changepic").hide();
+                });
+                setTimeout(function () {
+                    changepic("toleft");
+                }, 5000);
+            });
+            function changepic(id)
+            {
+                if (id == "toleft") {
+                    if (i == 0)
+                        i = count;
+                    i--;
+                }
+                if (id == "toright") {
+                    if (i == count - 1)
+                        i = -1;
+                    i++;
+                }
+                $("#banner .ul").filter(":visible").fadeOut(500).parent().children().eq(i).fadeIn();
+                $("#banner .ul").parent().fadeIn(3000);
+                _adObj = setTimeout(function () {changepic("toleft");}, 5000);
+            }
+        </script>
+    </div>
+    <div class="foot1">
+    <div class="w1200">
+        <div class="left">
+            <h1>Shanghai Jiao Tong University The English Course Catalog | School Counseling：021-34206468-102</h1>
+            <p>沪ICP备05052060  © Shanghai Jiao Tong University all rights reserved.  |   Address: 800 Dongchuan Road, Shanghai</p>
+        </div>
+        <div class="right">
+            <ul class="link">
+                <li id="links">
+                    <ul>
+                        
+                                 <li><a href="http://www.sjtu.edu.cn" target="_blank">上海交通大学</a></li>
+                             
+                                 <li><a href="http://en.sjtu.edu.cn" target="_blank">Shanghai Jiao Tong Universtiy</a></li>
+                             
+                    </ul>
+                </li>
+                <li id="link">Friend Links</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#link").mouseenter(function () {
+            if ($("#links").is(":animated")) { return;}
+            $("#links").slideDown(500);
+            $("#link").addClass("cur");
+        });
+
+        $(".link").mouseleave(function () {
+            //if ($("#links").is(":animated")) { return; }
+            $("#links").slideUp(500);
+            $("#link").removeClass("cur");
+        });
+    });
+</script>
+</body>
+</html>

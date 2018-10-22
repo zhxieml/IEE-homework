@@ -1,0 +1,161 @@
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>上海交通大学-电子信息与电气工程学院-110周年院庆</title>
+    <link href="/yuanqing/static/web/css/main.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/yuanqing/static/web/js/jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+<div id="container">
+    <div id="main_top">
+        <div id="quick_links">
+            <a href="http://www.sjtu.edu.cn/" target="_blank">交大首页</a>
+            <a href="http://www.seiee.sjtu.edu.cn/" target="_blank">电院首页</a>
+        </div>
+        <div id="top_logo">
+            <img style=" width:253px; height:88px;" src="/yuanqing/static/web/img/logo_img.png"/>
+        </div>
+        <div id="top_nav">
+            <ul class="dropdown">
+                    <li class="first_li"><a class="first_a first_a_1" href="/yuanqing/">
+                        <span>首页</span></a></li>
+                    <li class="first_li"><a class="first_a first_a_2" href="/yuanqing/web/content/list/2">
+                        <span>院庆信息</span></a></li>
+                    <li class="first_li"><a class="first_a first_a_13" href="/yuanqing/web/content/list/13">
+                        <span>主题活动</span></a></li>
+                    <li class="first_li"><a class="first_a first_a_38" href="/yuanqing/web/content/list/38">
+                        <span>联系我们</span></a></li>
+            </ul>
+            <script>
+                    $(".first_a:eq(0)").addClass("current_hit");
+            </script>
+        </div>
+    </div>
+    <div id="countdown">
+        <ul class="day_ul" style="display: none;">
+            <li>距离电子信息与电气工程学院</li>
+            <li>110周年院庆还有</li>
+            <li class="countdown_time"></li>
+        </ul>
+        <script>
+            (function () {
+                var date = new Date(2018, 10 - 1, 20);
+                var now = new Date();
+                if (date.getTime() > now.getTime()) {
+                    var day = Math.ceil((date.getTime() - now.getTime()) / (24 * 60 * 60 * 1000));
+                    $(".day_ul").show();
+                    $(".countdown_time").html(day + "<span>天</span>");
+                }
+            })();
+        </script>
+    </div>
+    <div id="top_banner">
+        <div id="nav5" class="nav5"></div>
+        <div id="s5" class="pics">
+                    <div>
+                        <a href="http://www.seiee.sjtu.edu.cn/yuanqing" target="_blank">
+                            <img src="/yuanqing/data/banner/2018/05/e8df4da5-2d3f-47e3-9aef-28709baf9f00.dat"/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="http://www.seiee.sjtu.edu.cn/yuanqing" target="_blank">
+                            <img src="/yuanqing/data/banner/2018/05/7dc08448-9a38-4db0-a00e-cef38ef1b860.dat"/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="http://www.seiee.sjtu.edu.cn/yuanqing" target="_blank">
+                            <img src="/yuanqing/data/banner/2018/05/c2a47f21-ad2e-483d-b763-103f998fd144.dat"/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="http://www.seiee.sjtu.edu.cn/yuanqing" target="_blank">
+                            <img src="/yuanqing/data/banner/2018/05/77a24f1a-8f27-4c8a-a458-46cef955af8d.dat"/>
+                        </a>
+                    </div>
+        </div>
+        <script type="text/javascript" src="/yuanqing/static/web/js/jquery.cycle.all.js"></script>
+        <script>
+            $(function () {
+                $('#s5').cycle({
+                    fx: 'fade',
+                    speed: 'slow',
+                    timeout: 2000,
+                    pager: '#nav5'
+                });
+            });
+        </script>
+    </div>
+    <div class="clear-2"></div>
+    <link href="/yuanqing/static/web/css/home.css" rel="stylesheet" type="text/css"/>
+    <div id="content_box">
+        <div class="icon_box">
+            <ul>
+                <li style="margin-left:3px;" class="icon1">
+                    <a href="/yuanqing/web/content/list/4" target="_blank">
+                        <i class="icon_img_1"></i>发展历程</a></li>
+                <li class="icon1">
+                    <a href="/yuanqing/web/content/list/8" target="_blank">
+                        <i class="icon_img_2"></i>院庆动态</a></li>
+                <li class="icon1">
+                    <a href="/yuanqing/web/content/list/9" target="_blank">
+                        <i class="icon_img_3"></i>通知公告</a></li>
+                <li class="icon1" style="margin:0;">
+                    <a href="/yuanqing/web/way" target="_blank">
+                        <i class="icon_img_4"></i>校友通道</a></li>
+            </ul>
+        </div>
+        <div class="clear-2"></div>
+        <div id="ul_news_11">
+            <div class="title_style">110周年院庆活动介绍</div>
+            <ul class="beijing_3">
+                <li>
+                    <a href="/yuanqing/web/content/list/15" target="_blank">
+                        <span>庆典活动</span>
+                        <img src="/yuanqing/static/web/img/hd_img_1.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/yuanqing/web/content/list/20" target="_blank">
+                        <span>学术活动</span><img src="/yuanqing/static/web/img/hd_img_2.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/yuanqing/web/content/list/24" target="_blank">
+                        <span>校友风采</span>
+                        <img src="/yuanqing/static/web/img/hd_img_3.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/yuanqing/web/content/list/24" target="_blank">
+                        <span>艺术文化</span>
+                        <img src="/yuanqing/static/web/img/hd_img_4.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/yuanqing/web/content/list/32" target="_blank">
+                        <span>温情电院</span>
+                        <img src="/yuanqing/static/web/img/hd_img_5.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/yuanqing/web/content/list/36" target="_blank">
+                        <span>纪念品</span>
+                        <img src="/yuanqing/static/web/img/hd_img_6.png"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear-4"></div>
+    <div id="footer">
+        <ul class="footer_ul_4">
+            <li>Copyright © 2018 电子信息与电气工程学院</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

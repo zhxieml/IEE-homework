@@ -1,0 +1,628 @@
+
+
+<!doctype html>
+<html>
+<head>
+    <title>质+页面反馈问卷</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <script>
+        !(function(c,b,d,a){c[a]||(c[a]={});c[a].config={pid:"gwvicolndr@f3aee627520a506",page:location.pathname.split('/').pop() || 'defaultpc',imgUrl:"https://arms-retcode.aliyuncs.com/r.png?"};
+        with(b)with(head)with(insertBefore(createElement("script"),firstChild))setAttribute("crossorigin","",src=d)
+        })(window,document,"https://retcode.alicdn.com/retcode/bl.js","__bl");
+    </script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    
+    
+    <meta name="data-spm" content="a1z5c"/>
+    
+
+    <script src="//g.alicdn.com/tb/tracker/4.0.1/p/index/index.js"></script>
+    
+    
+    <link rel="shortcut icon" href="//www.taobao.com/favicon.ico" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="//g.alicdn.com/ur/survey/2.0.52/css/common.css"/>
+    
+<link rel="stylesheet" href="//g.alicdn.com/ur/survey/2.0.52/css/theme/1-modern.css"/>
+
+    
+
+<script src="/locales?locale=0"></script>
+
+    
+<style>
+    .end-page .survey-end{
+        display:none;
+    }
+    .end-page.show .survey-end{
+        display:block;
+    }
+    .container .page.page_403 .status-image img {
+        max-width: 30%;
+    }
+    article.question header .question-tip {
+        color:#333;
+    }
+    
+    .grid.ks-uploader-queue {
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+    
+    .patch .survey_content .page .questions_wrap .q_wrap .question .question_content ul.options_column.three_column li {
+        width: 100%;
+    }
+    .patch .survey_content .page .questions_wrap .q_wrap .question .question_content ul li.other_options label .other_option .choice_content span {
+        max-width: 100%;
+    }
+    
+    .question-list {
+        padding-bottom: 50px;
+    }
+</style>
+<script>
+    window.useWindVane = true;
+</script>
+<script>
+  (function() {
+    return
+    var debug = window.localStorage && localStorage.debug === 'on';
+    function tryCall(fn, tag) {
+      if (typeof fn !== 'function') {
+        if (window.__WPO) {
+          __WPO.log(tag + 'not function', 1);
+        }
+        return fn;
+      }
+      return function() {
+        var args = [].slice.call(arguments, 0);
+        try {
+          fn.apply(this, args);
+        } catch(err) {
+          var msg = tag + ',fn:' + fn.toString() + ',args:' + args.join(',') + ', stack:' + (err.stack || err.message || err.toString());
+          if (debug) {
+            console.log(msg);
+          }
+          if (window.__WPO && window.__WPO.error) {
+            window.__WPO.error('runtime', msg);
+          }
+          throw err;
+        }
+      }
+    }
+
+    try {
+      var _setTimeout = window.setTimeout;
+      var _eval = window.eval;
+
+      window.setTimeout = function(fn, timeout) {
+        return _setTimeout.call(this, tryCall(fn, 'setTimeout'), timeout);
+      }
+
+      window.eval = tryCall(_eval, 'eval');
+
+      function handleSrciptNode(node, tag) {
+        var onload = node.onload;
+        var onerror = node.onerror;
+        var src = node.src;
+        if (src && src.indexOf('g.alicdn.com') > -1) {
+          if (node.setAttribute) {
+            node.setAttribute('crossorigin', 'anonymous');
+          }
+        }
+
+        if (onload) {
+          node.onload = tryCall(onload, tag);
+        }
+        if (onerror) {
+          node.onerror = tryCall(onerror, tag);
+        }
+        return node;
+      }
+
+      HTMLElement.prototype.appendChild = (function(appendChild){
+        return function(node){
+            if(node.tagName && node.tagName.toLowerCase() === 'script') {
+              node = handleSrciptNode(node, 'insertBefore');
+            }
+            return appendChild.call(this,node);
+        }
+      })(HTMLElement.prototype.appendChild);
+
+      HTMLElement.prototype.insertBefore = (function(insertBefore){
+        return function(node, _node){
+            if(node.tagName && node.tagName.toLowerCase() === 'script') {
+              node = handleSrciptNode(node, 'insertBefore');
+            }
+            return insertBefore.call(this, node, _node);
+        }
+      })(HTMLElement.prototype.insertBefore);
+
+      try {
+        if (HTMLElement.prototype.addEventListener) {
+          HTMLElement.prototype.addEventListener = (function(addEventListener) {
+            return function addEvent(eventName, fn, useCapture) {
+              return addEventListener.call(this, eventName, tryCall(fn, 'event_' + eventName), useCapture);
+            }
+          })(HTMLElement.prototype.addEventListener);
+        }
+      } catch( err ) {
+
+      }
+    } catch (err) {
+      if (window.__WPO && window.__WPO.error) {
+        window.__WPO.error('runtime', err.stack);
+      }
+    }
+  })();
+  </script>
+
+
+</head>
+
+<body data-spm="7739362" ><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=0b83456715400328748584653e1f44&asid=AQAAAABqCctbd6VYYQAAAADSGXvwVT1BRA==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+    <header></header>
+    <div class="container">
+        
+    
+        
+            <link rel="stylesheet" href="//g.alicdn.com/??kg/global-util/1.0.3/index-min.css,kg/tb-nav/2.4.1/index-min.css">
+            <div class="site-nav" id="J_SiteNav" data-component-config='{ "cart": "0.0.6","message": "3.4.6","umpp": "1.5.4","mini-login": "6.3.8","tb-ie-updater": "0.0.4","tbar": "2.1.0","tb-footer": "1.1.7","sidebar": "1.0.10" }' data-tbar='{ "show":true, "miniCart": "2.12.2","paramsBlackList": "_wt,seeyouagain1722","my_activity": "https:&#x2F;&#x2F;market.m.taobao.com&#x2F;apps&#x2F;abs&#x2F;5&#x2F;38&#x2F;my12?psId=58386&amp;pcPsId=58388", "venueUrl": "https:&#x2F;&#x2F;1212.taobao.com?wh_weex=true&amp;data_prefetch=true&amp;wx_navbar_transparent=true", "helpUrl": "https://consumerservice.taobao.com/online-help", "validTime":{"startTime": 1512057599, "endTime": 1513094400}, "style": {"name": "171212", "path": "kg/sidebar-style-171212/0.0.5/" }, "page":[],"blackList":[],"navDataId":{"tceSid":1182567,"tceVid":0},"pluginVersion":{ "cart":"0.2.0","history":"0.2.0","redpaper":"0.0.8","gotop":"0.2.5","help":"0.2.1","ww":"0.0.3","pagenav":"0.0.27","myasset":"0.0.9","my1212":"0.0.1","my1111":"0.2.2"}}'>
+    <div class="site-nav-bd" id="J_SiteNavBd">
+        
+        <ul class="site-nav-bd-l" id="J_SiteNavBdL" data-spm-ab="1">
+            
+            
+            <li class="site-nav-menu site-nav-login" id="J_SiteNavLogin" data-name="login" data-spm="754894437">
+                <div class="site-nav-menu-hd">
+                    <a href="//login.taobao.com/member/login.jhtml?f=top&redirectURL=https%3A%2F%2Fwww.taobao.com%2F" target="_top">
+                        
+                        <span>亲，请登录</span>
+                    </a>
+                    
+                </div>
+                
+            </li>
+            
+            
+            
+            
+            <li id="J_Tmsg" class="site-nav-tmsg tmsg site-nav-multi-menu J_MultiMenu" data-name="tmsg" data-spm="1997563201">
+                <div class="J_Menu site-nav-menu">
+                    <div class="site-nav-menu-hd J_Tmsg_Basic tmsg_basic">
+                        <span class="J_Tmsg_Logo tmsg_logo_area" style="zoom:1;">
+                            <span class="J_Tmsg_Logo_Loading tmsg_logo_loading"></span>
+                            <span class="J_Tmsg_Logo_Icon tmsg_logo_icon site-nav-icon" style="display:none">&#xe602;</span>
+                            <span class="J_Tmsg_Logo_Text tmsg_logo_text">消息</span>
+                            <span class="J_Tmsg_Logo_Unread tmsg_logo_unread"></span>
+                        </span>
+                        
+                        <span class="site-nav-arrow"><span class="site-nav-icon">&#xe605;</span></span>
+                        
+                    </div>
+
+                    <div class="site-nav-menu-bd">
+                        <div class="J_Tmsg_Panel_Apps tmsg_panel_apps"></div>
+                    </div>
+                </div>
+                <div class="J_Tmsg_Panels tmsg_panels">
+                    <div class="J_Tmsg_Panel_Detail tmsg_panel_detail"></div>
+                    <div class="J_Tmsg_Panel_history tmsg_panel_history"></div>
+                    <div class="J_Tmsg_Panel_Strong tmsg_panel_strong"></div>
+                    <div class="J_Tmsg_Panel_Setting tmsg_panel_setting"></div>
+                </div>
+            </li>
+            
+            
+            
+            
+            <li class="site-nav-menu site-nav-mobile" id="J_SiteNavMobile" data-name="mobile" data-spm="1997563273">
+                <div class="site-nav-menu-hd">
+                    <a href="//www.taobao.com/m" target="_top">
+                        
+                        <span>手机逛淘宝</span>
+                    </a>
+                    
+                </div>
+                
+            </li>
+            
+            
+            
+            
+            <li class="site-nav-menu site-nav-weekend site-nav-multi-menu J_MultiMenu" id="J_SiteNavWeekend" data-name="weekend" data-spm="201711111212">
+            </li>
+            
+            
+            
+        </ul>
+        
+        <ul class="site-nav-bd-r" id="J_SiteNavBdR" data-spm-ab="2">
+            
+            
+            <li class="site-nav-menu site-nav-home" id="J_SiteNavHome" data-name="home" data-spm="1581860521">
+                <div class="site-nav-menu-hd">
+                    <a href="//www.taobao.com/" target="_top">
+                        
+                        <span>淘宝网首页</span>
+                    </a>
+                    
+                </div>
+                
+            </li>
+            
+            
+            
+            
+            <li class="site-nav-menu site-nav-mytaobao site-nav-multi-menu J_MultiMenu" id="J_SiteNavMytaobao" data-name="mytaobao" data-spm="1997525045">
+                <div class="site-nav-menu-hd">
+                    <a href="//i.taobao.com/my_taobao.htm" target="_top">
+                        
+                        <span>我的淘宝</span>
+                    </a>
+                    
+                    <span class="site-nav-arrow"><span class="site-nav-icon">&#xe605;</span></span>
+                    
+                </div>
+                
+                <div class="site-nav-menu-bd site-nav-menu-list">
+                    <div class="site-nav-menu-bd-panel menu-bd-panel">
+                    
+                            <a href="//trade.taobao.com/trade/itemlist/list_bought_items.htm" target="_top">已买到的宝贝</a>
+                    
+                            <a href="//www.taobao.com/markets/footmark/tbfoot" target="_top">我的足迹</a>
+                    
+                    </div>
+                </div>
+                
+            </li>
+            
+            
+            
+            
+                <li class="site-nav-menu site-nav-cart site-nav-menu-empty site-nav-multi-menu J_MultiMenu" id="J_MiniCart" data-name="cart" data-spm="1997525049">
+                    <div class="site-nav-menu-hd">
+                        <a href="//cart.taobao.com/cart.htm?from=mini&ad_id=&am_id=&cm_id=&pm_id=1501036000a02c5c3739" target="_top">
+                            <span class="site-nav-icon site-nav-icon-highlight">&#xe603;</span>
+                            <span>购物车</span>
+                            <strong class="h" id="J_MiniCartNum"></strong>
+                        </a>
+                        
+                        <span class="site-nav-arrow"><span class="site-nav-icon">&#xe605;</span></span>
+                        
+                    </div>
+                    <div class="site-nav-menu-bd">
+                        <div class="site-nav-menu-bd-panel menu-bd-panel">
+                        </div>
+                    </div>
+                </li>
+            
+            
+            
+            
+            <li class="site-nav-menu site-nav-favor site-nav-multi-menu J_MultiMenu" id="J_SiteNavFavor" data-name="favor" data-spm="1997525053">
+                <div class="site-nav-menu-hd">
+                    <a href="//shoucang.taobao.com/item_collect.htm" target="_top">
+                        <span class="site-nav-icon">&#xe604;</span>
+                        <span>收藏夹</span>
+                    </a>
+                    
+                    <span class="site-nav-arrow"><span class="site-nav-icon">&#xe605;</span></span>
+                    
+                </div>
+                
+                <div class="site-nav-menu-bd site-nav-menu-list">
+                    <div class="site-nav-menu-bd-panel menu-bd-panel">
+                    
+                            <a href="//shoucang.taobao.com/item_collect.htm" target="_top">收藏的宝贝</a>
+                    
+                            <a href="//shoucang.taobao.com/shop_collect_list.htm" target="_top">收藏的店铺</a>
+                    
+                    </div>
+                </div>
+                
+            </li>
+            
+            
+            
+            
+            <li class="site-nav-menu site-nav-catalog" id="J_SiteNavCatalog" data-name="catalog" data-spm="1997563209">
+                <div class="site-nav-menu-hd">
+                    <a href="//www.taobao.com/tbhome/page/market-list" target="_top">
+                        
+                        <span>商品分类</span>
+                    </a>
+                    
+                </div>
+                
+            </li>
+            
+            
+            <li class="site-nav-pipe">|</li>
+            
+            
+            
+            <li class="site-nav-menu site-nav-seller site-nav-multi-menu J_MultiMenu" id="J_SiteNavSeller" data-name="seller" data-spm="1997525073">
+                <div class="site-nav-menu-hd">
+                    <a href="//mai.taobao.com/seller_admin.htm" target="_top">
+                        
+                        <span>卖家中心</span>
+                    </a>
+                    
+                    <span class="site-nav-arrow"><span class="site-nav-icon">&#xe605;</span></span>
+                    
+                </div>
+                
+                <div class="site-nav-menu-bd site-nav-menu-list">
+                    <div class="site-nav-menu-bd-panel menu-bd-panel">
+                    
+                            <a href="//mai.taobao.com/seller_admin.htm" target="_top">免费开店</a>
+                    
+                            <a href="//trade.taobao.com/trade/itemlist/list_sold_items.htm" target="_top">已卖出的宝贝</a>
+                    
+                            <a href="//sell.taobao.com/auction/goods/goods_on_sale.htm" target="_top">出售中的宝贝</a>
+                    
+                            <a href="//fuwu.taobao.com/?tracelog=tbdd" target="_top">卖家服务市场</a>
+                    
+                            <a href="//daxue.taobao.com/" target="_top">卖家培训中心</a>
+                    
+                            <a href="//healthcenter.taobao.com/home/health_home.htm" target="_top">体检中心</a>
+                    
+                            <a href="//infob.taobao.com/help" target="_top">问商友</a>
+                    
+                    </div>
+                </div>
+                
+            </li>
+            
+            
+            
+            
+            <li class="site-nav-menu site-nav-service site-nav-multi-menu J_MultiMenu" id="J_SiteNavService" data-name="service" data-spm="754895749">
+                <div class="site-nav-menu-hd">
+                    <a href="https://consumerservice.taobao.com" target="_top">
+                        
+                        <span>联系客服</span>
+                    </a>
+                    
+                    <span class="site-nav-arrow"><span class="site-nav-icon">&#xe605;</span></span>
+                    
+                </div>
+                
+                <div class="site-nav-menu-bd site-nav-menu-list">
+                    <div class="site-nav-menu-bd-panel menu-bd-panel">
+                    
+                            <a href="https://consumerservice.taobao.com/online-help" target="_top">消费者客服</a>
+                    
+                            <a href="//helpcenter.taobao.com/index?from=high" target="_top">卖家客服</a>
+                    
+                    </div>
+                </div>
+                
+            </li>
+            
+            
+            
+            
+            <li class="site-nav-menu site-nav-sitemap site-nav-multi-menu J_MultiMenu" id="J_SiteNavSitemap" data-name="sitemap" data-spm="1997525077">
+                <div class="site-nav-menu-hd">
+                    <a href="https://www.taobao.com/tbhome/page/sitemap" target="_top">
+                        <span class="site-nav-icon site-nav-icon-highlight">&#xe601;</span>
+                        <span>网站导航</span>
+                    </a>
+                    
+                    <span class="site-nav-arrow"><span class="site-nav-icon">&#xe605;</span></span>
+                    
+                </div>
+                
+            </li>
+            
+            
+            
+        </ul>
+        
+    </div>
+</div>
+
+<!--[if lt IE 8]>
+<style>html,body{overflow:hidden;height:100%}</style>
+<div class="tb-ie-updater-layer"></div>
+<div class="tb-ie-updater-box" data-spm="20161112">
+  <a href="https://www.google.cn/intl/zh-CN/chrome/browser/desktop/" class="tb-ie-updater-google" target="_blank" data-spm-click="gostr=/tbieupdate;locaid=d1;name=google">谷歌 Chrome</a>
+  <a href="http://www.uc.cn/ucbrowser/download/" class="tb-ie-updater-uc" target="_blank" data-spm-click="gostr=/tbieupdate20161112;locaid=d2;name=uc">UC 浏览器</a>"
+</div>
+<![endif]-->
+            <script src="//g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.5/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js"></script>
+<script>KISSY.use('kg/global-util/1.0.7/',{sync:true});KISSY.config({modules: {'kg/tb-nav':{alias:'kg/tb-nav/2.5.3/',requires:['kg/global-util/1.0.7/']}}});KISSY.ready(function(){KISSY.use('kg/tb-nav')});</script>
+        
+    
+    <!-- 动画展现 -->
+    
+    <div class="survey_head">
+        
+            <div class="survey_logo logo_0"></div>
+        
+        <div class="survey_title">质+页面反馈问卷</div>
+        <div class="survey_description">
+            亲爱的用户：<br>欢迎您来到淘宝网质+市场！您对质+有任何意见和建议，或在使用过程中遇到问题，请在本页面反馈。我们会及时关注您的反馈，不断优化产品，为您提供更好的服务！
+        </div>
+    </div>
+    
+    <div class="survey_content mode_1" id="survey-content">
+    </div>
+
+    <div class="end_page_wrap">
+        <div class="end_page">
+            <div class="end_content">
+                <div class="end_logo_wrap">
+                    <div id="end-logo" class="end_logo survey_iconfont"></div>
+                </div>
+                
+                <div class="motto motto_zhCN survey_iconfont">&#xe60e;</div>
+                
+                <div class="thanking_wrap">
+                    <div class="thanking">
+                        <div class="thanking_content">
+                            感谢您的填答
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <textarea style="display:none" id="SurveyAnswer"></textarea>
+    
+<script type="text/javascript">
+  if(!window.UA_Opt){
+      var UA_Opt = new Object;
+      UA_Opt.SendMethod = 8; // 9保存到指定表单和指定js变量，1只保存到表单，8只保存到js变量中
+      UA_Opt.LogVal = "ua"; //SendMethod=1时（保存至表单中）不用指定；保存ua到变量时，必须指定;在浏览器console里面可查询
+      window[UA_Opt.LogVal] = ""; //变量初始化内容清空
+      UA_Opt.Token = new Date().getTime() + ":" + Math.random();
+      UA_Opt.MaxMCLog = 50; //鼠标事件最大获取个数，可选，默认150
+      UA_Opt.MaxKSLog = 50; //键盘事件最大获取个数，可选，默认150
+      UA_Opt.MaxMPLog = 50; //鼠标移动事件最大获取个数，可选，默认150
+      UA_Opt.MaxTCLog = 50; //默认选择150，ua中记录WAP页面touch事件的最⼤大个数。
+      UA_Opt.MaxFocusLog = 50;//默认选择150，ua中记录焦点切换事件的最⼤大个数。
+      UA_Opt.ResHost = "aeu.alicdn.com"; //加载Flash的host地址
+      UA_Opt.Flag = 1670350; //PC，无线通用。需要捕获陀螺仪事件用1932494
+  }
+
+  function getUA () {
+    var tmp_ua = window[UA_Opt.LogVal];
+    UA_Opt.Token= new Date().getTime()+":"+Math.random();
+    UA_Opt.reload && UA_Opt.reload();
+    return tmp_ua;
+  }
+</script>
+  
+  <script src="//af.alicdn.com/js/uac.js"></script>
+  
+
+
+    <!-- 执行一段脚本初始化全局变量 -->
+    <script>
+var survey = {
+    id:752
+    ,name: '质+页面反馈问卷'
+    ,hash: 'QMv74umOh'
+    ,hook: '0'
+    ,ctoken:''
+    ,uid: ''
+    ,mid: ''
+    ,nick: ''
+    ,tag: ''
+    
+    ,token : '12b1.oa7loa7g103b'
+    
+    ,type:3
+    
+    ,version: 2
+    
+    
+    ,after_submitting: '感谢您的填答'
+    
+    
+    ,after_submitting_type: 2
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+    ,content:{"pages":[{"code":"1","index":1,"subtitle":"Page 1","questions":[{"description":"请留下您对“质＋”市场的意见和建议！","type":"LongText","index":1,"code":"2","pageNumber":"1","errTip":"错误提示","optionsLayout":"vertical","disabled":false,"options":{"items":[{"code":"3","value":"选项一"}]},"validationRules":{"required":false}},{"description":"对“质+”市场以下各个方面，您的满意程度如何？","type":"RankMatrix","index":2,"code":"4","pageNumber":"1","errTip":"错误提示","optionsLayout":"vertical","disabled":false,"options":{"items":[{"code":"5","value":"非常不满意","randomGroupNumber":0},{"code":"6","value":"比较不满意","randomGroupNumber":0},{"code":"7","value":"一般","randomGroupNumber":0},{"code":"8","value":"比较满意","randomGroupNumber":0},{"code":"9","value":"非常满意","randomGroupNumber":0}]},"validationRules":{"required":true},"subQuestions":{"items":[{"code":"11","description":"界面设计美观","randomGroupNumber":0},{"code":"12","description":"排版展现合理","randomGroupNumber":0},{"code":"13","description":"操作过程方便","randomGroupNumber":0},{"code":"14","description":"内容传达清晰","randomGroupNumber":0},{"code":"51","description":"推荐商品合适","randomGroupNumber":0},{"code":"52","description":"提供服务优质","randomGroupNumber":0}]},"magnitude":"5","shape":"heart","label":"1"},{"description":"您使用“质+”的过程中，总体的满意程度如何？","type":"Rank","index":3,"code":"15","pageNumber":"1","errTip":"错误提示","optionsLayout":"vertical","disabled":false,"options":{"items":[{"code":"16","value":"非常不满意","randomGroupNumber":0},{"code":"17","value":"比较不满意","randomGroupNumber":0},{"code":"18","value":"一般","randomGroupNumber":0},{"code":"19","value":"比较满意","randomGroupNumber":0},{"code":"20","value":"非常满意","randomGroupNumber":0}]},"validationRules":{"required":true},"magnitude":"5","shape":"heart","label":"1"},{"description":"请根据您的使用感受对“质+”的以下几个方面打分：","type":"RankMatrix","index":4,"code":"21","pageNumber":"1","errTip":"错误提示","optionsLayout":"vertical","disabled":false,"options":{"items":[{"code":"22","value":"非常不同意","randomGroupNumber":0},{"code":"23","value":"比较不同意","randomGroupNumber":0},{"code":"24","value":"一般","randomGroupNumber":0},{"code":"25","value":"比较同意","randomGroupNumber":0},{"code":"26","value":"非常同意","randomGroupNumber":0}]},"validationRules":{"required":true},"subQuestions":{"items":[{"code":"27","description":"充满新鲜感","randomGroupNumber":0},{"code":"28","description":"给你可信任的感觉","randomGroupNumber":0},{"code":"29","description":"给你有品质的感觉","randomGroupNumber":0},{"code":"30","description":"给你商品丰富的感觉","randomGroupNumber":0},{"code":"53","description":"给你时尚的感觉","randomGroupNumber":0}]},"magnitude":"5","shape":"heart","label":"1"},{"description":"您在淘宝的身份是？","type":"SingleChoice","index":5,"code":"42","pageNumber":"1","errTip":"错误提示","optionsLayout":"vertical","disabled":false,"options":{"items":[{"code":"43","value":"纯买家","randomGroupNumber":0},{"code":"44","value":" 既是买家也是卖家","randomGroupNumber":0},{"code":"45","value":" 纯卖家","randomGroupNumber":0},{"code":"46","value":" 都不是","randomGroupNumber":0}]},"validationRules":{"required":true}},{"description":"您常用的旺旺ID是？","type":"ShortText","index":6,"code":"47","pageNumber":"1","tip":"请尽量填写，以便我们及时给您回复。","errTip":"错误提示","optionsLayout":"vertical","disabled":false,"options":{"items":[{"code":"48","value":"选项一"}]},"validationRules":{"required":false}},{"description":"您常用的联系方式是？","type":"ShortText","index":7,"code":"49","pageNumber":"1","tip":"请尽量填写，以便我们及时给您回复。","errTip":"错误提示","optionsLayout":"vertical","disabled":false,"options":{"items":[{"code":"50","value":"选项一"}]},"validationRules":{"required":false}}]}]}
+    
+
+    
+
+    ,locale: 'zh_CN'
+    ,logo: '0'
+    ,env:'production'
+    ,theme: 1
+    ,mode: 1
+};
+var survey_data = survey;
+
+
+
+(function() {
+  var spma = 'a1z5c';
+  var spmb = 'pc';
+  var u = navigator.userAgent;
+  var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+  var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+  if (survey.xiniu) {
+    spma = 'a211ab';
+  }
+
+  if (isAndroid || isiOS) {
+    if (survey.xiniu) {
+      if (isAndroid) {
+        spmb = 'android';
+      } else if(isiOS){
+        spmb = 'ios';
+      }
+    } else {
+      spmb = 'mobile';
+    }
+  }
+
+  window.__WPO = {
+      config: {
+          //抽样分母，1代表100%上报，10代表10%上报，100代表1%上报
+          sample: 1,
+          // spmId必须设置,如果没写默认值,会自动抓页面的spm
+          spmId: [spma, spmb].join('.'),
+          // 是否启用动态配置
+          dynamic: false
+      }
+  };
+})()
+</script>
+
+    <script>
+        KISSY.config({
+            packages: {
+                'survey': {
+                    tag: '20141119',
+                    base: '//g.alicdn.com/ur/survey/2.0.52/js',
+                    ignorePackageNameInUri: true
+                }
+            },
+            alias: {
+                "kg/xtemplate": "kg/xtemplate/3.5.2",
+                "kg/menu": "kg/menu/0.0.3",
+                "kg/overlay": "kg/overlay/0.0.4",
+                "kg/button": "kg/button/0.0.2"
+            }
+        });
+
+
+        KISSY.use('survey/index', function(S, mod) {
+//            mod.init();
+            mod.init(survey);
+        });
+    </script>
+<script src="//g.alicdn.com/retcode/log/log.js" crossorigin></script>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+

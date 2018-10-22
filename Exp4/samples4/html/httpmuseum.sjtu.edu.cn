@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML><HEAD><TITLE>校史博物馆子站</TITLE><META Name="keywords" Content="校史博物馆子站" />
+
+
+
+
+
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<META content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<META name="format-detection" content="telephone=no">
+<META name="format-detection" content="address=no"><LINK rel="stylesheet" href="css/style.css"><LINK rel="stylesheet" href="css/bdcss.css"><script type="text/javascript" src="js/bdtxk.js"></script><script type="text/javascript" src="js/Slide.js"></script><script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323074684754525b564203040000 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1422479515)</script>
+</HEAD>
+<BODY><!------top start-------->
+<DIV class="top-bg w100">
+<DIV class="top w1200">
+<DIV class="logo fl">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm" title="上海交通大学校史博物馆"><img src="images/logo.png" width="382" height="55" border="0" alt="上海交通大学校史博物馆" title="上海交通大学校史博物馆"></a></DIV>
+<DIV class="top-r fr">
+<DIV class="top-a"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script>        <a href="http://dag.sjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422479515, 40325)">校史 · 档案 · 文博网</a>
+        <span>|</span><a href="http://jdxiaoshi.sjtu.edu.cn/index.jsp" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422479515, 40327)">校史网</a>
+        <span>|</span><a href="http://digitalarchives.sjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422479515, 41399)">数字档案馆</a>
+</DIV>
+<DIV class="form">
+
+
+
+
+
+<form action="SERP.jsp?wbtreeid=1001" method="post" name="a202594a" onsubmit="return subsearchdataa202594a()" style="display: inline;">
+  <input type="hidden" name="Find" value="find"><input type="hidden" name="entrymode" value="1"><input type="hidden" id="INTEXT2" name="INTEXT2" value=""><input type="hidden" name="news_search_code">
+
+
+
+
+
+                    <input class="search-right fl" type="image" src="images/so-bt.png" align="absmiddle" valign="bottom" style="cursor: hand">
+ 
+ 
+                <span id="intextspana202594a"></span>
+                <iframe id="intextframea202594a" src="about:blank" scrolling="no" frameborder="0" style="position:absolute;top:0px;left:0px;display:none;"></iframe>
+                <input class="search-left fr" size="12" name="INTEXT" placeholder="请输入关键词查询" style="line-height:36px;">
+ 
+</form>
+<script>
+String.prototype.trim= function()       
+{              
+    var t = this.replace(/(^\s*)|(\s*$)/g, "");     
+    return t.replace(/(^　*)|(　*$)/g, "");     
+}  
+function subsearchdataa202594a()
+{ 
+    if(document.a202594a.INTEXT.value.trim()=="")
+    {
+        alert("请输入查询关键字！");
+        return false;
+    }
+    if(checkDataa202594a(document.a202594a))
+    {
+       return true;  
+    }
+    return false;
+}       
+</script>
+
+    <script language="JavaScript" src="_dwr/engine.js"></script>
+    <script language="JavaScript" src="_dwr/util.js"></script>
+    <script language="JavaScript" src="_dwr/interface/NewsSearchDWR.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search_entry.js"></script>  
+    <script language="JavaScript" src="/system/resource/js/language.js"></script>
+    <script language="JavaScript" src="/system/resource/js/base64.js"></script>
+    <script language="JavaScript" src="/system/resource/js/formfunc.js"></script>    
+    
+    <script>    
+    news_searcha202594a = new vsb_news_search();
+    news_searcha202594a.isShowCode=false;
+    news_searcha202594a.tooltipid = 'tooltipa202594a';
+    news_searcha202594a.apptag = 'intextspana202594a';
+    news_searcha202594a.frametag = 'intextframea202594a';
+    news_search_entrya202594a = new vsb_news_search_entry();
+    news_search_entrya202594a.formname = "a202594a";
+    news_search_entrya202594a.news_search_obj = news_searcha202594a; 
+    news_search_entrya202594a.querytxtsize = 155
+    news_search_entrya202594a.yzmts ="您的查询过于频繁，请输入验证码后继续查询";
+    news_search_entrya202594a.qdstyle ="";
+    news_search_entrya202594a.qdname = "确定";
+    news_search_entrya202594a.qxstyle = "";
+    news_search_entrya202594a.qxname = "取消";
+    news_search_entrya202594a.showstr='请输入查询验证码！';    
+    function checkDataa202594a(formname)
+    {    
+        return news_search_entrya202594a.checkdata(formname)   
+    }
+    </script>
+<script language="javascript" src="/system/resource/js/base64.js"></script> 
+</DIV></DIV></DIV></DIV><!------top   end--------><!-------nav start-------->
+<DIV class="navBar w100"><ul class="nav clearfix">
+   <li class="m on">
+  <h3><a href="index.htm" title="首页">首页</a></h3>
+  </li>
+ <li class="m">
+  <h3><a href="gk/bwgls.htm" title="概况">概况</a></h3>
+  <ul class="sub">
+    <li><a href="gk/bwgls.htm" title="博物馆历史">博物馆历史</a></li>
+    <li><a href="gk/bwgry.htm" title="博物馆人员">博物馆人员</a></li>
+    <li><a href="gk/bwgyj.htm" title="博物馆印记">博物馆印记</a></li>
+    <li><a href="gk/ldgh.htm" title="领导关怀">领导关怀</a></li>
+    <li><a href="gk/jjPDFxz.htm" title="简介PDF下载">简介PDF下载</a></li>
+    <li><a href="gk/lxwm.htm" title="联系我们">联系我们</a></li>
+    <li><a href="guestbook.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023" title="意见反馈">意见反馈</a></li>
+  </ul>
+  </li>
+ <li class="m">
+  <h3><a href="cg/ddyjt.htm" title="参观">参观</a></h3>
+  <ul class="sub">
+    <li><a href="cg/ddyjt.htm" title="地点与交通">地点与交通</a></li>
+    <li><a href="cg/kgsj.htm" title="开馆时间">开馆时间</a></li>
+    <li><a href="cg/cgxz.htm" title="参观须知">参观须知</a></li>
+    <li><a href="http://www.wbyy.sjtu.edu.cn/" target="_blank" title="场馆预约">场馆预约</a></li>
+    <li><a href="cg/fklysl.htm" title="访客留言收录">访客留言收录</a></li>
+  </ul>
+  </li>
+ <li class="m">
+  <h3><a href="zl.htm" title="展览">展览</a></h3>
+  <ul class="sub">
+    <li><a href="zl/dqzl.htm" title="当前展览">当前展览</a></li>
+    <li><a href="zl/zlhg.htm" title="展览回顾">展览回顾</a></li>
+  </ul>
+  </li>
+ <li class="m">
+  <h3><a href="xj/zyzfw.htm" title="宣教">宣教</a></h3>
+  <ul class="sub">
+    <li><a href="xj/zyzfw.htm" title="志愿者服务">志愿者服务</a></li>
+    <li><a href="xj/wzxt/lmzz.htm" title="文治学堂">文治学堂</a></li>
+  </ul>
+  </li>
+ <li class="m">
+  <h3><a href="jz/jzgg.htm" title="捐赠">捐赠</a></h3>
+  <ul class="sub">
+    <li><a href="jz/jzgg.htm" title="捐赠公告">捐赠公告</a></li>
+    <li><a href="jz/jzml.htm" title="捐赠名录">捐赠名录</a></li>
+    <li><a href="jz/gesh.htm" title="感恩社会">感恩社会</a></li>
+    <li><a href="jz/wyjz.htm" title="我要捐赠">我要捐赠</a></li>
+  </ul>
+  </li>
+</ul></DIV><!-------nav   end-------->
+<DIV class="w100" style="background:#fff"><!----------banner----------->
+<DIV class="slider">
+<DIV class="bd">
+<UL>        
+       
+                
+                        <li>
+						<a target="_blank" href="info/1017/1143.htm"><img src="images/banner1.png" /></a>
+						<p class="banner-p"></p>
+					</li> 
+                
+                
+                        <li>
+						<a target="_blank" href="info/1121/1749.htm"><img src="images/banner8.png" /></a>
+						<p class="banner-p"></p>
+					</li> 
+                
+       
+
+       
+                
+                        <li>
+						<a target="_blank" href="http://dag.idc.sjtu.edu.cn/info/1121/1749.htm"><img src="images/banner2.png" /></a>
+						<p class="banner-p"></p>
+					</li> 
+                
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </UL></DIV><!--<div class="hd">
+				<ul></ul>
+			</div>--><!-- 自动分页 -->
+<DIV class="pnBtn prev"><SPAN class="blackBg"></SPAN><A class="arrow" href="javascript:void(0)"></A></DIV>
+<DIV class="pnBtn next"><SPAN class="blackBg"></SPAN><A class="arrow" href="javascript:void(0)"></A></DIV></DIV><!---------banner end----------><!----------part1----------->
+<DIV class="part1 w1200">
+<DIV class="p1-l">
+<DIV class="part-h">
+<DIV class="part-hh">动态公告</DIV>
+<DIV class="more"><A href="dtgg.htm" target="_blank">More</A></DIV></DIV>
+<DIV class="p1-con">
+<DIV class="p1-Slide"><DIV class="bd">
+  <ul>
+        <li> <a href="info/1041/2485.htm" target="_blank" title="上海大同中学学生参观专题展示馆"> <IMG src="/__local/2/5C/E6/2BE8986CAF7774C09DA288F3730_7ECC32BC_7FC6.jpg">
+      <DIV class="tt1">上海大同中学学生参观专题展示馆</DIV>
+      </a> </li>
+    <li> <a href="info/1041/2484.htm" target="_blank" title="上汽通用五菱副总裁一行参观专题展示馆"> <IMG src="/__local/8/FB/DA/6E44AF10A8A7415051813F8D3E5_10ED7F33_84FF.jpg">
+      <DIV class="tt1">上汽通用五菱副总裁一行参观专题展示馆</DIV>
+      </a> </li>
+    <li> <a href="info/1041/2483.htm" target="_blank" title="江苏江阴空间测量部队一行参观专题展示馆"> <IMG src="/__local/8/32/3A/58AF784DEAE4EB6C6426B24DAC1_46863C97_83B6.jpg">
+      <DIV class="tt1">江苏江阴空间测量部队一行参观专题展示馆</DIV>
+      </a> </li>
+    <li> <a href="info/1041/2489.htm" target="_blank" title="宁夏大学党委书记一行参观专题纪念馆"> <IMG src="/__local/B/F1/6C/2E054684122D5E08741F6446E8A_0E1DA824_955D.jpg">
+      <DIV class="tt1">宁夏大学党委书记一行参观专题纪念馆</DIV>
+      </a> </li>
+    <li> <a href="info/1041/2488.htm" target="_blank" title="日本昭和女子大学理事长一行参观专题展示馆"> <IMG src="/__local/4/31/77/FC40B76E891D5A2B79607CB1A16_16F055B2_7C22.jpg">
+      <DIV class="tt1">日本昭和女子大学理事长一行参观专题展示馆</DIV>
+      </a> </li>
+  </ul>
+</DIV>
+<DIV class="hd">
+  <UL>
+  </UL>
+</DIV><script>_showDynClickBatch(['dynclicks_u5_2485','dynclicks_u5_2484','dynclicks_u5_2483','dynclicks_u5_2489','dynclicks_u5_2488'],[2485,2484,2483,2489,2488],"wbnews", 1422479515)</script>
+</DIV>
+<DIV class="p1-ul"><ul>
+	
+	
+   <li><a href="info/1041/2749.htm" target="_blank" title="上海交通大学校史博物馆关于规范团队参观及讲解的公告">上海交通大学校史博物馆关于规范团队参观及讲解的公告</a><SPAN class="time1">10-17</SPAN></li>
+	
+	
+   <li><a href="info/1041/2747.htm" target="_blank" title="上海市委组织部离退休支部参观校史博物馆">上海市委组织部离退休支部参观校史博物馆</a><SPAN class="time1">10-16</SPAN></li>
+	
+	
+   <li><a href="info/1041/2746.htm" target="_blank" title="西安交通大学68届校友参观校史博物馆">西安交通大学68届校友参观校史博物馆</a><SPAN class="time1">10-16</SPAN></li>
+	
+	
+   <li><a href="info/1041/2740.htm" target="_blank" title="文博场馆中秋、国庆假期开放通知">文博场馆中秋、国庆假期开放通知</a><SPAN class="time1">09-21</SPAN></li>
+	
+	
+   <li><a href="info/1041/2735.htm" target="_blank" title="上海交通大学校史博物馆学生讲解队志愿者招募公告">上海交通大学校史博物馆学生讲解队志愿者招募公告</a><SPAN class="time1">09-20</SPAN></li>
+	
+	
+   <li><a href="info/1041/2729.htm" target="_blank" title="民盟中央副主席徐辉参观校史博物馆">民盟中央副主席徐辉参观校史博物馆</a><SPAN class="time1">09-07</SPAN></li>
+	
+	
+   <li><a href="info/1041/2485.htm" target="_blank" title="上海大同中学学生参观专题展示馆">上海大同中学学生参观专题展示馆</a><SPAN class="time1">05-21</SPAN></li>
+	
+	
+   <li><a href="info/1041/2484.htm" target="_blank" title="上汽通用五菱副总裁一行参观专题展示馆">上汽通用五菱副总裁一行参观专题展示馆</a><SPAN class="time1">05-21</SPAN></li>
+	
+	
+   <li><a href="info/1041/2483.htm" target="_blank" title="江苏江阴空间测量部队一行参观专题展示馆">江苏江阴空间测量部队一行参观专题展示馆</a><SPAN class="time1">05-21</SPAN></li>
+	
+	
+</ul><script>_showDynClickBatch(['dynclicks_u6_2749','dynclicks_u6_2747','dynclicks_u6_2746','dynclicks_u6_2740','dynclicks_u6_2735','dynclicks_u6_2729','dynclicks_u6_2485','dynclicks_u6_2484','dynclicks_u6_2483'],[2749,2747,2746,2740,2735,2729,2485,2484,2483],"wbnews", 1422479515)</script>
+</DIV></DIV></DIV>
+<DIV class="p1-r">
+<DIV class="part-h">
+<DIV class="part-hh">场馆预约</DIV></DIV>    <DIV class="p1-i"><a href="http://www.wbyy.sjtu.edu.cn/" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1422479515, 41623)" target="_blank"><img src="images/cgyyPic.jpg" border="0"></a></DIV>
+</DIV></DIV><!-------part1 end--------></DIV><!----------part2----------->
+<DIV class="part2 w1200">
+<DIV class="p2-l fl">
+<DIV class="part-h">
+<DIV class="part-hh">网上陈列</DIV></DIV>    <UL>	 
+<LI>
+	<DIV class="p2-btn"><a href="wscl/dyzt.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 1422479515, 40693)" target="_blank">第一展厅<IMG src="images/more2.png"></a></DIV>
+	<DIV class="p2-i"><img src="images/m89.png" border="0"></DIV>
+</LI>
+<LI>
+	<DIV class="p2-btn"><a href="wscl/dezt.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 1422479515, 40694)" target="_blank">第二展厅<IMG src="images/more2.png"></a></DIV>
+	<DIV class="p2-i"><img src="images/m8.png" border="0"></DIV>
+</LI>
+<LI>
+	<DIV class="p2-btn"><a href="wscl/yszt.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 1422479515, 40695)" target="_blank">院士展厅<IMG src="images/more2.png"></a></DIV>
+	<DIV class="p2-i"><img src="images/m189.png" border="0"></DIV>
+</LI>
+</UL></DIV>
+<DIV class="p2-r fr">
+<DIV class="part-h">
+<DIV class="part-hh">交大之最</DIV>
+<DIV class="more"><A href="jdzz.htm" target="_blank">More</A></DIV></DIV><ul>
+   <li>
+	
+	<DIV class="p2-h">
+      <DIV class="p2-hh"><a href="info/1043/1124.htm" target="_blank" title="1899年设立的南洋公学译书院，是我国高校最早的出版编译机构">1899年设立的南洋公学译书院，是我国高校最早的出版编译机构</a></DIV>
+      <DIV class="p2-a"><a href="info/1043/1124.htm" target="_blank" title="1899年设立的南洋公学译书院，是我国高校最早的出版编译机构">【详情】</a></DIV>
+    </DIV>
+	  
+    <DIV class="p2-tt">​1899年，南洋公学成立译书院，以解决公学教材及办理洋务了解国外情况之需。聘张元济为主任，始设于虹口，后迁至提篮桥。1903年因南洋公学转隶北洋，经费紧缩而停办。其间，1901年秋曾附设一所东文学堂，半年后亦停办。译书院是我国近代高校第一个翻译出版机...</DIV>
+	
+   </li>
+   <li>
+	
+	<DIV class="p2-h">
+      <DIV class="p2-hh"><a href="info/1043/1123.htm" target="_blank" title="1908年设置的电机科，是我国高等学校最早设立之电机学科">1908年设置的电机科，是我国高等学校最早设立之电机学科</a></DIV>
+      <DIV class="p2-a"><a href="info/1043/1123.htm" target="_blank" title="1908年设置的电机科，是我国高等学校最早设立之电机学科">【详情】</a></DIV>
+    </DIV>
+	  
+    <DIV class="p2-tt">1908年，由时任邮传部上海高等实业学堂（1906-1911间交通大学校名）校长的唐文治先生主持创办。开设课程有：数学、物理、化学、电学、电机学、热力学等十多种。为我国高等学校最早设立之电机系。</DIV>
+	
+   </li>
+   <li style="border-top: medium none; border-right: medium none; border-bottom: medium none; border-left: medium none">
+	
+	<DIV class="p2-h">
+      <DIV class="p2-hh"><a href="info/1043/1122.htm" target="_blank" title="1918年设置的铁路管理科，是中国现代教育史上最早的管理学科">1918年设置的铁路管理科，是中国现代教育史上最早的管理学科</a></DIV>
+      <DIV class="p2-a"><a href="info/1043/1122.htm" target="_blank" title="1918年设置的铁路管理科，是中国现代教育史上最早的管理学科">【详情】</a></DIV>
+    </DIV>
+	  
+    <DIV class="p2-tt">唐文治校长治校期间，强调培养管理人才的重要。他说“铁路营业曰：货运，曰：载客；行李之往来，财贿之茂迁，云而麟集，管理不得其法，措置失当，中外人士交相诟病。或偶一不慎，群工执事稍稍染指其间，而弊窦实不可问……。”于是议定学校呈请交通部在本校添...</DIV>
+	
+   </li>
+</ul>
+
+<script>_showDynClickBatch(['dynclicks_u9_1124','dynclicks_u9_1123','dynclicks_u9_1122'],[1124,1123,1122],"wbnews", 1422479515)</script>
+</DIV></DIV><!-------part2 end--------><!-------part3 start-------->
+<DIV class="part3 w1200">
+<DIV class="part-h">
+<DIV class="part-hh">老照片</DIV>
+<DIV class="more"><A href="lzp/xsyg.htm" target="_blank">More</A></DIV></DIV><ul>
+<li>
+    <a href="info/1065/1201.htm" target="_blank" title="国立交通大学(重庆总部)(1942-1946)">
+        <IMG src="/__local/1/67/29/BC1DC77817793312DA824B508B3_EFD07F60_161D6.png">
+        <P>国立交通大学(重庆总部)(1942-1946)</P>
+    </a>
+</li>
+<li>
+    <a href="info/1065/1204.htm" target="_blank" title="交通部上海工业专门学校(1912-1921)">
+        <IMG src="/__local/E/9F/6B/AE9431995C098781E263F932A05_78B75563_28F0B.png">
+        <P>交通部上海工业专门学校(1912-1921)</P>
+    </a>
+</li>
+<li>
+    <a href="info/1065/1213.htm" target="_blank" title="盛宣怀">
+        <IMG src="/__local/8/10/4C/93E8793D9F80E5EDAEAABC399F8_116AC444_A7D4.png">
+        <P>盛宣怀</P>
+    </a>
+</li>
+<li>
+    <a href="info/1065/1752.htm" target="_blank" title="足球运动">
+        <IMG src="/__local/1/C5/C6/E03ED6148BFEFD6D1C0D57F0B7E_1942813F_20DAD.png">
+        <P>足球运动</P>
+    </a>
+</li>
+</ul><script>_showDynClickBatch(['dynclicks_u10_1201','dynclicks_u10_1204','dynclicks_u10_1213','dynclicks_u10_1752'],[1201,1204,1213,1752],"wbnews", 1422479515)</script>
+</DIV><!-------part3   end--------><!-------foot start-------->
+<DIV class="foot-bg w100">
+<DIV class="foot w1200">
+<DIV class="foot-l fl">
+<DIV class="f1-h">友情链接：</DIV>
+<DIV class="sel_mask bg1">
+<DIV class="sel-h">
+<DIV class="sel-hh">请选择 ......</DIV>
+<DIV class="sel-i"><IMG src="images/sel-bt.png"></DIV></DIV><UL>
+    <LI><a href="http://www.sjtu.edu.cn" target="_blank" title="上海交通大学" onclick="_addDynClicks(&#34;wburl&#34;, 1422479515, 40328)">上海交通大学</a></li>
+    <LI><a href="http://www.qianxslib.sjtu.edu.cn" target="_blank" title="钱学森图书馆" onclick="_addDynClicks(&#34;wburl&#34;, 1422479515, 40329)">钱学森图书馆</a></li>
+    <LI><a href="http://www.maritimemuseum.sjtu.edu.cn" target="_blank" title="董浩云航运博物馆" onclick="_addDynClicks(&#34;wburl&#34;, 1422479515, 40330)">董浩云航运博物馆</a></li>
+    <LI><a href="http://archives.sjtu.edu.cn" target="_blank" title="上海交通大学档案馆" onclick="_addDynClicks(&#34;wburl&#34;, 1422479515, 40333)">上海交通大学档案馆</a></li>
+    <LI><a href="http://shipmuseum.sjtu.edu.cn/" target="_blank" title="船舶数字博物馆" onclick="_addDynClicks(&#34;wburl&#34;, 1422479515, 40334)">船舶数字博物馆</a></li>
+</UL></DIV>
+<DIV class="clear"></DIV></DIV>
+<DIV class="foot-tt"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>沪交ICP备2010842<br /></p><p>Copyright© 2018 上海交通大学档案馆（党史校史研究室）</p><p style="white-space: normal">通讯地址：上海市华山路1954号&nbsp;&nbsp;&nbsp;&nbsp;邮编：200030</p><p>&nbsp;</p></DIV>
+<DIV class="foot-e">    <DIV class="fe-i"> <img src="images/danganguan.jpg" border="0">
+  <P>档案馆</P>
+</DIV>
+<DIV class="fe-i"> <img src="images/guangfangweibo.jpg" border="0">
+  <P>官方微博</P>
+</DIV>
+<DIV class="fe-i"> <img src="images/xsbw.jpg" border="0">
+  <P>校史博物馆</P>
+</DIV>
+</DIV>
+<DIV class="clear"></DIV></DIV></DIV><!----------foot end-----------><script type="text/javascript">
+    jQuery(".nav").slide({ 
+            type:"menu", //效果类型
+            titCell:".m", // 鼠标触发对象
+            targetCell:".sub", // 效果对象，必须被titCell包含
+            delayTime:300, // 效果时间
+            triggerTime:0, //鼠标延迟触发时间
+            returnDefault:true  //返回默认状态
+    });
+
+</script><script type="text/javascript">
+		/* 把最后一个放到第一个前面，然后通过外层ul{margin-left:-980px !important; }来显示第一个 */
+		jQuery(".slider .bd li").first().before(jQuery(".slider .bd li").last());
+		/* 控制左右按钮显示 */
+		jQuery(".slider").hover(function() {
+			jQuery(this).find(".arrow").stop(true, true).fadeIn(300)
+		}, function() {
+			jQuery(this).find(".arrow").fadeOut(300)
+		});
+		/* 调用SuperSlide */
+		jQuery(".slider").slide({
+			titCell: ".hd ul",
+			mainCell: ".bd ul",
+			effect: "leftLoop",
+			autoPlay: true,
+			vis: 3,
+			autoPage: true,
+			trigger: "click"
+		});
+	</script><script id="jsID" type="text/javascript">
+		var ary = location.href.split("&");
+		jQuery(".slideBox").slide({
+			mainCell: ".bd ul",
+			effect: ary[1],
+			autoPlay: ary[2],
+			trigger: ary[3],
+			easing: ary[4],
+			delayTime: ary[5],
+			mouseOverStop: ary[6],
+			pnLoop: ary[7]
+		});
+	</script>
+
+</BODY></HTML>

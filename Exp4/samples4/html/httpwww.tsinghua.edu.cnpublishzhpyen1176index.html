@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 通用css -->
+
+<link href="/publish/zhpyen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/zhpyen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(1,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+      
+ 
+   
+
+ 
+
+  <title>
+Zhou Pei-Yuan Center for Applied Mathematics
+</title><link href="/publish/zhpyen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT> <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+   <div id="header">
+   <!--logo开始处-->
+   <div id="logo">
+    <a href="http://www.tsinghua.edu.cn" title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+ <div id="header_mid">
+    <h1>周培源数学研究中心</h1>
+    <p>Zhou Pei-Yuan Center for Applied Mathematics</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/zhpy/index.html" title="周培源数学研究中心"><img src="/publish/zhpyen/images/cn_text.gif" style="width:50px;height:20px"></a></li>
+     <li><a href="/publish/th/index.html" title="清华大学中文主页"><img src="/publish/zhpyen/images/thu_text.gif" style="width:50px;height:20px"></a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->
+  </div>  <!--header结束处-->
+  <!--nav开始处-->
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+
+
+var menu1170 = ms.addMenu(document.getElementById("menu_1170"));
+menu1170.addItem("Areas","/publish/zhpyen/1181/index.html","");
+        menu1170.addItem("Lecture","/publish/zhpyen/1182/index.html","");
+        menu1170.addItem("Seminar","/publish/zhpyen/5764/index.html","");
+        var menu1168 = ms.addMenu(document.getElementById("menu_1168"));
+menu1168.addItem("Faculty","/publish/zhpyen/1176/index.html","");
+        menu1168.addItem("Staff","/publish/zhpyen/1177/index.html","");
+        menu1168.addItem("Postdoc","/publish/zhpyen/1178/index.html","");
+        menu1168.addItem("PhD","/publish/zhpyen/5763/index.html","");
+        var menu1169 = ms.addMenu(document.getElementById("menu_1169"));
+menu1169.addItem("Graduates","/publish/zhpyen/1179/index.html","");
+        menu1169.addItem("Courses","/publish/zhpyen/1180/index.html","");
+        var menu1171 = ms.addMenu(document.getElementById("menu_1171"));
+menu1171.addItem("PhD","/publish/zhpyen/1183/index.html","");
+        menu1171.addItem("Postdoc","/publish/zhpyen/1184/index.html","");
+        menu1171.addItem("Faculty","/publish/zhpyen/1185/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/zhpyen/index.html" title="Home">Home</a></li>
+      <li id="menu_1167"><a href="/publish/zhpyen/1167/index.html" title="About">About</a></li>
+      <li id="menu_1170"><a href="/publish/zhpyen/1181/index.html" title="Research">Research</a></li>
+      <li id="menu_1169"><a href="/publish/zhpyen/1179/index.html" title="Teaching">Teaching</a></li>
+      <li id="menu_1168"><a href="/publish/zhpyen/1176/index.html" title="People">People</a></li>
+
+      <li id="menu_1171"><a href="/publish/zhpyen/1183/index.html" title="Opportunities">Opportunities</a></li>
+      <li id="menu_1172"><a href="/publish/zhpyen/1172/index.html" title="Contact us">Contact us</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--s_con_left开始处-->
+<div id="s_con_left">
+     <h3>People</h3>
+            <img src="/publish/zhpyen/images/english_s_left_bg.jpg" title="栏目图片" width="210" height="88" />
+           <dl>
+       <dt><a href="/publish/zhpyen/1176/index.html" title="Faculty">Faculty</a></dt>
+         <dt><a href="/publish/zhpyen/1177/index.html" title="Staff">Staff</a></dt>
+         <dt><a href="/publish/zhpyen/1178/index.html" title="Postdoc">Postdoc</a></dt>
+         <dt><a href="/publish/zhpyen/5763/index.html" title="PhD">PhD</a></dt>
+        </dl>
+   </div>   <!--s_con_left-->
+<!--s_con_right开始处-->
+   <div id="s_con_right" >
+   <div class="box_detail">
+<div class="c_top">
+                <ul class="nav_01">
+                    <li>&nbsp;<A href='/publish/zhpyen/index.html' class='navigation_style'>Home</a>&nbsp;&nbsp;&#8250;&nbsp;&nbsp;<A href='/publish/zhpyen/1176/index.html' class='navigation_style'>People</a>&nbsp;&nbsp;&#8250;&nbsp;&nbsp;<A href='/publish/zhpyen/1176/index.html' class='navigation_style'>Faculty</a></li>
+                </ul>
+            </div>     <!--s2_right_con开始处-->
+     <p style="font-size:16px; font-weight:bold; padding-left:25px;line-height:30px; margin:20px 0px;"> Faculty</p>
+    <p> <p><span style="font-size: 15px">
+<table border="0" cellspacing="1" cellpadding="1" width="500" align="left" height="612">
+    <tbody>
+        <tr>
+            <td><span style="font-family: Times New Roman"><span style="font-size: 15px"><span style="font-family: 宋体; font-size: 11.5pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><span style="font-size: 11.5pt" lang="EN-US">
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style="font-size: 15px"><span><span style="font-family: Times New Roman"><strong><span lang="EN-US"><a href="/publish/zhpy/preview/twain_tcdetail.htm?tid=20101201203440284446828&amp;col_id=1706">Wen-An Yong</a></span></strong></span></span></span></p>
+            </span></span></span><span style="font-size: 15px"><span style="font-family: 宋体; font-size: 11.5pt; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><span style="font-size: 11.5pt" lang="EN-US">
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><u2:p></u2:p></span></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Professor, Ph.D Supervisor</span></span></span></span></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Office: 113</span></span></span></span></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><u2:p></u2:p></span><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Email: </span></span></span></span><a href="mailto:wayong@mail.tsinghua.edu.cn"><span><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span><span><span><font color="#0000ff">wayong@mail.tsinghua.edu.cn</font></span></span></span></span></span></span><o:p></o:p></span><u2:p></u2:p></a></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style="font-size: 14px"><span><span><span style="font-family: Times New Roman"><span><span><span style="mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><span lang="EN-US">Major: PDE, Scientific Computing</span></span></span></span></span></span></span></span></p>
+            </span></span></span></span></td>
+            <td style="text-align: center"><img alt="" width="100" height="123" src="/publish/zhpyen/1176/1176/yong2.jpg" /></td>
+        </tr>
+        <tr>
+            <td>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style="font-size: 15px"><font face="宋体"><span lang="EN-US"><span style="font-family: Times New Roman"><span><span style="font-family: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><span lang="EN-US"><span style="font-family: Times New Roman"><span lang="EN-US"><span style="font-family: Times New Roman"><span><span style="font-family: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><span lang="EN-US"><span style="font-family: Times New Roman"><span lang="EN-US"><strong><a href="http://166.111.93.130/~jzlei/">Jin-Zhi Lei</a></strong></span></span></span></span></span></span></span></span></span></span></span></span></span></font></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><u2:p></u2:p></span></span></span></p>
+            <span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Associate Researcher, Ph.D Supervisor</span></span></span></span></span></span></p>
+            </span></span></span></span></span></span>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Office: 111</span></span></span></span></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><u2:p></u2:p></span><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Email: </span></span></span></span><a href="mailto:jzlei@mails.tsinghua.edu.cn"><span><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span><span><span><font color="#0000ff">jzlei@mail.tsinghua.edu.cn</font></span></span></span></span></span></span><o:p></o:p></span><u2:p></u2:p></a></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style="font-size: 14px"><span><span style="font-family: Times New Roman"><span><span><span style="mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><span lang="EN-US">Major: System Biology, Dynamic System</span></span></span></span></span></span></span></p>
+            </td>
+            <td style="text-align: center"><img alt="" width="100" height="123" src="/publish/zhpyen/1176/1176/lei.jpg" /></td>
+        </tr>
+        <tr>
+            <td>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style="font-size: 15px"><span><span><span style="font-family: Times New Roman"><strong><span style="mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'"><a href="http://166.111.93.130/~sunwt/">Wei-Tao Sun</a></span></strong></span></span></span></span></p>
+            <span style="font-size: 14px"><span style="font-family: Times New Roman">
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><u2:p></u2:p></span></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Associate Researcher</span></span></span></span></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Office: 108</span></span></span></span></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><u2:p></u2:p></span><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Email: </span></span></span></span><a href="mailto:sunwt@mails.tsinghua.edu.cn"><span><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span><span><span><font color="#0000ff">sunwt@mail.tsinghua.edu.cn</font></span></span></span></span></span></span><o:p></o:p></span><u2:p></u2:p></a></span></span></p>
+            <p style="margin: 6pt 0cm; mso-line-height-alt: 0pt; mso-para-margin-top: .5gd; mso-para-margin-right: 0cm; mso-para-margin-bottom: .5gd; mso-para-margin-left: 0cm"><span style="font-size: 14px"><span><span style="font-family: Times New Roman"><span><span><span style="mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'"><span lang="EN-US">Major: Scientific Computing, Protein Folding</span></span></span></span></span></span></span></p>
+            </span></span></td>
+            <td style="text-align: center">&nbsp;<img alt="" width="100" height="123" src="/publish/zhpyen/1176/1176/sun.jpg" /></td>
+        </tr>
+        <tr>
+            <td>
+            <p><span style="font-family: Times New Roman"><span style="font-size: 14px"><strong><u><font color="#0000ff">Yi-Zhu </font></u></strong></span></span></p>
+            <p>Associate Researcher</p>
+            <p>Office: 115</p>
+            <p>E-mail: <a href="mailto:yizhu@mail.tsinghua.edu.cn">yizhu@mail.tsinghua.edu.cn</a></p>
+            <p><span style="font-size: 14px"><span style="font-family: Times New Roman">Major: nonlinear waves and applications, nonlinear optics, mathematical theory of&nbsp; complex fluids, integrable systems and soliton theory</span></span></p>
+            </td>
+            <td style="text-align: center">&nbsp;<img alt="" align="middle" width="100" height="119" src="/publish/zhpy/1129/1129/Zhenjian_2.jpg" /></td>
+        </tr>
+        <tr>
+            <td>
+            <p>&nbsp;<u><span style="font-size: 15px"><span style="font-family: Times New Roman"><span style="color: #0000ff"><strong>Liu Hong</strong></span></span></span></u><span style="font-size: 15px"><span style="font-family: Times New Roman"><span style="color: #0000ff"><strong> </strong></span></span></span></p>
+            <p><span style="font-size: 15px"><span style="font-family: Times New Roman"><span style="color: #0000ff"><font color="#000000">Associate Researcher</font></span></span></span><span style="font-size: 15px"><span style="font-family: Times New Roman"><span style="color: #0000ff"> </span></span></span></p>
+            <p><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Office: 117</span></span></span></span></span></span></p>
+            <p><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Personal Website: <a href="/publish/zhpy/1706/2010/20101226195715545730773/20101226195715545730773_.html"><font size="3">中文</font></a><font size="3">&nbsp;&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp; </font><a href="/publish/zhpy/1706/2010/20101226222046540791394/20101226222046540791394_.html"><font size="3">English</font></a></span></span></span></span></span></span></p>
+            <p><span style="font-size: 15px"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><span style="font-family: Times New Roman"><span><span>Major: </span></span></span></span></span></span></span><span style="font-size: 15px"><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><span style="font-family: Times New Roman"><span><span>protein folding and misfolding, chemical kinetics, non-equilibrium thermodynamics, mathematical modeling of complex fluids</span></span></span></span></span></span></span></p>
+            <p><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span><strong>E-mail: </strong><a href="mailto:zcamhl@mail.tsinghua.edu.cn"><strong>zcamhl@mail.tsinghua.edu.cn</strong></a><strong> </strong></span></span></span></span></span></span></p>
+            </td>
+            <td style="text-align: center"><img alt="" align="middle" width="100" height="119" src="/publish/zhpy/1129/1129/hong.jpg" />&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+            <p><span style="font-size: 15px"><span style="color: #0000ff"><strong><u><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><span style="font-family: Times New Roman"><span><span>Yu-Cheng Hu</span></span></span></span></span></span></u><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span><span style="font-family: Times New Roman"><span><span> </span></span></span></span></span></span></strong></span></span></p>
+            <p><span style="font-family: Times New Roman"><span style="font-size: 15px"><span><span lang="EN-US"><span><span><span><span><span><span lang="EN-US"><span><span><span><span>Assistant Researcher </span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+            <span style="font-size: 15px"><span><span lang="EN-US"><span><span><span><span><span><span lang="EN-US"><span><span><span><span>
+            <p><span><span style="font-family: 'Times New Roman','serif'" lang="EN-US"><span style="font-size: 14px"><span style="font-family: Times New Roman"><span><span>Office: 116</span></span></span></span></span></span></p>
+            <p><span style="font-family: Times New Roman"><span style="font-size: 15px">Major: Computational system biology </span></span></p>
+            </span></span></span></span></span></span></span></span></span></span></span></span></span><span style="font-family: Times New Roman"><span style="font-size: 15px">E-mail:</span></span><span style="font-size: 15px"><a href="mailto:huyc@mail.tsinghua.edu.cn"><span style="font-family: Times New Roman"><span style="font-size: 15px">huyc@mail.tsinghua.edu.cn</span></span></a></span></td>
+            <td style="text-align: center"><img alt="" align="middle" width="100" height="119" src="/publish/zhpy/1129/1129/huyc.jpg" /></td>
+        </tr>
+    </tbody>
+</table>
+&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-size: 16px"><span style="font-family: Times New Roman"><strong><span>Jointly Appointed Professor</span></strong></span></span></p>
+<p><span style="color: #0000ff"><u><strong><span style="font-family: Times New Roman"><span style="font-size: 15px"><span>Zhen-Su She&nbsp;</span></span></span></strong></u><strong><span style="font-family: Times New Roman"><span style="font-size: 15px"><span> </span></span></span></strong></span><span style="font-family: Times New Roman"><span style="font-size: 15px"><span>(</span></span></span><span style="font-size: 15px"><span><span style="font-family: Times New Roman">Prof. of College of Engineering, Peking University)</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="" align="middle" width="100" height="119" src="/publish/zhpy/1129/1129/20060331090716806.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p>
+<p><span style="color: #0000ff"><u><strong><span style="font-family: Times New Roman"><span style="font-size: 15px"><span><span style="font-size: 15px"><span><span>Shi-Li Luo </span></span></span></span></span></span></strong></u></span><span style="font-family: Times New Roman"><span style="font-size: 15px"><span><span style="font-size: 15px"><span><span>(Prof. of Old Dominion University)</span></span></span><span style="font-size: 15px"><span style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span></span></span><span style="font-size: 15px"><span><span style="font-size: 15px"><span style="font-size: 15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img style="width: 111px; height: 115px" alt="" align="middle" width="100" height="119" src="/publish/zhpy/1129/1129/luo03b.gif" /></span></span></p></p>
+    </div>
+    </div>
+     
+     <!--s2_right_con结束处-->
+   </div>
+   <!--s_con_right开始处-->
+    </div> 
+  </div>
+  <!--s_content结束处-->
+
+  <!--footer开始处-->
+<div id="footer">
+ <p>Copyright © 2010 Tsinghua University All Rights Reserved. 地址：北京市海淀区清华园1号&nbsp;&nbsp;&nbsp;&nbsp;100084</p></div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

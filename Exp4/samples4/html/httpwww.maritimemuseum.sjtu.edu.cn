@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<title>交大航运博物馆</title>
+<meta name="keywords" content="交大航运博物馆">
+<meta name="description" content="交大航运博物馆">
+<link href="http://www.maritimemuseum.sjtu.edu.cn/statics/css/reset.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.maritimemuseum.sjtu.edu.cn/statics/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.maritimemuseum.sjtu.edu.cn/statics/js/search_common.js"></script>
+<script src="http://www.maritimemuseum.sjtu.edu.cn/statics/js/cbbwg/AC_RunActiveContent.js" type="text/javascript"></script>
+<link href="http://www.maritimemuseum.sjtu.edu.cn/statics/css/cbbwg/skitter.styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.maritimemuseum.sjtu.edu.cn/statics/js/jquery.easing.js"></script>
+<script type="text/javascript" src="http://www.maritimemuseum.sjtu.edu.cn/statics/js/jquery.animate-colors-min.js"></script>
+<script type="text/javascript" src="http://www.maritimemuseum.sjtu.edu.cn/statics/js/cbbwg/jquery.skitter.min.js"></script>
+<script type="text/javascript" src="http://www.maritimemuseum.sjtu.edu.cn/statics/js/fancybox/jquery.fancybox.pack.js"></script>
+<link href="http://www.maritimemuseum.sjtu.edu.cn/statics/js/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+<link href="http://www.maritimemuseum.sjtu.edu.cn/statics/css/cbbwg/cb_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+<div class="bannerout">
+<div class="banner">
+	<object width="1000" height="336" type="application/x-shockwave-flash" data="http://202.120.126.101:8080/statics/images/cbbwg/bcastr.swf?xml=http://202.120.126.101:8080/statics/images/cbbwg/bcastr.xml" id="bcastr4">
+	<param value="http://202.120.126.101:8080/statics/images/cbbwg/bcastr.swf?xml=http://202.120.126.101:8080/statics/images/cbbwg/bcastr.xml" name="movie">
+	<param name="wmode" value="transparent"></object>
+	<div class="logo"><div class="language"><a href="#" style="color:#FFFFFF;">中文</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color:#FFFFFF;">ENGLISH</a></div></div>
+</div>
+</div>
+<div class="menubg">
+	<ul class="menu">
+		<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php"><span>首页</span></a></li>
+				<li><a href="/index.php?m=content&c=index&a=lists&catid=53"   >新闻快递</a>	
+		   			<ul class="menu-lv2">	
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=53" >新闻动态</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=71" >图片新闻</a></li>              
+				    
+			</ul>	
+					</li>		
+    		<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=52"   >馆况介绍</a>	
+		   		</li>		
+    		<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=103"   >展览大观</a>	
+		   			<ul class="menu-lv2">	
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=105" >第一展厅</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=118" >第二展厅</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=119" >第三展厅</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=120" >第四展厅</a></li>              
+				    
+			</ul>	
+					</li>		
+    		<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=55"   >典藏精品</a>	
+		   		</li>		
+    		<li><a href="/index.php?m=content&c=index&a=lists&catid=66"   >数字艺术</a>	
+		   			<ul class="menu-lv2">	
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=66" >3D展品</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=67" >全景漫游</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=249" >3D虚拟漫游</a></li>              
+				    
+			</ul>	
+					</li>		
+    		<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=72"   >视频点播</a>	
+		   		</li>		
+    		<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=59"   >专题展览</a>	
+		   		</li>		
+    		<li><a href="/index.php?m=content&c=index&a=lists&catid=122"   >走近董浩云</a>	
+		   			<ul class="menu-lv2">	
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=122" >生平大事</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=165" >剪报文稿</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=124" >日记信札</a></li>              
+				    
+			</ul>	
+					</li>		
+    		<li><a href="http://202.121.199.198/JDBowuguan/WebUser/index.aspx#!blank"   >教育学习</a>	
+		   			<ul class="menu-lv2">	
+				    
+			</ul>	
+					</li>		
+    		<li><a href="/index.php?m=content&c=index&a=lists&catid=54"   >学术研究</a>	
+		   			<ul class="menu-lv2">	
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=54" >学术论文</a></li>              
+				 
+					<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=62" >期刊杂志</a></li>              
+				    
+			</ul>	
+					</li>		
+    		<li><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=lists&catid=60"   >服务指南</a>	
+		   		</li>		
+    	</ul>
+</div>
+
+
+
+<div class="maincontent">
+<div class="contentpanel fl picnews">
+<h2>
+  <img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/picxw.png" width="82px" height="40px"/>
+  <div class="more_btn rt"><a href="index.php?m=content&c=index&a=lists&catid=71"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/more.png" width="46px" height="18px" /></a></div>
+</h2>
+<div class="box_skitter">
+    		<ul>
+						<li>
+				<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/2015/1201/thumb_406_220_20151201042021807.jpg" style="max-width:406px;max-height:220px;" /><div class="label_text"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=71&id=536" target="_blank"><p>救亡图存 浴火重生 ----纪念抗战胜利七十周年双校联展开幕</p></a></div>
+			</li>
+						<li>
+				<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/2015/0325/thumb_406_220_20150325034915481.jpg" style="max-width:406px;max-height:220px;" /><div class="label_text"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=71&id=534" target="_blank"><p>美国加州理工大学校长一行访问董浩云航运博物馆</p></a></div>
+			</li>
+						<li>
+				<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu/news/14/08/27-01-01.JPG" style="max-width:406px;max-height:220px;" /><div class="label_text"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=71&id=532" target="_blank"><p>“海洋强国梦”专题展览</p></a></div>
+			</li>
+						<li>
+				<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu/news/14/06/thumb_406_220_30-01-01.jpg" style="max-width:406px;max-height:220px;" /><div class="label_text"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=71&id=533" target="_blank"><p>董浩云航运博物馆举办“青春是美丽的——巴金图片文献展”</p></a></div>
+			</li>
+					</ul>
+     
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".box_skitter").skitter({
+			interval: 4000,
+			animation: "swapBlocks", 
+			theme: "clean",
+ 			numbers: true, 
+ 			controls_position: "center", 
+ 			label: true, 
+ 			controls: false, 
+ 			progressbar: false, 
+ 			hideTools: true
+		});
+	});
+</script>
+</div>
+
+<div class="contentpanel fr news">
+<h2>
+  <img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/new.png" width="82" height="40" />
+  <div class="more_btn rt"><a href="index.php?m=content&c=index&a=lists&catid=53"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/more.png" width="46px" height="18px" /></a></div>
+</h2>
+
+		<ul >
+                          	 
+			<li>
+			<div class="newstitle"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=53&id=96">【5&middot;18活动预告】不忘初心 扬帆启航&mdash;&mdash;中外古代经...</a></div><div class="date">&nbsp;&nbsp;2018-05-16 09:30:01			</div>
+			</li>	
+				 
+			<li>
+			<div class="newstitle"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=53&id=95">海派校园会系列活动——海派文化与上海话 成功举办</a></div><div class="date">&nbsp;&nbsp;2017-10-16 16:34:39			</div>
+			</li>	
+				 
+			<li>
+			<div class="newstitle"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=53&id=94">董浩云航运馆郑和宝船参展上海网球大师赛&mdash;&mdash; &ldquo;航...</a></div><div class="date">&nbsp;&nbsp;2017-10-09 15:26:28			</div>
+			</li>	
+				 
+			<li>
+			<div class="newstitle"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=53&id=93">一代航运人的爱国故事——我的曾祖陈顺通</a></div><div class="date">&nbsp;&nbsp;2017-09-27 08:56:39			</div>
+			</li>	
+				 
+			<li>
+			<div class="newstitle"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=53&id=92">海派校园会</a></div><div class="date">&nbsp;&nbsp;2017-06-21 16:38:18			</div>
+			</li>	
+				 
+			<li>
+			<div class="newstitle"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=53&id=91">5.18国际博物馆日活动预告</a></div><div class="date">&nbsp;&nbsp;2017-04-28 14:12:09			</div>
+			</li>	
+				 
+			<li>
+			<div class="newstitle"><a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=53&id=90">上海交通大学建校百廿一年庆祝活动</a></div><div class="date">&nbsp;&nbsp;2017-04-06 15:22:20			</div>
+			</li>	
+						 	
+		</ul>
+</div>
+
+<div class="clear"></div>
+<div class="f2topbg"></div>
+<div class="contentpanel fl sevice">
+<h2><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/service.png" width="82" height="40"/></h2>
+<div class="timetalbe"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/service1.jpg" /></div>
+</div>
+<div class="line"></div>
+<div class="boatbg fr">
+<div class="contentpanel fl move">
+<h2><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/move.png" width="82" height="40"/></h2>
+<div style="text-align:center; margin-top:10px;"><a href="#" onclick="javascript:window.open('/uploadfile/sjtu/25dt/TourViewer.html','_blank','status=yes,resizable=yes,top=0,left=0,width=1280,height=720');"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/movepic.png" width="231" height="121" /></a></div>
+</div>
+
+<div class="contentpanel fl viedo">
+<h2><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/viedo.png" width="82" height="40"/></h2>
+<div style="text-align:center; margin-top:10px;"><a href="index.php?m=content&c=index&a=lists&catid=72"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/videopic.png" width="231" height="121" /></a></div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="f2dbg"></div>
+<div class="contentpanel fl boutique">
+	<div id="scorllcont" style="width:100%;height:100%;overflow:hidden;">
+	<table border="0" cellspacing="0" cellpadding="0">
+		<tr><td id="scorllcont1">
+			<table border="0" cellspacing="0" cellpadding="0"><tr>							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=339" target="_blank" title="宋  白釉盘" alt="宋  白釉盘" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_107.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=339" class="fancybox fancybox.iframe" target="_blank" title="宋  白釉盘" alt="宋  白釉盘">宋  白釉盘</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=338" target="_blank" title="明  龙泉高足杯" alt="明  龙泉高足杯" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_106.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=338" class="fancybox fancybox.iframe" target="_blank" title="明  龙泉高足杯" alt="明  龙泉高足杯">明  龙泉高足杯</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=337" target="_blank" title="明  龙泉小碗" alt="明  龙泉小碗" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_105.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=337" class="fancybox fancybox.iframe" target="_blank" title="明  龙泉小碗" alt="明  龙泉小碗">明  龙泉小碗</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=336" target="_blank" title="元  龙泉小罐" alt="元  龙泉小罐" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_104.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=336" class="fancybox fancybox.iframe" target="_blank" title="元  龙泉小罐" alt="元  龙泉小罐">元  龙泉小罐</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=335" target="_blank" title="有关郑和下西洋的著作、文集和研究文献" alt="有关郑和下西洋的著作、文集和研究文献" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_103.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=335" class="fancybox fancybox.iframe" target="_blank" title="有关郑和下西洋的著作、文集和研究文献" alt="有关郑和下西洋的著作、文集和研究文献">有关郑和下西洋的...</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=334" target="_blank" title="使用橹的歪屁股船模型" alt="使用橹的歪屁股船模型" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_102.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=334" class="fancybox fancybox.iframe" target="_blank" title="使用橹的歪屁股船模型" alt="使用橹的歪屁股船模型">使用橹的歪屁股船模型</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=333" target="_blank" title="缕悬式指南针" alt="缕悬式指南针" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_101.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=333" class="fancybox fancybox.iframe" target="_blank" title="缕悬式指南针" alt="缕悬式指南针">缕悬式指南针</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=332" target="_blank" title="指南龟" alt="指南龟" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_100.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=332" class="fancybox fancybox.iframe" target="_blank" title="指南龟" alt="指南龟">指南龟</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=331" target="_blank" title="漂浮式指南针" alt="漂浮式指南针" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_099.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=331" class="fancybox fancybox.iframe" target="_blank" title="漂浮式指南针" alt="漂浮式指南针">漂浮式指南针</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=330" target="_blank" title="带撞竿的车轮战船模型" alt="带撞竿的车轮战船模型" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_098.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=330" class="fancybox fancybox.iframe" target="_blank" title="带撞竿的车轮战船模型" alt="带撞竿的车轮战船模型">带撞竿的车轮战船模型</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=329" target="_blank" title="元  枢府青釉折腰碗" alt="元  枢府青釉折腰碗" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_097.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=329" class="fancybox fancybox.iframe" target="_blank" title="元  枢府青釉折腰碗" alt="元  枢府青釉折腰碗">元  枢府青釉折腰碗</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=328" target="_blank" title="元  青釉加彩堆花小水盂" alt="元  青釉加彩堆花小水盂" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_096.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=328" class="fancybox fancybox.iframe" target="_blank" title="元  青釉加彩堆花小水盂" alt="元  青釉加彩堆花小水盂">元  青釉加彩堆...</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=327" target="_blank" title="宋  白釉印莲瓣纹小碗" alt="宋  白釉印莲瓣纹小碗" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_095.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=327" class="fancybox fancybox.iframe" target="_blank" title="宋  白釉印莲瓣纹小碗" alt="宋  白釉印莲瓣纹小碗">宋  白釉印莲瓣纹小碗</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=326" target="_blank" title="元  龙泉青釉瓜棱折壶" alt="元  龙泉青釉瓜棱折壶" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_094.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=326" class="fancybox fancybox.iframe" target="_blank" title="元  龙泉青釉瓜棱折壶" alt="元  龙泉青釉瓜棱折壶">元  龙泉青釉瓜棱折壶</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+							<td>
+						<table border="0" cellspacing="0" cellpadding="0" style="margin:0 4px; width:120px;height:118px;box-shadow:1px 1px 3px #ccc;">
+							<tr>
+								<td valign="center" height="90px" align="center"><a class="fancybox fancybox.iframe" href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=325" target="_blank" title="宋  青白小水盂" alt="宋  青白小水盂" style="word-break:keep-all;">
+									<img src="http://www.maritimemuseum.sjtu.edu.cn/uploadfile/sjtu_exhbt/thumb_120_90_093.jpg" style="max-width:120px;max-height:90px;" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="height:28px;" valign="center" align="center">
+								<a href="http://www.maritimemuseum.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=55&id=325" class="fancybox fancybox.iframe" target="_blank" title="宋  青白小水盂" alt="宋  青白小水盂">宋  青白小水盂</a>
+								</td>
+							</tr>
+						</table>
+				</td>
+						</tr></table>
+		</td>
+		<td id="scorllcont2">&nbsp;</td></tr>
+	</table>
+	</div>
+</div>
+
+<ul class="links">
+<li><a href="http://202.120.126.101/index.php" target="_blank"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/links1.jpg" width="178" height="43" /></a></li>
+<li><a href="http://www.shanghaimuseum.net" target="_blank"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/links2.jpg" width="178" height="43" /></a></li>
+<li><a href="http://202.120.126.101:8000/index.php" target="_blank"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/links3.jpg" width="178" height="43" /></a></li>
+<li><a href="http://202.120.126.101:8080/index.php" target="_blank"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/links4.jpg" width="178" height="43" /></a></li>
+<li style="padding:0"><a href="http://www.museum.shu.edu.cn/" target="_blank"><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/links5.jpg" width="178" height="43" /></a></li>
+</ul>
+<div class="clear"></div>
+<script type="text/javascript" src="http://www.maritimemuseum.sjtu.edu.cn/statics/js/cbbwg/scroll.js"></script>
+<script type="text/javascript" >
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+		helpers	: {
+				title	: {
+					type: 'over'
+				}
+			}
+		});
+		});
+</script>
+<div class="bottompanel">
+<div class="bottompanelinner">
+<div class="copyright">C.Y. TUNG MARITIME MUSEUM &copy; All rights reserved<a><img src="http://www.maritimemuseum.sjtu.edu.cn/statics/images/cbbwg/logo.png" /></a></div>
+</div>
+</div>
+</div>
+<script>
+$(".menu>li").has("ul").addClass("hassub");
+$(".hassub").mouseenter(function(){
+	$(this).children("ul").stop(true,true).delay(100).show(0);
+	$(this).addClass("on");
+	});
+$(".hassub").mouseleave(function(){
+	$(this).children("ul").stop(true,true).delay(100).hide(0);
+	$(this).removeClass("on");
+	});
+$("a[href$='!blank']").each(function(){
+	var ourl = $(this).attr("href");
+	var nurl = ourl.replace("!blank","");
+	$(this).attr("target","_blank");
+	$(this).attr("href",nurl);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1652 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <script>var pageConfig = {jdfVersion:'2.0.0',navId:"question"};</script>
+            <title>帮助中心-京东</title>
+        <link rel="stylesheet" type="text/css" href="/static/css/issueLeft.css">
+    <link type="text/css" rel="stylesheet" href="//static.360buyimg.com/shop/pop_help/css/help.css" source="widget"/>
+    <link type="text/css" rel="stylesheet" href="//static.360buyimg.com/shop/pop_help/css/index.css"/>
+    <link type="text/css" rel="stylesheet" href="//static.360buyimg.com/bus/web2017/bwb3.0/web/dist/wap.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/otherways.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/help-customer.css">
+    <script type="text/javascript" src="//misc.360buyimg.com/jdf/??lib/jquery-1.6.4.js,1.0.0/unit/base/1.0.0/base.js"></script>
+    <script type="text/javascript" src="//static.360buyimg.com/jimi_open/v2/js/jimi.simple.user.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/jingling.css">
+</head>
+<body style="font: 12px/1 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;">
+    <link rel="stylesheet" type="text/css" href="/static/css/header.css">
+<div class="header">
+    <div class="header-top">
+        <div class="top-main">
+            <div class="notices" style="display: none">
+                <p class="notices-latest txt1">最新公告：</p>
+                            <ul class="notices-list">
+                
+                </ul>
+                <a href="http://mjbbs.jd.com/forum-2-1.html" class="more-notices txt1">更多></a>
+            </div>
+            <div class="user-state">
+                <i class="user-img"></i>
+                                                             <div class="nologin-state" style="display: inline-block;">
+                        <a id="help_login" href="//helpcenter.jd.com/login/login.action" clstag="pageclick|keycount|helpcenter_home|2" class="link-login">登录</a>
+                        <span class="dashed-line"></span>
+                        <a href="javascript:regist();" class="register txt1">注册</a>
+                    </div>
+                            </div>
+        </div>
+    </div>
+    <div class="header-banner second-header-banner">
+        <div class="banner-main">
+            <div class="helpcenter-logo">
+                <a href="/venderportal/index.html">
+                    <img src="/static/img/shouye/8.png" alt="京东帮助中心">
+                </a>
+            </div>
+            <div class="helpcenter-search second-helpcenter-search">
+                <h1 class="time-tit">
+                    <span>上午好</span>，京东和您一起成长！
+                </h1>
+                <div class="search-box second-search-box">
+    <div class="search-main">
+        <form id="searchForm">
+            <input type="text" id="second-keyword" class="text-search" name="keyword" placeholder="请用一句话描述您的问题" autocomplete="off">
+            <input type="button" clstag="pageclick|keycount|helpcenter_home|158" class="btn-search">
+        </form>
+    </div>
+</div>
+<p class="hot-sosuo">
+    <span>热门搜索：</span>
+    <a href="javascript:;" clstag="pageclick|keycount|helpcenter_home|159" class="hot-text">电子面单</a>,
+    <a href="javascript:;" clstag="pageclick|keycount|helpcenter_home|160" class="hot-text">招商入驻</a>,
+    <a href="javascript:;" clstag="pageclick|keycount|helpcenter_home|161" class="hot-text">拼购</a>
+</p>
+<link rel="stylesheet" type="text/css" href="/static/css/secondPage/secondTopSearch.css">
+<div class="top-search" style="display: none">
+    <div class="top-search-main">
+        <div class="top-tag">
+            <a href="https://helpcenter.jd.com/vender/index.html" target="_blank">知识学习</a>
+            <a href="http://mjbbs.jd.com/forum-50-1.html" target="_blank">问商友</a>
+            <a href="https://xue.jd.com" target="_blank">培训班</a>
+        </div>
+        <div class="top-search-box">
+            <div class="search-box">
+                <div class="search-main">
+                    <form id="searchForm">
+                        <input type="text" id="top-keyword" class="text-search" name="keyword" placeholder="请用一句话描述您的问题" autocomplete="off">
+                        <input type="button" clstag="pageclick|keycount|helpcenter_home|158" class="btn-search">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        $(".text-search").val("");
+        //  二级页面吸顶搜索框
+        var searchH = $(".hot-sosuo").offset().top;
+        $(window).scroll(function () {
+            if($(document).scrollTop() > searchH){
+                $(".top-search").fadeIn();
+            } else {
+                $(".top-search").hide();
+            }
+        })
+        // //  获取缓存中的搜索关键词
+        // var tags = JSON.parse(sessionStorage.getItem("tags"));
+        // if(tags != null){
+        //     var hotText = tags.key;
+        //     if(hotText){
+        //         $(".text-search").val(hotText);
+        //     }
+        // }
+    });
+
+</script>            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+            $(".link-login").click(function () {
+                if(pageConfig.navId){
+                    var object = jQuery("#nav-"+pageConfig.navId);
+                    if(object){
+                        object.addClass("on");
+                    }
+                }
+                var loginActionUrl = jQuery("#help_login").attr("href");
+                var logoutActionUrl = jQuery("#help_logout").attr("href");
+                jQuery("#help_login").attr("href",loginActionUrl+"?toDirectUrl="+window.location.href);
+                jQuery("#help_logout").attr("href",logoutActionUrl+"?toDirectUrl="+window.location.href);
+            })
+        /*------------------*/
+        //  最新公告轮播
+        function timer(opj) {
+            $(opj).find('ul').animate({
+                marginTop: "-30px"
+            }, 500, function () {
+                $(this).css({marginTop: "0px"}).find("li:first").appendTo(this);
+            })
+        }
+        //  最新公告轮播数据
+        jQuery.ajax({
+            url: "/import/notice/queryImportNotice.action",
+            data: null,
+            dataType: "json",
+            type: "post",
+            success: function (result) {
+                var item = result.content;
+                var ul = $(".notices-list");
+                if(item.length > 0){
+                    $(".notices").show();
+                    for (var i in item) {
+                        var item = result.content;
+                        var li = "<li><a href='" + item[i].noticeUrl + "' clatag='pageclick|keycount|helpcenter_home|" + (150+i) + "' title='" + item[i].noticeName + "' target='_blank'>" + item[i].noticeName + "</a></li>"
+                        ul.append(li);
+                    }
+                    var len = ul.find("li").length;
+                    $(".notices-list").css("height", len * 30 + "px");
+                    var count = 0,timer = null;;
+                    function goSlide() {
+                        timer = setInterval(function(){
+                            count++;
+                            if(count == $('.page-num li').length){
+                                count = 0;
+                            }
+                            $('.notices-list').stop().animate({"top":"-30px"},function(){
+                                $('.notices-list li').eq(0).appendTo('.notices-list');
+                                $('.notices-list').css('top',0);
+                            })
+                        },3000)
+                    }
+                    goSlide();
+                    $('.notices-list li').mousemove(function () {
+                        clearInterval(timer);
+                    }).mouseout(function () {
+                        goSlide();
+                    });
+                } else {
+                    $(".notices").hide();
+                }
+            }
+        });
+        /*-----------------*/
+        //  点击记录热搜词
+        $(".hot-text").click(function () {
+            var hotText = $(this).text();
+            sessionStorage.setItem("hotText", hotText);
+        });
+        //  根据时间切换banner
+        var now = new Date();
+        var hour = now.getHours();
+        if (hour >= 5 && hour < 12) {
+            $(".time-tit span").text("上午好");
+            $(".header-banner").css("background-image", "url('/static/img/second/morning.png')");
+        }
+        if (hour >= 12 && hour < 18) {
+            $(".time-tit span").text("下午好");
+            $(".header-banner").css("background-image", "url('/static/img/second/noon.png')");
+        }
+        if ((hour >= 18 && hour < 24) || (hour >= 0 && hour < 5)) {
+            $(".time-tit span").text("晚上好");
+            $(".header-banner").css("background-image", "url('/static/img/second/evening.png')");
+        }
+        $(".link-login").click(function () {
+            if(pageConfig.navId){
+                var object = jQuery("#nav-"+pageConfig.navId);
+                if(object){
+                    object.addClass("on");
+                }
+            }
+            var loginActionUrl = jQuery("#help_login").attr("href");
+            var logoutActionUrl = jQuery("#help_logout").attr("href");
+            jQuery("#help_login").attr("href",loginActionUrl+"?toDirectUrl="+window.location.href);
+            jQuery("#help_logout").attr("href",logoutActionUrl+"?toDirectUrl="+window.location.href);
+        })
+    });
+</script>
+
+<script type="text/javascript">
+    $(".text-search").val("");
+
+    //  点击搜索按钮
+    $(".btn-search").click(function () {
+        $("#pager").html(""); // 清空分页器
+        var hotText =  $(this).siblings(".text-search").val();
+        $(".text-search").val(hotText);
+        tags = {
+            key: hotText,
+            bizTypeIds:"1 2 3",
+            label1Ids: "",
+            label2Ids: "",
+            page: "",
+            pagesize: "",
+            contentTypes: "",
+            sort: "",
+            bizIds: "",
+            categoryType: "0 516"
+        };
+        sessionStorage.setItem("tags", JSON.stringify(tags));
+        window.location.href = "/issue/search";
+    })
+
+    //  回车键执行搜索功能
+    $(document).keypress(function (e) {
+        if (e.keyCode == 13) {
+            e.preventDefault();
+            var searchH = $(".hot-sosuo").offset().top;
+            if($(document).scrollTop() > searchH){
+                // 经测试，吸顶搜索框会自己上报
+                $(".btn-search").eq(1).click();
+            } else {
+                // 子午线log方式埋点
+                log('helpcenter_home','158');
+                $(".btn-search").eq(0).click();
+            }
+        }
+    });
+
+    $(".hot-text").click(function () {
+        $("#pager").html("");  // 清空分页器
+        var hotText = $(this).text();
+        $(".text-search").val(hotText);
+        tags = {
+            key: hotText,
+            bizTypeIds:"1 2 3",
+            label1Ids: "",
+            label2Ids: "",
+            page: "",
+            pagesize: "",
+            contentTypes: "",
+            sort: "",
+            bizIds: "",
+            categoryType: "0 516"
+        };
+        sessionStorage.setItem("tags", JSON.stringify(tags));
+        window.location.href = "/issue/search";
+    });
+</script>
+<div class="l-wrap" style="margin-top: -83px;">
+    <div class="l-main">
+        <!--  /widget/h-menu/h-menu.vm -->
+        <style>
+    .li-level03-item{
+        width: 0px;
+    }
+    .hc-click{
+        background: #474747;
+    }
+</style>
+
+<div class="l-menu leftDiv">
+    <h3 class="menu-title" id="menu-title" style="position:relative;height:83px;border-bottom: 1px solid black;padding-left: 27px;padding-top: 18px;box-sizing: border-box;">
+        <span style="position: absolute;top: 27px;left: 27px;">
+            <img src="/static/img/issueLeft/1.png" style="width:28px;height: 28px"/>
+        </span>
+        <a href="//helpcenter.jd.com/vender/index.html">商家常见问题</a>
+    </h3>
+    <!-- h-menu-shortcut -->
+
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="113" clstag="pageclick|keycount|helpcenter_questionbox_list|113">
+                我的店铺  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="114" data-name="店铺管理" data-parent-id="113" data-parent-name="我的店铺" clstag="pageclick|keycount|helpcenter_questionbox_list|114">
+                            <h4 id="114" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                店铺管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="116" data-name="店铺装修" data-parent-id="113" data-parent-name="我的店铺" clstag="pageclick|keycount|helpcenter_questionbox_list|116">
+                            <h4 id="116" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                店铺装修
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="117" data-name="品牌管理" data-parent-id="113" data-parent-name="我的店铺" clstag="pageclick|keycount|helpcenter_questionbox_list|117">
+                            <h4 id="117" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                品牌管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="120" data-name="二级域名申请" data-parent-id="113" data-parent-name="我的店铺" clstag="pageclick|keycount|helpcenter_questionbox_list|120">
+                            <h4 id="120" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                二级域名申请
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="124" data-name="运费险管理" data-parent-id="113" data-parent-name="我的店铺" clstag="pageclick|keycount|helpcenter_questionbox_list|124">
+                            <h4 id="124" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                运费险管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="126" data-name="京东好店" data-parent-id="113" data-parent-name="我的店铺" clstag="pageclick|keycount|helpcenter_questionbox_list|126">
+                            <h4 id="126" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东好店
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="127" data-name="保险服务" data-parent-id="113" data-parent-name="我的店铺" clstag="pageclick|keycount|helpcenter_questionbox_list|127">
+                            <h4 id="127" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                保险服务
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="128" data-name="商家服务中心" data-parent-id="113" data-parent-name="我的店铺" clstag="pageclick|keycount|helpcenter_questionbox_list|128">
+                            <h4 id="128" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商家服务中心
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="135" clstag="pageclick|keycount|helpcenter_questionbox_list|135">
+                商品管理  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="136" data-name="在售商品管理" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|136">
+                            <h4 id="136" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                在售商品管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="137" data-name="添加新商品" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|137">
+                            <h4 id="137" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                添加新商品
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="138" data-name="待售商品管理" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|138">
+                            <h4 id="138" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                待售商品管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="139" data-name="商品资质管理" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|139">
+                            <h4 id="139" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商品资质管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="140" data-name="关联版式设置" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|140">
+                            <h4 id="140" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                关联版式设置
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="141" data-name="库存管理" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|141">
+                            <h4 id="141" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                库存管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="142" data-name="属性管理" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|142">
+                            <h4 id="142" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                属性管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="145" data-name="商品回收站" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|145">
+                            <h4 id="145" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商品回收站
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="146" data-name="商品评价管理" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|146">
+                            <h4 id="146" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商品评价管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="151" data-name="商品上架" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|151">
+                            <h4 id="151" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商品上架
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="152" data-name="商品下架" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|152">
+                            <h4 id="152" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商品下架
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="154" data-name="删除商品" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|154">
+                            <h4 id="154" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                删除商品
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="155" data-name="预售商品" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|155">
+                            <h4 id="155" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                预售商品
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="156" data-name="视频管理" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|156">
+                            <h4 id="156" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                视频管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="157" data-name="质量标准" data-parent-id="135" data-parent-name="商品管理" clstag="pageclick|keycount|helpcenter_questionbox_list|157">
+                            <h4 id="157" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                质量标准
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="158" clstag="pageclick|keycount|helpcenter_questionbox_list|158">
+                订单管理  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="159" data-name="订单查询与跟踪(SOP)" data-parent-id="158" data-parent-name="订单管理" clstag="pageclick|keycount|helpcenter_questionbox_list|159">
+                            <h4 id="159" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                订单查询与跟踪(SOP)
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="160" data-name="预售订单查询" data-parent-id="158" data-parent-name="订单管理" clstag="pageclick|keycount|helpcenter_questionbox_list|160">
+                            <h4 id="160" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                预售订单查询
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="165" data-name="删单申请" data-parent-id="158" data-parent-name="订单管理" clstag="pageclick|keycount|helpcenter_questionbox_list|165">
+                            <h4 id="165" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                删单申请
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="167" data-name="开通订单备注" data-parent-id="158" data-parent-name="订单管理" clstag="pageclick|keycount|helpcenter_questionbox_list|167">
+                            <h4 id="167" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                开通订单备注
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="171" clstag="pageclick|keycount|helpcenter_questionbox_list|171">
+                促销推广  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="172" data-name="创建促销" data-parent-id="171" data-parent-name="促销推广" clstag="pageclick|keycount|helpcenter_questionbox_list|172">
+                            <h4 id="172" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                创建促销
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="174" data-name="审核促销" data-parent-id="171" data-parent-name="促销推广" clstag="pageclick|keycount|helpcenter_questionbox_list|174">
+                            <h4 id="174" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                审核促销
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="175" data-name="优惠券管理" data-parent-id="171" data-parent-name="促销推广" clstag="pageclick|keycount|helpcenter_questionbox_list|175">
+                            <h4 id="175" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                优惠券管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="180" data-name="试用活动" data-parent-id="171" data-parent-name="促销推广" clstag="pageclick|keycount|helpcenter_questionbox_list|180">
+                            <h4 id="180" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                试用活动
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="182" data-name="营销活动" data-parent-id="171" data-parent-name="促销推广" clstag="pageclick|keycount|helpcenter_questionbox_list|182">
+                            <h4 id="182" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                营销活动
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="183" data-name="术语解读" data-parent-id="171" data-parent-name="促销推广" clstag="pageclick|keycount|helpcenter_questionbox_list|183">
+                            <h4 id="183" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                术语解读
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="365" data-name="京东拼购" data-parent-id="171" data-parent-name="促销推广" clstag="pageclick|keycount|helpcenter_questionbox_list|365">
+                            <h4 id="365" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东拼购
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="187" clstag="pageclick|keycount|helpcenter_questionbox_list|187">
+                活动报名  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="191" data-name="频道活动" data-parent-id="187" data-parent-name="活动报名" clstag="pageclick|keycount|helpcenter_questionbox_list|191">
+                            <h4 id="191" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                频道活动
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="192" clstag="pageclick|keycount|helpcenter_questionbox_list|192">
+                我的配送  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="193" data-name="物流公司管理" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|193">
+                            <h4 id="193" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                物流公司管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="194" data-name="设置快递单模板" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|194">
+                            <h4 id="194" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                设置快递单模板
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="195" data-name="发货地址管理" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|195">
+                            <h4 id="195" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                发货地址管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="196" data-name="运费模板" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|196">
+                            <h4 id="196" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                运费模板
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="198" data-name="电子面单服务" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|198">
+                            <h4 id="198" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                电子面单服务
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="199" data-name="承诺配送时效" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|199">
+                            <h4 id="199" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                承诺配送时效
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="200" data-name="物流履约" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|200">
+                            <h4 id="200" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                物流履约
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="201" data-name="仓储服务" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|201">
+                            <h4 id="201" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                仓储服务
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="202" data-name="货到付款" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|202">
+                            <h4 id="202" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                货到付款
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="203" data-name="退货服务" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|203">
+                            <h4 id="203" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                退货服务
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="204" data-name="商务合作" data-parent-id="192" data-parent-name="我的配送" clstag="pageclick|keycount|helpcenter_questionbox_list|204">
+                            <h4 id="204" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商务合作
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="205" clstag="pageclick|keycount|helpcenter_questionbox_list|205">
+                售后客服  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="206" data-name="取消订单管理" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|206">
+                            <h4 id="206" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                取消订单管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="207" data-name="自主售后" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|207">
+                            <h4 id="207" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                自主售后
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="208" data-name="赔付管理" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|208">
+                            <h4 id="208" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                赔付管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="209" data-name="交易纠纷管理" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|209">
+                            <h4 id="209" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                交易纠纷管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="210" data-name="400热线管理" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|210">
+                            <h4 id="210" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                400热线管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="213" data-name="备件库退货地址" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|213">
+                            <h4 id="213" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                备件库退货地址
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="214" data-name="自主售后退货地址" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|214">
+                            <h4 id="214" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                自主售后退货地址
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="215" data-name="退货管理" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|215">
+                            <h4 id="215" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                退货管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="216" data-name="退换货申诉管理" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|216">
+                            <h4 id="216" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                退换货申诉管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="217" data-name="工商举报投诉" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|217">
+                            <h4 id="217" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                工商举报投诉
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="218" data-name="服务监控" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|218">
+                            <h4 id="218" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                服务监控
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="219" data-name="售后审核" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|219">
+                            <h4 id="219" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                售后审核
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="221" data-name="评价管理" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|221">
+                            <h4 id="221" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                评价管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="222" data-name="售后客服答疑" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|222">
+                            <h4 id="222" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                售后客服答疑
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="223" data-name="JIMI客服机器人" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|223">
+                            <h4 id="223" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                JIMI客服机器人
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="224" data-name="商家咚咚" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|224">
+                            <h4 id="224" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商家咚咚
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="225" data-name="京东放心购" data-parent-id="205" data-parent-name="售后客服" clstag="pageclick|keycount|helpcenter_questionbox_list|225">
+                            <h4 id="225" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东放心购
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="226" clstag="pageclick|keycount|helpcenter_questionbox_list|226">
+                奖惩管理  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="227" data-name="奖励管理" data-parent-id="226" data-parent-name="奖惩管理" clstag="pageclick|keycount|helpcenter_questionbox_list|227">
+                            <h4 id="227" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                奖励管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="228" data-name="违规管理" data-parent-id="226" data-parent-name="奖惩管理" clstag="pageclick|keycount|helpcenter_questionbox_list|228">
+                            <h4 id="228" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                违规管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="229" data-name="违规积分" data-parent-id="226" data-parent-name="奖惩管理" clstag="pageclick|keycount|helpcenter_questionbox_list|229">
+                            <h4 id="229" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                违规积分
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="230" data-name="申诉" data-parent-id="226" data-parent-name="奖惩管理" clstag="pageclick|keycount|helpcenter_questionbox_list|230">
+                            <h4 id="230" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                申诉
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="231" clstag="pageclick|keycount|helpcenter_questionbox_list|231">
+                结算管理  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="232" data-name="对账单查询" data-parent-id="231" data-parent-name="结算管理" clstag="pageclick|keycount|helpcenter_questionbox_list|232">
+                            <h4 id="232" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                对账单查询
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="234" data-name="本期结算查询" data-parent-id="231" data-parent-name="结算管理" clstag="pageclick|keycount|helpcenter_questionbox_list|234">
+                            <h4 id="234" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                本期结算查询
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="236" data-name="商家结算流程必读" data-parent-id="231" data-parent-name="结算管理" clstag="pageclick|keycount|helpcenter_questionbox_list|236">
+                            <h4 id="236" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                商家结算流程必读
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="237" data-name="T+1结算对账" data-parent-id="231" data-parent-name="结算管理" clstag="pageclick|keycount|helpcenter_questionbox_list|237">
+                            <h4 id="237" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                T+1结算对账
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="238" data-name="票据管理" data-parent-id="231" data-parent-name="结算管理" clstag="pageclick|keycount|helpcenter_questionbox_list|238">
+                            <h4 id="238" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                票据管理
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="239" data-name="保证金台账" data-parent-id="231" data-parent-name="结算管理" clstag="pageclick|keycount|helpcenter_questionbox_list|239">
+                            <h4 id="239" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                保证金台账
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="358" data-name="银行账号验证及支付问题" data-parent-id="231" data-parent-name="结算管理" clstag="pageclick|keycount|helpcenter_questionbox_list|358">
+                            <h4 id="358" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                银行账号验证及支付问题
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="249" clstag="pageclick|keycount|helpcenter_questionbox_list|249">
+                账号管理  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="250" data-name="账号帮助" data-parent-id="249" data-parent-name="账号管理" clstag="pageclick|keycount|helpcenter_questionbox_list|250">
+                            <h4 id="250" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                账号帮助
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="251" data-name="基本信息" data-parent-id="249" data-parent-name="账号管理" clstag="pageclick|keycount|helpcenter_questionbox_list|251">
+                            <h4 id="251" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                基本信息
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="253" data-name="角色管理" data-parent-id="249" data-parent-name="账号管理" clstag="pageclick|keycount|helpcenter_questionbox_list|253">
+                            <h4 id="253" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                角色管理
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="258" clstag="pageclick|keycount|helpcenter_questionbox_list|258">
+                增值服务  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="259" data-name="我的服务" data-parent-id="258" data-parent-name="增值服务" clstag="pageclick|keycount|helpcenter_questionbox_list|259">
+                            <h4 id="259" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                我的服务
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="260" data-name="更多服务" data-parent-id="258" data-parent-name="增值服务" clstag="pageclick|keycount|helpcenter_questionbox_list|260">
+                            <h4 id="260" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                更多服务
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="261" clstag="pageclick|keycount|helpcenter_questionbox_list|261">
+                用户营销  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="265" data-name="评价有礼" data-parent-id="261" data-parent-name="用户营销" clstag="pageclick|keycount|helpcenter_questionbox_list|265">
+                            <h4 id="265" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                评价有礼
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="292" clstag="pageclick|keycount|helpcenter_questionbox_list|292">
+                招商入驻  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="293" data-name="招商政策" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|293">
+                            <h4 id="293" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                招商政策
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="294" data-name="入驻流程" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|294">
+                            <h4 id="294" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                入驻流程
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="295" data-name="资质要求规则" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|295">
+                            <h4 id="295" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                资质要求规则
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="296" data-name="经营资费规则" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|296">
+                            <h4 id="296" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                经营资费规则
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="297" data-name="店铺命名规则" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|297">
+                            <h4 id="297" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                店铺命名规则
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="298" data-name="京东钱包" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|298">
+                            <h4 id="298" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东钱包
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="300" data-name="京东微店" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|300">
+                            <h4 id="300" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东微店
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="303" data-name="京东服务帮" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|303">
+                            <h4 id="303" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东服务帮
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="306" data-name="招商联系方式" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|306">
+                            <h4 id="306" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                招商联系方式
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="307" data-name="续签退出" data-parent-id="292" data-parent-name="招商入驻" clstag="pageclick|keycount|helpcenter_questionbox_list|307">
+                            <h4 id="307" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                续签退出
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="308" clstag="pageclick|keycount|helpcenter_questionbox_list|308">
+                平台秩序规则  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="309" data-name="基础规则" data-parent-id="308" data-parent-name="平台秩序规则" clstag="pageclick|keycount|helpcenter_questionbox_list|309">
+                            <h4 id="309" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                基础规则
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="311" data-name="专项市场规则" data-parent-id="308" data-parent-name="平台秩序规则" clstag="pageclick|keycount|helpcenter_questionbox_list|311">
+                            <h4 id="311" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                专项市场规则
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="313" clstag="pageclick|keycount|helpcenter_questionbox_list|313">
+                数据分析工具  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="315" data-name="数据分析" data-parent-id="313" data-parent-name="数据分析工具" clstag="pageclick|keycount|helpcenter_questionbox_list|315">
+                            <h4 id="315" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                数据分析
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="317" clstag="pageclick|keycount|helpcenter_questionbox_list|317">
+                免费流量  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="318" data-name="搜索流量" data-parent-id="317" data-parent-name="免费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|318">
+                            <h4 id="318" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                搜索流量
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="320" data-name="促销工具" data-parent-id="317" data-parent-name="免费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|320">
+                            <h4 id="320" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                促销工具
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="321" data-name="频道玩法" data-parent-id="317" data-parent-name="免费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|321">
+                            <h4 id="321" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                频道玩法
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="323" clstag="pageclick|keycount|helpcenter_questionbox_list|323">
+                付费流量  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="324" data-name="京准通平台" data-parent-id="323" data-parent-name="付费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|324">
+                            <h4 id="324" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京准通平台
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="325" data-name="京东快车" data-parent-id="323" data-parent-name="付费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|325">
+                            <h4 id="325" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东快车
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="327" data-name="京挑客" data-parent-id="323" data-parent-name="付费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|327">
+                            <h4 id="327" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京挑客
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="330" data-name="京东直投" data-parent-id="323" data-parent-name="付费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|330">
+                            <h4 id="330" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东直投
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="332" data-name="框架广告" data-parent-id="323" data-parent-name="付费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|332">
+                            <h4 id="332" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                框架广告
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="333" data-name="秒杀" data-parent-id="323" data-parent-name="付费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|333">
+                            <h4 id="333" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                秒杀
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="334" data-name="付费服务" data-parent-id="323" data-parent-name="付费流量" clstag="pageclick|keycount|helpcenter_questionbox_list|334">
+                            <h4 id="334" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                付费服务
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="336" clstag="pageclick|keycount|helpcenter_questionbox_list|336">
+                内容营销  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="340" data-name="京任务发布" data-parent-id="336" data-parent-name="内容营销" clstag="pageclick|keycount|helpcenter_questionbox_list|340">
+                            <h4 id="340" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京任务发布
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="346" clstag="pageclick|keycount|helpcenter_questionbox_list|346">
+                消费者保障规则  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="348" data-name="放心购规则" data-parent-id="346" data-parent-name="消费者保障规则" clstag="pageclick|keycount|helpcenter_questionbox_list|348">
+                            <h4 id="348" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                放心购规则
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="349" data-name="特色服务规则" data-parent-id="346" data-parent-name="消费者保障规则" clstag="pageclick|keycount|helpcenter_questionbox_list|349">
+                            <h4 id="349" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                特色服务规则
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="350" data-name="争议处理规则" data-parent-id="346" data-parent-name="消费者保障规则" clstag="pageclick|keycount|helpcenter_questionbox_list|350">
+                            <h4 id="350" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                争议处理规则
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="351" clstag="pageclick|keycount|helpcenter_questionbox_list|351">
+                特色课程  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="354" data-name="京东金融" data-parent-id="351" data-parent-name="特色课程" clstag="pageclick|keycount|helpcenter_questionbox_list|354">
+                            <h4 id="354" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                京东金融
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+            <dl class="h-menu-box" style="padding: 0;">
+            <dt class="h-menu-hd" style="font-weight: normal;padding-top: 10px;border-bottom: 1px solid rgba(255,255,255,0.22);box-sizing: border-box;padding-left: 52px;padding-top12px;font-size: 16px;" data-id="380" clstag="pageclick|keycount|helpcenter_questionbox_list|380">
+                模板下载  <i class="icon-menu-drop" style="width:10px;height:14px;top:14px;background: url(/static/img/issueLeft/4.png) no-repeat center center;"></i>
+            </dt>
+            <dd class="h-menu-bd">
+                <ul class="h-menu-list">
+                                            <li class="li-item" data-id="381" data-name="入驻资质" data-parent-id="380" data-parent-name="模板下载" clstag="pageclick|keycount|helpcenter_questionbox_list|381">
+                            <h4 id="381" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                入驻资质
+                            </h4>
+                        </li>
+                                            <li class="li-item" data-id="382" data-name="结算相关" data-parent-id="380" data-parent-name="模板下载" clstag="pageclick|keycount|helpcenter_questionbox_list|382">
+                            <h4 id="382" class="h-level02-title" style="background:rgb(104,104,104);font-size: 14px;color:white;border-bottom: 1px solid rgba(255,255,255,0.22);padding-left: 70px;">
+                                结算相关
+                            </h4>
+                        </li>
+                                    </ul>
+            </dd>
+        </dl>
+        <!-- h-menu-hd -->
+</div>
+
+<script>
+$(document).ready(function () {
+    $(".h-menu-box:last").css("padding-bottom","40px");
+
+    $(".h-menu-box .h-menu-hd").click(function(){
+        var o_parent=$(this).parent();
+        if(o_parent.hasClass("h-menu-on")){
+            o_parent.removeClass("h-menu-on");
+            $(".icon-menu-drop").css({"width":"10px","height":"14px","background":"url(/static/img/issueLeft/4.png) no-repeat center center"});
+        }else{
+            o_parent.addClass("h-menu-on").siblings().removeClass("h-menu-on");
+            $(".icon-menu-drop").css({"width":"10px","height":"14px","background":"url(/static/img/issueLeft/4.png) no-repeat center center"});
+            $(this).find("i").css({"width":"14px","height":"10px","background":"url(/static/img/issueLeft/5.png) no-repeat center center"});
+        }
+    })
+
+    $(".h-level02-title").mouseenter(function () {
+        $(this).css("background","#474747");
+    })
+
+    $(".h-level02-title").mouseleave(function () {
+        if($(this).hasClass("hc-click")){
+            $(this).css("background","#474747");
+        }else {
+            $(this).css("background","rgb(104,104,104)");
+        }
+    })
+
+    $(".h-level02-title").click(function () {
+        $(this).siblings().removeClass("hc-click");
+        $(this).addClass("hc-click");
+    })
+
+    $(".h-level02-title").click(function () {
+        var URL = "/issue/issueList.action?knowledgeEsBean.label2Ids=";
+        var issue_ID= $(this).attr("id");
+        var fin_URL =URL+issue_ID;
+        var msg = $(this).text();
+        sessionStorage.setItem("hc-nav2",msg);
+        window.location.href = fin_URL;
+        sessionStorage.setItem("item_index",issue_ID);
+    })
+
+    $(".h-menu-hd").click(function () {
+        var msg = $(this).text();
+        var dataId = $(this).attr("data-id");
+        sessionStorage.setItem("hc-nav1",msg);
+        sessionStorage.setItem("hc-nav1-data-id",dataId);
+        $("#firstNav").html(">"+"<a href='"+"/issue/issueList.action?knowledgeEsBean.label2Ids="+dataId+"'>" + msg+"</a>");
+        $("#secondNav").html("");
+        $(".bread-title").css("color","rgb(102,102,102)");
+        $("#firstNav").css("color","black");
+    })
+
+    $(".h-level02-title").click(function () {
+        var msg = $(this).text();
+        var dataId = $(this).attr("id");
+        sessionStorage.setItem("hc-nav2",msg);
+        sessionStorage.setItem("hc-nav2-data-id",dataId);
+        $("#secondNav").html(">"+"<a href='"+"/issue/issueList.action?knowledgeEsBean.label2Ids="+dataId+"'>" + msg+"</a>");
+        $("#firstNav").css("color","rgb(102,102,102)");
+        $("#secondNav").css("color","black");
+    })
+})
+</script>
+        <!--/ /widget/h-menu/h-menu.vm -->
+        <style>
+    .otherways-box {
+        margin-top: 0px;
+    }
+
+    .wt-detail {
+        font-size: 14px;
+    }
+
+    .wt-footer {
+        margin-bottom: 0px;
+    }
+
+    .aaa {
+        display: inline-block;
+        width: 280px;
+        float: left;
+        padding-bottom: 20px;
+    }
+</style>
+
+<div class="bread-main">
+    <span class="bread-title"  style="display: none"><a href="/venderportal/index.html">帮助中心首页</a></span>
+    <span id="firstNav" style="font-size: 14px; display: none"></span>
+    <span id="secondNav" style="font-size: 14px; display: none"></span>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/static/css/issueLeft.css">
+<div class="l-content">
+    <input type="hidden" id="issue_id" value="3033">
+    <input type="hidden" id="issue_suggest_id" value="">
+    <input type="hidden" id="userPin" value="">
+    <div class="wt-detailbox">
+        <div class="wt-detail">
+            <h3 style="width:auto;text-align: left;font-family:'微软雅黑';font-weight:bold; font-size: 14px;margin-bottom: 10px;">京东无界电子面单服务《商家手册》 V2.1</h3>
+            <p style="text-align: center; line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"></span></p><p style="text-align: center; line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><strong><span style="font-family: 微软雅黑,Microsoft YaHei; line-height: 150%;">京东无界电子面单服务《商家手册》</span></strong></span></p><p style="text-align:center;line-height:150%"><strong><span style="font-size:29px;line-height:150%;font-family:&#39;微软雅黑&#39;,sans-serif">V2.1</span></strong></p><p><br/></p><h1 style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">一、服务介绍</span></h1><p style="text-indent: 28px; line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">京东无界电子面单服务，是指由快递公司通过京东向卖家提供的一种通过热敏纸打印输出纸质物流面单的物流服务（京东提供技术和系统支持）。</span></p><p style="text-indent: 28px; line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><strong><span style="font-size: 14px; font-family: &quot;微软雅黑&quot;,sans-serif;">具体实现流程是由快递公司向京东预发物流单号，在快递公司预发的物流单号范围内，快递公司授权京东向商家开通此项服务并向申请物流单号的卖家下发物流单号</span></strong><span style="font-size: 14px; font-family: &quot;微软雅黑&quot;,sans-serif;">，当卖家产生销售订单并产生物流需求时，卖家可在绑定物流面单号后，生成物流面单信息，并通过热敏纸打印输出纸质物流面单。</span></span></p><p style="text-indent: 28px; line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">与目前传统的纸质面单相比，最直接的区别在于电子面单是通过热敏纸、热敏打印机进行面单的打印的，没有复写联，只有上下联。</span></p><p><br/></p><h1 style="line-height: 1.75em;"><br/><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"></span></h1><h1 style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">二、服务价值</span></h1><p style="margin-left: 56px; line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">l<span style="font-family: 微软雅黑,Microsoft YaHei; font-style: normal; font-weight: normal; line-height: normal; font-size-adjust: none; font-stretch: normal; font-feature-settings: normal; font-language-override: normal; font-kerning: auto; font-synthesis: weight style; font-variant: normal;">&nbsp; </span><strong>打印速度提升：</strong>电子面单是普通纸质面单的4-6倍，平均每单打印只需花费1-2秒钟，高效率的打单大大缓解电商等客户的大批量打单压力，轻松应对大促。</span></p><p style="margin-left: 56px; line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-size: 14px; font-family: Wingdings;">l<span style="font: 9px &quot;Times New Roman&quot;;">&nbsp; </span></span><strong><span style="font-size: 14px; font-family: &quot;微软雅黑&quot;,sans-serif;">提高发货效率：</span></strong><span style="font-size: 14px; font-family: &quot;微软雅黑&quot;,sans-serif;">传统发货模式，操作员需要将已打出的快递单和订单信息匹配后再发货，电子面单不需要把快递单和定单信息逐一匹配操作，在定单信息申请快递单号的时候就已完成了定单匹配；卖家无需再安排人员专门抽取“发货联”，操作效率进一步提升。</span></span></p><p><br/></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><br/></span></p><p style="line-height: 1.75em;"><strong><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">三、服务使用流程</span></strong></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t17374/183/1243856882/149874/8f3b81c2/5ac32301Nb867d46d.png" title="" alt="" style="width: 692px; height: 240px;" height="240" width="692"/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: red;"><br/></span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: red;">1、服务开通及设置：</span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">▲&nbsp;<strong>服务入口</strong>：商家后台—我的配送—电子面单服务—电子面单；</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">&nbsp;<span style="font-size: 14px; font-family: &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3454/238/705626083/24184/5b8ad7f9/5811c8fdN9318d2c1.png" alt=""/></span></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: &quot;Microsoft YaHei&quot;;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: yellow; font-size: 12pt; background: none 0% 0% repeat scroll blue;">重要：</span><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: yellow; background: none 0% 0% repeat scroll blue;">本服务申请快捷链接：</span></span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; color: yellow; font-family: &quot;Microsoft YaHei&quot;;">http://order.shop.jd.com/eps/eps_electronicSurface.action</span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">▲<strong>申请服务商</strong>：</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">&nbsp; 1）以“中通快递”为例：</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3634/157/724707536/16914/d2619cd8/5811c90fN8581f4bf.png" alt=""/><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">&nbsp;&nbsp; 2）提交电子面单申请信息：</span></p><p style="line-height: 1.75em;"><span style="font-family: 微软雅黑,&quot;Microsoft YaHei&quot;; font-size: 14px;"><strong><span style="font-family: 微软雅黑,&quot;Microsoft YaHei&quot;;">[提醒]：卖家每一个发货地（仓库），如果对应的是快递公司不同的网点，那么每一个发货地（仓库）分别需要申请开通一次；同理，若使用不同的快递公司，则需分别申请开通一次）；</span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 9pt; font-family: &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3424/329/627062597/48233/3089afee/5811c948N8dbaac23.png" alt=""/><br/></span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">操作步骤：</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">第一步，选择您的发货地址，确保准确；</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">第二步，选择网点；</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">第三步，准确填写贵店负责电子面单的联系人；</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">第四步，勾选同意协议，并点击“提交”。</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">3）申请提交成功：请等待审核；</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3823/100/447334459/9634/c32696f9/5811c959N95ec5fb7.png" alt=""/><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">4）查看已申请服务商</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: &quot;Microsoft YaHei&quot;;">[提醒]：您至少需要通过1个快递服务商网点的审核，才能实现电子面单发货；</span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3592/285/742015722/21007/4b752793/5811c978Nd0ce8c0e.png" alt="" height="252" width="700"/><br/></span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">5）返回服务商列表：可继续开通其他服务商；</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">&nbsp;<strong><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 10pt;"> <br/></span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: red;">2、下载京麦并安装打印工具</span></strong></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(0, 112, 192);">▲&nbsp;下载京麦并安装</span></strong>：jm.jd.com，用商家账号登陆。</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3598/299/726993345/329840/2f1b1c21/5811c9efNed0b31a5.png" alt=""/><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: rgb(0, 112, 192);">▲&nbsp;订购打印工具</span></strong>：</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3490/11/593192543/2368/f436aafd/5811c9feN24b90e3c.png" alt=""/>首页找到<img src="//img30.360buyimg.com/pophelp/jfs/t3832/317/471694079/4015/85225daf/5811ca05N8351be3f.png" alt=""/>选择使用版本，完成订购流程。<br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3541/26/731035816/12056/b4645bfb/5811ca58N9143994e.png" alt=""/><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; color: red;">&nbsp;</span></strong>订购完成后，在京麦工作台桌面，或者”我的插件”中，可以使用打印工具。</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3817/305/469191628/8700/3a3a59be/5811ca6aN989f4684.png" alt=""/><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">A．创建快递模板</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t3415/182/678191467/93870/a07128b6/5811ca8bNd88813a7.png" alt=""/><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">B.<span style="font-size:14px;font-family:&#39;微软雅黑&#39;,sans-serif">新增模板</span><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t17281/342/1286093219/58718/1fc5a373/5ac323daNcf7d1c42.png" title="" alt="" style="width: 686px; height: 254px;" height="254" width="686"/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><br/></span></p><p style="line-height: 2em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">C</span><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">.选择快递、点击添加模板</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><img src="//img30.360buyimg.com/pophelp/jfs/t16972/36/1267974638/29040/52aafb1e/5ac32421N68964b39.png" title="" alt="" style="width: 678px; height: 211px;" height="211" width="678"/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"></span><br/></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t19606/321/1201485754/30877/81dfed3d/5ac32453N3692b084.png" title="" alt="" style="width: 676px; height: 203px;" height="203" width="676"/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><br/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">D．<span style="font-size:14px;font-family:&#39;微软雅黑&#39;,sans-serif">打印发货，选择订单同步，不同天，不同订单状态进行同步。</span></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t16954/132/1289822914/49592/a8bdf723/5ac32486N222f4e82.png" title="" alt="" style="width: 692px; height: 171px;" height="171" width="692"/></span></p><p class="MsoListParagraph" style="margin-left:24px;line-height:150%"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><br/></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">E.打印电子面单，在目标订单后选择“京东无界电子面单-某快递公司”，点击“快”，即可生成打印预览。可以调整打印区域位置参数，保证完美打印。</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><img src="//img30.360buyimg.com/pophelp/jfs/t19252/242/1255145417/230903/df4aafa2/5ac324eaN7e684289.png" title="" alt=""/></span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"></span><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">也可以选择多个，订单批量打印。</span></p><p style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><br/></span></p><p style="line-height: 2em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">F.</span><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">订单中可查询到运单号码，以及完成出库。</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><br/></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">G.传美打印工具还有<strong><span style="font-family: 微软雅黑,Microsoft YaHei; color: red;">宝贝简称，常用短语，多店共用热敏单，快递结算对账，提醒充值，短信通知</span></strong>等功能，非常容易上手，快来体验吧。</span></p><h1 style="line-height: 1.75em;"><br/><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"></span></h1><h1 style="line-height: 1.75em;"><span style="font-size: 14px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">四、常见问题</span><span style="font-size:11px;font-family:&#39;微软雅黑&#39;,sans-serif;color:black;letter-spacing:-0"></span></h1><p><br/></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">1、什么是京东无界电子面单？只能发京东快递吗？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，不单指京东快递，京东已和市场上主要快递公司对接完成，商家签约完成后发货时使用京东无界电子面单模板发货即为京东无界电子面单。</span><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-size: 11px; font-family: &quot;微软雅黑&quot;,sans-serif; color: black; letter-spacing: 0px;"></span><span style="font-size: 14px; font-family: 宋体;"><br/></span></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">2、如何开通京东无界电子面单？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，您可以在商家后台-我的配送—无界电子面单服务，选择合作的快递公司进行签约。</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">3、签约完成后，谁来审核？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，需要快递公司网点审核，一般审核时效为72小时内，可直接联系快递网点进行审核。如果网点不清楚请让网点联系快递公司总部。</span><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-size: 11px; font-family: &quot;微软雅黑&quot;,sans-serif; color: black; letter-spacing: 0px;"></span><span style="font-size: 14px; font-family: 宋体;"><br/></span></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">4、审核完成后，谁来充值单号？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，是由快递公司网点直接充值。可直接与快递公司网点协商。如果网点不清楚请让网点直接联系快递公司总部。</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">5、顺丰和邮政等直营快递公司怎么签约？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，顺丰和邮政等直营快递公司签约请填写大客户编码（由快递公司提供），申请过程中若需要填写商家密钥和接入密码，可用大客户编码代替。如填写正确则会自动审核通过，也无需充值单号。</span></p><p style="line-height: 2em;">6、<span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">签约完成后就开始计算京东无界电子面单了吗？</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"></span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，首先您需要询问您所用的ERP跟京东无界电子面单是否已完成对接。若已对接，需咨询您所用ERP软件客服，京东无界电子面单的配置流程等事项；若未完成对接，建议使用京东服务市场里面的传美打印、淘打、极速打印、快单王等已支持无界电子面单的打印工具（打印工具服务商可以帮助商家解决无界面单的相关问题哦）。</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">7、可用那些打印软件对接？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，目前共有上百家主要erp及打印软件可用，比如传美打印、淘打、E店宝、商派云起、上海管易等，详细名单可以京东服务市场中查看。</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-size: 11px; font-family: &quot;微软雅黑&quot;,sans-serif; color: black; letter-spacing: 0px;"></span>8、京东无界电子面单和其他面单的区别？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，打印所需的面单纸等不会有区别，您所申请的运单号为京东专属运单号。</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">9、京东无界电子面单收费吗？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，京东无界电子面单服务是免费。但您打印所需要的耗材，运单号成本等，请咨询与您合作的快递公司。</span><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-size: 11px; font-family: &quot;微软雅黑&quot;,sans-serif; color: black; letter-spacing: 0px;"></span><span style="font-size: 14px; font-family: 宋体;"><br/></span></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">10、签约京东无界电子面单的好处是什么？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，平台风向标涉及无界电子面单的权重，如果您使用京东无界电子面单会对您的店铺评分产生正向的影响。</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">11、使用京东无界电子面单对店铺发货量有要求吗？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，无界电子面单服务对店铺的发货量没有明确要求，只要您所用的打单软件/ERP和快递公司已成功对接了京东电子面单服务，都可使用。</span><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-size: 11px; font-family: &quot;微软雅黑&quot;,sans-serif; color: black; letter-spacing: 0px;"></span><span style="font-size: 14px; font-family: 宋体;"><br/></span></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">12、可用面单号数量是什么？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，可用面单数是加盟型快递公司（中通、申通等）特有的，是加盟性快递公司的网点自主分配给具体某个商家可使用的电子面单号的数量；不足时，及时请网点给你充足即可。 </span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">13、京东无界电子面单的面单号段是按什么规则下发的？</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-family: &quot;微软雅黑&quot;,sans-serif; color: black; letter-spacing: 0px;">您好，现在的面单号生成规则可以理解成是一个非常大的号码段（一般都是7-10位数的长度），生成的面单号是随机的。</span><span style="font-family: 宋体;"><br/></span></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">14、卖家申请到的号段可以重复用，或者转给别人用吗？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，不能把京东提供的面单号进行重复发货，也不得把京东提供的面单号给其他商家/个人发货，同时也不能用非京东提供的面单号来按电子面单模式发货。</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">15、当电子面单大头笔信息个别为空的时候怎么办？</span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-family: &quot;微软雅黑&quot;,sans-serif; color: black; letter-spacing: 0px;">您好，可请收件员手动填写一下大头笔信息，不会影响您店铺发货。</span><span style="font-family: 宋体;"><br/></span></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">16、我有多个店铺，请问如何申请电子面单？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，拥有多个店铺时要分别提交开通电子面单服务。</span><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;"><span style="font-size: 11px; font-family: &quot;微软雅黑&quot;,sans-serif; color: black; letter-spacing: 0px;"></span><span style="font-size: 14px; font-family: 宋体;"><br/></span></span></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">17、加盟类快递公司如汇通、中通等该如何给多店铺的客户进行电子面单可用数量充值？</span></p><p style="line-height: 2em;"><span style="color: black; letter-spacing: 0px; font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">您好，对于加盟型快递公司，可用面单数是网点自主给商家充值的（商家可以直接跟网点联系去充值），当商家拥有不同的店铺申请电子面单服务时，若商家使用的ERP支持同一客户的多家店铺共用一个店铺的面单余额，则充值这一个店铺即可。若不支持共用，则需要将这些店铺的申请全部审核通过，且给与每个店铺分别进行可用单号的充值。</span></p><p><br/></p><p style="line-height: 2em;"><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 14px;">&nbsp;&nbsp; <br/><br/></span></p><p><br/></p><p><br/></p><p><br/></p>
+            <div style="margin-top: 20px;">
+                                                            <a class="wb-btn-s wb-btn-red" href="https://order.shop.jd.com/delivery/company/companyCustom_list.action" target="_blank">配送服务</a>
+                                            <a class="wb-btn-s wb-btn-red" href="https://order.shop.jd.com/eps/eps_electronicSurface.action" target="_blank">电子面单服务</a>
+                                                </div>
+        </div>
+
+
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/issue/issueAnswer.css"/>
+
+    <div class="c-content">
+        <div class="clearfix">
+            <p class="c-line" style="margin-left:35px;"></p>
+            <p class="c-txt1">这条帮助是否解决了您的问题？</p>
+            <p class="c-line"></p>
+        </div>
+
+        <div class="c-action clearfix">
+            <div class="c-action-box" id="action-box-a" clstag="pageclick|keycount|helpcenter_home|207">
+                <i class="hc-i1"></i>
+                <span id="hc-num">已解决</span>
+                <span id="hc-num1" style="margin-left: 62px;display: none">已评</span>
+            </div>
+            <div class="c-action-box" id="action-box-b" clstag="pageclick|keycount|helpcenter_home|208">
+                <i class="hc-i2"></i>
+                <span id="hc-num2">未解决</span>
+                <span id="hc-num3" style="display: none">已评</span>
+            </div>
+            <div class="y-action-box" id="action-box-c" clstag="pageclick|keycount|helpcenter_home|209">
+                <i class="hc-i3"></i>
+                <span>您的意见评价</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hc-modal" style="display: none" id="hc-modal1">
+        <div class="inner-box-dz">
+            <img class="hc-no" width="18" height="18" src="/static/img/issueAnswerFoot/no.png">
+            <img id="hc-yes" width="59" height="59" src="/static/img/issueAnswerFoot/yes.png">
+            <p class="hc-succ">提交成功</p>
+            <p class="hc-thank">感谢您的宝贵意见和评价，我们会做的更好！</p>
+            <button id="hc-close" class="hc-close">关闭</button>
+        </div>
+    </div>
+    <div class="hc-modal" style="display: none;" id="hc-modal2">
+        <div class="inner-box-wjj">
+            <img class="hc-no" width="18" height="18" src="/static/img/issueAnswerFoot/no.png">
+            <div class="wjj-top">
+                <p class="hc-succ">很抱歉，没有解决您的问题。</p>
+                <p class="hc-thank">可以选择通过其他渠道解决</p>
+            </div>
+            <div class="wjj-bottom clearfix"
+            ">
+            <div class="bot-left">
+                <p class="hc-txt1">咨询单</p>
+                <p class="hc-txt2">通过咨询单提报，可以将您的</p>
+                <p class="hc-txt2">问题在京东内部联动解决</p>
+                <a class="allways-btn second-btn1" href="https://arbit.shop.jd.com/consult/consult_consultList.action" target="_blank">马上填写</a>
+            </div>
+            <div class="hc-line"></div>
+            <div class="bot-right">
+                <p class="hc-txt1">人工客服</p>
+                <p class="hc-txt2"> 周一至周日 9:00 - 21:00</p>
+                <a class="allways-btn second-btn2" href="https://dd1-web.jd.com/jd/chat?entry=jd_srv_vd" target="_blank">马上联系</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hc-modal" style="display: none;" id="hc-modal3">
+    <div class="inner-box-pj">
+        <img class="hc-no" width="18" height="18" src="/static/img/issueAnswerFoot/no.png">
+        <p class="hc-txt3">请您给一些意见和评价</p>
+        <div id="hc-contain1">
+            <div class="first-row clearfix">
+                <p class="hc-p1">太复杂，看不懂</p>
+                <p class="hc-p1">字太多，不想看</p>
+                <p class="hc-p1">写的不够清楚</p>
+                <p class="hc-p1">不是我想看的</p>
+            </div>
+            <div class="second-row clearfix">
+                <p class="hc-p1">结构清晰明了</p>
+                <p class="hc-p1">写的很清楚</p>
+                <p class="hc-p1">回答很专业</p>
+                <p class="hc-p1">内容很详细</p>
+            </div>
+        </div>
+
+        <textarea id="hc-textarea" placeholder="输入您的其他意见和评价"></textarea>
+        <p id="hc-p1">0/200</p>
+        <div class="link-way">
+            <div>
+                <label for="" class="phone-text">手机号 :</label>
+                <input type="text" id="phone-num">
+                <label for="" class="Email-text">邮箱 :</label>
+                <input type="text" id="Email-num">
+            </div>
+
+            <p class="phone-prompt" style="color: red;">手机号格式不对，请重新输入</p>
+        </div>
+        <button class="hc-close" id="hc-submit">提交</button>
+    </div>
+</div>
+
+
+
+<p class="tj-p1">为您推荐的相关内容</p>
+
+
+
+
+
+
+<p class="tj-p2">其他类似问题</p>
+<div class="hc-detail clearfix">
+            <div class="hc-box1 fl">
+            <a class="hc-a1 hc-vp1" href="//helpcenter.jd.com/vender/issue/902-3860.html" target="_blank">
+                <span class="dot">·</span>京麦上如何打印面单
+            </a>
+        </div>
+            <div class="hc-box1 fl">
+            <a class="hc-a1 hc-vp1" href="//helpcenter.jd.com/vender/issue/747-4232.html" target="_blank">
+                <span class="dot">·</span>京东电子面单如何申请？
+            </a>
+        </div>
+            <div class="hc-box1 fl">
+            <a class="hc-a1 hc-vp1" href="//helpcenter.jd.com/vender/issue/747-4471.html" target="_blank">
+                <span class="dot">·</span>商家需要更换快递服务站点，如何解绑操作？
+            </a>
+        </div>
+    </div>
+
+
+<p class="tj-p2">相关内容文章</p>
+<div class="hc-detail clearfix">
+            <div class="hc-box1 fl">
+            <a class="hc-a1 hc-vp1" href="//helpcenter.jd.com/vender/issue/830-4313.html" target="_blank">
+                <span class="dot">·</span>电子面单打印功能操作指南
+            </a>
+        </div>
+    </div>
+
+
+<p class="tj-p2">相关官方视频</p>
+<div class="hc-detail clearfix">
+            <div class="hc-box-video">
+            <a href="//xue.jd.com/ondemandCourse/getOndemandCourse.action?courseId=1261">
+                <div class="hc-vedio" style="background: url(//img30.360buyimg.com/popXue/jfs/t19390/343/1474408592/70430/42697921/5acb0a28N7a5d6343.jpg) no-repeat;background-size: 100% 100%;">
+                    <div class="hc-zz"><img src="/static/img/issueAnswerFoot/bofang.png"/></div>
+                </div>
+            </a>
+                            <p class="hc-vp1-video">京东无界电子面单实操</p>
+                        <div class="clearfix hc-vp2-video">
+                                    <span class="hc-p2">免费</span>
+                                <span class="hc-span">商家学习中心</span>
+            </div>
+
+            <p class="hc-p3">10526人观看</p>
+        </div>
+    </div>
+
+
+</div>
+
+<input type="hidden" id="issue_id" value="3033">
+<input type="hidden" id="issue_suggest_id" value="">
+<input type="hidden" id="userPin" value="">
+
+
+<script type="text/javascript">
+    $(".text-search").val("");
+    $(".titleBox").html($(".hc-click").html());
+
+    var myli_index = sessionStorage.getItem("item_index");
+    for (var i = 0; i < $(".h-level02-title").length; i++) {
+        if ($(".h-level02-title").eq(i).attr("id") == myli_index) {
+            var itemParent = $(".h-level02-title").eq(i).parent().parent().parent().parent();
+            itemParent.addClass("h-menu-on");
+            $(".h-level02-title").eq(i).addClass("hc-click");
+            $(".h-level02-title").eq(i).css("background", "#474747");
+        }
+    }
+    var msg1 = sessionStorage.getItem("hc-nav1");
+    var msg2 = sessionStorage.getItem("hc-nav2");
+    var dataId1 = sessionStorage.getItem("hc-nav1-data-id");
+    var dataId2 = sessionStorage.getItem("hc-nav2-data-id");
+    if (msg1) {
+        $("#firstNav").html(">"+"<a href='"+"/issue/issueList.action?knowledgeEsBean.label2Ids="+dataId1+"'>" + msg1+"</a>");
+        $(".bread-title").css("color", "rgb(102,102,102)");
+        $("#firstNav").css("color", "black");
+        if (msg2) {
+            $("#secondNav").html(">"+"<a href='"+"/issue/issueList.action?knowledgeEsBean.label2Ids="+dataId2+"'>" + msg2+"</a>");
+            $("#firstNav").css("color", "rgb(102,102,102)");
+            $("#secondNav").css("color", "black");
+        }
+    }
+    jQuery(function () {
+        seajs.use('jdf/2.0.0/ui/gotop/1.0.0/gotop', function (gotop) {
+            var gotopBtn = $('.gotop');
+            gotopBtn.gotop({
+                btnEl: '#gotop',
+                isSyncShow: false,
+                easing: 'swing'
+            });
+        });
+
+        seajs.use('jdf/2.0.0/ui/dialog/1.0.0/dialog', function (dialog) {
+            jQuery('#wt-unsolve').live('click', function () {
+                jQuery.ui.dialog({
+                    title: null,
+                    width: 430,
+                    height: 350,
+                    type: 'iframe',
+                    iframeScroll: 'auto',
+                    source: '830-thick-3033.html',
+                    isAutoIframe: false
+                });
+            });
+        });
+
+        seajs.use(['jdf/2.0.0/ui/fixable/1.0.0/fixable', 'jdf/2.0.0/ui/elevator/1.0.0/elevator'], function (fixable, elevator) {
+            var elevatorBox = $('#wt_menu');
+            elevatorBox.fixable({//定位
+                x: 'right',
+                y: 'bottom',
+                xValue: -elevatorBox.width(),//减去自身宽度，定位于楼层的最右侧
+                yValue: 0,
+                contextEl: $('.wt-detailbox')//相对floorContent容器定位
+            });
+
+            $('.wt-detailbox').elevator({
+                floorEl: '.floor',//楼层className
+                elevatorEl: elevatorBox,//电梯主体className
+                handlerSelector: '.wt-item',//电梯按钮className
+                curCls: 'selected',//电梯按钮被选中的className
+                delay: 500,
+                floorScrollMargin: -45,
+                onReady: function (obj) {
+                },
+                onStart: function (obj) {
+                },
+                onEnd: function (obj) {
+                }
+            });
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    /*已解决,未解决,意见评价均无需登录即可操作,已解决未解决在当前页面只能点击一次,刷新页面之后可继续点击,意见评价无限制*/
+    jQuery(function () {
+        var issue_id = jQuery("#issue_id").val();  //该条知识的id
+        sessionStorage.setItem(issue_id + "_", +1);
+        //id_1表示可点击  id_0表示不可点击
+        var solveCount = 0;
+        jQuery.ajax({
+            url: "/issue/findSuggestDetail.action",
+            data: {
+                "issue.id": issue_id
+            },
+            sync: false,
+            cache: false,
+            dataType: "json",
+            type: "post",
+            success: function (result) {
+                //solveCount = result.solveCount;  //获取该条知识的赞数
+                //点击已解决
+                $("#action-box-a").click(function () {
+                    if (sessionStorage.getItem(issue_id + "_") == 0) {
+                        return;
+                    } else {
+                        jQuery.ajax({
+                            url: "/issueSuggest/saveOrUpdate.action",
+                            data: {
+                                "issueSuggest.issueId": issue_id,
+                                "issueSuggest.solveStatus": 1
+                            },
+                            sync: false,
+                            cache: false,
+                            dataType: "json",
+                            type: "post",
+                            success: function (result) {
+                                if (result.isSuccess) {
+                                    // +1 并且变为不可点
+                                    solveStatus = 1;
+                                    //提交成功之后不可再提交
+                                    $(".c-action-box").css("background","#ccc");
+                                    sessionStorage.setItem(issue_id + "_", +0);
+                                } else {
+                                    alert("投票失败")
+                                }
+                            }
+                        });
+                    }
+                })
+                //第一次点未解决
+                $("#action-box-b").click(function () {
+                    if (sessionStorage.getItem(issue_id + "_") == 0) {
+                        return;
+                    }else {
+                        jQuery.ajax({
+                            url: "/issueSuggest/saveOrUpdate.action",
+                            data: {
+                                "issueSuggest.issueId": issue_id,
+                                "issueSuggest.solveStatus": 0
+                            },
+                            sync: false,
+                            cache: false,
+                            dataType: "json",
+                            type: "post",
+                            success: function (result) {
+                                if (result.isSuccess) {
+                                    solveStatus = 0;
+                                    $("#hc-modal2").show();
+                                    $(".inner-box-wjj").show();
+                                    $(".c-action-box").css("background","#ccc");
+                                    sessionStorage.setItem(issue_id + "_", +0);
+                                } else {
+                                    alert("投票失败")
+                                }
+                            }
+                        });
+                    }
+                })
+                //点击意见评价
+                $("#action-box-c").click(function () {
+                    $("#hc-modal3").show();
+                    $(".inner-box-pj").show();
+                })
+            },
+            error: function () {
+
+            }
+        });
+        $("#hc-submit").click(function () {
+            var phoneNum = $("#phone-num").val(),  // 获取手机号
+                EmailNum = $("#Email-num").val();  //获取邮箱
+            var regPhone = /^1[34578]\d{9}$/;
+            if(phoneNum){
+                //  校验手机号
+                if(regPhone.test(phoneNum)){
+                    submitView();
+                } else {
+                    //  校验不通过则显示提示信息
+                    $(".phone-prompt").show();
+                }
+            } else {
+                submitView();
+            }
+        })
+        //  提交建议
+        function submitView() {
+            var hc_suggest = "";
+            for (var i = 0; i < $(".hc-onclick").length; i++) {
+                hc_suggest += $(".hc-onclick").eq(i).text() + " ";
+            }
+            var hc_suggest2 = $("#hc-textarea").val();
+            var contactWay = $("#phone-num").val();  // 获取手机号
+            var email = $("#Email-num").val();  //获取邮箱
+            jQuery.ajax({
+                url: "/issueSuggest/saveOrUpdate.action",
+                data: {
+                    "issueSuggest.issueId": issue_id,
+                    "issueSuggest.unSolveReason": hc_suggest,
+                    "issueSuggest.suggestContent": hc_suggest2,
+                    "issueSuggest.contactWay": contactWay,
+                    "issueSuggest.email": email
+                },
+                sync: false,
+                cache: false,
+                dataType: "json",
+                type: "post",
+                success: function (result) {
+                    if (result.isSuccess) {
+                        $(".phone-prompt").hide();
+                        $("#hc-modal3").hide();
+                        $("#hc-modal1").show();
+                        $(".inner-box-dz").show();
+                    } else {
+                        alert("投票失败")
+                    }
+                }
+            });
+        }
+    });
+
+</script>
+
+
+<script>
+
+    //实时更新字数
+    $("#hc-textarea").keyup(function () {
+        $("#hc-p1").text($("#hc-textarea").val().length + "/200"); //按下键盘时，实时显示字数
+        if ($("#hc-textarea").val().length > 200) {
+            $("#hc-p1").text("200/200");
+            $("#hc-textarea").val($("#hc-textarea").val().substring(0, 200));//长度大于200时，截取200个字符
+        }
+    })
+
+    //点击时关闭模态框
+    $("#hc-close").click(function () {
+        $("#hc-modal1").hide();
+    })
+    $(".hc-no").click(function () {
+        $(".phone-prompt").hide();
+        $(this).parent().hide();
+        $(this).parent().parent().hide();
+    })
+
+
+    $("#hc-contain1 p").click(function () {
+        if ($(this).hasClass("hc-onclick")) {
+            $(this).removeClass("hc-onclick");
+        } else {
+            $(this).addClass("hc-onclick");
+        }
+    })
+
+
+</script>
+
+            </div>
+</div>
+    <div class="b-gotop" :class="{'b-gotop-index': isIndex}">
+    <div class="jd-jingling"  id="jd-jingling">
+        <a href="javascript:;" class="link-dlk" clstag="pageclick|keycount|zhaoshang_hp_jl|1"></a>
+        <img src="//static.360buyimg.com/pop-vender-static/pop_vender/web/index/shophelper.png" class="ml_30">
+    </div>
+    <div class="jl-window">
+        <a href="https://arbit.shop.jd.com/consult/consult_consultList.action" class="help-online" target="_blank">
+            <img class="online" src="/static/img/shouye/28.png"/>
+            <span class="window-text">咨询建议</span>
+        </a>
+        <a href="https://answer.jd.com/answer/AfAMFSWnErG/1597010.htm" class="help-survey" target="_blank">
+            <img class="survey" src="/static/img/shouye/29.png"/>
+            <span class="window-text">有奖调研</span>
+        </a>
+    </div>
+</div>
+
+    <!--  /widget/h-footer/h-footer.vm -->
+<link rel="stylesheet" type="text/css" href="/static/css/footer.css">
+<div class="footer">
+    <div class="footer-box">
+        <div class="footer-left">
+            <ul class="link-list">
+                <li class="list-cont"><a href="https://sz.jd.com/" clstag="pageclick|keycount|helpcenter_home|186"  target="_blank">京东商智</a></li>
+                <li class="list-cont"><a href="https://jzt.jd.com/"   clstag="pageclick|keycount|helpcenter_home|187" target="_blank">京准通</a></li>
+                <li class="list-cont"><a href="http://rec.ql.jd.com/index" clstag="pageclick|keycount|helpcenter_home|188" target="_blank">青龙平台</a></li>
+                <li class="list-cont"><a href="http://dr.jd.com/" clstag="pageclick|keycount|helpcenter_home|189" target="_blank">达人平台</a></li>
+                <li class="list-cont"><a href="https://jshopx.jd.com/" clstag="pageclick|keycount|helpcenter_home|190" target="_blank">店铺装修</a></li>
+                <li class="list-cont"><a href="https://jshopx.jd.com/" clstag="pageclick|keycount|helpcenter_home|191" target="_blank">活动装修</a></li>
+                <li class="list-cont"><a href="https://jshopx.jd.com/zhuangba/productList" clstag="pageclick|keycount|helpcenter_home|192" target="_blank">商详装修</a></li>
+                <li class="list-cont"><a href="//psm.jd.com" target="_blank">京东行业运营标准</a></li>
+            </ul>
+            <ul class="link-list">
+                <li class="list-cont"><a href="https://win.shop.jd.com/main.action" clstag="pageclick|keycount|helpcenter_home|193" target="_blank">营销中心</a></li>
+                <li class="list-cont"><a href="https://bang.jd.com/agent/index.action" clstag="pageclick|keycount|helpcenter_home|194" target="_blank">京东服务帮</a></li>
+                <li class="list-cont"><a href="https://fw.jd.com/main.action" clstag="pageclick|keycount|helpcenter_home|195" target="_blank">京麦服务市场</a></li>
+                <li class="list-cont"><a href="https://loan.jd.com/home.htm" clstag="pageclick|keycount|helpcenter_home|196" target="_blank">京小贷</a></li>
+                <li class="list-cont"><a href="https://8.jd.com/newIndex" target="_blank">京东金库</a></li>
+                <li class="list-cont"><a href="https://zhaoshang.jd.com/index" target="_blank">招商入驻</a></li>
+                <li class="list-cont"><a href="https://rule.jd.com/rule/index.action" target="_blank">规则平台</a></li>
+                <li class="list-cont"><a href="https://shop.jd.com/customer_service.html" clstag="pageclick|keycount|helpcenter_home|197" target="_blank">商家客服</a></li>
+            </ul>
+            <p class="jd-copyright">Copyright@2004-2018 JD.com 京东版权所有</p>
+            <p class="jd-number">京ICP证070359 北京市公安局朝阳分局备案编号110105014669</p>
+        </div>
+        <div class="footer-right">
+            <ul class="help-list">
+                <li class="help-method">
+                    <div class="help-img"><img src="/static/img/shouye/13.png" alt=""></div>
+                    <div class="help-content">
+                        <p class="help-tit">帮助热线</p>
+                        <p class="help-text">400-622-9068</p>
+                    </div>
+                </li>
+                <li class="help-method">
+                    <div class="help-img"><img src="/static/img/shouye/23.png" alt=""></div>
+                    <div class="help-content">
+                        <p class="help-tit">在线客服</p>
+                        <p class="help-text">周一至周日9:00-21:00</p>
+                    </div>
+                </li>
+                <li class="help-method">
+                    <div class="help-img"><img src="/static/img/shouye/17.png" alt=""></div>
+                    <div class="help-content">
+                        <p class="help-tit">联系我们</p>
+                        <p class="help-text">guize@jd.com</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="//static.360buyimg.com/shop/pop_help/js/helpcenter.js" source="widget"></script>
+    <script type="text/javascript" src="/static/js/jingling.js"></script>
+    <script>
+        $(".text-search").val("");
+    </script>
+<script type="text/javascript">
+    var jaq = jaq || [];
+    jaq.push(['account', 'JA2017_113662']); //站点编号
+    jaq.push(['domain', 'jd.com']);  //站点域名
+    (function () {
+        var ja = document.createElement('script');
+        ja.type = 'text/javascript';
+        ja.async = true;
+        ja.src = ('https:' == document.location.protocol ? 'https://cscssl' : 'http://csc') + '.jd.com/joya.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ja, s);
+    })();
+</script>
+</body>
+</html>

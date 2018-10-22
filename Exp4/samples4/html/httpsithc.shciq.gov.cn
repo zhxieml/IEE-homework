@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>上海国际旅行卫生保健中心</title>
+<script type="text/javascript" src="./images/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./images/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="./images/style.css"></link>
+        	<link rel="stylesheet" type="text/css" href="./images/writebyyml.css"></link>
+<script type="text/javascript">
+		window.onload = function(){
+			var browser = navigator.appName;
+			if(browser == "Microsoft Internet Explorer"){
+				var b_Version = navigator.appVersion;
+				var version = b_Version.split(";");
+				var trim_Version = version[1].replace(/[ ]/g,"");
+				if(trim_Version.indexOf("6.0")>-1){
+					alert("您现在正在使用的浏览器版本过低，可能会导致部分图片和信息缺失影响浏览效果，建议升级版本！");
+				}
+				else{
+					return;
+				}
+			}
+			else{
+				return;
+			}
+		}
+	</script>
+
+        
+        <style>
+   
+
+        
+        </style>
+	</head>
+	<body>
+		<div class="container">
+			<div id="header">
+				<div class="banner">
+					<img src="./images/header_bg.jpg" width="1000" height="142" />
+					<div class="chiceV">
+						<span class="chiceVF"><a href="/">中文版</a></span>
+						<span><a href="/sithcen">ENGLISH</a></span>
+					</div>
+				</div>
+				<div class="main_nav">
+					<ul>
+						<li><a href="./">首页</a></li>
+						<li><a href="./jgjs/">机构介绍</a></li>
+						<li><a href="./xwzx/">新闻中心</a></li>
+						<li><a href="./ywjs/">业务介绍</a></li>
+						<li><a href="/MEC/login">业务受理</a></li>
+						<li><a href="./yqfb/">疫情发布</a></li>
+						<li><a href="./lxjk/">旅行健康</a></li>
+						<li><a href="./flfg/">信息公开</a></li>
+					</ul>
+
+<form  onsubmit="return getValue()" name="formSearch" id="formSearch" method="get" action="/was5/web/search" target="_blank">
+         <INPUT name="searchword" id="searchword" type="hidden" />
+         <INPUT name="channelid" value="263917" type="hidden" />
+
+					<div class="search">
+						<input class="search_input" type="text" value="请输入关键词" name="getSearchWord" id="getSearchWord" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" />
+						<input class="search_btn" type="image" src="./images/search_btn.jpg" />
+					</div>
+</form>
+<script>
+   function getValue(){
+var jsworld=document.getElementById("getSearchWord").value;  
+var startworld=document.getElementById("getSearchWord").value;
+var searchworld=" ";
+
+if(jsworld.length>0&&jsworld!="请输入关键词")
+   {
+ 
+var arrayChnlIds=jsworld.split(" ");
+   
+for(var i=0;i<arrayChnlIds.length;i++)
+   {
+
+if(i==0)
+		{
+		  
+searchworld=arrayChnlIds[i];
+		
+}
+		if(i>0)
+		{
+      
+if(arrayChnlIds[i]!=""&&arrayChnlIds[i]!=" "&&arrayChnlIds[i]!="and")
+
+                      {
+		      searchworld=searchworld+" and "+arrayChnlIds[i];
+                      }
+		}
+      }
+document.getElementById("getSearchWord").value=startworld;
+document.getElementById("searchword").value=searchworld;
+return true;
+   }else{document.getElementById("getSearchWord").style.color="#cc0000";return false;}
+
+}
+
+</script>
+
+
+
+		
+
+		</div>
+				<div class="clearFloat"></div>
+			</div>
+			<div id="mainContent">
+				<div class="left_con" >
+					<div class="tyyy" >
+						<img src="./images/tyyy.jpg" width="713" height="79" />
+						<div class="tyyy_btn">
+                                                              
+							<span	class="tyyy_btnF"  ><a href="http://61.152.215.248/MEC/login">用户登录</a></span>
+							<span><a href="http://61.152.215.248/MEC/regist">新用户注册</a></span>
+						</div>
+						<div class="clearFloat"></div>
+					</div>	
+					<div class="bottom">
+						<div class="bottom_left">
+							<div class="zxdt">
+								<div class="zxdt_title">
+									<img src="./images/zxdt_arrow.gif" height="42" width="35" />
+									<h3>中心动态</h3>
+									<span><a href="./xwzx/zxdt/" target="_blank">更多>></a></span>
+								</div>
+								<div class="zxdt_tpxw">
+									<div class="zxdt_tpqh  news-img">
+						<ul  class="showPicture">
+                             
+                           <li title="浦江分中心搬迁通知">
+			<a href="./xwzx/zxdt/201808/t20180808_81181.html" target="_BLANK"><img src="./xwzx/zxdt/201808/W020180808582512319672.jpg" alt="浦江中心通知（红头格式）20180806_副本.jpg" width="380" height="204"/></a>                            </li>
+			
+                           <li title="《关于停征产品质量监督检验...">
+			<a href="./xwzx/zxdt/201704/t20170401_72072.html" target="_BLANK"><img src="./xwzx/zxdt/201704/W020170401339119613108.jpg" alt="复件 质检财函[2017]142号_页面_1_副本.jpg" width="380" height="204"/></a>                            </li>
+			
+                           <li title="《上海检验检疫局关于停征行...">
+			<a href="./xwzx/zxdt/201703/t20170331_72065.html" target="_BLANK"><img src="./xwzx/zxdt/201703/W020170331565570360857.jpg" alt="附件：《上海检验检疫局关于停征行政事业性收费的公告》（2017年第2号）_页面_1_副本.jpg" width="380" height="204"/></a>                            </li>
+			
+                           <li title="保健中心实验室检出上海口岸...">
+			<a href="./xwzx/zxdt/201609/t20160902_67043.html" target="_BLANK"><img src="./xwzx/zxdt/201609/W020160902539501904102_380.jpg" alt="0902_1 (1).jpg" width="380" height="204"/></a>                            </li>
+			
+                           <li title="保健中心APP现已正式发布">
+			<a href="./xwzx/zxdt/201606/t20160621_64758.html" target="_BLANK"><img src="./xwzx/zxdt/201606/W020160621492368726906_380.png" alt="APP.PNG" width="380" height="204"/></a>                            </li>
+			
+                           <li title="和时间赛跑 为生命护航——保...">
+			<a href="./xwzx/zxdt/201604/t20160422_62109.html" target="_BLANK"><img src="./xwzx/zxdt/201604/W020160422390630257735_380.jpg" alt="4.jpg" width="380" height="204"/></a>                            </li>
+			
+
+    </ul>
+
+					<!--图片序号--> 
+					 <div class="pager" style="margin-top:-31px;position: relative;">
+						<ul id="getValue">
+							<li style="background-color: #000000;" >6</li>
+							<li style="background-color: #000000;" >5</li>
+							<li style="background-color: #000000;" >4</li>
+							<li style="background-color: #000000;" >3</li>
+							<li style="background-color: #000000;" >2</li>
+							<li style="background: none repeat scroll 0% 0% #cc0000;" >1</li>
+						</ul>
+					</div>
+									</div>
+									<div class="tpxw_title">
+										<p>  
+						
+						     <a class="title_rs" href="./xwzx/zxdt/201808/t20180808_81181.html" target="_blank">浦江分中心搬迁通知</a>
+                                                       </p>
+									</div>
+								</div>
+<div class="clearFloat"></div>
+							</div>
+							<div class="yqfb">
+									<div class="zxdt_title">
+										<img src="./images/zxdt_arrow.gif" height="42" width="35" />
+										<h3>疫情发布</h3>
+										<span><a href="./yqfb/jstbjgg/" target="_blank">更多>></a></span>
+									</div>
+									<div class="yqfb_content">
+										<ul>
+											<li title="海关总署公告【2018】102号"><a href="./yqfb/jstbjgg/201808/t20180816_81183.html" target="_blank">海关总署公告【2018】102号</a><span>2018-08-16</span></li>
+											
+											<li title="海关总署公告【2018】58号"><a href="./yqfb/jstbjgg/201806/t20180620_81147.html" target="_blank">海关总署公告【2018】58号</a><span>2018-06-20</span></li>
+											
+											<li title="海关总署公告【2018】54号"><a href="./yqfb/jstbjgg/201806/t20180613_81141.html" target="_blank">海关总署公告【2018】54号</a><span>2018-06-13</span></li>
+											
+											<li title="海关总署公告【2018】39号"><a href="./yqfb/jstbjgg/201805/t20180517_81092.html" target="_blank">海关总署公告【2018】39号</a><span>2018-05-17</span></li>
+											
+											<li title="《关于防止拉沙热疫情传入我国的公告》"><a href="./yqfb/jstbjgg/201803/t20180307_80371.html" target="_blank">《关于防止拉沙热疫情传入我国的公告》</a><span>2018-03-07</span></li>
+											
+											<li title="《关于防止马达加斯加鼠疫疫情传入我国的公告》"><a href="./yqfb/jstbjgg/201801/t20180126_79652.html" target="_blank">《关于防止马达加斯加鼠疫疫情传入我国的公告》</a><span>2018-01-26</span></li>
+											
+											<li title="《关于防止霍乱疫情传入我国的公告》"><a href="./yqfb/jstbjgg/201801/t20180126_79651.html" target="_blank">《关于防止霍乱疫情传入我国的公告》</a><span>2018-01-26</span></li>
+											
+											<li title="《关于防止黄热病传入我国的公告》"><a href="./yqfb/jstbjgg/201801/t20180123_79557.html" target="_blank">《关于防止黄热病传入我国的公告》</a><span>2018-01-23</span></li>
+											
+										</ul>
+									</div>
+								</div>
+						</div>
+						<div class="bottom_right">
+							<div class="tzgg">
+								<div class="tzgg_title">
+									<h3>公告</h3>
+									<span><a href="./xwzx/gg/" target="_blank">更多>></a></span>
+								</div>
+								<div class="tzgg_content_bg">
+									<div class="tzgg_content">
+										<p style="font-family:宋体;">&nbsp;&nbsp;&nbsp;本中心2018年国庆节放假安排通知如下： 
+
+2018年10月1日至10月7日放假7天，9月29日（周六）、9月30日（周日）正常上班。 
+
+特此告知。 
+<a href="./xwzx/gg/201809/t20180928_81189.html" style="color:#0165C2;margin-left:16px;" target="_blank">[详细]</a></p>
+                                                                           
+									</div>
+								</div>
+							</div>
+							<div class="zcfg">
+								<div class="tzgg_title">
+									<h3>收费公示</h3>
+									<span><a href="./flfg/xxgk/" target="_blank">更多>></a></span>
+								</div>
+								<div class="zcfg_content">
+									<ul>
+										<li title="收费目录清单"><a href="./flfg/xxgk/201603/t20160307_60955.html" target="_blank">收费目录清单</a></li>
+										
+										<li title="收费依据文件"><a href="./flfg/xxgk/201603/t20160303_60900.html" target="_blank">收费依据文件</a></li>
+										
+										<li title="《质检总局关于贯彻落实取消或停征4项行政事业性收费决定的通知》（国质检财函〔2017〕140号）"><a href="./flfg/xxgk/201706/t20170606_73854.html" target="_blank">《质检总局关于贯彻落实取消或停征4项...</a></li>
+										
+										<li title="医疗机构依法执业承诺书"><a href="./flfg/xxgk/201705/t20170510_73144.html" target="_blank">医疗机构依法执业承诺书</a></li>
+										
+										<li title="《上海检验检疫局关于停征行政事业性收费的公告》（2017年第2号）"><a href="./flfg/xxgk/201703/t20170331_72065.html" target="_blank">《上海检验检疫局关于停征行政事业性...</a></li>
+										
+										<li title="《关于停征产品质量监督检验费和出入境检验检疫费等有关事宜补充说明的函》（质检财函[2017]142号）"><a href="./flfg/xxgk/201704/t20170401_72085.html" target="_blank">《关于停征产品质量监督检验费和出入...</a></li>
+										
+										<li title="联系方式"><a href="./flfg/xxgk/201603/t20160303_60898.html" target="_blank">联系方式</a></li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				<div class="right_con">
+					<div class="tjbgcx">
+						<a href="./tjbgcx/" target="_blank" style="text-decoration:none;" ><img src="./images/tjbgcx.jpg" width="262" height="77" title="正在建设中..." alt="正在建设中..." /></a>
+					</div>
+					<div class="crbjctj">
+						<div class="crbjctj_head">
+							<h3><a href="./ywjs/crbjctj/" target="_blank" style="color:#ffffff;font-size:14px;">传染病监测体检</a></h3>
+						</div>
+						<div class="crbjctj_pic">
+							<img src="./images/crbjctj_pic.jpg" width="264" height="51" />
+						</div>
+						<div class="crbjctj_content">
+							<div class="div1"><a title="境外人员入境体检"  href="./ywjs/crbjctj/jwryrj/" target="_blank">境外人员入境体检</a></div>
+							<div class="div2"><a  title="中国公民出境体检" href="./ywjs/crbjctj/zggmcjcrb/" target="_blank">中国公民出境体检</a></div>
+							<div class="div3"><a title="口岸食品、饮用水从业人员体检" href="./ywjs/crbjctj/kasp/" target="_blank">口岸食品、饮用水从业人...</a></div>
+							<div class="div4"><a title="国际交通员工体检" href="./ywjs/crbjctj/gjjtyg/" target="_blank">国际交通员工体检</a></div>
+						</div>
+					</div>
+					<div class="jkpg">
+						<div class="jkpg_head">
+							<h3><a href="./ywjs/jkpg/" target="_blank" style="color:#ffffff;font-size:14px;">健康评估</a></h3>
+						</div>
+						<div class="jkpg_content">
+							<ul>
+								<li title="赴美移民健康评估"><a href="./ywjs/jkpg/fmymjkpg/" target="_blank">赴美移民健康评估</a></li>
+
+								<li title="赴澳签证健康评估"><a href="./ywjs/jkpg/faqzjkpg/" target="_blank">赴澳签证健康评估</a></li>
+
+								<li title="赴英签证结核筛查体检"><a href="./ywjs/jkpg/fyqz/" target="_blank">赴英签证结核筛...</a></li>
+
+								<li title="赴加签证健康评估"><a href="./ywjs/jkpg/fjqzjkpg/" target="_blank">赴加签证健康评估</a></li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="yfjz">
+						<div class="yfjz_head">
+							<h3><a href="./ywjs/yfjz/" target="_blank" style="color:#ffffff;font-size:14px;">预防接种</a></h3>
+						</div>
+					</div>
+					<div class="ts">
+						<div class="tsxx"><a href="./tsxx_1/ ">投诉信箱</a></div>
+						<div class="tsdh">投诉电话<span>021-62687348</span></div>
+					</div>
+				</div>
+				<div class="clearFloat"></div>
+			</div>
+			
+				<div class="tel" style="font-family:微软雅黑;">
+					<!--   <div class="shgj">
+						<span>上海国际卫生保健中心</span>
+						<p>地址：上海市金浜路15号</p>
+						<p>邮编：200335</p>
+						<p>总机：8621-62686171</p>  
+					</div>   -->
+					<div class="zggm">
+						<span>中国公民健康评估和预防接种</span>
+						<p>Tel：8621-62688851</p>
+						<p>Fax：8621-62683088</p>
+					</div>
+					<div class="jwryjk">
+						<span>境外人员健康评估</span>
+						<p>Tel：8621-62688851</p>
+						<p>Fax：8621-62683088</p>
+					</div>
+					<div class="jwryjz">
+						<span>境外人员预防接种</span>
+						<p>Tel：8621-62685072</p>
+					</div>
+					<div class="fmym">
+						<span>赴美移民健康评估和预防接种</span>
+						<p>Tel：8621-62699006</p>
+						<p>Fax：8621-62697117</p>
+					</div>
+					<div class="faqz">
+						<span>赴澳加新签证体检</span>
+						<p>Tel：8621-62683085</p>
+					</div>
+                                        <div class="faqz">
+						<span>赴英签证结核筛查</span>
+						<p>Tel：8621-62683085</p>
+					</div>
+                                       
+				</div>
+			
+			<div id="footer">
+			<div class="link">
+				<img src="./images/footer_arrow.gif" />
+				<ul>
+					<li class="firstLI"><a href="http://www.chinacdc.cn/" target="_blank">中国疾病预防控制中心</a></li>
+				</ul>
+			</div>
+			<div class="footer_banner">
+				<p class="p1">上海国际旅行卫生保健中心</p>
+				<p>地址：上海市金浜路15号</p>
+				<p>邮编：200335</p>
+				<p>总机：8621-62686171</p> 
+			</div>
+		</div>
+	</body>
+</html>

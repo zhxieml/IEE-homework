@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+                            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<title>清华大学科学技术与社会研究所</title>
+<link href="/publish/ists/css/common.css" type="text/css" rel="stylesheet" />
+<link href="/publish/ists/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+ function cutDate(summaryStr,lengTh){
+     summaryStr=summaryStr.substring(5,lengTh);
+    document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/ists/css/style_index.css" rel="stylesheet"  type="text/css" /> 
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!--container开始处-->
+ <div id="container">
+      <!--header开始处-->
+        <div id="header">
+<!--logo开始处-->
+   <div id="logo">
+    <h1>科学技术与社会研究所<span>Institute of Science, Technology and Society</span></h1>
+   </div>
+   <!--logo结束处-->
+   <!--search开始处-->
+   <div id="search">
+ <form id="searchForm" action="#" method="post" target="_blank" >
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+    <p><a href="/publish/istsen/index.html">English Version</a> 
+<span> <a href="http://www.tsinghua.edu.cn">清华主页</a> </span> 
+搜索<input type="button" name="btn" style="height:10px" tabindex="0" class="btn" onclick="javascript:document.getElementById('searchForm').submit()" />
+<input type="text" name="Q" tabindex="1" class="sch" /></p>
+</form>  </div>
+   <!--search结束处-->
+</div>   <!--header结束处-->
+      <!--s_content开始处-->
+      <div id="s_content">
+        <!--second_nav开始处-->
+         <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4292 = ms.addMenu(document.getElementById("menu_4292"));
+menu4292.addItem("公告栏","/publish/ists/4340/index.html","");
+        menu4292.addItem("图片新闻","/publish/ists/4341/index.html","");
+        menu4292.addItem("历年新闻","/publish/ists/8248/index.html","");
+        var menu4293 = ms.addMenu(document.getElementById("menu_4293"));
+menu4293.addItem("概述","/publish/ists/4335/index.html","");
+        menu4293.addItem("历史沿革","/publish/ists/4337/index.html","");
+        menu4293.addItem("历任领导","/publish/ists/4338/index.html","");
+        var menu4294 = ms.addMenu(document.getElementById("menu_4294"));
+menu4294.addItem("校级中心","/publish/ists/10305/index.html","");
+        menu4294.addItem("院级中心","/publish/ists/10306/index.html","");
+        var menu4295 = ms.addMenu(document.getElementById("menu_4295"));
+menu4295.addItem("教授","/publish/ists/4325/index.html","");
+        menu4295.addItem("副教授","/publish/ists/4326/index.html","");
+        menu4295.addItem("讲师","/publish/ists/4327/index.html","");
+        menu4295.addItem("长江学者","/publish/ists/4328/index.html","");
+        menu4295.addItem("兼职教授","/publish/ists/4330/index.html","");
+        menu4295.addItem("返聘教授","/publish/ists/4332/index.html","");
+        menu4295.addItem("中心研究人员","/publish/ists/4333/index.html","");
+        var menu4296 = ms.addMenu(document.getElementById("menu_4296"));
+menu4296.addItem("研究方向","/publish/ists/4315/index.html","");
+        menu4296.addItem("研究成果","/publish/ists/4318/index.html","");
+        var subMenu4296_1 = menu4296.addMenu(menu4296.items[1]);
+       subMenu4296_1.addItem("著作类","/publish/ists/4318/index.html","");
+    subMenu4296_1.addItem("发表论文","/publish/ists/4319/index.html","");
+    subMenu4296_1.addItem("课题项目","/publish/ists/4320/index.html","");
+      menu4296.addItem("博士后","/publish/ists/4321/index.html","");
+        var subMenu4296_2 = menu4296.addMenu(menu4296.items[2]);
+       subMenu4296_2.addItem("哲学博士后流动站","/publish/ists/4321/index.html","");
+    subMenu4296_2.addItem("历年受资助情况","/publish/ists/4322/index.html","");
+    subMenu4296_2.addItem("在站博士后名单","/publish/ists/4323/index.html","");
+    subMenu4296_2.addItem("已出站博士后名单","/publish/ists/4324/index.html","");
+      var menu4297 = ms.addMenu(document.getElementById("menu_4297"));
+menu4297.addItem("学科点介绍","/publish/ists/4312/index.html","");
+        menu4297.addItem("课程设置","/publish/ists/4313/index.html","");
+        menu4297.addItem("精品课与精品教材","/publish/ists/4314/index.html","");
+        var menu4298 = ms.addMenu(document.getElementById("menu_4298"));
+menu4298.addItem("科学社会学与政策学沙龙","/publish/ists/4306/index.html","");
+        menu4298.addItem("科学哲学与技术哲学沙龙","/publish/ists/4307/index.html","");
+        menu4298.addItem("科学技术史沙龙","/publish/ists/4308/index.html","");
+        menu4298.addItem("STS博士论坛","/publish/ists/4309/index.html","");
+        menu4298.addItem("学术会议","/publish/ists/4310/index.html","");
+        menu4298.addItem("其他学术活动","/publish/ists/4311/index.html","");
+        var menu4299 = ms.addMenu(document.getElementById("menu_4299"));
+menu4299.addItem("招生信息","/publish/ists/4304/index.html","");
+        menu4299.addItem("招聘信息","/publish/ists/4305/index.html","");
+        var menu4300 = ms.addMenu(document.getElementById("menu_4300"));
+menu4300.addItem("学生活动","/publish/ists/4301/index.html","");
+        menu4300.addItem("在学学生名单","/publish/ists/4302/index.html","");
+        menu4300.addItem("已毕业学生名单","/publish/ists/4303/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="second_nav">
+          <ul>
+            <li><a href="/publish/ists/index.html">首页</a></li>
+<li id="menu_4292"><a href="/publish/ists/4292/index.html" title="动态新闻">动态新闻</a>
+            </li>
+            <li id="menu_4293"><a href="/publish/ists/4335/index.html" title="所简介">所简介</a>
+            </li>
+            <li id="menu_4294"><a href="/publish/ists/4294/index.html" title="机构设置">机构设置</a>
+            </li>
+            <li id="menu_4295"><a href="/publish/ists/4295/index.html" title="师资队伍">师资队伍</a>
+            </li>
+            <li id="menu_4296" class="width_100"><a href="/publish/ists/4315/index.html" title="科学研究">科学研究</a>
+            </li>
+            <li id="menu_4297"><a href="/publish/ists/4312/index.html" title="教学培养">教学培养</a>
+            </li>
+   <li id="menu_4298"><a href="/publish/ists/4298/index.html" title="学术活动">学术活动</a>
+            </li>
+   <li id="menu_4299"><a href="/publish/ists/4304/index.html" title="招生招聘">招生招聘</a>
+            </li>
+            <li id="menu_4300" class="no_bg"><a href="/publish/ists/4301/index.html" title="学生园地">学生园地</a>
+            </li> 
+</ul>
+</div>
+<script language="JavaScript">initMenuData();</script>        <!--second_nav结束处-->
+        <!--s_con_left开始处-->
+        
+        <!--s_con_left-->
+        <!--s_con_right开始处-->
+        <div id="s_con">
+          <p>&nbsp;<A href='/publish/ists/index.html' class='navigation_style'>首页</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4298/index.html' class='navigation_style'>学术活动</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4311/index.html' class='navigation_style'>其他学术活动</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>内容</p>          <!--s2_right_con开始处-->
+          <div id="right_con">
+            <h2><span>中国科协青少年科技教育研修班第二期在我校举办</span></h2>
+       <p>10月13日-19日，中国科协青少年科技中心、中国科协-清华大学科技传播与普及研究中心联合举办的中国科协青少年科技教育研修班（第二期）在我校举办，来自中国科协27个省、自治区、直辖市科协、新疆生产建设兵团科协、5个计划单列市科协青少年科技工作机构的近50位青少年科技教育与管理工作者参加了此次培训。</p><p>中国科协青少年科技中心主任李晓亮、副主任单长勇、中国科协-清华大学科技传播与普及研究中心主任曾国屏教授出席开班仪式。李晓亮主任主持了开班仪式，并介绍了本期培训班的开班背景，目的意义和要求，强调为深入贯彻落实科学发展观，推进《全民科学素质行动计划纲要》实施，通过清华大学的研修平台，进一步开阔学员们眼界，汲取新知识，以提升青少年科技工作者素质、能力为基本目的，增强组织、协调、策划青少年科技教育活动的能力，明确工作方向，引发大家对青少年科技教育工作的思考。指出在培训班期间就中国青少年科技中心的十二五事业发展规划听取各位学员的意见和建议，以增加其实践的可行性和理论的前瞻性。教育部基础教育一司司长高洪在开班仪式后,给学员们解读《国家中长期教育改革和发展规划纲要》也谈青少年教育问题，并就相关问题与学员们对话。</p><p>为期一周的研修班主要采取领导专家授课、研讨交流、实地调研、撰写论文等形式展开。特别邀请有关部门的专家领导做了系列报告。其中有，中国科协科普部部长杨文志的《编制科学素质行动计划十二五规划，深入推进科学素质建设工作》，中国科协组织人事部部长李森谈《关于人才工作的几点思考》，中国科协调宣部部长王春法谈《关于中国科协建设国家级科技思想库的几点思考》，中国科普研究所所长任福君教授的《青少年科技教育的几点思考》、翟立原研究员的《科技创新后备人才培养的新趋势》等报告；还有清华大学的彭林、尚刚、李纪珍、曾国屏、刘兵、李正风等教授就青少年科技教育及活动、科技创新与自主创新战略、科技场馆经营与科普文化产业、戏剧与小说中的STS与科学传播、文化战略、项目管理等方面的报告。每次授课，都有学员与报告人之间的互动环节。</p><p>&nbsp;经过紧张的培训和分组研讨，各个小组代表就本省或本单位开展青少年科技教育活动的状况、存在问题、经验及参加本期研修班的收获与体会在大会上进行了经验交流，如从STS教育理念分析探讨青少年科学DV活动，改进青少年科学工作室问题、如何看待青少年科技创新大赛与学校教育等等。研修班最后两天，组织学员赴上海考察上海市科普教育基地和世博园。</p><p>中国科协青少年科技中心李晓亮主任在结业式上的总结中指出，本期研修班研修内容丰富性和生动性都超过了第一期，既有政策解读，又有理论分析和实践探索，学员来源更广泛，学习自觉性也大大提高，圆满地完成了培训任务。最后，李晓亮主任和曾国屏教授共同给全体学员颁发了清华大学教育培训结业证书。</p>
+          </div>
+          <!--s2_right_con结束处-->
+        </div>
+        <!--s_con_right开始处-->
+      </div>
+   <!--s_content结束处-->
+      <!--footer开始处-->
+        <div id="footer"><p>版权所有&copy;清华大学科学技术与社会研究所  地址:北京市海淀区清华大学  邮编:100084</p></div>   <!--footer结束处-->
+    </div>
+ <!--container结束处-->
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!doctype html>
+
+
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>东西坏了敲一敲就好了，这是只属于人类 の 奥义</title>
+<meta name="apple-itunes-app" content="app-id=639087967, app-argument=zhihudaily://story/9698741">
+<meta name="viewport" content="user-scalable=no, width=device-width">
+<link rel="stylesheet" href="/css/share.css?v=5956a">
+
+
+<script src="http://static.daily.zhihu.com/js/modernizr-2.6.2.min.js"></script>
+<link rel="canonical" href="http://daily.zhihu.com/story/9698741"/>
+<base target="_blank">
+<script type="text/javascript">
+if (localStorage && localStorage.getItem('hideDownloadBanner') !== 'true') {
+document.documentElement.className += ' show-download-banner';
+}
+</script>
+</head>
+<body>
+
+<div class="global-header">
+<div class="main-wrap">
+<div class="download">
+<a href="https://itunes.apple.com/cn/app/id639087967?mt=8" class="button" data-device="ios"><i class="sprite-ico-Button_iPhone2x"></i> <span>iPhone</span></a>
+<a href="/download/android" class="button" data-device="android-local"><i class="sprite-ico-Button_Android2x"></i> <span>Android</span></a>
+</div>
+<a href="/" target="_self" title="知乎日报"><i class="web-logo"></i></a>
+</div>
+</div>
+<div class="header-for-mobile">
+<a href="/download" class="header-for-mobile-download-link">
+<span class="header-for-mobile-btn">立即下载</span>
+<img class="header-for-mobile-logo-img" src="http://static.daily.zhihu.com/img/app-logo.png"/>
+<span class="header-for-mobile-title">知乎日报</span>
+<span class="header-for-mobile-meta">每日提供高质量新闻资讯</span>
+</a>
+</div>
+<div class="main-wrap content-wrap">
+<div class="headline">
+
+<div class="img-wrap">
+<h1 class="headline-title">东西坏了敲一敲就好了，这是只属于人类 の 奥义</h1>
+
+
+<span class="img-source">图片：Yestone 邑石网正版图库</span>
+
+
+<img src="https://pic1.zhimg.com/v2-09907f281f8291a599e5285db2d48000.jpg" alt="">
+<div class="img-mask"></div>
+</div>
+
+
+</div>
+
+<div class="content-inner">
+
+
+
+
+<div class="question">
+<h2 class="question-title">为什么很多机械坏了敲一敲就莫名其妙好了？</h2>
+
+<div class="answer">
+
+<div class="meta">
+<img class="avatar" src="http://pic3.zhimg.com/v2-c541f70aa49624faac00534e66846122_is.jpg">
+<span class="author">流浪的饭炒蛋，</span><span class="bio">信与不信？关我屁事！</span>
+</div>
+
+<div class="content">
+<p>这是我们人类特殊的修理办法：从外部给予重击来达到维修的目的。</p>
+<p>机器暂时不工作其实原因很多：</p>
+<p>1.老化，老化或者长时间不用机油干燥、落灰，会导致起动阻力增大，你拍一拍就是让老人家活动了一下而已…</p>
+<p>2.接触不良，这很正常，有的线路与良好的接触之间可能就差一点点，稍加振动就能接触然后工作。</p>
+<p>首先，机械坏了敲一敲这个行为不是我们这个时代的产物，它应该是起源于电气还不是如此发达的时期。</p>
+<p>到现在为止，敲一敲就好了也大部分都是机械结构的东西（电机及附带的机构，风扇、洗衣机），或者是插槽很多导线密布的机器（比如台式主机、电视），旧的台式电脑有时候拍拍就能亮，笔记本手机这样的出问题了却不会有人第一反应是去拍拍它。</p>
+<p>我见过大机械厂的师傅遇到不转的东西，上下打量一下就掏出大扳手一顿砸，这在很多情况下不符合规范却是简单有效的行为。</p>
+<p>机械问题原因十分复杂多样：</p>
+<p>首先就是<strong>起动阻力</strong>，机械里面的机油是可以流动的，如果放久了不用，某部分润滑不是那么好，会导致起动阻力增大，电机在运转的时候，最大输出扭矩是需要一定转速的，启动扭矩往往小于这个扭矩，如果起动阻力就很大而扭矩很小，很可能导致无法正常启动。</p>
+<p>这一点小时候就有感觉吧，如果小赛车的电池没多少电，打开开关马达不转，用手搓一下就可以转了。</p>
+<p>其次就是机械结构刚好遇到<strong>死点</strong>，曲柄连杆机构中，以连杆为主动件时，如果所处位置压力角为 90 度，这个时候连杆不能带动从动件工作。</p>
+<p><img class="content-image" src="http://pic2.zhimg.com/70/v2-45b7e3064b13a90d458850033c2c1061_b.jpg" alt=""></p>
+<p>摇杆是主动件，连杆和曲柄处于同一直线的时候出现死点。</p>
+<p>老式踏板缝纫机，有时候踏板踩不动需要用手转一下手轮，基本也是这个原因。</p>
+<p><img class="content-image" src="http://pic2.zhimg.com/70/v2-16e84f7f54630862aefdb2ee226a80b1_b.jpg" alt=""></p>
+<p>这是曲柄滑块机构，内燃机气缸和曲轴的机构，滑块 C 是主动件，当 ABC 三点一线时出现死点。</p>
+<p><strong>这些位置无论驱动力多大，都是不能驱动从动件的</strong>，这些机构原本是依靠惯性（飞轮）通过死点的，但是如果启动时就在死点那就没办法了，敲一敲的行为就是用震动破坏这些死点位置的状态（汽车里面是先用电机起转）。</p>
+<p>然后还有就是弹簧部分因为老化或者阻力过大被卡住不能及时回弹，有的按下去就不起来了，一拍桌子吓得人家一个激灵就跳起来正常了…</p>
+<p>再有就是接触不良，有的排线密集，长时间可能会造成局部生锈、脱离或者是落灰导致局部短路等问题，一个铁砂掌打得人家该抖的抖抖掉了没连的也连上了就能用了…</p>
+<p>但是接触不良如果你去拍打，意味着你承担了另一个风险——接触更不良。然而通常而言，接触不良就是接触不良，没人在乎更不更的问题，那怕拍一拍只有 0.1 的概率使它恢复正常也还是会去试试，有时候甚至希望拍一拍接触不良的地方能直接脱落，这样我能知道问题出在哪，比在几十根线中间挨个找要简单多了。</p>
+<p>现代电气如此发达了，如果没反应的是手机手表笔记本电脑什么的，没有多少机械结构，也没有多少插线的接口，非要敲一敲那恐怕能把人家最后一口气也给敲没了。</p>
+<p>没错机械硬盘说的就是你！</p>
+<p><img class="content-image" src="http://pic3.zhimg.com/70/v2-f294e9d2d62d989c9b86a608eda792da_b.jpg" alt=""></p>
+<p>磁碟型机械硬盘数据都存在磁碟扇区里面，碰撞、震荡都有可能产生机械损坏而造成数据丢失。</p>
+</div>
+</div>
+
+
+<div class="view-more"><a target="_self" href="http://www.zhihu.com/question/289915032">查看知乎原文<span class="js-question-holder" data-aid="130495"></span></a></div>
+
+</div>
+
+
+
+</div>
+<div class="qr">
+<h2 class="heading">扫描二维码下载知乎日报</h2>
+<span class="subheading">支持 iOS 和 Android</span>
+<div class="qr-wrap">
+<img src="http://static.daily.zhihu.com/img/qr1.png" alt="二维码下载知乎日报" width="148" height="148">
+</div>
+</div>
+</div>
+
+<div class="bottom-wrap">
+<div class="bottom-recommend">
+<span class="bottom-recommend-title">阅读更多</span>
+<a class="recommend-link" href="http://daily.zhihu.com/story/9699060" data-story="9699060">
+
+<span style="background-image:url(https://pic2.zhimg.com/v2-27492b556752d6a4797806f3e333b349.jpg)" class="link-image"></span>
+
+影视圈惊变 2018
+</a>
+<a class="bottom-recommend-download-link" href="/download">
+下载 「知乎日报」 客户端查看更多
+</a>
+</div>
+</div>
+
+<div class="footer">
+<a href="http://www.zhihu.com/">知乎网</a> &middot; &copy; 2018 知乎
+</div>
+<script src="http://static.daily.zhihu.com/js/jquery.1.9.1.js"></script>
+<script src="/js/share.js?v=b8b67"></script>
+
+</body>
+</html>

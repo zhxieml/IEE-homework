@@ -1,0 +1,776 @@
+
+
+ 
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>李政道数字资源中心</title>
+<link rel="stylesheet" type="text/css" href="style/shiji.css"/>
+<link rel="stylesheet" type="text/css" href="style/index.css"/>
+<link rel="stylesheet" type="text/css" href="style/shousuo.css"/>
+<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="js/shousuo.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="js/glob.js" ></script>
+<script type="text/javascript" src="js/checkinput.js" ></script>
+<script type="text/javascript">
+
+$(function(){
+    //swfobject.registerObject("FlashID", "9.0.0"); 
+    
+    
+    var isipad=is_iPad()
+    if(isipad) //表示是ipad
+    {
+       $(".animate").hide();//片头动画不要
+       $(".con").css("background-image","url(images/index_bg_2.jpg)") 
+       $(".con").show();
+       $("#flashContent").hide();
+       $(".con").css("background-image","url(images/index_bg_2.jpg)") 
+       $(".textContent").show(); 
+     }
+    
+    
+	$(".cut_1").hover(function() {
+        $("div.lag").slideDown(300);
+		$("div.lag>a").click(function(){
+		    var id=this.id;
+			var $src=$(this).find("img").attr("src");
+			$("div.cut_1 .language img").attr("src",$src);
+			changelanguage(id);
+		})
+    },function(){
+		$("div.lag").hide();
+		});
+    $("div.zoom").hover(function() {
+        $("div.zoom .zoom_2").fadeIn();
+    },function(){
+		$("div.zoom .zoom_2").hide();
+		});
+	$(".zoom .zoom_2 .icon div").eq(0).css("top","15px").css("left","127px");
+	$(".zoom .zoom_2 .icon div").eq(1).css("top","10px").css("left","187px");
+	$(".zoom .zoom_2 .icon div").eq(2).css("top","60px").css("left","147px");
+	
+	$(".zoom .zoom_2 .icon div").eq(0).hover(function() {
+        $(this).animate({"top":10},200);
+    },function(){
+		$(this).animate({"top":15},200);
+		});
+	$(".zoom .zoom_2 .icon div").eq(1).hover(function() {
+        $(this).animate({"top":5},200);
+    },function(){
+		$(this).animate({"top":10},200);
+		});
+	$(".zoom .zoom_2 .icon div").eq(2).hover(function() {
+        $(this).animate({"top":55},200);
+    },function(){
+		$(this).animate({"top":60},200);
+		});
+	
+	$(".zoom .zoom_2 .text_con div").eq(0).css("top","128px").css("left","87px").css("background","url(images/zoom_bg_1.jpg) no-repeat 0px 3px");
+	$(".zoom .zoom_2 .text_con div").eq(1).css("top","143px").css("left","87px").css("background","url(images/zoom_bg_2.jpg) no-repeat 0 3px");
+	$(".zoom .zoom_2 .text_con div").eq(2).css("top","157px").css("left","87px").css("background","url(images/zoom_bg_3.jpg) no-repeat 0 4px");		
+		
+		
+			
+  	$("div.textContent").find("div").eq(0).css("top","210px").css("left","70px");		
+	$("div.textContent").find("div").eq(3).css("top","140px").css("left","500px");
+	$("div.textContent").find("div").eq(1).css("top","130px").css("left","170px");
+	$("div.textContent").find("div").eq(2).css("top","50px").css("left","610px");
+	$("div.textContent").find("div").eq(4).css("top","210px").css("left","350px");
+
+	
+	})
+		/*片头动画*/
+    function showfocus()
+	{
+		$(".con").show();
+	}
+	function flashover()
+	{
+	   // dispuserlogin
+		$(".animate").hide(showfocus);
+	}
+	
+//图片切换效果
+	$(function(){
+		var $imgBox = $(".imgBox"),
+			img_w = $imgBox.width(),
+			len = $imgBox.length,
+			timer = 0,
+			index = 1,
+			animateTime = 500,
+			hoverTimer, 
+			outTimer;
+			$(".imgBox").hover(function(){
+				//index = $(this).index();
+				//alert(index);
+				  index=$(this).attr("id");
+				
+				clearTimeout(outTimer);
+				hoverTimer = setTimeout(function(){
+					for(var i=0;i<len;i++){
+					if(i<=index){
+						$imgBox.eq(i).animate({"left":20*i},animateTime);
+					}else{
+						$imgBox.eq(i).animate({"left":20*(i-1)+img_w},animateTime)
+						}
+					}},150)
+				
+				clearInterval(timer);
+			},function(){
+				clearTimeout(hoverTimer);
+				outTimer = setTimeout(function(){
+					timer = setInterval(function(){	
+					$imgBox.eq(index).animate({"left":20*index},animateTime);
+					index+=1;
+					
+					if(index>len){
+						for(var i=1;i<len;i++){
+							$imgBox.eq(i).animate({"left":20*(i-1)+img_w},animateTime)	
+						}
+						index=1;
+					}
+					
+					},5000)
+				},150)
+			})
+			
+			timer = setInterval(function(){
+				$imgBox.eq(index).animate({"left":20*index},animateTime);
+				index+=1;
+				console.log(index);
+				if(index>len){
+					for(var i=1;i<len;i++){
+						$imgBox.eq(i).animate({"left":20*(i-1)+img_w},animateTime)	
+					}
+					index=1;
+				}
+				
+			},4000)
+			
+			
+	})	
+	
+/*顶部文字滚动*/
+$(function(){
+	var oTime = document.getElementById("time");
+	var oUl = document.getElementById("ul1");
+	var delay = 3000;
+	var LiHeight = 20;
+	var speed = 20;
+	var time;
+	oTime.innerHTML += oTime.innerHTML;
+	oTime.scrollTop = 0;
+	function startMove(){
+		oTime.scrollTop++;
+		time = setInterval(scrollUp,speed);
+	}
+	function scrollUp() {
+		//area.scrollTop++;
+		if(oTime.scrollTop % LiHeight==0){
+			clearInterval(time);
+			setTimeout(startMove,delay);
+		}else{
+			oTime.scrollTop++;
+			if(oTime.scrollTop >= oTime.scrollHeight/2){    
+				oTime.scrollTop = 0;
+			}    //scrollHeight获取滚动内容的高度
+		}
+	}
+	
+	setTimeout(startMove,delay);//初始化	
+})
+	
+</script>
+<style>
+.newsBg{
+	background-image:url(images/newsBg_06.jpg);
+	background-repeat:no-repeat;
+	width:294px;
+	height:170px;
+	margin-left:60px;
+	position:relative;
+	}
+.outBox{
+	width:260px;
+	height:150px;
+	position:relative;
+	overflow:hidden;
+	top:10px;
+	left:16px;
+	}
+.imgBox{
+	width:200px;
+	height:150px;
+	position:absolute;
+	top:0;
+	cursor:pointer;
+	}
+.imgBox img{
+	width:100%;
+	height:100%;
+	}
+.Box1{
+	left:0;
+	z-index:9
+	}
+.Box2{
+	left:200px;
+	z-index:10;
+	}
+.Box3{
+	left:220px;
+	z-index:11;
+	}
+.Box4{
+	left:240px;
+	z-index:12;
+	}
+.newsCon{
+	width:150px;
+	height:40px;
+	padding:6px;
+	background-image:url(images/touming_09.png);
+	line-height:16px;
+	font-family:"宋体";
+	font-size:12px;
+	color:#fff;
+	position:absolute;
+	bottom:6px;
+	right:10px;
+	}
+</style>
+
+</head>
+
+<body >
+
+
+
+<div class="con" style="display: none">
+
+    <div class="title">
+    	<img src="chiimg/title.png"/>
+    </div>
+    <div class="icon_3d">
+    	<img src="images/icon_3d.png"/>
+    </div>
+ 	<div class="logo">
+    	<img src="images/logo.png"/>
+    </div>
+       <div class="time" style="overflow:hidden; height:20px; top:107px;" id="time"><!--
+        <p style="position:absolute; left:0; top:5px; width:300px;">李政道图书馆开馆时间</p>
+    	--><!-- <p>李政道图书馆开馆时间：2014.12.28</p>
+    	 <p>距离开馆还有 -16 天</p>
+    	
+    	 -->
+     	
+    	  
+	        <ul id="ul1" style="width:300px; margin:0 auto; text-align:center;">
+	        	<li style="line-height:20px;">物理巨擘</li>
+	            <li style="line-height:20px;">赤子情怀</li>
+	            <li style="line-height:20px;">科艺双馨</li>
+	        </ul>
+     	  
+    	  
+    	
+     	 
+       </div>
+
+    <div class="dh" style ="z-index:111;position:absolute;">
+    	<ul>
+    	  
+    	    
+     	       <li class="denglu"><a onclick="dispuserlogin()" target="_blank" class="denglu">登陆</a></li>
+    	    
+     	       <li class="denglu"><a onclick="dispxncgpage()" target="_blank" class="denglu">虚拟参观</a></li>
+    	    
+    	   
+ 
+    	  <!--
+	        
+	        
+            <li><a href="map.jsp" target="_blank">地图</a></li>
+	        -->
+	        
+	        
+            <li><a href="http://lzd-order.lib.sjtu.edu.cn/ " target="_blank">讲解服务预约</a></li>
+
+	        
+	        
+            <li><a href="cuspea_add.jsp" >CUSPEA录入</a></li>
+           <li class="cut_1">
+                  
+                    
+ 		          
+                    
+                      <div class="language" onclick="changelanguage('eng')"><a style="cursor:hand" >Eng</a></div>
+                    
+ 		         
+            	
+
+           </li>
+            
+        </ul>
+    </div>
+    
+    
+    <!--  
+    <div class="dh" style="z-index:1;">
+    	<ul>
+    	  
+    	    
+     	       <li class="denglu"><a onclick="dispuserlogin()" target="_blank" class="denglu">登陆</a></li>
+    	    
+     	       <li class="denglu"><a onclick="dispxncgpage()" target="_blank" class="denglu">虚拟参观</a></li>
+    	    
+    	   
+ 
+    	  
+ 
+        </ul>
+    </div>
+    -->
+    <div class="login" style="display:none;">
+	<div class="form"  >
+	    
+	    
+	    
+	    
+	    
+	    
+	    <form onkeydown="javascript:if (event.keyCode == 13) checklogin('chi')">
+	          <span style="margin-left:80px; color:#F00;" id="msg"></span>
+	          <p><label>用户名：</label><input  name="theusername"  id="theusername" type="text"  value="" /> </p>
+	         <p><label>密码：</label><input  name="thepassword"  id="thepassword" type="password"  value="" /> </p>
+	         <p style="text-align:center;"><a  onclick="checklogin('chi')" style="cursor:hand">登陆</a><a href="forgetpassword.jsp">忘记密码</a><a onclick="dispregpage()">注册</a></p>
+	    </form>
+	    <div class="close"><a onclick="closeuserlogin()"><img src="images/close.png"/></a></div>
+	 </div>    
+	 </div>
+    
+    
+   
+    
+
+   
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    
+    
+    <title>My JSP 'searchdiv.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<script type="text/javascript" src="js/search.js"></script>
+	<!--                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+
+  </head>
+  
+  <body>
+ <!-- 
+  <div class="shousuo" style="z-index:10;">
+   	<form action="searchdocresult" method="post"> 
+   	<input type="hidden" name="flag" value="search"/>
+   	<div id="options">
+           <dl>
+               <dt>
+                   <input type="text" value="全站" name="sm.keyTypeStr" id="text" />
+                   <input id="keyType" type="hidden" value="all" name="keyType"/>
+                   <b>﹀</b>
+               </dt>
+               <dd>
+                   
+                     <div id="all" >全站</div>
+                   
+                     <div id="信函" >信函</div>
+                   
+                     <div id="手稿" >手稿</div>
+                   
+                     <div id="音视频" >音视频</div>
+                   
+                     <div id="图像" >图像</div>
+                   
+                     <div id="图书" >图书</div>
+                   
+                     <div id="讲义" >讲义</div>
+                   
+                     <div id="论文" >论文</div>
+                   
+                   
+               </dd>
+           </dl>
+	</div>
+       <div id="inputbox"><input type="text" name="keyword" value="" class="birds" id="keyword" /></div>
+       <input type="submit" id="" value="搜 索" name="" class="sreachbtn" />
+   </form>  
+   </div>
+   -->
+   
+ <div class="shousuo" style="z-index:10;">
+   	<form action="searchdocresult" method="post"> 
+   	<input type="hidden" name="flag" value="search"/>
+   	<input type="hidden" name="keyword" id="keyword">
+   	<input type="hidden" name="lgdesc" id="lgdesc" value="chi">
+ 
+    	<div id="options">
+			<div class="con_text">
+				<input type="text" value="全站" name="sm.keyTypeStr" id="text" />
+				<input id="keyType" type="hidden" value="all" name="keyType"/>
+			</div>
+            <div class="option_img"><img src="images/option_img.png"/></div>
+			<div class="option_text" style="display:none;">
+			   
+			    <div id="论文" >论文</div>
+			   
+			    <div id="讲义" >讲义</div>
+			   
+			    <div id="图书" >图书</div>
+			   
+			    <div id="图像" >图像</div>
+			   
+			    <div id="音视频" >音视频</div>
+			   
+			    <div id="手稿" >手稿</div>
+			   
+			    <div id="信函" >信函</div>
+			   
+			    <div id="all" >全站</div>
+			   
+			</div>
+		</div><!--options end-->
+    <div id="inputbox"><input type="text" name="tempkeyword" value="" class="birds" id="tempkeyword"/></div>
+	<input type="submit" value="搜索" name="" class="sreachbtn" onclick="return getsearchkey()"/>
+    </form>  
+    </div>  
+   
+   
+   
+   
+  </body>
+</html>
+ 
+  
+  <div id="flashContent" style="position:absolute; top:121px; left:230px; z-index:0">
+  
+  <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="763" height="362">
+  <param name="movie" value="flash/chineseSite.swf" />
+  <param name="quality" value="high" />
+  <param name="wmode" value="transparent" />
+  <param name="swfversion" value="11.0.0.0" />
+  <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf" />
+  <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="flash/chineseSite.swf" width="763" height="362">
+    <!--<![endif]-->
+    <param name="quality" value="high" />
+    <param name="wmode" value="transparent" />
+    <param name="swfversion" value="11.0.0.0" />
+    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+    <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+    <div>
+      <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+    </div>
+    <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+  </object>
+ 
+
+</div> 
+    
+   <div class="news" style = "z-index:1">
+         <h3><span><img src="chiimg/news.png"/></span><a href="getNewInfo.do?dotype=newlist" target="_blank"><img src="chiimg/more.png"/></a></h3>
+        <!--<ul>
+             
+              
+             
+                
+                  
+                     
+                  
+               
+                  <li><a href="getNewInfo.do?dotype=newinfo&newid=894" target="_blank" title="“科艺相通”——李政道科学与艺术讲座基金作品展在上海海洋大学开幕"><span class="FL">“科艺相通”——李政道科学与艺术讲座基金作品展在</span><span class="FR">18-09-30</span></a></li>
+             
+                
+                  
+                     
+                  
+               
+                  <li><a href="getNewInfo.do?dotype=newinfo&newid=892" target="_blank" title="上海交通大学图书馆陈进馆长给附属实验小学师生带来“开学第一课”"><span class="FL">上海交通大学图书馆陈进馆长给附属实验小学师生带来</span><span class="FR">18-09-06</span></a></li>
+             
+                
+                  
+                     
+                  
+               
+                  <li><a href="getNewInfo.do?dotype=newinfo&newid=891" target="_blank" title="青春风华正茂，志愿服务无悔——记李政道藏品二次搬迁暨青年突击队风采"><span class="FL">青春风华正茂，志愿服务无悔——记李政道藏品二次搬</span><span class="FR">18-09-06</span></a></li>
+             
+                
+                  
+               
+                  <li><a href="getNewInfo.do?dotype=newinfo&newid=889" target="_blank" title="首期“李政道科学与艺术工作坊”在上海交大开幕"><span class="FL">首期“李政道科学与艺术工作坊”在上海交大开幕</span><span class="FR">18-07-26</span></a></li>
+             
+        
+ 
+        </ul>-->
+       <div class="newsBg">
+        	<div class="outBox">
+        	    
+                  <div class="imgBox Box1" id="0"><a href="getNewInfo.do?dotype=newinfo&newid=894" target="_blank" title="“科艺相通”——李政道科学与艺术讲座基金作品展在上海海洋大学开幕"><img src="http://202.121.183.22/lzdadmin//upload/images/“科艺相通”——李政道科学与艺术讲座基金作品展在上海海洋大学开幕.jpg" /></a>
+                	<div class="newsCon">
+                    	“科艺相通”——李政道科学与艺术讲座基金作品展在上海海洋大学开幕
+                    </div>
+                </div>
+        	    
+        	    
+                  <div class="imgBox Box2" id="1"><a href="getNewInfo.do?dotype=newinfo&newid=892" target="_blank" title="上海交通大学图书馆陈进馆长给附属实验小学师生带来“开学第一课”"><img src="http://202.121.183.22/lzdadmin//upload/images/20180904043702211.jpg" /></a>
+                	<div class="newsCon">
+                    	上海交通大学图书馆陈进馆长给附属实验小学师生带来“开学第一课”
+                    </div>
+                </div>
+        	    
+        	    
+                  <div class="imgBox Box3" id="2"><a href="getNewInfo.do?dotype=newinfo&newid=891" target="_blank" title="青春风华正茂，志愿服务无悔——记李政道藏品二次搬迁暨青年突击队风采"><img src="http://202.121.183.22/lzdadmin//upload/images/20180730112557403.jpg" /></a>
+                	<div class="newsCon">
+                    	青春风华正茂，志愿服务无悔——记李政道藏品二次搬迁暨青年突击队风采
+                    </div>
+                </div>
+        	    
+        	    
+                  <div class="imgBox Box4" id="3"><a href="getNewInfo.do?dotype=newinfo&newid=889" target="_blank" title="首期“李政道科学与艺术工作坊”在上海交大开幕"><img src="http://202.121.183.22/lzdadmin//upload/images/【图1 2018上海交通大学李政道科学与艺术工作坊合影】.jpg" /></a>
+                	<div class="newsCon">
+                    	首期“李政道科学与艺术工作坊”在上海交大开幕
+                    </div>
+                </div>
+        	    
+        	    
+             </div>
+        </div>       
+               
+        
+   </div>
+   <div class="gonggao">
+   		<h3><span><img src="chiimg/public.png"/></span><a href="getNewInfo.do?dotype=newlist" target="_blank"><img src="chiimg/more.png"/></a></h3>
+   
+        <ul>
+             
+              
+        
+            
+               
+                
+                   
+                
+          
+              <li style="padding-left:30px;"><a href="getNewInfo.do?dotype=newinfo&newid=893" target="_blank" title="李政道图书馆2018年秋季迎新定时讲解（2018年9月8日）">李政道图书馆2018年秋季迎新定时讲解（</a></li>
+            
+               
+                
+                   
+                
+          
+              <li style="padding-left:30px;"><a href="getNewInfo.do?dotype=newinfo&newid=888" target="_blank" title="2018上海交通大学李政道科学与艺术工作坊招募通知">2018上海交通大学李政道科学与艺术工作</a></li>
+            
+         </ul>
+   </div>
+   
+
+
+      
+    <div class="zoom">
+   		<img src="images/ZOOM.png"/>
+        <div class="zoom_2">
+       	     
+       	     
+       	     
+          	 <div class="text_con">
+          	   
+                
+          	 
+        	    
+        	      
+        	        
+        	      
+        	          
+         	            
+                
+                
+        	       	          	      
+        	      <div><a href="getNewInfo.do?dotype=newinfo&newid=797">业界交流</a></div>
+        	    
+        	      
+        	      
+        	        
+        	          
+         	            
+                
+                
+                   
+                
+        	       	          	      
+        	      <div><a href="getNewInfo.do?dotype=newinfo&newid=784">【网络陈展】“教育先行，考</a></div>
+        	    
+        	      
+        	          
+         	      
+        	        
+        	            
+                
+                
+                   
+                
+        	       	          	      
+        	      <div><a href="getNewInfo.do?dotype=newinfo&newid=764">【网络陈展】“教育先行，考</a></div>
+        	    
+            </div>
+        	<div class="icon">
+        	     
+            	<div><a href="getNewInfo.do?dotype=newinfo&newid=797"><img src="images/zoom_icon_1.png"/></a></div>
+            	
+            	
+                <div><a href="getNewInfo.do?dotype=newinfo&newid=784"><img src="images/zoom_icon_2.png"/></a></div>
+                
+                	
+              	<div><a href="getNewInfo.do?dotype=newinfo&newid=764"><img src="images/zoom_icon_3.png"/></a></div>
+              	
+            </div>
+            
+        </div>
+     </div>     
+      
+   
+    <!-----------end----------->
+  
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+     
+    <title>My JSP 'buttomdiv.jsp' starting page</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+
+  </head>
+ 
+  <body>
+     <div class="end" style="width:800px;">
+            <div class="logo_img"><img src="images/logo_img.png"/></div>
+            <div class="song"><img src="images/song.png"/></div>
+             
+             
+              
+            <p><span>Copyright &copy; 2012 上海交通大学 All Rights Reserved.沪交ICP备20170197<a href="userInfo.do?dotype=discopyright" style="font-size:14px; color:#fff;opacity:1;display:inline-block;">[版权]</a>
+            
+            <a  target="blank" href="http://survey.lib.sjtu.edu.cn/form/ud/u1/f42.aspx" style="font-size:14px; color:#fff;opacity:1;display:inline-block;">[意见反馈]</a>
+			 <a  target="blank" href="charge.html" style="font-size:14px; color:#fff;opacity:1;display:inline-block;">[收费标准]</a>
+			 <a  target="blank" href="map.jsp" style="font-size:14px; color:#fff;opacity:1;">[地图]</a>
+            
+           
+            
+            </span></p>
+    </div>
+   
+  </body>
+</html>
+
+  
+ <!-- ipad上图片文字定位 -->
+	<div class="textContent" style="display:none">
+	   
+	       
+	   
+	       
+	    	<div><a href="pageinfo.do?dotype=sj">史 • 记</a></div>
+	       
+	   
+	       
+	    	<div><a href="pageinfo.do?dotype=wl">物 • 理</a></div>
+	       
+	   
+	       
+	    	<div><a href="pageinfo.do?dotype=sy">授 • 业</a></div>
+	       
+	   
+	       
+	    	<div><a href="pageinfo.do?dotype=ky">科 • 艺</a></div>
+	       
+	   
+	       
+	    	<div><a href="getNewInfo.do?dotype=shishi">实 • 时</a></div>
+	       
+	   
+	</div>   
+  </div>
+ 
+
+
+ 
+
+
+<!--------片头动画----------->
+<div class="animate" style="">
+	<div class="vidao">
+    	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1150" height="620" id="flash/lizhengdao" align="middle">
+				<param name="movie" value="flash/lizhengdao.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#000000" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="transparent" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="flash/lizhengdao.swf" width="1150" height="620">
+					<param name="movie" value="flash/lizhengdao.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#000000" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="transparent" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获得 Adobe Flash Player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+    </div>
+    
+
+    
+</div>
+
+ </body>
+</html>

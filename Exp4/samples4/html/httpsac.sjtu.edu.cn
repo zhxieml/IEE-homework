@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<base href="http://sac.sjtu.edu.cn/" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>上海交通大学学生工作指导委员会 - 首页</title>
+	<link href="/templates/protostar_copy/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/templates/protostar_copy/css/template.css?a52edc6f3c687e2edbfc8591e41d91df" rel="stylesheet" />
+	<link href="/templates/protostar_copy/css/fontawesome-all.min.css?a52edc6f3c687e2edbfc8591e41d91df" rel="stylesheet" />
+	<link href="/templates/protostar_copy/css/layout.css?a52edc6f3c687e2edbfc8591e41d91df" rel="stylesheet" />
+	<link href="/templates/protostar_copy/css/index.css?a52edc6f3c687e2edbfc8591e41d91df" rel="stylesheet" />
+	<link href="/templates/protostar_copy/css/reading.css?a52edc6f3c687e2edbfc8591e41d91df" rel="stylesheet" />
+	<script src="/media/jui/js/jquery.min.js?a52edc6f3c687e2edbfc8591e41d91df"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?a52edc6f3c687e2edbfc8591e41d91df"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?a52edc6f3c687e2edbfc8591e41d91df"></script>
+	<script src="/media/jui/js/bootstrap.min.js?a52edc6f3c687e2edbfc8591e41d91df"></script>
+	<script src="/templates/protostar_copy/js/template.js?a52edc6f3c687e2edbfc8591e41d91df"></script>
+	<!--[if lt IE 9]><script src="/media/jui/js/html5.js?a52edc6f3c687e2edbfc8591e41d91df"></script><![endif]-->
+
+</head>
+<body class="site com_blankcomponent view-default no-layout no-task itemid-101">
+
+    <div class="nav-container">
+        <div class="nav-box">
+            <a class="logo" href="/">
+                <img class="logo-img" src="/images/layout/logo.svg">
+                <div class="logo-text">
+                    <p class="logo-text-line">上海交通大学</p>
+                    <p class="logo-text-line">学生工作指导委员会</p>
+                </div>
+            </a>
+            <div class="nav-bar">
+                <ul class="nav menu nav-pills">
+<li class="item-101 default current active"><a href="/" >首页</a></li><li class="item-102 deeper parent"><a href="/about-us/intro" >机构介绍</a><ul class="nav-child unstyled small"><li class="item-123"><a href="/about-us/intro" >简介</a></li><li class="item-124"><a href="/about-us/organization" >组织架构</a></li><li class="item-125"><a href="/about-us/new-media" >新媒体平台</a></li></ul></li><li class="item-118 deeper parent"><span class="nav-header ">价值引领</span>
+<ul class="nav-child unstyled small"><li class="item-117 parent"><a href="/value-leading/student-party-building/idea" >学生党建</a></li><li class="item-119 parent"><a href="/value-leading/honesty-education/idea" >诚信教育</a></li><li class="item-120 parent"><a href="/value-leading/defence-education/idea" >国防教育</a></li><li class="item-121 parent"><a href="/value-leading/learn-in-sjtu/idea" >学在交大</a></li></ul></li><li class="item-126 deeper parent"><span class="nav-header ">能力建设</span>
+<ul class="nav-child unstyled small"><li class="item-127 parent"><a href="/capacity-building/social-practice/idea" >社会实践</a></li><li class="item-128 parent"><a href="/capacity-building/tech-innovation/idea" >科技创新</a></li><li class="item-129 parent"><a href="/capacity-building/business-startup/idea" >创新创业</a></li><li class="item-130 parent"><a href="/capacity-building/volunteer/idea" >志愿服务</a></li><li class="item-131 parent"><a href="/capacity-building/leadership/idea" >领导力</a></li></ul></li><li class="item-132 deeper parent"><span class="nav-header ">文化育人</span>
+<ul class="nav-child unstyled small"><li class="item-133"><a href="/culture-education/student-model" >青春足迹</a></li><li class="item-134 parent"><a href="/culture-education/employee-model" >烛光闪耀</a></li><li class="item-135 parent"><a href="/culture-education/recreation-and-sports/idea" >缤纷文体</a></li><li class="item-136"><a href="http://lzjt.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">励志讲坛</a></li><li class="item-137"><a href="https://tongqu.me/" target="_blank" rel="noopener noreferrer">同去网</a></li></ul></li><li class="item-138 deeper parent"><span class="nav-header ">管理服务</span>
+<ul class="nav-child unstyled small"><li class="item-139"><a href="http://www.job.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">就业服务</a></li><li class="item-140"><a href="http://affairs.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">资助服务</a></li><li class="item-141"><a href="http://www.xinqing.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">心理服务</a></li><li class="item-142"><a href="http://ourhome.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">园区服务</a></li><li class="item-143"><a href="/service/student-service-center" >学生服务中心</a></li><li class="item-144 parent"><a href="/service/international-student-service/idea" >留学生服务中心</a></li></ul></li><li class="item-145 deeper parent"><span class="nav-header ">党务公开</span>
+<ul class="nav-child unstyled small"><li class="item-146"><a href="/party-affair/party-organization" >支部架构</a></li><li class="item-147"><a href="/party-affair/party-idea" >工作理念</a></li><li class="item-148"><a href="/party-affair/party-news" >党务新闻</a></li></ul></li><li class="item-149"><a href="/document-download" >文件下载</a></li></ul>
+
+            </div>
+            <div class="nav-rest"></div>
+        </div>
+    </div>
+
+    <div class="sac-container">
+        
+                    <div class="left-container">
+                <fieldset class="border-block "><legend class="">&nbsp;通知&nbsp;</legend><div class="notice-body">
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2018</span>
+                <span>09-19</span>
+            </div>
+            <a class="notice-bubble" href="/notice/294-2018-09-19-03-05-09">
+                上海交通大学2019年推荐科技创新特长生免试攻读研究生            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2018</span>
+                <span>09-19</span>
+            </div>
+            <a class="notice-bubble" href="/notice/293-2018-09-19-03-29-45">
+                上海交通大学2019年推荐志愿服务特长生免试攻读研究生选拔结果公示            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2018</span>
+                <span>09-15</span>
+            </div>
+            <a class="notice-bubble" href="/notice/292-2018-09-15-04-38-37">
+                上海交通大学第二十一届研究生支教团选拔结果公示            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2018</span>
+                <span>01-17</span>
+            </div>
+            <a class="notice-bubble" href="/notice/91-2018">
+                学生服务中心关于 2018 年寒假工作安排的通知            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2017</span>
+                <span>10-24</span>
+            </div>
+            <a class="notice-bubble" href="/notice/94-2017-4">
+                上海交通大学2017年思政工作室评选通知            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2017</span>
+                <span>09-20</span>
+            </div>
+            <a class="notice-bubble" href="/notice/93-2017-3">
+                2017年上海交通大学辅导员推免直升选拔结果公示            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2017</span>
+                <span>07-21</span>
+            </div>
+            <a class="notice-bubble" href="/notice/92-2017-2">
+                上海交通大学2017年上半年思政论文评选结果公示            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2017</span>
+                <span>07-19</span>
+            </div>
+            <a class="notice-bubble" href="/notice/44-2017">
+                学生服务中心关于2017年暑假期间工作安排的通知            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2016</span>
+                <span>11-28</span>
+            </div>
+            <a class="notice-bubble" href="/notice/3-2018-01-02-21-09-12">
+                上海交通大学班级集体自习教室管理办法            </a>
+        </div>
+            <div class="notice-right-cell">
+            <div class="notice-date">
+                <span>2016</span>
+                <span>07-22</span>
+            </div>
+            <a class="notice-bubble" href="/notice/43-2016-2">
+                学指委关于2016年暑假工作安排的通知            </a>
+        </div>
+    </div>
+</fieldset><fieldset class="border-block "><legend class="">&nbsp;人物&nbsp;</legend><div class="people-body">
+    <div class="people-image">
+                    <img src="/images/qing_chun_zu_ji/zhuang_han_yang/1.jpg">
+            </div>
+    <ul class="people-text">
+                    <li><a href="/culture-education/student-model/286-2018-05-03-07-51-17">庄瀚洋：放眼世界 驱动未来[图]</a></li>
+                    <li><a href="/culture-education/student-model/284-2018-04-29-14-38-40">邹步高：格物致知，稳步前行[图]</a></li>
+                    <li><a href="/culture-education/student-model/282-2018-04-28-15-26-27">黄伟强：毅伟趋卓尔 自强永不息[图]</a></li>
+                    <li><a href="/culture-education/student-model/283-2018-04-28-15-26-36">徐文彬：知行须砥砺，远志任风流[图]</a></li>
+                    <li><a href="/culture-education/student-model/287-2018-05-03-13-21-46">李泓麒：用自强奏响青春华彩的乐章</a></li>
+                    <li><a href="/culture-education/student-model/285-2018-04-30-12-47-54">马诗晗：优秀是一种习惯[图]</a></li>
+            </ul>
+</div>
+</fieldset>
+            </div>
+                            <div class="right-container">
+                		<div class="moduletable">
+						
+
+<div class="news">
+    <div class="img-container">
+                            <a class="img-item active"
+                 data-group-id="0"
+                href="/capacity-building/tech-innovation/news/271-2018-04-13-01-42-18">
+                                <div class="news-img">
+                                            <img src="/images/ke_ji_chuang_xin/shu_xue_jing_sai/1.jpg">
+                                    </div>
+                <div class="title">
+                    <p>上海交大学子在全国大学生数学竞赛决赛中获佳绩[图]</p>
+                </div>
+            </a>
+                    <a class="img-item "
+                 data-group-id="1"
+                href="/value-leading/student-party-building/news/119-2018-01-18-07-15-06">
+                                <div class="news-img">
+                                            <img src="http://news.sjtu.edu.cn/_mediafile/newsnet/2018/01/11/15f9xbqux5.jpg">
+                                    </div>
+                <div class="title">
+                    <p>中国共产党上海交通大学人文学院第一次代表大会举行[图]</p>
+                </div>
+            </a>
+                    <a class="img-item "
+                 data-group-id="2"
+                href="/news/school-news/87-2018">
+                                <div class="news-img">
+                                            <img src="/images/3icpj6ixlo1.jpg">
+                                    </div>
+                <div class="title">
+                    <p>“心系国防情，志守科研岗”   2018年寒假电院学生党建实践团成立仪式举行[图]  </p>
+                </div>
+            </a>
+                    <a class="img-item "
+                 data-group-id="3"
+                href="/value-leading/learn-in-sjtu/news/60-2017">
+                                <div class="news-img">
+                                            <img src="http://news.sjtu.edu.cn/_mediafile/newsnet/2017/12/28/2dt8mks30l.jpg">
+                                    </div>
+                <div class="title">
+                    <p>“榜样的力量”上海交通大学2017年度优秀学生表彰大会举行[图]</p>
+                </div>
+            </a>
+            </div>
+    <div class="news-container">
+        <div class="news-tags">
+                                        <div class="news-tag active"
+                    data-group-id="0">学工快讯</div>
+                            <div class="news-tag "
+                    data-group-id="1">学生党建</div>
+                            <div class="news-tag "
+                    data-group-id="2">院系风采</div>
+                            <div class="news-tag "
+                    data-group-id="3">学在交大</div>
+                    </div>
+                        <ul class="news-body active"
+             data-group-id="0">
+                                                                                        <li><a href="/capacity-building/tech-innovation/news/270-2018-04-13-01-26-43">上海交大海外研修计划宣讲暨经验分享会[图]</a></li>
+                                                                <li><a href="/culture-education/recreation-and-sports/news/255-2018">“研途·筑梦”上海交通大学2018届研究生毕业晚会隆重上演[图]</a></li>
+                                                                <li><a href="/culture-education/recreation-and-sports/news/262-2018-04-12-14-53-55">上海交通大学首届校园樱花节主题活动圆满落幕[图]</a></li>
+                                                                <li><a href="/culture-education/recreation-and-sports/news/256-2018-2">“以青春之名”2018届研究生毕业生演讲比赛决赛举行[图]</a></li>
+                                                                <li><a href="/capacity-building/leadership/news/208-2018-04-10-03-11-02">上海交通大学“荣昶储才计划”第三期 公开选拔说明会举行[图]</a></li>
+                                                                <li><a href="/capacity-building/tech-innovation/news/249-2017-2">上海交通大学“学生科创工作室” 2017年度新增评审工作圆满完成[图]</a></li>
+                                                                <li><a href="/culture-education/recreation-and-sports/news/261-2018-04-12-14-48-09">“学在交大，心联你我” 上海交通大学第三十届学生联合会全体大会召开[图]</a></li>
+                                    </ul>
+                <ul class="news-body "
+             data-group-id="1">
+                                                                                        <li><a href="/value-leading/student-party-building/news/53-2018-01-02-22-11-03">上海交大校长、党委副书记林忠钦为青年学子上思政课[图]</a></li>
+                                                                <li><a href="/value-leading/student-party-building/news/7-2017-12-27-01-05-53">青马学校第19期预备党员培训班举行第四次理论授课[图]</a></li>
+                                                                <li><a href="/value-leading/student-party-building/news/129-2018-01-18-08-29-58">校领导为生命学院、药学院、系统院党员上十九大专题党课[图]</a></li>
+                                                                <li><a href="/value-leading/student-party-building/news/54-19">校领导为青马学校第19期预备党员培训班做十九大精神学习辅导报告[图]</a></li>
+                                                                <li><a href="/value-leading/student-party-building/news/55-2018-01-02-22-18-19">上海交大举行学生党建“两学一做”学习教育第四次工作交流推进会[图]</a></li>
+                                                                <li><a href="/value-leading/student-party-building/news/56-15">上海交大青马学校第15期学生党支部书记培训班举行结业典礼[图]</a></li>
+                                    </ul>
+                <ul class="news-body "
+             data-group-id="2">
+                                                                                        <li><a href="/news/school-news/130-2018-01-18-10-40-49">农生学院食品系联合党支部开展“教授学生面对面”主题党日活动[图]</a></li>
+                                                                <li><a href="/news/school-news/88-2018-01-17-08-06-27">交大巴黎高科学院全体学生党员集中学习十九大精神[图] </a></li>
+                                                                <li><a href="/news/school-news/86-2018-01-17-07-47-32">电院组织留学生开展冬至包饺子活动[图] </a></li>
+                                                                <li><a href="/news/school-news/89-2017">农生学院召开2017年度学生党建工作总结表彰大会[图] </a></li>
+                                    </ul>
+                <ul class="news-body "
+             data-group-id="3">
+                                                                                        <li><a href="/value-leading/learn-in-sjtu/news/131-25-a">上海交通大学25个学科在全国第四轮学科评估中进入A档</a></li>
+                                                                <li><a href="/value-leading/learn-in-sjtu/news/70-2018">上海交大举办2018年“致远学者研究计划”师生交流会[图]</a></li>
+                                                                <li><a href="/value-leading/learn-in-sjtu/news/11-2018-01-02-22-08-50">交大学子勇夺上海市大学生公益广告大赛金银优秀奖[图]</a></li>
+                                                                <li><a href="/value-leading/learn-in-sjtu/news/69-2018-01-02-23-11-33">上海交大研究生在第十四届中国研究生数学建模竞赛中获佳绩[图]</a></li>
+                                    </ul>
+            </div>
+</div>
+		</div>
+			<div class="moduletable">
+						
+
+<div class="custom"  >
+	<div class="shortcut">
+<div class="shortcut-row"><a class="shortcut-cell" href="http://www.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"> <span class="shortcut-icon icon-sjtu"> </span> <span class="shortcut-text">交大官网</span> </a> <a class="shortcut-cell" href="http://yiban.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"> <span class="shortcut-icon icon-yiban"> </span> <span class="shortcut-text">交大易班</span> </a> <a class="shortcut-cell" href="http://www.job.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"> <span class="shortcut-icon icon-job"> </span> <span class="shortcut-text">就业服务</span> </a> <a class="shortcut-cell" href="http://www.xinqing.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"> <span class="shortcut-icon"> <span class="fas fa-heartbeat"> </span></span> <span class="shortcut-text">心擎网</span> </a></div>
+<div class="shortcut-row"><a class="shortcut-cell" href="https://tongqu.me/" target="_blank" rel="noopener noreferrer"> <span class="shortcut-icon icon-tongqu"> </span> <span class="shortcut-text">同去网</span> </a> <a class="shortcut-cell" href="/student-affair" target="_blank" rel="noopener noreferrer"> <span class="shortcut-icon icon-ssc"> </span> <span class="shortcut-text">学生事务</span> </a> <a class="shortcut-cell" href="/department-link" target="_blank" rel="noopener noreferrer"> <span class="shortcut-icon"> <span class="fas fa-graduation-cap"> </span></span> <span class="shortcut-text">院系学工</span> </a> <a class="shortcut-cell" href="http://dormnew.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"> <span class="shortcut-icon"> <span class="fas fa-globe"> </span></span> <span class="shortcut-text">留学生工作</span> </a></div>
+</div></div>
+		</div>
+	
+            </div>
+                <div class="clearfix"></div>
+        
+        <div class="row-fluid">
+                                            </div>
+    </div>
+
+	<!-- Footer -->
+    <div class="footer">
+        <div class="info">
+            
+
+<div class="custom"  >
+	<p>版权所有 © 上海交通大学学生工作指导委员会 沪交ICP备2010874</p>
+<p>地址：上海市东川路800号 邮编：200240</p></div>
+
+        </div>
+    </div>
+	
+</body>
+</html>

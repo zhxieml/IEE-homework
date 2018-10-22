@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+                            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<title>清华大学科学技术与社会研究所</title>
+<link href="/publish/ists/css/common.css" type="text/css" rel="stylesheet" />
+<link href="/publish/ists/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+ function cutDate(summaryStr,lengTh){
+     summaryStr=summaryStr.substring(5,lengTh);
+    document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/ists/css/style_index.css" rel="stylesheet"  type="text/css" /> 
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!--container开始处-->
+ <div id="container">
+      <!--header开始处-->
+        <div id="header">
+<!--logo开始处-->
+   <div id="logo">
+    <h1>科学技术与社会研究所<span>Institute of Science, Technology and Society</span></h1>
+   </div>
+   <!--logo结束处-->
+   <!--search开始处-->
+   <div id="search">
+ <form id="searchForm" action="#" method="post" target="_blank" >
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+    <p><a href="/publish/istsen/index.html">English Version</a> 
+<span> <a href="http://www.tsinghua.edu.cn">清华主页</a> </span> 
+搜索<input type="button" name="btn" style="height:10px" tabindex="0" class="btn" onclick="javascript:document.getElementById('searchForm').submit()" />
+<input type="text" name="Q" tabindex="1" class="sch" /></p>
+</form>  </div>
+   <!--search结束处-->
+</div>   <!--header结束处-->
+      <!--s_content开始处-->
+      <div id="s_content">
+        <!--second_nav开始处-->
+         <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4292 = ms.addMenu(document.getElementById("menu_4292"));
+menu4292.addItem("公告栏","/publish/ists/4340/index.html","");
+        menu4292.addItem("图片新闻","/publish/ists/4341/index.html","");
+        menu4292.addItem("历年新闻","/publish/ists/8248/index.html","");
+        var menu4293 = ms.addMenu(document.getElementById("menu_4293"));
+menu4293.addItem("概述","/publish/ists/4335/index.html","");
+        menu4293.addItem("历史沿革","/publish/ists/4337/index.html","");
+        menu4293.addItem("历任领导","/publish/ists/4338/index.html","");
+        var menu4294 = ms.addMenu(document.getElementById("menu_4294"));
+menu4294.addItem("校级中心","/publish/ists/10305/index.html","");
+        menu4294.addItem("院级中心","/publish/ists/10306/index.html","");
+        var menu4295 = ms.addMenu(document.getElementById("menu_4295"));
+menu4295.addItem("教授","/publish/ists/4325/index.html","");
+        menu4295.addItem("副教授","/publish/ists/4326/index.html","");
+        menu4295.addItem("讲师","/publish/ists/4327/index.html","");
+        menu4295.addItem("长江学者","/publish/ists/4328/index.html","");
+        menu4295.addItem("兼职教授","/publish/ists/4330/index.html","");
+        menu4295.addItem("返聘教授","/publish/ists/4332/index.html","");
+        menu4295.addItem("中心研究人员","/publish/ists/4333/index.html","");
+        var menu4296 = ms.addMenu(document.getElementById("menu_4296"));
+menu4296.addItem("研究方向","/publish/ists/4315/index.html","");
+        menu4296.addItem("研究成果","/publish/ists/4318/index.html","");
+        var subMenu4296_1 = menu4296.addMenu(menu4296.items[1]);
+       subMenu4296_1.addItem("著作类","/publish/ists/4318/index.html","");
+    subMenu4296_1.addItem("发表论文","/publish/ists/4319/index.html","");
+    subMenu4296_1.addItem("课题项目","/publish/ists/4320/index.html","");
+      menu4296.addItem("博士后","/publish/ists/4321/index.html","");
+        var subMenu4296_2 = menu4296.addMenu(menu4296.items[2]);
+       subMenu4296_2.addItem("哲学博士后流动站","/publish/ists/4321/index.html","");
+    subMenu4296_2.addItem("历年受资助情况","/publish/ists/4322/index.html","");
+    subMenu4296_2.addItem("在站博士后名单","/publish/ists/4323/index.html","");
+    subMenu4296_2.addItem("已出站博士后名单","/publish/ists/4324/index.html","");
+      var menu4297 = ms.addMenu(document.getElementById("menu_4297"));
+menu4297.addItem("学科点介绍","/publish/ists/4312/index.html","");
+        menu4297.addItem("课程设置","/publish/ists/4313/index.html","");
+        menu4297.addItem("精品课与精品教材","/publish/ists/4314/index.html","");
+        var menu4298 = ms.addMenu(document.getElementById("menu_4298"));
+menu4298.addItem("科学社会学与政策学沙龙","/publish/ists/4306/index.html","");
+        menu4298.addItem("科学哲学与技术哲学沙龙","/publish/ists/4307/index.html","");
+        menu4298.addItem("科学技术史沙龙","/publish/ists/4308/index.html","");
+        menu4298.addItem("STS博士论坛","/publish/ists/4309/index.html","");
+        menu4298.addItem("学术会议","/publish/ists/4310/index.html","");
+        menu4298.addItem("其他学术活动","/publish/ists/4311/index.html","");
+        var menu4299 = ms.addMenu(document.getElementById("menu_4299"));
+menu4299.addItem("招生信息","/publish/ists/4304/index.html","");
+        menu4299.addItem("招聘信息","/publish/ists/4305/index.html","");
+        var menu4300 = ms.addMenu(document.getElementById("menu_4300"));
+menu4300.addItem("学生活动","/publish/ists/4301/index.html","");
+        menu4300.addItem("在学学生名单","/publish/ists/4302/index.html","");
+        menu4300.addItem("已毕业学生名单","/publish/ists/4303/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="second_nav">
+          <ul>
+            <li><a href="/publish/ists/index.html">首页</a></li>
+<li id="menu_4292"><a href="/publish/ists/4292/index.html" title="动态新闻">动态新闻</a>
+            </li>
+            <li id="menu_4293"><a href="/publish/ists/4335/index.html" title="所简介">所简介</a>
+            </li>
+            <li id="menu_4294"><a href="/publish/ists/4294/index.html" title="机构设置">机构设置</a>
+            </li>
+            <li id="menu_4295"><a href="/publish/ists/4295/index.html" title="师资队伍">师资队伍</a>
+            </li>
+            <li id="menu_4296" class="width_100"><a href="/publish/ists/4315/index.html" title="科学研究">科学研究</a>
+            </li>
+            <li id="menu_4297"><a href="/publish/ists/4312/index.html" title="教学培养">教学培养</a>
+            </li>
+   <li id="menu_4298"><a href="/publish/ists/4298/index.html" title="学术活动">学术活动</a>
+            </li>
+   <li id="menu_4299"><a href="/publish/ists/4304/index.html" title="招生招聘">招生招聘</a>
+            </li>
+            <li id="menu_4300" class="no_bg"><a href="/publish/ists/4301/index.html" title="学生园地">学生园地</a>
+            </li> 
+</ul>
+</div>
+<script language="JavaScript">initMenuData();</script>        <!--second_nav结束处-->
+        <!--s_con_left开始处-->
+        
+        <!--s_con_left-->
+        <!--s_con_right开始处-->
+        <div id="s_con">
+          <p>&nbsp;<A href='/publish/ists/index.html' class='navigation_style'>首页</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4298/index.html' class='navigation_style'>学术活动</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4310/index.html' class='navigation_style'>学术会议</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>内容</p>          <!--s2_right_con开始处-->
+          <div id="right_con">
+            <h2><span>第十二届东亚科学技术与社会网络学术会议在清华大学举行</span></h2>
+       <p style="TEXT-ALIGN: left">2016年11月19日，在清华大学科技与社会研究所所长杨舰教授的开幕欢迎词中，第十二届东亚科学技术与社会网络学术会议在清华大学召开。来自亚欧美三个大洲的一百多名专家学者济济一堂，就科学技术的国际交流与转移、环境问题和可持续发展、科学技术政策与创新、科学技术与社会等议题展开了热烈地讨论。</p><p style="TEXT-ALIGN: center">&nbsp;<img title="1.jpg" src="/publish/ists/4341/20161130122615503331464/1480480072753.jpg"/></p><p>在会议第一天上午的主旨演讲中，清华大学社会科学学院院长李强教授首先做了题为&ldquo;Social Transformation and Social Stratification in China&rdquo;的主题报告。报告深入探讨了中国社会与重大社会转型、中国社会分层结构的变化、中国社会结构研究中发现的问题、以及如何促进中国社会向现代化转变四个议题。当代中国劳动力市场、土地市场、房产市场、股票金融市场不断形成并日趋成熟，城市化和工业化的规模和速度也日益提升。中国的社会结构随之出现了巨大改变，出现了超级大城市对立于中小城市，乡村对立于城镇的四元结构。李强教授指出当今中国的发展方向是通过改革创新、工业化、收入分配调整、教育、以及改善社保体系等手段，建立以城镇人口和中等收入人口为主的一个人口菱形分布的社会结构。</p><p style="TEXT-ALIGN: center"><img title="2.jpg" src="/publish/ists/4341/20161130122615503331464/1480480136158.jpg"/>&nbsp;</p><p style="TEXT-ALIGN: left">第二位发言的是来自韩国的著名历史学家宋相庸教授。通过回顾个人六十年以来的学术经历，宋教授生动地展现了科学技术与社会这一交叉学科在韩国的诞生、发展、和未来发展的趋势。和其他亚洲国家一样，韩国在近现代历史发展过程中深受现代科学思潮的影响，早在上个世纪中叶就建立了科学史和科学哲学专业。之后，随着世界形势的变化以及中西方的不断交流，社会史、技术史逐渐成为学者们关注的焦点。到了二十一世纪，生物科技和纳米等新兴科技的产生，又为科学技术与社会开拓了新的研究领域。</p><p style="TEXT-ALIGN: center"><img title="3.jpg" src="/publish/ists/4341/20161130122615503331464/1480480192188.jpg"/></p><p style="TEXT-ALIGN: left">&nbsp;第三位发言的是世界技术史学会(Society for the History of Technology)的现任主席，东亚STS研究领域的著名学者,爱丁堡大学的教授白馥兰（Francesca Bray）。白馥兰教授以技术文化在中国历史上的变迁和延续性为例证，提出可以把历史研究的视角和方法带入科学技术与社会的研究中去。报告中，白馥兰教授提出了科技实体与科技文化两个概念。科技实体指的是具体的科技产品和科技技术，科技文化则包含了推动各种科技活动、科技变迁的力量背后的思想和观念。白馥兰教授认为这两个概念是相互影响，相互建构的。</p><p style="TEXT-ALIGN: center"><img title="4.jpg" src="/publish/ists/4341/20161130122615503331464/1480480214915.jpg"/></p><p style="TEXT-ALIGN: left">上午第二场的大会发言邀请了东京工业大学的教授中岛秀人（Hideto NAKAJIMA）和台湾阳明大学的王文基教授。中岛教授以东工大的教育改革为例，探讨了人文学科在大学教育，特别是在对理工类专业学生的培养过程中的重要性。二战后，东工大在和田小六教授的领导下，以美国麻省理工为模板，进行了名为和田改革的教学体制改革。人文科学系在改革过程中不断壮大，逐步建立起了哲学、心理学、文学、政治、历史、人类学等专业。同时，科学技术与社会专业也得到了很大的重视和发展，设立了硕士点和博士点。</p><p style="TEXT-ALIGN: center"><img title="5.jpg" src="/publish/ists/4341/20161130122615503331464/1480480253634.jpg"/></p><p style="TEXT-ALIGN: left">台湾阳明大学的王文基教授则作了题为&ldquo;An International Teamwork: Mental Hygiene in 1930s-40s Shanghai&rdquo;的报告。以上海普慈疗养院的建立为中心，通过大量的史料分析，王教授指出对精神病患者的关照和治疗不是依靠国家或者专家等单方面的力量能够完成的，而是需要中国各方面社会团体和个人以及国外专家学者和非政府组织的紧密合作。上海普慈医院不是一个本土的产物，而是国际合作的结果。由此，王教授指出了国际合作的意义和重要性。</p><p style="TEXT-ALIGN: center"><img title="6.jpg" src="/publish/ists/4341/20161130122615503331464/1480480289342.jpg"/></p><p style="TEXT-ALIGN: left">11月20日上午同样进行了三场大会报告。</p><p style="TEXT-ALIGN: center"><img title="7.jpg" src="/publish/ists/4341/20161130122615503331464/1480480333845.jpg"/></p><p style="TEXT-ALIGN: left">第一位演讲者是东京大学的佐倉統教授，报告题目为&ldquo;Of East Asian STS: What Does ‘East’ Represent?&rdquo;。佐仓教授首先界定了四个层面上的东亚：自然环境，上千年的中华传统，过去百年的日本文化，近年的多元文化兴起。随后，佐仓教授以日本的达尔文主义进化论和灵长类研究为例，对东亚的科学从业者与西方同行进行比较，指出东亚的科技从业者的工作特征受到前述四个层面的自然与社会因素影响，因而EASTS研究也可从这个角度来体现自身的东亚特征。</p><p style="TEXT-ALIGN: center"><img title="8.jpg" src="/publish/ists/4341/20161130122615503331464/1480480374638.jpg"/></p><p style="TEXT-ALIGN: left">第二个报告由伦斯勒理工学院（RPI）的Kim Fortun与Mike Fortun两位教授介绍了构建STS研究合作数据平台（Research Collaboration and Supporting Infrastructure in STS）的情况。随着学术期刊等发表物逐步网络化、数字化，Kim与Mike Fortun教授从2008年起开始构建基于网络的数据平台来支持学者间的信息共享与交流合作（例如The Platform for Experimental Collaborative Ethnography等）。STS的一个核心理念就是将科学技术置于特定地域背景中进行研究。只有通过合作和交流才能看清不同背景、不同STS研究之间的差异，从而把握住全球背景之下的整体性和多元性。合作研究一般需要信息收集（archiving），分析（analyzing），和共享（publicizing）三个阶段。Kim与Mike Fortun教授认为对于解决当代STS问题、建设真正意义上的跨国STS研究而言，构建STS研究合作的数据平台是一项非常有前途的事业。</p><p style="TEXT-ALIGN: center"><img title="9.jpg" src="/publish/ists/4341/20161130122615503331464/1480480411969.jpg"/></p><p style="TEXT-ALIGN: left">在第三个报告&ldquo;Reflecting STS: A Historical Review of STS in Mainland China&rdquo;中，清华大学科技与社会研究所的李正风教授首先对中国大陆的STS研究进行了历史性回顾。STS研究的思想资源、问题选择、队伍结构、发展路径皆受到一系列重要社会因素的影响，包括马克思主义与自然辩证法、对外开放引入的西方科史哲与STS思想、体制转型带来的问题与机遇、作为科技追赶国家的挑战与优势、东方传统文化对现代科技的影响等。李正风教授对当前中国STS研究中存在并需要重视的问题进行了反思探讨，诸如马克思主义与西方学术传统间的关系、STS研究的对象及其性质、东亚和中国STS研究的意义等，并指出：现代科技体制的发展与完善有赖于全球共同贡献，东亚STS研究可以成为发现问题、完善现代科技体制的新工具。</p>
+          </div>
+          <!--s2_right_con结束处-->
+        </div>
+        <!--s_con_right开始处-->
+      </div>
+   <!--s_content结束处-->
+      <!--footer开始处-->
+        <div id="footer"><p>版权所有&copy;清华大学科学技术与社会研究所  地址:北京市海淀区清华大学  邮编:100084</p></div>   <!--footer结束处-->
+    </div>
+ <!--container结束处-->
+</body>
+</html>

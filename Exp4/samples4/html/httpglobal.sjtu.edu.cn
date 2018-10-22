@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>国际合作与交流处</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/Content/images/slogo.png" />
+    <link rel="stylesheet" type="text/css" href="/Content/headerAfooetr.css?version=1.0" />
+    <link rel="stylesheet" type="text/css" href="/Content/style.css?version=1.0" />
+    <!--<script type="text/javascript" src="/Scripts/jquery-2.1.4.min.js"></script>   -->
+    <script type="text/javascript" src="/Scripts/jquery-1.9.1.min.js"></script>   
+    <script type="text/javascript" src="/UIPlug/Jquery/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="/UIPlug/layer/layer.js?version=1.0"></script>
+    <script type="text/javascript" src="/Scripts/js/headerJs.js?version=1.0"></script>
+    <script type="text/javascript" src="/Scripts/js/slider.js?version=1.0"></script>
+    <!-- saved from url=(0013)about:internet -->
+    <!--如果是手机打开切换至手机端界面-->
+    <script type="text/javascript">
+
+			function browserRedirect() {
+			var sUserAgent = navigator.userAgent.toLowerCase();
+			var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+			var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+			var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+			var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+			var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+			var bIsAndroid = sUserAgent.match(/android/i) == "android";
+			var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+			var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+			if(bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM){
+			window.location.href = "/Home/mindex";
+			}
+			}
+			browserRedirect();
+    </script>
+    
+   
+
+</head>
+<body>
+    <header>
+        
+
+<div class="header">
+    <div class="contain">
+        <div class="header-top">
+            <div class="school-logo">
+                <a href="/Home/index"><img src="/Content/images/school-logo11.png" /></a>
+                <div class="name">国际合作与交流处<span style="font-size:12px">（港澳台办公室）</span></div>
+            </div>
+            <div class="right-search">
+                <div class="search">
+                    <form method="get" action="/Home/Search">
+                        <div class="ipts">
+                            <input type="text" name="keyWords" id="keyWords" value="" placeholder="key words" required="required" />
+                            <input type="submit" name="sub" id="sub" value="搜索" />
+                        </div>
+                    </form>
+                </div>
+                <div class="btns">
+                    <a href="http://global.sjtu.edu.cn" class="btn en">CN</a>
+                    <a href="http://global.sjtu.edu.cn/home/indexEn"  target="_blank" class="btn cn">EN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=================nav=================-->
+    <div class="header-bottom">
+        <div class="contain">
+            <ul class="nav">
+                        <li><a target="" href="/AboutUs/AboutUs">关于我们</a>
+
+                        </li>
+                        <li><a target="" href="/NewsCenter/NewsList?type=1">新闻中心</a>
+
+                        </li>
+                        <li><a target="" href="javascript:;">海外学习</a>
+
+                                <ul class="nav-list">
+                                        <li>
+                                            <a target="_black" href="http://studyabroad.sjtu.edu.cn/优秀本科生国际交流项目（csc奖学金）/">国家留学基金委项目</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="http://studyabroad.sjtu.edu.cn/">博士储才计划</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="http://studyabroad.sjtu.edu.cn/">海外实习项目及基地</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="http://studyabroad.sjtu.edu.cn/">海外名校访学</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="http://studyabroad.sjtu.edu.cn/短期交流/">海外暑期学校</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="" href="/ExitEntryList/GlobalPlanList?type=10">全球挑战计划</a>
+
+                                        </li>
+                                </ul>
+                        </li>
+                        <li><a target="" href="javascript:;">留学交大</a>
+
+                                <ul class="nav-list">
+                                        <li>
+                                            <a target="" href="javascript:;">国际生招生</a>
+
+                                                <ul class="third-nav">
+
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=212&amp;flag=2">本科生</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=212&amp;flag=2">双学位项目</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=43&amp;flag=2">奖学金申请</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=38&amp;flag=2">研究生</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=261&amp;flag=2">预科项目</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a target="" href="javascript:;">交流交换项目</a>
+
+                                                <ul class="third-nav">
+
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=40&amp;flag=2">学期交换</a></li>
+                                                        <li><a target="_black" href="http://summerprogram.sjtu.edu.cn/">国际暑期学校</a></li>
+                                                        <li><a target="_black" href="http://summerprogram.sjtu.edu.cn/Data/List/sri">暑期科研实习</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=40&amp;flag=2">项目课题生</a></li>
+                                                        <li><a target="_black" href="http://summerprogram.sjtu.edu.cn/Default/Index">夏季学期课程建设</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a target="" href="javascript:;">国际生事务</a>
+
+                                                <ul class="third-nav">
+
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/CN/down.aspx?info_lb=224&amp;flag=65">报到注册</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/CN/down.aspx?info_lb=224&amp;flag=65">学籍异动管理</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/show.aspx?info_lb=6&amp;info_id=788&amp;flag=6">奖学金签到与发放</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/Default.aspx">国际化专业建设</a></li>
+                                                        <li><a target="_black" href="http://isc.sjtu.edu.cn/EN/Default.aspx">实习加注与报备</a></li>
+                                                </ul>
+                                        </li>
+                                </ul>
+                        </li>
+                        <li><a target="" href="/ExitEntryList/ExitEntry?type=1">出入境</a>
+
+                                <ul class="nav-list">
+                                        <li>
+                                            <a target="" href="/ExitEntryList/ExitEntry?type=1">出国（境）管理</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="" href="/ExitEntryList/ExitEntry?type=2">外国人来华工作</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="" href="/ExitEntryList/ExitEntry?type=3">境外人士来访预报</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="" href="/ExitEntryList/ExitEntry?type=4">留学生居留许可</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="" href="/ExitEntryList/ExitEntry?type=7">出入（境）资讯</a>
+
+                                        </li>
+                                </ul>
+                        </li>
+                        <li><a target="" href="/Project/ProjectList?type=1">国际学者</a>
+
+                                <ul class="nav-list">
+                                        <li>
+                                            <a target="" href="/Project/ProjectList?type=1">引智项目</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="" href="/Project/ProjectList?type=3">国际学者服务</a>
+
+                                        </li>
+                                </ul>
+                        </li>
+                        <li><a target="_black" href="http://global.sjtu.edu.cn/hmt">港澳台</a>
+
+                                <ul class="nav-list">
+                                        <li>
+                                            <a target="_black" href="http://global.sjtu.edu.cn/hmt/Overseas/Overseas?type=1">交流合作</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="javascript:;">学生事务</a>
+
+                                                <ul class="third-nav">
+
+                                                        <li><a target="" href="http://global.sjtu.edu.cn/hmt/StudentAffair/StudentAffairList?type=3&amp;subtype=1">在校生</a></li>
+                                                        <li><a target="" href="http://global.sjtu.edu.cn/hmt/StudentAffair/StudentActivityList?activitytype=2">访问学生</a></li>
+                                                        <li><a target="" href="http://global.sjtu.edu.cn/hmt/StudentAffair/StudentAffairList?type=5&amp;subtype=1">港澳台招生</a></li>
+                                                </ul>
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="http://global.sjtu.edu.cn/hmt/Service/ServiceList">服务指南</a>
+
+                                        </li>
+                                </ul>
+                        </li>
+                        <li><a target="_black" href="http://global.sjtu.edu.cn/ci/">孔子学院</a>
+
+                                <ul class="nav-list">
+                                        <li>
+                                            <a target="_black" href="http://global.sjtu.edu.cn/ci/NewsCenter/NewsList?type=1">要闻快讯</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="http://global.sjtu.edu.cn/ci/NewsCenter/NewsList?type=2">信息公告</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="javascript:;">共建孔院</a>
+
+                                        </li>
+                                        <li>
+                                            <a target="_black" href="http://global.sjtu.edu.cn/ci/AboutUs/AboutUs?type=4">关于我们</a>
+
+                                        </li>
+                                </ul>
+                        </li>
+                        <li><a target="" href="/PartyActivities/ActivitysList">党建活动</a>
+
+                        </li>
+                        <li><a target="" href="/DownLoad/DownLoad">下载中心</a>
+
+                        </li>
+
+                   
+           </ul>
+        </div>
+    </div>
+    <!--=================nav end=================-->
+</div>
+    </header>
+    <section>
+        
+
+<div class="banner">
+    <div class="wraps">
+        <ul class="big-img">
+                    <li class=&#39;active&#39;>
+                        <a href="/NewsCenter/NewsDetails/53248228221">
+                            <div class="bg">
+                                <img src="/attached/banner/11162228_5781.jpg" />
+                            </div>
+
+                            <div class="bg-picture" style="background: url(/Content/images/gg.png) repeat;width: 100%;height:600px;position: relative;">
+                                <div class="contain3">
+                                    <img src="/attached/banner/11162228_5781.jpg" />
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <div class="contain">
+                                    <h3 class="only-line">2018年秋季学期上海交通大学国际学生迎新工作顺利展开</h3>
+                                    <p class="only-line"></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/NewsCenter/NewsDetails/46686469376">
+                            <div class="bg">
+                                <img src="/attached/banner/27141015_1601.jpg" />
+                            </div>
+
+                            <div class="bg-picture" style="background: url(/Content/images/gg.png) repeat;width: 100%;height:600px;position: relative;">
+                                <div class="contain3">
+                                    <img src="/attached/banner/27141015_1601.jpg" />
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <div class="contain">
+                                    <h3 class="only-line">上海交通大学日本研究中心成立 纪念中日和平友好条约缔结40周年国际研讨会召开</h3>
+                                    <p class="only-line"></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/NewsCenter/NewsDetails/46269133187">
+                            <div class="bg">
+                                <img src="/attached/banner/27142046_9492.jpg" />
+                            </div>
+
+                            <div class="bg-picture" style="background: url(/Content/images/gg.png) repeat;width: 100%;height:600px;position: relative;">
+                                <div class="contain3">
+                                    <img src="/attached/banner/27142046_9492.jpg" />
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <div class="contain">
+                                    <h3 class="only-line">校领导率团访欧推进与英国和芬兰高校的合作</h3>
+                                    <p class="only-line"></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/NewsCenter/NewsDetails/42490768443">
+                            <div class="bg">
+                                <img src="/attached/banner/10162212_1210.jpg" />
+                            </div>
+
+                            <div class="bg-picture" style="background: url(/Content/images/gg.png) repeat;width: 100%;height:600px;position: relative;">
+                                <div class="contain3">
+                                    <img src="/attached/banner/10162212_1210.jpg" />
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <div class="contain">
+                                    <h3 class="only-line">[活动通知]  诚邀您参加2018上海交通大学第三届海外学习教育展</h3>
+                                    <p class="only-line"></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="/NewsCenter/NewsDetails/42490768318">
+                            <div class="bg">
+                                <img src="/attached/banner/08163632_1806.jpg" />
+                            </div>
+
+                            <div class="bg-picture" style="background: url(/Content/images/gg.png) repeat;width: 100%;height:600px;position: relative;">
+                                <div class="contain3">
+                                    <img src="/attached/banner/08163632_1806.jpg" />
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <div class="contain">
+                                    <h3 class="only-line">日本昭和女子大学理事长兼校长坂东真理子一行访问上海交大</h3>
+                                    <p class="only-line"></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+        </ul>
+        <div class="ctnimg">
+            <ul class="small-img">
+                        <li class=&#39;on&#39;></li>
+                        <li ></li>
+                        <li ></li>
+                        <li ></li>
+                        <li ></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!--=================banner轮播  end=================-->
+<!--=================来华留学生招生管理=================-->
+<div class="section2">
+    <div class="contain2">
+        <ul class="list">
+                <li class="list-cell">
+                    <div class="logo-img"><img src="/attached/titleImg/12124039_6177.png" /></div>
+                    <h3><a href="javascript:void(0);">国际学生</a></h3>
+                    <p>
+                                <a target="_black" title="国际生招生" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=17&amp;flag=2">国际生招生</a>
+                                <a target="_black" title="交流交换项目" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=40&amp;flag=2">交流交换项目</a>
+                                <a target="_black" title="国际生事务" href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=260&amp;flag=3">国际生事务</a>
+
+                   
+                    </p>
+                </li>
+                <li class="list-cell">
+                    <div class="logo-img"><img src="/attached/titleImg/12124059_4148.png" /></div>
+                    <h3><a href="javascript:void(0);">海外学习</a></h3>
+                    <p>
+                                <a target="_black" title="海外名校访学" href="http://studyabroad.sjtu.edu.cn/">海外名校访学</a>
+                                <a target="_black" title="海外暑期学校" href="http://studyabroad.sjtu.edu.cn/短期交流/">海外暑期学校</a>
+                                <a target="_black" title="国家留学基金委项目" href="http://studyabroad.sjtu.edu.cn/优秀本科生国际交流项目（csc奖学金）/">国家留学基金委项目</a>
+
+                   
+                    </p>
+                </li>
+                <li class="list-cell">
+                    <div class="logo-img"><img src="/attached/titleImg/12124133_9958.png" /></div>
+                    <h3><a href="javascript:void(0);">出入境管理</a></h3>
+                    <p>
+                                <a target="" title="出国（境）管理" href="/ExitEntryList/ExitEntry?type=1">出国（境）管理</a>
+                                <a target="" title="外国人来华工作" href="/ExitEntryList/ExitEntry?type=2">外国人来华工作</a>
+                                <a target="" title="境外人士来访预报" href="/ExitEntryList/ExitEntry?type=3">境外人士来访预报</a>
+                                <a target="" title="留学生居留许可" href="/ExitEntryList/ExitEntry?type=4">留学生居留许可</a>
+
+                   
+                    </p>
+                </li>
+                <li class="list-cell">
+                    <div class="logo-img"><img src="/attached/titleImg/03105338_1396.png" /></div>
+                    <h3><a href="javascript:void(0);">港澳台事务</a></h3>
+                    <p>
+                                <a target="" title="交流合作" href="http://global.sjtu.edu.cn/hmt/Overseas/Overseas?type=1">交流合作</a>
+                                <a target="" title="学生活动" href="http://global.sjtu.edu.cn/hmt/NewsCenter/NewsList">学生活动</a>
+                                <a target="" title="招生与管理" href="http://global.sjtu.edu.cn/hmt/StudentAffair/StudentAffairList?type=5&amp;subtype=1">招生与管理</a>
+                                <a target="" title="专题活动" href="http://global.sjtu.edu.cn/hmt/Subject/SubjectList?sid=33015266055">专题活动</a>
+
+                   
+                    </p>
+                </li>
+                <li class="list-cell">
+                    <div class="logo-img"><img src="/attached/titleImg/29173254_6513.png" /></div>
+                    <h3><a href="javascript:void(0);">孔子学院</a></h3>
+                    <p>
+                                <a target="" title="共建孔院" href="http://global.sjtu.edu.cn/ci/ciOverseas/ciOverseas?ciid=18954023672">共建孔院</a>
+                                <a target="" title="孔院新闻" href="http://global.sjtu.edu.cn/ci/NewsCenter/NewsList?type=1">孔院新闻</a>
+                                <a target="" title="信息公告" href="http://global.sjtu.edu.cn/ci/NewsCenter/NewsList?type=2">信息公告</a>
+                                <a target="" title="我与孔院" href="http://global.sjtu.edu.cn/ci/NewsCenter/NewsList?type=3">我与孔院</a>
+
+                   
+                    </p>
+                </li>
+
+        </ul>
+        <div style="clear: both;"></div>
+    </div>
+</div>
+<div style="height:40px;" ></div>
+<!--=================来华留学生招生管理   end=================-->
+<!--=================Globe SJTU=================-->
+<div class="section3">
+    <div class="contain">
+        <div class="s3-tit">
+            <h3 class="font-color">GLOBAL SJTU</h3>
+            <img src="/Content/images/p4-1.png" />
+        </div>
+       
+        <ul class="tit-list">
+                    <li id="14013181370" class="only-line active" >国际化办学</li>
+                    <li id="14013181374" class="only-line " >国际学术联盟</li>
+                    <li id="14013181376" class="only-line " >国际合作伙伴</li>
+                    <li id="15562347180" class="only-line " >双边交流中心</li>
+
+            
+        </ul>
+        <div class="s3-ctn">
+            <ul id="itemObject" >
+                                <li id="pid-14013181370" class="pid-14013181370" style="display:none" >
+                                    <img src="/attached/titleImg/12163108_1403.png" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14026302051">交大-密西根学院</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14026302051">交大密西根学院于2006年4月在上海成立</a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-14013181370" class="pid-14013181370" style="display:none" >
+                                    <img src="/attached/titleImg/12125017_9008.png" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14013181390">中欧国际商学院</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14013181390">中欧国际商学院简介</a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-14013181370" class="pid-14013181370" style="display:none" >
+                                    <img src="/attached/titleImg/12163225_5160.png" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14026302053">上海交大-巴黎高科卓越工程师学院</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14026302053">力争打造精英教育和中外合作办学的典范</a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-14013181370" class="pid-14013181370" style="display:none" >
+                                    <img src="/attached/titleImg/12163309_9851.png" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14026302055">文创学院</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14026302055">由上海交通大学与南加州大学联合建立</a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-14013181370" class="pid-14013181370" style="display:none" >
+                                    <img src="/attached/titleImg/12163353_7978.png" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14026302057">中英国际低碳学院</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=14026302057">中英国际低碳学院简介</a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-14013181370" class="pid-14013181370" style="display:none" >
+                                    <img src="/attached/titleImg/05090548_2587.png" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=15987296369">中外合作办学机构和项目</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181370&subtype=15987296369"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-14013181374" class="pid-14013181374" style="display:none" >
+                                    <img src="/attached/titleImg/12124904_2466.png" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181374&subtype=14013181386">建设中</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181374&subtype=14013181386">国际学术联盟</a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-14013181376" class="pid-14013181376" style="display:none" >
+                                    <img src="/attached/titleImg/30143627_7929.png" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181376&subtype=14013181378">建设中</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=14013181376&subtype=14013181378">国际合作伙伴标题</a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=15562347180&subtype=15987296373">保加利亚中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="/GlobeSjtu/GlobeSjtu?type=15562347180&subtype=15987296373"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="#?type=15562347180&subtype=15987296375">意大利中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="#?type=15562347180&subtype=15987296375"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="#?type=15562347180&subtype=15987296377">日本研究中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="#?type=15562347180&subtype=15987296377"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="#?type=15562347180&subtype=15987296379">澳大利亚研究中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="#?type=15562347180&subtype=15987296379"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="?type=15562347180&subtype=15573914537">美国文化中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="?type=15562347180&subtype=15573914537"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="#?type=15562347180&subtype=15573914540">瑞典文化交流中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="#?type=15562347180&subtype=15573914540"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="#?type=15562347180&subtype=15573914542">法国文化活动中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="#?type=15562347180&subtype=15573914542"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="#?type=15562347180&subtype=15573914544">鲁汶大学中欧文化研究中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="#?type=15562347180&subtype=15573914544"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="#?type=15562347180&subtype=15573914546">以色列文化中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="#?type=15562347180&subtype=15573914546"></a></p>
+                                    </div>
+                                </li>
+                                <li id="pid-15562347180" class="pid-15562347180" style="display:none" >
+                                    <img src="" />
+                                    <div class="s3-des">
+                                        <h3 class="only-line"><a target="" href="#?type=15562347180&subtype=15573914548">英国文化交流中心</a></h3>
+                                        <p class="only-two-line"><a target="" href="#?type=15562347180&subtype=15573914548"></a></p>
+                                    </div>
+                                </li>
+               
+               
+            </ul>
+        </div>      
+    </div>
+</div>
+<!--=================Globe SJTU end=================-->
+<!--=================校园国际交流预告=================-->
+<div class="section4">
+    <div class="contain">
+        <!--=================校园国际交流预告=================-->
+        <div class="s4-left">
+            <div class="s4-tit">
+                <h3 class="font-color">校际交流预告</h3>
+                <img src="/Content/images/p4-1.png" />
+                <a href="/Home/Trailer?type=1" target="_blank" class="more">More</a>
+            </div>
+                    <div class="s4-left-ctn one">
+                        <!--<div id="triangle-bottomleft"></div>-->
+                        <div class="curb">
+                            <p class="num">23</p>
+                            <p class="day">2017.06</p>
+                        </div>
+                        <div class="s4-left-ctn-desc">
+                            <h4 class="only-line"><a href="/Home/TrailerInfo/14286481641" class="font-color">海外游学项目简介</a></h4>
+                            <p class="only-two-line">我校学生有机会申请参与的海外游学项目包括如下</p>
+                        </div>
+                    </div>
+                    <div class="s4-left-ctn one">
+                        <!--<div id="triangle-bottomleft"></div>-->
+                        <div class="curb">
+                            <p class="num">15</p>
+                            <p class="day">2017.06</p>
+                        </div>
+                        <div class="s4-left-ctn-desc">
+                            <h4 class="only-line"><a href="/Home/TrailerInfo/14286481640" class="font-color">国际文化活动</a></h4>
+                            <p class="only-two-line">上海交通大学拥有多个文化交流中心，定期举办不同国家的特色文化活动。作为跨文化交流平台，这些中心有助于让中国学生进一步了解外国文化，并促进国际学生融入交大丰富多彩的校园生活。</p>
+                        </div>
+                    </div>
+
+             
+        </div>
+        <!--=================院系国际化传真=================-->
+        <div class="s4-right">
+            <div class="s4-tit">
+                <h3 class="font-color">院系国际化传真</h3>
+                <img src="/Content/images/p4-1.png" />
+                <a href="/NewsCenter/NewsList?type=2" target="_blank" class="more">More</a>
+            </div>
+            <div class="s4-right-ctn">
+                <ul>
+                            <li>
+                                <div class="date">
+                                    <img src="/Content/images/DefaultNews.png" />
+                                </div>
+                                <div class="event">
+                                    <h4 class="only-line"><a href="/NewsCenter/NewsDetails/54710777896" class="font-color">CALICE量能器国际合作组研讨会在上海交大召开</a></h4>
+                                    <p class="only-three-line"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">
+                                    <img src="/Content/images/DefaultNews.png" />
+                                </div>
+                                <div class="event">
+                                    <h4 class="only-line"><a href="/NewsCenter/NewsDetails/54710777895" class="font-color">上海交大邓子新教授当选英国皇家化学学会会士</a></h4>
+                                    <p class="only-three-line"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">
+                                    <img src="/Content/images/DefaultNews.png" />
+                                </div>
+                                <div class="event">
+                                    <h4 class="only-line"><a href="/NewsCenter/NewsDetails/54710777894" class="font-color">美国科学院院士Robert D. Putnam教授到访国务学院并做客第107期大师讲坛</a></h4>
+                                    <p class="only-three-line"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">
+                                    <img src="/Content/images/DefaultNews.png" />
+                                </div>
+                                <div class="event">
+                                    <h4 class="only-line"><a href="/NewsCenter/NewsDetails/54710777893" class="font-color">上海交大尚必武教授当选欧洲科学院外籍院士</a></h4>
+                                    <p class="only-three-line"></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="date">
+                                    <img src="/Content/images/DefaultNews.png" />
+                                </div>
+                                <div class="event">
+                                    <h4 class="only-line"><a href="/NewsCenter/NewsDetails/54291398181" class="font-color">2018世界人工智能大会人工智能前沿论坛在上海交大举行</a></h4>
+                                    <p class="only-three-line"></p>
+                                </div>
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--=================精选视频=================-->
+<div class="section5">
+    <div class="s5-tit videos">
+        <h3 class="font-color">精选视频</h3>
+        <img src="/Content/images/p4-1.png" />
+        <a href="/Home/Video" class="more" target="_blank">More</a>
+    </div>
+    <div class="contain">
+        <ul class="video-list">
+                    <li>
+                        <div class="box">
+                            <img src="/attached/titleImg/29154910_4492.png" />
+                            <div class="box-content">
+                                <a href="http://v.youku.com/v_show/id_XNzMwNDA3NDc2.html" target="_blank" class="icon-play"><img src="/Content/images/icon-play.png" /></a>
+                            </div>
+                        </div>
+                        <div class="title">在交大的日子</div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <img src="/attached/titleImg/30081638_7929.png" />
+                            <div class="box-content">
+                                <a href="http://v.youku.com/v_show/id_XMjg1NjQzMDAyMA==.html" target="_blank" class="icon-play"><img src="/Content/images/icon-play.png" /></a>
+                            </div>
+                        </div>
+                        <div class="title">Summer Session</div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <img src="/attached/titleImg/30081913_0166.png" />
+                            <div class="box-content">
+                                <a href="http://v.youku.com/v_show/id_XMjg1NjQzMjc0NA==.html" target="_blank" class="icon-play"><img src="/Content/images/icon-play.png" /></a>
+                            </div>
+                        </div>
+                        <div class="title">SJTU SUMMER PROGRAMS</div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <img src="/attached/titleImg/30081744_6679.png" />
+                            <div class="box-content">
+                                <a href="http://v.youku.com/v_show/id_XMjg1NjQzMTg2OA==.html" target="_blank" class="icon-play"><img src="/Content/images/icon-play.png" /></a>
+                            </div>
+                        </div>
+                        <div class="title">Summer Research Internship</div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <img src="/attached/titleImg/29154719_7656.png" />
+                            <div class="box-content">
+                                <a href="http://v.youku.com/v_show/id_XNzMwMzgxODk2.html" target="_blank" class="icon-play"><img src="/Content/images/icon-play.png" /></a>
+                            </div>
+                        </div>
+                        <div class="title">上海交通大学专题片英文版</div>
+                    </li>
+           
+           
+        </ul>
+        <div style="clear: both;"></div>
+    </div>
+</div>
+<!--<a href="http://webscan.360.cn/index/checkwebsite/url/202.121.178.216"><img border="0" src="http://img.webscan.360.cn/status/pai/hash/176e4f0e4dc50e0866e8cf087a60ce9e" /></a>-->
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#itemObject li").each(function (i) {
+            if ($(this).hasClass("pid-14013181370"))
+            {
+                $(this).css('display', 'block');;//show();
+            } else {
+                $(this).hide();
+            }
+            
+
+            
+        });
+
+        var aT = $('.tit-list li');
+        aT.click(function () {
+            var $this = $(this);
+            var $t = $this.index();
+            aT.removeClass('active');
+            $this.addClass('active');
+            //$('.s3-ctn').hide();
+            //$('.s3-ctn').eq($t).fadeIn();
+            var id = $(this).attr("id");
+            $("#itemObject li").each(function (i) {
+                if ($(this).hasClass("pid-"+id))
+                {
+                    $(this).css('display', 'block');//.show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        });
+    })
+
+</script>
+    </section>
+    <footer>
+        
+<div class="footer">
+    <p>闵行校区：东川路800号新行政楼B楼8楼&nbsp;&nbsp; 徐汇校区：华山路1954号总办公厅208室-209室&nbsp;&nbsp; 邮编：200240 </p>
+    <p><a href="/AboutUs/AboutUs?type=3">联系我们</a> <a href="http://bbs.sjtu.edu.cn/bbscon?board=TrafficInfo&file=M%2E1273596232%2EA">周边交通</a>&nbsp;&nbsp;沪ICP备05052060 沪举报中心 版权所有©上海交通大学
+	<span class="img-wrapper">
+					<img class="wx-logo" src="/Content/images/enWX.png" style="vertical-align: middle;margin-left: 15px;"/>
+					<img class="wx-code" src="/Content/images/encode.jpg"/>
+				</span>
+	</p>
+</div> 
+    </footer>
+</body>
+</html>
+ 

@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+                                        <title>清华大学环境学院</title>
+<link href="/publish/env/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/env/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="/publish/env/js/grayscale.js" type="text/javascript"></script>
+<script src="/publish/env/js/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*env
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/env/css/style_second.css" rel="stylesheet" type="text/css" />
+<!-- 导入全局模板 -->
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!-- 整体区域开始 -->
+ <div class="wrapper nomalwclassth auto">
+    
+     <!-- 页头区域开始 -->
+       <!-- 页头区域开始 -->
+  <div class="header nomalwidth auto" style="height:140px;background-image:url(/publish/env/images/banner2018.jpg)">
+      
+       <!--<div class="logo_text">
+         <p class="cn">&nbsp;</p>
+         <p class="en">&nbsp;</p>
+        </div>-->
+  
+                <div class="hot_links" style="top: 40px;"><a href="/publish/enven/index.html">English</a></div>
+    
+         <!-- <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="960" height="140">
+    <param name="movie" value="/publish/env/images/banner.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    
+    <param name="expressinstall" value="30years/expressInstall.swf" />
+    <param name="menu" value="false" />
+   
+    <object type="application/x-shockwave-flash" data="/publish/env/images/banner.swf" width="960" height="140">
+     
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="/publish/env/images/expressInstall.swf" />
+      <param name="menu" value="false" />
+     
+      <div>
+        <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      </div>
+     
+    </object>
+   
+  </object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>-->
+</div>
+<!-- 页头区域结束 -->        <!-- 页头区域结束 -->
+        
+        <!-- nav start -->
+        <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu6326 = ms.addMenu(document.getElementById("menu_6326"));
+menu6326.addItem("栏目概述","/publish/env/6327/index.html","");
+        menu6326.addItem("教研教师","/publish/env/6329/index.html","");
+        var subMenu6326_1 = menu6326.addMenu(menu6326.items[1]);
+       subMenu6326_1.addItem("院士","/publish/env/6329/index.html","");
+    subMenu6326_1.addItem("千人计划","/publish/env/6330/index.html","");
+    subMenu6326_1.addItem("教研所师资","/publish/env/6331/index.html","");
+      menu6326.addItem("兼职教授","/publish/env/6334/index.html","");
+        menu6326.addItem("实验教师","/publish/env/6817/index.html","");
+        menu6326.addItem("行政教师","/publish/env/6818/index.html","");
+        menu6326.addItem("合同制教师","/publish/env/6335/index.html","");
+        menu6326.addItem("博士后","/publish/env/6336/index.html","");
+        menu6326.addItem("访问学者","/publish/env/6819/index.html","");
+        menu6326.addItem("荣退教师","/publish/env/6337/index.html","");
+        var menu6317 = ms.addMenu(document.getElementById("menu_6317"));
+menu6317.addItem("组织机构","/publish/env/6318/index.html","");
+        menu6317.addItem("学术机构","/publish/env/6319/index.html","");
+        menu6317.addItem("研究机构","/publish/env/6321/index.html","");
+        var subMenu6317_2 = menu6317.addMenu(menu6317.items[2]);
+       subMenu6317_2.addItem("研究所","/publish/env/6321/index.html","");
+    subMenu6317_2.addItem("国家级研究机构","/publish/env/6322/index.html","");
+    subMenu6317_2.addItem("省部级研究机构","/publish/env/6323/index.html","");
+    subMenu6317_2.addItem("校级研究机构","/publish/env/6324/index.html","");
+    subMenu6317_2.addItem("联合研究机构","/publish/env/6325/index.html","");
+      var menu6312 = ms.addMenu(document.getElementById("menu_6312"));
+menu6312.addItem("学院简介","/publish/env/6313/index.html","");
+        menu6312.addItem("现任领导","/publish/env/7208/index.html","");
+        menu6312.addItem("历任领导","/publish/env/6314/index.html","");
+        menu6312.addItem("历史沿革","/publish/env/6315/index.html","");
+        menu6312.addItem("大事年表","/publish/env/6316/index.html","");
+        var menu6338 = ms.addMenu(document.getElementById("menu_6338"));
+menu6338.addItem("栏目概述","/publish/env/6339/index.html","");
+        menu6338.addItem("本科生教学","/publish/env/6341/index.html","");
+        var subMenu6338_1 = menu6338.addMenu(menu6338.items[1]);
+       subMenu6338_1.addItem("专业介绍","/publish/env/6341/index.html","");
+    subMenu6338_1.addItem("课程介绍","/publish/env/6342/index.html","");
+    subMenu6338_1.addItem("精品课程","/publish/env/6343/index.html","");
+    subMenu6338_1.addItem("专业设置","/publish/env/6344/index.html","");
+    subMenu6338_1.addItem("培养方案","/publish/env/6345/index.html","");
+    subMenu6338_1.addItem("实践教学","/publish/env/6346/index.html","");
+    subMenu6338_1.addItem("留学生","/publish/env/6347/index.html","");
+      menu6338.addItem("硕士生教学","/publish/env/6349/index.html","");
+        var subMenu6338_2 = menu6338.addMenu(menu6338.items[2]);
+       subMenu6338_2.addItem("导师介绍","/publish/env/6349/index.html","");
+    subMenu6338_2.addItem("培养方案（硕士）","/publish/env/6350/index.html","");
+    subMenu6338_2.addItem("培养方案（工程硕士）","/publish/env/6351/index.html","");
+    subMenu6338_2.addItem("开设课程","/publish/env/6352/index.html","");
+    subMenu6338_2.addItem("留学生","/publish/env/6353/index.html","");
+      menu6338.addItem("博士生教学","/publish/env/6355/index.html","");
+        var subMenu6338_3 = menu6338.addMenu(menu6338.items[3]);
+       subMenu6338_3.addItem("导师介绍（博士）","/publish/env/6355/index.html","");
+    subMenu6338_3.addItem("培养方案（博士）","/publish/env/6356/index.html","");
+    subMenu6338_3.addItem("留学生","/publish/env/6357/index.html","");
+      menu6338.addItem("继续教育","/publish/env/6358/index.html","");
+        menu6338.addItem("出版教材","/publish/env/6359/index.html","");
+        menu6338.addItem("教学成果","/publish/env/6360/index.html","");
+        
+var menu6361 = ms.addMenu(document.getElementById("menu_6361"));
+menu6361.addItem("栏目概述","/publish/env/6362/index.html","");
+        menu6361.addItem("本科生","/publish/env/6363/index.html","");
+        menu6361.addItem("研究生","/publish/env/6364/index.html","");
+        menu6361.addItem("学生绿色协会","/publish/env/6365/index.html","");
+        menu6361.addItem("环境友好科技竞赛","/publish/env/6366/index.html","");
+        menu6361.addItem("博士生学术会议","/publish/env/6367/index.html","");
+        menu6361.addItem("陶氏-可持续发展创新挑战赛","/publish/env/7841/index.html","");
+        menu6361.addItem("清源协会","/publish/env/8478/index.html","");
+        menu6361.addItem("奖学金","/publish/env/10530/index.html","");
+        var menu6368 = ms.addMenu(document.getElementById("menu_6368"));
+menu6368.addItem("栏目概述","/publish/env/6369/index.html","");
+        menu6368.addItem("研究领域","/publish/env/6370/index.html","");
+        menu6368.addItem("研究成果","/publish/env/6372/index.html","");
+        var subMenu6368_2 = menu6368.addMenu(menu6368.items[2]);
+       subMenu6368_2.addItem("各类奖项","/publish/env/6372/index.html","");
+    subMenu6368_2.addItem("编著译著","/publish/env/6373/index.html","");
+    subMenu6368_2.addItem("知识产权","/publish/env/6374/index.html","");
+      menu6368.addItem("编辑期刊","/publish/env/6376/index.html","");
+        var subMenu6368_3 = menu6368.addMenu(menu6368.items[3]);
+       subMenu6368_3.addItem("期刊简介","/publish/env/6376/index.html","");
+    subMenu6368_3.addItem("编委会","/publish/env/6378/index.html","");
+    subMenu6368_3.addItem("征稿简则","/publish/env/6379/index.html","");
+    subMenu6368_3.addItem("稿件模板","/publish/env/6380/index.html","");
+      menu6368.addItem("主办会议","/publish/env/6381/index.html","");
+        menu6368.addItem("重大专项","/publish/env/6384/index.html","");
+        var menu6385 = ms.addMenu(document.getElementById("menu_6385"));
+menu6385.addItem("栏目概述","/publish/env/6386/index.html","");
+        menu6385.addItem("合作机构","/publish/env/6387/index.html","");
+        menu6385.addItem("重要项目","/publish/env/6388/index.html","");
+        var menu6390 = ms.addMenu(document.getElementById("menu_6390"));
+menu6390.addItem("环境节能楼","/publish/env/6391/index.html","");
+        menu6390.addItem("实验教学中心","/publish/env/6392/index.html","");
+        menu6390.addItem("公共研究平台","/publish/env/6393/index.html","");
+        menu6390.addItem("环境图书馆","/publish/env/6394/index.html","");
+        var menu6395 = ms.addMenu(document.getElementById("menu_6395"));
+menu6395.addItem("本科生","/publish/env/6396/index.html","");
+        menu6395.addItem("硕士生","/publish/env/6398/index.html","");
+        var subMenu6395_1 = menu6395.addMenu(menu6395.items[1]);
+       subMenu6395_1.addItem("硕士","/publish/env/6398/index.html","");
+    subMenu6395_1.addItem("工程硕士","/publish/env/6399/index.html","");
+    subMenu6395_1.addItem("工程管理硕士","/publish/env/9171/index.html","");
+      menu6395.addItem("博士生","/publish/env/6400/index.html","");
+        menu6395.addItem("留学生","/publish/env/6401/index.html","");
+        menu6395.addItem("继续教育","/publish/env/6402/index.html","");
+        var menu6404 = ms.addMenu(document.getElementById("menu_6404"));
+menu6404.addItem("教师招聘","/publish/env/6405/index.html","");
+        menu6404.addItem("博士后招聘","/publish/env/6406/index.html","");
+        menu6404.addItem("合同制人员招聘","/publish/env/6407/index.html","");
+        var menu6408 = ms.addMenu(document.getElementById("menu_6408"));
+menu6408.addItem("综合新闻","/publish/env/6409/index.html","");
+        menu6408.addItem("图片新闻","/publish/env/6410/index.html","");
+        menu6408.addItem("人物新闻","/publish/env/6411/index.html","");
+        menu6408.addItem("工作简报","/publish/env/6413/index.html","");
+        var menu6414 = ms.addMenu(document.getElementById("menu_6414"));
+menu6414.addItem("电话电邮","/publish/env/6415/index.html","");
+        menu6414.addItem("邮寄地址","/publish/env/6416/index.html","");
+        menu6414.addItem("来访路线","/publish/env/6417/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<!-- nav start -->
+        <div class="nav nomalwidth auto">
+         <ul>
+<li><a href="/publish/env/index.html" title="&nbsp;">首页</a></li>
+<li id="menu_6312"  class="first"><a href="/publish/env/6313/index.html" title="学院概况">学院概况</a></li>
+<li id="menu_6317"><a href="/publish/env/6318/index.html" title="机构设置">机构设置</a></li>
+<li id="menu_6326"><a href="/publish/env/6327/index.html" title="师资队伍">师资队伍</a></li>
+<li id="menu_6338"><a href="/publish/env/6339/index.html" title="教务教学">教务教学</a></li>
+<li id="menu_6361"><a href="/publish/env/6362/index.html" title="学生生活">学生生活</a></li>
+<li id="menu_6368"><a href="/publish/env/6369/index.html" title="科学研究">科学研究</a></li>
+<li id="menu_6385"><a href="/publish/env/6386/index.html" title="合作交流">合作交流</a></li>
+<li id="menu_6390"><a href="/publish/env/6391/index.html" title="基础设施">基础设施</a></li>
+<li id="menu_6395"><a href="/publish/env/6396/index.html" title="招生信息">招生信息</a></li>
+<li id="menu_6404"><a href="/publish/env/6405/index.html" title="招聘人才">招聘人才</a></li>
+<li id="menu_6408"><a href="/publish/env/6409/index.html" title="新闻">新闻</a></li>
+<li id="menu_6414"><a href="/publish/env/6415/index.html" title="联系我们" class="clear">联系我们</a></li>
+</ul>
+        </div>
+  <script language="JavaScript">initMenuData();</script>
+        <!-- nav end -->        <!-- nav end -->
+        
+        <!-- 中部区域开始 -->
+        <div class="content auto">
+         
+            <!-- start -->
+            <table width="0" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="box_left">
+                 
+                    <!-- start -->
+                    <div class="s_menu">
+<p><img src="/publish/env/images/left_menu_pic.gif" width="200" height="76" /></p>
+                    </div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <div class="menu_bg_line"></div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <form id="searchForm" name="form1" method="post" action="#" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+<div class="search auto"><p class="left"><input name="Q" type="text" /></p><p class="right"><a href="javascript:document.form1.submit();" title="搜索"></a></p></div>
+</form>                    <!-- end -->
+                    
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="info_02 auto"><a href='http://100.tsinghua.edu.cn'><img width='190' height='67' src='/publish/env/images/100year_02.gif' /></a></div>
+                    <!-- end -->                    <!-- end -->
+                                                            
+                </td>
+                <td class="box_right">
+                 
+                    <!-- c_top start -->
+<!-- c_top start -->
+<div class="c_top">
+  <ul class="nav_01">
+    <li>&nbsp;您所在的位置：<A href="/publish/env/index.html" >首页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A href="/publish/env/6422/index.html" >教师个人主页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A>教师详细信息</A></li>
+    <li style="width:400px; text-align:right;"><A href="javascript:history.go(-1);">返&nbsp;&nbsp;回</A></li>
+  </ul>
+</div>
+<!-- c_bottom end -->                    <!-- c_bottom end -->
+                    <!-- start -->
+                <!--s2_right_con开始处-->
+                      <div id="s2_right_con">
+<img src="/publish/env/6422/20110218103959449690196/20110218105550637769347.jpg" />
+<table border="1" cellspacing="1" cellpadding="1" width="400">
+    <tbody>
+        <tr>
+            <td><strong>姓　　名：</strong></td>
+            <td>常&nbsp;&nbsp;杪</td>
+        </tr>
+        <tr>
+            <td><strong>所在单位：</strong></td>
+            <td>环境管理与政策教研所</td>
+        </tr>
+        <tr>
+            <td><strong>职　　称：</strong></td>
+            <td>副高级</td>
+        </tr>
+        <tr>
+            <td><strong>职　　务：</strong></td>
+            <td>清华大学环境管理与政策研究所所长</td>
+        </tr>
+        <tr>
+            <td><strong>邮寄地址：</strong></td>
+            <td>清华大学中意环境节能楼1025</td>
+        </tr>
+        <tr>
+            <td><strong>办公电话：</strong></td>
+            <td>62780478</td>
+        </tr>
+        <tr>
+            <td><strong>电子邮件：</strong></td>
+            <td>changmiao@tsinghua.edu.cn</td>
+        </tr>
+        <tr>
+            <td><strong>办公地点：</strong></td>
+            <td>中国北京清华大学环境学院</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+                        <h4>教育背景</h4>
+<p>从1991年开始留学日本，在日本获得学士、硕士和博士学位。</p>
+                        <h4>工作履历</h4>
+<p>清华大学环境学院副研究员，现任环境管理与政策研究所所长。环境学博士。从1991年开始留学日本，在日本获得学士、硕士和博士学位。1998年到2004年任地球环境战略研究所(日本)研究员。在日本，长期从事有关环保领域投融资机制的研究。与国际组织合作，率先研究如何建立形成有效的政府部门与私人部门伙伴关系机制，以提高亚洲各国城市环境基础设施的建设与运营管理水平。</p>
+<p>作为核心研究人员，负责中国环境与发展国际合作委员会(CCICED)的中国环境保护投融资课题研究。负责多项联合国、世界银行、亚洲开发银行、日本国际协力银行等国际组织关于我国环境管理与政策领域的国际合作项目。协助建设部、国家环境保护部等部门以及北京市等地方政府开展我国环境领域战略政策研究以及管理手段与管理工具的开发，提供技术支持。</p>
+<p><strong>教学：</strong></p>
+<p>研究生课程：环境保护投融资&nbsp;</p>
+<p>研究生（留学生）课程：环境管理与政策</p>
+                        <h4>学术兼职</h4>
+<p>中国致公党中央环境与可持续发展专业委员会委员</p>
+<p>北京致公党环境与可持续发展专业委员会委员</p>
+<p>中国环境科学学会环境经济分会委员</p>
+<p>国家开发银行专家</p>
+                        <h4>研究领域</h4>
+<p>环境投融资，环境政策与管理</p>
+<p>研究环境保护各领域(工业污染治理、城市环境基础设施建设与运营、生态保护、全球环境问题)的投资预测、投融资体制、融资渠道及方案实施的保障措施。</p>
+<p>Study on the financial mechanisms for the environmental protection field including industrial pollution control, urban environmental infrastructure construction and operation, eco-system conservation, and global environmental problems.</p>
+<p>现重点研究城市水业领域的发展战略、政策法规、管理体制、投融资机制等方面的理论基础及应用。</p>
+<p>Study on the strategies, legal system and policies, institutional structure, and financing mechanisms for developing water sector.</p>
+<p>环境政策与管理研究，特别是城市环境管理政策。</p>
+<p>Study on environmental governance, and urban environmental management.</p>
+                        <h4>研究概况</h4>
+<p><strong>科研项目：</strong></p>
+<p>福州市&ldquo;十二五&rdquo;环境保护和生态环境建设规划及其基础课题研究，福州市环境保护局，2010-2011&nbsp;</p>
+<p>沈阳市环境样板城创建公众参与规划编制，沈阳市环境保护局，2010</p>
+<p>城镇生活污水处理设施建设需求、技术路线与投融资政策研究，国家发展改革委员会与国家开发银行，2010</p>
+<p>国家开发银行环保金融体系搭建与模式创新研究实施方案，国家开发银行，2010</p>
+<p>国家开发银行环保投资绩效评估项目，国家开发银行、国家环境保护部，2010</p>
+<p>低碳可持续发展约束下的城镇化建设问题，&ldquo;中国工程科技中长期发展战略研究&rdquo;土建工程科技领域课题，中国工程院，2010年</p>
+<p>中国总氮总磷水环境污染总量控制研究，国家环境保护部与日本环境省，2009-2011</p>
+<p>北京市垃圾处理循环园区策略研究课题，北京科技咨询中心，2009-2010</p>
+<p>山西省火电行业二氧化硫排放指标交易项目，山西省环保厅，2009-2010</p>
+<p>河北省唐山市建立排污权交易市场对策研究，唐山市环境保护局，2009</p>
+<p>中国低碳发展政策研究，日本环境省，2009-2010</p>
+<p>战略互惠关系下的日中环境合作战略研究，日本环境省，2009-2010</p>
+<p>氮磷水污染物排放总量减排中日合作项目，国家环境保护部，2009-2010</p>
+<p>公共财政与环保投入，国家环境保护&ldquo;十二五&rdquo;规划前期研究课题，环境保护部环境规划院，2009</p>
+<p>城市综合节水规划关键技术和标准体系研究，&ldquo;十一五&rdquo;国家科技支撑计划城市综合节水技术开发与示范项目课题，住建部，2008-2010</p>
+<p>中国金融机构建立环境可持续发展支持体系研究（70773068），国家自然科学基金委，2008-2010</p>
+<p>中国小城镇&bull;农村生活污水分散处理技术与管理体系研究，国家环境保护部与日本环境省，2008-2010</p>
+<p>中国污水处理基础设施行业投融资研究，国家开发银行，2008-2009</p>
+<p>北京市环境基础设施行业基础设施投资回报机制研究，北京市市政管理委员会，2008</p>
+<p>乡镇/农村生活污水分散处理技术开发及配套产业政策研究，日本地球环境战略研究所，2007-2008</p>
+<p>中国水业领域投融资体制改革及其日本政府对华援助项目影响分析，日本国际协力银行，2006-2007</p>
+<p>世界银行对华城市水领域战略报告编写咨询，世界银行，2006-2007</p>
+<p>天津日元贷款污水处理设施建设项目中期监理，日本国际协力银行，2006</p>
+<p>澳门自来水特许经营项目评估，澳门自来水公司，2005-2006</p>
+<p>城市供水行业绩效关键指标研究与示范研究，北京首创股份有限公司委托，建设部软科学研究项目，2005-2006</p>
+<p>中国城市环境服务业课题&mdash;城市环境服务业发展的国际经验及其对中国的启示，国务院发展中心项目，2005-2007</p>
+<p>关于亚洲城市环境基础设施政府部门与私人部门伙伴关系与事业效率的比较研究，日本学术振兴协会，2005-2006</p>
+<p>深圳市龙岗区城镇污水处理厂建设与运营市场化模式及其监管体系研究，深圳市龙岗区委托, 建设部软科学研究项目，2005-2006</p>
+<p>世界银行中国北方水管理研究项目(TA-P-079654-TF050537)，世界银行，2004-2005</p>
+<p>中国水行业公共部门与私人部门伙伴关系建立的主要问题与政策建议研究（TA-No.4095-PRC），亚洲开发银行，2004-2005</p>
+<p>联合国亚太经社会(UN/ESCAP)北九州清洁环境倡议项目: 亚太地区城市环境管理能力建设网络的设计与管理,2000-2004</p>
+<p>中国环境保护投融资机制研究，中国环境与发展国际合作委员会，2002-2003</p>
+                        <h4>奖励与荣誉</h4>
+<p>北京市科技进步三等奖（2004年）</p>
+<p>建设部华夏奖三等奖（2005年）</p>
+                        <h4>学术成果</h4>
+<p><strong>出版著作：</strong></p>
+<p>《中国城市水业改革实践与案例》，2006年，中国建筑工业出版社（第二作者）&nbsp;</p>
+<p>《城市水业改革的十二个问题》，2005年，中国建筑工业出版社（第三作者）</p>
+<p>《公共事业建设与环境保护》. 亚洲城市环境基础设施建设战略－政府与私人部门的责任分担与合作. 环境经济政策学会主编. 东洋经济新报社出版. 2003年11月出版.（日文）</p>
+<p>《21世纪的中国与东亚》. 第三章 中国城市环境保护问题与日本的援助政策－从产业型污染到城市生活型污染的变迁.小岛朋之主编.一艺出版社. PP65-86 .2003年.(日文)</p>
+<p>《亚洲经济发展与环境保护》第四卷:日本对中环境协力. I-5 中国城市环境保护政策与环境行政管理(张坤民、常杪、杜斌). 庆应义塾大学产业研究所出版.PP71-95. 2001年.（日文）</p>
+<p>《日本环境管理及产业污染防治》. 第二章 日本环境保护的历史变革、现状与趋势;第三章 日本环境管理体制. 任勇主编. 中国环境科学出版社.PP25-88. 2000 年.（中文）</p>
+<p><strong>发表文章：</strong></p>
+<p>常杪,杨亮,小柳秀明.日本污水处理设施建设运营资金机智的启示.环境经济,2010年Z1期:98-101&nbsp;</p>
+<p>常杪,李冬溦.我国城市综合节水经济政策研究.中国人口？资源与环境,2010年第20卷第3期:174-177</p>
+<p>常杪，郑飞，田欣.社会资本参与城市垃圾处理设施投资分析.环境与可持续发展,2010年02期:24-27</p>
+<p>常杪，田欣，彭丽娟.&ldquo;十二五&rdquo;时期城市污水处理设施建设资金需求分析.中国给水排水，2009年第25卷第20期: 6-11</p>
+<p>Xin Tian, Miao Chang. Study on Application of BOT model in Sewage Sludge Disposal and Treatment of China. Sustainable Management &amp; Technologies of Sludge 2009, IWA, Harbin</p>
+<p>边军，常杪，吴兰平，王志民，李从乐，郑丽.污水处理BOT/TOT项目的固定资产折旧问题.中国给水排水，2009年8月，第25卷第16期：15-19</p>
+<p>常杪; 田欣; 陈青.如何改善湖泊水环境整治资金机制.环境保护，2009年11A，总第431期：22-25</p>
+<p>常杪，杨亮，周艺莹，王世汶. 企业环境经营概念与框架体系.环境与可持续发展，2009年02期：9-11</p>
+<p>常杪，王世汶. 2008～2009年环保投入与环境投资趋势与结构分析.资源与人居环境，2009年11期：55-59</p>
+<p>常杪，杨亮，王世汶.日本住宅用太阳能补贴政策的调整分析.环境保护，2009年7B，总第424期：76-77</p>
+<p>常杪，田欣，陈青，王世汶.城市垃圾处理业的市场与盈利模式.环境经济，2009年8月，总第68期：36-39</p>
+<p>常杪，田欣.&ldquo;十二五&rdquo;时期中国环保整体投资需求分析及改善投融资机制的建议.环境公共财税政策国际研讨会会议论文集，2009年12月，186-195</p>
+<p>田欣，常杪，陈青.中国污水处理基础设施建设投融资渠道及相关问题分析. 环境公共财税政策国际研讨会会议论文集，2009年12月，186-203</p>
+<p>陈青，常杪.市政债券与政府性基金在美国污水设施建设中的应用比较. 环境公共财税政策国际研讨会会议论文集，2009年12月，204-213</p>
+<p>常杪，杨亮.日本环境友好投融资的发展动向与启示.环境公共财税政策国际研讨会会议论文集，2009年12月，214-221</p>
+<p>常杪，王世汶，李冬溦.绿色信贷的实施基础&mdash;&mdash;银行业环境风险管理体系.环境经济，2008年7月，总第55期：32-35</p>
+<p>常杪，杨亮，王世汶.日本政策投资银行的最新绿色金融实践&mdash;&mdash;促进环境友好经营融资业务.环境保护，2008年5B，总第396期：67-70</p>
+<p>Miao CHANG, Lijuan PENG, Shiwen WANG. Development of environmental management system in China&rsquo;s financial sector[J]. Frontiers of Environmental Science and Engineering in China. 2008, 2(2): 172-177</p>
+<p>齐瑶，常杪.小城镇和农村生活污水分散处理的适用技术.中国给水排水，2008年第24卷第18期:24-27</p>
+<p>彭丽娟，王世汶，常杪.环境产业投资基金设计.环境保护，2008年4B，总第394期：16-19</p>
+<p>常杪，杨亮，王世汶.日本汽车行业加大环保研发投入的启示.中国环保产业，2008年11月，总第125期：59-62</p>
+<p>常杪.绿色体系需要经营.商学院，2008年第11期:62</p>
+<p>田欣，常杪.我国COD减排投资需求与投资压力研究.四川环境，2008年12月,第27卷第6期？常杪,彭丽娟，我国城市供水行业的客户服务现状及问题分析，中国给水排水,2007年第8期,总第196期,71-75</p>
+<p>边军,常杪,朱凌云等，深圳市龙岗区政府监管市场化运营污水处理厂的措施，中国给水排水,2007年第10期,总第198期,68-71</p>
+<p>常杪,田欣，社会资本参与污水处理基础设施建设的现状分析，中国给水排水,2007年第20期,总第208期,73-77</p>
+<p>陈青,常杪，我国城市污水设施建设资金缺口分布特征分析，中国给水排水,2007年第24期,总第212期,68-74</p>
+<p>常杪，实施绿色信贷的国际经验，绿色信贷研讨会，北京，2007年10月。</p>
+<p>常杪，污水分散处理研究，日中水环境合作研讨会，重庆，2007年11月。</p>
+<p>常杪，租赁业在我国循环经济社会构建中的作用与机遇，第五届租赁业行业论坛，北京，2007年11月。</p>
+<p>常杪，循环经济在中国的发展及给银行业带来的机会，银行社会责任国际研讨会，北京，2007年12月4日。</p>
+<p>常杪，朱凌云. 政策性资金在我国城市水业设施建设中的作用于挑战. 《给水排水》2006年第32卷第8期: 110-114</p>
+<p>林挺，常杪.污水处理BOT项目风险识别、分配与变化分析. 《中国给水排水》2006年第12期</p>
+<p>薛磊,常杪,傅涛.城市管网经济漏损水平研究. 《城镇供水》2006年第3期(总第127期),53-56</p>
+<p>傅涛,钟丽锦,常杪. 水业特许经营的案例分析与操作. 《中国给水排水》2006年第4期第22卷第4期: 18-22</p>
+<p>傅涛、钟丽锦、常杪. 水业特许经营的案例分析与操作.《中国给水排水》 2006年第4期</p>
+<p>常杪、林挺. 我国城市污水处理厂BOT项目建设现状分析.《给水排水》2006年第2期</p>
+<p>常杪，傅涛，钟丽锦.政策性资金与城市水业改革. 《中国给水排水》2006年5月</p>
+<p>常杪.&ldquo;十一五&rdquo;期间中国城市污水处理设施建设投融资策略. 《世界环境》2006年6月</p>
+<p>傅涛、张丽珍、常杪. 城市水价的定价目标、构成和原则.《中国给水排水》 2006年第6期</p>
+<p>常杪、邬亮. 流域生态补偿机制研究.《环境保护》2005年第12期.P66-68</p>
+<p>傅涛、陈吉宁、常杪. 城市水业投融资机制与资本战略.《环境经济》. 2005年3月</p>
+<p>常杪. 我国现阶段城市污水处理领域投融资机制问题分析. 《中国环保产业》2005年第5期</p>
+<p>陈吉宁、常杪. 水价调整中应进一步加强成本监管.《中国水利报》2005年5月24日</p>
+<p>常杪.水业领域投融资机制设计方法与国际经验. 2004城市水业战略研讨与技术交流会会议论文，2004年3月，新大都饭店</p>
+<p>常杪.任勇. 井村秀文. 2001.东亚促进城市环境基础设施发展的战略趋势．《世界环境》No71, 国家环保总局与联合国环境规划署主办. 中国环境科学出版社《世界环境》编辑部. pp.29-32. 北京</p>
+<p>常杪. 1999. 发展中国家超前进入循环城市建设的可能性, 《世界环境》No63, 国家环保总局与联合国环境规划署主办. 中国环境科学出版社《世界环境》编辑部. pp9-12. 北京</p>
+<p>Chang, M., and Imura, H., 2003, The New Role of International Development Organizations and ODA for Urban Environmental Infrastructure in Asia. Journal of International Development Studies. Vol.12, No.2. The Japan Society for International Development. To be published in Nov 2003. (in Japanese)</p>
+<p>Chang,M. and Imura, H., International experience of Public-Private Partnerships (PPP) for Urban Environmental Infrastructure and its Application to China. International Review for Environmental Strategies, Vol. 4, No. 1, 2004.</p>
+<p>Chang, M., and Imura, H., 2002, Developing Private Finance Initiatives (PFI)/Public-Private Partnerships (PPP) for Urban Environmental Infrastructure in Asia. Environmental System Research. Vol.30. Committee on Environmental Systems, Japan Society of Civil Engineers. pp.143-151(in Japanese)</p>
+<p>Chang, M., and Imura, H.,2002．Financing Urban Environmental Infrastructure in China: Current Situation and Challenges. Journal of International Development Studies.Vol. 11, No. 1. The Japan Society for International Development. pp.1-20 (in Japanese)</p>
+<p>Chang, M., and Imura, H.,2002．Foreign Direct Investment for Urban Environmental Infrastructure in Asia. Proceedings for the Annual Conference of the Society of Environmental Economics and Policy Studies (SEEPS).September, 2002. pp.180-181, Hokkaido (in Japanese)</p>
+<p>Chang, M., Ren,Y, and Imura, H., Financing Urban Environmental Infrastructure in East Asia: Current Situation, Challenges and Strategies, International Review for Environmental Strategies, Vol. 2, No. 1, pp79-105.</p>
+<p>Chang, M., Dhakal, S., and Imura. H., 2001. A Design of Indicators for Urban Environmental Strategies for Asia and the Pacific. Proceedings for the Annual Conference of the Society of Environmental Economics and Policy Studies (SEEPS).September, 2001. pp.29-30, Kyoto (in Japanese)</p>
+<p>&nbsp;</p>
+                  </div>
+                      <!--s2_right_con结束处-->
+                    <!-- end -->
+                                                              
+                </td>
+              </tr>
+            </table>
+            <!-- end -->
+                                       
+       </div>
+        <!-- 中部区域结束 -->
+        
+        <!-- 页脚区域开始 -->
+        <!-- 页脚区域开始 -->
+        <div class="footer nomalwidth auto"><div class="footer nomalwidth auto"><p style="text-align: center;"><span style="color: rgb(51, 51, 51);">Copyright&nbsp;<img title="copyright_black.png" src="/publish/env/6421/20110117161025461497872/1492675051132.png"/> 2017&nbsp;清华大学环境学院<span style="color: rgb(0, 0, 0);"> </span></span></p><p style="text-align: center;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">地址：清华大学中意环境节能楼&nbsp;&nbsp;100084</span></p></div><!-- 页脚区域结束 --><!-- 页脚区域结束 --><!-- 整体区域结束 --></div>
+<!-- 页脚区域结束 -->        <!-- 页脚区域结束 -->
+        
+ </div>
+    <!-- 整体区域结束 -->
+</body>
+</html>

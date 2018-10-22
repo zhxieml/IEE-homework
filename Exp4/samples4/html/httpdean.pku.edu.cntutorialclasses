@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>北京大学本科生“小班课教学”课程</title>
+<link href="css/cqstyle.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div class="head">
+	<div class="head_right"><a href="http://www.pku.edu.cn">北京大学</a> | <a href="http://dean.pku.edu.cn/pkudean/index.html">北京大学教务部</a></div>
+</div>
+
+<div class="logo">
+	<div class="logoer"><img src="images/index_02.jpg" width="278" height="99" alt=""></div>
+</div>
+
+<div class="banner"><img src="images/index_04.jpg" width="1002" height="342" alt=""></div>
+<!---------banner结束内容开始------------------->
+
+<div class="content">
+	
+    <!-------内容左部结束    右部开始------------------->
+	<div class="content_right">
+		<div class="content_right_t"> <img src="images/tutorial-classes-introduction.png" width="378" height="54" alt="" border='0' /> </div>
+		<div class="content_right_text"> 
+			  <div class="content_right_text4">
+			     &nbsp;&nbsp;&nbsp;&nbsp;小班课教学”模式是世界一流大学在教学实践中广泛采用、行之有效的一种重要教学组织形式，有利于激发学生学习的主动性、创造性和内在潜力。&nbsp;<br/>
+			     &nbsp;&nbsp;&nbsp;2012 年3   月，在北京大学本科教育发展战略研究小组会议上，由时任学校常务副校长的王恩哥院士代表学校提出开展大班授课和小班研讨相结合的“小班课教学”试点工作，自2012   年秋季学期开始实施。学校原则上要求选择低年级专业必修基础课程，开展大班授课、小班研讨和一对一答疑相结合的教学模式。2012 年秋季学期至2014   年秋季学期，全校共有16 个院系开设38 门“小班课教学”课程，其中大班课程开设90 门次，小班讨论课450 门次，参与教师350 余人。<br />
+	      </div>
+		      <div class="content_right_text5"> <img src="images/index_20.jpg" width="324"   alt="" border="0">  </div>
+		</div>
+		<!---------右部内容结束------------->
+		<div class="content_right_bottom"><img src="images/index_23.jpg" width="378" height="3" alt=""></div>
+	</div>
+    <!----------右部结束---------------->
+	<div class="content_left">
+		<div class="content_left_t">
+			 <div class="content_left_t_l"><img src="images/index_06.jpg" width="533" height="31" alt=""></div>
+			 <div class="content_left_t_r"></div>
+		</div>
+		<!----标题结束表格开始---------->
+		<table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC" style="border:#CCCCCC solid 1px;">
+  <tr>
+    
+    <td width="50%"  height="48" bgcolor="#FFFFFF"><span class="z">Deparment院系</span></td>
+    <td width="50%" bgcolor="#FFFFFF"><span class="z">Deparment院系</span></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=001">数学科学学院</a></td>
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=004"> 物理学院</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=010"> 化学与分子工程学院</a></td>
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=011"> 生命科学学院</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=012">地球与空间物理学院</a></td>
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=016"> 心理学系</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF">   新闻与传播学院 </td>
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=020"> 中国语言文学系</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=021"> 历史学系</a></td>
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=022"> 考古文博学院</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=023">哲学系</a></td>
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=024"> 国际关系学院</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=025">经济学院</a></td>
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=028"> 光华管理学院</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=029"> 法学院</a></td>
+    <td bgcolor="#FFFFFF"> 信息管理系 </td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=031">社会学系</a></td>
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=032">政府管理学院</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF">  外国语学院 </td>
+    <td bgcolor="#FFFFFF" > <a href="cs_list.php?xsid=046"> 元培学院</a></td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"><a href="cs_list.php?xsid=062">  国家发展研究院</a></td>
+    <td bgcolor="#FFFFFF"> 艺术学院 </td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> <a href="cs_list.php?xsid=048"> 信息科学技术学院</a></td>
+    <td bgcolor="#FFFFFF">工学院</td>
+  </tr>
+   <tr> 
+    <td bgcolor="#FFFFFF"> 城市与环境学院 </td>
+    <td bgcolor="#FFFFFF"> 环境科学与工程学院  </td>
+  </tr>
+ </table>
+	</div>
+	
+</div>
+
+<div class="footer">copyright 2014 Peking University版权所有@ 1998-2014北京大学教务部<br/>Peking University,No.5 Yiheyuan Road Haidian District, Beijing,P.R.China 100871北京市海淀区颐和园路5号邮编:100871</div>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<title>教师_北京大学人事部</title>
+<link href="../../css1/icon.css" rel="stylesheet" type="text/css">
+<link href="../../css1/base.css" rel="stylesheet" type="text/css">
+<link href="../../css1/index.css" rel="stylesheet" type="text/css">
+<link href="../../css5/inner.css" rel="stylesheet" type="text/css">
+<link href="../../css1/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+	<script src="../../js/html5.js" type="text/javascript"></script>
+	<script src="../../js/response.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+
+<header class="header"> <section>
+    <div class="topLine"></div>
+    <section class="subNav yahei clearfix">
+      <section class="ssubNav">
+                <!--<img id="subNavlogo" src="../../img/mnav.png" style="width:22px;height:17px;padding-bottom:6px;">-->
+                <span id="navline_1" class="navline"></span>
+            <span id="navline_2" class="navline"></span>
+            <span id="navline_3" class="navline" style="margin-bottom:2px;"></span>
+            </section>
+      <section class="mainWrap mainWrap02 noline">
+                                    <ul class="subNavLeft" style="padding-left:12px;">
+                  
+        </ul>
+        <ul class="subNavRight" style="padding-right:12px;">
+                    
+                   
+                    <li><a href="#">English</a></li>
+                                    <li id="form_Search_itme">
+                        <form name="dataForm" action="/cms/search/searchResults.jsp" class="search" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+            <input name="siteID" value="26" type = "hidden">
+            <input id="form_Searchword" name="query" class="inp" onFocus="" onBlur="" type="text">
+                         <a id="form_Search_a" name="Submit" href="#" class="glyphicon glyphicon-search btn searchlogo" style="font-size:12px;"></a>
+             </form>
+             
+          </li>
+        </ul>
+      </section>
+
+      <!-- search -->
+      <section class="clearfix">
+      
+      </section>
+      
+      
+      <!-- for mobile [begin] -->
+      <section id="mobileNav" class="onlymobileshow clearfix" style="">
+                  <div style="background-color:#fff;clear:both;padding-bottom:7px;line-height:30px;font-size:16px; color:#000;">
+                    <ul>  
+                                                    
+                                                <li class="nav_first"><a href="../../index.htm">首页</a></li>
+                                                                                                <li><form id="formSearch2"  name="dataForm" method="get" action="/cms/search/searchResults.jsp" accept-charset="utf-8" onsubmit="document.charset='utf-8';" target="_blank">
+                                                <input name="siteID" value="26" type = "hidden">
+                        <input name="query"  onFocus="" onBlur="" type="text">
+                        <a href="javascript:document.forms['formSearch2'].submit();" class="glyphicon glyphicon-search btn" name="Submit" onClick="" title="Search"></a>
+                        </form>
+                    </li>
+                       </ul>
+                  </div>
+      </section>
+      <!--  for mobile [end] -->
+
+    </section>
+
+    <section class="topWrap clearfix">
+
+      <section class="mainWrap">
+                    <span class="logo">
+                    <a href="http://www.pku.edu.cn/" title="北京大学"><img src="../../img/pkulogo_white.png"></a>
+                    <a class="sub_logo" href="index.htm" title=""><img src="../../img/gse-logo.png"></a>
+                    </span>
+            </section>
+            <!--<span class="slogan">守正创新，引领未来</span>
+            <span class="slogan"><img src="../../img/img_slogan.png"/></span>-->
+      <section class="nav yahei clearfix noMobileShow" style="clear:both;">
+
+        <ul id="nav">
+                  
+          <li><a id="about" href="../../index.htm" >首页</a>
+                      <li class="nav_first"><a id="about" href="../../jgjs/znjj/index.htm" >机构介绍</a>
+                                                        <ul class="sub-nav" style="display: none;">
+                                                                                                                        <li><a href="../../jgjs/znjj/index.htm">职能简介</a></li>
+                                                                                                                        <li><a href="../../jgjs/zzjg/index.htm">组织机构</a></li>
+                                                                                                                        <li><a href="../../jgjs/jgryyyw/index.htm">机构人员与业务</a></li>
+                                                                                                                        <li><a href="../../jgjs/lxwm/index.htm">联系我们</a></li>
+                                                                                                                    </ul>
+                    </li>
+                                           <li><a id="faculty" href="index.htm"  class="current" >人才招聘</a>
+                                                        <ul class="sub-nav">
+                                                                                                                        <li><a href="index.htm">教师</a></li>
+                                                                                                                        <li><a href="../jfxz/index.htm">教辅行政</a></li>
+                                                                                                                        <li><a href="../yjbys/index.htm">应届毕业生</a></li>
+                                                                                                                        <li><a href="../bsh/index.htm">博士后</a></li>
+                                                                                                                    </ul>
+                    </li>
+                                            <li><a id="research" href="../../fwzn/zpsw/index.htm" >服务指南</a>
+                                                        <ul class="sub-nav">
+                                                                                                                       <li><a href="../../fwzn/zpsw/index.htm">招聘事务</a></li>
+                                                                                                                        <li><a href="../../fwzn/bdrz/index.htm">报到入职</a></li>
+                                                                                                                        <li><a href="../../fwzn/wtjtcdsw/index.htm">委托集体存档事务</a></li>
+                                                                                                                        <li><a href="../../fwzn/gzfl/index.htm">工资福利</a></li>
+                                                                                                                        <li><a href="../../fwzn/zcps/index.htm">职称评审</a></li>
+                                                                                                                        <li><a href="../../fwzn/cjyx/index.htm">出境研修</a></li>
+                                                                                                                        <li><a href="../../fwzn/gzbd/index.htm">工作调动和离职</a></li>
+                                                                                                                        <li><a href="../../fwzn/rszm/index.htm">人事证明</a></li>
+                                                                                                                        <li><a href="../../fwzn/skbx/index.htm">社会保险</a></li>
+                                                                                                                        <li><a href="../../fwzn/htbg/index.htm">合同变更</a></li>
+                                                                                                                        <li><a href="../../fwzn/ltxsw/index.htm">离退休事务</a></li>
+                                                                                                                        <li><a href="../../fwzn/grxxgg/index.htm">个人信息更改</a></li>
+                                                                                                                        <li><a href="../../fwzn/rsdasw/index.htm">人事档案事务</a></li>
+                                                                                                                        <li><a href="../../fwzn/jgfw/index.htm">机构服务</a></li>
+                                                                                                                        <li><a href="../../fwzn/qtsw/index.htm">其他事务</a></li>
+                                                                                                                        <li><a href="../../fwzn/ldhtzzgsw/index.htm">劳动合同制职工事务</a></li>
+                                                                                                                        <li><a href="../../fwzn/jgbz/index.htm">机构编制</a></li>
+                                                                                                                    </ul>
+                    </li>
+                                            <li><a id="recruit" href="../../zczd/gjflfg/index.htm" >政策制度</a>
+                                                        <ul class="sub-nav">
+                                                                                                                       <li><a href="../../zczd/gjflfg/index.htm">国家法律法规</a></li>
+                                                                                                                        <li><a href="../../zczd/zfbmgz/index.htm">政府部门规章</a></li>
+                                                                                                                        <li><a href="../../zczd/xxjbmzd/index.htm">学校及部门制度</a></li>
+                                                                                                                    </ul>
+                    </li>
+                    <li><a id="education" href="../../xzzx/zp/index.htm" >下载中心</a>
+                                <ul class="sub-nav">
+                                                                                                 <li><a href="../../xzzx/zp/index.htm">招聘</a></li>
+                                                                                                                        <li><a href="../../xzzx/htwb/index.htm">合同文本</a></li>
+                                                                                                                        <li><a href="../../xzzx/skbx1/index.htm">社会保险</a></li>
+                                                                                                                        <li><a href="../../xzzx/rszm1/index.htm">人事证明</a></li>
+                                                                                                                        <li><a href="../../xzzx/bjdxjssc/index.htm">北京大学教师手册</a></li>
+                                                                                                                        <li><a href="../../xzzx/wtjtcdsw_xzzx/index.htm">委托集体存档事务</a></li>
+                                                                                                                        <li><a href="../../xzzx/rsdl/index.htm">人事代理</a></li>
+                                                                                                                        <li><a href="../../xzzx/zcsb/index.htm">职称申报</a></li>
+                                                                                                                        <li><a href="../../xzzx/gwpr/index.htm">岗位聘任</a></li>
+                                                                                                                        <li><a href="../../xzzx/cjyxxm/index.htm">出境研修项目</a></li>
+                                                                                                                        <li><a href="../../xzzx/zzxxsp/index.htm">在职学习审批</a></li>
+                                                                                                                        <li><a href="../../xzzx/rcxm/index.htm">人才项目</a></li>
+                                                                                                                        <li><a href="../../xzzx/jjjsb/index.htm">奖教金申报</a></li>
+                                                                                                                        <li><a href="../../xzzx/kyxmpy/index.htm">科研项目聘用</a></li>
+                                                                                                                        <li><a href="../../xzzx/qjsq/index.htm">请假申请</a></li>
+                                                                                                                        <li><a href="../../xzzx/khpg/index.htm">考核评估</a></li>
+                                                                                                                        <li><a href="../../xzzx/bshyw/index.htm">博士后业务</a></li>
+                                                                                                                        <li><a href="../../xzzx/rygl/index.htm">人员管理</a></li>
+                                                                                            </ul>
+                    </li>
+                    
+                    
+        </ul>
+
+      </section>
+
+    </section>
+
+  </section>
+</header><div class="main-body">
+  <div class="bouti-tit">
+    <div class="bouti-link bouti-link-intro2">
+    	<img class="bannerImg" src="">
+			
+		</div>
+	</div>
+  
+  <div class="content">
+    <section class="sub-header">
+  			<section class="mobSecNav"><img id="subNavlogo" src="img/mnav2.png" style="padding-bottom:6px;"></section>
+  			<section class="mobSecNavMenu">
+  				<ul>
+  		               <li  class="cur"><a href="index.htm">教师</a></li>
+                            <li><a href="../jfxz/index.htm">教辅行政</a></li>
+                            <li><a href="../yjbys/index.htm">应届毕业生</a></li>
+                            <li><a href="../bsh/index.htm">博士后</a></li>
+                   				</ul>
+  			</section>
+        			<section class="secNav">
+  				<ul>
+  		               <li  class="cur"><a href="index.htm">教师</a></li>
+                            <li><a href="../jfxz/index.htm">教辅行政</a></li>
+                            <li><a href="../yjbys/index.htm">应届毕业生</a></li>
+                            <li><a href="../bsh/index.htm">博士后</a></li>
+                   				</ul>
+  			</section>
+  		</section>
+      <div class="col_lg_10 top"></div>
+      <div class="col_lg_7">
+        <div class="mainContent">
+         <div class="introTit clearfix">
+             <div class="introTitImg2"><img src="" /></div>
+             <h2>教师</h2>
+         </div>
+        <div class="article">
+                        <div class="articleList01">
+            	<div class="listTitle01">
+                	<span><a href="jxkyry/index.htm">MORE</a></span><h3>教学科研人员</h3>
+                </div>
+                <ul class="item-list">
+                                                        <li><a href="../262262.htm">1、2018年度北京大学教学科研人员招聘启事</a></li>
+                                        <li><a href="jxkyry/262109.htm">2、2018年北京大学外国语学院招聘启事</a></li>
+                                        <li><a href="jxkyry/262108.htm">3、2018年北京大学体育教研部招聘启事（非应届）</a></li>
+                                        <li><a href="jxkyry/262113.htm">4、2018年北京大学新闻与传播学院招聘启事</a></li>
+                                        <li><a href="jxkyry/306684.htm">5、2018年北京大学中国社会科学调查中心招聘启事</a></li>
+                                </ul>
+            </div>
+                      </div>
+        </div>
+      </div>
+      <div class="col_lg_3">
+        <div class="rightBg2 rightBg"><img src="" /></div>
+      </div>
+    </section>
+    <div class="clearfix"></div>
+  </div>
+</div>
+
+<footer class="footer">    <section class="fot_bbar">
+        <section class="fot_wap">
+            <section class="fot_left">
+               <a href="../../jgjs/index.htm">机构介绍</a>
+                <a href="../index.htm">人才招聘</a>
+                <a href="../../fwzn/index.htm">服务指南</a>
+                <a href="../../zczd/index.htm">政策制度</a>
+                <a href="../../xzzx/index.htm">下载中心</a>
+                <a href="../../jgjs/lxwm/index.htm">联系我们</a>
+            </section>
+            <section class="fot_cen">
+                <a href="http://www.pku.edu.cn/"><img src="../../img/pku_logo_white.png"></a>
+                <a href="index.html" title=""><img src="../../img/gse-logo.png"></a>
+            </section>
+            <section class="fot_right">
+              <a href="javascript:void(0);"><img src="../../img/weixin01.jpg"></a> 
+                <a href="javascript:void(0);"><img src="../../img/weixin02.jpg"></a> 
+         </section>
+        </section>
+    </section>
+    <section class="fot_bot_b">
+<p class="copy">本网站所有内容，版权均属北京大学人事部所有，任何媒体、网站或其他任何形式的法律实体和个人必须获得北京大学人事部授权，在授权范围内使用网站内容，并注明来源。
+对于不遵守本声明或其他侵权违法行为，本单位保留追究其法律责任的权利。</p>
+        <section class="fot_bot">
+         
+             <span class="copyright">版权所有&copy北京大学</span><span class="addr">地址：北京海淀颐和园路5号</span><span class="postcode">邮编：100871</span><span class="telephone">电话：010-62759360</span><span class="tech-sup">邮箱：rsb@pku.edu.cn</span>
+
+        </section>
+    </section>
+</footer><script src="../../js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="../../js/comm.js" type="text/javascript"></script>
+<script src="../../js/inner.js" type="text/javascript"></script>
+<script type="text/javascript">
+var arr1 = ['../../img/sub_banner01.png','../../img/sub_banner01.png','../../img/sub_banner01.png'];
+var arr2 = ['../../img/img_small1.png','../../img/img_small2.png','../../img/img_small3.png'];
+var arr3 = ['../../img/img_m1.png','../../img/img_m2.png','../../img/img_m3.png'];
+var iLen1 = arr1.length;
+var iLen2 = arr2.length;
+var iLen3 = arr3.length;
+var iNum = 0;
+$(function(){
+	iNum1 = Math.floor(Math.random()*iLen1);
+	iNum2 = Math.floor(Math.random()*iLen2);
+	iNum3 = Math.floor(Math.random()*iLen3); 
+	$('.bannerImg').attr('src',arr1[iNum1]);
+	$('.introTitImg2 img').attr('src',arr2[iNum2]);
+	$('.rightBg2 img').attr('src',arr3[iNum3]);
+	})
+
+</script>
+
+</body></html>

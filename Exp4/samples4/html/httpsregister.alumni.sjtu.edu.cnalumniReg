@@ -1,0 +1,387 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+<title>上海交通大学校友统一身份认证-注册</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<script src="https://register.alumni.sjtu.edu.cn/UI/jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
+<link href="https://register.alumni.sjtu.edu.cn/UI/css/register.css" rel="stylesheet" type="text/css" />
+<script src="https://register.alumni.sjtu.edu.cn/UI/js/register.js?v=2017-10-31-1" type="text/javascript"></script>
+<script src="https://register.alumni.sjtu.edu.cn/UI/js/cardValid.js" type="text/javascript"></script>
+<script src="https://register.alumni.sjtu.edu.cn/UI/js/common.js" type="text/javascript"></script>
+<!-- artDialog -->
+<script src="https://register.alumni.sjtu.edu.cn/UI/artdialog/artDialog.js?skin=darkblue" type="text/javascript"></script>
+<script src="https://register.alumni.sjtu.edu.cn/UI/artdialog/iframeTools.js" type="text/javascript"></script>
+
+<link href="https://register.alumni.sjtu.edu.cn/UI/jselect/select2.min.css" rel="stylesheet" type="text/css" />
+<script src="https://register.alumni.sjtu.edu.cn/UI/jselect/select2.min.js" type="text/javascript"></script>
+<!-- calendar -->
+<script src="https://register.alumni.sjtu.edu.cn/UI/calendar/WdatePicker.js" language="JavaScript" type="text/javascript"></script>
+
+
+<style type="text/css">
+#whyneedcardstyle{box-shadow:0 0 3px rgba(0, 0, 0, 0.2);text-shadow:0 1px 0 #fff;width:600px;margin:0 auto;margin-top:10rem;font-size:13px;background:#ffffff;padding:1rem;border-radius:10px;color: #666666;font-family:Arial,Helvetica,sans-serif;position: relative;}
+#whyneedcardstyle::before, #whyneedcardstyle::after{ position:absolute; content:""; top:10px; bottom:16px; left:10px; width:50%; box-shadow:0 18px 10px rgba(0, 0, 0, 0.5); -webkit-transform: rotate(-3deg); -moz-transform:rotate(-3deg); -o-transform:rotate(-3deg); -ms-transform:rotate(-3deg); transform:rotate(-3deg); z-index:-1;}
+#whyneedcardstyle::after{ right:10px; left:auto; -webkit-transform:rotate(3deg); -moz-transform:rotate(3deg); -o-transform:rotate(3deg); -ms-transform:rotate(3deg); transform: rotate(3deg);}
+</style>
+</head>
+
+<body>
+	
+	<div class="alumniReg">
+		<div class="header">
+  			<img src="https://register.alumni.sjtu.edu.cn/UI/images/regBanner.jpg"/>
+        </div>
+        <div class="mainCnt">
+   			<form id="regForm" action="https://register.alumni.sjtu.edu.cn/alumniRegCheck" method="post" onsubmit="return doSubmit();">
+			<input name="step" type="hidden" value="1" />
+			<input name="academySelect" type="hidden" value="" />
+			<input name="academyVaule" type="hidden" value="" />
+			<div class="regTop"></div>
+			<div class="regMiddle">
+				<div class="regLeft">
+					<div class="regTitle1"></div>
+					<div class="regTip">温馨提示：为确保本站注册校友的真实性，请您如实填写下面信息以便档案验证。</div>
+					<div class="regLine">
+						<div class="regLabel"><span class="regMust">* </span>真实姓名：</div>
+						<div class="regField">
+							<div class="regField">
+							<input type="text" id="name" name="name" class="regTxt" value="" style="width:243px" maxlength="50" />
+							</div>
+							<div class="regFieldMsg">请填写您的真实姓名</div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+					<div class="regLine">
+						<div class="regLabel"><span class="regMust">* </span>邮箱：</div>
+						<div class="regField"> 
+							<div class="regField">
+							<input type="text" id="mailFirst" name="mailFirst" class="regTxt" value="" style="width:243px" maxlength="250" />
+							</div>
+							<div id="repassword" class="regFieldMsg">请输入您的常用邮箱，以便我们及时与您联系，我们不会公开您的邮箱</div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+					<div class="regLine">
+						<div class="regLabel"><span class="regMust">* </span>手机：</div>
+						<div class="regField">
+							<div class="regField">
+								<input type="text" id="mobilephone" name="mobilephone" class="regTxt" value="" style="width:243px" maxlength="11" />
+							</div>
+							<div class="regFieldMsg" id="handRegFieldMsg">
+								
+								
+									请填写您的手机，以便我们及时与您联系，我们不会公开您的手机
+								
+							</div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="regLine" id="imgcode_panel">
+						<div class="regLabel">验证码:</div>
+						<div class="regField">
+							<input type="text" class="regTxt" id="imgCode" name="imgCode" value="" style="width:140px;" maxlength="4"/>
+							<img alt="验证码" id="code_img" title="点击图片刷新" src="https://register.alumni.sjtu.edu.cn/imgcode?r=0.8036832350662066" style="height: 22px;vertical-align: middle;cursor: pointer;"/>
+							<p class="regFieldMsg">为防止机器人，请输入图片验证码</p>
+						</div>
+					</div>
+					
+					<div class="regLine" id="validCode">
+						<div class="regLabel"><span class="regMust">* </span>输入动态码：</div>
+						<div class="regField">
+							<div class="regField">
+								<input type="text" id="mobilecode" name="mobilecode" class="regTxt" value="" style="width:168px" maxlength="6" />
+								<span class="getcode" id="getcode">获取动态码</span>
+							</div>
+							<div class="regFieldMsg">请查收短信，输入发给您的动态码</div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+					
+					
+					
+					<div class="regSubmit">
+						<div class="regSubmitLeft">
+							已完成注册但尚未开通jAccount的校友<a href="https://register.alumni.sjtu.edu.cn/blogin" class="regGoLogin" title="开通jAccount">&gt;&gt;点此进入&lt;&lt;</a>
+						</div>
+						<div class="regSubmitRight">
+							
+							<input type="submit" class="regNext "  value="" title="下一步"/>
+						</div>
+					</div>
+					<div class="regNotice"></div>
+				</div>
+			</div>
+			<div class="regFooter"></div>
+			</form>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+$(function(){
+	$("input[name='isOpenJac']").change(function(){
+		var _this=$(this);
+		if(_this.val()=='1'){
+			$("div#openJacShow").show();
+			$("#otherAcademy").show();
+		}else{
+			$("div#openJacShow").hide();
+			$("#otherAcademy").hide();
+		}
+	});
+	$("select[data-role='cs']").change(function(){
+		var _this=$(this);
+		var other=false;
+		$("select[data-role='cs']").each(function(){
+			if($(this).val()=='-1'){
+				other=true;
+				return;
+			}
+		});
+		if(other){
+			$("#otherAcademy").show();
+		}else{
+			$("#otherAcademy").hide();
+		}
+	});
+	$("#academy").change(function(){
+		if($(this).val()=='-1'){
+			$("#department").val("-1");
+			$("#className").val("-1");
+			$("#select2-department-container").attr("title","其他").text("其他");
+			$("#select2-className-container").attr("title","其他").text("其他");
+		}else{
+			$("#department").val("");
+			$("#className").val("");
+			$("#select2-department-container").attr("title","请选择").text("请选择");
+			$("#select2-className-container").attr("title","请选择").text("请选择");
+			$("#otherAcademy").hide();
+		}
+	});
+	$("#department").change(function(){
+		if($(this).val()=='-1'){
+			$("#className").val("-1");
+			$("#select2-className-container").attr("title","其他").text("其他");
+		}else{
+			$("#className").val("");
+			$("#select2-className-container").attr("title","请选择").text("请选择");
+			$("#otherAcademy").hide();
+		}
+	});
+	
+	$("#mobilephone").blur(function(){
+		var _this=$(this);
+		if(!!$.trim(_this.val())){
+			$("#handRegFieldMsg").html("请填写您的手机，以便我们及时与您联系，我们不会公开您的手机");
+			$.ajax({
+				type:"POST",
+				url:"checkHand.action",
+				data:{"handsetFirst":_this.val()},
+				dataType:"json",
+				success:function(res){
+					if(!!res&&!!res.code){
+						if(res.code=='2'){
+							$("#handRegFieldMsg").html("<font color=\"green\">您的手机已通过验证</font>");
+							$("#validCode").hide();
+						}
+					}
+				}
+			});
+		}
+	});
+	
+	$("#liveCountry").select2();
+	$("#liveProvince").select2();
+	$("#liveCity").select2();
+	$("#academy").select2();
+	$("#department").select2();
+	$("#className").select2();
+	
+	$("#cardType").change(function(){
+		var val=$(this).val();
+		if(val=='护照'){
+			$("#passport_data").show();
+		}else{
+			$("#passport_data").hide();
+		}
+	});
+	
+	//验证身份证
+	$("#cardNum").blur(function(){
+		if($("#cardType").val()=='身份证'){
+			var code=$("#cardNum").val();
+			var i = Validator.isValid(code);
+			if(i==false){
+				$("#cardRegFieldMsg").html("<font color='red'>身份证号不合法</font>");
+				$("#cardNum").css("border-color","red");
+				$("#cardNum").focus();
+				return false;
+			}else{
+				$("#cardRegFieldMsg").html("");
+				$("#cardNum").css("border-color","#cccccc");
+			}
+		}
+	});
+});
+function doSubmit(){
+	formFormat("regForm");
+	//是否能提交
+	var flag=true;
+	$(".regLine:visible").each(function(i,obj){
+		var _this=$(obj);
+		//是否必须
+		var isMust=_this.find(".regLabel .regMust").length>0;
+		if(isMust){
+			var input=_this.find(".regField input[class='regTxt']");
+			if(!!input&&typeof(input[0])!="undefined"){
+				if(!!input.val()){
+					input.css("border-color","#cccccc");
+				}else{
+					flag=false;
+					input.css("border-color","red");
+					input.focus();
+				}
+			}
+		}
+	});
+	
+	if(flag){
+		var regNotice = $(".regNotice");
+		//验证身份证
+		if($("#cardType").val()=='身份证'){
+			var code=$("#cardNum").val();
+			var i = Validator.isValid(code);
+			if(i==false){
+				$("#cardRegFieldMsg").html("<font color='red'>身份证号不合法</font>");
+				$("#cardNum").css("border-color","red");
+				$("#cardNum").focus();
+				return false;
+			}else{
+				$("#cardRegFieldMsg").html("");
+			}
+		}
+	
+		regNotice.addClass("regNoticeWait");
+		regNotice.html("正在验证数据..");
+		regNotice.css("display","block");
+		
+		$(".regNext").css("disabled",true);
+	}
+	return flag;
+}
+
+function jacConfShow(){
+	$("#jacConfShow").toggle();
+}
+
+function chooseYear(){
+	var startyear=$("#startyear").val();
+	var endyear=$("#endyear").val();
+	if(startyear!=""||endyear!=""){
+		var url ="https://register.alumni.sjtu.edu.cn/findAcademy.action";
+		var pars ={startyear:startyear,endyear:endyear};
+		$.ajax({
+			type:"POST",
+			url:url,
+			data:pars,
+			dataType:"xml",
+			success:function(res){
+				var _obj=$("#academy"),obj=_obj[0];
+				_obj.empty();
+				//请选择
+				var opt=new Option("请选择","");
+				obj.options.add(opt);
+				if($(res).find("fields").length>0){
+					$(res).find("fields").each(function(i){
+						opt=new Option($(this).children("name").text(),$(this).children("name").text());
+						$(opt).attr("data-id",$(this).children("id").text())
+						obj.options.add(opt);
+					});
+				}
+				//其他
+				opt=new Option("其他","-1");
+				obj.options.add(opt);
+			}
+		});
+	}
+}
+function chooseAcademy(){
+	var academyid=$("#academy").find("option:selected").attr("data-id");
+	if(!!academyid){
+		var url ="https://register.alumni.sjtu.edu.cn/findDepartment.action";
+		var pars ={"academyid":academyid};
+		$.ajax({
+			type:"POST",
+			url:url,
+			data:pars,
+			dataType:"xml",
+			success:function(res){
+				var _obj=$("#department"),obj=_obj[0];
+				_obj.empty();
+				//请选择
+				var opt=new Option("请选择","");
+				obj.options.add(opt);
+				if($(res).find("fields").length>0){
+					$(res).find("fields").each(function(i){
+						opt=new Option($(this).children("name").text(),$(this).children("name").text());
+						$(opt).attr("data-id",$(this).children("id").text())
+						obj.options.add(opt);
+					});
+				}
+				//其他
+				opt=new Option("其他","-1");
+				obj.options.add(opt);
+			}
+		});
+	}
+	
+}
+function chooseDepart(){
+	var departmentid=$("#department").find("option:selected").attr("data-id");
+	if(!!departmentid){
+		var url ="https://register.alumni.sjtu.edu.cn/findDepartment.action";
+		var pars ={"departmentid":departmentid};
+		$.ajax({
+			type:"POST",
+			url:url,
+			data:pars,
+			dataType:"xml",
+			success:function(res){
+				var _obj=$("#className"),obj=_obj[0];
+				_obj.empty();
+				//请选择
+				var opt=new Option("请选择","");
+				obj.options.add(opt);
+				if($(res).find("fields").length>0){
+					$(res).find("fields").each(function(i){
+						opt=new Option($(this).children("name").text(),$(this).children("name").text());
+						$(opt).attr("data-id",$(this).children("id").text())
+						obj.options.add(opt);
+					});
+				}
+				//其他
+				opt=new Option("其他","-1");
+				obj.options.add(opt);
+			}
+		});
+	}
+	
+}
+</script>
+</html>

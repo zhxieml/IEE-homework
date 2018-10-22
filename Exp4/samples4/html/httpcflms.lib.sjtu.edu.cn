@@ -1,0 +1,90 @@
+﻿ <!DOCTYPE html>
+<html>
+<head>
+<title>图书馆管理与服务创新论坛</title>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/maxheight.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 7]>
+	<link rel="stylesheet" href="css/ie6.css" type="text/css" media="screen">
+	<script type="text/javascript" src="js/ie_png.js"></script>
+	<script type="text/javascript">
+		ie_png.fix('.png');
+	</script>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body id="page1" onLoad="new ElementMaxHeight();">
+<div class="tail-bottom">
+	<div id="main">
+<!-- header -->
+		<header>
+			<div class="nav-box">
+				<nav>
+				
+					<ul>
+						<li class="current"><a href="index.html">会议首页</a></li>
+						<li><a href="#">组织与管理</a></li>
+						<li><a href="committee.html">学术委员会</a></li>
+						<li><a href="secretary.html">秘书处</a></li>
+					
+					</ul>
+				</nav>
+			</div>
+			<h1><a href="index.html">CMLFS</a></h1>
+		
+		</header>
+  
+     
+		<div class="wrapper indent">
+<!-- content -->
+			<section id="content">
+				<div id="slogan"></div>
+				<div class="inside">
+				<h2><span>首页</span></h2> 
+					<p style="text-indent:2em">在当今研究型高校图书馆快速发展的时期，为了有效推动高校图书馆的管理与服务创新，促进管理与服务理念、方法和经验交流，充分发挥高校图书馆在创新型国家建设以及世界一流大学建设中的重要作用，由教育部高等学校图书情报工作指导委员会、中国图书馆学会高等学校图书馆分会和上海交通大学图书馆联合发起，设立"图书馆管理与服务创新论坛"（英文译名：Creative Forum for Library Management and Service，缩写为CFLMS，以下简称论坛）。</p>
+                    
+                    <p style="text-indent:2em"> 论坛宗旨：搭建一个公共交流平台，以"锐意创新、勇于探索、求真务实、协同发展"的精神，实现"分享智慧，激活创意，聚焦特色，拓展未来"的目标，围绕图书馆管理与服务创新的思路、形式和举措等具有现实意义的理论与实践问题，开展研讨和交流，不断提升管理与服务水平，促进我国高校图书馆健康、快速发展。</p>
+				</div>
+			
+			</section>
+<!-- aside -->
+			<aside>
+				<div class="inside">
+					
+					<h2>历届会议</h2>
+					<ul class="services">
+                            <li><a href="http://cflms.lib.sjtu.edu.cn/2018/index.html">2018@浙江大学图书馆</a></li>
+                        <li><a href="http://cflms.lib.sjtu.edu.cn/2017/index.html">2017@山东大学图书馆</a></li>
+					     <li><a href="http://cflms.lib.sjtu.edu.cn/2016/index.html">2016@河南大学图书馆</a></li>
+						<li><a href="http://cflms.lib.sjtu.edu.cn/2015/index.html">2015@内蒙古科技大学图书馆</a></li>                          
+						<li><a href="http://cflms.lib.sjtu.edu.cn/2014/index.html">2014@宁夏大学图书馆</a></li>
+						<li><a href="http://cflms.lib.sjtu.edu.cn/2013/index.html">2013@兰州大学图书馆</a></li>
+					    <li><a href="http://itlib.cqu.edu.cn/" target="_blank">2012@重庆大学图书馆</a></li>
+						<li><a href="http://cflms.lib.sjtu.edu.cn/2011/index.html">2011@武汉大学图书馆</a></li>
+						<li><a href="http://cflms.lib.sjtu.edu.cn/2010/index.html">2010@东南大学图书馆</a></li>
+						<li><a href="http://cflms.lib.sjtu.edu.cn/2009/index.html">2009@上海交大图书馆</a></li>
+				
+				
+					</ul>
+				
+				</div>
+			</aside>
+		</div>
+<!-- footer -->
+		<footer>
+			<div class="inside">
+			版权所有&copy;上海交通大学图书馆 2014
+			</div>
+		</footer>
+	</div>
+</div>
+</body>
+</html>

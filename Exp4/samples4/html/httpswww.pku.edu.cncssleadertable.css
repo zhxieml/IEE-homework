@@ -1,0 +1,93 @@
+@media screen and (min-width:1200px) {
+	.leadertablefirst{
+		width:330px !important;
+	}
+	.leadertablesecond{
+		width:400px !important;
+	}
+	.leaderslast{
+		width:735px !important;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.leadertablefirst{
+		width:260px !important;
+		font-size:10.5px;
+	}
+	.leadertablesecond{
+		width:370px !important;
+		font-size:10.5px;
+	}
+	.leaderslast{
+		width:636px !important;
+		font-size:10.5px;
+	}
+}
+
+@media screen and (max-width:1110px) {
+	.leadertablefirst{
+		width:211px !important;
+		font-size:10px;
+	}
+	.leadertablesecond{
+		width:211px !important;
+		font-size:10px;
+	}
+	.leaderslast{
+		width:432px !important;
+		font-size:10px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.leadertablefirst{
+		width:330px !important;
+	}
+	.leadertablesecond{
+		width:400px !important;
+	}
+	.leaderslast{
+		width:735px !important;
+	}
+}
+
+@media screen and (max-width:772px) {
+	.leadertablefirst{
+		width:211px !important;
+		font-size:10px;
+	}
+	.leadertablesecond{
+		width:211px !important;
+		font-size:10px;
+	}
+	.leaderslast{
+		width:432px !important;
+		font-size:10px;
+	}
+}
+
+
+@media screen and (max-width:480px) {
+	.leadertablefirst{
+		width:135px !important;
+		font-size:9px;
+	}
+	.leadertablesecond {
+	    width: 194px !important;
+	    font-size: 9px;
+	}
+	.tablefirstposition{
+		width:60px !important;
+	}
+	.tablesecondposition{
+		width:60px !important;
+	}
+	.leaderslast{
+		width:334px !important;
+		font-size:9px;
+	}
+	.tablelastposition{
+		width:60px !important;
+	}
+}

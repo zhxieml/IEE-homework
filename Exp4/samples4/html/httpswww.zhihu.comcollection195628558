@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="808ac3730457aed54faa9c7febeda096">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<title>真实的外国 - 收藏夹 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://collections/195628558">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/collection/195628558">
+<meta id="znonce" name="znonce" content="7461e80855e84cda8ae0b0b296db5419">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+<style type="text/css">
+.zm-item-fav + .zm-item-fav .zm-item-answer {
+padding-top: 7px;
+border-top: 1px solid #eee;
+}
+.zm-item-answer-author-info a.collapse {
+margin-right: -25px;
+margin-top: 0;
+}
+</style>
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+<div class="zg-section-title">
+<div style="margin-bottom: 5px;">
+
+</div>
+<div style="margin:0 0 8px 0" id="zh-list-title" data-disabled="1">
+<h2 class="zm-item-title zm-editable-content" id="zh-fav-head-title">
+
+真实的外国
+</h2>
+</div>
+<div class="zg-section" style="margin-bottom: 5px;" id="zh-list-desc" data-disabled="1">
+<div class="zm-editable-content" id="zh-fav-head-description">对许多中国人来说，世界上只有两个国家，中国和外国。本收藏夹志在使更多人了解国外的真实情况，从而对中国的现状有一个更加理性的认识。</div>
+<div class="zm-editable-content" id="zh-fav-head-description-source" style="display:none;">对许多中国人来说，世界上只有两个国家，中国和外国。本收藏夹志在使更多人了解国外的真实情况，从而对中国的现状有一个更加理性的认识。</div>
+</div>
+<div class="zm-item-meta" id="zh-list-meta-wrap">
+<div class="zm-item-meta-actions">
+<a href="#" name="addcomment" class="toggle-comment">
+<i class="z-icon-comment"></i>5 条评论</a>
+
+</div>
+
+</div>
+</div>
+
+<div id="zh-list-collection-wrap" style="margin-bottom: 10px;">
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/31682834">美国成发达国家也有100年了，为何美国人仍然被认为是没文化？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="17146123"
+data-atoken="54348849"
+data-collapsed="0"
+data-created="1436392101"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/31682834/answer/54348849">
+<meta itemprop="answer-id" content="17146123">
+<meta itemprop="answer-url-token" content="54348849">
+<a class="zg-anchor-hidden" name="answer-17146123"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>68</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">68</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$SNLance"
+target="_blank" href="/people/SNLance"
+>SNLance</a></span><span title="UC Irvine Urban Studies" class="bio">
+UC Irvine Urban Studies
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="68" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">68</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="4872452" data-action="/answer/content" data-author-name="SNLance" data-entry-url="/question/31682834/answer/54348849">
+
+<textarea hidden class="content">欧洲人和日本人对美国，&lt;b&gt;一向是一部分人抵触，一部分人又很向往，并非完全抵制&lt;/b&gt;。不然McDonald's和Levi's等代表美国文化的连锁店也不可能在欧日遍地开花，好莱坞电影也不可能抢占人家那么大的市场，流行音乐也不可能有今天那么大的影响力。&lt;br&gt;&lt;br&gt;&lt;b&gt;为什么抵触？&lt;/b&gt;因为在新大陆发展起来的美国文化是一种与旧大陆（无论东方还是西方）有些不同的文化。少了礼教，多了随意；少了深沉，多了释放；少了隐晦，多了直白。因此很多时候美国文化也被加以“反智主义”的标语。&lt;b&gt;抵触美国文化，是因为传统的根深蒂固。&lt;/b&gt;&lt;br&gt;&lt;b&gt;为什么向往？&lt;/b&gt;然而当你在一个行动约束，社会规则繁杂的社会生活久了，你或多或少也会向往那种没有那么多规则，而且老人与小孩也能平等以待的社会。受够了一顿饭局两三小时浪费生命，也会喜欢上半小时就能解决的快餐。&lt;b&gt;向往美国文化，是因为对旧俗的厌倦。&lt;/b&gt;&lt;br&gt;&lt;br&gt;那归根结底，美国是不是多多少少有些“粗鲁”的形象呢？&lt;b&gt;有&lt;/b&gt;&lt;br&gt;举个个人例子，在去英国交换之前，美国大学这边举行了一场行前说明会（Orientation）。其中那位老师问&lt;b&gt;“Do you know what is the stereotype of American students?&quot; &lt;/b&gt;然后她自己调侃到&lt;b&gt;“Loud and stupid&lt;/b&gt;&lt;b&gt;。&lt;/b&gt;&lt;b&gt;”&lt;/b&gt;&lt;br&gt;当然，人家自嘲是一回事，我们这边也不能直接就说美国就是这样的形象。只是比起欧亚的发达国家和地区，超级大国美国确实是一个非常特殊的发达国家。其各人均指标及人类发展指数，均为世界最高水准，在科技、军事、高等教育等领域更是毫无疑问的世界第一。然而，美国却依然给很多异乡客&lt;b&gt;“大农村”、“没文化”&lt;/b&gt;的印象，这种现象的是有多方面因素的。&lt;br&gt;&lt;br&gt;&lt;b&gt;关键因素—不平等的经济条件&lt;/b&gt;&lt;br&gt;在我学校（价值观偏左的公立大学）的好几堂课都要求观看的纪录片&lt;b&gt;Inequality of All&lt;/b&gt;里有一些阐述。70年代美国的经济滞涨在里根的自由主义政策下可能得到了缓解，并且美国经济在克林顿政府时期兴盛的IT热潮之下至今增长一直不错。然而&lt;b&gt;大量的新增财富更加聚集在富裕阶层手上。而其他工作岗位的工资，从蓝领工人，到白领银行职员，比起30多年前的七十年代末，竟然长进一直不大。&lt;/b&gt;因此，贫富差距大，导致这个国家&lt;b&gt;尽管高收入人群有最好的物质条件和文化素养，其他人群在和其他发达国家居民的对比中，却也不显得十分突出。&lt;/b&gt;所以，&lt;b&gt;美国拥有一些最高品质的物质环境，普通民众的物质条件却相对不是那么有特色，甚至因为快文化而显得比较简陋。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;次要因素—相对的重“武”轻文&lt;/b&gt;&lt;br&gt;也就是常常被提到的“反智”。在中国、在日本、甚至在欧洲。虽然性格怪癖的成绩优秀学生，也常常会被孤立，但是很难想象美国这样的&lt;b&gt;常常因为不擅体育而成绩好，就被说成nerd。&lt;/b&gt;甚至像林书豪这样的体育特长生，可不是高考加20分层次的待遇，&lt;b&gt;人家直接就因此被哈佛和布朗双双录取&lt;/b&gt;。而我大学，尽管篮球队战绩不错，却因为缺少美国最主流的橄榄球队，也是备受冷眼。另一方面，都知道锻炼身体有益健康，&lt;b&gt;然而追求肌肉男、健美还真是美国健身文化带起来的一波风潮&lt;/b&gt;。亚洲的保健品店可能更多的是减肥药和养生产品，而在美国（甚至现在欧洲），保健品店的货柜上你能看到大桶大桶的增肌蛋白粉。&lt;b&gt;总结就是美国学校对成绩优秀的学生，有时候还没对体育健将那么尊重。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;次要因素—自我随意的风格&lt;/b&gt;&lt;br&gt;I don't care and I don't judge. 美国尤其在南加州这样的地方，人们真的有些&lt;b&gt;爱怎么穿怎么穿&lt;/b&gt;。欧洲有各大奢侈品品牌，日本有各种潮牌，连韩国都有韩系一类的东西。美国，当然纽约等地还是有不少不错的设计品牌的，也有各种嬉皮士和嘻哈风搭配。&lt;b&gt;就拿Fast fashion来讲&lt;/b&gt;，日本优衣库有多姿多彩的UT系列、西班牙的Zara款式繁多、瑞典的H&amp;amp;M有时质量不够但也算新潮，而美国的GAP这样的休闲品牌，&lt;b&gt;虽然舒适、经典、但没什么风格、款式上的突破&lt;/b&gt;。然而，可能确实是文化差异，美国人的自由随性，外人看起来很可能就是不修边幅。&lt;br&gt;&lt;br&gt;总结，为什么说&lt;b&gt;贫富差距是关键因素呢&lt;/b&gt;，这一点真的至关重要。&lt;br&gt;在一个贫富差距较小的发达地区，中产的强大，可以促进基础设施的改善（对公共设施的需求）；可以显得大多数人都比较体面、且文明收礼（生活水平改善）；可以显得整个社会其乐融融（整个社会隔阂较小），最后就会显得所谓&lt;b&gt;有文化。&lt;/b&gt;&lt;br&gt;而在一个贫富差距较大的发达地区，比如美国，富裕人群的强大，使得部分富裕地区豪宅林立、道路宽阔、游艇遍地，一派土豪景象（而人家实际上不是没文化）。贫民区又破败不堪、治安混乱，堪比第三世界。如此一来就显得很&lt;b&gt;没文化。&lt;/b&gt;&lt;br&gt;加上崇尚身体的健美和自由随意的穿着，美国人比起欧洲人，穿着没有那么讲究，有时候还显得偏胖（或是壮）。更加深了一部分人对美国的这种&lt;b&gt;“没文化的印象”。&lt;/b&gt;&lt;br&gt;&lt;br&gt;顺带一提，近几天在伦敦上暑课（Summer School)。这里认识的不少美国朋友，和我在加州的公立大学见到的美国学生比起来，要大方得体很多。一方面深深感到&lt;b&gt;美国人并非全都是那种刻板印象&lt;/b&gt;，另一方面也再次感叹美国这样社会较为分化的国家，&lt;b&gt;确实群体之间差别甚大。&lt;/b&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+欧洲人和日本人对美国，<b>一向是一部分人抵触，一部分人又很向往，并非完全抵制</b>。不然McDonald's和Levi's等代表美国文化的连锁店也不可能在欧日遍地开花，好莱坞电影也不可能抢占人家那么大的市场，流行音乐也不可能有今天那么大的影响力。 <b>为什么抵触？</b>因为…
+
+<a href="/question/31682834/answer/54348849" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/31682834/answer/54348849">发布于 2015-07-09</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-4872452"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>2 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/62119482">美国人可以有多反智？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="122586323"
+data-atoken="508840135"
+data-collapsed="0"
+data-created="1539300793"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/62119482/answer/508840135">
+<meta itemprop="answer-id" content="122586323">
+<meta itemprop="answer-url-token" content="508840135">
+<a class="zg-anchor-hidden" name="answer-122586323"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>661</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">661</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$OliverMarsh"
+target="_blank" href="/people/OliverMarsh"
+>有个老外叫马绍飞</a></span><span title="TESOL考官，纽约犹太人" class="bio">
+TESOL考官，纽约犹太人
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="661" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">661</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="17072668" data-action="/answer/content" data-author-name="有个老外叫马绍飞" data-entry-url="/question/62119482/answer/508840135">
+
+<textarea hidden class="content">&lt;p&gt;本人是美国人，我觉得很多虔诚基督教徒的思想才是最反智主义的。以下类型的对话在美国很常见：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;牧师：基督教是唯一的正确的宗教，耶稣是我们的上帝，无神论者和异教徒都是错的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我：你怎么知道呢？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;牧师：因为圣经里是这么说的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我：那你怎么知道圣经真的是神的话语呢？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;牧师：因为圣经里是这么说的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我估计至少40%的美国人不知道这个逻辑在哪里有错。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+本人是美国人，我觉得很多虔诚基督教徒的思想才是最反智主义的。以下类型的对话在美国很常见： 牧师：基督教是唯一的正确的宗教，耶稣是我们的上帝，无神论者和异教徒都是错的。 我：你怎么知道呢？ 牧师：因为圣经里是这么说的。 我：那你怎么知道圣经真的…
+
+<a href="/question/62119482/answer/508840135" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/62119482/answer/508840135">发布于 2018-10-12</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-17072668"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>166 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/50948893">晚上不要穿的太暴露在黑人区附近走路，不安全。 这句话是科学的提醒，还是兼具性别和种族歧视？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="120200640"
+data-atoken="495725133"
+data-collapsed="0"
+data-created="1537509568"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/50948893/answer/495725133">
+<meta itemprop="answer-id" content="120200640">
+<meta itemprop="answer-url-token" content="495725133">
+<a class="zg-anchor-hidden" name="answer-120200640"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>1377</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">1377</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$chen-qi-fan-86"
+target="_blank" href="/people/chen-qi-fan-86"
+>开枪手杰克</a></span><span title="张家港淫" class="bio">
+张家港淫 
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="1377" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">1377</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="12596952" data-action="/answer/content" data-author-name="开枪手杰克" data-entry-url="/question/50948893/answer/495725133">
+
+<textarea hidden class="content">&lt;p&gt;不晓得有没有人记得&lt;b&gt;国航歧视&lt;/b&gt;事件。&lt;/p&gt;&lt;p&gt;国航在一本伦敦旅行指南这样写：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-ebcd643880e0bdd0b4b4d4b7fc17ebb2_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;532&quot; data-rawheight=&quot;298&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-cbeb2d27f1eae9efd50281e36cedd7a4_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;532&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-ebcd643880e0bdd0b4b4d4b7fc17ebb2_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;结果被某美籍华裔记者看到，在网上批判国航搞种族歧视。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-cde4855d1a690d74870c333c6f4bdda3_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;622&quot; data-rawheight=&quot;346&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-f124d0bd5cdf93709cf372eec82abdac_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;622&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-cde4855d1a690d74870c333c6f4bdda3_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;值得注意的是，此女记者社交账户主页的背景图片，是一副手铐，后面就是天安门。此女屁股坐哪，显而易见。&lt;/p&gt;&lt;p&gt;该事件发酵后，很多人，尤其是印巴裔的欧美人，纷纷大骂国航。比如生活大爆炸里拉杰的扮演者，伦敦市长等，英国主流媒体也纷纷指责国航，国航道歉，下架该书。&lt;/p&gt;&lt;p&gt;然而，英国本国人不这么想。纷纷表示，国航你不用背锅。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-b8a6bba6aa124f856ed7b723aae1f058_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;608&quot; data-rawheight=&quot;544&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-df8e91803790b16c54ea3a13e5ebf492_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;608&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-b8a6bba6aa124f856ed7b723aae1f058_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-9d28fe3342e7ddad817bae7a9d5cd3e8_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;595&quot; data-rawheight=&quot;591&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-3c8be99100a044943bee1ab6ff2ffbac_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;595&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-9d28fe3342e7ddad817bae7a9d5cd3e8_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-2f1fa17d9ca8721ead52cea4b106ec6a_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;561&quot; data-rawheight=&quot;495&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-9eb714a146f526815497d422277429bf_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;561&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-2f1fa17d9ca8721ead52cea4b106ec6a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;此事怎么看？你可以看看拉杰扮演者、伦敦市长他们，住不住印巴区 。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/50/v2-165b34d8264a9fc32d049e7b4ab7530d_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="532" data-rawheight="298" data-watermark="watermark" data-original-src="v2-165b34d8264a9fc32d049e7b4ab7530d" data-watermark-src="v2-ebcd643880e0bdd0b4b4d4b7fc17ebb2" data-private-watermark-src="v2-cbeb2d27f1eae9efd50281e36cedd7a4" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/50/v2-165b34d8264a9fc32d049e7b4ab7530d_r.jpg">
+不晓得有没有人记得<b>国航歧视</b>事件。国航在一本伦敦旅行指南这样写：结果被某美籍华裔记者看到，在网上批判国航搞种族歧视。值得注意的是，此女记者社交账户主页的背景图片，是一副手铐，后面就是天安门。此女屁股坐哪，显而易见。该事件发酵后，很多人，尤其…
+
+<a href="/question/50948893/answer/495725133" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/50948893/answer/495725133">发布于 2018-09-21</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-12596952"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>104 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/289758966">越南经济较差，越南人是否存在崇洋媚外的情况？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="122784816"
+data-atoken="509930510"
+data-collapsed="0"
+data-created="1539429891"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/289758966/answer/509930510">
+<meta itemprop="answer-id" content="122784816">
+<meta itemprop="answer-url-token" content="509930510">
+<a class="zg-anchor-hidden" name="answer-122784816"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>312</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">312</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$kang-bi-de"
+target="_blank" href="/people/kang-bi-de"
+>康彼得</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="312" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">312</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="26667666" data-action="/answer/content" data-author-name="康彼得" data-entry-url="/question/289758966/answer/509930510">
+
+<textarea hidden class="content">&lt;p&gt;越南崇洋媚外的情况就是十年前，二十年前中国崇洋媚外的情况。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;就目前，中国抖音对越南进行爆炸式文化输出。下面是在B站上看到的视频截图。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-cd88495aa8597582043263f9fcf8808f_b.jpg&quot; data-rawwidth=&quot;1920&quot; data-rawheight=&quot;1080&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-cce16ff2e037917bd6cc886021998189_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1920&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-cd88495aa8597582043263f9fcf8808f_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-bb34b1f1db092d5ec4a2264c06ed4e11_b.jpg&quot; data-rawwidth=&quot;1920&quot; data-rawheight=&quot;1080&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-be684b8d877e620f961cac2199bb26c3_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1920&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-bb34b1f1db092d5ec4a2264c06ed4e11_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;当然这或许只是一小部分越南人对中国的看法。但是我在某个视频里竟然看到了这样的留言。&lt;/p&gt;&lt;p&gt;“中国洪水里没有垃圾。”&lt;/p&gt;&lt;p&gt;“中国街道非常干净宽敞。”&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;像不像十几二十年前中国对日本的评价？所以说现在问越南崇洋媚外吗，就是在问中国十几二十年前媚外吗。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;只不过中国正在逐步崛起，00后已经成年，媚外心理没有那么严重了而已。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/50/v2-8928ed3ae1b812f48d0474914481a7db_200x112.jpg" data-rawwidth="1920" data-rawheight="1080" data-size="normal" data-watermark="watermark" data-original-src="v2-8928ed3ae1b812f48d0474914481a7db" data-watermark-src="v2-cd88495aa8597582043263f9fcf8808f" data-private-watermark-src="v2-cce16ff2e037917bd6cc886021998189" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/50/v2-8928ed3ae1b812f48d0474914481a7db_r.jpg">
+越南崇洋媚外的情况就是十年前，二十年前中国崇洋媚外的情况。 就目前，中国抖音对越南进行爆炸式文化输出。下面是在B站上看到的视频截图。 当然这或许只是一小部分越南人对中国的看法。但是我在某个视频里竟然看到了这样的留言。“中国洪水里没有垃圾。”…
+
+<a href="/question/289758966/answer/509930510" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/289758966/answer/509930510">发布于 2018-10-13</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-26667666"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>50 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/35713301">外国人有哪些对中国的刻板印象会令中国人大吃一惊？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121903316"
+data-atoken="505085582"
+data-collapsed="0"
+data-created="1538829470"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/35713301/answer/505085582">
+<meta itemprop="answer-id" content="121903316">
+<meta itemprop="answer-url-token" content="505085582">
+<a class="zg-anchor-hidden" name="answer-121903316"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>91</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">91</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<span class="name">匿名用户</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="91" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">91</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="6491984" data-action="/answer/content" data-author-name="匿名用户" data-entry-url="/question/35713301/answer/505085582">
+
+<textarea hidden class="content">&lt;p&gt;中国(亚洲)女生都用卫生巾 - 对的, 这是一种刻板印象. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在欧洲住学生公寓(国际学生, 男女混住, 每人一间, 共用厨卫, 一层15人左右的).&lt;/p&gt;&lt;p&gt; 每个马桶边上有个便纸篓. 一段时间没人打扫, 溢出来了, 其中有一条粘着血污的卫生巾漏了出来, 煞是恶心.&lt;/p&gt;&lt;p&gt;既然有人发难, 就开全体会吧. 一个白人小姐姐愤怒的说道: 这种恶心的东西一定是中国女生用的, 我们文明国家的女生一辈子不用这种玩意儿. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我是中国男生，在场只有一个台湾女生, 脸上表情非常尴尬.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;开始, 我还以为那个欧洲小姐姐有毛病，要末是发育晚（她17-8岁），或是有原发性的闭经之类, 再或者，是阴阳人? 世界上哪有妙龄女人不来那个，不用卫生巾? 亦或真是结构清奇?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt; 后来呆久了才知道, 原来她口中所谓'文明国家'女人其实基本都用棉条(tampoon)，确实很少人用卫生巾。西方女人普遍对卫生巾有反感，即便用了也很不好意思，都会（冒着堵了的风险）顺着马桶冲走而不是丢纸篓。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+中国(亚洲)女生都用卫生巾 - 对的, 这是一种刻板印象. 在欧洲住学生公寓(国际学生, 男女混住, 每人一间, 共用厨卫, 一层15人左右的). 每个马桶边上有个便纸篓. 一段时间没人打扫, 溢出来了, 其中有一条粘着血污的卫生巾漏了出来, 煞是恶心.既然有人发难, 就…
+
+<a href="/question/35713301/answer/505085582" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-06" target="_blank" href="/question/35713301/answer/505085582">编辑于 2018-10-11</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-6491984"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>149 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/293239180">有哪一刹那让你对日本的美好印象瞬间破灭？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121993512"
+data-atoken="505581339"
+data-collapsed="0"
+data-created="1538895172"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/293239180/answer/505581339">
+<meta itemprop="answer-id" content="121993512">
+<meta itemprop="answer-url-token" content="505581339">
+<a class="zg-anchor-hidden" name="answer-121993512"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>924</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">924</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$hao-wang-19"
+target="_blank" href="/people/hao-wang-19"
+>Hao Wang</a></span><span title="CFA，知之为知之，不知为不知" class="bio">
+CFA，知之为知之，不知为不知
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="924" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">924</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27441270" data-action="/answer/content" data-author-name="Hao Wang" data-entry-url="/question/293239180/answer/505581339">
+
+<textarea hidden class="content">&lt;p&gt;不能说破灭吧，就是满感叹的。&lt;/p&gt;&lt;p&gt;但凡去日本玩过几天的人都知道，日元的硬币特别多，从1块到500块。临走时手里会攒着一包用不掉的硬币，大大小小都有。&lt;/p&gt;&lt;p&gt;所以我们在成田机场想买点东西，顺带把硬币花掉一点。最后挑了几包巧克力。由于硬币确实比较多了，数又很难数清楚，我们去柜台结账前还在说，这么一大把硬币用出去营业员会不会不高兴。&lt;/p&gt;&lt;p&gt;排到我们的时候，没想到营业员热情地表示这都不是事儿。于是我们发现日本对于这个问题的解决方案，是在收银台配了一个硬币找零机。&lt;/p&gt;&lt;p&gt;这个找零机和自动售货机其实是一个意思，只要把手里的硬币咣叽咣叽朝里扔就行，完事儿了机器咔啦咔啦转一会儿，再把零钱找给你。&lt;/p&gt;&lt;p&gt;比如我们买了2600元的东西，就给营业员2000加一把硬币。譬如最后数出来2950，那么机器就再退三个100和一个50出来。&lt;/p&gt;&lt;p&gt;机器挺大的，一直在咔啦咔啦响，颇有声势。&lt;/p&gt;&lt;p&gt;想的周到吧？非常周到了。&lt;/p&gt;&lt;p&gt;技术发达吧？也挺酷炫的。&lt;/p&gt;&lt;p&gt;解决问题了吗？解决了大部分，十几个硬币变成了4个。&lt;/p&gt;&lt;p&gt;要是10年前看到这东西，估计我写的就是感叹发达国家和发展中国家的差距了。&lt;/p&gt;&lt;p&gt;但看来看去，总觉得哪儿有点不对劲。&lt;/p&gt;&lt;p&gt;直到回国后，我在便利店里买了些东西，营业员扫我的二维码时清脆地“嘟”了一声，一下子豁然开朗了。&lt;/p&gt;&lt;p&gt;没有对比就没有伤害，&lt;b&gt;那个硬币找零机，大概是科技树点歪了的意思。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;评论里很多提到NFC的。补充一下，中国的移动支付发达，不单是发达在二维码，是发达在同一平台上打通了线上线下两个渠道，以及B2B，B2C，C2C三个使用场景。&lt;/p&gt;&lt;p&gt;NFC作为&lt;b&gt;媒介&lt;/b&gt;，和支付宝微信作为&lt;b&gt;平台&lt;/b&gt;不是互斥关系。如果哪天支付宝微信说自己支持NFC了，我也不会觉得奇怪。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+不能说破灭吧，就是满感叹的。但凡去日本玩过几天的人都知道，日元的硬币特别多，从1块到500块。临走时手里会攒着一包用不掉的硬币，大大小小都有。所以我们在成田机场想买点东西，顺带把硬币花掉一点。最后挑了几包巧克力。由于硬币确实比较多了，数又很难…
+
+<a href="/question/293239180/answer/505581339" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-07" target="_blank" href="/question/293239180/answer/505581339">编辑于 2018-10-09</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27441270"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>417 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/296027310">美国的东西都那么便宜，那美国人的钱去哪了？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121818477"
+data-atoken="504618437"
+data-collapsed="0"
+data-created="1538763487"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/296027310/answer/504618437">
+<meta itemprop="answer-id" content="121818477">
+<meta itemprop="answer-url-token" content="504618437">
+<a class="zg-anchor-hidden" name="answer-121818477"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>221</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">221</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+<span class="name">知乎用户</span></span><span title="488纳米光源" class="bio">
+488纳米光源
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="221" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">221</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28061055" data-action="/answer/content" data-author-name="2-20滑膛枪等96人" data-entry-url="/question/296027310/answer/504618437">
+
+<textarea hidden class="content">&lt;p&gt;住房， 教育，医疗三座大山。。。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;当然，如果是比中位数家庭收入的话，美国人还是要有钱一点，大手大脚一点。。。或者说，因为中位数收入的美国人也要过杂志上的“中产生活”，所以存不下钱。如果他们大学毕业前不要生孩子，只是住在上班地点附近的公寓里，两个人一辆车，自己做饭，孩子上个本州的大学，也能存下钱。。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;打开mint拖出我的预算表看了看..&lt;/p&gt;&lt;p&gt;和楼上一样, 单职工博士后, 两个孩子, 两个老人.&lt;/p&gt;&lt;p&gt;收入一年5万出头, 扣掉医保, 社保, 税到手每个月只有3800.&lt;/p&gt;&lt;p&gt;(真正的)刚性开支是&lt;/p&gt;&lt;p&gt;房贷+保险1100, 水电气300, 两辆车汽油一共100加仑250, 手机+网络100, 车险150, 猫粮+保险 100, 老大幼儿园辅导班 400 一共2400. 然后每个月菜金要800+ ... 我们已经自己种葱, 香菜, 油菜, 茼蒿了, 一个月起码省下100... 再加上其他意外开支或者手贱开支, 每个月都是月光光.&lt;/p&gt;&lt;p&gt;吃的不贵，我家老人不吃肉，所以我们大部分菜钱都花在蔬菜水果上。。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-f1a894ca52548fc5cb0f118d71a1aefc_b.jpg&quot; data-rawwidth=&quot;2048&quot; data-rawheight=&quot;1536&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-66209f4bf0c0a7a4dc16da02a466382d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2048&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-f1a894ca52548fc5cb0f118d71a1aefc_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;如果只是我们小夫妻两个娃的话，10刀水果能吃一个星期。。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-cdab642fdcd7e1dff27e5a2eaa3e9f59_b.jpg&quot; data-rawwidth=&quot;2126&quot; data-rawheight=&quot;1280&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-2da4cffc3b5b84fc8cb5a32ec585eb22_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2126&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-cdab642fdcd7e1dff27e5a2eaa3e9f59_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;我家孩子去的是所谓的“co-op” 也就是合作托儿所，目的也是为了孩子学英语，增加社交。 每天有一个家长轮流来值班，这样的话一个班6-8个孩子只需要一个老师，相当便宜。 每周两个上午的话，7个月合计只需要1000。&lt;/p&gt;&lt;p&gt;如果是单职工家庭，家长可以带孩子参加很多工作时间才举行的活动，非常便宜或者干脆免费。&lt;/p&gt;&lt;p&gt;比方说下周公园会组织远足和观察小动物，邀请3-5岁小朋友，免费但是时间在上午10点。。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-52a6022dfd19355a66c9f6638e820a13_b.jpg&quot; data-rawwidth=&quot;2048&quot; data-rawheight=&quot;1536&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-fb79640293e05dc062291e7b303d607c_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2048&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-52a6022dfd19355a66c9f6638e820a13_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;大点的小朋友也有活动，射箭入门一小时才$5。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-2bbfd32cb348ff6204635fe16ad681c8_b.jpg&quot; data-rawwidth=&quot;3092&quot; data-rawheight=&quot;1280&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-e30b98b524871daa4f7289f077f89f62_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;3092&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-2bbfd32cb348ff6204635fe16ad681c8_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;医保倒是还好, 我在医院工作不太担心这些问题.  但是普通美国人会比较辛苦. 我拔两颗阻生智齿保险公司付了900+,  领导剖腹产保险公司付了4万... 如果医保不太好的话, 可能会需要自负1-2万美元..&lt;/p&gt;&lt;p&gt;拔阻生智齿，局麻，一颗475。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-2ff52bd32da95ae302137281ce228fc9_b.jpg&quot; data-rawwidth=&quot;1751&quot; data-rawheight=&quot;24&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1751&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-2ff52bd32da95ae302137281ce228fc9_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;肝胆彩超，额我年纪大了发现胆结石。。 彩超680， 读片190&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-a79a71e9efccb08e876e5d20a8dc4874_b.jpg&quot; data-rawwidth=&quot;1621&quot; data-rawheight=&quot;34&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1621&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-a79a71e9efccb08e876e5d20a8dc4874_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;生娃，诈胡去医院里面走了一个小时， 收费如下。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-e0f5c910e2a464bf2c7b2cbccfc3c193_b.jpg&quot; data-rawwidth=&quot;1675&quot; data-rawheight=&quot;34&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1675&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-e0f5c910e2a464bf2c7b2cbccfc3c193_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;这么华丽丽的账单自然是真的生了。。&lt;/p&gt;&lt;p&gt;这是给妈妈的收费&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-f93d5411f2a66e65fd37d21ba8af51fd_b.jpg&quot; data-rawwidth=&quot;1631&quot; data-rawheight=&quot;170&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1631&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-f93d5411f2a66e65fd37d21ba8af51fd_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;这是给小宝宝的。。那个四位数的是住院费。 对妈妈和宝宝住一间屋子，但是住院费是分开计算的。 所以如果有保险有每人的免赔额的话，就需要交两份免赔额度。。。。大概要自负5-6000。。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-74aea837236ec1767885ac692b2712cd_b.jpg&quot; data-rawwidth=&quot;1696&quot; data-rawheight=&quot;55&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1696&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-74aea837236ec1767885ac692b2712cd_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;关于房子也很有意思, 我这三室的公寓特别少, 租金每月要1200+,  独立屋每月要1500+. 租房存钱会很难. 不过人口外流的农村买方还好. 我买房只付了3%首付每个月房贷加保险合计才1100..  我这个破房子学区差, 等小孩上到3年级一定要换房, 学区房每个月就要2000+房贷了... 为了小孩不吸毒/不怀孕, 也得抢着背大山...&lt;/p&gt;&lt;p&gt;去好学区读书不一定能上好大学, 还要砸钱, 用力砸课外班...&lt;/p&gt;&lt;p&gt;美国课外班入门很容易, 很多人都能玩两下, 有很多很多资源, 但是专业的资源非常贵. 有种低起步价骗你上车然后狠宰的感觉..&lt;/p&gt;&lt;p&gt;我们家娃足球, 9月-10月每周六一场对抗赛, 送一件Under Armor短袖, 收费65, 相当于一小时$8. 不过没教练.. &lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-467eba963df545ea065f9be3d5078422_b.jpg&quot; data-rawwidth=&quot;1018&quot; data-rawheight=&quot;403&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-952d3809ab38d3b97a75c7e0ef5b3326_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1018&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-467eba963df545ea065f9be3d5078422_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;参加俱乐部有训练课, 45刀8堂课, 相当于一小时$6...&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-598c0e102d2510a5e13bd635cea2e727_b.jpg&quot; data-rawwidth=&quot;947&quot; data-rawheight=&quot;309&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-0bdc8eec5cc182b1774b490e8ca0a32d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;947&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-598c0e102d2510a5e13bd635cea2e727_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;他一周还有两节游泳三节滑冰一节柔道，一小时也是6-8..&lt;/p&gt;&lt;p&gt;但是这个是强身健体消耗孩子精力用的..&lt;/p&gt;&lt;p&gt;如果是以上大学特长为目的, 我同事家小孩学艺术体操, 每月旅行全美各地比赛花费就2000+... &lt;/p&gt;&lt;p&gt;修车贵，换刹车皮一对150，刹车皮加刹车盘300+。。我都是自己换。但是大多数问题你修不了， 送去修的价格让你痛彻心扉。。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;宠物养的时候不贵，生病巨贵。。&lt;/p&gt;&lt;p&gt;我家主子牙坏了，拔牙估价1500我一直在犹豫。 现在他还是不太能吃干粮每天两个主食罐，一个月$60。。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-29367180ca1d221a448c8ee34006fae2_b.jpg&quot; data-rawwidth=&quot;2048&quot; data-rawheight=&quot;1536&quot; data-size=&quot;normal&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-c6b2c36eab67b8400da90addaf091ab5_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2048&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-29367180ca1d221a448c8ee34006fae2_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;媒体还整天诱惑你买不必要的东西才是中产阶级.  实际上我手稍微松一松一个月支出就要4000-4500..... 比方说我买了3个无绳耳机, 一个bragi dash 两个三星iconx. 你猜我去游泳跑步了么? &lt;/p&gt;&lt;p&gt;也就是说, 杂志上的&quot;中产生活&quot;需要每月税后4500, 也就是税前大概6-6.5万的水平. 如果达不到这个水平就是只有负债没有存款...  &lt;/p&gt;&lt;p&gt;美国大学生首份工作的中位数工资是4.8万, 对比博士后工资高..... 双职工双正规大学理工科毕业来说, 只要能保证工作稳定, 工作不会被迁出美国, 不超过两个孩子, 生活还是很无忧无虑的. 在铁锈带基本上只有公务员, 科教文卫雇员的工作比较稳定, 和国内的内地小城蛮像的. 加州工作机会多, 但是肯定会辛苦一点. 这点和国内也一样,  上海一年15万生活质量不如内地银行一年8万. &lt;/p&gt;&lt;p&gt;从税务角度来说, 很多人会选择往自己的退休账户里多存一点钱. 这个钱是税前收入, 离婚不会被分割, 个人惹上官司或者破产不会被拿来还债, 也不计算在个人存款里. 所以很多人即时家庭收入有10-15万， 多存一点退休金后, 到手收入还是每个月4000-5000的水平, 每月还是月光光需要考虑分期付款. &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-46d298623143ed962e2d5d48501b4d40_b.jpg&quot; data-rawwidth=&quot;768&quot; data-rawheight=&quot;840&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-ffd293986c7f6516594e99e7bd380c2d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;768&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-46d298623143ed962e2d5d48501b4d40_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/50/v2-f1a894ca52548fc5cb0f118d71a1aefc_200x112.jpg" data-rawwidth="2048" data-rawheight="1536" data-size="normal" data-watermark="original" data-original-src="v2-f1a894ca52548fc5cb0f118d71a1aefc" data-watermark-src="v2-cf5a450605f19748c587db0b0b2aabf2" data-private-watermark-src="v2-66209f4bf0c0a7a4dc16da02a466382d" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/50/v2-f1a894ca52548fc5cb0f118d71a1aefc_r.jpg">
+住房， 教育，医疗三座大山。。。 当然，如果是比中位数家庭收入的话，美国人还是要有钱一点，大手大脚一点。。。或者说，因为中位数收入的美国人也要过杂志上的“中产生活”，所以存不下钱。如果他们大学毕业前不要生孩子，只是住在上班地点附近的公寓里，…
+
+<a href="/question/296027310/answer/504618437" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-06" target="_blank" href="/question/296027310/answer/504618437">编辑于 2018-10-16</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28061055"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>118 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/296027310">美国的东西都那么便宜，那美国人的钱去哪了？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="122332696"
+data-atoken="507445632"
+data-collapsed="0"
+data-created="1539129759"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/296027310/answer/507445632">
+<meta itemprop="answer-id" content="122332696">
+<meta itemprop="answer-url-token" content="507445632">
+<a class="zg-anchor-hidden" name="answer-122332696"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>4992</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">4992</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<span class="name">匿名用户</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="4992" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">4992</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28061055" data-action="/answer/content" data-author-name="匿名用户" data-entry-url="/question/296027310/answer/507445632">
+
+<textarea hidden class="content">&lt;p&gt;用自己的生活来介绍一下美国人的收入。 &lt;/p&gt;&lt;p&gt;&lt;b&gt;我们家年收入50000美元。我的回答就是告诉大家5万刀收入的美国家庭，能过什么样的日子。便于大家理解，后面模拟了一个硅谷年入15万的生活。 &lt;/b&gt;整篇文章都不考虑单身狗怎么过日子。&lt;/p&gt;&lt;p&gt;（文章长数据多——文尾有数据来源，欢迎验证）&lt;/p&gt;&lt;p&gt;文章提纲：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;以我家的情况介绍年入50000美元的家庭怎么生存&lt;/li&gt;&lt;li&gt;分析日常支出的方向&lt;/li&gt;&lt;li&gt;模拟15万美元的硅谷生活&lt;/li&gt;&lt;li&gt;对比不同几个城市的生活&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;&lt;b&gt;1. 以我家的情况介绍年入50000美元的家庭怎么生存&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;美国2017年家庭收入中位数约59k每年。44%的美国家庭年收入低于50.2k 也就是说，&lt;b&gt;我的生活应该是比43%的美国家庭要好；以有娃家庭算，我应该比20%的有娃家庭好&lt;/b&gt;。就我所在的这个小村来说，收入中位数(55k)和收入40%水平（43k）都和全美国水平接近。 加州的中位数60k, 40%水平49.8k.&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-6b23b49de944168c7ec33234cf260c84_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;606&quot; data-rawheight=&quot;647&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-6b23b49de944168c7ec33234cf260c84_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;606&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-6b23b49de944168c7ec33234cf260c84_r.jpg&quot;&gt;&lt;figcaption&gt;更详细的数据说明5万刀约为43%的水平。数据来源见水印。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;b&gt;实际上像我家这种年收入5万的，在美国属于贫困了，在加州就算赤贫。如果单身，5万就能过得非常滋润了。 &lt;/b&gt;&lt;/p&gt;&lt;p&gt;美国有20%的有娃家庭（至少一个娃的家庭）家庭年收入低于50000（数据在底部），所以我的收入肯定是美国贫困的那20%，这和家里几个人工作没有关系，请关注家庭总收入。但是这个水平在美国基本不能享受任何的社会福利补助。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;月入4167美元。看我的支出：&lt;/p&gt;&lt;p&gt;交税交保险1050，房租1200，教育1100。养车180，两部手机60，网络30，水电气约100， 等等... 以上支出是都是最便宜的水平。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-f608af8970246450a34c147054c6b8df_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1299&quot; data-rawheight=&quot;874&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-f608af8970246450a34c147054c6b8df_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1299&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-f608af8970246450a34c147054c6b8df_r.jpg&quot;&gt;&lt;figcaption&gt;左边是我家的实际支出。右边是假设单身狗情况。 右边黄色部分为需要重点关注的变化。单身有余钱可以存401k，这部分免税，所以收的税比家庭还少。&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;我租的小村是&lt;b&gt;最便宜最偏远的公寓，两卧；&lt;/b&gt;离工作近的条件好的，房租最少1600+。 这个村有多小呢，25分钟，骑自行车从东到西，20分钟从南骑到北。但这里是大学村，所以房价很贵。&lt;/li&gt;&lt;/ul&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-54c4cbdee165f6c08c7bafbd4b902fa6_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;569&quot; data-rawheight=&quot;294&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-54c4cbdee165f6c08c7bafbd4b902fa6_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;569&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-54c4cbdee165f6c08c7bafbd4b902fa6_r.jpg&quot;&gt;&lt;figcaption&gt;小村里一年租房价格中位数变化（两卧室和三卧室）&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;买的是最便宜的车险，为省油省停车费，从来不开车上班。自行车通勤（单程约20分钟）。坐公交比开车更贵。我们家的车是5200刀买的7手车。&lt;b&gt;真的，7手车，我是第8任车主，2008年的车。买的时候15万英里（合24万公里）&lt;/b&gt;。&lt;/li&gt;&lt;li&gt;买最最便宜的网络服务和手机服务，如果谁知道更便宜的网络告诉我，我立即换。&lt;/li&gt;&lt;li&gt;每月教育投入1100刀。用来上Daycare，或者用来素质教育，或者存大学学费（存着点钱上大学肯定是不够的）。 &lt;/li&gt;&lt;li&gt;因为穷所以完全没有存退休金。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;每月固定支出2650，&lt;b&gt;我只有450刀可以花。 &lt;/b&gt;&lt;/p&gt;&lt;p&gt;工资100%： &lt;/p&gt;&lt;p&gt;&lt;b&gt;税和保险25%， 房租29%， 小孩教育26%， 此三项占收入80%。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;车5%， 水电气5%， 衣食行10%。 这些还不包括医疗。&lt;/b&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-8c3bfbdef648eff7b0db3fb60af19410_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1326&quot; data-rawheight=&quot;450&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-8c3bfbdef648eff7b0db3fb60af19410_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1326&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-8c3bfbdef648eff7b0db3fb60af19410_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-50103d1d9c1c65cd48ed355e756e888d_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;665&quot; data-rawheight=&quot;199&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-50103d1d9c1c65cd48ed355e756e888d_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;665&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-50103d1d9c1c65cd48ed355e756e888d_r.jpg&quot;&gt;&lt;figcaption&gt;电费一度0.30~0.50美元。关键各类电器的功率还超大。看不懂他账单，但7月份电费140美元。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;b&gt;一月450美元根本不够家人在外面吃饭，所以只能自己做饭，才够吃够喝。还不能买衣服、买文具、买书、买玩具。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;虽然超市里面打折的肉有很便宜的(能见到0.99刀一磅（合9两）的鸡腿和猪肉，和2.99的牛肉)，但是确实不怎么好吃，腥味很重，我们家买这种肉卤着吃。好一点的肉(没腥味，口感好）就很贵了，叫得上来名字的牛肉都是6~20刀一磅、五花肉3~6刀，好的鸡肉也是3刀以上，羊肉都是6~15刀一磅。肉虽便宜，但菜挺贵的。五根小葱1美元，两三颗蒜头1美元，白菜1刀一磅，菠菜5美元一磅，西红柿2~5刀一磅，平菇5~10刀一磅，火龙果5~8刀一磅，香菇10刀一磅。&lt;/p&gt;&lt;p&gt;超市里面12瓶矿泉水卖2.99美元，很便宜吗？的确便宜，但买不起，我只买3.99刀32瓶的水。 而且买水的时候每个瓶子要外加5美分的塑料回收费。 这种瓶装水水我也舍不得喝，专门留给小朋友喝，我一直喝白开水。对了，我们这个地方的水质不好，大家普遍买桶装水喝。下面是自来水过滤芯打开的样子：&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-6751e9c9cf1dbde701a98be7fe692653_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;787&quot; data-rawheight=&quot;899&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-6751e9c9cf1dbde701a98be7fe692653_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;787&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-6751e9c9cf1dbde701a98be7fe692653_r.jpg&quot;&gt;&lt;figcaption&gt;换下来的过滤芯外壁。 内壁的红色物质不知道是什么，但是洗干净的内壁是纯白色的。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;除商品标价以外，结账的时候需要交&lt;b&gt;消费税&lt;/b&gt;。加州8%，有的州9%，有的州吃穿商品免税。9%税州每年有一次免税日——我嘞个去，免税日超市里是人山人海，免9%的消费税意味着所有东西打9折；黑色星期五只是个别商品打折，但是免税日是所有商品打折。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;&lt;b&gt;2 分析日常支出的方向&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;2.1  个人所得税+养老金(占比10%~35%)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;通常美国人收入数额虽然高，但到手的实际数额通常只有工资的2/3，一些钱在发工资的时候就交个税（10%~30%）和养老金。&lt;/p&gt;&lt;p&gt;尽管这很多时候每年有退税，退税额也是根据你的收入、家庭成员数等等决定，没有统一比率。如果家庭日常没有能存下钱的家庭，数额不高的退税额将会是家庭应急储蓄。&lt;/p&gt;&lt;p&gt;以我家为例，退税就是应付每月吃喝拉撒的赤字和应付医保之外的高额医疗费。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-6406337894eaf5ff0004eb24c86ae807_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;512&quot; data-rawheight=&quot;364&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-6406337894eaf5ff0004eb24c86ae807_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;512&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-6406337894eaf5ff0004eb24c86ae807_r.jpg&quot;&gt;&lt;figcaption&gt;2018年税率（递进税率）。家庭单位税率低于单身狗&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt; 养老金（401K）是自己存一部分，工作单位会共比例存入，所以存得多对自己未来有利，而且存养老金可以免税，所以每个人都愿意多存以点。但是有上限，2018年是$18500一年。401K终点应该是60岁退休时，有120万美元在账户里。 像我们家这类赤贫的人家，没有余钱用来交养老金。结果就是未来60岁以后如果还没有痴呆的话去超市里面做收银员。这就是为什么美国能见到70，80岁的超市工作人员。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-f1f599129da167e4dfce3502a03255e7_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1810&quot; data-rawheight=&quot;810&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-f1f599129da167e4dfce3502a03255e7_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1810&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-f1f599129da167e4dfce3502a03255e7_r.jpg&quot;&gt;&lt;figcaption&gt;如果20岁开始存养老金。来源：https://humaninterest.com/blog/401k-saving-scenarios/ &lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2.2 住房(占15%~40%)&lt;/b&gt;&lt;/p&gt;&lt;p&gt;房屋价格很高，如果贷款买房日常负担分几项内容：1贷款本金和利息(P&amp;amp;I)，2地产税(Tax)、3小区物业费（HOA），4贷款保险费（PMI），5房屋保险(Insurance)， 6房屋维护，木房子日常维护费高。  除了本息之外，其他都可能随行情涨价。&lt;/p&gt;&lt;p&gt;实际在同一个城市租房和买房的支出相差比较小。按揭支出和租房支出很接近——不同城市有所差异。&lt;/p&gt;&lt;p&gt;房价高的地方教育质量高，社区安全，公共资源好，房子保值性也高； 房价低的地方房价几乎不涨，算上房屋维护和地产税，房价就不保值了。很多农村地区很大的别墅价格很便宜，但是依旧卖不出去，就是因为当地没有足够产业支撑收入不高，或者社区不安全。&lt;/p&gt;&lt;p&gt;我们所在的小村10分钟车程的另外两个小村，房价几乎是这里的6成，但是房子却不如这里好卖；主要原因是学区差，社区不安全。 &lt;/p&gt;&lt;p&gt;羡慕某个地方房价低的时候，要先看看那个低房价的&lt;b&gt;地方安不安全，学区怎么样，有没有足够多的工作机会&lt;/b&gt;。 不过，无论房价高与低，对于大部分家庭来说，住房支出依旧占税前收入的30%左右。&lt;/p&gt;&lt;p&gt;&lt;b&gt;2.3 教育(占15%~40%)：&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2.3.1 基础教育阶段&lt;/b&gt;&lt;/p&gt;&lt;p&gt;问题: 要不要在基础教育阶段上花钱？&lt;/p&gt;&lt;p&gt;常有人说美国教育不花钱，事实是仅限参差不齐的公立的义务教育不花钱，但有限的义务教育以外的内容要花钱，而且花的钱都是大钱。公立学校不好或者希望小孩将来能有较大发展空间的都会花大价钱在教育上。 &lt;/p&gt;&lt;p&gt;大家要理解“什么叫素质教育”——素质教育就是要在校外花钱培养孩子的素质（体育跳舞画画弹钢琴），否则你家孩子就是没有素质，鸡汤文里面告诉你美国学生素质好就是靠校外砸钱砸出来的，素质这东西在美国公立教育里面就是蜻蜓点水。有素质才能上藤校，没素质只能上Big10或者公立藤校。 素质教育的阴谋在哪儿都适用。&lt;/p&gt;&lt;p&gt;我以前在A地学习，住&lt;b&gt;廉租房（收入约在20%~25%的这个区间的人口可入住，意思75%的人口比你富有，同时你要比最穷的那20%的人口有钱的状态才能住&lt;/b&gt;），院子里面都是穷人才能住进来。学校下午3点放学，孩子们就在院子里面玩，而且很无聊的那种；小孩子能跑跑跳跳，但大一点的孩子就极度无聊的骑着自行车一遍一遍的转圈。 因为各家住的远，放学后小孩没办法自己步行去找同学玩；这也有安全问题。即便可以去找同学玩，他们的同学也许正在上补习班呢。稍有余钱的家庭，都送小孩在学校操场上锻炼，教练指导下踢足球、打棒球、打网球。 &lt;/p&gt;&lt;ul&gt;&lt;li&gt;学音乐什么也都很贵，有朋友在家教小孩子拉大提琴，价格是每小时75美元。&lt;/li&gt;&lt;li&gt;小孩有游泳课，3个月起就可以上。我们上了一期，同班6个小孩，每次课老师基本就是打个招呼，然后父母托着宝宝在水里玩；这种课程每节课20刀(30分钟）&lt;/li&gt;&lt;li&gt;小孩子的体操课(Gymnastic)，课时30分钟，5~12个小孩一起上，开场老师带着热身2分钟，其余时间全部是父母陪着小孩玩道具器械。每节课20刀。&lt;/li&gt;&lt;li&gt;有个叫Music Together的课程，就是让父母带小孩，坐在一起一起唱歌，5~15个小孩。20刀一节课(30-50分钟)。我们在A地上这个课，老师音乐水平比较高，而且有好几个老师供选择；到了B地，只有一个老师，水平差；现在每次听到某首歌，眼前就浮现出那个老师的尬舞来。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;别看以上的这些课程质量一般、价格不便宜，但位置很紧张，需要提前2个月以上预定。&lt;/p&gt;&lt;p&gt;我认识的中国人家，全部都给小孩或多或少报了学习班。我认识的家庭有报10个学习班的——那是年入25+万的人家。 对于一般的双职工，报各种班不是奢侈品而是必需品，谁家也没办法下午三点就翘班回家看娃——（国内现在的所谓素质教育改革就走这条邪路）。在美国，通过学业来获得将来的竞争资本是华人唯一的道路——即便如此，美国社会依然有各种各样的歧视政策来打压华人的上升之路。 &lt;/p&gt;&lt;p&gt;&lt;b&gt;2.3.1 大学教育&lt;/b&gt;&lt;/p&gt;&lt;p&gt;大学的费用非常高，每年每人5万美元起（包括学费和生活费）。如果想小孩将来上大学的负担轻一点，需要很早就开始给小孩存大学学费。如果只有一个小孩，18岁上大学时候基本要存够20~30万美元，从孩子出生起每年要存1万美元。&lt;/p&gt;&lt;p&gt;纵然不奢望上藤校和Big10, 只要孩子未来要在美国上大学，无论如何都要在&lt;b&gt;孩子出生开始&lt;/b&gt;计划给小孩存上大学的钱。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-aba07bdb9e6dc71483c80219763c31c5_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;762&quot; data-rawheight=&quot;648&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-aba07bdb9e6dc71483c80219763c31c5_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;762&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-aba07bdb9e6dc71483c80219763c31c5_r.jpg&quot;&gt;&lt;figcaption&gt;美国大学学费30年增长趋势（仅学费）。美国有1800+私立大学，600+公立大学，1000+公立社区大学。中国人听过的只有Top150以内的学校。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;如果不存大学学费会怎样？ 没钱小孩上社区大学，有钱的去藤校，自(yong)然(qian)淘汰一部分人。&lt;/p&gt;&lt;p&gt;70%的美国大学毕业生背负可观的债务(a significant amount of loans), 美国87%的大学入学率。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-63d77616f5a6476ab923ad0fb8eb6c17_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;720&quot; data-rawheight=&quot;540&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-63d77616f5a6476ab923ad0fb8eb6c17_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;720&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-63d77616f5a6476ab923ad0fb8eb6c17_r.jpg&quot;&gt;&lt;figcaption&gt;分年龄段的学生贷款债务人数&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2.3 医疗（波动范围大）：&lt;/b&gt;&lt;/p&gt;&lt;p&gt;医疗支出分两部分：&lt;b&gt; 保险和医疗账单&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;保险金：&lt;/b&gt;高低和工作单位有很大关系，有的保险金自付比例较高，有的较低；有的保险包括老婆小孩——不包括自己的父母，有的只包含工作者自己。如果工作单位不提供保险或者保险不好，就需要自己付出较大一笔钱自己买保险，价格范围非常大。  &lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;一个在小村东部小村工作年薪10万的朋友讲，单位让他们自己买保险，他为了省钱，买了最便宜的保险3000刀一年。如果看病的话，自付比例比较高，每年1000块Deductible(每年投保人至少要交高于1000块的医疗费)，所以他尽量不去看病。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;医疗账单：有保险的情况下计算自付金额包含几个问题：&lt;/p&gt;&lt;p&gt;1 不是所有医院都可以去看病。通常有指定医院。&lt;/p&gt;&lt;p&gt;2 保险并不会全报。有Deductible, Co-Insruance, Co-Pay几个需要自己付。&lt;/p&gt;&lt;p&gt;3 牙齿和眼睛需要额外的保险。保险金并不高，但是保险负责的范围比较小，真正使用的时候，需要自付的金额都非常高。有保险情况下，牙医和眼医的账单往往比医疗的账单还要高。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我在博士期间学校保险还不错，每年一家人自付保险金2500刀（学校给我交10000+），校医院看病不要钱，外面看病有500刀Deductible和小比例的自付比例。&lt;/p&gt;&lt;p&gt;所以几年前一次急性阑尾炎，去了医院急诊，凌晨3点自己开车去医院，做了切除手术，晚上8点从医院回来。回来的医疗账单25000+刀，幸好有保险，并且申请了穷人才有的福利，自己付500刀。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-615ead7569f748165a1a9f87d5862f24_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;931&quot; data-rawheight=&quot;630&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-615ead7569f748165a1a9f87d5862f24_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;931&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-615ead7569f748165a1a9f87d5862f24_r.jpg&quot;&gt;&lt;figcaption&gt;阑尾炎的报销记录。医院账单$25000，经过保险公司打折+支付之后，我自己应付$2796。因为够穷（根据家庭人数和收入算的），后来还申请了些免费医疗一类的东西，印象中最终支付的数额应该在$500以内。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;现在的医保算比较好比较贵的类型，每月自己加学校要交1600+刀保险金。每次看病至少交20刀。处方药至少10刀。 有次喉咙痛，没有任何其他毛病，医生看了下，医院账单301刀，我自己交20刀；医生开了阿莫西林，外面的药房取药，10刀。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-0e82e74e09d62e25edaa98ce99c8da05_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;993&quot; data-rawheight=&quot;289&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-0e82e74e09d62e25edaa98ce99c8da05_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;993&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-0e82e74e09d62e25edaa98ce99c8da05_r.jpg&quot;&gt;&lt;figcaption&gt;医院账单，保险未付的状态&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-ff6c6bce8da809f24cc9c508a339d314_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;904&quot; data-rawheight=&quot;545&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-ff6c6bce8da809f24cc9c508a339d314_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;904&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-ff6c6bce8da809f24cc9c508a339d314_r.jpg&quot;&gt;&lt;figcaption&gt;喉咙痛，医生给开了40片阿莫西林。通过医保，自付10刀。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;每次看病，最简单的感冒或者宝宝例行检查，保险之后至少20刀。当然医院的原始账单是不能看的，至少300刀起——这就是美国医院的挂号费。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;博士期间做了一次根管移除手术，我用光了两年的牙医保险上限（共2000刀），自己付了近500刀。&lt;/p&gt;&lt;p&gt;今年我老婆为牙齿的小毛病支出了500刀，医生说我也需要一样的治疗，但我觉得负担不起，于是拒绝了医生的治疗方案——只要不疼，我就不管了。&lt;/p&gt;&lt;p&gt;今年用医保配了两幅眼镜300刀。&lt;/p&gt;&lt;p&gt;这周（2018年10月），带着宝宝去看了儿童牙医，医生说宝宝的牙齿不太好，需要处理一下，总费用2400美元，走保险，我们要交1050刀。现在没积蓄，去年退税已经用完了，我们还没有决定好要不要做，初步打算等明年退税的时候做。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-abfc4589015cb741e40f7cdfca17567f_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1343&quot; data-rawheight=&quot;726&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-abfc4589015cb741e40f7cdfca17567f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1343&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-abfc4589015cb741e40f7cdfca17567f_r.jpg&quot;&gt;&lt;figcaption&gt;牙医给的治疗方案。治疗方案没看懂，钱我看懂了。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;因为去年换工作一个月，家里没有医疗保险了，那个月全家都是战战兢兢；我自己不怎么敢出门，怕生病受伤。一旦进医院，没有保险就算是看个感冒我都负担不起。&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;题外话：自从那个月没保险后，我家两部手机，天天接到来推销廉(pian)价(qian)医疗保险的垃圾电话，工作日每天至少两次，周末休息；一开始全美的区号都有，近半年来全部是和我同州的号段。究竟谁说外国没有个人信息泄露没有骚扰电话？
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;3 模拟15万美元的硅谷生活&lt;/h2&gt;&lt;p&gt;--------大家一起做个繁华都市里面年入15万美元的白日梦----------&lt;/p&gt;&lt;p&gt;&lt;b&gt;假如我们一家在硅谷（相当于北上广深）的公司工作了，年入15万绿花花的美元&lt;/b&gt;（家庭收入水平全美前5%，&lt;b&gt;在硅谷属于有钱的25%&lt;/b&gt;）&lt;b&gt;，生活应该很爽吧。 ——应该很爽，如果是单身狗的话&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;年入15万，交完税、FICA和401K，你可以拿到手10万刀。用来挥霍？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;有收入先要存401k，但是每年封顶18500刀.&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-c9e330dbffb2e12588c924576475ad76_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;720&quot; data-rawheight=&quot;504&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-c9e330dbffb2e12588c924576475ad76_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;720&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-c9e330dbffb2e12588c924576475ad76_r.jpg&quot;&gt;&lt;figcaption&gt;收税计算器。 401K存入可以免税，2018年限额18500刀。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;计划买一套3个卧室的房子，别墅(Single House)是买不起了，不挑学区62万美元买个Condo/Townhouse的公寓；62万的房子在硅谷算是入门级的房屋——硅谷房屋现在的价格中值是80+万美元。 意味着收入top25%的人家买bottom25%的房子。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-439a09c7289f0967d5fc7d1fb82c94c2_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1024&quot; data-rawheight=&quot;683&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-439a09c7289f0967d5fc7d1fb82c94c2_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1024&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-439a09c7289f0967d5fc7d1fb82c94c2_r.jpg&quot;&gt;&lt;figcaption&gt;硅谷的同学介绍一下这个房子的地段和学区什么水平。https://www.zillow.com/homedetails/795-Golden-Creek-Ter-San-Jose-CA-95111/19814455_zpid/?fullpage=true&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;第一个问题是20%首付，12.6万；假设向亲戚朋友借，没有利息答应好5年内还清。每年需要支出2.52万。这个支出5年后亲戚朋友借的钱还清了，同样的数额开始存入小孩子的教育基金，连续存13年——够1.5个&lt;b&gt;品学兼优的小孩&lt;/b&gt;上大学的费用（外州公立大学）。 本州公立大学的话，可以送2+个娃，私立的话能送1.3个。&lt;/li&gt;&lt;li&gt;假如家里有矿或父母赞助首付，那么首付的钱省下来就可以再送0.5个小孩未来上大学。&lt;/li&gt;&lt;/ul&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-4694913b0837b15aa6eb21cfce33b22a_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1115&quot; data-rawheight=&quot;722&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-4694913b0837b15aa6eb21cfce33b22a_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1115&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-4694913b0837b15aa6eb21cfce33b22a_r.jpg&quot;&gt;&lt;figcaption&gt;给娃存钱上大学的计算器。可以送1.5~2个娃上大学。（ 投资方式不同回报率有差别）。&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;剩下的钱靠银行贷款，按揭30年。除了还贷款本息(P&amp;amp;I)，美国的房屋有地产税(Tax)、小区物业费（HOA），贷款保险费（PMI）,房屋保险(Insurance)。  除了本息之外，其他都可能随行情涨价。估计每月要支出3400刀——实际在当地租同等的房屋也这个价格。 如果用首付3%的方式卖房子，每月的负担会飙升到5000每月。&lt;/li&gt;&lt;/ul&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-4e3b760cfafc1f1410727e671978a7eb_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1688&quot; data-rawheight=&quot;1292&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-4e3b760cfafc1f1410727e671978a7eb_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1688&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-4e3b760cfafc1f1410727e671978a7eb_r.jpg&quot;&gt;&lt;figcaption&gt;Zillow的一条龙的买房贷款服务，一条龙，一~条~龙~&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;水电气网垃圾：&lt;/b&gt;每月300刀，这个估计只会少不会多。&lt;/li&gt;&lt;li&gt;&lt;b&gt;车：&lt;/b&gt;25000刀，可以买个乞丐版的雅阁或者Camry，完全按揭5年还清，每月还款450刀。有评论说18k可以买到这种车，逼我上了两张图。另外提醒买车别忘了交税。如果18k能买到的话，月按揭可以少100刀。  &lt;/li&gt;&lt;li&gt;每年开车15000英里（加州平均水平），如果MPG35(日本新车水平)，现在最便宜的油3.5+刀，一年油费至少1500刀。换机油保养最基本的一年200刀。新车+大城市+贷款三项决定车险便宜不了，一年小1000。纵然用最低保额，也需要600+。&lt;/li&gt;&lt;/ul&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-89697d455fada4aa6670b338cbfa9e61_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;634&quot; data-rawheight=&quot;257&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-89697d455fada4aa6670b338cbfa9e61_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;634&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-89697d455fada4aa6670b338cbfa9e61_r.jpg&quot;&gt;&lt;figcaption&gt;25k买个乞丐版的雅阁或Camry。未名上号称都是居家中年猥琐男专用车.&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-bf67fe40871563fc0b0b8580bd3e748b_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1196&quot; data-rawheight=&quot;697&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-bf67fe40871563fc0b0b8580bd3e748b_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1196&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-bf67fe40871563fc0b0b8580bd3e748b_r.jpg&quot;&gt;&lt;figcaption&gt;加州油价&lt;/figcaption&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;小孩：&lt;/b&gt;每月$1600 花在小孩子教育上很正常。 小孩稍大一点，硅谷很多人家孩子都送去私立学校，1600也就不够了。 如果坚持不送小孩去私立，就在想办法花钱找人3点一后看小孩，要么有本事翘班也成。 尿布，每天5个，打折尿片0.2刀一片。&lt;/li&gt;&lt;/ul&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-6a0a35cd4091419eac0296a24788f366_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;797&quot; data-rawheight=&quot;655&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-6a0a35cd4091419eac0296a24788f366_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;797&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-6a0a35cd4091419eac0296a24788f366_r.jpg&quot;&gt;&lt;figcaption&gt;三口/四口之家每年只要有2000+刀的生活费，肯定不够，所以要从教育和401k里面再减少。千万别生病，生病也不要去医院。 表格里面假设借来的12万没有利息，这个和完全没有积蓄3%按揭相比非常仁慈了。表格中缺少医疗保险和医疗账单支出。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;收入中，个人所得税占20%，养老金12%。 仅仅住房和教育就支出57%。 车占比很小，小于5%. 食品占比更小，应该在2%以内。&lt;/p&gt;&lt;p&gt;三口之家，每年有2000多块钱可以吃喝拉撒睡，这个结果对我自己也挺震撼的。这个数额肯定是不够了，所以一定要在车上省钱、或者从未来养老金401K里面少存钱来应付眼前的支出。 但&lt;b&gt;如果少交养老金，个人所得税就会增加&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;所以说，如果在硅谷年入15万（家庭收入水平全美前5%，当地前25%），生活也就这个水平。 要有大的支出或者生病，还是要靠每年的退税。&lt;/p&gt;&lt;p&gt;要么你在结婚和生娃前存钱、或者家里有矿、或者父母赞助、或者天上掉下个15万刀。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-2031a099bc2419d0b81c1250d0b11d11_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;785&quot; data-rawheight=&quot;644&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-2031a099bc2419d0b81c1250d0b11d11_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;785&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-2031a099bc2419d0b81c1250d0b11d11_r.jpg&quot;&gt;&lt;figcaption&gt;每年要是有1.6万吃喝拉撒睡，日子应该是很轻松了，但家里得有个矿&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;硅谷人家的收入高，但是我这里鸟不拉屎的小村，房屋均价也是57万（更新了下，之前写的是65万）啊。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;好吧，我们总结为什么生活这么苦？因为三座大山。&lt;/p&gt;&lt;p&gt;哪三座大山？跟我一起说：&lt;b&gt; 住房~教育~医疗。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;其实中国的三大改革，正或已经从社会主义优越性改到资本主义劣根性上去了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;4 比较一下几个不同城市里生活&lt;/h2&gt;&lt;p&gt;我选了6个城市： &lt;/p&gt;&lt;ol&gt;&lt;li&gt;马里兰的Rockville: 离首都近。地方好，周围有很多研究所。这里中国人很多，学历高、收入高。离首都这么近又叫Rockville，于是人送外号”石家庄“.&lt;/li&gt;&lt;li&gt;密苏里州Columbia: 评论区一个网友说他们那里房价低日子过得爽。&lt;/li&gt;&lt;li&gt;俄亥俄Columbus： 俄亥俄州立所在的地方。&lt;/li&gt;&lt;li&gt;科罗拉了多Denver：科罗拉多首府。&lt;/li&gt;&lt;li&gt;田纳西Knoxville: 田纳西大学所在地。&lt;/li&gt;&lt;li&gt;密苏里州Springfield: 密苏里州州立大学所在地。&lt;/li&gt;&lt;/ol&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-20b87af9026c225edc4dcfd9e1635a42_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;729&quot; data-rawheight=&quot;342&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-20b87af9026c225edc4dcfd9e1635a42_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;729&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-20b87af9026c225edc4dcfd9e1635a42_r.jpg&quot;&gt;&lt;figcaption&gt;6个城市基本情况，还包括硅谷的两个地方。（A最好，F最差）。 中国人对犯罪率和教育的敏感度很高。尽管加州和石家庄的居住成本都非常高，但因为犯罪低、教育和就业好所以一直是最被追捧的地方。&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-287f4824b6393387b0647fda9677f19a_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;1276&quot; data-rawheight=&quot;530&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-287f4824b6393387b0647fda9677f19a_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1276&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-287f4824b6393387b0647fda9677f19a_r.jpg&quot;&gt;&lt;figcaption&gt;几个城市对比一下收支情况。基本解释为什么房价贵也要去大城市工作了。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;上面这个图列举了几个城市的情况，&lt;/p&gt;&lt;ul&gt;&lt;li&gt;我选的都是80th家庭收入的情况——&lt;b&gt;该城市只有20%家庭情况比表格中的情况好&lt;/b&gt;。&lt;/li&gt;&lt;li&gt;房价选这几个地方的房价中位值——一半房子比这个价格高，一半比这个价格低。赚top20%的工资，买50%位置的房子。&lt;/li&gt;&lt;li&gt;就是个例子，里面肯定有不够准确的地方，比如最穷和最富的地方用车和水电气会有差异，但我都假设一样了，不过这些相比其他都是小钱。 &lt;/li&gt;&lt;li&gt;假设家庭没有大笔积蓄，只有首付的钱和两辆车，一辆不需要按揭，第二辆车需要按揭。&lt;/li&gt;&lt;li&gt;假设没有大笔积蓄、没有大笔财产继承、没有父母赞助首付，所以最优惠的3%首付就可以贷款。 每月按揭额应该和当地同价位房子的房租水平接近。&lt;/li&gt;&lt;li&gt;养老的401k免税，大家都希望用18500的上限，但是太多401k会影响当下的生活，所以我限制401k上限是18500或者收入的15%。 401k少，将来退休后的生活受影响。&lt;/li&gt;&lt;li&gt;每月存$1300，大约18年后可以送&lt;b&gt;一个孩子&lt;/b&gt;上外州公立大学。&lt;/li&gt;&lt;li&gt;我不了解这几个地方，数据都是从几个数据网站搜来的，具体大家讨论吧。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;数据解读：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;石家庄（Rockville）的收入最高，房价也最贵，但是对比起来，每月刚性支出占比却最小。反而是房价最便宜的两个地方，但是收入实在太低了，导致生活很紧张。所以解释了为什么大城市房价贵，但是人们依旧要去大城市。&lt;/li&gt;&lt;li&gt;实际生活肯定不会是负值，所以Knoxville和Springfield的人需要从教育和大学教育基金里面抠钱出来供日常生活。损失的是自己孩子未来。&lt;/li&gt;&lt;li&gt;房价低的地方，房奴成本比较低。&lt;/li&gt;&lt;li&gt;收入低的地方虽然房价低，但是大学教育成本却大幅上升。石家庄只用收入8.5%供大学生，但是密苏里要用23%的收入才能供大学生。 这些家庭要么孩子贷款上大学，要么上社区大学。 高涨的大学学费是应该美国阶级固化的一个重要推手。&lt;/li&gt;&lt;li&gt;这个例子假设只有一个孩子，如果有两个，生活会更难过。&lt;/li&gt;&lt;li&gt;在美国不仅仅是房价是避孕药，大学学费也是避孕药。&lt;/li&gt;&lt;li&gt;实际美国人的生活应该还是需要从父母处继承来一些财产，能极大的减轻生活负担。鸡汤文说美国父母不给子女留财产的话当笑话听一听就好。&lt;/li&gt;&lt;li&gt;表格都不包括医疗或应急支出。&lt;/li&gt;&lt;li&gt;在这几个城市，应该&lt;b&gt;有80%的家庭负担不起表格中的生活。&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;&lt;b&gt;更新一个重要数据：&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;既然大家纠结于“家里三口人”的问题，我只好找新数据：&lt;b&gt;美国有娃家庭收入中位数是9.5万。&lt;/b&gt; &lt;b&gt;20%的有娃家庭收入低于50000美元，当然也意味着80%的有娃家庭收入比50000高。&lt;/b&gt; 这个数据是专门指人口3+，家里可能一个娃也可能n个娃，娃的年龄一定小于18岁。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-dd748130c17155e692bd12a86d5d49f4_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;516&quot; data-rawheight=&quot;413&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-dd748130c17155e692bd12a86d5d49f4_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;516&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-dd748130c17155e692bd12a86d5d49f4_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;对那些美国梦碎的人们有一个好消息和一个坏消息：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;好消息：有15%的有娃家庭收入高于20万(上图的右边拐点)，有20万养娃肯定轻松；&lt;/li&gt;&lt;li&gt;坏消息：年入20万的有娃家庭80%都是纯白人家庭，只有13%是纯亚洲人家庭，黑人和拉美裔家庭占比小于7%。  &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;补充：白人有孩家庭占78%。  亚洲有孩家庭占比9%，所以13%的这个比例是高于其他族裔。  &lt;b&gt;但是：亚裔家庭的教育支出远远高于其他族裔——巨大的教育投入才是亚裔成为中产的基础。 &lt;/b&gt;下图仅仅是各个族裔在学费上的投入。&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-da082e56361d6ee088f8882af1ccc059_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;590&quot; data-rawheight=&quot;393&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-da082e56361d6ee088f8882af1ccc059_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;590&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-da082e56361d6ee088f8882af1ccc059_r.jpg&quot;&gt;&lt;figcaption&gt;亚裔家庭学费投入是白人家庭1.6倍，黑人家庭5.2倍。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-424154c6da203c2a2a564523d44a9b98_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;951&quot; data-rawheight=&quot;434&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-424154c6da203c2a2a564523d44a9b98_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;951&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-424154c6da203c2a2a564523d44a9b98_r.jpg&quot;&gt;&lt;figcaption&gt;红色部分是亚裔。9%的有娃家庭贡献15%的学费&lt;/figcaption&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-cd643557df0722e09ad8d6d8738629e0_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;720&quot; data-rawheight=&quot;424&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-cd643557df0722e09ad8d6d8738629e0_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;720&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-cd643557df0722e09ad8d6d8738629e0_r.jpg&quot;&gt;&lt;figcaption&gt;亚裔在教育和照看投入明显高于其他族裔.  我只贴Quintile2因为他最明显而且正好是我家收入水平。其他收入水平的亚裔家庭在教育的投入也都高于其他族裔。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;有关亚裔教育投入的问题能写一篇新文章，建议另开问题讨论。&lt;/p&gt;&lt;p&gt;--------------------------------------------------------------------&lt;/p&gt;&lt;p&gt;我觉得数据也比较详尽了，部分细节我解释在评论区了。连续五天都是收集数据补充材料耽误不少工作，现在基本算定稿了。我知道个别数据的完美解读需要更多数据和分析，但限于文章的长度和可读性(好多细节的问题需要单独提问单独写文章)，以及我个人能力和时间，如果没有大谬误我就不再更新了。还有不明白请通过尾部数据来研究；如果觉得我的情景分析有错误，劳烦各位做一个更合理的分析，告诉我一声我给您推荐。  &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我相信知乎朋友都是有分析能力的，我在文章中的几个假设比较明显，大家可以通过关闭这几个假设知道不同生活方式的家庭的收支状态，也能根据别人的生活状态知道他们大致的收入和支出打算。&lt;/p&gt;&lt;p&gt; 这几个假设是：&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;再穷不能穷教育。 如果可能，尽可能投入子女教育。素质教育和Daycare方向。&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;要存大学学费。 1和2对中国家庭来说比较容易接受和实践，从上图亚裔家庭学费投入也能看出来。&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;为养老做打算，不影响生活情况下尽可能存401k。&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;没有计算退税。首先是因为这个太复杂，其次是因为我没有计算医疗支出，退税可以作为应急医疗支出使用。收入低退税比例高，但是绝对额却和医疗支出同量级；收入高退税比例也就低了。&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;没有积蓄、没有父母资助，没有财产继承。&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;不用赡养父母。&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;b&gt;删除以上任何一个假设，物质生活都会出现比较大的变化。说到这里，有好奇心的同学应该修改假设重新读一遍文章。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;包括我在内，论述解读都会有纰漏，但能给大家提供有用信息我就满意。从评论区我自己的回复看得出来，我自己也是一点一点通过更新数据来更新自己的解读。谢谢评论区朋友的指导，谢谢各位读者。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h2&gt;推荐几个有参考价值的答案：&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;匿名用户 &lt;a href=&quot;https://www.zhihu.com/question/296027310/answer/510161232&quot; class=&quot;internal&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;zhihu.com/question/2960&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;27310/answer/510161232&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;member_mention&quot; href=&quot;//www.zhihu.com/people/6e19d3f3e70aabbb4de34756c6b7b996&quot; data-hash=&quot;6e19d3f3e70aabbb4de34756c6b7b996&quot; data-hovercard=&quot;p$b$6e19d3f3e70aabbb4de34756c6b7b996&quot;&gt;@2-20滑膛枪等96人&lt;/a&gt;  的回答 &lt;a href=&quot;https://www.zhihu.com/question/296027310/answer/504618437&quot; class=&quot;internal&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;zhihu.com/question/2960&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;27310/answer/504618437&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;member_mention&quot; href=&quot;//www.zhihu.com/people/517eb775a266e4f8f9b777d47d0b0838&quot; data-hash=&quot;517eb775a266e4f8f9b777d47d0b0838&quot; data-hovercard=&quot;p$b$517eb775a266e4f8f9b777d47d0b0838&quot;&gt;@易派斯&lt;/a&gt;  的回答 &lt;a href=&quot;https://www.zhihu.com/question/296027310/answer/509794571&quot; class=&quot;internal&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;zhihu.com/question/2960&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;27310/answer/509794571&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;member_mention&quot; href=&quot;//www.zhihu.com/people/747e7c02e23adc68626761ad1146b671&quot; data-hash=&quot;747e7c02e23adc68626761ad1146b671&quot; data-hovercard=&quot;p$b$747e7c02e23adc68626761ad1146b671&quot;&gt;@陈思炜&lt;/a&gt;  回答 &lt;a href=&quot;https://www.zhihu.com/question/296027310/answer/507712315&quot; class=&quot;internal&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;zhihu.com/question/2960&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;27310/answer/507712315&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;member_mention&quot; href=&quot;//www.zhihu.com/people/c7f87fba9177435fdfc327ae097d3196&quot; data-hash=&quot;c7f87fba9177435fdfc327ae097d3196&quot; data-hovercard=&quot;p$b$c7f87fba9177435fdfc327ae097d3196&quot;&gt;@deadlineispower&lt;/a&gt;  的回答 &lt;a href=&quot;https://www.zhihu.com/question/296027310/answer/509634626&quot; class=&quot;internal&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;zhihu.com/question/2960&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;27310/answer/509634626&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;匿名用户 &lt;a href=&quot;https://www.zhihu.com/question/296027310/answer/506153180&quot; class=&quot;internal&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;zhihu.com/question/2960&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;27310/answer/506153180&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;member_mention&quot; href=&quot;//www.zhihu.com/people/5c3a8a88298ea3e995c74b2068dcfc5b&quot; data-hash=&quot;5c3a8a88298ea3e995c74b2068dcfc5b&quot; data-hovercard=&quot;p$b$5c3a8a88298ea3e995c74b2068dcfc5b&quot;&gt;@黑妹的姐&lt;/a&gt;  的回答 - 知乎 &lt;a href=&quot;https://www.zhihu.com/question/296027310/answer/504629627&quot; class=&quot;internal&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;zhihu.com/question/2960&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;27310/answer/504629627&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;给别人挑错人人都会，但是从别人的论述中找出有价值的信息才是真本领。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;以下内容不重要，都用小字体。&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;问题一： 评论区都关心我家应该怎么增加收入。
+谢谢大家支招。其实如果只为钱，我应该选那个给60k的学校；如果只为钱，我早就去那个给110k的大公司了。我的回答就是告诉大家5万刀，在美国能过什么样的日子。
+大家不要关注错了重点，重点是用我的收支状况让大家理解如果在美国年入5万、占40%收入水平的家庭是什么样的生活状况。  看看这个收入能不能攒够买房的首付，看看能不能像大家想象中的经常换新iPhone，看看有没有钱送孩子上私校、上大学，更别提积蓄或赡养父母。
+喜欢遥控指挥我们家过日子的人太多了，这些人根本听不懂人话。再有干涉和指责我家庭的，一律删评论加拉黑
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-7134fe7602780be6b3d5ff52c915623e_b.jpg&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;802&quot; data-rawheight=&quot;237&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-7134fe7602780be6b3d5ff52c915623e_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;802&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-7134fe7602780be6b3d5ff52c915623e_r.jpg&quot;&gt;&lt;figcaption&gt;反复强调这一条，但评论区就爱讨论这事情。只要放弃职业规划，我收入可以立即翻1倍或2倍，但我自己选择了艰苦的这一条；如果坚持不下去我的未来也可能放弃。请不要用各位的好心干涉我的职业规划。谢谢。&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;问题二：每次说这些问题都有人问”这么惨那为什么不回国？“。
+答：我天天想回国，但是在国内找不到工作；想回回不去。我做自然科学的基础研究，算是修地球的，毕业和工作的学校都有名，但我的水平不够，没什么文章。国内院校只看文章数量，所以看不上我。我承认自己很挫。过去两年，我在美国投的简历，收到4个offer，都和现在的工作待遇差不多(4.7万~6万)。投国内的简历，连一封回信都没有收到过。你可能觉得我眼光太高，不，我投国内的简历没有一封是北上广深的，没有一个一线城市的，都是以西部学校为主。我自己也是想回国报效的，但如果回国没有工作，回去就只能给国家添乱了。上月朋友介绍我去他们硅谷的公司工作，年薪11~12万刀，我还是拒了，主要觉得如果进公司离回国的目标更远了。还是等我找到国内工作再回去。  
+上个月（2018.09初）我的朋友圈。“为国做贡献”这种话在自己生活里面都很难说给别人听。我看了下微博转载这篇答案之后的一些评论，也知道“为国做贡献”这种话听起来像笑话。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-30e50cbcc371343ce7a8701208d98218_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;807&quot; data-rawheight=&quot;754&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-30e50cbcc371343ce7a8701208d98218_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;807&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-30e50cbcc371343ce7a8701208d98218_r.jpg&quot;&gt;&lt;/figure&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;我经常在想这个问题“我是不是一个SB？”
+这段花絮问得多，我就保留吧：
+我文章少的可怜，的确是我水平不行，所以我投过陕西、甘肃、四川、重庆、武汉、河南的几所大学，都没有回音。国内学校以文章为指标，这个的确是自有国情在。我并完全否认这种招人模式有它的合理性。但来招人的无论是党委校办还是院系主任，根本不看研究内容也不聊想法和能力，只数数——数你有几篇文章，根据文章数给你“坐，请坐，请上坐”。我开车几小时去参加陕西省高校组团招聘会和几所大学聊了聊，也递了简历。其中主动去一个很偏远的大学聊的时候，校长连简历封面名字都没看就翻到文章发表那一页瞄了以眼，之后就再没有正眼看我。一点不夸张，当时觉得很受辱的。身边有个已经青千朋友，他说他在文章少的那时候也被某个大学系主任鄙视了一番。  另一个国内工作难找的原因可能是年龄（毕竟没有回信我只能猜了），我在国内读了本科和硕士，中间还工作了三年，所以年龄大了。国内招人都有年龄限制的。
+我毕业的地方，现在15个博士生，10个中国学生，全都比我优秀，全都有回国工作打算。只不过有的打算先工作几年再回，有的打算毕业就回。早我两年毕业的两个博士现在也回了南方俩高校。
+我同时也继续在找美国的教职和研究职位，一是因为我想证明还有人能看得上我；二是因为如果得到美国教职对回国也是有利的；三是我需要改善家人生活。这周有个面试，我去试试，去不去也不一定；但暂时回不了国也得换个赚钱多的研究岗位照顾好家人。我是个平凡的挫人，如果再过3、5年还是回不去，我就必须在这里扎根了。
+谢谢评论区主动给我牵线介绍工作的朋友。但我不想用这种卖惨卖情怀的方式找工作，我还是继续老老实实的投简历，当人家真的看上我的科研的时候自然会水到渠成。 大家有合适的招聘信息还是很欢迎，谢谢。
+我还是坚信前途光明。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;信息参考：
+每个学校都试图把博后工资压到起点工资，工资50k算是比较高的了。我大学同学在美国东部一个普通大学当教授（Assistant Professor），年收入也不到60k，当然当教授的福利和未来发展要好很多.
+康奈尔博后待遇$48432，UC Berkeley博后工资$48216，弗吉尼亚理工$45000，宾州州立$48900。链接我删了，放评论区了。 
+
+房价、房贷等等的查Zillow: www.zillow.com
+大学教育储蓄计算器：https://www.savingforcollege.com/calculators/college-savings-calculator
+车贷计算器：https://www.carloancalculator.me
+这个网站可以查到我说的几乎所有数据（数据全，时效晚一两年）：https://datausa.io
+美国家庭收入中位数参考： United States Household Income Brackets and Percentiles in 2017 – DQYDJ
+任意美国城市的幼儿园价格：https://www.care.com
+全美油价地图：https://gasprices.aaa.com
+教育投入的调查：https://www.bls.gov/opub/mlr/2014/article/investment-in-higher-education-by-race-and-ethnicity.htm
+第四节“城市间数据对比”的数据源：
+房屋中价：https://datausa.io/
+收入统计：https://statisticalatlas.com/United-States/Overview
+房贷：https://www.zillow.com/mortgage-calculator/
+个人所得税：https://smartasset.com/
+美国调查局 https://www.census.gov/data/tables/time-series/demo/income-poverty/cps-hinc/hinc-04.2017.html
+城市宜居性：https://www.areavibes.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic3.zhimg.com/50/v2-6b23b49de944168c7ec33234cf260c84_200x112.jpg" data-caption="更详细的数据说明5万刀约为43%的水平。数据来源见水印。" data-size="normal" data-rawwidth="606" data-rawheight="647" data-watermark="private_watermark" data-original-src="v2-981699539786d79d82ea6128445a7d11" data-watermark-src="v2-4b2ddf158f927b1a7cde2adc3ba1ec2b" data-private-watermark-src="v2-6b23b49de944168c7ec33234cf260c84" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic3.zhimg.com/50/v2-6b23b49de944168c7ec33234cf260c84_r.jpg">
+用自己的生活来介绍一下美国人的收入。 <b>我们家年收入50000美元。我的回答就是告诉大家5万刀收入的美国家庭，能过什么样的日子。便于大家理解，后面模拟了一个硅谷年入15万的生活。 </b>整篇文章都不考虑单身狗怎么过日子。（文章长数据多——文尾有数据来源，欢…
+
+<a href="/question/296027310/answer/507445632" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-10" target="_blank" href="/question/296027310/answer/507445632">编辑于 2018-10-17</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28061055"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>1155 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/297271707">如何评价布鲁克林 · 贝克汉姆在 instagram 上发布涉嫌种族歧视的内容？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121850487"
+data-atoken="504794640"
+data-collapsed="0"
+data-created="1538798893"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/297271707/answer/504794640">
+<meta itemprop="answer-id" content="121850487">
+<meta itemprop="answer-url-token" content="504794640">
+<a class="zg-anchor-hidden" name="answer-121850487"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>600</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">600</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$la-dui-duan"
+target="_blank" href="/people/la-dui-duan"
+>拉队短</a></span><span title="什么都不懂" class="bio">
+什么都不懂
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="600" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">600</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28337076" data-action="/answer/content" data-author-name="拉队短" data-entry-url="/question/297271707/answer/504794640">
+
+<textarea hidden class="content">&lt;p&gt;这就是一个典型的没文化星二代一不小心暴露本心的故事&lt;/p&gt;&lt;p&gt;毕竟爸妈都是暴发户 自己还没上过大学 没什么好奇怪的&lt;/p&gt;&lt;p&gt;但是国内很多人的嘴脸真的是让我惊讶 这都2018年了 还跪着吗&lt;/p&gt;&lt;p&gt;这件事情鬼佬普遍都认定是种族歧视&lt;/p&gt;&lt;p&gt;为什么国内有那么多人还在给这个没文化的星二代洗地&lt;/p&gt;&lt;p&gt;这是英国知名小报《每日邮报》对此事的报道&lt;/p&gt;&lt;p&gt;要知道《每日邮报》可是一个读者偏老偏底层 内容经常涉及种族歧视及其他低俗内容的小报&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-c7c01bf2c88b98d25ef9ee06049b66e8_b.jpg&quot; data-rawwidth=&quot;1286&quot; data-rawheight=&quot;930&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-adeb2ca67b0ca57a76a1a54d27783167_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1286&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-c7c01bf2c88b98d25ef9ee06049b66e8_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;《每日邮报》明显是想洗地的 还特别强调这位垃圾是个19-year-old&lt;/p&gt;&lt;p&gt;完全就是想塑造出中国网络暴民欺负英国青年的戏码&lt;/p&gt;&lt;p&gt;而国内的众多膝盖骨缺失的人刚好给报纸提供了洗地的素材&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-6a46b94383b1fe80484f4c2f4741e244_b.jpg&quot; data-rawwidth=&quot;1288&quot; data-rawheight=&quot;220&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic1.zhimg.com/50/v2-40c2eed5ab122951998fcebbaaa5f310_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1288&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-6a46b94383b1fe80484f4c2f4741e244_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;这位微博用户Shuofenshoudebubiliu（说分手的不必留？）说“毕竟中国人到处都是啊，我觉得他并没有在侮辱中国人”&lt;/p&gt;&lt;p&gt;我觉得这种智障是不是从来没有出过国 天天就想着鬼佬都是德智体美劳全面发展的三好公民&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-01a0079ea7e97f1da8d9e0c94e251fb7_b.jpg&quot; data-rawwidth=&quot;1276&quot; data-rawheight=&quot;392&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-a32df6e0ab9ba11f2c8e6647460354a4_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1276&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-01a0079ea7e97f1da8d9e0c94e251fb7_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;然后《每日邮报》还找到了更多的中国网民发出的这种呓语 比如这个Jingsi说的“他发这些照片大概是因为他没有准备好在一个欧洲国家看见这么多亚洲人吧”&lt;/p&gt;&lt;p&gt;我一直是反对人肉的 但是我真的很好奇这些微博上“蜚声海外”的智障国人到底脑袋里装的都是什么&lt;/p&gt;&lt;p&gt;纵使《每日邮报》努力地想要把这件事洗成一件有争议的疑似种族歧视事件&lt;/p&gt;&lt;p&gt;但是高赞评论无一例外都是在骂贝克汉姆的儿子的 而且除了最高赞是一个厦门的国人发的之外 其他的都是鬼佬发的评论 而且都是《每日邮报》的注册用户&lt;/p&gt;&lt;p&gt;还有一个友邦巴基斯坦的朋友&lt;/p&gt;&lt;p&gt;大家都能看得出这就是一个纨绔垃圾在种族歧视 就是一些跪着的国人看不出来&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic2.zhimg.com/50/v2-b8fb3c76e807e561da8d78b2cc33a21a_b.jpg&quot; data-rawwidth=&quot;1320&quot; data-rawheight=&quot;1392&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic3.zhimg.com/50/v2-d1b272f428d6c309d9307a16dcff7016_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1320&quot; data-original=&quot;https://pic2.zhimg.com/50/v2-b8fb3c76e807e561da8d78b2cc33a21a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-ba957fddd0eb23a90e3543a112ca0c4a_b.jpg&quot; data-rawwidth=&quot;1306&quot; data-rawheight=&quot;1164&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-9f9d2849cfcc7086123a61c159a7b2c8_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1306&quot; data-original=&quot;https://pic4.zhimg.com/50/v2-ba957fddd0eb23a90e3543a112ca0c4a_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;国内的某些朋友不知道脑袋里装的是什么&lt;/p&gt;&lt;p&gt;—————————————————更新——————————————————————&lt;/p&gt;&lt;p&gt;今天看了南华早报对此事的报道&lt;/p&gt;&lt;p&gt;这里要点名一下这位英国人Laurie Chen&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-bb2271c97836de7711558f5b0cb50024_b.jpg&quot; data-rawwidth=&quot;2010&quot; data-rawheight=&quot;624&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-e59e52c9322776c9af66f1da539c5261_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2010&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-bb2271c97836de7711558f5b0cb50024_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;文章中还是一贯的为贝克汉姆的儿子洗地&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-26d725e8c87e18d0fa00f8c573142372_b.jpg&quot; data-rawwidth=&quot;1032&quot; data-rawheight=&quot;180&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic4.zhimg.com/50/v2-3b72062f84ab8d5b0504933eba5f0c30_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1032&quot; data-original=&quot;https://pic1.zhimg.com/50/v2-26d725e8c87e18d0fa00f8c573142372_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;这一段批评中国网民跑到贝克汉姆和维多利亚的Insta账号下面“肆意辱骂”（hurl abuse）并且“侮辱”他们的儿子（单数哦）以及控诉他们教子无方&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-8a093225ea659c2bcf73276f79d25291_b.jpg&quot; data-rawwidth=&quot;990&quot; data-rawheight=&quot;488&quot; data-size=&quot;normal&quot; data-caption=&quot;&quot; data-default-watermark-src=&quot;https://pic2.zhimg.com/50/v2-10f670f360db7da6d3de6ac2556306b8_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;990&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-8a093225ea659c2bcf73276f79d25291_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;然后说这位垃圾不是第一个触怒“中国著名的敏感网上群体”的西方名人&lt;/p&gt;&lt;p&gt;下面找的是谁的例子呢？是被全球亚裔和左派一起追着骂的Gigi Hadid&lt;/p&gt;&lt;p&gt;这位英国人Laurie Chen怕不是忘了Gigi Hadid当年可不只是被中国网友骂&lt;/p&gt;&lt;p&gt;不过为了洗地 管不了那么多了&lt;/p&gt;&lt;p&gt;英国人Laurie Chen尽显爱国情怀 可喜可贺&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/50/v2-5d9250bc20a871d31949f2cb41d49d3c_200x112.jpg" data-rawwidth="1286" data-rawheight="930" data-size="normal" data-caption="" data-watermark="watermark" data-original-src="v2-5d9250bc20a871d31949f2cb41d49d3c" data-watermark-src="v2-c7c01bf2c88b98d25ef9ee06049b66e8" data-private-watermark-src="v2-adeb2ca67b0ca57a76a1a54d27783167" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/50/v2-5d9250bc20a871d31949f2cb41d49d3c_r.jpg">
+这就是一个典型的没文化星二代一不小心暴露本心的故事毕竟爸妈都是暴发户 自己还没上过大学 没什么好奇怪的但是国内很多人的嘴脸真的是让我惊讶 这都2018年了 还跪着吗这件事情鬼佬普遍都认定是种族歧视为什么国内有那么多人还在给这个没文化的星二代洗地这…
+
+<a href="/question/297271707/answer/504794640" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-06" target="_blank" href="/question/297271707/answer/504794640">编辑于 2018-10-07</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28337076"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>40 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/297352332">如何看待「华裔美国青年:请中国人尊重我，不要用汉语与我交流」的观点？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121963952"
+data-atoken="505419206"
+data-collapsed="0"
+data-created="1538879484"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/297352332/answer/505419206">
+<meta itemprop="answer-id" content="121963952">
+<meta itemprop="answer-url-token" content="505419206">
+<a class="zg-anchor-hidden" name="answer-121963952"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>606</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">606</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$wang-man-man-39-70"
+target="_blank" href="/people/wang-man-man-39-70"
+>王蔓蔓</a></span><span title="各方面都很中庸的一个" class="bio">
+各方面都很中庸的一个
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="606" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">606</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28354924" data-action="/answer/content" data-author-name="王蔓蔓" data-entry-url="/question/297352332/answer/505419206">
+
+<textarea hidden class="content">&lt;p&gt;这个美国青年是个双标党，还欺善怕恶。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;他不去让他的同胞不要去歧视他，看不起他，嘲笑他，反而对中国人提要求，说不要和他说中文。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;他以为他不说中文，他的同胞就不会歧视他，看不起他，嘲笑他。他认为，中国人和他说中文，会导致他受到同胞的怀疑，怀疑他通共，忘不了祖国。导致他被进一步排挤。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;他不敢让美国人别歧视他，只敢对中国人说，你别跟我说话，别和我交流，别和我交往。你会让我和我的同胞想起我祖籍属于中国的事实，导致我被我的同胞怀疑。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;是的，他改变不了他会被整个社会排挤的事实，但是他可以把气撒在中国人身上。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;是的，美国人掀起了学习中文的热潮，但是他不能学习中文，也不能说中文。这个矛盾的逻辑只说明了一点，他不是美国人，他的美国身份不被认可。美国人都要干的事，他不能干。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+这个美国青年是个双标党，还欺善怕恶。 他不去让他的同胞不要去歧视他，看不起他，嘲笑他，反而对中国人提要求，说不要和他说中文。 他以为他不说中文，他的同胞就不会歧视他，看不起他，嘲笑他。他认为，中国人和他说中文，会导致他受到同胞的怀疑，怀疑他…
+
+<a href="/question/297352332/answer/505419206" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/297352332/answer/505419206">发布于 2018-10-07</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28354924"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>57 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+</div>
+
+<div class="border-pager">
+<div class="zm-invite-pager">
+
+<span class="zg-gray-normal">上一页</span>
+
+
+
+
+
+
+
+
+<span class="zg-gray-normal">1</span>
+
+
+
+<span><a href="?page=2">2</a></span>
+
+
+
+<span><a href="?page=3">3</a></span>
+
+
+
+<span>...</span>
+
+<span><a href="?page=53">53</a></span>
+
+
+
+<span><a href="?page=2">下一页</a></span>
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+
+<!-- <div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="SignFlow SignFlow--bordered" id="SidebarSignFlow">
+<div class="SignFlow-panel">
+<div class="title register">
+<h1>加入知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view register SignupForm" data-za-module="SignUpForm">
+<form action="/register/email" method="POST">
+<div class="input-wrapper">
+<input type="text" name="fullname" aria-label="姓名" data-placeholder="姓名" required>
+</div>
+<div class="input-wrapper">
+
+<input type="text" name="phone_num" class="account" aria-label="手机号" data-placeholder="手机号" required>
+
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" hidden> 
+<input type="password" name="password" aria-label="密码" data-placeholder="密码（不少于 8 位）" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="注册" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<span>已有帐号？<a href="#" class="switch-to-login">登录</a></span>
+</div>
+</form>
+</div>
+</div>
+<div class="SignFlow-panel" hidden>
+<div class="LoginForm">
+<div class="title login">
+<h1>登录知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view login" data-za-module="SignInForm">
+<form method="POST">
+<div class="input-wrapper">
+<input type="text" name="account" class="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="登录" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<label class="remember-me"><input type="checkbox" name="remember_me" checked value="true">记住我</label>
+<span class="middot">·</span>
+<button class="unable-login" type="button">无法登录？</button>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+<div class="zm-side-section">
+<div class="DownloadApp">
+<button class="DownloadApp-button">
+<span class="sprite-global-icon-qrcode"></span>
+下载知乎 App
+</button>
+</div>
+</div>
+
+
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<h3>关于创建者</h3>
+<a class="zm-list-avatar-link" href="/people/chen-heng-yi-43">
+<img class="zm-list-avatar-medium"
+src="https://pic2.zhimg.com/v2-f409e5727bb709407e594d79cc1fffae_m.jpg"/>
+</a>
+<div class="zm-list-content-medium" id="zh-single-answer-author-info">
+<span class="zg-right">
+<button data-follow="m:button" data-id="7234420396acad702d558aef96c36bf9" class="zg-btn zg-btn-follow zm-rich-follow-btn small nth-0">关注他</button>
+</span>
+<h2 class="zm-list-content-title">
+
+<a href="/people/chen-heng-yi-43" class="author-link">海因里希亲王</a>
+</h2>
+<div class="summary-wrapper summary-wrapper--short">
+
+<span class="zg-gray-normal bio"></span>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="javascript:;" id="js-hot-fav-switch" class="zg-link-gray zg-right" data-za-c="collection" data-za-a="click_trending_collections_change" data-za-l="explore_sidebar_trending_collections_collection_name">换一换</a>
+<h3>热门收藏</h3>
+</div>
+<ul class="list hot-favlists">
+<li>
+<div class="content">
+<a href="/collection/20972312" target="_blank">一语胜千言</a>
+<div class="meta">
+<span>16412 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>684 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/122390358" target="_blank">车小胖TCP/IP</a>
+<div class="meta">
+<span>937 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>162 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/71859050" target="_blank">装逼专用</a>
+<div class="meta">
+<span>861 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>50 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/26501934" target="_blank">被知乎科普</a>
+<div class="meta">
+<span>19630 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>4498 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/63269539" target="_blank">小说预备</a>
+<div class="meta">
+<span>1406 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>10992 条内容</span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="explore_down" data-params='{}'></div>
+
+
+</div>
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/terms/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2018 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1540037521000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script type="text/json" class="json-inline" data-name="current_list">[71031423,true,195628558,2019]</script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.758ac409.js"></script>
+<meta name="entry" content="ZH.entryL" data-module-id="page-main">
+
+<script type="text/zscript" znonce="7461e80855e84cda8ae0b0b296db5419"></script>
+
+<input type="hidden" name="_xsrf" value="93cce18915af9cca26e1fc562045b90f"/>
+</body>
+</html>

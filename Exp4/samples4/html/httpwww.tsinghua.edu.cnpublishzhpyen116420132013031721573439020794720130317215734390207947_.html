@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 通用css -->
+
+<link href="/publish/zhpyen/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/zhpyen/css/grid.css" rel="stylesheet" type="text/css" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<!-- 引入jquery1.4 -->
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(1,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script>
+
+      
+ 
+   
+
+ 
+
+  <title>
+Zhou Pei-Yuan Center for Applied Mathematics
+</title><link href="/publish/zhpyen/css/style_second.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT>
+ <!--container开始处-->
+ <div  id="container">
+  <!--header开始处-->
+ 
+<div id="header">
+   <!--logo开始处-->
+   <div id="logo">
+    <a href="http://www.tsinghua.edu.cn" title="清华大学"></a>
+   </div>
+   <!--logo结束处-->
+   <!--header_mid开始处-->
+ <div id="header_mid">
+    <h1>周培源数学研究中心</h1>
+    <p>Zhou Pei-Yuan Center for Applied Mathematics</p>
+   </div>
+   <!--header_mid结束处-->
+   <!--header_r开始处-->
+   <div id="header_r">
+    <ul>
+     <li><a href="/publish/zhpy/index.html" title="周培源数学研究中心"><img src="/publish/zhpyen/images/cn_text.gif" style="width:50px;height:20px"></a></li>
+     <li><a href="/publish/th/index.html" title="清华大学中文主页"><img src="/publish/zhpyen/images/thu_text.gif" style="width:50px;height:20px"></a></li>
+     <li>search</li>
+     <li class="set_border">
+     <form id="searchForm" action="#" method="post" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+     <input type="text" name="Q"  class="txt" tabindex="1" />
+     </form>
+</li>
+    </ul>
+   </div>
+   <!--header_r结束处-->
+  </div>  <!--header结束处-->
+  <!--nav开始处-->
+
+<SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+
+
+var menu1170 = ms.addMenu(document.getElementById("menu_1170"));
+menu1170.addItem("Areas","/publish/zhpyen/1181/index.html","");
+        menu1170.addItem("Lecture","/publish/zhpyen/1182/index.html","");
+        menu1170.addItem("Seminar","/publish/zhpyen/5764/index.html","");
+        var menu1168 = ms.addMenu(document.getElementById("menu_1168"));
+menu1168.addItem("Faculty","/publish/zhpyen/1176/index.html","");
+        menu1168.addItem("Staff","/publish/zhpyen/1177/index.html","");
+        menu1168.addItem("Postdoc","/publish/zhpyen/1178/index.html","");
+        menu1168.addItem("PhD","/publish/zhpyen/5763/index.html","");
+        var menu1169 = ms.addMenu(document.getElementById("menu_1169"));
+menu1169.addItem("Graduates","/publish/zhpyen/1179/index.html","");
+        menu1169.addItem("Courses","/publish/zhpyen/1180/index.html","");
+        var menu1171 = ms.addMenu(document.getElementById("menu_1171"));
+menu1171.addItem("PhD","/publish/zhpyen/1183/index.html","");
+        menu1171.addItem("Postdoc","/publish/zhpyen/1184/index.html","");
+        menu1171.addItem("Faculty","/publish/zhpyen/1185/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="nav">
+    <ul>
+      <li><a href="/publish/zhpyen/index.html" title="Home">Home</a></li>
+      <li id="menu_1167"><a href="/publish/zhpyen/1167/index.html" title="About">About</a></li>
+      <li id="menu_1170"><a href="/publish/zhpyen/1181/index.html" title="Research">Research</a></li>
+      <li id="menu_1169"><a href="/publish/zhpyen/1179/index.html" title="Teaching">Teaching</a></li>
+      <li id="menu_1168"><a href="/publish/zhpyen/1176/index.html" title="People">People</a></li>
+
+      <li id="menu_1171"><a href="/publish/zhpyen/1183/index.html" title="Opportunities">Opportunities</a></li>
+      <li id="menu_1172"><a href="/publish/zhpyen/1172/index.html" title="Contact us">Contact us</a></li>
+    </ul>
+   </div>
+<script language="JavaScript">initMenuData();</script>  <!--nav结束处-->
+  <!--s_content开始处-->
+  <div id="s_content">
+   <!--detail_2开始处-->
+   <div class="detail_2">
+            
+            <!-- c_top start -->
+
+<div class="c_top">
+                <ul class="nav_01">
+                    <li>&nbsp;<A href='/publish/zhpyen/index.html' class='navigation_style'>Home</a>&nbsp;&nbsp;&#8250;&nbsp;&nbsp;<A href='/publish/zhpyen/1164/index.html' class='navigation_style'>News & Events</a>&nbsp;&nbsp;&#8250;&nbsp;&nbsp;Content</li>
+                </ul>
+            </div>            <!-- c_bottom end -->
+            
+            <!-- start -->
+            <div class="box_detail">
+              <h2><span>The Lin-Shu Symposium</span></h2>
+              <p>&nbsp;</p><div id="event_title"><div style="TEXT-ALIGN: center"><span style="FONT-FAMILY: Times New Roman"><strong><span style="FONT-SIZE: 24px">The Lin-Shu Symposium: 50 Years of Spiral Density Wave</span></strong></span></div><div style="TEXT-ALIGN: center" class="event_date">&nbsp;</div><div style="TEXT-ALIGN: center" class="event_date"><strong><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 18px">Zhou Pei-Yuan Center for Applied Mathematics, Tsinghua University, June 24-28, 2013</span></span></strong></div></div><div id="main"><p><span style="FONT-SIZE: 16px">&nbsp;&nbsp;&nbsp;</span><span style="FONT-SIZE: 16px"><span style="FONT-FAMILY: Times New Roman"><span> This conference celebrates the 50th anniversary of the publication of the path-breaking paper by Profs. C. C. Lin and F. H. Shu on the density wave theory of spiral structures in galaxies.&nbsp; Their pioneering work has laid the foundation for the developments in the origin and maintenance of spiral structure and has also had implications in other areas of modern astronomy such as theories of star formation and rings around planets. </span></span></span></p><p><span style="FONT-SIZE: 16px"><span style="FONT-FAMILY: Times New Roman"><span>&nbsp;&nbsp;&nbsp; This conference will review the developments of density wave theory over the past 50 years. Specific attention will be focused on evaluating their impact on theory and observations with a view toward the future. Phenomena occurring both near and far from the small scale to the large scale will be discussed with presentations ranging from satellite disks surrounding planets and disks around young stars, to the many faces of spiral structures in galaxies. Profs. Lin&#39;s and Shu&#39;s contemporaries involved in the early developments of the field will review historical aspects and provide perspectives. The lessons learned in the past 50 years and the directions for the future will be actively discussed. We invite friends, old and new, to join in the celebration of the scientific advances and understanding made through the studies and applications of density waves.</span></span></span></p><p style="TEXT-ALIGN: center"><span style="FONT-SIZE: 22px"><span style="FONT-FAMILY: Times New Roman"><span><strong>Hosts and Sponsors</strong></span>:</span></span></p><p style="TEXT-ALIGN: center"><a class="external" href="http://www.tsinghua.edu.cn/publish/zhpyen/index.html" target="_blank"><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 18px">Zhou Pei-Yuan Center for Applied Mathematics</span></span></a><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 18px"> and </span></span><a class="external" href="http://info.phys.tsinghua.edu.cn:8080/english/index.php" target="_blank"><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 18px">Department of Physics</span></span></a><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 18px">, </span></span><a class="external" href="http://www.tsinghua.edu.cn/publish/then/index.html" target="_blank"><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 18px">Tsinghua University</span></span></a></p><p style="TEXT-ALIGN: center"><a class="external" href="http://www.asiaa.sinica.edu.tw/" target="_blank"><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 18px">Institute of Astronomy and Astrophysics, Academia Sinica</span></span></a></p><p>&nbsp;</p><p style="TEXT-ALIGN: left"><span style="FONT-SIZE: 18px"><span style="FONT-FAMILY: Times New Roman"><strong><span>Scientific Organizing Committee </span></strong></span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Fred C. Adams (U. of Michigan)</span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Giuseppe Bertin (U. of Milano) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Ronald Allen (STScI) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Daniele Galli (Arcetri) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Y. Y. Lau (U. of Michigan) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Susana Lizano (UNAM, Morelia) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Yu-Qing Lou (Tsinghua) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Hsien Shang (ASIAA, Chair) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Ronald Taam (ASIAA) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Wen-An Yong (Tsinghua) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Hans Zinnecker (SOFIA)</span></span></p><p style="TEXT-ALIGN: left"><span style="FONT-SIZE: 18px"><span style="FONT-FAMILY: Times New Roman"><strong><span>Local Organizing Committee </span></strong></span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Liu Hong (Tsinghua) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Suh-Lian Lin (ASIAA) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Yu-Qing Lou (Tsinghua) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Hsien Shang (ASIAA, Co-Chair) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">You-Huan Tseng (ASIAA) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Hsiang-Hsu Wang (ASIAA) </span></span></p><p><span style="FONT-FAMILY: Times New Roman"><span style="FONT-SIZE: 15px">Wen-An Yong (Tsinghua, Co-Chair）</span></span></p><p style="TEXT-ALIGN: left"><span style="FONT-SIZE: 18px"><span style="FONT-FAMILY: Times New Roman"><strong><span>Website (for registration, information etc)</span></strong></span></span></p><p style="TEXT-ALIGN: left"><strong><span style="TEXT-DECORATION: underline"><span style="FONT-SIZE: 16px"><a class="external" href="http://events.asiaa.sinica.edu.tw/conference/20130624/index.php" target="_blank"><span style="FONT-SIZE: 18px"><span style="FONT-FAMILY: Times New Roman">http://events.asiaa.sinica.edu.tw/conference/20130624/index.php</span></span></a></span></span></strong></p></div>
+            </div>
+            <!-- end -->
+                                       
+       </div>
+   <!--detail_2结束处--> 
+  </div>
+  <!--s_content结束处-->
+  <!--footer开始处-->
+
+<div id="footer">
+ <p>Copyright © 2010 Tsinghua University All Rights Reserved. 地址：北京市海淀区清华园1号&nbsp;&nbsp;&nbsp;&nbsp;100084</p></div>  <!--footer结束处-->
+ </div>
+ <!--contaienr结束处-->
+</body>
+</html>

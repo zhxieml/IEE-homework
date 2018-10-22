@@ -1,0 +1,876 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 72876032 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2673), pid=51471, tid=140259289728768
+#
+# JRE version: OpenJDK Runtime Environment (8.0_45-b14) (build 1.8.0_45-b14)
+# Java VM: OpenJDK 64-Bit Server VM (25.45-b02 mixed mode linux-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000556e85f24000):  VMThread [stack: 0x00007f90a9141000,0x00007f90a9241000] [id=51476]
+
+Stack: [0x00007f90a9141000,0x00007f90a9241000],  sp=0x00007f90a923f220,  free space=1016k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xa1c84e]  VMError::report_and_die()+0x14e
+V  [libjvm.so+0x4d2c99]  report_vm_out_of_memory(char const*, int, unsigned long, VMErrorType, char const*)+0x99
+V  [libjvm.so+0x890ad3]  os::Linux::commit_memory_impl(char*, unsigned long, bool)+0xf3
+V  [libjvm.so+0x890e79]  os::pd_commit_memory(char*, unsigned long, unsigned long, bool)+0x29
+V  [libjvm.so+0x889dba]  os::commit_memory(char*, unsigned long, unsigned long, bool)+0x2a
+V  [libjvm.so+0x8f5dbb]  PSVirtualSpace::expand_by(unsigned long)+0x6b
+V  [libjvm.so+0x8f7078]  PSYoungGen::resize_generation(unsigned long, unsigned long)+0xb8
+V  [libjvm.so+0x8f61b2]  PSYoungGen::resize(unsigned long, unsigned long)+0x22
+V  [libjvm.so+0x8f3794]  PSScavenge::invoke_no_policy()+0x1014
+V  [libjvm.so+0x8f3f43]  PSScavenge::invoke()+0x43
+V  [libjvm.so+0x8b001d]  ParallelScavengeHeap::failed_mem_allocate(unsigned long)+0x6d
+V  [libjvm.so+0xa1e127]  VM_ParallelGCFailedAllocation::doit()+0x97
+V  [libjvm.so+0xa24a22]  VM_Operation::evaluate()+0x52
+V  [libjvm.so+0xa22f51]  VMThread::evaluate_operation(VM_Operation*)+0xb1
+V  [libjvm.so+0xa233a3]  VMThread::loop()+0x1c3
+V  [libjvm.so+0xa23872]  VMThread::run()+0x72
+V  [libjvm.so+0x894122]  java_start(Thread*)+0x122
+
+VM_Operation (0x00007ffe0115b9d0): ParallelGCFailedAllocation, mode: safepoint, requested by thread 0x0000556e855be800
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000556e85f74800 JavaThread "Service Thread" daemon [_thread_blocked, id=51483, stack(0x00007f90a8a39000,0x00007f90a8b3a000)]
+  0x0000556e85f67800 JavaThread "C1 CompilerThread2" daemon [_thread_blocked, id=51482, stack(0x00007f90a8b3b000,0x00007f90a8c3b000)]
+  0x0000556e85f65800 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=51481, stack(0x00007f90a8c3c000,0x00007f90a8d3c000)]
+  0x0000556e85f63000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=51480, stack(0x00007f90a8d3d000,0x00007f90a8e3d000)]
+  0x0000556e85f61800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=51479, stack(0x00007f90a8e3d000,0x00007f90a8f3e000)]
+  0x0000556e85f2b000 JavaThread "Finalizer" daemon [_thread_blocked, id=51478, stack(0x00007f90a8f3e000,0x00007f90a903f000)]
+  0x0000556e85f29000 JavaThread "Reference Handler" daemon [_thread_blocked, id=51477, stack(0x00007f90a903f000,0x00007f90a9140000)]
+  0x0000556e855be800 JavaThread "main" [_thread_blocked, id=51471, stack(0x00007ffe01060000,0x00007ffe01160000)]
+
+Other Threads:
+=>0x0000556e85f24000 VMThread [stack: 0x00007f90a9141000,0x00007f90a9241000] [id=51476]
+  0x0000556e85f77800 WatcherThread [stack: 0x00007f90a8939000,0x00007f90a8a39000] [id=51484]
+
+VM state:at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x0000556e85ca9f40] Threads_lock - owner thread: 0x0000556e85f24000
+[0x0000556e8570d800] Heap_lock - owner thread: 0x0000556e855be800
+
+Heap:
+ PSYoungGen      total 138240K, used 11413K [0x00000000eb900000, 0x00000000f4c80000, 0x0000000100000000)
+  eden space 125440K, 0% used [0x00000000eb900000,0x00000000eb900000,0x00000000f3380000)
+  from space 12800K, 89% used [0x00000000f3380000,0x00000000f3ea56e8,0x00000000f4000000)
+  to   space 9216K, 0% used [0x00000000f4380000,0x00000000f4380000,0x00000000f4c80000)
+ ParOldGen       total 53248K, used 27926K [0x00000000c2a00000, 0x00000000c5e00000, 0x00000000eb900000)
+  object space 53248K, 52% used [0x00000000c2a00000,0x00000000c4545838,0x00000000c5e00000)
+ Metaspace       used 11544K, capacity 11688K, committed 11904K, reserved 1060864K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+
+Card table byte_map: [0x00007f90b916b000,0x00007f90b9357000] byte_map_base: 0x00007f90b8b56000
+
+Marking Bits: (ParMarkBitMap*) 0x00007f90d15733c0
+ Begin Bits: [0x00007f90aa150000, 0x00007f90ab0a8000)
+ End Bits:   [0x00007f90ab0a8000, 0x00007f90ac000000)
+
+Polling page: 0x00007f90d52fd000
+
+CodeCache: size=245760Kb used=5469Kb max_used=5478Kb free=240290Kb
+ bounds [0x00007f90b9717000, 0x00007f90b9c87000, 0x00007f90c8717000]
+ total_blobs=1734 nmethods=1367 adapters=282
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 27.672 Thread 0x0000556e85f67800 1367       3       java.util.HashMap$HashIterator::nextNode (100 bytes)
+Event: 28.646 Thread 0x0000556e85f67800 nmethod 1367 0x00007f90b9c61610 code [0x00007f90b9c617c0, 0x00007f90b9c61c98]
+Event: 37.285 Thread 0x0000556e85f67800 1368       3       org.apache.lucene.util.CloseableThreadLocal::get (42 bytes)
+Event: 37.407 Thread 0x0000556e85f67800 nmethod 1368 0x00007f90b9c60c10 code [0x00007f90b9c60dc0, 0x00007f90b9c613f8]
+Event: 37.419 Thread 0x0000556e85f67800 1369       3       org.apache.lucene.util.CloseableThreadLocal::maybePurge (15 bytes)
+Event: 37.419 Thread 0x0000556e85f67800 nmethod 1369 0x00007f90b9c3b390 code [0x00007f90b9c3b500, 0x00007f90b9c3b7a8]
+Event: 37.703 Thread 0x0000556e85f67800 1384   !   3       org.apache.lucene.index.DocumentsWriterFlushControl::nextPendingFlush (126 bytes)
+Event: 37.862 Thread 0x0000556e85f67800 nmethod 1384 0x00007f90b9c3a0d0 code [0x00007f90b9c3a2c0, 0x00007f90b9c3aee8]
+Event: 38.761 Thread 0x0000556e85f67800 1385       3       org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter::writeHeader (36 bytes)
+Event: 39.237 Thread 0x0000556e85f67800 nmethod 1385 0x00007f90b9c39a90 code [0x00007f90b9c39c20, 0x00007f90b9c39f78]
+
+GC Heap History (10 events):
+Event: 5.837 GC heap after
+Heap after GC invocations=11 (full 0):
+ PSYoungGen      total 60928K, used 160K [0x00000000eb900000, 0x00000000f1e80000, 0x0000000100000000)
+  eden space 50176K, 0% used [0x00000000eb900000,0x00000000eb900000,0x00000000eea00000)
+  from space 10752K, 1% used [0x00000000eea00000,0x00000000eea28000,0x00000000ef480000)
+  to   space 11776K, 0% used [0x00000000f1300000,0x00000000f1300000,0x00000000f1e80000)
+ ParOldGen       total 42496K, used 34599K [0x00000000c2a00000, 0x00000000c5380000, 0x00000000eb900000)
+  object space 42496K, 81% used [0x00000000c2a00000,0x00000000c4bc9d68,0x00000000c5380000)
+ Metaspace       used 11381K, capacity 11560K, committed 11648K, reserved 1058816K
+  class space    used 1323K, capacity 1385K, committed 1408K, reserved 1048576K
+}
+Event: 7.683 GC heap before
+{Heap before GC invocations=12 (full 0):
+ PSYoungGen      total 60928K, used 50286K [0x00000000eb900000, 0x00000000f1e80000, 0x0000000100000000)
+  eden space 50176K, 99% used [0x00000000eb900000,0x00000000ee9f3a68,0x00000000eea00000)
+  from space 10752K, 1% used [0x00000000eea00000,0x00000000eea28000,0x00000000ef480000)
+  to   space 11776K, 0% used [0x00000000f1300000,0x00000000f1300000,0x00000000f1e80000)
+ ParOldGen       total 42496K, used 34599K [0x00000000c2a00000, 0x00000000c5380000, 0x00000000eb900000)
+  object space 42496K, 81% used [0x00000000c2a00000,0x00000000c4bc9d68,0x00000000c5380000)
+ Metaspace       used 11459K, capacity 11624K, committed 11648K, reserved 1058816K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+Event: 7.703 GC heap after
+Heap after GC invocations=12 (full 0):
+ PSYoungGen      total 92160K, used 3326K [0x00000000eb900000, 0x00000000f1e80000, 0x0000000100000000)
+  eden space 80384K, 0% used [0x00000000eb900000,0x00000000eb900000,0x00000000f0780000)
+  from space 11776K, 28% used [0x00000000f1300000,0x00000000f163f9f8,0x00000000f1e80000)
+  to   space 11776K, 0% used [0x00000000f0780000,0x00000000f0780000,0x00000000f1300000)
+ ParOldGen       total 42496K, used 34647K [0x00000000c2a00000, 0x00000000c5380000, 0x00000000eb900000)
+  object space 42496K, 81% used [0x00000000c2a00000,0x00000000c4bd5d68,0x00000000c5380000)
+ Metaspace       used 11459K, capacity 11624K, committed 11648K, reserved 1058816K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+}
+Event: 12.397 GC heap before
+{Heap before GC invocations=13 (full 0):
+ PSYoungGen      total 92160K, used 83683K [0x00000000eb900000, 0x00000000f1e80000, 0x0000000100000000)
+  eden space 80384K, 99% used [0x00000000eb900000,0x00000000f0779568,0x00000000f0780000)
+  from space 11776K, 28% used [0x00000000f1300000,0x00000000f163f9f8,0x00000000f1e80000)
+  to   space 11776K, 0% used [0x00000000f0780000,0x00000000f0780000,0x00000000f1300000)
+ ParOldGen       total 42496K, used 34647K [0x00000000c2a00000, 0x00000000c5380000, 0x00000000eb900000)
+  object space 42496K, 81% used [0x00000000c2a00000,0x00000000c4bd5d68,0x00000000c5380000)
+ Metaspace       used 11530K, capacity 11688K, committed 11904K, reserved 1060864K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+Event: 12.412 GC heap after
+Heap after GC invocations=13 (full 0):
+ PSYoungGen      total 92160K, used 11393K [0x00000000eb900000, 0x00000000f5000000, 0x0000000100000000)
+  eden space 80384K, 0% used [0x00000000eb900000,0x00000000eb900000,0x00000000f0780000)
+  from space 11776K, 96% used [0x00000000f0780000,0x00000000f12a04a8,0x00000000f1300000)
+  to   space 12800K, 0% used [0x00000000f4380000,0x00000000f4380000,0x00000000f5000000)
+ ParOldGen       total 42496K, used 36699K [0x00000000c2a00000, 0x00000000c5380000, 0x00000000eb900000)
+  object space 42496K, 86% used [0x00000000c2a00000,0x00000000c4dd6db0,0x00000000c5380000)
+ Metaspace       used 11530K, capacity 11688K, committed 11904K, reserved 1060864K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+}
+Event: 12.413 GC heap before
+{Heap before GC invocations=14 (full 1):
+ PSYoungGen      total 92160K, used 11393K [0x00000000eb900000, 0x00000000f5000000, 0x0000000100000000)
+  eden space 80384K, 0% used [0x00000000eb900000,0x00000000eb900000,0x00000000f0780000)
+  from space 11776K, 96% used [0x00000000f0780000,0x00000000f12a04a8,0x00000000f1300000)
+  to   space 12800K, 0% used [0x00000000f4380000,0x00000000f4380000,0x00000000f5000000)
+ ParOldGen       total 42496K, used 36699K [0x00000000c2a00000, 0x00000000c5380000, 0x00000000eb900000)
+  object space 42496K, 86% used [0x00000000c2a00000,0x00000000c4dd6db0,0x00000000c5380000)
+ Metaspace       used 11530K, capacity 11688K, committed 11904K, reserved 1060864K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+Event: 12.449 GC heap after
+Heap after GC invocations=14 (full 1):
+ PSYoungGen      total 92160K, used 0K [0x00000000eb900000, 0x00000000f5000000, 0x0000000100000000)
+  eden space 80384K, 0% used [0x00000000eb900000,0x00000000eb900000,0x00000000f0780000)
+  from space 11776K, 0% used [0x00000000f0780000,0x00000000f0780000,0x00000000f1300000)
+  to   space 12800K, 0% used [0x00000000f4380000,0x00000000f4380000,0x00000000f5000000)
+ ParOldGen       total 53248K, used 27293K [0x00000000c2a00000, 0x00000000c5e00000, 0x00000000eb900000)
+  object space 53248K, 51% used [0x00000000c2a00000,0x00000000c44a7708,0x00000000c5e00000)
+ Metaspace       used 11530K, capacity 11688K, committed 11904K, reserved 1060864K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+}
+Event: 21.013 GC heap before
+{Heap before GC invocations=15 (full 1):
+ PSYoungGen      total 92160K, used 80384K [0x00000000eb900000, 0x00000000f5000000, 0x0000000100000000)
+  eden space 80384K, 100% used [0x00000000eb900000,0x00000000f0780000,0x00000000f0780000)
+  from space 11776K, 0% used [0x00000000f0780000,0x00000000f0780000,0x00000000f1300000)
+  to   space 12800K, 0% used [0x00000000f4380000,0x00000000f4380000,0x00000000f5000000)
+ ParOldGen       total 53248K, used 27293K [0x00000000c2a00000, 0x00000000c5e00000, 0x00000000eb900000)
+  object space 53248K, 51% used [0x00000000c2a00000,0x00000000c44a7708,0x00000000c5e00000)
+ Metaspace       used 11542K, capacity 11688K, committed 11904K, reserved 1060864K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+Event: 21.793 GC heap after
+Heap after GC invocations=15 (full 1):
+ PSYoungGen      total 134656K, used 5456K [0x00000000eb900000, 0x00000000f4c80000, 0x0000000100000000)
+  eden space 125440K, 0% used [0x00000000eb900000,0x00000000eb900000,0x00000000f3380000)
+  from space 9216K, 59% used [0x00000000f4380000,0x00000000f48d42d0,0x00000000f4c80000)
+  to   space 12800K, 0% used [0x00000000f3380000,0x00000000f3380000,0x00000000f4000000)
+ ParOldGen       total 53248K, used 27301K [0x00000000c2a00000, 0x00000000c5e00000, 0x00000000eb900000)
+  object space 53248K, 51% used [0x00000000c2a00000,0x00000000c44a9708,0x00000000c5e00000)
+ Metaspace       used 11542K, capacity 11688K, committed 11904K, reserved 1060864K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+}
+Event: 67.232 GC heap before
+{Heap before GC invocations=16 (full 1):
+ PSYoungGen      total 134656K, used 130896K [0x00000000eb900000, 0x00000000f4c80000, 0x0000000100000000)
+  eden space 125440K, 100% used [0x00000000eb900000,0x00000000f3380000,0x00000000f3380000)
+  from space 9216K, 59% used [0x00000000f4380000,0x00000000f48d42d0,0x00000000f4c80000)
+  to   space 12800K, 0% used [0x00000000f3380000,0x00000000f3380000,0x00000000f4000000)
+ ParOldGen       total 53248K, used 27301K [0x00000000c2a00000, 0x00000000c5e00000, 0x00000000eb900000)
+  object space 53248K, 51% used [0x00000000c2a00000,0x00000000c44a9708,0x00000000c5e00000)
+ Metaspace       used 11544K, capacity 11688K, committed 11904K, reserved 1060864K
+  class space    used 1329K, capacity 1385K, committed 1408K, reserved 1048576K
+
+Deoptimization events (10 events):
+Event: 1.686 Thread 0x0000556e855be800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f90b9a07f80 method=org.apache.lucene.util.UnicodeUtil.UTF16toUTF8([CIILorg/apache/lucene/util/BytesRef;)V @ 89
+Event: 1.858 Thread 0x0000556e855be800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f90b9a1bb1c method=java.io.BufferedOutputStream.write(I)V @ 9
+Event: 3.913 Thread 0x0000556e855be800 Uncommon trap: reason=predicate action=maybe_recompile pc=0x00007f90b9a3daa8 method=org.apache.lucene.codecs.compressing.LZ4.compress([BIILorg/apache/lucene/store/DataOutput;Lorg/apache/lucene/codecs/compressing/LZ4$HashTable;)V @ 67
+Event: 3.913 Thread 0x0000556e855be800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f90b9a499b8 method=org.apache.lucene.codecs.compressing.LZ4.compress([BIILorg/apache/lucene/store/DataOutput;Lorg/apache/lucene/codecs/compressing/LZ4$HashTable;)V @ 89
+Event: 6.387 Thread 0x0000556e855be800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f90b9b03240 method=org.apache.lucene.util.fst.Builder.add(Lorg/apache/lucene/util/IntsRef;Ljava/lang/Object;)V @ 108
+Event: 6.393 Thread 0x0000556e855be800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f90b9a68a34 method=java.io.BufferedOutputStream.write([BII)V @ 6
+Event: 6.396 Thread 0x0000556e855be800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f90b9a33af4 method=org.apache.lucene.util.UnicodeUtil.UTF16toUTF8(Ljava/lang/CharSequence;IILorg/apache/lucene/util/BytesRef;)V @ 26
+Event: 6.405 Thread 0x0000556e855be800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f90b9a35960 method=java.io.BufferedOutputStream.write([BII)V @ 6
+Event: 19.289 Thread 0x0000556e855be800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f90b9bb6718 method=org.apache.lucene.codecs.blocktree.BlockTreeTermsWriter$TermsWriter.finishTerm(Lorg/apache/lucene/util/BytesRef;Lorg/apache/lucene/codecs/TermStats;)V @ 121
+Event: 24.909 Thread 0x0000556e855be800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f90b9bfde8c method=org.apache.lucene.codecs.blocktree.BlockTreeTermsWriter$TermsWriter.writeBlock(Lorg/apache/lucene/util/IntsRef;IIIIIZIZ)Lorg/apache/lucene/codecs/blocktree/BlockTreeTermsWri
+
+Internal exceptions (8 events):
+Event: 0.115 Thread 0x0000556e855be800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x00000000eb912908) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-
+Event: 0.115 Thread 0x0000556e855be800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x00000000eb912b98) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/sh
+Event: 0.399 Thread 0x0000556e855be800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000ebc95da8) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jvm.cpp, line 1382]
+Event: 0.399 Thread 0x0000556e855be800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000ebc95f60) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jvm.cpp, line 1382]
+Event: 0.400 Thread 0x0000556e855be800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000ebc97d30) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jvm.cpp, line 1382]
+Event: 0.400 Thread 0x0000556e855be800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000ebc97ee8) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jvm.cpp, line 1382]
+Event: 0.400 Thread 0x0000556e855be800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000ebc98890) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jvm.cpp, line 1382]
+Event: 0.400 Thread 0x0000556e855be800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000ebc98a48) thrown at [/export/home/tester/jenkins/workspace/zulu8-silver-build-rhel64/zulu-src/hotspot/src/share/vm/prims/jvm.cpp, line 1382]
+
+Events (10 events):
+Event: 22.116 Executing VM operation: RevokeBias
+Event: 22.407 Executing VM operation: RevokeBias done
+Event: 22.627 Executing VM operation: RevokeBias
+Event: 22.644 Executing VM operation: RevokeBias done
+Event: 24.238 Thread 0x0000556e855be800 DEOPT PACKING pc=0x00007f90b9b895d4 sp=0x00007ffe0115b760
+Event: 24.258 Thread 0x0000556e855be800 DEOPT UNPACKING pc=0x00007f90b975e373 sp=0x00007ffe0115b490 mode 0
+Event: 24.898 Thread 0x0000556e855be800 Uncommon trap: trap_request=0xffffff65 fr.pc=0x00007f90b9bfde8c
+Event: 24.912 Thread 0x0000556e855be800 DEOPT PACKING pc=0x00007f90b9bfde8c sp=0x00007ffe0115b450
+Event: 24.913 Thread 0x0000556e855be800 DEOPT UNPACKING pc=0x00007f90b971bf69 sp=0x00007ffe0115b400 mode 2
+Event: 67.187 Executing VM operation: ParallelGCFailedAllocation
+
+
+Dynamic libraries:
+c2a00000-c5e00000 rw-p 00000000 00:00 0 
+c5e00000-eb900000 ---p 00000000 00:00 0 
+eb900000-f4c80000 rw-p 00000000 00:00 0 
+f9200000-100000000 ---p 00000000 00:00 0 
+100000000-100160000 rw-p 00000000 00:00 0 
+100160000-140000000 ---p 00000000 00:00 0 
+556e8492d000-556e8492e000 r-xp 00000000 08:01 268654                     /home/fffffarmer/miniconda2/bin/python2.7
+556e84b2d000-556e84b2e000 r--p 00000000 08:01 268654                     /home/fffffarmer/miniconda2/bin/python2.7
+556e84b2e000-556e84b2f000 rw-p 00001000 08:01 268654                     /home/fffffarmer/miniconda2/bin/python2.7
+556e85330000-556e8672b000 rw-p 00000000 00:00 0                          [heap]
+7f907c000000-7f907c021000 rw-p 00000000 00:00 0 
+7f907c021000-7f9080000000 ---p 00000000 00:00 0 
+7f9083e00000-7f9083e40000 rw-p 00000000 00:00 0 
+7f9083e40000-7f9084000000 ---p 00000000 00:00 0 
+7f9084000000-7f9084429000 rw-p 00000000 00:00 0 
+7f9084429000-7f9088000000 ---p 00000000 00:00 0 
+7f9088000000-7f9088021000 rw-p 00000000 00:00 0 
+7f9088021000-7f908c000000 ---p 00000000 00:00 0 
+7f908c000000-7f908d42f000 rw-p 00000000 00:00 0 
+7f908d42f000-7f9090000000 ---p 00000000 00:00 0 
+7f9090000000-7f90920af000 rw-p 00000000 00:00 0 
+7f90920af000-7f9094000000 ---p 00000000 00:00 0 
+7f9094000000-7f9094021000 rw-p 00000000 00:00 0 
+7f9094021000-7f9098000000 ---p 00000000 00:00 0 
+7f9098000000-7f9098021000 rw-p 00000000 00:00 0 
+7f9098021000-7f909c000000 ---p 00000000 00:00 0 
+7f909c000000-7f909c27d000 rw-p 00000000 00:00 0 
+7f909c27d000-7f90a0000000 ---p 00000000 00:00 0 
+7f90a0000000-7f90a0021000 rw-p 00000000 00:00 0 
+7f90a0021000-7f90a4000000 ---p 00000000 00:00 0 
+7f90a4000000-7f90a4021000 rw-p 00000000 00:00 0 
+7f90a4021000-7f90a8000000 ---p 00000000 00:00 0 
+7f90a8040000-7f90a80c0000 rw-p 00000000 00:00 0 
+7f90a80c0000-7f90a80d6000 r-xp 00000000 08:01 401235                     /home/fffffarmer/miniconda2/jre/lib/amd64/libnet.so
+7f90a80d6000-7f90a82d6000 ---p 00016000 08:01 401235                     /home/fffffarmer/miniconda2/jre/lib/amd64/libnet.so
+7f90a82d6000-7f90a82d7000 rw-p 00016000 08:01 401235                     /home/fffffarmer/miniconda2/jre/lib/amd64/libnet.so
+7f90a82d7000-7f90a82d9000 rw-p 0001d000 08:01 401235                     /home/fffffarmer/miniconda2/jre/lib/amd64/libnet.so
+7f90a82d9000-7f90a82ea000 r-xp 00000000 08:01 401236                     /home/fffffarmer/miniconda2/jre/lib/amd64/libnio.so
+7f90a82ea000-7f90a84e9000 ---p 00011000 08:01 401236                     /home/fffffarmer/miniconda2/jre/lib/amd64/libnio.so
+7f90a84e9000-7f90a84ea000 rw-p 00010000 08:01 401236                     /home/fffffarmer/miniconda2/jre/lib/amd64/libnio.so
+7f90a84ea000-7f90a84ed000 rw-p 00017000 08:01 401236                     /home/fffffarmer/miniconda2/jre/lib/amd64/libnio.so
+7f90a84ed000-7f90a86ed000 rw-p 00000000 00:00 0 
+7f90a86ed000-7f90a86f5000 r-xp 00000000 08:01 401233                     /home/fffffarmer/miniconda2/jre/lib/amd64/libmanagement.so
+7f90a86f5000-7f90a88f5000 ---p 00008000 08:01 401233                     /home/fffffarmer/miniconda2/jre/lib/amd64/libmanagement.so
+7f90a88f5000-7f90a88f6000 rw-p 00008000 08:01 401233                     /home/fffffarmer/miniconda2/jre/lib/amd64/libmanagement.so
+7f90a88f6000-7f90a88f8000 rw-p 0000c000 08:01 401233                     /home/fffffarmer/miniconda2/jre/lib/amd64/libmanagement.so
+7f90a88f8000-7f90a8938000 rw-p 00000000 00:00 0 
+7f90a8938000-7f90a8939000 ---p 00000000 00:00 0 
+7f90a8939000-7f90a8a39000 rw-p 00000000 00:00 0 
+7f90a8a39000-7f90a8a3c000 ---p 00000000 00:00 0 
+7f90a8a3c000-7f90a8b3a000 rw-p 00000000 00:00 0 
+7f90a8b3a000-7f90a8b3b000 ---p 00000000 00:00 0 
+7f90a8b3b000-7f90a8b3e000 ---p 00000000 00:00 0 
+7f90a8b3e000-7f90a8c3b000 rw-p 00000000 00:00 0 
+7f90a8c3b000-7f90a8c3c000 ---p 00000000 00:00 0 
+7f90a8c3c000-7f90a8c3f000 ---p 00000000 00:00 0 
+7f90a8c3f000-7f90a8d3c000 rw-p 00000000 00:00 0 
+7f90a8d3c000-7f90a8d3d000 ---p 00000000 00:00 0 
+7f90a8d3d000-7f90a8d40000 ---p 00000000 00:00 0 
+7f90a8d40000-7f90a8e3d000 rw-p 00000000 00:00 0 
+7f90a8e3d000-7f90a8e40000 ---p 00000000 00:00 0 
+7f90a8e40000-7f90a8f3e000 rw-p 00000000 00:00 0 
+7f90a8f3e000-7f90a8f41000 ---p 00000000 00:00 0 
+7f90a8f41000-7f90a903f000 rw-p 00000000 00:00 0 
+7f90a903f000-7f90a9042000 ---p 00000000 00:00 0 
+7f90a9042000-7f90a9140000 rw-p 00000000 00:00 0 
+7f90a9140000-7f90a9141000 ---p 00000000 00:00 0 
+7f90a9141000-7f90ac000000 rw-p 00000000 00:00 0 
+7f90ac000000-7f90ac021000 rw-p 00000000 00:00 0 
+7f90ac021000-7f90b0000000 ---p 00000000 00:00 0 
+7f90b0000000-7f90b0021000 rw-p 00000000 00:00 0 
+7f90b0021000-7f90b4000000 ---p 00000000 00:00 0 
+7f90b4000000-7f90b4021000 rw-p 00000000 00:00 0 
+7f90b4021000-7f90b8000000 ---p 00000000 00:00 0 
+7f90b8038000-7f90b8054000 r--s 00393000 08:01 401261                     /home/fffffarmer/miniconda2/jre/lib/ext/cldrdata.jar
+7f90b8054000-7f90b8067000 r--s 00345000 08:01 401297                     /home/fffffarmer/miniconda2/jre/lib/resources.jar
+7f90b8067000-7f90b8234000 r--s 03bd3000 08:01 401298                     /home/fffffarmer/miniconda2/jre/lib/rt.jar
+7f90b8234000-7f90b8c1f000 rw-p 00000000 00:00 0 
+7f90b8c1f000-7f90b8c20000 ---p 00000000 00:00 0 
+7f90b8c20000-7f90b8d20000 rw-p 00000000 00:00 0 
+7f90b8d20000-7f90b8d21000 ---p 00000000 00:00 0 
+7f90b8d21000-7f90b8e21000 rw-p 00000000 00:00 0 
+7f90b8e21000-7f90b8e22000 ---p 00000000 00:00 0 
+7f90b8e22000-7f90b8f22000 rw-p 00000000 00:00 0 
+7f90b8f22000-7f90b8f23000 ---p 00000000 00:00 0 
+7f90b8f23000-7f90b903d000 rw-p 00000000 00:00 0 
+7f90b903d000-7f90b916b000 ---p 00000000 00:00 0 
+7f90b916b000-7f90b9185000 rw-p 00000000 00:00 0 
+7f90b9185000-7f90b92b2000 ---p 00000000 00:00 0 
+7f90b92b2000-7f90b92fd000 rw-p 00000000 00:00 0 
+7f90b92fd000-7f90b9356000 ---p 00000000 00:00 0 
+7f90b9356000-7f90b936d000 rw-p 00000000 00:00 0 
+7f90b936d000-7f90b9717000 ---p 00000000 00:00 0 
+7f90b9717000-7f90b9c87000 rwxp 00000000 00:00 0 
+7f90b9c87000-7f90c8717000 ---p 00000000 00:00 0 
+7f90c8717000-7f90c8731000 r-xp 00000000 08:01 401244                     /home/fffffarmer/miniconda2/jre/lib/amd64/libzip.so
+7f90c8731000-7f90c8930000 ---p 0001a000 08:01 401244                     /home/fffffarmer/miniconda2/jre/lib/amd64/libzip.so
+7f90c8930000-7f90c8931000 rw-p 00019000 08:01 401244                     /home/fffffarmer/miniconda2/jre/lib/amd64/libzip.so
+7f90c8931000-7f90c8932000 rw-p 0001e000 08:01 401244                     /home/fffffarmer/miniconda2/jre/lib/amd64/libzip.so
+7f90c8932000-7f90c893d000 r-xp 00000000 08:01 1316541                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7f90c893d000-7f90c8b3c000 ---p 0000b000 08:01 1316541                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7f90c8b3c000-7f90c8b3d000 r--p 0000a000 08:01 1316541                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7f90c8b3d000-7f90c8b3e000 rw-p 0000b000 08:01 1316541                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7f90c8b3e000-7f90c8b44000 rw-p 00000000 00:00 0 
+7f90c8b44000-7f90c8b5b000 r-xp 00000000 08:01 1316535                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7f90c8b5b000-7f90c8d5a000 ---p 00017000 08:01 1316535                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7f90c8d5a000-7f90c8d5b000 r--p 00016000 08:01 1316535                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7f90c8d5b000-7f90c8d5c000 rw-p 00017000 08:01 1316535                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7f90c8d5c000-7f90c8d5e000 rw-p 00000000 00:00 0 
+7f90c8d5e000-7f90c8d69000 r-xp 00000000 08:01 1316552                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7f90c8d69000-7f90c8f68000 ---p 0000b000 08:01 1316552                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7f90c8f68000-7f90c8f69000 r--p 0000a000 08:01 1316552                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7f90c8f69000-7f90c8f6a000 rw-p 0000b000 08:01 1316552                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7f90c8f6a000-7f90c8f72000 r-xp 00000000 08:01 1316537                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7f90c8f72000-7f90c9172000 ---p 00008000 08:01 1316537                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7f90c9172000-7f90c9173000 r--p 00008000 08:01 1316537                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7f90c9173000-7f90c9174000 rw-p 00009000 08:01 1316537                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7f90c9174000-7f90c91e5000 r-xp 00000000 08:01 398799                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/jcc/_jcc.so
+7f90c91e5000-7f90c93e5000 ---p 00071000 08:01 398799                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/jcc/_jcc.so
+7f90c93e5000-7f90c93ed000 rw-p 00071000 08:01 398799                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/jcc/_jcc.so
+7f90c93ed000-7f90c94af000 rw-p 00000000 00:00 0 
+7f90c94ba000-7f90c94c5000 r--s 00116000 08:01 401263                     /home/fffffarmer/miniconda2/jre/lib/ext/localedata.jar
+7f90c94c5000-7f90c94ef000 r--s 00239000 08:01 400965                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-core-4.9.0.jar
+7f90c94ef000-7f90c95ef000 rw-p 00000000 00:00 0 
+7f90c95ef000-7f90c96ef000 r-xp 00000000 08:01 277291                     /home/fffffarmer/miniconda2/lib/libsqlite3.so.0.8.6
+7f90c96ef000-7f90c98ef000 ---p 00100000 08:01 277291                     /home/fffffarmer/miniconda2/lib/libsqlite3.so.0.8.6
+7f90c98ef000-7f90c98f2000 r--p 00100000 08:01 277291                     /home/fffffarmer/miniconda2/lib/libsqlite3.so.0.8.6
+7f90c98f2000-7f90c98f4000 rw-p 00103000 08:01 277291                     /home/fffffarmer/miniconda2/lib/libsqlite3.so.0.8.6
+7f90c98f4000-7f90c98f5000 rw-p 00000000 00:00 0 
+7f90c98f5000-7f90c9906000 r-xp 00000000 08:01 268605                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_sqlite3.so
+7f90c9906000-7f90c9b06000 ---p 00011000 08:01 268605                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_sqlite3.so
+7f90c9b06000-7f90c9b07000 r--p 00011000 08:01 268605                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_sqlite3.so
+7f90c9b07000-7f90c9b09000 rw-p 00012000 08:01 268605                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_sqlite3.so
+7f90c9b09000-7f90ca24a000 rw-p 00000000 00:00 0 
+7f90ca24a000-7f90ca25f000 r-xp 00000000 08:01 268611                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/cPickle.so
+7f90ca25f000-7f90ca45e000 ---p 00015000 08:01 268611                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/cPickle.so
+7f90ca45e000-7f90ca45f000 r--p 00014000 08:01 268611                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/cPickle.so
+7f90ca45f000-7f90ca460000 rw-p 00015000 08:01 268611                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/cPickle.so
+7f90ca460000-7f90ca4a0000 rw-p 00000000 00:00 0 
+7f90ca4a0000-7f90ca4a2000 r-xp 00000000 08:01 268193                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/grp.so
+7f90ca4a2000-7f90ca6a1000 ---p 00002000 08:01 268193                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/grp.so
+7f90ca6a1000-7f90ca6a2000 r--p 00001000 08:01 268193                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/grp.so
+7f90ca6a2000-7f90ca6a3000 rw-p 00002000 08:01 268193                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/grp.so
+7f90ca6a3000-7f90ca6bb000 r-xp 00000000 08:01 268632                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/bz2.so
+7f90ca6bb000-7f90ca8ba000 ---p 00018000 08:01 268632                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/bz2.so
+7f90ca8ba000-7f90ca8bb000 r--p 00017000 08:01 268632                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/bz2.so
+7f90ca8bb000-7f90ca8be000 rw-p 00018000 08:01 268632                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/bz2.so
+7f90ca8be000-7f90ca8c3000 r-xp 00000000 08:01 268451                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/zlib.so
+7f90ca8c3000-7f90caac2000 ---p 00005000 08:01 268451                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/zlib.so
+7f90caac2000-7f90caac3000 r--p 00004000 08:01 268451                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/zlib.so
+7f90caac3000-7f90caac5000 rw-p 00005000 08:01 268451                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/zlib.so
+7f90caac5000-7f90cab05000 rw-p 00000000 00:00 0 
+7f90cab05000-7f90cab0e000 r-xp 00000000 08:01 268543                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_json.so
+7f90cab0e000-7f90cad0e000 ---p 00009000 08:01 268543                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_json.so
+7f90cad0e000-7f90cad0f000 r--p 00009000 08:01 268543                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_json.so
+7f90cad0f000-7f90cad10000 rw-p 0000a000 08:01 268543                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_json.so
+7f90cad10000-7f90cad90000 rw-p 00000000 00:00 0 
+7f90cad90000-7f90cad97000 r-xp 00000000 08:01 1316592                    /lib/x86_64-linux-gnu/librt-2.27.so
+7f90cad97000-7f90caf96000 ---p 00007000 08:01 1316592                    /lib/x86_64-linux-gnu/librt-2.27.so
+7f90caf96000-7f90caf97000 r--p 00006000 08:01 1316592                    /lib/x86_64-linux-gnu/librt-2.27.so
+7f90caf97000-7f90caf98000 rw-p 00007000 08:01 1316592                    /lib/x86_64-linux-gnu/librt-2.27.so
+7f90caf98000-7f90cafab000 r-xp 00000000 08:01 1316447                    /lib/x86_64-linux-gnu/libbsd.so.0.8.7
+7f90cafab000-7f90cb1aa000 ---p 00013000 08:01 1316447                    /lib/x86_64-linux-gnu/libbsd.so.0.8.7
+7f90cb1aa000-7f90cb1ab000 r--p 00012000 08:01 1316447                    /lib/x86_64-linux-gnu/libbsd.so.0.8.7
+7f90cb1ab000-7f90cb1ac000 rw-p 00013000 08:01 1316447                    /lib/x86_64-linux-gnu/libbsd.so.0.8.7
+7f90cb1ac000-7f90cb1ad000 rw-p 00000000 00:00 0 
+7f90cb1ad000-7f90cb1b2000 r-xp 00000000 08:01 665868                     /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f90cb1b2000-7f90cb3b1000 ---p 00005000 08:01 665868                     /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f90cb3b1000-7f90cb3b2000 r--p 00004000 08:01 665868                     /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f90cb3b2000-7f90cb3b3000 rw-p 00005000 08:01 665868                     /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f90cb3b3000-7f90cb3b5000 r-xp 00000000 08:01 665857                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f90cb3b5000-7f90cb5b5000 ---p 00002000 08:01 665857                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f90cb5b5000-7f90cb5b6000 r--p 00002000 08:01 665857                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f90cb5b6000-7f90cb5b7000 rw-p 00003000 08:01 665857                     /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f90cb5b7000-7f90cb5dd000 r-xp 00000000 08:01 667061                     /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f90cb5dd000-7f90cb7dd000 ---p 00026000 08:01 667061                     /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f90cb7dd000-7f90cb7de000 r--p 00026000 08:01 667061                     /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f90cb7de000-7f90cb7df000 rw-p 00027000 08:01 667061                     /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f90cb7df000-7f90cb912000 r-xp 00000000 08:01 659726                     /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f90cb912000-7f90cbb12000 ---p 00133000 08:01 659726                     /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f90cbb12000-7f90cbb13000 r--p 00133000 08:01 659726                     /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f90cbb13000-7f90cbb17000 rw-p 00134000 08:01 659726                     /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f90cbb17000-7f90cbb4c000 r--p 00000000 08:01 277230                     /home/fffffarmer/miniconda2/lib/libtk8.6.so
+7f90cbb4c000-7f90cbc28000 r-xp 00035000 08:01 277230                     /home/fffffarmer/miniconda2/lib/libtk8.6.so
+7f90cbc28000-7f90cbc5c000 r--p 00111000 08:01 277230                     /home/fffffarmer/miniconda2/lib/libtk8.6.so
+7f90cbc5c000-7f90cbc73000 r--p 00144000 08:01 277230                     /home/fffffarmer/miniconda2/lib/libtk8.6.so
+7f90cbc73000-7f90cbc7c000 rw-p 0015b000 08:01 277230                     /home/fffffarmer/miniconda2/lib/libtk8.6.so
+7f90cbc7c000-7f90cbca7000 r--p 00000000 08:01 277236                     /home/fffffarmer/miniconda2/lib/libtcl8.6.so
+7f90cbca7000-7f90cbde5000 r-xp 0002b000 08:01 277236                     /home/fffffarmer/miniconda2/lib/libtcl8.6.so
+7f90cbde5000-7f90cbe29000 r--p 00169000 08:01 277236                     /home/fffffarmer/miniconda2/lib/libtcl8.6.so
+7f90cbe29000-7f90cbe39000 r--p 001ac000 08:01 277236                     /home/fffffarmer/miniconda2/lib/libtcl8.6.so
+7f90cbe39000-7f90cbe3a000 rw-p 001bc000 08:01 277236                     /home/fffffarmer/miniconda2/lib/libtcl8.6.so
+7f90cbe3a000-7f90cbe3b000 rw-p 00000000 00:00 0 
+7f90cbe3b000-7f90cbe4a000 r-xp 00000000 08:01 268597                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_tkinter.so
+7f90cbe4a000-7f90cc04a000 ---p 0000f000 08:01 268597                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_tkinter.so
+7f90cc04a000-7f90cc04b000 r--p 0000f000 08:01 268597                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_tkinter.so
+7f90cc04b000-7f90cc04c000 rw-p 00010000 08:01 268597                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_tkinter.so
+7f90cc04c000-7f90cc28c000 rw-p 00000000 00:00 0 
+7f90cc28c000-7f90cc4e4000 r-xp 00000000 08:01 268698                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_ssl.so
+7f90cc4e4000-7f90cc6e3000 ---p 00258000 08:01 268698                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_ssl.so
+7f90cc6e3000-7f90cc706000 r--p 00257000 08:01 268698                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_ssl.so
+7f90cc706000-7f90cc719000 rw-p 0027a000 08:01 268698                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_ssl.so
+7f90cc719000-7f90cc71d000 rw-p 00000000 00:00 0 
+7f90cc71d000-7f90cc72e000 r-xp 00000000 08:01 268613                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_socket.so
+7f90cc72e000-7f90cc92e000 ---p 00011000 08:01 268613                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_socket.so
+7f90cc92e000-7f90cc92f000 r--p 00011000 08:01 268613                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_socket.so
+7f90cc92f000-7f90cc934000 rw-p 00012000 08:01 268613                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_socket.so
+7f90cc934000-7f90cc9b4000 rw-p 00000000 00:00 0 
+7f90cc9b4000-7f90cc9b6000 r-xp 00000000 08:01 268237                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_bisect.so
+7f90cc9b6000-7f90ccbb5000 ---p 00002000 08:01 268237                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_bisect.so
+7f90ccbb5000-7f90ccbb6000 r--p 00001000 08:01 268237                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_bisect.so
+7f90ccbb6000-7f90ccbb7000 rw-p 00002000 08:01 268237                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_bisect.so
+7f90ccbb7000-7f90ccc37000 rw-p 00000000 00:00 0 
+7f90ccc37000-7f90ccc41000 r-xp 00000000 08:01 268576                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/array.so
+7f90ccc41000-7f90cce41000 ---p 0000a000 08:01 268576                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/array.so
+7f90cce41000-7f90cce42000 r--p 0000a000 08:01 268576                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/array.so
+7f90cce42000-7f90cce44000 rw-p 0000b000 08:01 268576                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/array.so
+7f90cce44000-7f90cce84000 rw-p 00000000 00:00 0 
+7f90cce84000-7f90cce87000 r-xp 00000000 08:01 268324                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_random.so
+7f90cce87000-7f90cd086000 ---p 00003000 08:01 268324                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_random.so
+7f90cd086000-7f90cd087000 r--p 00002000 08:01 268324                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_random.so
+7f90cd087000-7f90cd088000 rw-p 00003000 08:01 268324                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_random.so
+7f90cd088000-7f90cd265000 r-xp 00000000 08:01 268697                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_hashlib.so
+7f90cd265000-7f90cd464000 ---p 001dd000 08:01 268697                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_hashlib.so
+7f90cd464000-7f90cd482000 r--p 001dc000 08:01 268697                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_hashlib.so
+7f90cd482000-7f90cd48d000 rw-p 001fa000 08:01 268697                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_hashlib.so
+7f90cd48d000-7f90cd490000 rw-p 00000000 00:00 0 
+7f90cd490000-7f90cd4af000 r-xp 00000000 08:01 268626                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_io.so
+7f90cd4af000-7f90cd6ae000 ---p 0001f000 08:01 268626                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_io.so
+7f90cd6ae000-7f90cd6af000 r--p 0001e000 08:01 268626                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_io.so
+7f90cd6af000-7f90cd6b8000 rw-p 0001f000 08:01 268626                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_io.so
+7f90cd6b8000-7f90cd6be000 r-xp 00000000 08:01 268514                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_csv.so
+7f90cd6be000-7f90cd8bd000 ---p 00006000 08:01 268514                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_csv.so
+7f90cd8bd000-7f90cd8be000 r--p 00005000 08:01 268514                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_csv.so
+7f90cd8be000-7f90cd8c0000 rw-p 00006000 08:01 268514                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_csv.so
+7f90cd8c0000-7f90cd957000 r-xp 00000000 08:01 268638                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/unicodedata.so
+7f90cd957000-7f90cdb56000 ---p 00097000 08:01 268638                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/unicodedata.so
+7f90cdb56000-7f90cdb57000 r--p 00096000 08:01 268638                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/unicodedata.so
+7f90cdb57000-7f90cdb6a000 rw-p 00097000 08:01 268638                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/unicodedata.so
+7f90cdb6a000-7f90cdbaa000 rw-p 00000000 00:00 0 
+7f90cdbaa000-7f90cdbb4000 r-xp 00000000 08:01 268566                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/math.so
+7f90cdbb4000-7f90cddb4000 ---p 0000a000 08:01 268566                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/math.so
+7f90cddb4000-7f90cddb5000 r--p 0000a000 08:01 268566                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/math.so
+7f90cddb5000-7f90cddb7000 rw-p 0000b000 08:01 268566                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/math.so
+7f90cddb7000-7f90cddf7000 rw-p 00000000 00:00 0 
+7f90cddf7000-7f90cde39000 r-xp 00000000 08:01 268633                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/pyexpat.so
+7f90cde39000-7f90ce038000 ---p 00042000 08:01 268633                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/pyexpat.so
+7f90ce038000-7f90ce03b000 r--p 00041000 08:01 268633                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/pyexpat.so
+7f90ce03b000-7f90ce03d000 rw-p 00044000 08:01 268633                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/pyexpat.so
+7f90ce03d000-7f90ce07d000 rw-p 00000000 00:00 0 
+7f90ce07d000-7f90ce089000 r-xp 00000000 08:01 268584                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_elementtree.so
+7f90ce089000-7f90ce289000 ---p 0000c000 08:01 268584                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_elementtree.so
+7f90ce289000-7f90ce28a000 r--p 0000c000 08:01 268584                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_elementtree.so
+7f90ce28a000-7f90ce28b000 rw-p 0000d000 08:01 268584                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_elementtree.so
+7f90ce28b000-7f90ce28e000 r-xp 00000000 08:01 268338                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_functools.so
+7f90ce28e000-7f90ce48d000 ---p 00003000 08:01 268338                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_functools.so
+7f90ce48d000-7f90ce48e000 r--p 00002000 08:01 268338                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_functools.so
+7f90ce48e000-7f90ce48f000 rw-p 00003000 08:01 268338                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_functools.so
+7f90ce48f000-7f90ce4cf000 rw-p 00000000 00:00 0 
+7f90ce4cf000-7f90ce4d5000 r-xp 00000000 08:01 268492                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/strop.so
+7f90ce4d5000-7f90ce6d4000 ---p 00006000 08:01 268492                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/strop.so
+7f90ce6d4000-7f90ce6d5000 r--p 00005000 08:01 268492                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/strop.so
+7f90ce6d5000-7f90ce6d7000 rw-p 00006000 08:01 268492                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/strop.so
+7f90ce6d7000-7f90ce6db000 r-xp 00000000 08:01 268430                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/cStringIO.so
+7f90ce6db000-7f90ce8da000 ---p 00004000 08:01 268430                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/cStringIO.so
+7f90ce8da000-7f90ce8db000 r--p 00003000 08:01 268430                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/cStringIO.so
+7f90ce8db000-7f90ce8dd000 rw-p 00004000 08:01 268430                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/cStringIO.so
+7f90ce8dd000-7f90ce8f3000 r-xp 00000000 08:01 276480                     /home/fffffarmer/miniconda2/lib/libz.so.1.2.11
+7f90ce8f3000-7f90ceaf2000 ---p 00016000 08:01 276480                     /home/fffffarmer/miniconda2/lib/libz.so.1.2.11
+7f90ceaf2000-7f90ceaf3000 r--p 00015000 08:01 276480                     /home/fffffarmer/miniconda2/lib/libz.so.1.2.11
+7f90ceaf3000-7f90ceaf4000 rw-p 00016000 08:01 276480                     /home/fffffarmer/miniconda2/lib/libz.so.1.2.11
+7f90ceaf4000-7f90ceaf9000 r-xp 00000000 08:01 268436                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/binascii.so
+7f90ceaf9000-7f90cecf8000 ---p 00005000 08:01 268436                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/binascii.so
+7f90cecf8000-7f90cecf9000 r--p 00004000 08:01 268436                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/binascii.so
+7f90cecf9000-7f90cecfa000 rw-p 00005000 08:01 268436                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/binascii.so
+7f90cecfa000-7f90ced03000 r-xp 00000000 08:01 268562                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_struct.so
+7f90ced03000-7f90cef03000 ---p 00009000 08:01 268562                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_struct.so
+7f90cef03000-7f90cef04000 r--p 00009000 08:01 268562                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_struct.so
+7f90cef04000-7f90cef06000 rw-p 0000a000 08:01 268562                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_struct.so
+7f90cef06000-7f90cef09000 r-xp 00000000 08:01 268413                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/fcntl.so
+7f90cef09000-7f90cf109000 ---p 00003000 08:01 268413                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/fcntl.so
+7f90cf109000-7f90cf10a000 r--p 00003000 08:01 268413                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/fcntl.so
+7f90cf10a000-7f90cf10b000 rw-p 00004000 08:01 268413                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/fcntl.so
+7f90cf10b000-7f90cf110000 r-xp 00000000 08:01 268465                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/select.so
+7f90cf110000-7f90cf30f000 ---p 00005000 08:01 268465                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/select.so
+7f90cf30f000-7f90cf310000 r--p 00004000 08:01 268465                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/select.so
+7f90cf310000-7f90cf312000 rw-p 00005000 08:01 268465                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/select.so
+7f90cf312000-7f90cf352000 rw-p 00000000 00:00 0 
+7f90cf352000-7f90cf368000 r-xp 00000000 08:01 268615                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/datetime.so
+7f90cf368000-7f90cf567000 ---p 00016000 08:01 268615                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/datetime.so
+7f90cf567000-7f90cf568000 r--p 00015000 08:01 268615                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/datetime.so
+7f90cf568000-7f90cf56b000 rw-p 00016000 08:01 268615                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/datetime.so
+7f90cf56b000-7f90cf56c000 rw-p 00000000 00:00 0 
+7f90cf56c000-7f90cf570000 r-xp 00000000 08:01 268462                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/time.so
+7f90cf570000-7f90cf770000 ---p 00004000 08:01 268462                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/time.so
+7f90cf770000-7f90cf771000 r--p 00004000 08:01 268462                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/time.so
+7f90cf771000-7f90cf773000 rw-p 00005000 08:01 268462                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/time.so
+7f90cf773000-7f90cf776000 r-xp 00000000 08:01 268411                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_heapq.so
+7f90cf776000-7f90cf975000 ---p 00003000 08:01 268411                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_heapq.so
+7f90cf975000-7f90cf976000 r--p 00002000 08:01 268411                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_heapq.so
+7f90cf976000-7f90cf978000 rw-p 00003000 08:01 268411                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_heapq.so
+7f90cf978000-7f90cf982000 r-xp 00000000 08:01 268587                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/itertools.so
+7f90cf982000-7f90cfb82000 ---p 0000a000 08:01 268587                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/itertools.so
+7f90cfb82000-7f90cfb83000 r--p 0000a000 08:01 268587                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/itertools.so
+7f90cfb83000-7f90cfb88000 rw-p 0000b000 08:01 268587                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/itertools.so
+7f90cfb88000-7f90cfb91000 r-xp 00000000 08:01 268551                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/operator.so
+7f90cfb91000-7f90cfd90000 ---p 00009000 08:01 268551                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/operator.so
+7f90cfd90000-7f90cfd91000 r--p 00008000 08:01 268551                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/operator.so
+7f90cfd91000-7f90cfd93000 rw-p 00009000 08:01 268551                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/operator.so
+7f90cfd93000-7f90cfd9b000 r-xp 00000000 08:01 268532                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_collections.so
+7f90cfd9b000-7f90cff9a000 ---p 00008000 08:01 268532                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_collections.so
+7f90cff9a000-7f90cff9b000 r--p 00007000 08:01 268532                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_collections.so
+7f90cff9b000-7f90cff9d000 rw-p 00008000 08:01 268532                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_collections.so
+7f90cff9d000-7f90d019d000 rw-p 00000000 00:00 0 
+7f90d019e000-7f90d031e000 rw-p 00000000 00:00 0 
+7f90d031e000-7f90d032b000 r-xp 00000000 08:01 401243                     /home/fffffarmer/miniconda2/jre/lib/amd64/libverify.so
+7f90d032b000-7f90d052b000 ---p 0000d000 08:01 401243                     /home/fffffarmer/miniconda2/jre/lib/amd64/libverify.so
+7f90d052b000-7f90d052d000 rw-p 0000d000 08:01 401243                     /home/fffffarmer/miniconda2/jre/lib/amd64/libverify.so
+7f90d052d000-7f90d052e000 rw-p 00011000 08:01 401243                     /home/fffffarmer/miniconda2/jre/lib/amd64/libverify.so
+7f90d052e000-7f90d05c2000 r--p 00000000 08:01 268945                     /home/fffffarmer/miniconda2/lib/libstdc++.so.6.0.25
+7f90d05c2000-7f90d0627000 r-xp 00094000 08:01 268945                     /home/fffffarmer/miniconda2/lib/libstdc++.so.6.0.25
+7f90d0627000-7f90d065e000 r--p 000f9000 08:01 268945                     /home/fffffarmer/miniconda2/lib/libstdc++.so.6.0.25
+7f90d065e000-7f90d0668000 r--p 0012f000 08:01 268945                     /home/fffffarmer/miniconda2/lib/libstdc++.so.6.0.25
+7f90d0668000-7f90d066c000 rw-p 00139000 08:01 268945                     /home/fffffarmer/miniconda2/lib/libstdc++.so.6.0.25
+7f90d066c000-7f90d066f000 rw-p 00000000 00:00 0 
+7f90d066f000-7f90d1291000 r-xp 00000000 08:01 401248                     /home/fffffarmer/miniconda2/jre/lib/amd64/server/libjvm.so
+7f90d1291000-7f90d1491000 ---p 00c22000 08:01 401248                     /home/fffffarmer/miniconda2/jre/lib/amd64/server/libjvm.so
+7f90d1491000-7f90d155f000 rw-p 00c22000 08:01 401248                     /home/fffffarmer/miniconda2/jre/lib/amd64/server/libjvm.so
+7f90d155f000-7f90d15a0000 rw-p 00000000 00:00 0 
+7f90d15a0000-7f90d15a3000 rw-p 00f65000 08:01 401248                     /home/fffffarmer/miniconda2/jre/lib/amd64/server/libjvm.so
+7f90d15a3000-7f90d15cd000 r-xp 00000000 08:01 401223                     /home/fffffarmer/miniconda2/jre/lib/amd64/libjava.so
+7f90d15cd000-7f90d17cd000 ---p 0002a000 08:01 401223                     /home/fffffarmer/miniconda2/jre/lib/amd64/libjava.so
+7f90d17cd000-7f90d17cf000 rw-p 0002a000 08:01 401223                     /home/fffffarmer/miniconda2/jre/lib/amd64/libjava.so
+7f90d17cf000-7f90d17d3000 rw-p 00036000 08:01 401223                     /home/fffffarmer/miniconda2/jre/lib/amd64/libjava.so
+7f90d17d3000-7f90d17e3000 r-xp 00000000 08:01 398831                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/libjcc.so
+7f90d17e3000-7f90d19e3000 ---p 00010000 08:01 398831                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/libjcc.so
+7f90d19e3000-7f90d19e4000 rw-p 00010000 08:01 398831                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/libjcc.so
+7f90d19e4000-7f90d2fa6000 r-xp 00000000 08:01 398856                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/_lucene.so
+7f90d2fa6000-7f90d31a5000 ---p 015c2000 08:01 398856                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/_lucene.so
+7f90d31a5000-7f90d3362000 rw-p 015c1000 08:01 398856                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/_lucene.so
+7f90d3362000-7f90d3372000 rw-p 00000000 00:00 0 
+7f90d3372000-7f90d3d41000 r--p 00000000 08:01 662223                     /usr/lib/locale/locale-archive
+7f90d3d41000-7f90d3d45000 r-xp 00000000 08:01 268407                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_locale.so
+7f90d3d45000-7f90d3f44000 ---p 00004000 08:01 268407                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_locale.so
+7f90d3f44000-7f90d3f45000 r--p 00003000 08:01 268407                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_locale.so
+7f90d3f45000-7f90d3f46000 rw-p 00004000 08:01 268407                     /home/fffffarmer/miniconda2/lib/python2.7/lib-dynload/_locale.so
+7f90d3f46000-7f90d412d000 r-xp 00000000 08:01 1316451                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f90d412d000-7f90d432d000 ---p 001e7000 08:01 1316451                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f90d432d000-7f90d4331000 r--p 001e7000 08:01 1316451                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f90d4331000-7f90d4333000 rw-p 001eb000 08:01 1316451                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f90d4333000-7f90d4337000 rw-p 00000000 00:00 0 
+7f90d4337000-7f90d44d4000 r-xp 00000000 08:01 1316514                    /lib/x86_64-linux-gnu/libm-2.27.so
+7f90d44d4000-7f90d46d3000 ---p 0019d000 08:01 1316514                    /lib/x86_64-linux-gnu/libm-2.27.so
+7f90d46d3000-7f90d46d4000 r--p 0019c000 08:01 1316514                    /lib/x86_64-linux-gnu/libm-2.27.so
+7f90d46d4000-7f90d46d5000 rw-p 0019d000 08:01 1316514                    /lib/x86_64-linux-gnu/libm-2.27.so
+7f90d46d5000-7f90d46d7000 r-xp 00000000 08:01 1316616                    /lib/x86_64-linux-gnu/libutil-2.27.so
+7f90d46d7000-7f90d48d6000 ---p 00002000 08:01 1316616                    /lib/x86_64-linux-gnu/libutil-2.27.so
+7f90d48d6000-7f90d48d7000 r--p 00001000 08:01 1316616                    /lib/x86_64-linux-gnu/libutil-2.27.so
+7f90d48d7000-7f90d48d8000 rw-p 00002000 08:01 1316616                    /lib/x86_64-linux-gnu/libutil-2.27.so
+7f90d48d8000-7f90d48db000 r-xp 00000000 08:01 1316474                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f90d48db000-7f90d4ada000 ---p 00003000 08:01 1316474                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f90d4ada000-7f90d4adb000 r--p 00002000 08:01 1316474                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f90d4adb000-7f90d4adc000 rw-p 00003000 08:01 1316474                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f90d4adc000-7f90d4af6000 r-xp 00000000 08:01 1316584                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f90d4af6000-7f90d4cf5000 ---p 0001a000 08:01 1316584                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f90d4cf5000-7f90d4cf6000 r--p 00019000 08:01 1316584                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f90d4cf6000-7f90d4cf7000 rw-p 0001a000 08:01 1316584                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f90d4cf7000-7f90d4cfb000 rw-p 00000000 00:00 0 
+7f90d4cfb000-7f90d4e78000 r-xp 00000000 08:01 268662                     /home/fffffarmer/miniconda2/lib/libpython2.7.so.1.0
+7f90d4e78000-7f90d5078000 ---p 0017d000 08:01 268662                     /home/fffffarmer/miniconda2/lib/libpython2.7.so.1.0
+7f90d5078000-7f90d507c000 r--p 0017d000 08:01 268662                     /home/fffffarmer/miniconda2/lib/libpython2.7.so.1.0
+7f90d507c000-7f90d50b8000 rw-p 00181000 08:01 268662                     /home/fffffarmer/miniconda2/lib/libpython2.7.so.1.0
+7f90d50b8000-7f90d50d9000 rw-p 00000000 00:00 0 
+7f90d50d9000-7f90d5100000 r-xp 00000000 08:01 1316423                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f90d5103000-7f90d5105000 r--s 00008000 08:01 398859                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/asm-commons-4.1.jar
+7f90d5105000-7f90d5108000 r--s 00026000 08:01 398857                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/antlr-runtime-3.5.jar
+7f90d5108000-7f90d510b000 r--s 00015000 08:01 400972                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-misc-4.9.0.jar
+7f90d510b000-7f90d510d000 r--s 00010000 08:01 400966                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-expressions-4.9.0.jar
+7f90d510d000-7f90d5111000 r--s 00028000 08:01 400976                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-suggest-4.9.0.jar
+7f90d5111000-7f90d5114000 r--s 00027000 08:01 400967                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-facet-4.9.0.jar
+7f90d5114000-7f90d5116000 r--s 0000e000 08:01 400970                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-join-4.9.0.jar
+7f90d5116000-7f90d511f000 r--s 00057000 08:01 400974                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-queryparser-4.9.0.jar
+7f90d511f000-7f90d5122000 r--p 00000000 08:01 268816                     /home/fffffarmer/miniconda2/lib/libgcc_s.so.1
+7f90d5122000-7f90d512f000 r-xp 00003000 08:01 268816                     /home/fffffarmer/miniconda2/lib/libgcc_s.so.1
+7f90d512f000-7f90d5132000 r--p 00010000 08:01 268816                     /home/fffffarmer/miniconda2/lib/libgcc_s.so.1
+7f90d5132000-7f90d5133000 r--p 00012000 08:01 268816                     /home/fffffarmer/miniconda2/lib/libgcc_s.so.1
+7f90d5133000-7f90d5134000 rw-p 00013000 08:01 268816                     /home/fffffarmer/miniconda2/lib/libgcc_s.so.1
+7f90d5134000-7f90d51f4000 rw-p 00000000 00:00 0 
+7f90d51f5000-7f90d51f9000 r--s 00017000 08:01 400968                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-grouping-4.9.0.jar
+7f90d51f9000-7f90d51fb000 r--s 0007d000 08:01 400964                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-analyzers-stempel-4.9.0.jar
+7f90d51fb000-7f90d5200000 r--s 0002f000 08:01 400973                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-queries-4.9.0.jar
+7f90d5200000-7f90d5211000 r--s 0018c000 08:01 400963                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-analyzers-common-4.9.0.jar
+7f90d5211000-7f90d52ea000 rw-p 00000000 00:00 0 
+7f90d52ea000-7f90d52eb000 r--s 0000b000 08:01 398858                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/asm-4.1.jar
+7f90d52eb000-7f90d52ee000 r--s 00017000 08:01 400975                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-sandbox-4.9.0.jar
+7f90d52ee000-7f90d52f0000 r--s 00004000 08:01 398862                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/extensions.jar
+7f90d52f0000-7f90d52f3000 r--s 0001f000 08:01 400969                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-highlighter-4.9.0.jar
+7f90d52f3000-7f90d52f4000 r--s 00008000 08:01 400971                     /home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-memory-4.9.0.jar
+7f90d52f4000-7f90d52fc000 rw-s 00000000 08:01 398655                     /tmp/hsperfdata_fffffarmer/51471
+7f90d52fc000-7f90d52fd000 rw-p 00000000 00:00 0 
+7f90d52fd000-7f90d52fe000 ---p 00000000 00:00 0 
+7f90d52fe000-7f90d5300000 rw-p 00000000 00:00 0 
+7f90d5300000-7f90d5301000 r--p 00027000 08:01 1316423                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f90d5301000-7f90d5302000 rw-p 00028000 08:01 1316423                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f90d5302000-7f90d5303000 rw-p 00000000 00:00 0 
+7ffe01060000-7ffe01063000 ---p 00000000 00:00 0 
+7ffe01063000-7ffe01160000 rw-p 00000000 00:00 0                          [stack]
+7ffe011ec000-7ffe011ef000 r--p 00000000 00:00 0                          [vvar]
+7ffe011ef000-7ffe011f1000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true 
+java_command: <unknown>
+java_class_path (initial): /home/fffffarmer/miniconda2/lib/python2.7/site-packages/jcc/classes:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-core-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-analyzers-common-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-memory-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-highlighter-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/extensions.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-queries-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-queryparser-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-sandbox-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-analyzers-stempel-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-grouping-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-join-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-facet-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-suggest-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-expressions-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/lucene-misc-4.9.0.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/antlr-runtime-3.5.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/asm-4.1.jar:/home/fffffarmer/miniconda2/lib/python2.7/site-packages/lucene/asm-commons-4.1.jar
+Launcher Type: generic
+
+Environment Variables:
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+JRE_HOME=/usr/local/jdk1.8/jdk1.8.0_181/jre
+CLASSPATH=.:/usr/local/jdk1.8/jdk1.8.0_181/lib:/usr/local/jdk1.8/jdk1.8.0_181/jre/lib
+PATH=/usr/lib/jvm/java-11-openjdk-amd64/bin:/home/fffffarmer/miniconda2/bin:/usr/local/jdk1.8/jdk1.8.0_181/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+USERNAME=fffffarmer
+LD_LIBRARY_PATH=/home/fffffarmer/miniconda2/lib/python2.7/site-packages:/home/fffffarmer/miniconda2/jre/lib/amd64/server:/home/fffffarmer/miniconda2/jre/lib/amd64:/home/fffffarmer/miniconda2/lib:/home/fffffarmer/miniconda2/jre/lib:
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xa1d200], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xa1d200], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0x88d4b0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0x88d4b0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0x88d4b0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0x88d4b0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR1: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGUSR2: [libjvm.so+0x88e9a0], sa_mask[0]=00000000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: [libjvm.so+0x88ffe0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGINT: [libjvm.so+0x88ffe0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGTERM: [libjvm.so+0x88ffe0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGQUIT: [libjvm.so+0x88ffe0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.1 LTS"
+
+uname:Linux 4.15.0-36-generic #39-Ubuntu SMP Mon Sep 24 16:19:09 UTC 2018 x86_64
+libc:glibc 2.27 NPTL 2.27 
+rlimit: STACK 8192k, CORE 0k, NPROC 15449, NOFILE 4096, AS infinity
+load average:22.39 6.73 2.88
+
+/proc/meminfo:
+MemTotal:        4015680 kB
+MemFree:           87328 kB
+MemAvailable:        876 kB
+Buffers:             656 kB
+Cached:           150896 kB
+SwapCached:         2464 kB
+Active:          2340976 kB
+Inactive:         597784 kB
+Active(anon):    2334856 kB
+Inactive(anon):   583920 kB
+Active(file):       6120 kB
+Inactive(file):    13864 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       1459804 kB
+SwapFree:              0 kB
+Dirty:                76 kB
+Writeback:          2012 kB
+AnonPages:       2784948 kB
+Mapped:           135540 kB
+Shmem:            131536 kB
+Slab:             132088 kB
+SReclaimable:      48060 kB
+SUnreclaim:        84028 kB
+KernelStack:       16624 kB
+PageTables:        63648 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     3467644 kB
+Committed_AS:    9889852 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      452416 kB
+DirectMap2M:     3741696 kB
+DirectMap1G:     2097152 kB
+
+
+CPU:total 4 (2 cores per cpu, 1 threads per core) family 6 model 142 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, tsc, tscinvbit, bmi1, bmi2, adx
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2712.001
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 invpcid rtm mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5424.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2712.001
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 invpcid rtm mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5424.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2712.001
+cache size	: 3072 KB
+physical id	: 1
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 invpcid rtm mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5424.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
+stepping	: 9
+microcode	: 0x8e
+cpu MHz		: 2712.001
+cache size	: 3072 KB
+physical id	: 1
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 invpcid rtm mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves arat
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5424.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 43 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 4015680k(87080k free), swap 1459804k(0k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.45-b02) for linux-amd64 JRE (1.8.0_45-b14), built on Apr 11 2015 03:42:56 by "zulu_re" with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)
+
+time: Sat Oct 20 16:26:10 2018
+elapsed time: 72 seconds (0d 0h 1m 12s)
+

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首页 - 上海交通大学出入境管理与服务中心</title>
+    <link href="/Content/kendo/2016.3.914/css?v=_Il7lnJeTXs5-koijFrPhOeLOg3bY6bqp-onsj1UvbM1" rel="stylesheet"/>
+
+    <link href="/Content/bootstrap/css?v=PYAdbdaGC9GTgrMPgTGZRNWxV3HAZdwle9unzTBF8pc1" rel="stylesheet"/>
+
+    <link href="/Content/site?v=8l-RgfqyQX4xY812bIrVRbaqbWqpMVFbW8ftz6B1Wxs1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+    <script src="/bundles/jquery?v=IWEfqznFi__44y4Ms011JPbxZowJ9jTLwJsHrcaBzP01"></script>
+
+    <script src="/bundles/jqueryval?v=f5mxt6tuTZLZUrnIzAMmYSVTMWrCsf82c0VolYLKE_A1"></script>
+
+    <script src="/bundles/bootstrap?v=A2RZoVP_OlAAmL_pv0cEinmfyArALxXn301v3mv2_H81"></script>
+
+    <script src="/bundles/kendo?v=uh4--9VLPGGWNkMUIxt8f7oZmfcPuRnb-3xuYtysNUo1"></script>
+
+    
+
+    <script type="text/javascript">
+            kendo.culture("zh-CHS");
+    </script>
+
+</head>
+    <body>
+        <div class="bg">
+        <header>
+    <div class="container">
+        <div class="row">
+                <p class="logo"><a href="/home"><img alt="上海交通大学出入境管理与服务中心" src="/Images/logo.png"/></a></p>
+        </div>
+    </div>
+</header>
+
+        <div id="body">
+            <section>
+                
+
+<div class="index">
+    <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12">
+            <ul>
+                <li class="block block-lg photo carousel" id="carousel-example-captions">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-captions" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="/Images/b1.jpg" alt=""></div>
+                        <div class="item">
+                            <img src="/Images/b2.jpg" alt=""></div>
+                    </div>
+                    
+                </li>
+
+                <li class="block block-lg" title="新闻通知">
+                    <span class="icons news"></span>
+                    <span class="title"><a href="/article/list/1">新闻通知</a></span>
+                    <ul class="news">
+                            <li><a href="/article/list/1?a=c24c9b79-5c57-4c00-b163-a6e6460639d2"><span class="icons list1"></span>2018年出入境管理与服务中心暑假值班表</a></li>
+                            <li><a href="/article/list/1?a=bae11c22-eb45-4eb6-a31c-5c1e451781c5"><span class="icons list1"></span>韩国驻上海总领事馆通知</a></li>
+                            <li><a href="/article/list/1?a=8f2aa1ce-da93-4e3e-be44-5dd341e87af5"><span class="icons list1"></span>2018年出入境管理与服务中心寒假值班表</a></li>
+                            <li><a href="/article/list/1?a=99e73032-0ca6-4f24-be67-248fb2476a6a"><span class="icons list1"></span>关于外国人工作许可延期需尽早申请的通知</a></li>
+                            <li><a href="/article/list/1?a=66708852-3e46-4a9f-ac56-c7c1631c7cb3"><span class="icons list1"></span>关于因公出国（境）申报需留取足够时间的通知</a></li>
+                            <li><a href="/article/list/1?a=5135fab5-9712-49db-ba0d-d78a403fbd21"><span class="icons list1"></span>关于做好2018年度因公出国（境）计划的通知</a></li>
+                    </ul>
+                </li>
+
+                <li class="block block-sm photo  carousel" id="carousel-example-captions2">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="/Images/s1.jpg" alt=""></div>
+                        <div class="item">
+                            <img src="/Images/s2.jpg" alt=""></div>
+                    </div>
+                </li>
+
+                <li class="block block-md second" title="友情提示">
+                    <span class="icons info"></span>
+                    <span class="title"><a href="/article/list/2">友情提示</a></span>
+                    <ul class="info">
+                            <li><a href="/article/list/2?a=e7e71124-8594-4126-9fbb-af9f251c228b"><span class="icons list2"></span>提醒在泰中国公民注意安全风险</a></li>
+                            <li><a href="/article/list/2?a=7773b4ed-ddc4-40e7-9aae-d9e07e8ad949"><span class="icons list2"></span>出入境中心服务项目</a></li>
+                            <li><a href="/article/list/2?a=ac03bfaf-80d9-45fa-8a2e-158599c5f7d2"><span class="icons list2"></span>提醒在墨西哥中国公民提高安全防范意识</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="block block-sm" title="常见问题">
+                    <a href="/article/list/5">
+                        <span class="title">常见问题</span>
+                        <span class="icons question"></span>
+                    </a>
+                </li>
+
+                <li class="block block-sm" title="友情链接">
+                    <a href="/home/links">
+                        <span class="icons links"></span>
+                        <span class="title">友情链接</span>
+                    </a>
+                </li>
+
+                <li class="block block-sm" title="相关下载">
+                    <a href="/article/list/7">
+                        <span class="title">相关下载</span>
+                        <span class="icons download"></span>
+                    </a>
+                </li>
+                <li class="block block-sm" title="系统申报">
+                    <a href="http://my.sjtu.edu.cn/Task#allow">
+                        <span class="title">系统申报</span>
+                        <span class="icons declare"></span>
+                    </a>
+                </li>
+                <li class="block block-sm sub" title="外籍人员签证">
+                    <div>
+                        <span class="title" style="font-size: 18px;">外籍人员签证</span>
+                        <span class="icons visa"></span>
+                    </div>
+                    <div style="display: none">
+                        <span class="title"><a href="/article/list/8">外籍专家</a></span><br />
+                        <span class="title"><a href="/article/list/9">留学生</a></span>
+                    </div>
+                </li>
+
+                <li class="block block-sm" title="办事流程">
+                    <a href="/article/list/3">
+                        <span class="title">办事流程</span>
+                        <span class="icons process"></span>
+                    </a>
+                </li>
+                <li class="block block-sm" title="出国公示">
+                    <a href="/article/list/4">
+                        <span class="title">出国公示</span>
+                        <span class="icons publicity"></span>
+                    </a>
+                </li>
+                <li class="block block-sm" title="回国总结">
+                    <a href="/article/list/10">
+                        <span class="title">回国总结</span>
+                        <span class="icons publicity"></span>
+                    </a>
+                </li>
+                <li class="block block-sm" title="签证资料">
+                    <a href="/home/visa">
+                        <span class="icons visa"></span>
+                        <span class="title">签证资料</span>
+                    </a>
+                </li>
+                <li class="block block-sm" title="联系信息">
+                    <a href="/home/contact">
+                        <span class="title">联系信息</span>
+                        <span class="icons contact"></span>
+
+                    </a>
+                </li>
+                <li class="clearfix"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+            </section>
+        </div>
+        <footer>
+    <div class="container">
+        <div class="row">
+            <p class="text-center">&copy; 2018 - 上海交通大学国际合作与交流处暨港澳台办公室</p>
+                <p class="text-center" style="font-size: 12px;">
+                    访问量 2874496
+                    <a href="/Account/Login"><span class="glyphicon glyphicon-user" style="color: #09546D"></span></a>
+                </p>
+        </div>
+    </div>
+</footer>
+
+
+</div>
+        
+    <script type="text/javascript">
+        $(function () {
+            $('.carousel').carousel();
+
+            var bgcolor = ["transparent", "#F17D26", "transparent", "#75C590", "#75C590", "#75C590", "#75C590", "#ECB729", "#B352A3", "#687EE1", "#8F4F9B", "#ECB729", "#01A2BE", "#687EE1"];
+            $(".index ul li.block").each(function (i) {
+                $(this).css("background-color", bgcolor[i]);
+                if (i != 1 && i != 3) {
+                    $(this).hover(function () { $(this).stop().animate({ opacity: .8 }, 200); }, function () { $(this).stop().animate({ opacity: 1 }, 200); });
+                }
+            });
+            $(".index ul li.sub").hover(function () { $(this).children("div:first").hide(); $(this).children("div:last").show(); }, function () { $(this).children("div:first").show(); $(this).children("div:last").hide(); });
+        })
+    </script>
+
+
+    </body>
+</html>
