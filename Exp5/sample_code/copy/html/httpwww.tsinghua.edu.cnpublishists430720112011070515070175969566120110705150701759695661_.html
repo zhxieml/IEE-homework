@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+                            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<title>清华大学科学技术与社会研究所</title>
+<link href="/publish/ists/css/common.css" type="text/css" rel="stylesheet" />
+<link href="/publish/ists/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+ function cutDate(summaryStr,lengTh){
+     summaryStr=summaryStr.substring(5,lengTh);
+    document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/ists/css/style_index.css" rel="stylesheet"  type="text/css" /> 
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!--container开始处-->
+ <div id="container">
+      <!--header开始处-->
+        <div id="header">
+<!--logo开始处-->
+   <div id="logo">
+    <h1>科学技术与社会研究所<span>Institute of Science, Technology and Society</span></h1>
+   </div>
+   <!--logo结束处-->
+   <!--search开始处-->
+   <div id="search">
+ <form id="searchForm" action="#" method="post" target="_blank" >
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+    <p><a href="/publish/istsen/index.html">English Version</a> 
+<span> <a href="http://www.tsinghua.edu.cn">清华主页</a> </span> 
+搜索<input type="button" name="btn" style="height:10px" tabindex="0" class="btn" onclick="javascript:document.getElementById('searchForm').submit()" />
+<input type="text" name="Q" tabindex="1" class="sch" /></p>
+</form>  </div>
+   <!--search结束处-->
+</div>   <!--header结束处-->
+      <!--s_content开始处-->
+      <div id="s_content">
+        <!--second_nav开始处-->
+         <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4292 = ms.addMenu(document.getElementById("menu_4292"));
+menu4292.addItem("公告栏","/publish/ists/4340/index.html","");
+        menu4292.addItem("图片新闻","/publish/ists/4341/index.html","");
+        menu4292.addItem("历年新闻","/publish/ists/8248/index.html","");
+        var menu4293 = ms.addMenu(document.getElementById("menu_4293"));
+menu4293.addItem("概述","/publish/ists/4335/index.html","");
+        menu4293.addItem("历史沿革","/publish/ists/4337/index.html","");
+        menu4293.addItem("历任领导","/publish/ists/4338/index.html","");
+        var menu4294 = ms.addMenu(document.getElementById("menu_4294"));
+menu4294.addItem("校级中心","/publish/ists/10305/index.html","");
+        menu4294.addItem("院级中心","/publish/ists/10306/index.html","");
+        var menu4295 = ms.addMenu(document.getElementById("menu_4295"));
+menu4295.addItem("教授","/publish/ists/4325/index.html","");
+        menu4295.addItem("副教授","/publish/ists/4326/index.html","");
+        menu4295.addItem("讲师","/publish/ists/4327/index.html","");
+        menu4295.addItem("长江学者","/publish/ists/4328/index.html","");
+        menu4295.addItem("兼职教授","/publish/ists/4330/index.html","");
+        menu4295.addItem("返聘教授","/publish/ists/4332/index.html","");
+        menu4295.addItem("中心研究人员","/publish/ists/4333/index.html","");
+        var menu4296 = ms.addMenu(document.getElementById("menu_4296"));
+menu4296.addItem("研究方向","/publish/ists/4315/index.html","");
+        menu4296.addItem("研究成果","/publish/ists/4318/index.html","");
+        var subMenu4296_1 = menu4296.addMenu(menu4296.items[1]);
+       subMenu4296_1.addItem("著作类","/publish/ists/4318/index.html","");
+    subMenu4296_1.addItem("发表论文","/publish/ists/4319/index.html","");
+    subMenu4296_1.addItem("课题项目","/publish/ists/4320/index.html","");
+      menu4296.addItem("博士后","/publish/ists/4321/index.html","");
+        var subMenu4296_2 = menu4296.addMenu(menu4296.items[2]);
+       subMenu4296_2.addItem("哲学博士后流动站","/publish/ists/4321/index.html","");
+    subMenu4296_2.addItem("历年受资助情况","/publish/ists/4322/index.html","");
+    subMenu4296_2.addItem("在站博士后名单","/publish/ists/4323/index.html","");
+    subMenu4296_2.addItem("已出站博士后名单","/publish/ists/4324/index.html","");
+      var menu4297 = ms.addMenu(document.getElementById("menu_4297"));
+menu4297.addItem("学科点介绍","/publish/ists/4312/index.html","");
+        menu4297.addItem("课程设置","/publish/ists/4313/index.html","");
+        menu4297.addItem("精品课与精品教材","/publish/ists/4314/index.html","");
+        var menu4298 = ms.addMenu(document.getElementById("menu_4298"));
+menu4298.addItem("科学社会学与政策学沙龙","/publish/ists/4306/index.html","");
+        menu4298.addItem("科学哲学与技术哲学沙龙","/publish/ists/4307/index.html","");
+        menu4298.addItem("科学技术史沙龙","/publish/ists/4308/index.html","");
+        menu4298.addItem("STS博士论坛","/publish/ists/4309/index.html","");
+        menu4298.addItem("学术会议","/publish/ists/4310/index.html","");
+        menu4298.addItem("其他学术活动","/publish/ists/4311/index.html","");
+        var menu4299 = ms.addMenu(document.getElementById("menu_4299"));
+menu4299.addItem("招生信息","/publish/ists/4304/index.html","");
+        menu4299.addItem("招聘信息","/publish/ists/4305/index.html","");
+        var menu4300 = ms.addMenu(document.getElementById("menu_4300"));
+menu4300.addItem("学生活动","/publish/ists/4301/index.html","");
+        menu4300.addItem("在学学生名单","/publish/ists/4302/index.html","");
+        menu4300.addItem("已毕业学生名单","/publish/ists/4303/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="second_nav">
+          <ul>
+            <li><a href="/publish/ists/index.html">首页</a></li>
+<li id="menu_4292"><a href="/publish/ists/4292/index.html" title="动态新闻">动态新闻</a>
+            </li>
+            <li id="menu_4293"><a href="/publish/ists/4335/index.html" title="所简介">所简介</a>
+            </li>
+            <li id="menu_4294"><a href="/publish/ists/4294/index.html" title="机构设置">机构设置</a>
+            </li>
+            <li id="menu_4295"><a href="/publish/ists/4295/index.html" title="师资队伍">师资队伍</a>
+            </li>
+            <li id="menu_4296" class="width_100"><a href="/publish/ists/4315/index.html" title="科学研究">科学研究</a>
+            </li>
+            <li id="menu_4297"><a href="/publish/ists/4312/index.html" title="教学培养">教学培养</a>
+            </li>
+   <li id="menu_4298"><a href="/publish/ists/4298/index.html" title="学术活动">学术活动</a>
+            </li>
+   <li id="menu_4299"><a href="/publish/ists/4304/index.html" title="招生招聘">招生招聘</a>
+            </li>
+            <li id="menu_4300" class="no_bg"><a href="/publish/ists/4301/index.html" title="学生园地">学生园地</a>
+            </li> 
+</ul>
+</div>
+<script language="JavaScript">initMenuData();</script>        <!--second_nav结束处-->
+        <!--s_con_left开始处-->
+        
+        <!--s_con_left-->
+        <!--s_con_right开始处-->
+        <div id="s_con">
+          <p>&nbsp;<A href='/publish/ists/index.html' class='navigation_style'>首页</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4298/index.html' class='navigation_style'>学术活动</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4307/index.html' class='navigation_style'>科学哲学与技术哲学沙龙</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>内容</p>          <!--s2_right_con开始处-->
+          <div id="right_con">
+            <h2><span>清华大学科学哲学与技术哲学沙龙第105期:Why Should We Care About Animals?</span></h2>
+       <p><tbody></tbody><tr></tr><td class="p3">&nbsp;</td>&nbsp; 主讲人：Marcus D&uuml;well教授</p><p>（Director of the Ethics institute of Utrecht University and director of</p><p>the Netherlands Research School for Practical Philosophy）</p><p>评论人：郭鹏副教授（山东大学哲学系）</p><p>时 间：2011年7月11日下午3:00-5:30</p><p>地 点：新斋335（清华图书馆北侧）</p><p>主办单位：</p><p>清华大学人文社科学院科技与社会研究所<tt> </tt></p><p>&nbsp;</p><p>&nbsp;</p><p>Marcus D&uuml;well</p><div align="center"><b>Why Should We Care About Animals?</b></div><div align="center">- Lecture on July 11 at 3 pm at Xinzhai in Tsinghua University -</div><div>In the last decades the protection of animals played an increasing role in different societies. There are different reasons for these developments: 1.The industrial use of animals leads increasingly to severe criticism. 2. The modifications of animals in biotechnology make it possible to change the appearance of animals and to change essential features of the species, 3. Our knowledge about the mental, emotional and cognitive capacities of animals changes severely, 4. The basic moral framework is disputed and there are several attempts to include animals in our moral and political framework. The lecture will discuss several problems in that context.</div><div>1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Animal Ethics and Politics</i>: What does the claim mean to include animal in our political framework? In the Netherlands we have the &lsquo;party for the animals&rsquo; in the parliament. How would a political system look like that have a systematic representation of animals in the political system. What would it mean for the idea of citizenship? Does that not undermine the whole idea of political representation? In any case does each representation of beings in the political system make some assumptions about the moral status of beings.</div><div>2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Animal Ethics in utilitarian perspective</i>: There are different concepts to justify the moral status of animals: Avoiding of <i>suffering</i> and promoting of animal <i>welfare</i> are the most basic ethical concepts. But how can we justify a moral obligation to prevent animals from suffering and to maximise the welfare of animals? The first possibility is the utilitarian approach to maximize happiness without asking who realizes these moments of happiness. One can wonder to what extent this approach makes it possible to understand at all what a moral obligation is and why we are morally obliged. Furthermore it is very implausible to defend a moral difference between humans and animals at all.</div><div>3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Animal ethics in the capabilities Approach: M</i>. Nussbaum proposed in <i>Frontiers of Justice</i> to use the same framework we use to human beings for animals as well: Her approach is to see us morally obliged to protect those basic capabilities that are necessary to realize important human functions in order to live a flourishing life. She proposes to protect animals in the same way by protecting those capabilities that are necessary for them to realize their basic functions. The core of her concept is to develop a concept of dignity where the &lsquo;horse dignity&rsquo; fulfils the same function for horses as the &lsquo;human dignity&rsquo; for humans. But she denies non-human animals the same rights that we grant humans (e.g. killing of animals or performing experiments with them is in principle well acceptable). The concept is not consistent in itself.</div><div><i>4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </i><i>Is there an animal ethics in the framework of the human rights?</i>It is ethically problematic to deny a difference between humans and animals in the scope of utilitarianism. It is furthermore ethically problematic to use the same notions (rights and dignity) we apply on human beings to animals. But if that is true, is it then possible to defend a moral status of animals at all? I would assume that we need three steps for arguing for the moral status of animals:</div><div>a) we have to show that there are moral obligations at all and these obligations are directed toward others.That means that we are morally obliged not only to fulfil abstract duties to fulfil a general moral law but that we have special moral duties to respect other agents. That means our duties are directed towards the rights of others.</div><div>b) Traditionally there is the assumption that the moral ontology only knows <i>persons</i> and <i>things</i>. Persons have dignity and rights and they can not be possessed. Things however have no rights, but can be possessed. It would have to be shown that this is not a complete alternative. Otherwise it would mean that in a human rights framework, the protection of animals has not place.</div><div>c) If we have obligation towards other human beings and if it is possible that there is next to rights of the persons and the status of a thing a third possibility, than we could wonder what makes it plausible that we should take care about animals. The most plausible assumption would be that we share the vulnerability with animals. We and the animals are both vulnerable and embodied beings. Because of that vulnerability we can understand what it means for the animal to be hurt and when basic welfare opportunities are denied. It would have to be shown that this shared vulnerability makes that we are morally obliged with regard to animals.</div><div>5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Conclusion</i>: Egalitarian and utilitarian ideas of animal status are undermining as well our understanding of politics as well our understanding of moral obligations. Attempts to transfer moral concepts we use with regard to humans just to animals are often conceptually implausible. It would be necessary to show in the first place that a) we have moral obligations at all, b) that these obligations are directed towards others, c) that there are possible defend a moral status of animals that is different from the specific status of human beings and d) that the vulnerability we share with animals is a sufficient reason to see us morally obliged to take animals into account.&nbsp;</div><div>&nbsp;</div><div><i>Note: The Ethics Institute of Utrecht University is organizing beginning of July 2012 the big international conference: &ldquo;Mindinganimals&rdquo;. Look at: www.mindinganimals.com</i></div><div>&nbsp;</div><div><i>Biographical note</i>: D&uuml;well, Marcus, (born in 1962) holds a chair for philosophical ethics at the department for philosophy at Utrecht University. He is research director of the Ethics Institute of Utrecht University, director of the Netherlands Research School for Practical Philosophy and director of the Utrecht research institute for philosophy, ZENO. He is coordinator of the research area &ldquo;Conflicts and Human Rights&rdquo; of Utrecht University. From 1993-2001 he was academic coordinator of the Interdepartmental Center for Ethics in the Sciences and Humanities at the University of T&uuml;bingen. His research interests include bioethics (especially ethics of genetics, environmental ethics) and basic questions of moral philosophy (foundations of individual rights, human dignity) and the relation between ethics and aesthetics. He is editor-in-Chief of the book series &ldquo;Ethics and Applied Philosophy&rdquo; (Springer publisher), editor-in-Chief of the Journal &ldquo;Ethik in der Medizin&rdquo;. At the moment het has three great research projects: 1. Human Dignity as the Foundation of Human Rights? (NWO 2011-2016), 2. What can the Humanities Contribute to Practical Self-understanding? (NWO 2011-2016), 3.Rights to a Green Future (ESF-Thematic Network, 2011-2015).</div><p>&nbsp;</p>
+          </div>
+          <!--s2_right_con结束处-->
+        </div>
+        <!--s_con_right开始处-->
+      </div>
+   <!--s_content结束处-->
+      <!--footer开始处-->
+        <div id="footer"><p>版权所有&copy;清华大学科学技术与社会研究所  地址:北京市海淀区清华大学  邮编:100084</p></div>   <!--footer结束处-->
+    </div>
+ <!--container结束处-->
+</body>
+</html>

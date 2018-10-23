@@ -39,7 +39,8 @@ def run(searcher, analyzer):
 
         for i, scoreDoc in enumerate(scoreDocs):
             doc = searcher.doc(scoreDoc.doc)
-            print 'path:', doc.get("path"), 'title:', doc.get("title"), 'url:', doc.get("url"), 'name:', doc.get("name"), 'domain:', doc.get("domain")
+            print 'path:', doc.get("path"), 'title:', doc.get("title"), \
+                'url:', doc.get("url"), 'name:', doc.get("name"), 'site:', doc.get("site")
             # print 'explain:', searcher.explain(query, scoreDoc.doc)
 
 

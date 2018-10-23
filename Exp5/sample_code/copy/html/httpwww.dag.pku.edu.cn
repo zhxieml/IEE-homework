@@ -1,0 +1,371 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<title>北京大学档案馆</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/index.css">
+<!--[if lt IE 9]>
+<script src="js/html5.js"  type="text/javascript"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<!--header开始-->
+
+<header class="wraq_header">
+    <div class="header  pr">
+        <div class="logo"><a href="index.htm"><img src="images/logo_01.png"></a></div>
+        <div class="links">
+              <ul class="links01 f12px">
+                    
+                    <li><a class="btn_ser">
+                    <img src="images/sea_btn.png" id="btn_ser">
+                    <div class="ser pa" id="ser">
+                        <form name="dataForm" class="search" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onSubmit="document.charset='utf-8';">
+                            <input name="siteID" value="8" type ="hidden">
+                            <input class="notxt" value="请输入关键字" name="query" type="text" id="keywords" onFocus="if(value==defaultValue){value='';}" onBlur="if(!value){value=defaultValue;}"
+                             onclick="if(this.value==''){this.value='';this.form.keywords.style.color='#444'}">
+                            <input class="notxt1" name="Submit" type="submit" value="" />
+                        </form>
+                    </div>
+                    </a></li>
+              </ul>
+        </div>
+        
+        
+     
+        <section class="snav pa">
+           <!-- <section id="mbtn" class="mbtn pa"><img  src="images/btn01.jpg" /> </section> -->
+          <section id="mbtn" class="mbtn pa">
+            <span id="navline_1" class="navline"></span>
+            <span id="navline_2" class="navline"></span>
+            <span id="navline_3" class="navline" style="margin-bottom:3px;"></span>
+          </section>
+           <div class="navm pa">
+            <ul>
+						                <li> <a href='gk/index.htm'>概况</a></li>
+                							                <li> <a href='dtxx/index.htm'>动态信息</a></li>
+                							
+                <li>
+                  <a href="javascript:void(0);">查档指南</a><strong></strong>
+                  <div class="subNav">
+                        <dl>
+                                                     <dd><a href='cdzn/cdxz/index.htm'><span>查档须知</span></a></dd>
+                                                    <dd><a href='cdzn/cjwt/index.htm'><span>常见问题</span></a></dd>
+                                                 </dl>
+                   </div>
+                </li>
+											
+                <li>
+                  <a href="javascript:void(0);">档案收集</a><strong></strong>
+                  <div class="subNav">
+                        <dl>
+                                                     <dd><a href='dasj/gdxz/index.htm'><span>归档细则</span></a></dd>
+                                                    <dd><a href='dasj/dazlzn/index.htm'><span>档案整理指南</span></a></dd>
+                                                    <dd><a href='dasj/glxtsysc/index.htm'><span>管理系统使用手册</span></a></dd>
+                                                    <dd><a href='dasj/cjwt1/index.htm'><span>常见问题</span></a></dd>
+                                                 </dl>
+                   </div>
+                </li>
+											                <li> <a href='dajz/index.htm'>档案捐赠</a></li>
+                							
+                <li>
+                  <a href="javascript:void(0);">政策法规</a><strong></strong>
+                  <div class="subNav">
+                        <dl>
+                                                     <dd><a href='zcfg/fl/index.htm'><span>法律</span></a></dd>
+                                                    <dd><a href='zcfg/xzfg/index.htm'><span>行政法规</span></a></dd>
+                                                    <dd><a href='zcfg/bmgz/index.htm'><span>部门规章</span></a></dd>
+                                                    <dd><a href='zcfg/ywbzml/index.htm'><span>业务标准目录</span></a></dd>
+                                                    <dd><a href='zcfg/bjdxdagzxgwj/index.htm'><span>北京大学档案工作相关文件</span></a></dd>
+                                                 </dl>
+                   </div>
+                </li>
+											
+                <li>
+                  <a href="javascript:void(0);">馆藏精品</a><strong></strong>
+                  <div class="subNav">
+                        <dl>
+                                                     <dd><a href='gzjp/jpda/index.htm'><span>精品档案</span></a></dd>
+                                                    <dd><a href='gzjp/byzy/index.htm'><span>毕业赠言</span></a></dd>
+                                                 </dl>
+                   </div>
+                </li>
+											                <li> <a href='xzzq/index.htm'>下载专区</a></li>
+                				            </ul>
+        </div>
+        </section>
+    </div>
+    <div class="nav pa" >
+          <ul id="nav">
+		  
+		  			                <li> <a href='gk/index.htm'>概况</a></li>
+                							                <li> <a href='dtxx/index.htm'>动态信息</a></li>
+                										               <li>
+               <a href='cdzn/cdxz/index.htm'>查档指南</a>
+                <div class="subNav">
+                  <dl>
+                                                <dd> <a href='cdzn/cdxz/index.htm'><span>查档须知</span></a></dd>
+                                                   <dd> <a href='cdzn/cjwt/index.htm'><span>常见问题</span></a></dd>
+                                           </dl>
+                </div>
+              </li>
+             										               <li>
+               <a href='dasj/gdxz/index.htm'>档案收集</a>
+                <div class="subNav">
+                  <dl>
+                                                <dd> <a href='dasj/gdxz/index.htm'><span>归档细则</span></a></dd>
+                                                   <dd> <a href='dasj/dazlzn/index.htm'><span>档案整理指南</span></a></dd>
+                                                   <dd> <a href='dasj/glxtsysc/index.htm'><span>管理系统使用手册</span></a></dd>
+                                                   <dd> <a href='dasj/cjwt1/index.htm'><span>常见问题</span></a></dd>
+                                           </dl>
+                </div>
+              </li>
+             							                <li> <a href='dajz/index.htm'>档案捐赠</a></li>
+                										               <li>
+               <a href='zcfg/fl/index.htm'>政策法规</a>
+                <div class="subNav">
+                  <dl>
+                                                <dd> <a href='zcfg/fl/index.htm'><span>法律</span></a></dd>
+                                                   <dd> <a href='zcfg/xzfg/index.htm'><span>行政法规</span></a></dd>
+                                                   <dd> <a href='zcfg/bmgz/index.htm'><span>部门规章</span></a></dd>
+                                                   <dd> <a href='zcfg/ywbzml/index.htm'><span>业务标准目录</span></a></dd>
+                                                   <dd> <a href='zcfg/bjdxdagzxgwj/index.htm'><span>北京大学档案工作相关文件</span></a></dd>
+                                           </dl>
+                </div>
+              </li>
+             										               <li>
+               <a href='gzjp/jpda/index.htm'>馆藏精品</a>
+                <div class="subNav">
+                  <dl>
+                                                <dd> <a href='gzjp/jpda/index.htm'><span>精品档案</span></a></dd>
+                                                   <dd> <a href='gzjp/byzy/index.htm'><span>毕业赠言</span></a></dd>
+                                           </dl>
+                </div>
+              </li>
+             							                <li> <a href='xzzq/index.htm'>下载专区</a></li>
+                				            </ul>
+        </div>
+</header>
+<!--header结束 -->
+<!--banner开始-->
+<article class="banner">
+    <div class="slide_container">
+      <ul class="rslides" id="slider">
+              <li><a href="tplb/1143.htm"><img src="images/content/2017-11/20171108201837280980.png" alt=""></a></li>
+               <li><a href="tplb/1142.htm"><img src="images/content/2017-11/20171108202318310173.png" alt=""></a></li>
+             </ul>
+    </div>
+    
+</article>
+<!--banner结束 -->
+
+<!--content开始-->
+<article class="content">
+	<div class="row mode01">    
+    	<section class="news">
+        <div class="title">
+          <h2>动态信息</h2><a href="dtxx/index.htm">更多</a>
+        </div> 
+        <div class="news_con">
+          <dl>
+          		    <dt>
+              <img src="images/content/2018-10/20181015083708426843.jpg" alt="">
+            </dt>
+            <dd>
+              <a href="dtxx/309952.htm">            关于北京大学2017年度文书档案归档工作的通知 
+    </a>
+              <p>2018-10-15</p>
+            </dd>
+			             		   
+            <dd>
+              <a href="dtxx/287247.htm">            档案馆2018年暑假值班表 
+    </a>
+              <p>2018-07-09</p>
+            </dd>
+					   
+            <dd>
+              <a href="dtxx/270526.htm">            档案馆查档在线预约服务正式开放 
+    </a>
+              <p>2018-06-04</p>
+            </dd>
+			          </dl>
+          <dl class="right">
+          		    <dt>
+              <img src="images/content/2018-10/20181015083956862975.png" alt="">
+            </dt>
+            <dd>
+              <a href="dtxx/309926.htm">            档案馆举办文书档案归档业务培训会 
+    </a>
+              <p>2018-10-12</p>
+            </dd>
+			          		
+            <dd>
+              <a href="dtxx/267529.htm">            档案馆五一及校庆期间值班表 
+    </a>
+              <p>2018-04-27</p>
+            </dd>
+					
+            <dd>
+              <a href="dtxx/247743.htm">            档案馆2018年寒假带班值班计划表 
+    </a>
+              <p>2018-01-05</p>
+            </dd>
+			        </dl>
+        </div>
+        
+      </section>
+      <section class="tongzhi">
+        <div class="title">
+          <h2>服务信息</h2><a href="fwxx/index.htm">更多</a>
+        </div>
+        <ul>
+         		  <li>
+            <span class="date">
+              <span class="day">11</span>
+              <span class="month">
+            Sep
+            </span>
+            </span>
+            <a href="fwxx/306988.htm">            关注档案馆微信公众号预约查档 
+    </a>
+          </li>
+          		  <li>
+            <span class="date">
+              <span class="day">21</span>
+              <span class="month">
+            Nov
+            </span>
+            </span>
+            <a href="fwxx/18021.htm">            北京大学档案web录入系统登录 
+    </a>
+          </li>
+          		  <li>
+            <span class="date">
+              <span class="day">06</span>
+              <span class="month">
+            Nov
+            </span>
+            </span>
+            <a href="fwxx/17997.htm">            档案馆联系方式及阅览室对外开放时间 
+    </a>
+          </li>
+          		  <li>
+            <span class="date">
+              <span class="day">13</span>
+              <span class="month">
+            Sep
+            </span>
+            </span>
+            <a href="fwxx/18017.htm">            查档须知和常见问题 
+    </a>
+          </li>
+          		  <li>
+            <span class="date">
+              <span class="day">04</span>
+              <span class="month">
+            Apr
+            </span>
+            </span>
+            <a href="fwxx/17999.htm">            档案馆馆舍位置 
+    </a>
+          </li>
+                  </ul>
+      </section>        
+  </div>
+  <div class="row mode02">
+       <div class="sm">
+      <img src="images/content/2017-11/20171116095455771718.jpg" alt="">
+      <div class="sm_con">
+         
+                  马寅初先生关于教师兼职问题给蔡元培先生的信 
+      
+        <p><a href="gzjp/jpda/1213.htm">详细…</a></p>
+      </div>
+    </div>
+	   </div>
+   <div class="row mode03">
+      <section class="xueshu">
+        <div class="title">
+          <h2>概况</h2><a href="gk/index.htm">更多</a>
+        </div>
+       
+        <!-- 改为文字内容 -->
+        <div class="introduction">
+        <P>&nbsp;&nbsp;&nbsp;&nbsp; 北京大学档案馆前身为北京大学文书档案室，建于1958年11月，时为校党委办公室的内设机构。1982年12月，北京大学综合档案室成立，为处级建制，1993年4月，更名为北京大学档案馆。1999年，北京大学进行管理体制改革，档案馆成为学校直属机构，既是学校档案工作的职能管理部门，又是永久保存和提供利用本校档案的科学文化事业机构，下设收集指导、管理利用和技术编研三个办公室。&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京大学档案馆馆藏档案丰富，设有北京大学、西南联合大学、日伪占领区的北京大学、北平大学、燕京大学等五个全宗，分为党政、学籍、科研、基建、出版、会计、声像、人物、实物、已故人员十个门类，排架长度1900米。这些档案反映了百余年来...</P>
+
+
+        </div>
+      </section>
+      <section class="zhidu">
+        <div class="title">
+          <h2>档案收集</h2><a href="dasj/index.htm">更多</a>
+        </div>
+        <ul>
+                    <li><span>2014.05.26</span><a href="dasj/gdxz/1185.htm">            北京大学学籍档案管理实施细则 
+    </a></li>
+                   <li><span>2014.05.26</span><a href="dasj/gdxz/1182.htm">            北京大学文书档案管理实施细则 
+    </a></li>
+                   <li><span>2014.03.11</span><a href="dasj/glxtsysc/1191.htm">            北京大学档案管理系统使用手册 
+    </a></li>
+                   <li><span>2014.03.11</span><a href="dasj/dazlzn/1189.htm">            研究生学籍档案归档指导教程 
+    </a></li>
+                   <li><span>2014.03.11</span><a href="dasj/dazlzn/1190.htm">            本科、成教生学籍档案归档指导教程 
+    </a></li>
+                   <li><span>2014.03.11</span><a href="dasj/dazlzn/1188.htm">            文书档案归档指导教程 
+    </a></li>
+                   <li><span>2014.01.02</span><a href="dasj/gdxz/1186.htm">            北京大学“人物档案”征集、归档暂行办法 
+    </a></li>
+                   <li><span>2014.01.02</span><a href="dasj/gdxz/1187.htm">            北京大学人物档案接收整理要求 
+    </a></li>
+                 </ul>
+      </section>
+   </div> 
+</article>
+<!--content结束-->
+<!--footer开始-->
+
+<article class="fooer_wrap">
+	<div class="footer">    	
+        <div class="footer_logo"><img src="images/footer_logo_03.png"/></div>
+        <div class="copy">
+          版权所有 档案馆<br />
+          地址：北京市海淀区颐和园路5号|邮编：100871
+        </div>
+    </div>
+    
+</article>            
+<!--footer结束-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<!-- 通用JS -->
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script type="text/javascript">
+
+$(function () {
+	Nav('#nav');;//导航
+	navMin();  //手机端下拉菜单
+	Menu('.in_mbtn','.navm');//手机版导航
+	ImgHeight();
+    $("#slider").responsiveSlides({
+    auto: true,
+    pager: true,
+    timeout: 6000,
+    nav: true,
+    speed: 500,
+    // 对应外层div的class : slide_container
+    namespace: "slide"
+    });
+	SerMax();  //搜索框弹出效果
+});
+ 
+</script>
+
+
+</body></html>

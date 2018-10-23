@@ -1,0 +1,506 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+
+  <title>Jiao Tong University - Home Page</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="text" />
+<meta name="Publisher" content="Jiao Tong University" />
+<meta name="Author" content="Jiao Tong University" />
+<link rel="shortcut icon" href="/assets/banners/icons/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="/css/main" />
+<link type="text/css" rel="stylesheet" href="/css/content_modules" />
+<link type="text/css" rel="stylesheet" href="/css/theme" />
+<link type="text/css" rel="stylesheet" href="/css/event_calendar" />
+<link type="text/css" rel="stylesheet" href="/css/jquery.ad-gallery" />
+<link type="text/css" rel="stylesheet" href="/css/imagepreview" />
+<link type="text/css" rel="stylesheet" href="/css/rotatelist" />
+<link type="text/css" rel="stylesheet" href="/css/gateways" />
+<link type="text/css" rel="stylesheet" href="/css/highlights" />
+<link type="text/css" rel="stylesheet" href="/css/faculty" />
+<script type="text/javascript" src="/javascripts/jquery-1.4.4.min.js" ></script>
+<script type="text/javascript" src="/javascripts/jquery_cycle.js" ></script>
+<script type="text/javascript" src="/javascripts/jquery.ad-gallery.js"></script>
+<script type="text/javascript" src="/javascripts/grayscale.js" ></script>
+<script type="text/javascript" src="/javascripts/dropdowntabs.js" ></script>
+<script type="text/javascript" src="/js/main" ></script>
+<script type="text/javascript" src="/js/pic_s4" ></script>
+<script type="text/javascript" src="/js/view_menus" ></script>
+<script type="text/javascript" src="/js/left_sidebar" ></script>
+<script type="text/javascript" src="/js/let" ></script>
+<script type="text/javascript" src="/js/show_hide" ></script>
+<script type="text/javascript" src="/js/spotlight"></script>
+<script type="text/javascript" src="/js/gallery_slideshow"></script>
+<script type="text/javascript" src="/js/imagepreview"></script>
+<script type="text/javascript" src="/js/rotatelist"></script>
+<script type="text/javascript" src="/js/highlights"></script>
+<script type="text/javascript" src="/js/showpartial"></script>
+<!--<script type="text/javascript" src="/js/grayscale"></script>-->
+
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="/css/ad-gallery-ie" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="/js/iepngfix_tilebg" ></script>
+<link type="text/css" rel="stylesheet" href="/css/ie6" />
+<![endif]-->
+
+
+</head>
+<body>
+  <div class="skip"><a href="#container">Skip to Content</a></div>
+  <div id="container">
+    <div id="header"><div id="logo"><a href="/" accesskey="0"><img src="/assets/512/logo.jpg" alt="jd_logo" /></a><h1>Jiao Tong University</h1>
+</div>
+<div id="container_header_middle">
+  <div id="items_header" >
+    <ul>
+      <!--li class="header_items"><a href="/academics/academic-calendar">Academic Calendar</a></li-->
+      <li class="header_items"><a href="/about-sjtu/life-sjtu/campus-maps/">Campus Maps</a></li>      
+      <li class="header_items"><a href="http://webmail.sjtu.edu.cn">Campus Email</a></li>
+      <li class="header_items"><a href="http://my.sjtu.edu.cn/Profile/Me">jAccount</a></li>
+      <li id="header_quicklink_item">
+        <div id="quicklink"><img class="menu_class" alt="quicklink" src="/images/quicklink.jpg" />
+          <ul class="the_menu">
+            <li><a href="/academics/faculty">Faculty</a></li>
+            <li><a href="/academics/academic-calendar">Academic Calendar</a></li>
+            <li><a href="http://www.lib.sjtu.edu.cn/list.do?articleType_id=145">Library</a></li>
+            <li><a href="/about-sjtu/life-sjtu/campus-bus-schedule">Campus Bus Schedules</a></li>
+            <li><a href="/about-sjtu/life-sjtu/campus-maps/">Campus Maps</a></li>
+            <li><a href="/about-sjtu/life-sjtu/directions">Directions</a></li>
+
+            <li><a href="http://foundation.sjtu.edu.cn/">Giving</a></li>
+            <li><a href="/about-sjtu/museums">Museums</a></li>
+            <li><a href="/research/journals">Journals</a></li>
+            <li><a href="/admission/scholarships">Scholarships</a></li>
+            <li><a href="/about-sjtu/life-sjtu/sports-facilities/">Sports Facility</a></li>
+            <li><a href="/about-sjtu/life-sjtu/international-student-council/">International Student Council</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="search">
+    <form action="/search" method="get" id="searchformhome">
+      <div class="searchbox">
+        <input type="hidden" name="exclude_pages" value=""/>
+        <input id="search_text" type="text" name="q"  size="15" alt="search" accesskey="s"/>
+        <input class="search_button" value="" type="submit"/>
+      </div>
+      <div id="search_filters">      
+        <label id="web_label" for="web">Site Search</label>
+      </div>
+    </form>
+  </div>
+
+  <div id="nav">
+    <div id="colortab" class="ddcolortabs">
+      <ul>
+        
+          <li>
+            <a href="/" class="hit_now"><span id="nav_home">Home</span></a>
+            
+          </li>
+        
+        
+          <li>
+            
+            <a rel="dropmenu1_a"><span id="About_SJTU">About SJTU</span></a>
+          </li>
+        
+        
+          <li>
+            
+            <a rel="dropmenu2_a"><span  id="Admission">Admission</span></a>
+          </li>
+        
+        
+          <li>
+            
+            <a rel="dropmenu3_a"><span  id="Academics">Academics</span></a>
+
+
+          </li>
+        
+        
+          <li>
+            
+            <a rel="dropmenu4_a"><span id="Research">Research</span></a>
+
+          </li>
+        
+        
+          <li>
+            
+            <a rel="dropmenu5_a"><span id="Jobs">Join Us</span></a>
+          </li>
+        
+      </ul>
+    </div>
+
+    <div id="dropmenu1_a" class="dropmenudiv_a">
+          <a href="/about-sjtu/overview" accesskey="1">Overview</a>
+          <a href="/about-sjtu/presidents-welcome">President's Welcome</a> 
+          <a href="/about-sjtu/sjtu-today">SJTU Today</a> 
+          <a href="/about-sjtu/facts-figures">Facts &amp; Figures</a> 
+          <a href="/about-sjtu/international-student-services/">International Student Services</a> 
+          <a href="/about-sjtu/life-sjtu/accommodation">Life@SJTU</a> 
+          <a href="/about-sjtu/administration">Administration </a> 
+          <a href="/about-sjtu/administrative-departments">Administrative Departments </a>      
+          <a href="/about-sjtu/library">Library </a> 
+          <a href="/about-sjtu/museums">Museums </a> 
+          <a href="/about-sjtu/contact-us">Contact Us</a> 
+    </div>
+
+    <!--2nd drop down menu -->
+    <div id="dropmenu2_a" class="dropmenudiv_a" >
+          <a href="/admission/why-sjtu" accesskey="2">Why SJTU</a> 
+<a href="/admission/how-to-apply">How to Apply</a> 
+          <a href="/admission/non-degree-program">Non-degree Program</a> 
+          <a href="/admission/scholarships">Scholarships</a> 
+          <a href="/admission/tuition-payment/">Tuition Payment</a>
+    </div>
+
+    <!--3nd drop down menu -->
+    <div id="dropmenu3_a" class="dropmenudiv_a" > 
+          <a href="/academics/schools" accesskey="3">Schools</a> 
+          <a href="/academics/undergraduate-programs">Undergraduate Programs</a>
+          <a href="/academics/non-degree-program/">Non-Degree Program</a>
+<a href="/academics/master">Master Program</a>
+        <a href="/academics/phd">PhD Program</a>
+
+          <a href="/academics/faculty/academicians">Faculty</a>
+
+          <!--a href="/academics/academic-calendar">Academic Calendar</a--> 
+    </div>
+      <!--4nd drop down menu -->
+      <div id="dropmenu4_a" class="dropmenudiv_a">
+
+          <a href="/research/overview" accesskey="4">Overview</a> 
+          <a href="/research/initiative">Initiative</a> 
+          <a href="/research/achievements">Achievements</a> 
+          <a href="/research/cooperation/international">Cooperation</a> 
+          <a href="/research/centers-labs">Centers &amp; Labs</a> 
+          <a href="/research/cross-disciplinary">Cross Disciplinary</a> 
+          <a href="/research/technology-transfer/achievement-exhibition-center">Technology Transfer</a> 
+          <a href="/research/journals">Journals</a> 
+          <a href="/research/international-cooperation-office">International Cooperation Office</a> 
+      </div>
+
+      <!--5nd drop down menu -->
+      <div id="dropmenu5_a" class="dropmenudiv_a"> 
+          <!--a  href="/join-us/administrative-position/" accesskey="5">Administrative Position</a-->
+          <!--a  href="/join-us/faculty-positions/chair-professors-and-accredited-professors">Faculty Positions</a-->
+          <a  href="/join-us/post-doctoral-positions">Post-Doctoral Positions</a>
+          <a  href="/join-us/global-young-talents">Global young talents</a>          
+          <!--a  href="/join-us/staff-positions">Staff Positions</a-->
+
+      </div>
+
+    <script type="text/javascript">
+          //SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+        tabdropdown.init("colortab", 6)
+    </script>
+
+  </div>
+
+</div>
+
+<div id="container_header_right">
+  <ul>
+    <li><a href="/about-sjtu/contact-us" accesskey="u">Contact Us</a></li>
+    <li><a href="/site-map" accesskey="m">Site Map</a></li>
+    <li><a href="http://www.sjtu.edu.cn">Chinese Version</a></li>
+              
+    <li>&nbsp;</li>     
+  </ul>
+</div>
+</div>
+    <div id="content_main">
+      <div id="HeadlineWidget">
+<div class="HeadlineText_info"><!-- start -->
+<div class="HeadlineText_bg">&nbsp;</div>
+<div class="HeadlineText2">&nbsp;</div>
+</div>
+<!-- end --> 
+<ul class="StoriesListing">
+<li>
+<div class="HeadlinePicture"><a href="/news/sjtu-give-boost-in-national-strategy-of-making-potato-as-staple-food/"><img style="width: 945px; height: 286px;" src="/assets/6098/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20181019142650.jpg" alt="SJTU Give Boost in National Strategy of Making Potato as Staple Food" width="945" height="286" /></a></div>
+<div class="HeadlineText">
+<h3>SJTU Give Boost in National Strategy of Making Potato as Staple Food</h3>
+</div>
+</li>
+<li>
+<div class="HeadlinePicture"><a href="/news/sjtu-li-cans-research-group-made-breakthrough-in-nanomedicine/"><img style="width: 945px; height: 286px;" src="/assets/6085/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20181018214313.jpg" alt="SJTU Li Can&rsquo;s Research Group Made Breakthrough in Nanomedicine" width="945" height="286" /></a></div>
+<div class="HeadlineText">
+<h3>SJTU Li Can&rsquo;s Research Group Made Breakthrough in Nanomedicine</h3>
+</div>
+</li>
+<li>
+<div class="HeadlinePicture"><a href="/news/sjtus-team-published-paper-about-triboelectric-generator-technology-on-the-applied-physics-reviews/"><img style="width: 945px; height: 286px;" src="/assets/6076/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20181010183447.png" alt="SJTU&rsquo;s Team Published Paper about Triboelectric Generator Technology on the Applied Physics Reviews" width="945" height="286" /></a></div>
+<div class="HeadlineText">
+<h3>SJTU&rsquo;s Team Published Paper about Triboelectric Generator Technology on the Applied Physics Reviews</h3>
+</div>
+</li>
+<li>
+<div class="HeadlinePicture"><a href="/news/sjtu-research-team-won-2018-qiushi-outstanding-science-technology-achievement-team-award/"><img style="width: 945px; height: 286px;" src="/assets/6072/WeChat%20Image_20180928114930.jpg" alt="SJTU Research Team Won 2018 &ldquo;Qiushi Outstanding Science &amp; Technology Achievement Team Award&rdquo;" width="3150" height="953" /></a></div>
+<div class="HeadlineText">
+<h3>SJTU Research Team Won 2018 &ldquo;Qiushi Outstanding Science &amp; Technology Achievement Team Award&rdquo;</h3>
+</div>
+</li>
+</ul>
+<div class="HeadlineNav"><a class="HeadlineNavPrev" href="#">Prev</a> <!--<span class="UbcHeadlineNavPageCount">10 / 10</span>--><a class="HeadlineNavPause" href="#">Pause</a> <a class="HeadlineNavNext" href="#">Next</a></div>
+</div>
+      <div class="clear"></div>
+      <div id="content_center_home">
+        <div id="international">
+  <div id="international_Education">
+<h2>International Education</h2>
+<ul>
+<li> <a href="/academics/undergraduate-programs">Undergraduate Programs</a></li>
+<li><a href="/academics/non-degree-admissions/">Non-degree Program</a></li>
+<li><a href="/academics/master">Master Program</a></li>
+<li><a href="/academics/phd">PhD Program</a></li>
+<li><a href="/faqs-in-chinese-language-study/">FAQs In Chinese Language Study </a></li>
+<li> <a href="/admission/scholarships">Scholarships</a></li>
+<li> <a href="/admission/how-to-apply">How to Apply</a></li>
+<li><a href="/academics/faculty/academicians">Faculty</a></li>
+<li> <a href="http://isc.sjtu.edu.cn/EN/content.aspx?info_lb=260&amp;flag=3">Life@SJTU</a> </li>
+<li><a href="http://global.sjtu.edu.cn/">Global SJTU</a></li>
+<li class="intermore"><a href="/international-education/">Learn More &raquo;</a></li>
+</ul>
+</div>
+<div id="International_Cooperation"><!--
+<h2>
+<hr rel="%3Cr%3Afind%20url%3D%22international-cooperation%22%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Afind%20url%3D%27international-cooperation%27%3E" class="mceItemRadiantCode" title="
+" /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " />" /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " />                                                                                                                       
+<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<hr rel="%3Cr%3Alink%20/%3E" class="mceItemRadiantCode" title="<a href="/international-cooperation/">International Cooperation</a>
+" /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " />" /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " />                                                                                                                       
+<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="<hr rel="%3C/r%3Afind%3E" class="mceItemRadiantCode" title="
+" /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " />" /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /> " /></h2>
+-->
+<h2 style="color:#ffffff;">International Cooperation</h2>
+<ul>
+<li><a href="/research/cooperation/international#scientific_research">International Cooperation in Scientific Research</a></li>
+<li><a href="/research/cooperation/international#talent_cultivation"> International Cooperation in Talent Cultivation</a></li>
+<li><a href="/research/cooperation/international#academic_exchanges"> International Academic Exchange </a></li>
+<li class="intermore"><a href="/international-cooperation/">More Info &raquo;</a></li>
+</ul>
+</div>
+</div>
+
+<div id="news">
+  <h2 style="clear:both;">
+  <span class="news_title">News</span> 
+  <a href="/news_pages.rss" title="News RSS" class="rss_feed"><span>News RSS</span></a>
+</h2>
+<div style="clear:both;">
+<ul>
+  
+
+    
+      <li><div id="news_image"><a href="/news/first-chinese-literature-forum-on-international-communications-held-in-sjtu/"><p><img src="/assets/6092/20181008_064554_615_thumbnail.png" alt="" width="100" height="67" /></p></a>
+      </div>
+      <a href="/news/first-chinese-literature-forum-on-international-communications-held-in-sjtu/">First Chinese Literature Forum on International Communications Held in SJTU</a></li>
+
+    
+      <li><div id="news_image"><a href="/news/sjtu-give-boost-in-national-strategy-of-making-potato-as-staple-food/"><p><img src="/assets/6096/20181018_053443_347_thumbnail.png" alt="" width="100" height="62" /></p></a>
+      </div>
+      <a href="/news/sjtu-give-boost-in-national-strategy-of-making-potato-as-staple-food/">SJTU Give Boost in National Strategy of Making Potato as Staple Food </a></li>
+
+    
+      <li><div id="news_image"><a href="/news/delegation-of-singapore-national-research-foundation-chairman-visited-sjtu/"><p><img src="/assets/6082/JpsI-hmhafis3138770_thumbnail.png" alt="" width="100" height="67" /></p></a>
+      </div>
+      <a href="/news/delegation-of-singapore-national-research-foundation-chairman-visited-sjtu/">Delegation of Singapore National Research Foundation Chairman Visited SJTU</a></li>
+
+    
+      <li><div id="news_image"><a href="/news/sjtu-antai-college-emba-program-ranks-in-global-top-10-for-consecutive-four-years/"><p><img src="/assets/6086/20181014_050248_792_thumbnail.png" alt="" width="100" height="61" /></p></a>
+      </div>
+      <a href="/news/sjtu-antai-college-emba-program-ranks-in-global-top-10-for-consecutive-four-years/">SJTU Antai College EMBA Program Ranks in Global Top 10 For Consecutive Four Years</a></li>
+
+    
+      <li><div id="news_image"><a href="/news/sjtu-li-cans-research-group-made-breakthrough-in-nanomedicine/"><p><img src="/assets/6083/20181011_044926_967_thumbnail.png" alt="" width="100" height="87" /></p></a>
+      </div>
+      <a href="/news/sjtu-li-cans-research-group-made-breakthrough-in-nanomedicine/">SJTU Li Can’s Research Group Made Breakthrough in Nanomedicine</a></li>
+
+    
+
+  
+</ul>
+</div>
+<div class="more_news" ><a href="/news">All News &raquo;</a></div>
+
+</div>
+
+<div id="events">
+  <h2>
+  <span class="events_title">Events</span>
+  <a href="/events.rss" title="Events RSS" class="rss_feed"><span>Events RSS</span></a>
+</h2>
+
+  <div class="events_box">
+    <div class="event_date">
+      <h3><span class="event_month">Sep</span> <span class="event_day">17</span></h3>
+      <span class="event_time">
+        
+        13:30
+      </span>
+    </div>
+    <div class="event_list">
+     <div class="event_title"><a href="/events/2033-our-kids-the-american-dream-in-crisis" >Our Kids: The American Dream in Crisis</a></div>
+
+    </div>
+  </div>
+
+  <div class="events_box">
+    <div class="event_date">
+      <h3><span class="event_month">Jun</span> <span class="event_day">16</span></h3>
+      <span class="event_time">
+        
+        09:00
+      </span>
+    </div>
+    <div class="event_list">
+     <div class="event_title"><a href="/events/2032-admission-and-opening-time-for-qian-xuesen-library-2018-duanwu-festival" >Admission and Opening Time For Qian Xuesen Library 2018 Duanwu Festival</a></div>
+
+    </div>
+  </div>
+
+  <div class="events_box">
+    <div class="event_date">
+      <h3><span class="event_month">May</span> <span class="event_day">18</span></h3>
+      <span class="event_time">
+        All Day
+        
+      </span>
+    </div>
+    <div class="event_list">
+     <div class="event_title"><a href="/events/2031-admission-and-opening-time-for-the-2018-international-museum-day" >Admission and Opening Time For the 2018 International Museum Day</a></div>
+
+    </div>
+  </div>
+
+  <div class="events_box">
+    <div class="event_date">
+      <h3><span class="event_month">May</span> <span class="event_day">3</span></h3>
+      <span class="event_time">
+        
+        15:36
+      </span>
+    </div>
+    <div class="event_list">
+     <div class="event_title"><a href="/events/2030-free-tickets-to-international-standard-ballroom-dance-competition" >Free Tickets  to  International Standard Ballroom Dance Competition</a></div>
+
+    </div>
+  </div>
+
+  <div class="events_box">
+    <div class="event_date">
+      <h3><span class="event_month">Apr</span> <span class="event_day">5</span></h3>
+      <span class="event_time">
+        
+        09:00
+      </span>
+    </div>
+    <div class="event_list">
+     <div class="event_title"><a href="/events/2029-admission-and-opening-time-for-the-2018-qingming-festival" >Admission and Opening Time For the 2018 Qingming Festival</a></div>
+
+    </div>
+  </div>
+
+  <div class="events_box">
+    <div class="event_date">
+      <h3><span class="event_month">Mar</span> <span class="event_day">15</span></h3>
+      <span class="event_time">
+        
+        14:00
+      </span>
+    </div>
+    <div class="event_list">
+     <div class="event_title"><a href="/events/2028-repeating-after-derrida-writing-across-the-chinese-prejudice-waiting-for-a-calligraphic-prelude" >Repeating “一筆揮之” after Derrida: Writing Across The “Chinese Prejudice”, Waiting for a Calligraphic Prelude</a></div>
+
+    </div>
+  </div>
+
+<div class="more_events" ><a href="/calendar">All Events &raquo;</a></div>
+</div>
+
+<div id="gateways_for">
+  <h2>Gateways for</h2>
+<ul class="gateways_for_list">
+<li><a style="text-transform: none; font-size:14px; font-weight: bold; " href="/about-sjtu/international-student-services/">&middot; New Students</a></li>
+<li><a style="text-transform: none; font-size:14px; font-weight: bold; " href="/gateways-for-students">&middot; Current Students</a></li>
+<li><a style="text-transform: none; font-size:14px; font-weight: bold; " href="/gateways-for-faculty-staff">&middot; Faculty &amp; Staff</a></li>
+<!--
+<li><a href="/gateways-for-staff" mce_href="/gateways-for-staff">&middot; Staff</a></li>
+-->
+<li><a style="text-transform: none; font-size:14px; font-weight: bold;" href="/gateways-for-alumni">&middot; Alumni</a></li>
+<li><a style="text-transform: none; font-size:14px; font-weight: bold;" href="/gateways-for-visitors">&middot; Visitors</a></li>
+</ul>
+<!--                                                                                                                                                                                                                                                                                                      
+<ul class="red_arrow">
+<li><a href="/gateways-for-students" mce_href="/gateways-for-students">Students</a></li>
+<li><a href="/gateways-for-faculty-staff" mce_href="/gateways-for-faculty-staff">Faculty & Staff</a></li>
+<li><a href="/gateways-for-staff" mce_href="/gateways-for-staff">Staff</a></li>
+<li><a href="/gateways-for-alumni" mce_href="/gateways-for-alumni">Alumni</a></li>
+<li><a href="/gateways-for-visitors" mce_href="/gateways-for-visitors"> Visitors</a></li>
+</ul>
+-->
+<div class="picbox1">
+<div id="s4" class="pics">
+<div><a title="Website Feedback" href="/about-sjtu/contact-us#feedback"><img src="/assets/banners/2012/icons/3.jpg" alt="Web Feedback" /></a></div>
+<div><a title="SJTU Ranking" href="http://www.shanghairanking.com/" target="_blank"><img src="/assets/banners/2012/icons/1.jpg" alt="SJTU Ranking" /></a></div>
+<div><a title="Qian Xuesen Library" href="http://www.sjtu.edu.cn/qxs.htm" target="_blank"><img src="/assets/banners/2012/icons/2.jpg" alt="Qian Xuesen Library" /></a></div>
+<div><a title="SJTU Campus Virtual Tour" href="http://3dcampus.sjtu.edu.cn/en/index_EN.htm" target="_blank"><img src="/assets/banners/2012/icons/4.jpg" alt="SJTU Campus Virtual Tour" /></a></div>
+<div><a title="SJTU Library" href="http://www.lib.sjtu.edu.cn/index.php?m=content&amp;c=index&amp;lang=en" target="_blank"><img src="/assets/banners/2012/icons/5.jpg" alt="SJTU Library" /></a></div>
+</div>
+</div>
+<h2>At SJTU</h2>
+<ul class="gray-list">
+<li><a title="Study@SJTU" href="http://isc.sjtu.edu.cn/EN/Default.aspx" target="_blank">Study@SJTU</a></li>
+<li><a title="SJTU in News" href="/sjtu-in-news">SJTU in News</a></li>
+<li><a title="FAQs" href="/about-this-site/faqs">FAQs</a></li>
+<li><a title="Giving to SJTU" href="http://foundation.sjtu.edu.cn/Index_e/Index.php">Giving</a></li>
+</ul>
+</div>
+      </div>
+    </div>
+  </div>
+ </div>
+ <div id="content_center_home2" style="align: center;" >
+      <h5 style="color: #7d7d7d; padding:0px; margin-bottom:-15px;">More Resources</h5>
+<img style="border:0px; padding: 0px; margin: 0px;" src="/assets/banners/icons/sitebanner.jpg" />
+
+<p style="color: #7d7d7d; margin: 0px;"  id="sitecollection" >
+<a href="http://www.moe.edu.cn/publicfiles/business/htmlfiles/moe/moe_2792/index.html" target="_blank">
+<img src="/assets/banners/icons/MinistryEducation.jpg" /></a>
+<a href="http://en.csc.edu.cn/laihua/" target="_blank">
+<img src="/assets/banners/icons/ChinaScholoarship.jpg"/></a>
+<a  href="http://www.shmec.gov.cn/english/index.php" target="_blank">
+<img  src="/assets/banners/icons/studyinchina.jpg" /></a>
+<a  href="http://www.chinesetesting.cn/index.do" target="_blank">
+<img src="/assets/banners/icons/ChineseTest.jpg" /></a>
+<a  href="http://english.eastday.com/" target="_blank">
+<img src="/assets/banners/icons/eastday.jpg" /></a>
+
+</p>
+
+ </div>
+  <div class="clear">&nbsp;</div>
+  <div id="footer">
+  <div class="footbanner"></div>
+  <div class="contact"><span>Address: </span>800 Dongchuan RD. Minhang District, Shanghai, China <span>Telephone: </span>+86 21 54740000<br/>
+  
+  </div>
+  <div class="copyright">Copyright &copy; 2010 Shanghai Jiao Tong University<br/>       <a href="http://cert.sjtu.edu.cn/beian_user/show.asp?number=1082">沪交ICP备20101082</a></div>
+
+</div>
+
+
+ <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F702d5777850a583782235be899f5604d' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html class="expanded">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>
+兵工厂 - 虎扑社区
+</title>
+<link rel="dns-prefetch" href="//b1.hoopchina.com.cn" />
+<link rel="dns-prefetch" href="//b3.hoopchina.com.cn" />
+<link rel="apple-touch-icon" href="//b1.hoopchina.com.cn/common/apple-touch-icon.png" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.hupu.com/bbs/2353" />
+<meta name="mobile-agent" content="format=html5;url=https://m.hupu.com/bbs/2353" />
+<link rel="canonical" href="https://bbs.hupu.com/fubai" />
+<link rel="alternate" href="android-app://com.hupu.games/huputiyu/bbs/board/2353?r=hupucom"/>
+<script type='text/javascript'>var __daceDataNameOfForum='2353';var __daceDataNameOfCategory = '114'; var __daceDataNameOfProject='hupu';var __daceDataNameOfChannel='';</script>
+
+
+<meta name="keywords" content="兵工厂" />
+<meta name="description" content="兵工厂来自虎扑社区, 【Arseblog中文站后勤基地】我们的博客——&lt;a href=&quot;http://arseblog.cn.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow me noopener noreferrer&quot;&gt;http://arseblog.cn.com/&lt;/a&gt; 【联合工地 兵工厂】用户组开张了！  &lt;a href=&quot;http://bbs.hoopchina.com/2928699.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow me noopener noreferrer&quot;&gt;http://bbs.hoopchina.com/2928699.html&lt;/a&gt;【托儿所翻译流程图】1求种 2接工 3完工 4群P 5 发联合工地 6PM版主转区 7在置顶引索登记 8 收卡" />
+
+<meta name="apple-itunes-app" content="app-id=906632439" />
+<link rel="shortcut icon" href="//b3.hoopchina.com.cn/common/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="//b3.hoopchina.com.cn/common/common-v1.css" />
+<script src="//b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js"></script> 
+<script src="//b3.hoopchina.com.cn/common/common-v1.js"></script>
+<script type="text/javascript">
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+
+    </script>
+
+<style type="text/css">
+      .bd-gx{
+        position:relative;
+      }
+      .bd-gx:before{
+        display:block; position: absolute; content:"";width:100%;height:100%;left:0;top:0;
+        background:url("//b1.hoopchina.com.cn/images/bbs/yigouwang.jpg") no-repeat;
+        background-size:100% auto; z-index:999;
+      }
+      .bg-gx img {display:none;}
+    </style>
+
+<link rel="stylesheet" type="text/css" href="//b3.hoopchina.com.cn/web/channel/bbs/static/common/pkg/bbsCommon_61a28dd.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/pkg/bbsSubPages_e79f3ae.css"/><link rel="stylesheet" type="text/css" href="//b3.hoopchina.com.cn/web/channel/bbs/static/common/widget/bxjTab/bxjTab_9c2d97e.css"/><link rel="stylesheet" type="text/css" href="//b1.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/showdiv/showdiv_81f63a0.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/message/message_d801d2c.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/plateTit/plateTit_e5aab99.css"/></head>
+<body>
+<!--topbarNav star-->
+                        <div id="hp-topbarNav">
+                            <div class="hp-topbarNav-bd">
+                                <ul class="hp-quickNav">
+                                    <li class="mobileWeb"><a href="javascript:void(0)" onclick="hp_quick_touch()"><i class="ico-mobile"></i>手机虎扑</a></li>
+                                    <li class="line">|</li>
+                                    <li class="mobileclientDown"><a class="red" href="https://mobile.hupu.com/?_r=globalNav" target="_blank">虎扑客户端</a></li>
+                                    <li class="line">|</li>
+                                    <li class="hp-dropDownMenu topFollowBlog">
+                                        <a href="javascript:void(0)" class="hp-set">关注虎扑<s class="setArrow"></s></a>
+                                        <div class="hp-drapDown followLayer">
+                                            <a class="weibo" target="_blank" rel="nofollow" href="//weibo.com/liangle4u"><i class="hp-ico-weibo"></i>新浪微博</a>
+											<a class="weixin" target="_blank" href="https://voice.hupu.com/other/1581560.html"><i class="hp-ico-weixin"></i>官方微信</a>
+                                            <a class="instagram" target="_blank" rel="nofollow" href="https://voice.hupu.com/other/1634334.html"><i class="hp-ico-instagram"></i>Instagram</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="hp-topLogin-info"></div>
+                            </div>
+                        </div>
+                        <!--topbarNav ent--><!--header star--><div class="hp-header hp-header-B"><div class="hp-logo"><a title="社区" href="https://bbs.hupu.com/"><img src="https://b3.hoopchina.com.cn/images/logo2017/v1/hp_logo_sports.png" alt="社区" width="140px" height="52px"/></a>
+                            </div>
+                            <div class="hp-mainNav hp-mainNav-B">
+                                <div class="hp-nav">
+                                    <div class="hp-nav-bd">
+                                        <ul class="hp-nav-item"><li><a href="https://www.hupu.com/" >虎扑首页</a></li><li class="line">|</li><li><a href="https://nba.hupu.com/" >NBA</a></li><li class="line">|</li><li><a href="https://cba.hupu.com/" >CBA</a></li><li class="line">|</li><li><a href="https://gg.hupu.com" >电竞</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com" >国际足球</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com/china/" >中国足球</a></li><li class="line">|</li><li><a href="http://racing.hupu.com/" >赛车</a></li><li class="line">|</li><li><a href="http://zb.hupu.com/" target="_blank">装备</a></li><li class="line">|</li><li><a href="http://www.shihuo.cn/" target="_blank">识货</a></li><li class="line">|</li><li class="on"><a href="https://bbs.hupu.com/" >社区</a></li><li class="line">|</li><li><a href="https://bbs.hupu.com/all-gambia" >步行街</a></li><li class="line">|</li><li><a href="http://www.liangle.com" target="_blank">路人王</a></li><li class="line">|</li><li class="hp-dropDownMenu hp-moreNav">
+                                                <a href="javascript:void(0)" class="hp-set">更多<s class="setArrow"></s></a>
+                                                <div class="hp-drapDown hp-moreNav-drapDown"><a href="https://shop311048929.taobao.com/" target="_blank">虎扑优选</a><a href="http://outdoor.hupu.com/" >户外</a><a href="http://run.hupu.com/" >健身</a><a href="http://ymq.hupu.com/" >羽毛球</a><a href="http://xgame.hupu.com/" target="_blank">xgames</a><a href="http://www.nflchina.com/" target="_blank">NFL</a><s class="arrow-top"><s class="arrowbd"></s></s>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="hp-subNav">
+    <ul class="hp-subNav-item">
+        <li><a href="/">首页</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-nba">NBA版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-cba">CBA版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-soccer">国际足球版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/china-soccer">中国足球版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-sports">综合体育</a></li><li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a target="_blank" href="https://bbs.hupu.com/all-gear">装备版</a>
+            <div class="hp-drapDown">
+                <a href="https://bbs.hupu.com/c2c">交易区</a>
+                <a href="https://bbs.hupu.com/jersey">球衣区</a>
+                <a href="https://bbs.hupu.com/outdoorgear">户外装备</a>
+            </div>
+        </li>
+		<li class="line">|</li>
+        <li class="hp-dropDownMenu">
+			<a href="/all-gambia" class="hp-set">步行街</a>
+			<div class="hp-drapDown">
+				<a href="https://bbs.hupu.com/bxj">步行街主干道</a>
+				<a href="https://bbs.hupu.com/ent">影视区</a>
+				<a href="https://bbs.hupu.com/acg">ACG区</a>
+				<a href="https://bbs.hupu.com/nba2k">NBA2K区</a>
+				<a href="https://bbs.hupu.com/game">电竞区</a>
+				<a href="https://bbs.hupu.com/cars">车友交流</a>
+				<a href="https://bbs.hupu.com/music">音乐区</a>
+				<a href="https://bbs.hupu.com/love">情感区</a>
+				<a target="_blank" href="https://bbs.hupu.com/all-gambia">更多</a>
+				<s class="arrow-top"><s class="arrowbd"></s></s>
+			</div>
+		</li><li class="line">|</li>	
+        <li class="hp-dropDownMenu">
+			<a href="/all-lottery" class="hp-set">彩票版</a>
+			<div class="hp-drapDown">
+				<a href="https://bbs.hupu.com/lancai">篮彩神棍区</a>
+				<a href="https://bbs.hupu.com/zucai">足彩讨论区</a>
+				<a href="https://bbs.hupu.com/shuzicai">数字彩讨论区</a>
+				<a href="https://bbs.hupu.com/caipiao">虎扑彩票客服区</a>
+				<s class="arrow-top"><s class="arrowbd"></s></s>
+			</div>
+		</li><li class="line hp-hide-w1024">|</li>
+		<li class="hp-hide-w1024"><a href="/all-group">虎扑社团</a></li><li class="line">|</li>
+		<li><a target="_blank" href="https://bbs.hupu.com/all-boards">自建版块</a></li><li class="line">|</li>
+		<li><a target="_blank" href="https://bbs.hupu.com/all-feedback">站务版</a></li>
+    </ul>
+</div>
+
+                                <i class="hp-roundPoint-br-tl roundPoint-br-tl"></i>
+                                <i class="hp-roundPoint-br-tr roundPoint-br-tr"></i>
+                                <i class="hp-roundPoint-br-bl roundPoint-br-bl"></i>
+                                <i class="hp-roundPoint-br-br roundPoint-br-br"></i>
+                            </div>
+                        </div>
+
+<script>
+  googletag.cmd.push(function() {
+                googletag.defineSlot('\/1016953\/nba_bbs_list_right_320x60', [320, 60], 'nba_bbs_list_right_320x60').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/hoopchina-bbs-right-Optimus-120x600', [120, 600], 'hoopchina-bbs-right-Optimus-120x600').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/nba_bbs_list_1x1', [1, 1], 'nba_bbs_list_1x1').addService(googletag.pubads());
+              googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+</script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/js/jquery/jquery-1.12.0.min_71bada2.js"></script>
+<div class="hp-threeNav">
+<div class="hp-threeNav-bd">
+<ul class="hp-threeNav-item">
+<li>
+<a href="/all-group">首页</a>
+</li>
+</ul>
+</div>
+<div class="hp-search">
+<a target="_blank" id="hp-form-search"  href="">
+</a>
+<input type="text" placeholder="搜索视频、帖子" id="showfoucs1" class="it-search it-search-for">
+<input type="button" value="搜索" class="btn-searchs">
+<input type="hidden"  class="btn-search">
+<div id="hp-search-choose" class="hp-search-choose">
+<ul>
+<li id="tiezi">
+<p><span>帖子</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="videos">
+<p><span>视频</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="rizhi">
+<p><span>日志</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="cyuan">
+<p><span>成员</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="shihuo" >
+<p><span>识货</span>搜索：<label class="searchval"></label></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="" style="width:px; height:px;">
+<script>
+        googletag.cmd.push(function() { googletag.display(''); });
+  </script>
+</div>
+<div class="showdiv">
+<div class="pop">
+<div class="pop_content">
+<h2 class="mpop"><a onclick="closepop()"></a>
+推荐版块</h2>
+<ul class="pop_commend">
+<form name="rm_form">
+<li>推荐语：</li>
+<li><textarea name="tjmsg" id="tjmsg" class="j_enter j_enter_this"></textarea></li>
+<li>
+<input name="cid" id="cid" type="hidden" value="2353">
+<input name="fid" type="hidden" value="2353">
+<input name="Input2" type="button" class="btns2 j_tjmsg" id="j_recs" value="推 荐">&nbsp; &nbsp;<input name="Input2" type="button" class="btnb2" value="取 消" onclick="closepop()">
+</li>
+</form>
+</ul>
+</div>
+</div>
+</div>
+<div id="j_tip" class="tips_up_pop">
+<div id="j_tip_t">
+<div class="tips_pop"></div>
+</div>
+</div>
+<div class="bbs-content">
+<div id="container">
+<div class="container_padd">
+<div class="bbsPlate">
+<div class="showPlate">
+<div id="J-t-plate">
+<script id="J-plate-tpl" type="text/template">
+      <@if(datas.length>0){@>
+      <p class="forMyplate">
+        <span class="forhot">我关注的版块</span>
+       <a class="guanli" href="//bbs.hupu.com/myboardadmin.php?url=https://bbs.hupu.com/" onclick="window.open('/myboardadmin.php?url=https://bbs.hupu.com/','o','width=300,height=700,left=200,top=100,scrollbars=1,resizable=1');return false;">管理</a>
+      </p>
+     <ul class="bbs-showMyPlate">
+            <li>
+              <a href="/i"><span class="showname">我关注的版块帖子</span></a>
+            </li>
+            <@ $(datas).each(function(index,item){ @>
+              <li>
+                <a href="<@=item.url@>"  title="<@=item.bname@>">
+                  <span class="showname"><@=item.bname@></span>
+                  <@if(item.tpost>0){@>
+                  <span class="num"><@=item.tpost@></span>
+                  <@ } @>
+                </a>
+              </li>
+            <@ }); @>
+
+    </ul>
+      <@ } @>
+  </script>
+</div>
+<p class="forMyplate" style="margin-top:8px;">
+<span class="forhot" >版块分类</span>
+</p>
+<ul class="bbs_banner">
+<li  data-num="0">
+<a href="/all-nba"  class="data-1" data-fid="1">NBA论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="1">
+<a href="/all-cba"  class="data-232" data-fid="232">CBA论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="2">
+<a href="/all-soccer"  class="data-198" data-fid="198">国际足球论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="3">
+<a href="/all-csl"  class="data-4596" data-fid="4596">中国足球论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="4">
+<a href="/all-gg"  class="data-234" data-fid="234">游戏电竞</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="5">
+<a href="/all-gambia"  class="data-174" data-fid="174">步行街</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="6">
+<a href="/all-boards"  class="data-238" data-fid="238">自建版块</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="7">
+<a href="/all-gear"  class="data-233" data-fid="233">运动和装备</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="8">
+<a href="/all-sports"  class="data-41" data-fid="41">综合体育</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="9">
+<a href="/all-lottery"  class="data-42" data-fid="42">彩票中心</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="10">
+<a href="/all-group"  class="data-114" data-fid="114">虎扑社团</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="11">
+<a href="/all-feedback"  class="data-7" data-fid="7">站务管理</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+</ul>
+<p class="morebbs">
+<a href="//bbs.hupu.com/boards.php" >更多版块»</a>
+</p>
+
+</div>
+<div class="leftad" id="hoopchina-bbs-right-Optimus-120x600" style="width:120px; height:600px; ">
+<script>
+                     googletag.cmd.push(function() { googletag.display('hoopchina-bbs-right-Optimus-120x600'); });
+               </script>
+</div>
+</div>
+<div class="bbsHotPit" style="width:1020px;">
+<a id="isadmin" style="display:none">0</a>
+<div class="bbs_head" >
+<div class="breadCrumbs">
+<a href="/">社区</a>&nbsp;»&nbsp;<a href="/all-group">虎扑社团</a>
+&nbsp;»&nbsp;<a href="/unite">联合工地</a>
+</div>
+<div class="titpres"  id="nba_bbs_list_right_320x60" style="width:320px; ">
+<script>
+         googletag.cmd.push(function() { googletag.display('nba_bbs_list_right_320x60'); });
+   </script>
+</div>
+<div class="right">
+<input type="text" placeholder="搜索本版帖子"class="it-search lit-search-tit">
+<input type="button" class="btn-search lit-search-btn">
+</div>
+<h1 class="left">
+<span class="infoname" id="forumname" fid="2353" fidurl="fubai">兵工厂</span>
+</h1>
+<div class="pl_nav">
+
+<span class="pl_d">&nbsp;</span>
+<div class="pl_top ">
+版块介绍：<span id="des_forum">【Arseblog中文站后勤基地】我们的博客——<a href="http://arseblog.cn.com/" target="_blank" rel="nofollow me noopener noreferrer">http://arseblog.cn.com/</a> 【联合工地 兵工厂】用户组开张了！  <a href="http://bbs.hoopchina.com/2928699.html" target="_blank" rel="nofollow me noopener noreferrer">http://bbs.hoopchina.com/2928699.html</a>【托儿所翻译流程图】1求种 2接工 3完工 4群P 5 发联合工地 6PM版主转区 7在置顶引索登记 8 收卡</span>
+<br>
+版主：</div>
+</div>
+</div>
+<div class="tabs_header zoom" id="tabs_header">
+<ul class="left">
+<li class="selected"><a href="/fubai">主题</a></li>
+<li  ><a href="/fubai-digest">精华</a></li>
+<li><a href="/fubai/highlights" >亮了</a></li>
+<li><a href="/fubai/members">成员</a></li>
+<li><a href="/fubai/ranking"><span>赞赏排行</span></a></li>
+</ul>
+<div class="right">
+<a id="g_n" class="issue_button"   rel="nofollow me noopener noreferrer" href="/post.php?fid=2353">发新帖</a>
+</div>
+<div class="clearfix tabs_border"></div>
+</div>
+<div id="sort">
+<div class="fr">
+<form style="display:inline">
+<input type="hidden" value="1" data-name="fubai" class="orderpagenum"  />
+<select id="orderway-new" style="vertical-align:middle; _vertical-align:top;">
+<option value="null" selected="">排序方式</option>
+<option value="lastpost">按回帖时间排序</option>
+<option value="postdate">按发帖时间排序</option>
+</select>
+</form>
+</div>
+<a class="blue" href="/fubai-type1">视图</a>
+<a class="blue" href="/fubai-type2">◆求种◆</a>
+<a class="blue" href="/fubai-type3">坑</a>
+<a class="blue" href="/fubai-type4">水</a>
+<a class="blue" href="/fubai-type5">完工鸟文</a>
+<a class="blue" href="/fubai-type6">原创</a>
+<a class="blue" href="/fubai-type7">个人大楼</a>
+<a class="blue" href="/fubai-type8">毛衣</a>
+<a class="blue" href="/fubai-type9">福利</a>
+<a class="blue" href="/fubai-type10">内部赌局</a>
+<div class="clearfix" style="*height:0;"></div>
+</div>
+<i id="level2header" title="虎扑社团"></i>
+<form  id="ajaxtable">
+<div class="show-list">
+<p class="show-tit">
+<span class="t1">主题</span>
+<span class="t2">作者</span>
+<span class="t3">回复/浏览</span>
+<span class="t4">最后回复</span>
+</p>
+<ul class="for-list">
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type9">福利</a>]<span style="color:#b50000">[置顶]</span>
+<a  href="/3563726.html" class="truetit" target="_blank">Arseblog中文站工作手册 6月20日更新操作图注</a>
+[&nbsp;<span class="multipage">
+<a href="/3563726-2.html" target="_blank">2</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-04-22</a>
+</div>
+<span class="ansour box">29&nbsp;/&nbsp;4811</span>
+<div class="endreply box">
+<a href="3563726-2.html#o" >2012-11-01</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a style="color:red" class="truetit"   href="/2661839.html"  target="_blank"><b>[转帖+更新不断]他们加入兵工厂时的样子</b></a>
+[&nbsp;<span class="multipage">
+<a href="/2661839-2.html" target="_blank">2</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/58090512259861" >cleverfish</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2011-08-31</a>
+</div>
+<span class="ansour box">22&nbsp;/&nbsp;3703</span>
+<div class="endreply box">
+<a href="2661839-2.html#o" >2014-03-30</a>
+<br />
+<span class="endauthor ">醉月舞风轻</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type10">内部赌局</a>]<a  href="/3606561.html" class="truetit" target="_blank">5万卡竞猜波尔多斯基在阿森纳的球衣号码</a>
+[&nbsp;<span class="multipage">
+<a href="/3606561-2.html" target="_blank" >2</a>
+<a href="/3606561-3.html" target="_blank">3</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-04-30</a>
+</div>
+<span class="ansour box">51&nbsp;/&nbsp;2209</span>
+<div class="endreply box">
+<a href="3606561-3.html#o" >2014-02-15</a>
+<br />
+<span class="endauthor ">萌库里啊</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type9">福利</a>]<a  href="/3087179.html" class="truetit" target="_blank">托儿所开张 给小朋友们发糖啦～～也欢迎阿姨们来领。。。</a>
+[&nbsp;<span class="multipage">
+<a href="/3087179-2.html" target="_blank" >2</a>
+<a href="/3087179-3.html" target="_blank">3</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/249182672749475" >arsenalfish</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2011-12-29</a>
+</div>
+<span class="ansour box">42&nbsp;/&nbsp;1791</span>
+<div class="endreply box">
+<a href="3087179-3.html#o" >2014-01-10</a>
+<br />
+<span class="endauthor ">烟火会坠落</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type9">福利</a>]<a  href="/6231167.html" class="truetit" target="_blank">好像。。。这个大坑升级了。。。</a>
+[&nbsp;<span class="multipage">
+<a href="/6231167-2.html" target="_blank">2</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2013-08-25</a>
+</div>
+<span class="ansour box">28&nbsp;/&nbsp;939</span>
+<div class="endreply box">
+<a href="6231167-2.html#o" >2013-09-05</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/6280953.html" class="truetit" target="_blank">战术招工</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2013-09-01</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;478</span>
+<div class="endreply box">
+<a href="6280953.html#o" target="_blank">2013-09-01</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type4">水</a>]<a style="color:red"  class="truetit"  href="/1931718.html" target="_blank"><u>每天来加油一句吧</u></a>
+[&nbsp;<span class="multipage">
+<a href="/1931718-2.html" target="_blank">2</a>
+<a href="/1931718-3.html" target="_blank">3</a>...<a href="/1931718-26.html" target="_blank">26</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2011-02-28</a>
+</div>
+<span class="ansour box">506&nbsp;/&nbsp;6790</span>
+<div class="endreply box">
+<a href="1931718-26.html#o" >2013-08-23</a>
+<br />
+<span class="endauthor ">胡种子</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/5625993.html" class="truetit" target="_blank">Usmanov takes a ￡250m dividend</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2013-05-18</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;756</span>
+<div class="endreply box">
+<a href="5625993.html#o" target="_blank">2013-05-18</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a style="color:red"  class="truetit"  href="/2226767.html" target="_blank">zt温格是最合适的 －－ 财政的真相（＋目前一些问题的回答总结）</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/23589572237625" >面善爱潇潇</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2011-05-01</a>
+</div>
+<span class="ansour box">7&nbsp;/&nbsp;992</span>
+<div class="endreply box">
+<a href="2226767.html#o" target="_blank">2013-02-27</a>
+<br />
+<span class="endauthor ">vonamason</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type7">个人大楼</a>]<a style="color:blue"  class="truetit"  href="/3117985.html" target="_blank">Jon Toral 陀螺小楼 麦格雷戈和兰帕德的混合体！</a>
+[&nbsp;<span class="multipage">
+<a href="/3117985-2.html" target="_blank" >2</a>
+<a href="/3117985-3.html" target="_blank">3</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/154271650532130" >JonToral</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-01-06</a>
+</div>
+<span class="ansour box">45&nbsp;/&nbsp;2645</span>
+<div class="endreply box">
+<a href="3117985-3.html#o" >2012-12-21</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/4557025.html" class="truetit" target="_blank">“I’m Finished With Supporting Arsenal”</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-11-05</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;1045</span>
+<div class="endreply box">
+<a href="4557025.html#o" target="_blank">2012-11-19</a>
+<br />
+<span class="endauthor ">ARS_呆子</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type3">坑</a>]<a  href="/3028425.html" class="truetit" target="_blank">[官网] What does Arsenal mean to you</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/277696556523648" >第一阿穆黑</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2011-12-14</a>
+</div>
+<span class="ansour box">15&nbsp;/&nbsp;919</span>
+<div class="endreply box">
+<a href="3028425.html#o" target="_blank">2012-11-01</a>
+<br />
+<span class="endauthor ">april4</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4457681.html" class="truetit" target="_blank">好文！阿森纳2000-2010十年最佳十一人！</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-10-17</a>
+</div>
+<span class="ansour box">9&nbsp;/&nbsp;828</span>
+<div class="endreply box">
+<a href="4457681.html#o" target="_blank">2012-10-18</a>
+<br />
+<span class="endauthor ">LA鸟枪</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4427075.html" class="truetit" target="_blank">In Praise of Carl Jenkinson, Arsenal&#39;s Unlikely New Hero</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-10-11</a>
+</div>
+<span class="ansour box">7&nbsp;/&nbsp;692</span>
+<div class="endreply box">
+<a href="4427075.html#o" target="_blank">2012-10-15</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4356184.html" class="truetit" target="_blank">招工：卡索拉才是阿森纳后防提升的关键！</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-09-25</a>
+</div>
+<span class="ansour box">11&nbsp;/&nbsp;837</span>
+<div class="endreply box">
+<a href="4356184.html#o" target="_blank">2012-10-14</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4427290.html" class="truetit" target="_blank">阿森纳搞得这是足球么天</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-10-11</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;567</span>
+<div class="endreply box">
+<a href="4427290.html#o" target="_blank">2012-10-11</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/3703283.html" class="truetit" target="_blank">卫报很温馨的文 我儿子爱上阿森纳怎么办？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-05-20</a>
+</div>
+<span class="ansour box">6&nbsp;/&nbsp;796</span>
+<div class="endreply box">
+<a href="3703283.html#o" target="_blank">2012-10-09</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/4413795.html" class="truetit" target="_blank">AST Analysis of Arsenal Holdings PLC Accounts For Year Ending May 31, 2012</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-10-09</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;582</span>
+<div class="endreply box">
+<a href="4413795.html#o" target="_blank">2012-10-09</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type7">个人大楼</a>]<a style="color:blue"  class="truetit"  href="/3064820.html" target="_blank">默特萨克的囧图集大楼 挠腮...... 还有他的机油们　１/4　35楼 富勒姆</a>
+[&nbsp;<span class="multipage">
+<a href="/3064820-2.html" target="_blank">2</a>
+<a href="/3064820-3.html" target="_blank" >3</a>
+<a href="/3064820-4.html" target="_blank">4</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2011-12-23</a>
+</div>
+<span class="ansour box">65&nbsp;/&nbsp;2665</span>
+<div class="endreply box">
+<a href="3064820-4.html#o" >2012-10-07</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type4">水</a>]<a  href="/4337409.html" class="truetit" target="_blank">Poldi, Je ne Regrette Rien</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-09-21</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;376</span>
+<div class="endreply box">
+<a href="4337409.html#o" target="_blank">2012-09-21</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type3">坑</a>]<a  href="/3215061.html" class="truetit" target="_blank">[卡路里等着你！]官网赛前备战训练图、比赛图批量收大图教程</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-02-05</a>
+</div>
+<span class="ansour box">4&nbsp;/&nbsp;964</span>
+<div class="endreply box">
+<a href="3215061.html#o" target="_blank">2012-09-21</a>
+<br />
+<span class="endauthor ">verkaray</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4253191.html" class="truetit" target="_blank">Unnatural partnerships and sexy Arteta: a match report of Liverpool 0-2 Arse</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-09-03</a>
+</div>
+<span class="ansour box">4&nbsp;/&nbsp;554</span>
+<div class="endreply box">
+<a href="4253191.html#o" target="_blank">2012-09-15</a>
+<br />
+<span class="endauthor ">sakura13</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4243935.html" class="truetit" target="_blank">Does Arsenal’s latest transfer window show a “lack of ambition”?</a>
+[&nbsp;<span class="multipage">
+<a href="/4243935-2.html" target="_blank">2</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-09-01</a>
+</div>
+<span class="ansour box">24&nbsp;/&nbsp;1226</span>
+<div class="endreply box">
+<a href="4243935-2.html#o" >2012-09-12</a>
+<br />
+<span class="endauthor ">sakura13</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type9">福利</a>]<a style="color:red" class="truetit"   href="/4180073.html"  target="_blank"><b>今天阿丝博客很可能双喜临门 懂得就过来吧</b></a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-08-20</a>
+</div>
+<span class="ansour box">15&nbsp;/&nbsp;747</span>
+<div class="endreply box">
+<a href="4180073.html#o" target="_blank">2012-09-03</a>
+<br />
+<span class="endauthor ">palarsenal</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4187659.html" class="truetit" target="_blank">[董秋迪战术专栏]波多尔斯基跑位的坑爹之处</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-08-21</a>
+</div>
+<span class="ansour box">6&nbsp;/&nbsp;734</span>
+<div class="endreply box">
+<a href="4187659.html#o" target="_blank">2012-08-24</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/3966914.html" class="truetit" target="_blank">How much money would it take to bring Arsenal level with the big spenders?</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-07-10</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;926</span>
+<div class="endreply box">
+<a href="3966914.html#o" target="_blank">2012-08-23</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4178842.html" class="truetit" target="_blank">[gunnerblog]我们只有一个宋啊</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-08-20</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;469</span>
+<div class="endreply box">
+<a href="4178842.html#o" target="_blank">2012-08-21</a>
+<br />
+<span class="endauthor ">agening</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4136167.html" class="truetit" target="_blank">范佩西不续约又卖不掉怎么办——论职场操守和自我价值</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-08-11</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;511</span>
+<div class="endreply box">
+<a href="4136167.html#o" target="_blank">2012-08-11</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a style="color:green" class="truetit"   href="/2980040.html"  target="_blank"><b>腐败区翻译作品文索引贴（主楼更新YG系列和队史系列接工完工情况）</b></a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/58090512259861" >cleverfish</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2011-12-01</a>
+</div>
+<span class="ansour box">9&nbsp;/&nbsp;999</span>
+<div class="endreply box">
+<a href="2980040.html#o" target="_blank">2012-08-11</a>
+<br />
+<span class="endauthor ">LA鸟枪</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4131473.html" class="truetit" target="_blank">Misfortune, myth or neglect? Arsenal’s injury problems investigated</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-08-11</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;547</span>
+<div class="endreply box">
+<a href="4131473.html#o" target="_blank">2012-08-11</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/4039997.html" class="truetit" target="_blank">Unsung.</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-07-25</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;385</span>
+<div class="endreply box">
+<a href="4039997.html#o" target="_blank">2012-07-25</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a style="color:silver"  class="truetit"  href="/3941807.html" target="_blank">Why Arsenal Should Give Robin Van Persie the Divorce That He Wants</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-07-06</a>
+</div>
+<span class="ansour box">4&nbsp;/&nbsp;580</span>
+<div class="endreply box">
+<a href="3941807.html#o" target="_blank">2012-07-16</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type5">完工鸟文</a>]<a  href="/3941064.html" class="truetit" target="_blank">从范玻璃到范将军 从英雄到恶棍</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/250551231903575" >云中momo</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-07-05</a>
+</div>
+<span class="ansour box">9&nbsp;/&nbsp;543</span>
+<div class="endreply box">
+<a href="3941064.html#o" target="_blank">2012-07-06</a>
+<br />
+<span class="endauthor ">fatfat325</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a style="color:silver"  class="truetit"  href="/3939911.html" target="_blank">Why Van Persie&#39;s ill-judged statement will taint his Arsenal legacy forever</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-07-05</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;536</span>
+<div class="endreply box">
+<a href="3939911.html#o" target="_blank">2012-07-05</a>
+<br />
+<span class="endauthor ">云中momo</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a style="color:silver"  class="truetit"  href="/3895849.html" target="_blank">Giroud signs–looks off into distance–wonders where all the shots come from</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171262747602734" >fatfat325</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-06-27</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;533</span>
+<div class="endreply box">
+<a href="3895849.html#o" target="_blank">2012-07-04</a>
+<br />
+<span class="endauthor ">各安</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/3646619.html" class="truetit" target="_blank">Arseblog招新大字报 （工地。。超想扔一句这里TMD有钱发就算了）</a>
+[&nbsp;<span class="multipage">
+<a href="/3646619-2.html" target="_blank">2</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-05-09</a>
+</div>
+<span class="ansour box">27&nbsp;/&nbsp;1007</span>
+<div class="endreply box">
+<a href="3646619-2.html#o" >2012-07-03</a>
+<br />
+<span class="endauthor ">wendy_8839</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/3864047.html" class="truetit" target="_blank">吉鲁能否适应阿森纳的球探报告</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-06-20</a>
+</div>
+<span class="ansour box">4&nbsp;/&nbsp;642</span>
+<div class="endreply box">
+<a href="3864047.html#o" target="_blank">2012-06-22</a>
+<br />
+<span class="endauthor ">云中momo</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/fubai-type2">◆求种◆</a>]<a  href="/3831068.html" class="truetit" target="_blank">阿森纳球迷深情挽留老雷</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/232728915669514" >各安</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-06-14</a>
+</div>
+<span class="ansour box">12&nbsp;/&nbsp;859</span>
+<div class="endreply box">
+<a href="3831068.html#o" target="_blank">2012-06-16</a>
+<br />
+<span class="endauthor ">elizayang</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/3784525.html" class="truetit" target="_blank">[坑]没有阿尔特塔 阿森纳拿的到第三么？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/194813259584261" >斜阳残狼</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2012-06-05</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;374</span>
+<div class="endreply box">
+<a href="3784525.html#o" target="_blank">2012-06-05</a>
+<br />
+<span class="endauthor ">斜阳残狼</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="rss" >
+<a target="_blank" href="https://bbs.hupu.com/rss.php?fid=2353" title="通过RSS订阅兵工厂的帖子"></a>
+</div>
+</form>
+<div class="showpage">
+<div class="page downpage" style="width:620px; float:left"></div>
+<input type="hidden" class="typenum" value="0" />
+<div class="pageright">
+兵工厂共672主题 /7306回复  今日0帖</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bottom_tools" >
+<a id="scrollUp"   title="返回顶部" style="display:none;cursor:pointer;"></a>
+</div>
+<div class="hp-footer">
+                    
+                    <div class="hp-copyright">
+                    
+                    Copyright by 虎扑JRs &amp;
+                    <a href="https://www.hupu.com/" target="_blank" title="虎扑">虎扑</a> -
+                    <a href="http://jobs.hupu.com/" target="_blank">在虎扑工作</a> -
+                    <a href="http://marketing.hupu.com/contact/" target="_blank">联系我们</a> -
+                    <a href="https://m.hupu.com/" target="_blank">手机虎扑网</a> -
+                    <a href="https://mobile.hupu.com/" target="_blank">虎扑App</a> -
+                    <a href="https://www.hupu.com/policies/terms" target="_blank">服务协议</a> -
+                    <a href="https://www.hupu.com/sitemap.html" target="_blank">网站地图</a> -
+                    <a href="https://nba.hupu.com/" target="_blank" title="NBA">NBA</a> -
+                    <a href="https://cba.hupu.com/" target="_blank" title="CBA">CBA</a>  -
+                    <a href="https://soccer.hupu.com/" target="_blank" title="足球">足球</a> -
+                    <a href="https://soccer.hupu.com/china/" target="_blank" title="中超">中超</a> -
+                    <a href="http://racing.hupu.com/" target="_blank" title="赛车">赛车</a> 
+                    </div>
+                    
+                </div>
+</body><script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/mod_96dd55b.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/jquery/jquery-1.8.3_a6ffa58.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/widget/ui-dace/ui-dace_85cd6f2.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/global/global_7fa80c2.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/js/underscore/underscore_48198ee.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/js/common-v1_c756bbd.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/postList_c058006.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/subpages/pagelist_93e6d6f.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/return_1b6b007.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/widget/bbsPlate/bbsPlate_f382325.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/getName/id_to_name_1af4143.js"></script>
+<script type="text/javascript">var __ready = [];__ready.push(function(){
+        //dace统计
+        var __daceDataNameOfChannel = 'bbs';
+
+        //公共头尾
+        window._common && _common.init({project:"sports"});
+
+        //baidu统计
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?39fc58a7ab8a311f2f6ca4dc1222a96e";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    });
+__ready.push(function(){    var getName = require("subpages:widget/getName/id_to_name");
+      getName.init();
+    });
+__ready.push(function(){//三级导航
+$(".hp-threeNav-item li").mouseover(function(){
+  $(this).find(".hp-drapDown").css("display","block");
+}).mouseout(function(){
+  $(this).find(".hp-drapDown").css("display","none");
+})
+//搜索
+$(".it-search-for").bind('input propertychange', function() {
+    var $value=$(".it-search-for").val();
+  if($value.length>0){
+      $(".hp-search-choose").show();
+      $(".searchval").html($value);
+  }else{
+      $(".hp-search-choose").hide();
+  }
+});
+    //搜索按钮
+    $(".btn-searchs").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('//my.hupu.com/search?q='+$value,'_blank');
+    })
+      // 回车键事件
+    $(".it-search-for").keypress(function(e) {
+       if(e.which == 13) {
+         var $value=$(".it-search-for").val();
+        window.open('//my.hupu.com/search?q='+$value,'_blank');
+       }
+   });
+   //帖子
+   $("#tiezi").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('//my.hupu.com/search?q='+$value,'_blank');
+    })
+  //视频
+  $("#videos").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('//v.liangle.com/nba/s_'+$value,'_blank');
+   })
+   //日志
+   $("#rizhi").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('https://my.hupu.com/search/blog-'+$value+'-5000','_blank');
+    })
+  //成员
+  $("#cyuan").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('https://my.hupu.com/search/member-0-2---'+$value+'-1','_blank');
+   })
+  //识货
+  $("#shihuo").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('http://www.shihuo.cn/search?keywords='+$value+'&channelType=12','_blank');
+   })
+
+});
+__ready.push(function(){  $(".showdiv").css("height",$(document).height()+"px");
+});
+__ready.push(function(){       var bbsPlate= require("common:widget/bbsPlate/bbsPlate");
+       bbsPlate.init();
+
+     });
+__ready.push(function(){//搜索按钮
+$(".lit-search-tit").bind('input propertychange', function() {
+});
+$(".lit-search-btn").click(function(){
+ var $value=$(".lit-search-tit").val();
+ console.log($value)
+ window.open('//my.hupu.com/search?fid=2353&type=topic&q='+$value,'_blank');
+})
+
+// 回车键事件
+$(".lit-search-tit").keypress(function(e) {
+ if(e.which == 13) {
+   var $value=$(".lit-search-tit").val();
+ window.open('//my.hupu.com/search?fid=2353&type=topic&q='+$value,'_blank');
+ }
+});
+
+
+});
+__ready.push(function(){  
+
+
+    var maxpage=0;
+    if(17>100){
+      maxpage=100;
+    }else{
+      maxpage=17;
+    }
+    var harf='';
+    var loc=location.pathname.slice(1);
+    var postdate=location.pathname.indexOf('postdate')|| -1;
+    if(0==1){
+          harf='fubai-digest'
+    }else{
+      if(0>0){
+        if(postdate>0){
+          harf='fubai-type0-postdate'
+        }else{
+          harf='fubai-type0'
+        }
+      }else{
+        if(postdate>0){
+          harf='fubai-postdate'
+        }else{
+          harf='fubai'
+        }
+      }
+
+    }
+    $(".for-list li").mouseover(function(event) {
+      $(this).find(".caozhuo").css("visibility","visible");
+    }).mouseout(function(){
+      $(this).find(".caozhuo").css("visibility","hidden");
+    });
+    if(1>1){
+      $(".downpage").css("margin-left","-185px");
+    }
+    if(1>=5){
+      $(".downpage").css("margin-left","-194px");
+    }
+
+
+    $('.page').createPage(function(n){
+
+    },{
+    	pageCount:maxpage,//总页码,默认10
+    	current:1,//当前页码
+      name:harf+'-',//标记
+      hname:'fubai',
+    	showNear:1,//显示当前页码前多少页和后多少页，默认2
+    	pageSwap:true,
+      align:'right',
+    	showSumNum:false,//是否显示总页码
+      maxpage:17,
+      is_poslist:1,
+      is_read:0
+
+    });
+    $(".nextPage").css({
+      "height":"16px",
+      "line-height":"16px"
+    });
+  });window.initEvent && window.initEvent();</script></html>

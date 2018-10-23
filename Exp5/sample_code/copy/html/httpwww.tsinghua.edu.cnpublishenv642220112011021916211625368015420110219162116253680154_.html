@@ -1,0 +1,657 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+                                        <title>清华大学环境学院</title>
+<link href="/publish/env/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/env/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="/publish/env/js/grayscale.js" type="text/javascript"></script>
+<script src="/publish/env/js/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*env
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/env/css/style_second.css" rel="stylesheet" type="text/css" />
+<!-- 导入全局模板 -->
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!-- 整体区域开始 -->
+ <div class="wrapper nomalwclassth auto">
+    
+     <!-- 页头区域开始 -->
+       <!-- 页头区域开始 -->
+  <div class="header nomalwidth auto" style="height:140px;background-image:url(/publish/env/images/banner2018.jpg)">
+      
+       <!--<div class="logo_text">
+         <p class="cn">&nbsp;</p>
+         <p class="en">&nbsp;</p>
+        </div>-->
+  
+                <div class="hot_links" style="top: 40px;"><a href="/publish/enven/index.html">English</a></div>
+    
+         <!-- <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="960" height="140">
+    <param name="movie" value="/publish/env/images/banner.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    
+    <param name="expressinstall" value="30years/expressInstall.swf" />
+    <param name="menu" value="false" />
+   
+    <object type="application/x-shockwave-flash" data="/publish/env/images/banner.swf" width="960" height="140">
+     
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="/publish/env/images/expressInstall.swf" />
+      <param name="menu" value="false" />
+     
+      <div>
+        <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      </div>
+     
+    </object>
+   
+  </object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>-->
+</div>
+<!-- 页头区域结束 -->        <!-- 页头区域结束 -->
+        
+        <!-- nav start -->
+        <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu6326 = ms.addMenu(document.getElementById("menu_6326"));
+menu6326.addItem("栏目概述","/publish/env/6327/index.html","");
+        menu6326.addItem("教研教师","/publish/env/6329/index.html","");
+        var subMenu6326_1 = menu6326.addMenu(menu6326.items[1]);
+       subMenu6326_1.addItem("院士","/publish/env/6329/index.html","");
+    subMenu6326_1.addItem("千人计划","/publish/env/6330/index.html","");
+    subMenu6326_1.addItem("教研所师资","/publish/env/6331/index.html","");
+      menu6326.addItem("兼职教授","/publish/env/6334/index.html","");
+        menu6326.addItem("实验教师","/publish/env/6817/index.html","");
+        menu6326.addItem("行政教师","/publish/env/6818/index.html","");
+        menu6326.addItem("合同制教师","/publish/env/6335/index.html","");
+        menu6326.addItem("博士后","/publish/env/6336/index.html","");
+        menu6326.addItem("访问学者","/publish/env/6819/index.html","");
+        menu6326.addItem("荣退教师","/publish/env/6337/index.html","");
+        var menu6317 = ms.addMenu(document.getElementById("menu_6317"));
+menu6317.addItem("组织机构","/publish/env/6318/index.html","");
+        menu6317.addItem("学术机构","/publish/env/6319/index.html","");
+        menu6317.addItem("研究机构","/publish/env/6321/index.html","");
+        var subMenu6317_2 = menu6317.addMenu(menu6317.items[2]);
+       subMenu6317_2.addItem("研究所","/publish/env/6321/index.html","");
+    subMenu6317_2.addItem("国家级研究机构","/publish/env/6322/index.html","");
+    subMenu6317_2.addItem("省部级研究机构","/publish/env/6323/index.html","");
+    subMenu6317_2.addItem("校级研究机构","/publish/env/6324/index.html","");
+    subMenu6317_2.addItem("联合研究机构","/publish/env/6325/index.html","");
+      var menu6312 = ms.addMenu(document.getElementById("menu_6312"));
+menu6312.addItem("学院简介","/publish/env/6313/index.html","");
+        menu6312.addItem("现任领导","/publish/env/7208/index.html","");
+        menu6312.addItem("历任领导","/publish/env/6314/index.html","");
+        menu6312.addItem("历史沿革","/publish/env/6315/index.html","");
+        menu6312.addItem("大事年表","/publish/env/6316/index.html","");
+        var menu6338 = ms.addMenu(document.getElementById("menu_6338"));
+menu6338.addItem("栏目概述","/publish/env/6339/index.html","");
+        menu6338.addItem("本科生教学","/publish/env/6341/index.html","");
+        var subMenu6338_1 = menu6338.addMenu(menu6338.items[1]);
+       subMenu6338_1.addItem("专业介绍","/publish/env/6341/index.html","");
+    subMenu6338_1.addItem("课程介绍","/publish/env/6342/index.html","");
+    subMenu6338_1.addItem("精品课程","/publish/env/6343/index.html","");
+    subMenu6338_1.addItem("专业设置","/publish/env/6344/index.html","");
+    subMenu6338_1.addItem("培养方案","/publish/env/6345/index.html","");
+    subMenu6338_1.addItem("实践教学","/publish/env/6346/index.html","");
+    subMenu6338_1.addItem("留学生","/publish/env/6347/index.html","");
+      menu6338.addItem("硕士生教学","/publish/env/6349/index.html","");
+        var subMenu6338_2 = menu6338.addMenu(menu6338.items[2]);
+       subMenu6338_2.addItem("导师介绍","/publish/env/6349/index.html","");
+    subMenu6338_2.addItem("培养方案（硕士）","/publish/env/6350/index.html","");
+    subMenu6338_2.addItem("培养方案（工程硕士）","/publish/env/6351/index.html","");
+    subMenu6338_2.addItem("开设课程","/publish/env/6352/index.html","");
+    subMenu6338_2.addItem("留学生","/publish/env/6353/index.html","");
+      menu6338.addItem("博士生教学","/publish/env/6355/index.html","");
+        var subMenu6338_3 = menu6338.addMenu(menu6338.items[3]);
+       subMenu6338_3.addItem("导师介绍（博士）","/publish/env/6355/index.html","");
+    subMenu6338_3.addItem("培养方案（博士）","/publish/env/6356/index.html","");
+    subMenu6338_3.addItem("留学生","/publish/env/6357/index.html","");
+      menu6338.addItem("继续教育","/publish/env/6358/index.html","");
+        menu6338.addItem("出版教材","/publish/env/6359/index.html","");
+        menu6338.addItem("教学成果","/publish/env/6360/index.html","");
+        
+var menu6361 = ms.addMenu(document.getElementById("menu_6361"));
+menu6361.addItem("栏目概述","/publish/env/6362/index.html","");
+        menu6361.addItem("本科生","/publish/env/6363/index.html","");
+        menu6361.addItem("研究生","/publish/env/6364/index.html","");
+        menu6361.addItem("学生绿色协会","/publish/env/6365/index.html","");
+        menu6361.addItem("环境友好科技竞赛","/publish/env/6366/index.html","");
+        menu6361.addItem("博士生学术会议","/publish/env/6367/index.html","");
+        menu6361.addItem("陶氏-可持续发展创新挑战赛","/publish/env/7841/index.html","");
+        menu6361.addItem("清源协会","/publish/env/8478/index.html","");
+        menu6361.addItem("奖学金","/publish/env/10530/index.html","");
+        var menu6368 = ms.addMenu(document.getElementById("menu_6368"));
+menu6368.addItem("栏目概述","/publish/env/6369/index.html","");
+        menu6368.addItem("研究领域","/publish/env/6370/index.html","");
+        menu6368.addItem("研究成果","/publish/env/6372/index.html","");
+        var subMenu6368_2 = menu6368.addMenu(menu6368.items[2]);
+       subMenu6368_2.addItem("各类奖项","/publish/env/6372/index.html","");
+    subMenu6368_2.addItem("编著译著","/publish/env/6373/index.html","");
+    subMenu6368_2.addItem("知识产权","/publish/env/6374/index.html","");
+      menu6368.addItem("编辑期刊","/publish/env/6376/index.html","");
+        var subMenu6368_3 = menu6368.addMenu(menu6368.items[3]);
+       subMenu6368_3.addItem("期刊简介","/publish/env/6376/index.html","");
+    subMenu6368_3.addItem("编委会","/publish/env/6378/index.html","");
+    subMenu6368_3.addItem("征稿简则","/publish/env/6379/index.html","");
+    subMenu6368_3.addItem("稿件模板","/publish/env/6380/index.html","");
+      menu6368.addItem("主办会议","/publish/env/6381/index.html","");
+        menu6368.addItem("重大专项","/publish/env/6384/index.html","");
+        var menu6385 = ms.addMenu(document.getElementById("menu_6385"));
+menu6385.addItem("栏目概述","/publish/env/6386/index.html","");
+        menu6385.addItem("合作机构","/publish/env/6387/index.html","");
+        menu6385.addItem("重要项目","/publish/env/6388/index.html","");
+        var menu6390 = ms.addMenu(document.getElementById("menu_6390"));
+menu6390.addItem("环境节能楼","/publish/env/6391/index.html","");
+        menu6390.addItem("实验教学中心","/publish/env/6392/index.html","");
+        menu6390.addItem("公共研究平台","/publish/env/6393/index.html","");
+        menu6390.addItem("环境图书馆","/publish/env/6394/index.html","");
+        var menu6395 = ms.addMenu(document.getElementById("menu_6395"));
+menu6395.addItem("本科生","/publish/env/6396/index.html","");
+        menu6395.addItem("硕士生","/publish/env/6398/index.html","");
+        var subMenu6395_1 = menu6395.addMenu(menu6395.items[1]);
+       subMenu6395_1.addItem("硕士","/publish/env/6398/index.html","");
+    subMenu6395_1.addItem("工程硕士","/publish/env/6399/index.html","");
+    subMenu6395_1.addItem("工程管理硕士","/publish/env/9171/index.html","");
+      menu6395.addItem("博士生","/publish/env/6400/index.html","");
+        menu6395.addItem("留学生","/publish/env/6401/index.html","");
+        menu6395.addItem("继续教育","/publish/env/6402/index.html","");
+        var menu6404 = ms.addMenu(document.getElementById("menu_6404"));
+menu6404.addItem("教师招聘","/publish/env/6405/index.html","");
+        menu6404.addItem("博士后招聘","/publish/env/6406/index.html","");
+        menu6404.addItem("合同制人员招聘","/publish/env/6407/index.html","");
+        var menu6408 = ms.addMenu(document.getElementById("menu_6408"));
+menu6408.addItem("综合新闻","/publish/env/6409/index.html","");
+        menu6408.addItem("图片新闻","/publish/env/6410/index.html","");
+        menu6408.addItem("人物新闻","/publish/env/6411/index.html","");
+        menu6408.addItem("工作简报","/publish/env/6413/index.html","");
+        var menu6414 = ms.addMenu(document.getElementById("menu_6414"));
+menu6414.addItem("电话电邮","/publish/env/6415/index.html","");
+        menu6414.addItem("邮寄地址","/publish/env/6416/index.html","");
+        menu6414.addItem("来访路线","/publish/env/6417/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<!-- nav start -->
+        <div class="nav nomalwidth auto">
+         <ul>
+<li><a href="/publish/env/index.html" title="&nbsp;">首页</a></li>
+<li id="menu_6312"  class="first"><a href="/publish/env/6313/index.html" title="学院概况">学院概况</a></li>
+<li id="menu_6317"><a href="/publish/env/6318/index.html" title="机构设置">机构设置</a></li>
+<li id="menu_6326"><a href="/publish/env/6327/index.html" title="师资队伍">师资队伍</a></li>
+<li id="menu_6338"><a href="/publish/env/6339/index.html" title="教务教学">教务教学</a></li>
+<li id="menu_6361"><a href="/publish/env/6362/index.html" title="学生生活">学生生活</a></li>
+<li id="menu_6368"><a href="/publish/env/6369/index.html" title="科学研究">科学研究</a></li>
+<li id="menu_6385"><a href="/publish/env/6386/index.html" title="合作交流">合作交流</a></li>
+<li id="menu_6390"><a href="/publish/env/6391/index.html" title="基础设施">基础设施</a></li>
+<li id="menu_6395"><a href="/publish/env/6396/index.html" title="招生信息">招生信息</a></li>
+<li id="menu_6404"><a href="/publish/env/6405/index.html" title="招聘人才">招聘人才</a></li>
+<li id="menu_6408"><a href="/publish/env/6409/index.html" title="新闻">新闻</a></li>
+<li id="menu_6414"><a href="/publish/env/6415/index.html" title="联系我们" class="clear">联系我们</a></li>
+</ul>
+        </div>
+  <script language="JavaScript">initMenuData();</script>
+        <!-- nav end -->        <!-- nav end -->
+        
+        <!-- 中部区域开始 -->
+        <div class="content auto">
+         
+            <!-- start -->
+            <table width="0" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="box_left">
+                 
+                    <!-- start -->
+                    <div class="s_menu">
+<p><img src="/publish/env/images/left_menu_pic.gif" width="200" height="76" /></p>
+                    </div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <div class="menu_bg_line"></div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <form id="searchForm" name="form1" method="post" action="#" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+<div class="search auto"><p class="left"><input name="Q" type="text" /></p><p class="right"><a href="javascript:document.form1.submit();" title="搜索"></a></p></div>
+</form>                    <!-- end -->
+                    
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="info_02 auto"><a href='http://100.tsinghua.edu.cn'><img width='190' height='67' src='/publish/env/images/100year_02.gif' /></a></div>
+                    <!-- end -->                    <!-- end -->
+                                                            
+                </td>
+                <td class="box_right">
+                 
+                    <!-- c_top start -->
+<!-- c_top start -->
+<div class="c_top">
+  <ul class="nav_01">
+    <li>&nbsp;您所在的位置：<A href="/publish/env/index.html" >首页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A href="/publish/env/6422/index.html" >教师个人主页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A>教师详细信息</A></li>
+    <li style="width:400px; text-align:right;"><A href="javascript:history.go(-1);">返&nbsp;&nbsp;回</A></li>
+  </ul>
+</div>
+<!-- c_bottom end -->                    <!-- c_bottom end -->
+                    <!-- start -->
+                <!--s2_right_con开始处-->
+                      <div id="s2_right_con">
+<img src="/publish/env/6422/20110219162116253680154/20110219162633839785297.jpg" />
+<p>
+<table border="1" cellspacing="1" cellpadding="1" width="400" height="1">
+    <tbody>
+        <tr>
+            <td><strong>姓　　名：</strong></td>
+            <td>文湘华</td>
+        </tr>
+        <tr>
+            <td><strong>所在单位：</strong></td>
+            <td>水环境保护教研所</td>
+        </tr>
+        <tr>
+            <td><strong>职　　称：</strong></td>
+            <td>正高级</td>
+        </tr>
+        <tr>
+            <td><strong>邮寄地址：</strong></td>
+            <td>清华大学环境学院</td>
+        </tr>
+        <tr>
+            <td><strong>办公电话：</strong></td>
+            <td>86－10－62772837</td>
+        </tr>
+        <tr>
+            <td><strong>电子邮件：</strong></td>
+            <td>xhwen@tsinghua.edu.cn</td>
+        </tr>
+        <tr>
+            <td><strong>办公地点：</strong></td>
+            <td>清华大学环境学院</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+                        <h4>教育背景</h4>
+<p>博士研究生 清华大学环境工程系 1986.8&mdash;1990.8</p>
+<p>硕士研究生 清华大学环境工程系 1983.9&mdash;1986.7</p>
+<p>助理工程师 北京市市政工程设计院 1982.8&mdash;1983.8</p>
+<p>本科生 北京建筑工程学院,市政工程系 1978.9&mdash;1982.7</p>
+                        <h4>工作履历</h4>
+<p>2011.01&mdash;现在&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 清华大学环境学院&nbsp; 教授&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>1996.12&mdash;2011.01&nbsp;&nbsp;&nbsp; 清华大学环境科学与工程系 副教授，教授</p>
+<p>1998.08&mdash;1998.10&nbsp;&nbsp;&nbsp;&nbsp;英国 Leeds 大学土木工程系 访问学者&nbsp;&nbsp;&nbsp;</p>
+<p>1992.04&mdash;1996.12&nbsp;&nbsp;&nbsp;&nbsp;中国科学院生态环境研究中心&nbsp;&nbsp;助理研究员, 副研究员&nbsp;&nbsp;&nbsp;</p>
+<p>1993.11&mdash;1994.06&nbsp;&nbsp;&nbsp;&nbsp;美国Delaware大学土木工程系 访问学者&nbsp;&nbsp;&nbsp;</p>
+<p>1990.08&mdash;1992.04&nbsp;&nbsp;&nbsp; 中国科学院生态环境研究中心 客座研究</p>
+<p><strong>教学：</strong></p>
+<p>《现代环境生物学》 研究生课程</p>
+<p>&nbsp;</p>
+                        <h4>学术兼职</h4>
+<p>国际水协（IWA）会员</p>
+<p>中国微生物学会会员</p>
+<p>&nbsp;</p>
+                        <h4>研究领域</h4>
+<p>1.水污染控制理论与技术</p>
+<p>2.高效微生物及其酶</p>
+<p>3.高效生物反应器</p>
+<p>4.微生物群落结构</p>
+                        <h4>研究概况</h4>
+<p>科技部863项目：再生水回用的风险控制技术研究（2008AA062502），2008-2011</p>
+<p>国家重大水专项：城市污水处理厂与排水管网优化技术集成与示范(2009ZX07313-003)，2009-2011</p>
+<p>科技部863项目：重大环境污染事件特征污染物检测系统与技术集成（2009AA06A417），2009-2011</p>
+<p>科技部863项目：新型膜材料及膜组器的制备和应用关键技术与工程示范（2009AA062901）,2009-2012</p>
+<p>国家自然科学基金委: 城市污水处理系统中氨氧化古菌的富集与动力学特性,2011-2013</p>
+<p>清华大学自主科研项目: 污水处理厂碳源高效富集转化与资源能源化技术原理研究, (2010THZ02),&nbsp; 2011-2012</p>
+                        <h4>奖励与荣誉</h4>
+<p>清华之友&mdash;优秀青年教师，二等奖，1998</p>
+<p>清华之友&mdash;优秀青年教师群体奖，1999</p>
+<p>管式膜生物反应器设计，《中国给水排水》优秀论文，一等奖，2000</p>
+<p>Surface Complexation model (ES &amp; T)，ISI？ Citation Classic Award，2000</p>
+<p>水体颗粒物及难降解有机物的特性及控制技术原理，中国科学院自然科学奖，一等奖，2001</p>
+<p>一体式膜－生物反应器处理生活污水的试验研究，北京市科技进步奖，三等奖，2001</p>
+<p>膜生物反应器废水处理特性及机理的研究，国家教育部自然科学奖，一等奖，2002</p>
+<p>难降解有机工业废水高新生物处理技术与关键设备，北京市科技进步奖, 一等奖，2002, 2008</p>
+<p>有毒有害废水高新生物处理技术，国家科技进步奖, 二等奖，2003, 2009</p>
+                        <h4>学术成果</h4>
+<p><strong>专利：</strong></p>
+<p>1) 一种聚乙烯醇固定化酶、微生物的方法. ZL 001 32126.9&nbsp;</p>
+<p>2) 一种沸石滤料曝气生物滤池处理污水的方法. ZL021 16307.3</p>
+<p>3) 液体培养基中促进白腐真菌生长的天然添加剂. ZL03 1 00570.5</p>
+<p>4) 双层滤料曝气生物滤池. ZL 02 1 29618.9</p>
+<p>5) 一种可气冲的外压式柱式中空纤维膜组件. ZL 03 1 21949.7</p>
+<p>6) 水平漩流悬浮载体生物膜反应器及其水体原位修复方法. ZL 2003 1 010305.4</p>
+<p>7) 非灭菌环境白腐真菌降解活性染料的抑制细菌生长的液体培养基. ZL 2004 1 0073821.4</p>
+<p>8) 应用白腐真菌降解降解环境污染物的两阶段方法. ZL 2004 1 0009796.3</p>
+<p>9) 一株酵母菌及其应用. ZL. 2004 1 0088863.5</p>
+<p>10) 一种利用超声在线控制膜污染的方法. ZL 2005 1 0011799.5</p>
+<p>11) 一株酵母及其应用. ZL 2005 1 0053675.3</p>
+<p>12) 在非灭菌环境抑制杂菌生长的白腐真菌固定化方法. ZL 2005 1 01 25677.9</p>
+<p><strong>已经发表的主要学术论著：</strong></p>
+<p>1. 沈耀良，文湘华，污泥消化和灭菌研究的新进展，国外环境科学技术，1：49－57，1986</p>
+<p>期刊论文&nbsp;</p>
+<p>2. 文湘华，钱易，生物稳定塘水流特征研究, 环境科学学报, 11(1):17-24,1991</p>
+<p>3. Xianghua Wen,&nbsp; Yi Qian,&nbsp; A Study on the Hydraulics of Waste Stabilization Pond,&nbsp;&nbsp; Journal of Environmental Sciences, 3(2):75-88,1991</p>
+<p>4. 文湘华，钱易，顾夏声，生物稳定塘系统物质转移平衡图研究, 中国给水排水, 7(6):29-35,1991</p>
+<p>5. 文湘华，钱易，顾夏声，生物稳定塘系统常规运行状态模拟与分析, 环境科学, 13(3):2-6,1992</p>
+<p>6. 文湘华，钱易，顾夏声，生物稳定塘系统碳、氮、磷迁移转化模型的研究, 生态学报，12(1):193-200,1992</p>
+<p>7. 文湘华，钱易，生物稳定塘生态系统研究现状评述, 环境污染与防治, 14(1):23-26,1992</p>
+<p>8. 文湘华，水体沉积物重金属质量基准研究, 环境化学, 12(5):334-341,1993</p>
+<p>9. Xianghua Wen, Yi Qiang, Xiasheng Gu.&nbsp; An Ecological Model of Biological Stabilization Pond, Water Treatment, 18:43-54, 1993</p>
+<p>10. Qing Du, Xianghua Wen, Hongxiao Tang.&nbsp; Surface Complexation Model for the Adsorption of Heavy Metals on the River Sediment nearby Poyang Lake. China Environment Science, 5(2): 140-148, 1994</p>
+<p>11. Xianghua Wen, Yi Qian, Xiasheng Gu.&nbsp; Simulation and Analysis of Biological Stabilization Pond, Journal of Environmental Sciences，6（1）：42－51，1994</p>
+<p>12. Xianghua Wen, Yi Qian, Xiasheng Gu. Graphical Presentation of the Transformation of Some Nutrients in a Wastewater Stabilization Pond System,&nbsp; Water Research, 28(7): 1659-1665, 1994</p>
+<p>13. Wang Z J, Ma M, Du Q and Wen X H.&nbsp; Toxic assessment by Photobacterium phosphoreum. China Environ. Sci., 5:159-164, 1994</p>
+<p>14. 文湘华，杜青，汤鸿霄，乐安江沉积物对重金属吸附模式的研究&mdash;表面络合模式在天然沉积物研究中的应用，环境科学学报，16（1）：13－22，1996</p>
+<p>15. 文湘华，杜青，汤鸿霄，天然水体沉积物的表面特征和吸附特性 I. 天然沉积物的表面特征，环境化学，13（2）：97－106，1996</p>
+<p>16. 杜青，文湘华，汤鸿霄，天然水体沉积物的表面特征和吸附特性 II. 对金属离子的吸附特性，环境化学，13（3）：199-206，1996</p>
+<p>17. 文湘华， Herbert E. Allen, 乐安江沉积物酸碱特性就其对重金属释放特性的影响， 环境化学, 13(6): 510－515，1996</p>
+<p>18. Xianghua Wen, Qing Du, Hongxiao Tang, Heavy Metal Adsorption on the LeAn River Sediment: The Adsorption Model,&nbsp; J. Environ. Sci., 9(1):59-70, 1997</p>
+<p>19. 文湘华， Herbert E. Allen, 乐安江沉积物酸可挥发硫化物含量及溶解氧含量对重金属释放特性的影响，环境科学, 18(4):32-34,1997</p>
+<p>20. Xianghua Wen, LingZheng Wu, Yun Zhang, Yang Chu. An Optimized Microwave Preparation Procedure for the Elemantal Analysis of the Aquatic Sediment.&nbsp; Fresenlus&rsquo; Journal of Analytical Chemistry, 357:1111-1115,1997</p>
+<p>21. Xianghua Wen, Qing Du, Hongxiao Tang.&nbsp; Surface Complexation Model for the Heavy Metal Adsorption on Natural Sediment.&nbsp; Environ. Sci. Technol., 32(7):87-875, 1998</p>
+<p>22. 文湘华，吴玲钲, 微波消解技术在沉积物样品分析中的应用，环境科学进展，6(2):61-65, 1998</p>
+<p>23. 邢传红、文湘华、钱易，管式膜-生物反应器处理城市污水的工艺设计，中国给水排水，15(1):1-4,1999</p>
+<p>24. 王慧，文湘华，刘广利，黄霞，施汉昌, 聚醚废水处理工艺研究，中国环境科学，19(3) :273-276，1999</p>
+<p>25. 文湘华，占新民，王建龙，钱易，含盐废水的生物处理研究进展，环境科学，20(3):106-109,1999</p>
+<p>26. Xianghua Wen, Herbert E. Allen. Mobilization of Heavy Metals from Le An River Sediment.&nbsp; Science of the Total environment.&nbsp; 227(2,3):101-108, 1999</p>
+<p>27. Wenxin Liu, Zijian Wang, Xianghua Wen, Hongxiao Tang. The Application of Preliminary Sediment Quality Criteria to Metal Contamination in the Le An River.&nbsp; Environment Pollution. 105(3):355-366, 1999</p>
+<p>28. 桂萍，黄霞，陈颖，文湘华，钱易. 膜生物反应器运行条件对膜过滤特性的影响，环境科学，20(3):38-41,1999</p>
+<p>29. 占新民，王建龙，文湘华等. NKA-II大孔吸附树脂吸附高浓度苯胺溶液的试验研究，环境化学，18(4):359-365,1999</p>
+<p>30. 杨琦，文湘华，王志强. 湿式氧化处理城市污水厂污泥的研究，中国给水排水，15:4-7, 1999</p>
+<p>31. Xianghua Wen, Xia Huang, Yi Qian. Comparison of Different Types of Membrane Bioreactor for Domestic Wastewater Treatment.&nbsp; Biosystem Studies. Vol. 2(1):136-141 2000.</p>
+<p>32. 黄永恒，王建龙，文湘华，钱易. 折流式厌氧反应器的工艺特性及其运用. 中国给水排水，1999，15（7）：18-20</p>
+<p>33. Xianghua Wen, Chuanhong Xing, Yi Qian. A Kinetic Model for the Prediction of Sludge Formation in Membrane Bioreactor. Process Biochemistry. Vol. 35(3-4): 249-254,1999</p>
+<p>34. 王东海，文湘华.低浓度生活污水化学强化一级处理的试验研究,&nbsp; 给水排水, 25(9):10-13,1999</p>
+<p>35. 王东海，文湘华,钱易. SBR在难降解有机物处理中的研究与应用，中国给水排水，15(11):29-32,1999</p>
+<p>36. 王东海，文湘华. 处理难降解有机物的新型SBR反应器的发展, 环境科学进展，7(6):38-44,1999</p>
+<p>37. 杨琦，文湘华，孟耀斌，钱易. 膜生物反应器处理丙烯腈废水试验，环境科学，21（2）：85-87, 2000</p>
+<p>38. 孟耀斌，文湘华等. 分置式膜-生物反应器处理生活污水及其体积负荷的确定, 环境科学，21(2):24-27, 2000</p>
+<p>39. 冯业成，占新民，文湘华，王建龙等，活性污泥处理系统耐含盐废水冲击负荷性能，环境科学，21(1): 106-108, 2000</p>
+<p>40. 徐文东，文湘华. 高效菌处理染料废水的研究，环境污染治理技术与设备，1(2): 9-16，2000</p>
+<p>41. C.H. Xing, E. Tardieu, Y. Qian, X.H. Wen. Ultrafiltration Membrane Bioreactor for Urban Wastewater Reclamation. Journal of Membrane Science.&nbsp; vol 117, Issue1-2, pp73-82, 2000</p>
+<p>42. Wang JL, Wen XH, Zhou D. Production of citric acid from molasses integrated with in-situ product separation by ion-exchange resin adsorption. BIORESOURCE TECHNOLOGY, 75: (3) 231-234 DEC 2000</p>
+<p>43. Xianghua Wen, Chuanhong Xing, Yi Qian. Ceramic ultra filtration membrane bioreactor for domestic wastewater treatment. Tshinghua Science and Technology, 5(3):283-287, 2000</p>
+<p>44. 孟耀斌，文湘华，邢传宏，钱易. 分置式膜生物反应器处理生活污水的抗冲击负荷能力. 环境科学，21(6):22-26, 2000</p>
+<p>45. 王东海，文湘华，钱易. 化学强化一级处理生活污水CORcr去除规律的研究. 环境工程，38-41，2000</p>
+<p>46. 文湘华，王东海，钱易. 内循环SBR处理含染料废水的研究. 环境科学学报，9:54-57，2000.</p>
+<p>47. Zhan Xinmin, Wang jianlong, WEN Xianghua et al. Influence of inorganic salt on aerobic biodegradability of dyestuffs. Journal of Environmental Science. 12(4):416-421, 2000</p>
+<p>48. Liyan Fu, Xianghua Wen, Yi Qian. Treatment of Dyeing Wastewater in tow SBR systems. Process Biochemistry. 36/11, pp. 1111-1118, 2001</p>
+<p>49. 付莉燕，文湘华，吕秋丽，钱易. 改良型SBR系统处理染料废水的研究. 中国环境科学. 21(2): 128-132, 2001</p>
+<p>50. 付莉燕，文湘华，钱易. 厌氧条件下活性翠蓝生物降解性的研究. 上海环境科学. 20（6）：274-276，2001</p>
+<p>51. 许文东，文湘华，付莉燕. 偶氮染料派拉丁蓝RRN脱色细菌的选育与研究，环境科学学报，21：127-132，2001</p>
+<p>52. 付莉燕，文湘华，徐丽婕，钱易. 活性翠蓝生物降解性能的试验研究，环境科学，22(4):100-103, 2001</p>
+<p>53. CH. Xing, Y. Qian, X.-H. Wen, W.-Z. Wu, D. Sun. &quot;Physical and biological characteristics of a tangential flow MBR for municipal wastewater treatment&quot; . J. Membr. Sci. Vol 191/1-2: 31-42. 2001.</p>
+<p>54. 54 Xing CH, Wen XH, Qian Y, E. Tardieu &quot;Microfiltration membrane coupled bioreactor for urban wastewater reclamation&quot;.&nbsp; Desalination. 141(1): 63-74, 2001</p>
+<p>55. Xianghua Wen, Lingzheng Wu, Hongxiao Tang. Adsorption of Copper on Polluted River Sediment. Bull. of Environment Contamination and Toxicology. 67(6):913-920, 2001</p>
+<p>56. 丁杭军，文湘华，黄霞，刘若鹏. 一体式膜生物反应器处理医院污水，中国给水排水，9:1-5, 2001</p>
+<p>57. 林 刚，文湘华，钱 易.&nbsp; 应用白腐真菌技术处理难降解有机物的研究进展，环境污染治理技术与设备，2(4): 1-8, 2001</p>
+<p>58. Xinmin Zhan, Jianlong Wang, Xianghua Wen, Yi Qian. Indirect electrochemical treatment of saline dyestuff wastewater.&nbsp; Environmental Technology, 22(9):1105-1111, 2001</p>
+<p>59. 付莉燕，文湘华，钱易. 二级SBR系统处理染料废水长期运行的稳定性. 环境科学，23(1):50-53, 2002</p>
+<p>60. 刘恒, 王建龙, 文湘华. 啤酒酵母吸附重金属离子铅的研究. 环境科学研究, 15(2)26-29, 2002</p>
+<p>61. Liyan Fu, Xianghua Wen, Yi Qian. Removal of a copper-phthalocyanine dye from wastewater by acclimated sludge under anaerobic or aerobic conditions. Process Biochemistry. 37:1115-1156, 2002</p>
+<p>62. 王荣昌，李翠珍，文湘华. 水体微型生物群落参数与水质指标相关性的研究，环境科学研究，15(4): 42-45, 2002</p>
+<p>63. 刘超翔，黄霞，文湘华，钱易. 一体式膜－生物反应器处理毛染废水的中试研究，给水排水，28（2）56－59，2002</p>
+<p>64. 李花子，王建龙，文湘华. 聚乙烯醇－硼酸固定化方法的改进，环境科学研究，15(5):28-30, 2002</p>
+<p>65. 李向飞，文湘华，林刚. 白腐真菌F1对染料脱色特性的研究，环境污染治理技术与设备，3(7): 1-4, 2002</p>
+<p>66. Tian Wenhua, Wen Xianghua, Qian Yi. Features of double chamber bed and case study, Desalination. vol. 150, No. 3, pp. 269-275, 2002</p>
+<p>67. 田文华，文湘华，钱易，沸石滤料曝气生物滤池启动性能研究，环境污染防治技术与设备，(12):38-42, 2002</p>
+<p>68. 田文华，文湘华，钱易. 沸石滤料曝气生物滤池去除COD和氨氮性能研究，中国给水排水，18(12): 13-15</p>
+<p>69. 王保国，文湘华，陈翠仙. 膜分离技术在石油化工中应用研究现状,化工进展， 21(12):881~886. 2002</p>
+<p>70. Xing CH, Wen XH, Qian Y, Sun D, Klose PS, Zhang XQ.&nbsp; Fouling and cleaning of microfiltration membrane in municipal wastewater reclamation.&nbsp; WATER SCIENCE AND TECHNOLOGY. 47 (1): 263-270,71 2003</p>
+<p>71. Wen XH, Fu LY, Qian Y. The performance of a two-stage SBR system in treating dye containing wastewater.&nbsp; WATER SCIENCE AND TECHNOLOGY.&nbsp; 47 (1): 291-296 2003</p>
+<p>72. Xing CH, Wen XH, Qian Y, Wu WZ, Klose PS. Fouling and cleaning in an ultrafiltration membrane bioreactor for municipal wastewater treatment. SEPARATION SCIENCE AND TECHNOLOGY. 38 (8): 1773-1789 2003</p>
+<p>73. 田文华，文湘华，崔燕平，钱易. 滤料粒径对曝气生物滤池硝化性能的影响，中国给水排水，19(5): 48-50，2003</p>
+<p>74. 林刚，文湘华，钱易. 液体培养基中添加天然成份对白腐真菌Phanerochaete chrysosporium生长的促进作用. 环境科学，24(4):41－47, 2003</p>
+<p>75. 王荣昌，文湘华，钱易. 流动床生物膜反应器在污水处理中的应用研究现状. 环境污染治理技术与设备, 4(7): 79-85, 2003</p>
+<p>76. 胡林林，王建龙，文湘华，钱易. 低溶解氧条件下生物脱氮研究中的新现象. 应用与环境生物学报，9(4):444-447, 2003</p>
+<p>77. 田文华，文湘华，杨爱华，钱易. 沸石生物滤池处理低浓度生活污水的工艺性能及影响因素. 环境科学，24(5)97-101, 2003</p>
+<p>78. Kaichang YU，Xianghua WEN*，QingJie BU, Xia Huang. Critical flux enhancements with air sparging in axial hollow fibers cross-flow microfitration of biologically treated wastewater. J of Membrane Science, 224:69-79, 2003</p>
+<p>79. 喻国策,文湘华,李东锋,李锐,钱易. 黄孢原毛平革菌在多种氨氮浓度下木质素降解酶的产生. 环境科学学报, 23(6): 802-806, 2003</p>
+<p>80. Gang Lin, Xianghua WEN, Yi Qian. To enhance the reproduction of Phanerochaete chrysosporium by adding natural lixiviums in liquid medium. Journal of Environmental Science. 2003, 15: 808-814</p>
+<p>81. 王荣昌，文湘华，钱易，激光扫描共聚焦显微镜用于生物膜研究，中国给水排水，18(12)：23-25, 2003</p>
+<p>82. 俞开昌，文湘华，卜庆杰，黄霞. 次临界操作下的膜污染机理. 环境污染治理技术与设备. 5(1): 23-27, 2004</p>
+<p>83. Wenhua Tian, Xianghua Wen, Yi Qian. Using azeolite biofilter to remove organic pollutant and ammonia simultaneously. Journal of Environmental Science. 16(1): 90-93. 2004. (770AN)</p>
+<p>84. 胡林林，杨宁，王建龙，文湘华，钱易. 微量曝气条件下SBR反应器的运行特性研究. 环境科学学报，24(1)：10-14, 2004-03-30</p>
+<p>85. 王荣昌，文湘华，钱易. 生物膜反应器中好氧颗粒污泥形成机理的研究. 中国给水排水，20(3)：5-8, 2004</p>
+<p>86. 孙友峰，黄霞，文湘华. 过滤/曝气两用膜－生物反应器试验研究. 环境污染治理技术与设备，5(4)：18-22, 2004</p>
+<p>87. GAO Dawen, WEN Xianghua, QIAN Yi. Decolorization of reactive brilliant red K-2BP with the white-rot fungi under non-sterile conditions.&nbsp; Chinese Science Bulletin. 48(9): 981-982, 2004</p>
+<p>88. Xianghua Wen, Hangjiu Ding, Xia Huang, Ruopeng Liu. Treatment of Hospital Wastewater Using a Submerged Membrane-bioreactor. Process Biochemistry. 39(11): 1427-1431, 2004</p>
+<p>89. 王荣昌，文湘华，钱易. 悬浮载体生物膜反应器修复受污染河水试验研究. 环境科学，25(6)67-69, 2004</p>
+<p>90. Wang Rongchang, Wen Xianghua, Qian Yi. Succession of aquatic microbial communities as a result of the water quality variations in continuous water. Journal of Environmental Sciences, 16(5):772-778. 2004. (SCI 851LY)</p>
+<p>91. 李翠珍，文湘华. 白腐真菌F2的生长及产木质素降解酶特性的研究. 环境科学学报. 25(2):226-131, 2005</p>
+<p>92. Hu LL, Wang JL, Wen XH, et al. The formation and characteristics of aerobic granules in sequencing batch reactor (SBR) by seeding anaerobic granules. Process Biochemistry 40 (1): 5-11, 2005</p>
+<p>93. Hu LL, Wang JL, Wen XH, Qian Y Study on performance characteristics of SBR under limited dissolved oxygen Process Biochemistry, 40 (1): 293-296, 2005</p>
+<p>94. GAO Da-wen, WEN Xiang-hua, QIAN Yi, ZHU Hong-tao. Effect of nitrogen concentration in culture mediums on growth and enzyme production of Phanerochaete chrysosporium. Journal of Environmental Science, 17(2):190-193, 2005</p>
+<p>95. 卜庆杰 文湘华, 黄霞. 新型膜-生物反应器在不同通量下的膜污染特性研究. 环境污染防治技术与设备. 6(3)：85-90, 2005</p>
+<p>96. 余志晟，文湘华. 酵母菌株Pseudozyma rugulosa 对合成染料脱色的初步研究. 环境化学. 24(2):185-188, 2005</p>
+<p>97. 高大文，文湘华，周晓燕，曾永刚，钱易. 非灭菌环境投加染料时间对白腐真菌降解活性染料的影响. 环境科学学报，25(4):519-524, 2005</p>
+<p>98. Y Wu, X Huang, X. Wen and F. Chen. Function of dynamic membrane in self-forming dynamic membrane coupled bioreactor. Water Science &amp; Technology. 51(6-7): 107-114, 2005</p>
+<p>99. Guoce Yu, Xianghua Wen, Dongfeng Li, Rui Li &amp; Yi Qian. Production of the ligninolytic enzymes by immobilized Phanerochaete chrysosporium in an air atmosphere. World Journal of Microbiology and Biotechnology. 21:323-327, 2005</p>
+<p>100. Rongchang WANG, Xianghua, WEN, Yi QIAN. Influence of carrier concentration on performance and microbial characteristics of biofilm in a suspended carrier biofilm reactor. Process Biochemistry. 40: 2992-3001, 2005</p>
+<p>101. Zhisheng Yu, Xianghua Wen. Screening and identification of yeasts for decolorizing synthetic dyes in industrial wastewater. International Biodeterioration &amp; Biodegradation. 56:109-114, 2005</p>
+<p>102. 余志晟，文湘华. 酵母Candida krusei对合成染料的脱色. 环境科学，26(5)：137-142, 2005</p>
+<p>103. 高大文，文湘华，钱易. 应用白腐真菌降解染料的研究现状及发展趋势. 哈尔滨工业大学学报. 37(9): 1200-1204, 2005</p>
+<p>104. 高大文，文湘华，钱易. 白腐真菌培养条件对其分泌木质素降解酶的影响. 中国环境科学，25(5):572-575, 2005</p>
+<p>105. 高大文，文湘华，钱易. pH对白腐真菌液体培养基抑制杂菌效果的影响. 环境科学, 26(6):173-179, 2005</p>
+<p>106. 张晶，李翠珍，文湘华. 天然浸出液对自分离白腐真菌产木质素降解酶的影响. 清华大学学报. 45(12):1629-1632, 2005</p>
+<p>107. 高大文，文湘华，钱易. 白腐真菌木质素降解酶的反应器发酵. 环境科学, 27(2):333-337, 2006</p>
+<p>108. 隋鹏哲，文湘华，黄霞. 厌氧膜－生物反应器中超声控制膜污染研究. 环境污染防治技术与设备, 7(4):25-29, 2006</p>
+<p>109. SUI Pengzhe;WEN Xianghua;HUANG Xia. Membrane fouling control by ultrasound in an anaerobic membrane bioreactor，Frontiers of Environmental Science and Engineering in China, 1(3): 362-367, 2007</p>
+<p>110. 高大文，文湘华，周晓燕，钱易. 微量元素对白腐真菌的生长影响和抑制酵母的效果研究. 环境科学. 27(8): 156-160, 2006</p>
+<p>111. Gao, DW; Wen, XH; Qian, Y. Decolorization of reactive brilliant red K-2BP by white rot fungus under sterile and non-sterile conditions. Journal of Environmental Sciences-CHINA, 18 (3): 428-432, 2006</p>
+<p>112. Guoce Yu, Xianghua Wen, Rui Li, Yi Qian. In vitro degradation of a reactive azo dye by crude ligninolytic enzymes from nonimmersed liquid culture of Phanerochaete Chrysosporium. Process Biochemistry.&nbsp; 41，1987&ndash;1993. 2006</p>
+<p>113. 王荣昌, 文湘华，钱易. 悬浮载体生物膜内硝化菌群空间分布规律，环境科学， 27 (11)：2358 --2362，2006</p>
+<p>114. R.C. Wang, X.H. Wen and Y. Qian. Microbial population structure changes in a suspended carrier biofilm reactor. Water Science and Technology, 2006 54(9) 145&ndash;153</p>
+<p>115. Dawen Gao, Xianghua Wen, Yonggang Zeng, Yi Qian. Decolourization of a textile-reactive dye with Phanerochaete chrysosporium incubated in different ways under non-sterile conditions. Water Practice and Technology,&nbsp; vol. 1, issue 3, 2006</p>
+<p>116. 周晓燕，文湘华，冯嫣. 葡萄糖补料对白腐真菌P.chrysosporium产木质素降解酶的影响, 环境科学学报, 27(3):363-368, 2007</p>
+<p>ZHOU Xiaoyan, WEN Xianghua, FENG Yan. Influence of glucose feeding on the ligninolytic enzyme production of the white-rot fungus Phanerochaete Chrysosporium. Front. Environ. Sci. Engin. China. 2007, 2(1): 89&ndash;94</p>
+<p>117. GAO DaWen, WEN XiangHua, QIAN Yi. Comparative study on using carbon or nitrogen limited medium to culture white rot fungi for reactive brilliant re dye K-2BP decolorization under non-sterile conditions. Science in China Series B: Chemistry, 50(5):718-724, 2007</p>
+<p>118. 朱洪涛，文湘华，黄霞. 膜法水处理技术的最新研究进展，中国给水排水，23(22):12-17，2007</p>
+<p>119. QIAN Yi;WEN Xianghua;HUANG Xia.&nbsp; Development and application of some renovated technologies for municipal wastewater treatment in China, Frontiers of Environmental Science and Engineering in China, 1(1):1-12, 2007</p>
+<p>120. Pengzhe Sui, Xianghua Wen*, Xia Huang. Feasibility of employing ultrasound for on-line membrane fouling control in an anaerobic membrane bioreactor. Desalination, 219:203-213, 2008</p>
+<p>121. 熊小平，文湘华，徐康宁，边炳慧. 白腐真菌批式发酵动力学模型研究. 环境科学, 29(2):494-499, 2008</p>
+<p>122. XIONG Xiaoping, WEN Xianghua, BIAN Binghui, QIAN Yi. Effects of culture conditions on ligninolytic enzymes and protease production by Phanerochaete Chrysosporium in air. Journal of Environmental Sciences. 20(1):94-100, 2008</p>
+<p>123. 贾燕南，文湘华，李佳喜. 木质素降解酶对四环素的降解可行性.环境科学学报.28(1)：68-75,2008</p>
+<p>124. 朱洪涛，文湘华*，黄霞. 二级出水水质对中试臭氧-微滤工艺运行的影响. 环境科学学报.28(3)：452-457,2008</p>
+<p>125. 卜庆杰，朱洪涛，文湘华？,黄霞. 新型膜-生物反应器中膜丝长度对临界通量的影响研究.环境科学学报.28(3):446-451,2008</p>
+<p>126. 熊小平，文湘华，白亚楠，徐康宁，钱易. 白腐真菌发酵中胞外蛋白酶对MnP的产生及其稳定性的影响. 环境科学学报. 28 (5):866-872,2008</p>
+<p>127. Dawen Gao, Yonggang Zeng, Xianghua Wen, Yi Qian. Competition strategies for the incubation of white rot fungi under non-sterile conditions. Process Biochemistry 43 :937&ndash;944, 2008</p>
+<p>128. Hong Tao Zhu, Xiang Hua Wen*, Xia Huang. Pre-ozonation for dead-end microfiltration of the secondary effluent: suspended particles and membrane fouling. Desalination 231:166&ndash;174,&nbsp;&nbsp; 2008</p>
+<p>129. Xianghua Wen, Pengzhe Sui and Xia Huang. Exerting ultrasound to control the membrane fouling in filtration of anaerobic activated sludge&mdash;mechanism and membrane damage. Water Science and Technology. 57(5):773-779, 2008</p>
+<p>130. Hongtao Zhu, Xianghua Wen,*, Xia Huang, Motoharu Noguchi, Yiping Gan. Membrane Fouling in the Reclamation of Secondary Effluent with an Ozone-membrane Hybrid System. Separation Science and Technology. 44(1):121 -130, 2009</p>
+<p>131. 朱洪涛，文湘华？，黄霞. 臭氧对膜法水处理中膜污染的影响. 环境科. 30(1):302-312,2009</p>
+<p>132. Wei Wang, Xianghua Wen*. Expression of lignin peroxidase H2 from Phanerochaete chrysosporium by multi-copy recombinant Pichia strain. Journal of Environmental Science. 21:218-212,2009</p>
+<p>133. Xianghua Wen, Yannan Jia, Jiaxi Li.Degradation of tetracycline and oxytetracycline by crude lignin peroxidase prepared from Phanerochaete chrysosporium &ndash; A white rot fungus. Chemosphere 75:1003&ndash;1007, 2009</p>
+<p>134. 黄浩华，张杰，文湘华，甘一萍，周军. 城市污水处理厂A2/O工艺的节能降耗途径研究. 环境工程学报. 3(1):35-38, 2009</p>
+<p>135. 王晓慧，文湘华. MAR-FISH技术及其在环境微生物群落与功能研究中的应用. 微生物通报. 1:142-148, 2009</p>
+<p>136. ZHOU Cheng，WEN Xiang-hua. A novel knotted cotton-thread carrier: its potential use in achieving the biomass renewal of Phanerochaete chrysosporium in an immobilized growth system. Science in China Series B: Chemistry.52(5)670-675, 2009</p>
+<p>137. 王晓慧，文湘华*，杨宁宁，朱洪涛，许美兰，丁鵾. 污水处理工艺对氨氧化菌与细菌群落的影响. 中国环境科学. 29(6):622-628, 2009</p>
+<p>138. 周成，文湘华. 非灭菌条件下酸性蓝45在白腐真菌反应器中的降解特性. 环境科学. 30(6):1797-1801, 2009</p>
+<p>139. 王晓慧，文湘华*，张杰，赵颖，周军，甘一萍. 城市污水处理厂活性污泥中氨氧化菌群落结构研究. 环境科学. 30(10):3002-3006, 2009</p>
+<p>140. 张杰，文湘华，朱洪涛，许美兰，王晓慧. 常温下污泥水解酸化强化方法研究. 中国给水排水, 25(18): 10-15, 2009 （缺PDF）</p>
+<p>141. 周成, 文湘华. 打结棉线载体对白腐真菌生长与合成MnP的促进作用, 清华大学学报, 49（1）:830-833 ，2009</p>
+<p>142. Li, Jiaxi, Wen, Xianghua. Noncovalent immobilization of manganese peroxidases from P. chrysosporium on carbon nanotubes. Frontiers of Environmental Science and Engineering in China, 3(3), pp 294-299,&nbsp; 2009/9</p>
+<p>143. Xianghua Wen*, Yannan Jia, Jiaxi Li. Enzymatic degradation of tetracycline and oxytetracycline by crude manganese peroxidase prepared from Phanerochaete chrysosporium. Journal of Hazardious Materials. 177 (2010) 924&ndash;928，2010</p>
+<p>144. Hongtao Zhu, Xianghua Wen&lowast;, Xia Huang. Membrane organic fouling and the effect of pre-ozonation in microfiltration of secondary effluent organic matter. Journal of Membrane Science, 352: 213&ndash;221, 2010</p>
+<p>145. 王晓慧，文湘华，马娜，丁鵾，许美兰，杨宁宁. 不同规模污水处理系统中微生物群落结构.清华大学学报. 50(3):411-414, 2010</p>
+<p>146. Xiaohui Wang, Xianghua Wen, Craig Criddle, George Wells, Jie Zhang, Yin Zhao，Community analysis of ammoniaoxidizing bacteria in activated sludge of eight wastewater treatment systems. Journal of Environmental Sciences. 22(4): 627-634, 2010</p>
+<p>147. Meilan Xu, Xianghua Wen, Xia Huang, and Yushan Li. Membrane Fouling Control in an Anaerobic Membrane Bioreactor Coupled with Online Ultrasound Equipment for Digestion of Waste Activated Sludge. Separation Science and Technology, 45: 941-947, 2010</p>
+<p>148. 王晓慧，文湘华，丁鵾，张辉，周军.&nbsp; T-RFLP方法分析城市污水处理厂中细菌群落的动态变化特征. 环境科学. 31(5):1307-1311, 2010</p>
+<p>149.&nbsp; X. Wang, X. Wen, C. Criddle, H. Yan, Y. Zhang and K. Ding. Bacterial community dynamics in two full-scale wastewater treatment systems with functional stability. Journal of Applied Microbiology, 109 :1218&ndash;1226, 2010</p>
+<p>150. Zhou Cheng, WEN Xiang-hua and Zhao Xi. Evaluation of manganese peroxidase (MnP) for its ability to resist the ozonization and thereafter decolorize methyl orange.&nbsp; Water science and Technology. 62(11): 2625-2629, 2010</p>
+<p>151. 徐龙乾, 文湘华，丁杭军. 木质素过氧化物酶在球型介孔材料上的固定化特性研究. 环境科学，31(10):2493-2499, 2010</p>
+<p>152. Ningning Yang, XianghuaWen,&lowast;T. David Waite, Xiaomao Wang, Xia Huang. Natural organicmatterfoulingofmicrofiltrationmembranes:Predictionof constant flux behavior from constant pressure materials properties determination. Journal of Membrane Science. 366: 192-202 ,2011</p>
+<p>153. 刘宏波，文湘华*，赵芳. 利用活性污泥快速富集污水碳源的试验研究. 环境科学, 32(4)：131-136，2011</p>
+<p>154. Xiaohui WANG, Xianghua WEN (？), Hengjing YAN, Kun DING, Man HU. Community dynamics of ammonia oxidizing bacteria in a fullscale wastewater treatment system with nitrification stability. Front. Environ. Sci. Engin. 2011, 5(1): 92&ndash;98</p>
+<p>155. Xiaohui Wang, Xianghua Wen&uArr;, Hengjing Yan, Kun Ding, Fang Zhao, Man Hu. Bacterial community dynamics in a functionally stable pilot-scale wastewater treatment plant. Bioresource Technology 102 (2011) 2352&ndash;2357</p>
+<p><strong>专著或教材</strong></p>
+<p>1.汤鸿霄，钱易，文湘华，水体颗粒物与难降解有机物的特性与控制技术原理 上卷 水体颗粒物，北京：中国环境科学出版社，2000&nbsp;</p>
+<p>2.钱易，汤鸿霄，文湘华，水体颗粒物与难降解有机物的特性与控制技术原理 下卷 难降解有机物，北京：中国环境科学出版社，2000</p>
+<p>3.王建龙，文湘华 现代环境生物技术，清华大学出版社，2001</p>
+<p>4.顾夏声，胡洪营，文湘华，王慧，水处理生物学，北京：中国建筑出版社，2006</p>
+<p><strong>专著的一些章节</strong></p>
+<p>1． 文湘华, 藻类的培养, 环境微生物检测手册,俞毓馨等著, 121-126, 中国环境科学出版社,1990&nbsp;</p>
+<p>2． 文湘华，钱易，顾夏声，生物稳定塘生态学模型研究，环境工程科研论文汇编，51－59，中国环境科学出版社，1991</p>
+<p>3．&nbsp; Xianghua Wen.&nbsp; A material Transformation Model for Biological Stabilization Ponds.&nbsp; In Y. S. Wong,&nbsp; F. Y. Tam ed. Wastewater Treatment with Algae.&nbsp; Springer-Verlag and Landes Bioscience,&nbsp; pp189-202, 1998</p>
+<p>4． 文湘华，沉积物化学，水质模型，in &ldquo;当代化学前沿&rdquo;, 765-767, 中国致公出版社，1997</p>
+<p>5． Xianghua WEN, Yi QIAN. ENVRIONMENTAL SOUND MANAGEMENT OF WASTEWATER.&nbsp; in the book of Encyclopedia of Life Support System, UNESCO Publishing-Eolss Publishers, Oxford, UK. 2001</p>
+<p>6． Xianghua WEN. 4.11.2 INDUSTRIAL POLLUTION. in the book of Encyclopedia of Life Support System, UNESCO Publishing-Eolss Publishers, Oxford, UK., 2003</p>
+<p>7． Xianghua WEN. 4.11.2.5. ENVIRONMENTAL STANDARDS CONCERNING INDUSTRIAL POLLUTION DISCHARGE. in the book of Encyclopedia of Life Support System, UNESCO Publishing-Eolss Publishers, Oxford, UK., 2003</p>
+<p>8． Lei SHI, Ruirui LI, Xianghua WEN. 4.11.2.4 INDUSTRIAL POLLUTION PREVENTION STRATEGY - CLEANER PRODUCTION. in the book of Encyclopedia of Life Support System, UNESCO Publishing-Eolss Publishers, Oxford, UK., 2003</p>
+<p>9. 文湘华，&ldquo;废水生物稳定塘处理系统&rdquo;（25章）；&ldquo;城市废水一级强化处理&rdquo;（30章）， in张忠祥，钱易. &ldquo;废水生物处理新技术&rdquo;，北京：清华大学出版社，2003</p>
+<p><strong>译著</strong></p>
+<p>《环境生物技术－原理与应用》，作者Bruce Rittmann, Perry McCarty. 译者：文湘华，王建龙，清华大学出版社，2004&nbsp;</p>
+<p><strong>国际会议</strong></p>
+<p>1) Xing, Chuanhong, Qian, Yi, Wen, Xianghua, Meng, Yao-bin. Performance of Microfiltration Membrane Bioreactor for Domestic Wastewater Reclamation.&nbsp; Proceedings of the Water Environment Federation,&nbsp; Asia, 1998</p>
+<p>&nbsp;2) xianghua Wen, Chuanhong Xing, Yi Qian. Characteristics of Ceramic Ultra Filtration Membrane Bioreactor for Domestic Wastewater Treatment.&nbsp; Sino-British Conference on Environmental Science and Engineeing.&nbsp; April 12-13, 1999, Beijing</p>
+<p>3) Xianghua Wen, Chuanhong Xing, Yi Qian.&nbsp; Performance of membrane bioreactor for domestic wastewater treatment.&nbsp; International Workshop of Membrane Application for Water and Waste Water Treatment. April 27-29, 1999, Beijing.</p>
+<p>4) Xia Huang, Xianghua Wen, Yi Qian. Recent Studies on application of Membrane Bioreactor in Wastewater Treatment in China. The International Conference on Bioseparation Engineering, July4-7, 1999. NIKKO, Japan</p>
+<p>5) Xianghua Wen, Xia Huang, Yi Qian. Comparison of Different Types of Membrane Bioreactor for Domestic Wastewater Treatment. Management of Water, Land and Gene Resources in food production. Sept. 26-27, 1999. Xian</p>
+<p>6) Xianghua Wen, Lingzheng Wu, Hongxiao Tang. Adsorption/Desorption of Heavy Metals on a Contaminated River Sediment Sample. P143, 8th International Symposium on the Intereactions between Sediment and Water. Sept 13-17, 1999. Beijing</p>
+<p>7) Zijian Wang, Xianghua Wen, Meizhou Mao, Hongxiao Tang. Mobility and Bioavailability of Sediment-bound Copper in Le an River, China.&nbsp; P164, 8th International Symposium on the Intereactions between Sediment and Water. Sept 13-17, 1999. Beijing</p>
+<p>8) Xianghua Wen, Donghai Wang, Yi Qian.Study on an Inner-loop SBR for Dye Containing Wastewater Treatment，34th Annual Conference of Japan Society on Water Environment (JSWE). Kyoto University, 2000.3</p>
+<p>9)&nbsp; Meng Yaobin, WEN Xianghua, XING Chuanhong, QIAN Yi. Modeling on Treatment Capability of Domestic Wastewater by Recirculated Membrane BioReactor (RMBR).&nbsp; IAW 2000 Conference, Critical Technologies to the World I 21st Century: Pollution Control and Reclamation in Process Industries. 2000.9.18-20.&nbsp; Beijing</p>
+<p>10) Wang Jianlong, Huang Yongheng, Wen Xianghua, et al. Study on performance characteristics of the anaerobic baffled reactor(ABR). IAW 2000 Conference, Critical Technologies to the World I 21st Century: Pollution Control and Reclamation in Process Industries. 2000.9.18-20.&nbsp; Beijing</p>
+<p>11) Zhan XM, Wang JL Wen XH. Qian Y. Removal of aniline from aqueous solution by macroporous adsorptive resin. IAW 2000 Conference, Critical Technologies to the World I 21st Century: Pollution Control and Reclamation in Process Industries. 2000.9.18-20.&nbsp; Beijing</p>
+<p>12) Xia Huang, Ping Gui, Xianghua Wen, Yi Qian. Treatment of refractory organic compound using a membrane bioreactor. 21 Century-International Symposium on Membrane Technology and Environment Protection. P.129-135, Sep. 18-21, 2000. Beijing, China</p>
+<p>13) Xia Huang, Ping Gui, Xianghua Wen, Yi Qian. Characteristics of a submerged membrane bioreactor in domestic wastewater treatment. Proceeding of Tsinghua University-Kyoto University Secondary Joint Conference on Energy and Environment. P.67-73, Nov. 13-14, 2000, Tsinghua University, Beijing, China</p>
+<p>14) Xia Huang, Xianghua Wen, Hangjun Ding, Ruopeng Liu, Yi Qian. Hospital Wastewater Treatment Using a Membrane Bioreactor. China/Italy Workshop on Membrane Process for Clean Production and for Sustainable Industrial Growth. P.188-191. Apr. 9-11, Beijing, 2001</p>
+<p>15) Li Mo, Xia Huang, Xianghua Wen, Yi Qian. Characteristics of coagulation -microfiltration combination process for water purification, 2001 International Conference on Membrane Application， p.193-200, Sep.17-20, Shanghai, China</p>
+<p>16) Hu Linlin, Wen Xianghua, Feng Yecheng, Wang Jianlong, Qian Yi. A Preliminary Study on Simultaneous Nitrification And Denitrification Under Low Oxygen Concentration. International Conference on Environmental Concerns and Emerging Abatement Technologies. Beijing, China October 9-12, 2001</p>
+<p>17) Feng Yecheng, Hu Linlin, Wang Jianlong, Wen Xianghua, Qian Yi. Primary research on simultaneous nitrificatin and denitrification(SND). International Conference on Environmental Concerns and Emerging Abatement Technologies. Beijing, China October 9-12, 2001</p>
+<p>18) Wen Xiang-hua*, Fu Li-yan and Qian Yi. The performance of a two-stage SBR system in treating dye containing wastewater. IWA Asia Environmental Technology. Singapore, October 30 &ndash; November 1, p123-128, 2001</p>
+<p>19) Tian Wenhua, Wen Xianghua, Qian Yi. Features of Double Chamber Bed and Case Study. IWA Asia Environmental Technology. Singapore, October 30 &ndash; November 1, p599-604, 2001</p>
+<p>20) C.-H. XING，X.-H. WEN，Y. QIAN，D.D. SUN， P.S. KLOSE，X.Q. ZHANG. Fouling and Cleaning of Microfiltration Membrane in Municipal Wastewater. IWA Asia Environmental Technology 2001, Oct. 30 &ndash; Nov. 2, 2001, Singapore</p>
+<p>21)&nbsp; MO li, HUANG xia, WEN Xianghua, QIAN yi. Characteristics of coagulation -microfiltration combination process for water purification. 2001 International conference on the application of membrane technology, Shang Hai-Hang Zhou. Sept. 17-20, 2001: 193-200</p>
+<p>22) WEN Xianghua, YU Guoce, QIAN Yi. Fermentation of the ligninolytic enzymes by white rot fungi. The 4th Sino-Japan Workshop on Environmental Technology. Sept. 1-2, 2002</p>
+<p>23) Wang Rongchang, Wen Xianghua, Qian Yi, Correlations between structural and functional parameters of aquatic microbial community and water quality indicators. Proceedings of IWA conference on Environmental Biotechnology. 8-9 Dec，2003, Johor Bahru, Malaysia</p>
+<p>24) Xianghua WEN, Qing Jie BU，Xia HUANG. Study onFouling Characteristic of a Axial Hollow Fibers Cross-flow Microfiltration under Different Flux Operations. IWA Speciality Conference. Water Environment Membrane Technology, June 7-10, 2004, Seoul, Korea</p>
+<p>25) Yingxi Wu, Xia Huang, Xianghua Wen. Function of Dynamic Membrane in Self-Forming Dynamic Membrane Coupled Bioreactor. IWA Speciality Conference. Water Environment Membrane Technology, June 7-10, 2004, Seoul, Korea</p>
+<p>26) Dawen Gao, Xianghua Wen, Yi Qian. Decolorization of reactive brilliant red K-2BP by white rot fungus under sterile and non-sterile conditions. Proceedings of 2nd International Conference on Environmental Concerns. P1198-1205, 2004, Xiamen, China.</p>
+<p>27) Rongchang Wang, Xianghua Wen, Yi Qian. Influence of COD to ammonia ratio in influent on distributions of ammonia oxidizing bacteria and nitrobacteria in a suspended carrier biofilm reactor. Proceedings of International symposium on Biotechnology for Environmental Pollution Control. 13-16, August, 2004, Beijing, China.</p>
+<p>28) Xianghua WEN. Application of White Rot Fungus and Its Enzyme in organic pollutant degradation. The Inaugural New Zeland-China Environmental Conservation Conference. Sept. 24-25. 2004. Auckland, New Zealand.</p>
+<p>29) Pengzhe SUI, Xianghua WEN*，Xia HUANG. Study on the methodology of membrane fouling control by ultrasound in anaerobic membrane bioreactor. International Symposium on Membrane Technologies for Water and Wastewater Treatment, 29-30, Aug. 2005. Beijing, China.</p>
+<p>30) Xianghua WEN, Cuizhen LI. Production of Ligninolytic Enzymes by an Isolated White Rot Fungus F2. The 9th-10th Joint Seminars of JSPS-MOE Core University Program on Urban Environment : 20 &ndash; 21, Oct., 2005. Kunming, P.R. China</p>
+<p>31) Hongtao ZHU, Xianghua WEN*, Xia HUANG. Effect of Pre-ozonation on Ceramic Membrane Fouling When Applied to Secondary Effluent Treatment. The 4th Membrane and Science Technology Symposium. Apr. 28-29, 2006. Singapore</p>
+<p>32) Dawen GAO, Xianghua WEN*, Yonggang ZENG, Yi QIAN. Decolorization of a textile-reactive dye with Phanerochaete chrysosporium incubated in different ways under non-sterile conditions. IWA World Water Congress and Exhibition. 10-14, Sept. 2006</p>
+<p>33) Xianghua Wen*, Pengzhe Sui, Xia Huang. Exerting ultrasound to control the membrane fouling in filtration of anaerobic activated sludge-mechanism and membrane damage. the 4th International Water Association Conference on Membranes for Water and Wastewater Treatment, 15-17 May 2007, Harrogate, UK. ISBN number: 978-1-86194-127-5.</p>
+<p>34) Hongtao Zhu, Xianghua Wen*, Xia Huang. Pre-ozonation for Dead-end Microfiltration of Secondary Effluent: Suspended Particles and Membrane Fouling. 4th International Water Association Conference on Membranes for Water and Wastewater Treatment, 15-17 May 2007, Harrogate, UK. ISBN number: 978-1-86194-127-5.</p>
+<p>35) Y. N. Jia, X. H. Wen*, J. X. Li. Degradation of Tetracycline and Oxytetracycline by Manganese Peroxidase from Phanerochaete Chrysosporium. 2nd IWA ASPIRE conference and exhibition, Oct.28-Nov.1, Perth, Australia</p>
+<p>36) Wei Wang, Xianghua Wen. Heterologous expression of lignin peroxidase H2 of Phanerochaete chrysosporium in Pichia pastoris. 2nd IWA ASPIRE conference and exhibition, Oct.28-Nov.1, Perth, Australia</p>
+<p>37) Hongtao Zhu, Xianghua Wen * and Xia Huang. How water quality influences the MF performance in a pilot scale combined process? 6th regional symposium on membrane science and technology. 13-15 August 2008. Phuket Island, Thailand</p>
+<p>38) Hongtao Zhu, Xianghua Wen *, Zhenhua Ren，Huang Xia. Characterization of organic fouling on cellulose acetate membrane during the microfiltration of secondary effluent and model solutions. 6th regional symposium on membrane science and technology. 13-15 August 2008. Phuket Island, Thailand</p>
+<p>39) Xiaohui Wang, Xianghua Wen. Communities of ammonia oxidizing bacteria in activated sludge of various wastewater treatment plants in Beijing. the Thirteenth International Biotechnology Symopsium and Exhibition. Dalian, Oct.13-17. (Journal of Biotechnology, Volume 136, Supplement 1, October 2008, Page S610)</p>
+<p>40) Xiaohui Wang, Xianghua Wen. Bacterial community dynamics in a functionally stable pilot-scale wastewater treatment plant. 5th IWA special conference, Microbial population dynamics in biological wastewater treatment, August 24 to 27, 2009, Aalborg, Denmark</p>
+<p>41) Meilan Xu, Xianghua Wen*, Yushan Li.Digestion of Waste Active Sludge by an Anaerobic Membrane Bioreactor Coupled with Online ultrasonic Equipment.12th IWA Sludge Conference Sustainable Management of Waste and Wastewater Sludges, Aug8-10, Harbin,2009.</p>
+<p>42) Ningning Yang, Xianghua Wen*, T.David Waite, Xiaomao Wang, Xia Huang. Using a deliquoring model to indentify the cake porosity of the humic acid. IWA Membrane Technology Conference &amp; Exhibition2009, Sep1-3, Beijing, 2009</p>
+<p>43) Meilan Xu, Xianghua Wen*, Xia Huang, Yushan Li. Membrane Fouling Control in an Anaerobic Membrane Bioreactor Coupled with an Online Ultrasound Equipment for Digestion of Waste Active Sludge. IWA Membrane Technology Conference &amp; Exhibition2009, Sep1-3, Beijing, 2009</p>
+<p>44) X.H. Wang, X.H. Wen, Y Zhao, K. Ding. Functional Stability and Bacterial Community Dynamics in a Pilot- scale Wastewater Treatment System. The 3rd IWA-ASPIRE Conference and Exhibition, 18-21, 2009, Taipei, Taiwan</p>
+<p>45) Zhou Cheng, WEN Xiang-hua, Zhao Xi. Evaluation of ozone for its potential use to control bacteria in a white rot fungi reactor system. The 3rd IWA-ASPIRE Conference and Exhibition, 18-21, 2009, Taipei, Taiwan</p>
+<p>46) Xianghua WEN. Enzymatic degradation of Pharmaceuticals and personal care produces by crude ligninolytic peroxidase prepared from Phanerochaete chrysosporium. BIT&rsquo;s Inaugural Symposium on Enzyme &amp; Biocatalysis. Apr. 22-25, Shanghai, China</p>
+<p>47) Ningning Yang, Xianghua WEN, UF enhanced removal of odorants and NOM by biofiltration in drinking water treatment. The 7th International Membrane Science and Technology Conference, 11.22-26, Sydney, Australia</p>
+<p><strong>国内会议</strong></p>
+<p>1) 文湘华，吴玲钲，张云，初阳， 沉积物样品元素分析微波预处理方法研究，&rsquo;96&nbsp; 元素分析样品预处理技术研讨会, 1996.8&nbsp;</p>
+<p>2) 文湘华，王东海，钱易. 内循环SBR处理含染料废水的初步研究. 第一届环境模拟与污染控制研讨会，1999，11 北京</p>
+<p>3) 王建龙，黄永恒，文湘华，钱易. 折流式厌氧反应器(ABR)工艺特性及机理的研究，第一届环境模拟与污染控制研讨会，1999，11 北京</p>
+<p>4) 徐文东，文湘华，付莉燕. 偶氮染料派拉丁蓝RRN脱色细菌的选育与研究。中国化学会第五届水处理化学学术研讨会，2000.11，北京</p>
+<p>5) 王荣昌, 李翠珍, 文湘华, 钱易. 水体微型生物群落参数与水质指标相关性的研究. 第二届环境模拟与污染控制研讨会，2001，11 北京</p>
+<p>6) 田文华,,南国英,,文湘华, 钱易. 沸石床曝气生物滤池处理低浓度生活污水试验研究. 第二届环境模拟与污染控制研讨会，2001，11 北京</p>
+<p>7) 李向飞, 文湘华, 林刚. 白腐真菌的分离及其降解几种染料特性的研究. 第二届环境模拟与污染控制研讨会，2001，11 北京</p>
+<p>8) 喻国策，文湘华，杨茂东，钱&nbsp; 易.黄孢原毛平革菌木质素过氧化物酶粗酶的活体外稳定性.第六次全国环境微生物学术研讨会,2003,8. 成都</p>
+<p>9)&nbsp; 李翠珍，文湘华.白腐真菌产木质素降解酶发酵条件的优化.第三届环境模拟与污染控制研讨会，2003，11 北京</p>
+<p>10) 王荣昌 王玮 文湘华 钱易.悬浮载体生物膜反应器最佳载体投加量的确定.第三届环境模拟与污染控制研讨会，2003，11 北京</p>
+<p>11) 王荣昌 景永强 文湘华 钱易.悬浮载体生物膜反应器修复受污染河水试验研究. 第三届环境模拟与污染控制研讨会，2003，11 北京</p>
+<p>12) 喻国策, 文湘华, 李锐, 钱易. 黄孢原毛平革菌木质素过氧化物酶粗酶对一种活性偶氮染料的脱色. 第三届环境模拟与污染控制学术研讨会. 2003,11 北京</p>
+<p>13) 卜庆杰 文湘华. 气水两相流分置式膜-生物反应器在不同通量条件下的运行.第三届环境模拟与污染控制学术研讨会. 2003,11 北京</p>
+<p>14) 余志晟，文湘华（2004）新分离酵母菌株对合成染料的脱色。中国化学会第七届水处理化学大会暨学术研讨会论文集，pp319-323。</p>
+<p>15) 余志晟，文湘华，于丹 (2004) 染料脱色酵母菌的筛选和鉴定。第七次全国环境微生物学术会---环境微生物技术的研究、应用与成果转化，上海，10月22日－10月25日</p>
+<p>16) 高大文, 文湘华, 钱易.染料投加时间对非灭菌环境白腐真菌降解活性染料的影响.中国化学会第七届水处理化学大会会议论文集.P312-318，2004年9月，中国.济南.</p>
+<p>17) 高大文, 文湘华, 钱易.不同C/N比液体培养基对非灭菌环境Phanerochaete chrysosporium脱色活性艳红K-2BP的影响研究.第二届全国环境化学学术报告会论文集.P7-13~7-16，2004年10月，中国.上海.</p>
+<p>18) 王玮，余志晟，文湘华. 白腐真菌总DNA 提取方法研究. 第八次全国环境微生物学术会，2005. 9 哈尔滨</p>
+<p>19) 朱洪涛，文湘华，黄霞，张中华.用于再生水生产的陶瓷膜微滤组合工艺参数优化研究, 第五届环境模拟与污染控制学术研讨会. 2007,11 北京</p>
+<p>20) 周成，文湘华. 采用臭氧对白腐真菌反应器中的细菌进行控制的可能性,第八届全国环境微生物学术会，2007，12.广州</p>
+<p>21) 王晓慧，文湘华. T-RFLP方法分析不同城市污水处理厂氨氧化菌群落结构, 第九届全国环境微生物学术会，2008.11.28-12.2, 无锡</p>
+<p>22) 杨宁宁，吴媛媛，徐千惠，文湘华. 2-MIB和geosmin降解菌群培养条件的优化, 第十届全国环境微生物学术会，2009.11.27-11.29, 武汉</p>
+<p>23) 文湘华，杨宁宁，&ldquo;BAF+UF去除致嗅物质及NOM的特性&rdquo;，第五届中国城镇水务国际研讨会，2010.11.1-11.3，无锡</p>
+                  </div>
+                      <!--s2_right_con结束处-->
+                    <!-- end -->
+                                                              
+                </td>
+              </tr>
+            </table>
+            <!-- end -->
+                                       
+       </div>
+        <!-- 中部区域结束 -->
+        
+        <!-- 页脚区域开始 -->
+        <!-- 页脚区域开始 -->
+        <div class="footer nomalwidth auto"><div class="footer nomalwidth auto"><p style="text-align: center;"><span style="color: rgb(51, 51, 51);">Copyright&nbsp;<img title="copyright_black.png" src="/publish/env/6421/20110117161025461497872/1492675051132.png"/> 2017&nbsp;清华大学环境学院<span style="color: rgb(0, 0, 0);"> </span></span></p><p style="text-align: center;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">地址：清华大学中意环境节能楼&nbsp;&nbsp;100084</span></p></div><!-- 页脚区域结束 --><!-- 页脚区域结束 --><!-- 整体区域结束 --></div>
+<!-- 页脚区域结束 -->        <!-- 页脚区域结束 -->
+        
+ </div>
+    <!-- 整体区域结束 -->
+</body>
+</html>

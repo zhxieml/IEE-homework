@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html class="expanded">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>
+虎扑社团 - 虎扑社区
+</title>
+<link rel="dns-prefetch" href="//b1.hoopchina.com.cn" />
+<link rel="dns-prefetch" href="//b3.hoopchina.com.cn" />
+<link rel="apple-touch-icon" href="//b1.hoopchina.com.cn/common/apple-touch-icon.png" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.hupu.com/bbs" />
+<meta name="mobile-agent" content="format=html5;url=https://m.hupu.com/bbs" />
+<link rel="alternate" href="android-app://com.hupu.games/huputiyu/bbs/board/?r=hupucom"/>
+
+
+<meta name="keywords" content="虎扑社团" />
+<meta name="description" content="虎扑社团来自虎扑社区." />
+
+<meta name="apple-itunes-app" content="app-id=906632439" />
+<link rel="shortcut icon" href="//b3.hoopchina.com.cn/common/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="//b3.hoopchina.com.cn/common/common-v1.css" />
+<script src="//b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js"></script> 
+<script src="//b3.hoopchina.com.cn/common/common-v1.js"></script>
+<script type="text/javascript">
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+
+    </script>
+
+<style type='text/css'>      .bbsHotPit #forumname{
+        padding: 8px 0 15px 10px !important;
+        font-size: 18px !important;
+        margin-bottom: 15px !important;
+        background: url(//b3.hoopchina.com.cn/images/img_icon_07.gif?t=2015090901) 0 -944px repeat-x !important;
+      }
+    </style>
+<link rel="stylesheet" type="text/css" href="//b3.hoopchina.com.cn/web/channel/bbs/static/common/pkg/bbsCommon_61a28dd.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/pkg/bbsSubPages_e79f3ae.css"/></head>
+<body>
+<!--topbarNav star-->
+                        <div id="hp-topbarNav">
+                            <div class="hp-topbarNav-bd">
+                                <ul class="hp-quickNav">
+                                    <li class="mobileWeb"><a href="javascript:void(0)" onclick="hp_quick_touch()"><i class="ico-mobile"></i>手机虎扑</a></li>
+                                    <li class="line">|</li>
+                                    <li class="mobileclientDown"><a class="red" href="https://mobile.hupu.com/?_r=globalNav" target="_blank">虎扑客户端</a></li>
+                                    <li class="line">|</li>
+                                    <li class="hp-dropDownMenu topFollowBlog">
+                                        <a href="javascript:void(0)" class="hp-set">关注虎扑<s class="setArrow"></s></a>
+                                        <div class="hp-drapDown followLayer">
+                                            <a class="weibo" target="_blank" rel="nofollow" href="//weibo.com/liangle4u"><i class="hp-ico-weibo"></i>新浪微博</a>
+											<a class="weixin" target="_blank" href="https://voice.hupu.com/other/1581560.html"><i class="hp-ico-weixin"></i>官方微信</a>
+                                            <a class="instagram" target="_blank" rel="nofollow" href="https://voice.hupu.com/other/1634334.html"><i class="hp-ico-instagram"></i>Instagram</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="hp-topLogin-info"></div>
+                            </div>
+                        </div>
+                        <!--topbarNav ent--><!--header star--><div class="hp-header hp-header-B"><div class="hp-logo"><a title="社区" href="https://bbs.hupu.com/"><img src="https://b3.hoopchina.com.cn/images/logo2017/v1/hp_logo_sports.png" alt="社区" width="140px" height="52px"/></a>
+                            </div>
+                            <div class="hp-mainNav hp-mainNav-B">
+                                <div class="hp-nav">
+                                    <div class="hp-nav-bd">
+                                        <ul class="hp-nav-item"><li><a href="https://www.hupu.com/" >虎扑首页</a></li><li class="line">|</li><li><a href="https://nba.hupu.com/" >NBA</a></li><li class="line">|</li><li><a href="https://cba.hupu.com/" >CBA</a></li><li class="line">|</li><li><a href="https://gg.hupu.com" >电竞</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com" >国际足球</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com/china/" >中国足球</a></li><li class="line">|</li><li><a href="http://racing.hupu.com/" >赛车</a></li><li class="line">|</li><li><a href="http://zb.hupu.com/" target="_blank">装备</a></li><li class="line">|</li><li><a href="http://www.shihuo.cn/" target="_blank">识货</a></li><li class="line">|</li><li class="on"><a href="https://bbs.hupu.com/" >社区</a></li><li class="line">|</li><li><a href="https://bbs.hupu.com/all-gambia" >步行街</a></li><li class="line">|</li><li><a href="http://www.liangle.com" target="_blank">路人王</a></li><li class="line">|</li><li class="hp-dropDownMenu hp-moreNav">
+                                                <a href="javascript:void(0)" class="hp-set">更多<s class="setArrow"></s></a>
+                                                <div class="hp-drapDown hp-moreNav-drapDown"><a href="https://shop311048929.taobao.com/" target="_blank">虎扑优选</a><a href="http://outdoor.hupu.com/" >户外</a><a href="http://run.hupu.com/" >健身</a><a href="http://ymq.hupu.com/" >羽毛球</a><a href="http://xgame.hupu.com/" target="_blank">xgames</a><a href="http://www.nflchina.com/" target="_blank">NFL</a><s class="arrow-top"><s class="arrowbd"></s></s>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="hp-subNav">
+    <ul class="hp-subNav-item">
+        <li><a href="/">首页</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-nba">NBA版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-cba">CBA版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-soccer">国际足球版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/china-soccer">中国足球版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-sports">综合体育</a></li><li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a target="_blank" href="https://bbs.hupu.com/all-gear">装备版</a>
+            <div class="hp-drapDown">
+                <a href="https://bbs.hupu.com/c2c">交易区</a>
+                <a href="https://bbs.hupu.com/jersey">球衣区</a>
+                <a href="https://bbs.hupu.com/outdoorgear">户外装备</a>
+            </div>
+        </li>
+		<li class="line">|</li>
+        <li class="hp-dropDownMenu">
+			<a href="/all-gambia" class="hp-set">步行街</a>
+			<div class="hp-drapDown">
+				<a href="https://bbs.hupu.com/bxj">步行街主干道</a>
+				<a href="https://bbs.hupu.com/ent">影视区</a>
+				<a href="https://bbs.hupu.com/acg">ACG区</a>
+				<a href="https://bbs.hupu.com/nba2k">NBA2K区</a>
+				<a href="https://bbs.hupu.com/game">电竞区</a>
+				<a href="https://bbs.hupu.com/cars">车友交流</a>
+				<a href="https://bbs.hupu.com/music">音乐区</a>
+				<a href="https://bbs.hupu.com/love">情感区</a>
+				<a target="_blank" href="https://bbs.hupu.com/all-gambia">更多</a>
+				<s class="arrow-top"><s class="arrowbd"></s></s>
+			</div>
+		</li><li class="line">|</li>	
+        <li class="hp-dropDownMenu">
+			<a href="/all-lottery" class="hp-set">彩票版</a>
+			<div class="hp-drapDown">
+				<a href="https://bbs.hupu.com/lancai">篮彩神棍区</a>
+				<a href="https://bbs.hupu.com/zucai">足彩讨论区</a>
+				<a href="https://bbs.hupu.com/shuzicai">数字彩讨论区</a>
+				<a href="https://bbs.hupu.com/caipiao">虎扑彩票客服区</a>
+				<s class="arrow-top"><s class="arrowbd"></s></s>
+			</div>
+		</li><li class="line hp-hide-w1024">|</li>
+		<li class="hp-hide-w1024"><a href="/all-group">虎扑社团</a></li><li class="line">|</li>
+		<li><a target="_blank" href="https://bbs.hupu.com/all-boards">自建版块</a></li><li class="line">|</li>
+		<li><a target="_blank" href="https://bbs.hupu.com/all-feedback">站务版</a></li>
+    </ul>
+</div>
+
+                                <i class="hp-roundPoint-br-tl roundPoint-br-tl"></i>
+                                <i class="hp-roundPoint-br-tr roundPoint-br-tr"></i>
+                                <i class="hp-roundPoint-br-bl roundPoint-br-bl"></i>
+                                <i class="hp-roundPoint-br-br roundPoint-br-br"></i>
+                            </div>
+                        </div>
+
+<script>
+  googletag.cmd.push(function() {
+                googletag.defineSlot('\/1016953\/hoopchina-bbs-right-Optimus-120x600', [120, 600], 'hoopchina-bbs-right-Optimus-120x600').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/hc_newbbs_indexTop_1200x60', [1200, 60], 'hc_newbbs_indexTop_1200x60').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/soccer_bbs_list1_1x1', [1, 1], 'soccer_bbs_list1_1x1').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/nba_bbs_firstlist_1x1', [1, 1], 'nba_bbs_firstlist_1x1').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/bbs_rightback_250x250', [250, 250], 'bbs_rightback_250x250').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/goalhi-bbs-top-banner-1200x60', [1200, 60], 'goalhi-bbs-top-banner-1200x60').addService(googletag.pubads());
+              googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+</script>
+<div class="bbs-content all-group">
+<div id="container">
+<div class="container_padd">
+<div class="bbsPlate">
+<div class="showPlate">
+<div id="J-t-plate">
+<script id="J-plate-tpl" type="text/template">
+      <@if(datas.length>0){@>
+      <p class="forMyplate">
+        <span class="forhot">我关注的版块</span>
+       <a class="guanli" href="//bbs.hupu.com/myboardadmin.php?url=https://bbs.hupu.com/" onclick="window.open('/myboardadmin.php?url=https://bbs.hupu.com/','o','width=300,height=700,left=200,top=100,scrollbars=1,resizable=1');return false;">管理</a>
+      </p>
+     <ul class="bbs-showMyPlate">
+            <li>
+              <a href="/i"><span class="showname">我关注的版块帖子</span></a>
+            </li>
+            <@ $(datas).each(function(index,item){ @>
+              <li>
+                <a href="<@=item.url@>"  title="<@=item.bname@>">
+                  <span class="showname"><@=item.bname@></span>
+                  <@if(item.tpost>0){@>
+                  <span class="num"><@=item.tpost@></span>
+                  <@ } @>
+                </a>
+              </li>
+            <@ }); @>
+
+    </ul>
+      <@ } @>
+  </script>
+</div>
+<p class="forMyplate" style="margin-top:8px;">
+<span class="forhot" >版块分类</span>
+</p>
+<ul class="bbs_banner">
+<li  data-num="0">
+<a href="/all-nba"  class="data-1" data-fid="1">NBA论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="1">
+<a href="/all-cba"  class="data-232" data-fid="232">CBA论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="2">
+<a href="/all-soccer"  class="data-198" data-fid="198">国际足球论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="3">
+<a href="/all-csl"  class="data-4596" data-fid="4596">中国足球论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="4">
+<a href="/all-gg"  class="data-234" data-fid="234">游戏电竞</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="5">
+<a href="/all-gambia"  class="data-174" data-fid="174">步行街</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="6">
+<a href="/all-boards"  class="data-238" data-fid="238">自建版块</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="7">
+<a href="/all-gear"  class="data-233" data-fid="233">运动和装备</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="8">
+<a href="/all-sports"  class="data-41" data-fid="41">综合体育</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="9">
+<a href="/all-lottery"  class="data-42" data-fid="42">彩票中心</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="10">
+<a href="/all-group"  class="data-114" data-fid="114">虎扑社团</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="11">
+<a href="/all-feedback"  class="data-7" data-fid="7">站务管理</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+</ul>
+<p class="morebbs">
+<a href="//bbs.hupu.com/boards.php" >更多版块»</a>
+</p>
+
+</div>
+<div class="leftad" id="hoopchina-bbs-right-Optimus-120x600" style="width:120px; height:600px; ">
+<script>
+                     googletag.cmd.push(function() { googletag.display('hoopchina-bbs-right-Optimus-120x600'); });
+               </script>
+</div>
+</div>
+<div class="bbsHotPit">
+<h1 id="forumname">虎扑社团</h1>
+<ul class="grouplist">
+<li>
+<p>
+<a class="show1" href="/workshop" target="_blank">翻译团工地</a>
+</p>
+<p><a href="/23270907.html" class="show2" target="_blank">[工地]困境之中砥砺前行的逆袭英雄乔-英格尔斯</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/rourou" target="_blank">崇论宏议</a>
+</p>
+<p><a href="/23909500.html" class="show2" target="_blank">[话题团] 保罗-真理-皮尔斯，41岁生日快乐！</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4590" target="_blank">通知</a>
+</p>
+<p><a href="/19884903.html" class="show2" target="_blank">[话题团-虾扯]第一期：聊聊你最喜欢的球星，为什么喜欢他？</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4688" target="_blank">国篮创作社</a>
+</p>
+<p><a href="/24042118.html" class="show2" target="_blank">是水土不服还是期望过高？艾尔杰佛森如何打出自身价值?</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/tennisclub" target="_blank">TennisClub</a>
+</p>
+<p><a href="/19884995.html" class="show2" target="_blank">2008  迈阿密决赛 纳达尔VS达维登科</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/zhangxuyan" target="_blank">四平路溧阳路</a>
+</p>
+<p><a href="/7788073.html" class="show2" target="_blank">投票demo</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/meixiaoyi" target="_blank">少将的指挥所</a>
+</p>
+<p><a href="/16232351.html" class="show2" target="_blank">Under Armour ClutchFi...</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4300" target="_blank">蒙古海军大将</a>
+</p>
+<p><a href="/3453767.html" class="show2" target="_blank">3月29日 欧冠1/4决..</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/cytpz" target="_blank">次元突破者</a>
+</p>
+<p><a href="/16961090.html" class="show2" target="_blank">久美子的闺房</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/usajrs" target="_blank">美国JRs之声</a>
+<span>(5贴)</span>
+</p>
+<p><a href="/20714486.html" class="show2" target="_blank">预约、报备、认领专用楼</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/fyt" target="_blank">翻译团-Lounge</a>
+<span>(8贴)</span>
+</p>
+<p><a href="/24024972.html" class="show2" target="_blank">[翻译团]凯尔特人的下一步，哪个分卫将站出来带领球队呢？</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4480" target="_blank">翻译团精华译文</a>
+</p>
+<p><a href="/22294375.html" class="show2" target="_blank">[翻译团]此间再无将军令：鲍勃-奈特的终曲</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/fyt-store" target="_blank">翻译团招工部</a>
+<span>(5贴)</span>
+</p>
+<p><a href="/24045997.html" class="show2" target="_blank">A New Option for N.B.A. Prospects: The Million-Dollar Intern</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4681" target="_blank">悬赏</a>
+</p>
+<p><a href="/23073645.html" class="show2" target="_blank">协和医院黄牛挂号电话l56523O9777泌尿道感染　停经后妇女也好发</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/sub-store" target="_blank">字幕组招工部</a>
+</p>
+<p><a href="/16297320.html" class="show2" target="_blank">【公告】虎扑字...</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/playbook" target="_blank">真·战术板</a>
+</p>
+<p><a href="/23425437.html" class="show2" target="_blank">How to Make the Defence Always Wrong - On Ball Screen Offence Versus Man</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/bballwiki" target="_blank">虎扑篮球百科</a>
+</p>
+<p><a href="/17882031.html" class="show2" target="_blank">虎扑篮球百科用...</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/liangletuan" target="_blank">亮了团</a>
+</p>
+<p><a href="/24040149.html" class="show2" target="_blank">【影评人】第243期：陈可辛执导，众星云集《十月围城》你的虎扑评分是多少？</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/lgt" target="_blank">楼工团</a>
+<span>(4贴)</span>
+</p>
+<p><a href="/24048364.html" class="show2" target="_blank">[楼工团·赛后评分]10月23 日 10: 30,马刺VS湖人③</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4601" target="_blank">楼工团·JR访</a>
+</p>
+<p><a href="/15615067.html" class="show2" target="_blank">【楼工团·JR访】专访NBA最前线美女主持沙沙：男友选库里，期待与虎扑JRs一起飞</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/nh" target="_blank">善战之阙</a>
+</p>
+<p><a href="/1315539.html" class="show2" target="_blank">借用一下</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/Export" target="_blank">通译组</a>
+</p>
+<p><a href="/23793998.html" class="show2" target="_blank">[楼工团-译]18-19赛...</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/rockets-news-group" target="_blank">火箭新闻组</a>
+</p>
+<p><a href="/16723606.html" class="show2" target="_blank">【火箭社·招新?...</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/plt" target="_blank">航天中心</a>
+</p>
+<p><a href="/24037674.html" class="show2" target="_blank">[火箭社·薛定谔的篮球]越来越鸡肋的火箭新援配角群</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/unite" target="_blank">联合工地</a>
+</p>
+<p><a href="/11743450.html" class="show2" target="_blank">【联合工地·字幕】神射手科沃尔专访:连续100场命中三分的秘诀</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4357" target="_blank">联合工地·访</a>
+</p>
+<p><a href="/13007515.html" class="show2" target="_blank">【火箭社&amp;联合工...</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4123" target="_blank">联合印象</a>
+</p>
+<p><a href="/16799913.html" class="show2" target="_blank">15-16赛季季后赛次轮大预测（西部篇）</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4125" target="_blank">热线·春潮</a>
+</p>
+<p><a href="/21507255.html" class="show2" target="_blank">试验贴。。。。。</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/Translation" target="_blank">联合工地·译</a>
+</p>
+<p><a href="/11743450.html" class="show2" target="_blank">【联合工地·字幕】神射手科沃尔专访:连续100场命中三分的秘诀</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/unite-inside" target="_blank">内务府</a>
+</p>
+<p><a href="/12103698.html" class="show2" target="_blank">【联合工地】头衔申..</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/4447" target="_blank">联合虎瞰</a>
+</p>
+<p><a href="/17180305.html" class="show2" target="_blank">xdn79599xdn79599</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/fubai" target="_blank">兵工厂</a>
+</p>
+<p><a href="/2661839.html" class="show2" target="_blank">[转帖+更新不断]他..</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/ourwiki" target="_blank">WIKI编写部</a>
+</p>
+<p><a href="/1503388.html" class="show2" target="_blank">是什么让你迄今没有..</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/wikicomplaint" target="_blank">WIKI投诉区</a>
+</p>
+<p><a href="/9082259.html" class="show2" target="_blank">影响世界的中国文化旅游名景评选投票</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/yaozhimeng" target="_blank">储物间</a>
+</p>
+<p><a href="/23955213.html" class="show2" target="_blank">北京大师PK牛皮理论</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/jzt" target="_blank">采访团</a>
+</p>
+<p><a href="/13031496.html" class="show2" target="_blank">【采访团】迟到的勇..</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/suxiezu" target="_blank">速写组</a>
+</p>
+<p><a href="/24003236.html" class="show2" target="_blank">蓄势起飞，我郭艾伦是不可战胜的！</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/lalala" target="_blank">BigEasyHornet</a>
+</p>
+<p><a href="/13739892.html" class="show2" target="_blank">test</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/3975" target="_blank">构思工地</a>
+</p>
+<p><a href="/7321293.html" class="show2" target="_blank">志在三连的热火，神..</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/bubingtuan" target="_blank">步兵团</a>
+</p>
+<p><a href="/20871148.html" class="show2" target="_blank">12</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/ganbiyacc" target="_blank">甘比亚春潮</a>
+</p>
+<p><a href="/4262864.html" class="show2" target="_blank">【步兵团】一句话公..</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/hupuyidianyuan" target="_blank">F2</a>
+</p>
+<p><a href="/23914896.html" class="show2" target="_blank">大发快三怎么玩赚钱？怎么玩才能稳赚玩好？</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/hxbbjb" target="_blank">投名状</a>
+</p>
+<p><a href="/.html" class="show2" target="_blank">【投名状·观眼</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/2322" target="_blank">入耳phenom</a>
+</p>
+<p><a href="/9089900.html" class="show2" target="_blank">为辅的祝福个电饭锅电饭锅的</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/photo-xhw" target="_blank">图客团大本营</a>
+</p>
+<p><a href="/5731996.html" class="show2" target="_blank">图客团用户组升级申请专贴</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/sigh2012" target="_blank">活动征集</a>
+</p>
+<p><a href="/6110179.html" class="show2" target="_blank">[韦德周刊]40期：幸..</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/hudongshe" target="_blank">互动社</a>
+</p>
+<p><a href="/24035884.html" class="show2" target="_blank">【精华】大发代理说明【37741456】威</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/video-xhw" target="_blank">ourmix里屋</a>
+</p>
+<p><a href="/20311888.html" class="show2" target="_blank">杀杀杀......</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/gzone" target="_blank">G-Zone</a>
+</p>
+<p><a href="/2678646.html" class="show2" target="_blank">【G-Zone】水楼一栋，让我们开创辉煌，官方Q群，153675828，请勿外泄</a></p>
+</li>
+<li>
+<p>
+<a class="show1" href="/dys" target="_blank">电影社</a>
+</p>
+<p><a href="/23437383.html" class="show2" target="_blank">电影社八月报道帖</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="bottom_tools" >
+<a id="scrollUp"   title="返回顶部" style="display:none;cursor:pointer;"></a>
+</div>
+<div class="hp-footer">
+                    
+                    <div class="hp-copyright">
+                    
+                    Copyright by 虎扑JRs &amp;
+                    <a href="https://www.hupu.com/" target="_blank" title="虎扑">虎扑</a> -
+                    <a href="http://jobs.hupu.com/" target="_blank">在虎扑工作</a> -
+                    <a href="http://marketing.hupu.com/contact/" target="_blank">联系我们</a> -
+                    <a href="https://m.hupu.com/" target="_blank">手机虎扑网</a> -
+                    <a href="https://mobile.hupu.com/" target="_blank">虎扑App</a> -
+                    <a href="https://www.hupu.com/policies/terms" target="_blank">服务协议</a> -
+                    <a href="https://www.hupu.com/sitemap.html" target="_blank">网站地图</a> -
+                    <a href="https://nba.hupu.com/" target="_blank" title="NBA">NBA</a> -
+                    <a href="https://cba.hupu.com/" target="_blank" title="CBA">CBA</a>  -
+                    <a href="https://soccer.hupu.com/" target="_blank" title="足球">足球</a> -
+                    <a href="https://soccer.hupu.com/china/" target="_blank" title="中超">中超</a> -
+                    <a href="http://racing.hupu.com/" target="_blank" title="赛车">赛车</a> 
+                    </div>
+                    
+                </div>
+</body><script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/mod_96dd55b.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/jquery/jquery-1.8.3_a6ffa58.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/widget/ui-dace/ui-dace_85cd6f2.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/global/global_7fa80c2.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/js/underscore/underscore_48198ee.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/js/common-v1_c756bbd.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/return_1b6b007.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/widget/bbsPlate/bbsPlate_f382325.js"></script>
+<script type="text/javascript">var __ready = [];__ready.push(function(){
+        //dace统计
+        var __daceDataNameOfChannel = 'bbs';
+
+        //公共头尾
+        window._common && _common.init({project:"sports"});
+
+        //baidu统计
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?39fc58a7ab8a311f2f6ca4dc1222a96e";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    });
+__ready.push(function(){       var bbsPlate= require("common:widget/bbsPlate/bbsPlate");
+       bbsPlate.init();
+
+     });
+__ready.push(function(){window.onload=function(){
+  var showheight=$(".showPlate").height();
+  var leftheight=$(".leftad").height();
+  var mheight=showheight+leftheight+20;
+  var rheight=$(".bbsHotPit").height()
+   $(".bbsHotPit").css({"min-height":mheight,"height":rheight});
+}
+});window.initEvent && window.initEvent();</script></html>

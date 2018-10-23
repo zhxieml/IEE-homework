@@ -1,0 +1,535 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML><HEAD><TITLE>档案馆（党史校史研究室）主页</TITLE><META Name="keywords" Content="档案馆（党史校史研究室）主页" />
+
+
+
+
+
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<META content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<META name="format-detection" content="telephone=no">
+<META name="format-detection" content="address=no"><LINK rel="stylesheet" href="css/style.css"><LINK rel="stylesheet" href="css/bdcss.css"><script type="text/javascript" src="js/bdtxk.js"></script><script type="text/javascript" src="js/Slide.js"></script><script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323074684754525b564203040000 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1422475781)</script>
+</HEAD>
+<BODY>
+<DIV class="w100"><!------top start-------->
+<DIV class="top w1200">
+<DIV class="logo fl">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm"><img src="images/logo.png"></a></DIV>
+<DIV class="top-r fr">
+<DIV class="top-a"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><a href="http://archives.sjtu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17167)" target="_blank">校史 ·  档案  · 文博网</a><span>|</span>
+<a href="http://museum.sjtu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17168)" target="_blank">校史博物馆</a><span>|</span>
+<a href="http://sjtuhistory.sjtu.edu.cn" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17169)" target="_blank">校史网</a>
+</DIV>
+<DIV class="form">
+
+
+
+
+
+ <form action="ssjgy.jsp?wbtreeid=1001" method="post" name="a194044a" onsubmit="return subsearchdataa194044a()" style="display: inline;">
+  <input type="hidden" name="Find" value="find"><input type="hidden" name="entrymode" value="1"><input type="hidden" id="INTEXT2" name="INTEXT2" value=""><input type="hidden" name="news_search_code">
+
+
+   
+       <span id="intextspana194044a"></span>
+       <iframe id="intextframea194044a" src="about:blank" scrolling="no" frameborder="0" style="position:absolute;top:0px;left:0px;display:none;"></iframe><input type="image" class="search-right fl" src="images/so-bt.png" align="absmiddle" valign="bottom" style="cursor: hand">
+       <input class="search-left fr" name="INTEXT">
+   
+   
+        
+                   
+                    
+                
+
+</form>
+<script>
+String.prototype.trim　= function()       
+{              
+    var t = this.replace(/(^\s*)|(\s*$)/g, "");     
+    return t.replace(/(^　*)|(　*$)/g, "");     
+}
+function subsearchdataa194044a()
+{ 
+    if(document.a194044a.INTEXT.value.trim()=="")
+    {
+         alert("请输入查询关键字！");
+         return false;
+    }
+    if(checkDataa194044a(document.a194044a))
+    {
+       return true;  
+    }
+    return false;
+}       
+</script>
+
+    <script language="JavaScript" src="_dwr/engine.js"></script>
+    <script language="JavaScript" src="_dwr/util.js"></script>
+    <script language="JavaScript" src="_dwr/interface/NewsSearchDWR.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search_entry.js"></script>    
+    <script language="JavaScript" src="/system/resource/js/language.js"></script>
+    <script language="JavaScript" src="/system/resource/js/base64.js"></script>
+    <script language="JavaScript" src="/system/resource/js/formfunc.js"></script>    
+    <script>    
+    news_searcha194044a = new vsb_news_search();
+    news_searcha194044a.isShowCode=false;
+    news_searcha194044a.tooltipid = 'tooltipa194044a';
+    news_searcha194044a.apptag = 'intextspana194044a';
+    news_searcha194044a.frametag = 'intextframea194044a';
+    news_search_entrya194044a = new vsb_news_search_entry();
+    news_search_entrya194044a.formname = "a194044a";
+    news_search_entrya194044a.news_search_obj = news_searcha194044a; 
+    news_search_entrya194044a.querytxtsize = 155
+    news_search_entrya194044a.yzmts ="您的查询过于频繁，请输入验证码后继续查询";
+    news_search_entrya194044a.qdstyle ="";
+    news_search_entrya194044a.qdname = "确定";
+    news_search_entrya194044a.qxstyle = "";
+    news_search_entrya194044a.qxname = "取消";
+    news_search_entrya194044a.showstr='请输入查询验证码！';    
+    function checkDataa194044a(formname)
+    {    
+        return news_search_entrya194044a.checkdata(formname)   
+    }
+    </script>
+<script language="javascript" src="/system/resource/js/base64.js"></script> 
+</DIV></DIV></DIV><!------top   end--------><!-------nav start-------->
+<DIV class="navBar">
+<UL class="nav clearfix">    <LI class="m ">
+        <H3><a href="gzgk/gzjj.htm">工作概况</A></H3>
+        <UL class="sub" style="width:120px;">
+
+          <LI><a href="gzgk/gzjj.htm">工作简介</A></LI>
+
+          <LI><a href="gzgk/zzry.htm">专职人员</A></LI>
+
+          <LI><a href="gzgk/jzry.htm">兼职人员</A></LI>
+
+          <LI><a href="gzgk/gzcg.htm">工作成果</A></LI>
+
+          <LI><a href="gzgk/xscg.htm">学术成果</A></LI>
+
+          <LI><a href="gzgk/lxwm.htm">联系我们</A></LI>
+        </UL>
+      </LI>
+    <LI class="m ">
+        <H3><a href="dafg.htm">档案法规</A></H3>
+        <UL class="sub" style="width:120px;">
+
+          <LI><a href="dafg/gjfg.htm">国家法规</A></LI>
+
+          <LI><a href="dafg/dffg.htm">地方法规</A></LI>
+
+          <LI><a href="dafg/xxgz.htm">学校规章</A></LI>
+
+          <LI><a href="dafg/gngz.htm">馆内规章</A></LI>
+        </UL>
+      </LI>
+    <LI class="m ">
+        <H3><a href="fwzn.htm">服务指南</A></H3>
+        <UL class="sub" style="width:120px;">
+
+          <LI><a href="fwzn/ydzn.htm">用档指南</A></LI>
+
+          <LI><a href="fwzn/gdzn.htm">归档指南</A></LI>
+
+          <LI><a href="fwzn/bgxz.htm">表格下载</A></LI>
+        </UL>
+      </LI>
+    <LI class="m ">
+        <H3><a href="http://202.120.35.3/archives/login.aspx" target="_blank">资源建设</A></H3>
+        <UL class="sub" style="width:120px;">
+
+          <LI><a href="http://202.120.35.3/archives/login.aspx" target="_blank">归档平台</A></LI>
+
+          <LI><a href="http://202.120.1.133:8090/xndas/login_keyan.jsp" target="_blank">科研项目档案管理</A></LI>
+        </UL>
+      </LI>
+    <LI class="m ">
+        <H3><a href="dafw.htm">档案服务</A></H3>
+        <UL class="sub" style="width:120px;">
+
+          <LI><a href="http://202.120.1.15:7777/jdda/pages/dacx/login.jsp" target="_blank">档案查询</A></LI>
+
+          <LI><a href="dafw/xycx.htm">校友查询</A></LI>
+
+          <LI><a href="http://202.120.35.10:8080/ac/ky/listkyxm.aspx" target="_blank">科研成果查询</A></LI>
+
+          <LI><a href="http://202.120.35.10:8080/aqc/history/index.aspx" target="_blank">历史文件查询</A></LI>
+
+          <LI><a href="http://202.120.35.10:8080/aqc/present/index1.aspx" target="_blank">现代文件查询</A></LI>
+
+          <LI><a href="dafw/bycz.htm">编研陈展</A></LI>
+
+          <LI><a href="dafw/spdb.htm">视频点播</A></LI>
+        </UL>
+      </LI>
+    <LI class="m ">
+        <H3><a href="zttj.htm">专题推荐</A></H3>
+        <UL class="sub" style="width:120px;">
+
+          <LI><a href="zttj/wszl.htm">网上展览</A></LI>
+
+          <LI><a href="zttj/zthb.htm">专题汇编</A></LI>
+        </UL>
+      </LI>
+    <LI class="m ">
+        <H3><a href="dazj.htm">档案征集</A></H3>
+        <UL class="sub" style="width:120px;">
+
+          <LI><a href="dazj/zjgg.htm">征集公告</A></LI>
+
+          <LI><a href="dazj/zjcgyl.htm">征集成果一览</A></LI>
+        </UL>
+      </LI>
+    <LI class="m ">
+        <H3><a href="#">管理平台</A></H3>
+        <UL class="sub" style="width:120px;">
+
+          <LI><a href="http://202.120.1.15:7777/jdda/pages/register/userRegist.jsp">用户注册</A></LI>
+
+          <LI><a href="http://202.120.1.15:7777/jdda/pages/xlrz/index.jsp">工作平台</A></LI>
+
+          <LI><a href="http://202.120.1.15:7777/login.jsp" target="_blank">系统管理</A></LI>
+
+          <LI><a href="http://202.120.63.21:8086/" target="_blank">人物平台</A></LI>
+
+          <LI><a href="http://mis.sjtu.edu.cn/Citrix/MetaFrameXP/default/login.asp?ClientDetection=On" target="_blank">后台管理</A></LI>
+
+          <LI><a href="http://202.120.1.133:8080/management/mana.aspx" target="_blank">预约管理</A></LI>
+        </UL>
+      </LI>
+</UL></DIV><!-------nav   end--------><!----------fullslide----------->
+<DIV class="slider">
+<DIV class="bd">    <ul>
+        
+                
+                        <img src="images/banner1.png" border="0" width="" height="">
+               
+      
+      
+                
+                        <img src="images/banner6.png" border="0" width="" height="">
+               
+      
+      
+                
+                        <img src="images/banner8.png" border="0" width="" height="">
+               
+      
+      
+                
+                        <img src="images/banner02.png" border="0" width="" height="">
+               
+      
+      
+                
+                        <img src="images/banner003.png" border="0" width="" height="">
+               
+      
+</ul></DIV>
+<DIV class="pnBtn prev"><SPAN class="blackBg"></SPAN><A class="arrow" href="javascript:void(0)"></A></DIV>
+<DIV class="pnBtn next"><SPAN class="blackBg"></SPAN><A class="arrow" href="javascript:void(0)"></A></DIV></DIV><!---------fullslide end----------><!----------part1----------->
+<DIV class="part1 w1200">
+<DIV class="part1-l fl">
+<DIV class="part1-h21">
+<DIV class="part-hh1">历史上的今天</DIV></DIV>
+<DIV style="padding-top: 25px">
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+    <td><a href="lssdjt.htm" target="_blank" onclick="_addDynClicks('wbimage',1422475781,42079)"><img src="images/xtu.png" width="280" height="190" hspace="3" vspace="2" border="0"></a></td>
+        </tr>
+        </table></DIV></DIV>
+<DIV class="slideTxtBox">
+<DIV class="hd">
+<UL>
+<LI>动态 </LI>
+<LI>公告 </LI></UL></DIV>
+<DIV class="bd">
+<UL>
+<DIV class="bd-more"><A href="xwgg/dt.htm" target="_blank">更多&gt;&gt;</A></DIV><table width="100%" cellspacing="3" cellpadding="0">
+  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont203557">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/5168.htm" class="c203557" title="上海交大档案馆馆藏珍贵书画（档案）修复方案论证会举行" target="_blank">
+        上海交大档案馆馆藏珍贵书画（档案）修复方案论证...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle203557" width="1%" nowrap>2018-10-15</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont203557">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/5166.htm" class="c203557" title="机动学院1978级机械工程系校友李学平捐赠在校学习期间笔记本" target="_blank">
+        机动学院1978级机械工程系校友李学平捐赠在校学习...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle203557" width="1%" nowrap>2018-10-09</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont203557">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/5155.htm" class="c203557" title="河南理工大学档案馆、上海财经大学档案馆同仁来馆交流学习" target="_blank">
+        河南理工大学档案馆、上海财经大学档案馆同仁来馆...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle203557" width="1%" nowrap>2018-09-29</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont203557">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/5152.htm" class="c203557" title="档案保管利用室完成全部馆藏珍品档案装具更换工作" target="_blank">
+        档案保管利用室完成全部馆藏珍品档案装具更换工作
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle203557" width="1%" nowrap>2018-09-25</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont203557">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/5153.htm" class="c203557" title="原党委书记马德秀教授向校档案馆捐赠档案" target="_blank">
+        原党委书记马德秀教授向校档案馆捐赠档案
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle203557" width="1%" nowrap>2018-09-22</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont203557">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/5148.htm" class="c203557" title="档案馆开展出版档案归档业务培训" target="_blank">
+        档案馆开展出版档案归档业务培训
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle203557" width="1%" nowrap>2018-09-20</td></tr>
+</table></UL>
+<UL>
+<DIV class="bd-more"><A href="xwgg/gg.htm" target="_blank">更多&gt;&gt;</A></DIV><table width="100%" cellspacing="3" cellpadding="0">
+  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont202938">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1055/5087.htm" class="c202938" title="2018年暑期档案馆阅览室接待时间（含出国成绩、证书认证办理）" target="_blank">
+        2018年暑期档案馆阅览室接待时间（含出国成绩、证...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle202938" width="1%" nowrap>2018-07-23</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont202938">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="/__local/A/35/80/8A0FAF4CB6E6E113082FB9F893E_557F12D4_2C400.doc" class="c202938" title="2014年电子文件与纸质文件配套归档情况公示" target="_blank">
+        2014年电子文件与纸质文件配套归档情况公示
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle202938" width="1%" nowrap>2015-03-09</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont202938">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1055/4196.htm" class="c202938" title="档案馆关于调整档案利用接待时间的通知" target="_blank">
+        档案馆关于调整档案利用接待时间的通知
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle202938" width="1%" nowrap>2015-03-09</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont202938">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="/__local/D/59/9D/A2C84C27CB30C6808F4BED80004_FBC00AA4_12AA00.doc" class="c202938" title="关于网上预立卷平台部分功能不可使用的处理方法" target="_blank">
+        关于网上预立卷平台部分功能不可使用的处理方法
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle202938" width="1%" nowrap>2013-12-18</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont202938">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1055/4194.htm" class="c202938" title="上海交通大学2013年电子文件与纸质文件配套归档情况公示" target="_blank">
+        上海交通大学2013年电子文件与纸质文件配套归档情...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle202938" width="1%" nowrap>2013-12-18</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont202938">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1055/4198.htm" class="c202938" title="档案馆2012年寒假值班表" target="_blank">
+        档案馆2012年寒假值班表
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle202938" width="1%" nowrap>2011-12-30</td></tr>
+</table></UL></DIV></DIV>
+<DIV class="part1-r fr">
+<DIV class="part1-h2">
+<DIV class="part-hh">快速入口</DIV></DIV>
+<UL>    <LI><a href="fwzn/ydzn.htm" target="_blank"> <DIV class="pr1-i p1"></DIV>
+          <DIV class="pr1-h"><a href="fwzn/ydzn.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17170)" class="c194050" target="_blank">用档指南</a></DIV></a></li>
+    <LI><a href="fwzn/gdzn.htm" target="_blank"> <DIV class="pr1-i p2"></DIV>
+          <DIV class="pr1-h"><a href="fwzn/gdzn.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17171)" class="c194050" target="_blank">归档指南</a></DIV></a></li>
+    <LI><a href="http://202.120.1.15:7777/jdda/pages/dacx/login.jsp" target="_blank"> <DIV class="pr1-i p3"></DIV>
+          <DIV class="pr1-h"><a href="http://202.120.1.15:7777/jdda/pages/dacx/login.jsp" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17172)" class="c194050" target="_blank">档案查询</a></DIV></a></li>
+    <LI><a href="http://202.120.35.3/archives/login.aspx" target="_blank"> <DIV class="pr1-i p4"></DIV>
+          <DIV class="pr1-h"><a href="http://202.120.35.3/archives/login.aspx" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17173)" class="c194050" target="_blank">归档平台</a></DIV></a></li>
+    <LI><a href="zttj/zthb.htm" target="_blank"> <DIV class="pr1-i p5"></DIV>
+          <DIV class="pr1-h"><a href="zttj/zthb.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17174)" class="c194050" target="_blank">专题汇编</a></DIV></a></li>
+    <LI><a href="fwzn/bgxz.htm" target="_blank"> <DIV class="pr1-i p6"></DIV>
+          <DIV class="pr1-h"><a href="fwzn/bgxz.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17175)" class="c194050" target="_blank">表格下载</a></DIV></a></li>
+</UL></DIV></DIV><!-------part1 end--------><!----------part2----------->
+<DIV class="part2 w1200">
+<DIV class="more1"><A href="xwgg/dt.htm" target="_blank">更多&gt;&gt;</A></DIV>
+<DIV class="scrollBox">
+<DIV class="clear"></DIV><DIV class="bd">
+        <UL class="piclist">
+   <li><a href="info/1056/5168.htm" target="_blank" title="上海交大档案馆馆藏珍贵书画（档案）修复方案论证会举行"><IMG src="/__local/6/23/9A/3DCBE8BBD314C96B1D668BB11D1_5B1F9941_B1EB.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5166.htm" target="_blank" title="机动学院1978级机械工程系校友李学平捐赠在校学习期间笔记本"><IMG src="/__local/8/AB/9E/A35EC370F71BBD881D142E09768_972CE831_95F9.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5155.htm" target="_blank" title="河南理工大学档案馆、上海财经大学档案馆同仁来馆交流学习"><IMG src="/__local/B/45/65/D525A1AE6F73609D142A97E351E_9D70BCC1_88F3.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5152.htm" target="_blank" title="档案保管利用室完成全部馆藏珍品档案装具更换工作"><IMG src="/__local/B/BB/FD/28B09B11C2E8578AE4D65ACFC53_6EB12F14_3222.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5153.htm" target="_blank" title="原党委书记马德秀教授向校档案馆捐赠档案"><IMG src="/__local/C/27/94/C87786CE6386E773AC2A0903561_8D722401_1641B.jpg"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5148.htm" target="_blank" title="档案馆开展出版档案归档业务培训"><IMG src="/__local/0/9E/49/164384714D5EF931AF87203FC5C_1506D5A8_7BA2.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5149.htm" target="_blank" title="闵行新档案文博大楼库房空调系统建设协调会议召开"><IMG src="/__local/2/3E/09/97E81ABCBA9DB188BDF15098B6E_3000B805_9C7F.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5083.htm" target="_blank" title="档案保管利用室服务学校中心工作之77、78级校友返校专题服务篇"><IMG src="/__local/E/F6/E3/A9A746E7C2852D927AE67E52A26_D8AC812C_6F1A.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5081.htm" target="_blank" title="校档案馆征集设计学院优秀毕业设计作品"><IMG src="/__local/B/D2/2D/E2B8FADD5F73044D11F10566F9B_20033D0E_58FD.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/5078.htm" target="_blank" title="闵行新档案文博大楼库房系统及设备购置论证会召开"><IMG src="/__local/7/94/09/5E7D53E36135338C00B1B838E61_F7E2F0B7_618A.png"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/4677.htm" target="_blank" title="上海大同中学学生参观专题展示馆"><IMG src="/__local/2/5C/E6/2BE8986CAF7774C09DA288F3730_7ECC32BC_7FC6.jpg"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/4676.htm" target="_blank" title="上汽通用五菱副总裁一行参观专题展示馆"><IMG src="/__local/8/FB/DA/6E44AF10A8A7415051813F8D3E5_10ED7F33_84FF.jpg"><SPAN class="tt1"></SPAN></a></li>
+   <li><a href="info/1056/4675.htm" target="_blank" title="江苏江阴空间测量部队一行参观专题展示馆"><IMG src="/__local/8/32/3A/58AF784DEAE4EB6C6426B24DAC1_46863C97_83B6.jpg"><SPAN class="tt1"></SPAN></a></li>
+        </UL>
+      </DIV><script>_showDynClickBatch(['dynclicks_u9_5168','dynclicks_u9_5166','dynclicks_u9_5155','dynclicks_u9_5152','dynclicks_u9_5153','dynclicks_u9_5148','dynclicks_u9_5149','dynclicks_u9_5083','dynclicks_u9_5081','dynclicks_u9_5078','dynclicks_u9_4677','dynclicks_u9_4676','dynclicks_u9_4675'],[5168,5166,5155,5152,5153,5148,5149,5083,5081,5078,4677,4676,4675],"wbnews", 1422475781)</script>
+</DIV></DIV><!-------part2 end--------><!-------foot start--------><!----------foot----------->
+<DIV class="foot-bg w100">
+<DIV class="foot w1200">
+<DIV class="foot-l fl">
+<DIV class="f1-h">友情链接：</DIV>
+<DIV class="sel_mask bg1">
+<DIV class="sel-h">
+<DIV class="sel-hh">友情链接</DIV>
+<DIV class="sel-i"><IMG src="images/sel-bt.png"></DIV></DIV>
+<UL>
+    <LI><a href="http://shipmuseum.sjtu.edu.cn/info.asp" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 17176)" class="c198706">船舶数字博物馆</a></li>
+    <LI><a href="http://www.maritimemuseum.sjtu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 39628)" class="c198706">交大航运博物馆</a></li>
+    <LI><a href="http://www.archives.sh.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 39629)" class="c198706">上海档案信息网</a></li>
+    <LI><a href="http://thdag.cic.tsinghua.edu.cn/docinfo_out/index.jsp" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 39630)" class="c198706">清华大学档案信息网</a></li>
+    <LI><a href="https://dawww.nju.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422475781, 39631)" class="c198706">南京大学档案馆</a></li>
+</UL></DIV>
+<DIV class="clear"></DIV></DIV>
+<DIV class="foot-tt"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright© 2018 上海交通大学</p><p>地址：上海市华山路1954号 &nbsp;邮编：200030&nbsp;&nbsp; 查号：021-62933032</p></DIV>
+<DIV class="foot-e">     <DIV class="fe-i"><IMG src="images/528.png">
+          <P>官方微信</P>
+        </DIV><DIV class="fe-i"><IMG src="images/wx.jpg">
+          <P>官方微博</P>
+        </DIV></DIV>
+<DIV class="clear"></DIV></DIV></DIV><script type="text/javascript">
+    jQuery(".nav").slide({ 
+            type:"menu", //效果类型
+            titCell:".m", // 鼠标触发对象
+            targetCell:".sub", // 效果对象，必须被titCell包含
+            delayTime:300, // 效果时间
+            triggerTime:0, //鼠标延迟触发时间
+            returnDefault:true  //返回默认状态
+    });
+    jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+    jQuery(".slideTxtBox").slide();
+    jQuery(".scrollBox").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:false,vis:4,trigger:"click"});
+    $(".sel_mask").click(function(){
+        $(this).children("ul").slideToggle();
+        $(this).siblings().children("ul").hide();
+    });
+</script><script type="text/javascript">
+		/* 把最后一个放到第一个前面，然后通过外层ul{margin-left:-980px !important; }来显示第一个 */
+		jQuery(".slider .bd li").first().before(jQuery(".slider .bd li").last());
+		/* 控制左右按钮显示 */
+		jQuery(".slider").hover(function() {
+			jQuery(this).find(".arrow").stop(true, true).fadeIn(300)
+		}, function() {
+			jQuery(this).find(".arrow").fadeOut(300)
+		});
+		/* 调用SuperSlide */
+		jQuery(".slider").slide({
+			titCell: ".hd ul",
+			mainCell: ".bd ul",
+			effect: "leftLoop",
+			autoPlay: true,
+			vis: 3,
+			autoPage: true,
+			trigger: "click"
+		});
+	</script><script id="jsID" type="text/javascript">
+		var ary = location.href.split("&");
+		jQuery(".slideBox").slide({
+			mainCell: ".bd ul",
+			effect: ary[1],
+			autoPlay: ary[2],
+			trigger: ary[3],
+			easing: ary[4],
+			delayTime: ary[5],
+			mouseOverStop: ary[6],
+			pnLoop: ary[7]
+		});
+	</script></DIV>
+
+</BODY></HTML>

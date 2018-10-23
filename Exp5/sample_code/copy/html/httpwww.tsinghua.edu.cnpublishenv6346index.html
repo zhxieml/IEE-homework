@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+                                        <title>清华大学环境学院</title>
+<link href="/publish/env/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/env/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="/publish/env/js/grayscale.js" type="text/javascript"></script>
+<script src="/publish/env/js/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*env
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/env/css/style_second.css" rel="stylesheet" type="text/css" />
+<!-- 导入全局模板 -->
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!-- 整体区域开始 -->
+ <div class="wrapper nomalwclassth auto">
+    
+     <!-- 页头区域开始 -->
+       <!-- 页头区域开始 -->
+  <div class="header nomalwidth auto" style="height:140px;background-image:url(/publish/env/images/banner2018.jpg)">
+      
+       <!--<div class="logo_text">
+         <p class="cn">&nbsp;</p>
+         <p class="en">&nbsp;</p>
+        </div>-->
+  
+                <div class="hot_links" style="top: 40px;"><a href="/publish/enven/index.html">English</a></div>
+    
+         <!-- <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="960" height="140">
+    <param name="movie" value="/publish/env/images/banner.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    
+    <param name="expressinstall" value="30years/expressInstall.swf" />
+    <param name="menu" value="false" />
+   
+    <object type="application/x-shockwave-flash" data="/publish/env/images/banner.swf" width="960" height="140">
+     
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="/publish/env/images/expressInstall.swf" />
+      <param name="menu" value="false" />
+     
+      <div>
+        <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      </div>
+     
+    </object>
+   
+  </object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>-->
+</div>
+<!-- 页头区域结束 -->        <!-- 页头区域结束 -->
+        
+        <!-- nav start -->
+        <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu6326 = ms.addMenu(document.getElementById("menu_6326"));
+menu6326.addItem("栏目概述","/publish/env/6327/index.html","");
+        menu6326.addItem("教研教师","/publish/env/6329/index.html","");
+        var subMenu6326_1 = menu6326.addMenu(menu6326.items[1]);
+       subMenu6326_1.addItem("院士","/publish/env/6329/index.html","");
+    subMenu6326_1.addItem("千人计划","/publish/env/6330/index.html","");
+    subMenu6326_1.addItem("教研所师资","/publish/env/6331/index.html","");
+      menu6326.addItem("兼职教授","/publish/env/6334/index.html","");
+        menu6326.addItem("实验教师","/publish/env/6817/index.html","");
+        menu6326.addItem("行政教师","/publish/env/6818/index.html","");
+        menu6326.addItem("合同制教师","/publish/env/6335/index.html","");
+        menu6326.addItem("博士后","/publish/env/6336/index.html","");
+        menu6326.addItem("访问学者","/publish/env/6819/index.html","");
+        menu6326.addItem("荣退教师","/publish/env/6337/index.html","");
+        var menu6317 = ms.addMenu(document.getElementById("menu_6317"));
+menu6317.addItem("组织机构","/publish/env/6318/index.html","");
+        menu6317.addItem("学术机构","/publish/env/6319/index.html","");
+        menu6317.addItem("研究机构","/publish/env/6321/index.html","");
+        var subMenu6317_2 = menu6317.addMenu(menu6317.items[2]);
+       subMenu6317_2.addItem("研究所","/publish/env/6321/index.html","");
+    subMenu6317_2.addItem("国家级研究机构","/publish/env/6322/index.html","");
+    subMenu6317_2.addItem("省部级研究机构","/publish/env/6323/index.html","");
+    subMenu6317_2.addItem("校级研究机构","/publish/env/6324/index.html","");
+    subMenu6317_2.addItem("联合研究机构","/publish/env/6325/index.html","");
+      var menu6312 = ms.addMenu(document.getElementById("menu_6312"));
+menu6312.addItem("学院简介","/publish/env/6313/index.html","");
+        menu6312.addItem("现任领导","/publish/env/7208/index.html","");
+        menu6312.addItem("历任领导","/publish/env/6314/index.html","");
+        menu6312.addItem("历史沿革","/publish/env/6315/index.html","");
+        menu6312.addItem("大事年表","/publish/env/6316/index.html","");
+        var menu6338 = ms.addMenu(document.getElementById("menu_6338"));
+menu6338.addItem("栏目概述","/publish/env/6339/index.html","");
+        menu6338.addItem("本科生教学","/publish/env/6341/index.html","");
+        var subMenu6338_1 = menu6338.addMenu(menu6338.items[1]);
+       subMenu6338_1.addItem("专业介绍","/publish/env/6341/index.html","");
+    subMenu6338_1.addItem("课程介绍","/publish/env/6342/index.html","");
+    subMenu6338_1.addItem("精品课程","/publish/env/6343/index.html","");
+    subMenu6338_1.addItem("专业设置","/publish/env/6344/index.html","");
+    subMenu6338_1.addItem("培养方案","/publish/env/6345/index.html","");
+    subMenu6338_1.addItem("实践教学","/publish/env/6346/index.html","");
+    subMenu6338_1.addItem("留学生","/publish/env/6347/index.html","");
+      menu6338.addItem("硕士生教学","/publish/env/6349/index.html","");
+        var subMenu6338_2 = menu6338.addMenu(menu6338.items[2]);
+       subMenu6338_2.addItem("导师介绍","/publish/env/6349/index.html","");
+    subMenu6338_2.addItem("培养方案（硕士）","/publish/env/6350/index.html","");
+    subMenu6338_2.addItem("培养方案（工程硕士）","/publish/env/6351/index.html","");
+    subMenu6338_2.addItem("开设课程","/publish/env/6352/index.html","");
+    subMenu6338_2.addItem("留学生","/publish/env/6353/index.html","");
+      menu6338.addItem("博士生教学","/publish/env/6355/index.html","");
+        var subMenu6338_3 = menu6338.addMenu(menu6338.items[3]);
+       subMenu6338_3.addItem("导师介绍（博士）","/publish/env/6355/index.html","");
+    subMenu6338_3.addItem("培养方案（博士）","/publish/env/6356/index.html","");
+    subMenu6338_3.addItem("留学生","/publish/env/6357/index.html","");
+      menu6338.addItem("继续教育","/publish/env/6358/index.html","");
+        menu6338.addItem("出版教材","/publish/env/6359/index.html","");
+        menu6338.addItem("教学成果","/publish/env/6360/index.html","");
+        
+var menu6361 = ms.addMenu(document.getElementById("menu_6361"));
+menu6361.addItem("栏目概述","/publish/env/6362/index.html","");
+        menu6361.addItem("本科生","/publish/env/6363/index.html","");
+        menu6361.addItem("研究生","/publish/env/6364/index.html","");
+        menu6361.addItem("学生绿色协会","/publish/env/6365/index.html","");
+        menu6361.addItem("环境友好科技竞赛","/publish/env/6366/index.html","");
+        menu6361.addItem("博士生学术会议","/publish/env/6367/index.html","");
+        menu6361.addItem("陶氏-可持续发展创新挑战赛","/publish/env/7841/index.html","");
+        menu6361.addItem("清源协会","/publish/env/8478/index.html","");
+        menu6361.addItem("奖学金","/publish/env/10530/index.html","");
+        var menu6368 = ms.addMenu(document.getElementById("menu_6368"));
+menu6368.addItem("栏目概述","/publish/env/6369/index.html","");
+        menu6368.addItem("研究领域","/publish/env/6370/index.html","");
+        menu6368.addItem("研究成果","/publish/env/6372/index.html","");
+        var subMenu6368_2 = menu6368.addMenu(menu6368.items[2]);
+       subMenu6368_2.addItem("各类奖项","/publish/env/6372/index.html","");
+    subMenu6368_2.addItem("编著译著","/publish/env/6373/index.html","");
+    subMenu6368_2.addItem("知识产权","/publish/env/6374/index.html","");
+      menu6368.addItem("编辑期刊","/publish/env/6376/index.html","");
+        var subMenu6368_3 = menu6368.addMenu(menu6368.items[3]);
+       subMenu6368_3.addItem("期刊简介","/publish/env/6376/index.html","");
+    subMenu6368_3.addItem("编委会","/publish/env/6378/index.html","");
+    subMenu6368_3.addItem("征稿简则","/publish/env/6379/index.html","");
+    subMenu6368_3.addItem("稿件模板","/publish/env/6380/index.html","");
+      menu6368.addItem("主办会议","/publish/env/6381/index.html","");
+        menu6368.addItem("重大专项","/publish/env/6384/index.html","");
+        var menu6385 = ms.addMenu(document.getElementById("menu_6385"));
+menu6385.addItem("栏目概述","/publish/env/6386/index.html","");
+        menu6385.addItem("合作机构","/publish/env/6387/index.html","");
+        menu6385.addItem("重要项目","/publish/env/6388/index.html","");
+        var menu6390 = ms.addMenu(document.getElementById("menu_6390"));
+menu6390.addItem("环境节能楼","/publish/env/6391/index.html","");
+        menu6390.addItem("实验教学中心","/publish/env/6392/index.html","");
+        menu6390.addItem("公共研究平台","/publish/env/6393/index.html","");
+        menu6390.addItem("环境图书馆","/publish/env/6394/index.html","");
+        var menu6395 = ms.addMenu(document.getElementById("menu_6395"));
+menu6395.addItem("本科生","/publish/env/6396/index.html","");
+        menu6395.addItem("硕士生","/publish/env/6398/index.html","");
+        var subMenu6395_1 = menu6395.addMenu(menu6395.items[1]);
+       subMenu6395_1.addItem("硕士","/publish/env/6398/index.html","");
+    subMenu6395_1.addItem("工程硕士","/publish/env/6399/index.html","");
+    subMenu6395_1.addItem("工程管理硕士","/publish/env/9171/index.html","");
+      menu6395.addItem("博士生","/publish/env/6400/index.html","");
+        menu6395.addItem("留学生","/publish/env/6401/index.html","");
+        menu6395.addItem("继续教育","/publish/env/6402/index.html","");
+        var menu6404 = ms.addMenu(document.getElementById("menu_6404"));
+menu6404.addItem("教师招聘","/publish/env/6405/index.html","");
+        menu6404.addItem("博士后招聘","/publish/env/6406/index.html","");
+        menu6404.addItem("合同制人员招聘","/publish/env/6407/index.html","");
+        var menu6408 = ms.addMenu(document.getElementById("menu_6408"));
+menu6408.addItem("综合新闻","/publish/env/6409/index.html","");
+        menu6408.addItem("图片新闻","/publish/env/6410/index.html","");
+        menu6408.addItem("人物新闻","/publish/env/6411/index.html","");
+        menu6408.addItem("工作简报","/publish/env/6413/index.html","");
+        var menu6414 = ms.addMenu(document.getElementById("menu_6414"));
+menu6414.addItem("电话电邮","/publish/env/6415/index.html","");
+        menu6414.addItem("邮寄地址","/publish/env/6416/index.html","");
+        menu6414.addItem("来访路线","/publish/env/6417/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<!-- nav start -->
+        <div class="nav nomalwidth auto">
+         <ul>
+<li><a href="/publish/env/index.html" title="&nbsp;">首页</a></li>
+<li id="menu_6312"  class="first"><a href="/publish/env/6313/index.html" title="学院概况">学院概况</a></li>
+<li id="menu_6317"><a href="/publish/env/6318/index.html" title="机构设置">机构设置</a></li>
+<li id="menu_6326"><a href="/publish/env/6327/index.html" title="师资队伍">师资队伍</a></li>
+<li id="menu_6338"><a href="/publish/env/6339/index.html" title="教务教学">教务教学</a></li>
+<li id="menu_6361"><a href="/publish/env/6362/index.html" title="学生生活">学生生活</a></li>
+<li id="menu_6368"><a href="/publish/env/6369/index.html" title="科学研究">科学研究</a></li>
+<li id="menu_6385"><a href="/publish/env/6386/index.html" title="合作交流">合作交流</a></li>
+<li id="menu_6390"><a href="/publish/env/6391/index.html" title="基础设施">基础设施</a></li>
+<li id="menu_6395"><a href="/publish/env/6396/index.html" title="招生信息">招生信息</a></li>
+<li id="menu_6404"><a href="/publish/env/6405/index.html" title="招聘人才">招聘人才</a></li>
+<li id="menu_6408"><a href="/publish/env/6409/index.html" title="新闻">新闻</a></li>
+<li id="menu_6414"><a href="/publish/env/6415/index.html" title="联系我们" class="clear">联系我们</a></li>
+</ul>
+        </div>
+  <script language="JavaScript">initMenuData();</script>
+        <!-- nav end -->        <!-- nav end -->
+        
+        <!-- 中部区域开始 -->
+        <div class="content auto">
+         
+            <!-- start -->
+            <table width="0" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="box_left">
+                 
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="s_menu">
+                        <h3><span>教务教学</span></h3>
+<p>
+            <img src="/publish/env/images/left_menu_pic.gif" title="" width="200" height="76" />
+</p>
+                        <div class="menu_box">
+                            <ul>
+
+                                                      <!-- 输出二级栏目信息-->
+                           <li><a href="/publish/env/6339/index.html" title="栏目概述"><span>栏目概述</span></a>
+<ul>
+                             </ul></li>
+                                                      <!-- 输出二级栏目信息-->
+                           <li><a href="/publish/env/6341/index.html" title="本科生教学"><span>本科生教学</span></a>
+<ul>
+                                                          <li><a href="/publish/env/6341/index.html" tile="专业介绍"><span>专业介绍</span></a></li>
+                                                          <li><a href="/publish/env/6342/index.html" tile="课程介绍"><span>课程介绍</span></a></li>
+                                                          <li><a href="/publish/env/6343/index.html" tile="精品课程"><span>精品课程</span></a></li>
+                                                          <li><a href="/publish/env/6344/index.html" tile="专业设置"><span>专业设置</span></a></li>
+                                                          <li><a href="/publish/env/6345/index.html" tile="培养方案"><span>培养方案</span></a></li>
+                                                          <li><a href="/publish/env/6346/index.html" tile="实践教学"><span>实践教学</span></a></li>
+                                                          <li><a href="/publish/env/6347/index.html" tile="留学生"><span>留学生</span></a></li>
+                             </ul></li>
+                                                      <!-- 输出二级栏目信息-->
+                           <li><a href="/publish/env/6349/index.html" title="硕士生教学"><span>硕士生教学</span></a>
+<ul>
+                                                          <li><a href="/publish/env/6349/index.html" tile="导师介绍"><span>导师介绍</span></a></li>
+                                                          <li><a href="/publish/env/6350/index.html" tile="培养方案（硕士）"><span>培养方案（硕士）</span></a></li>
+                                                          <li><a href="/publish/env/6351/index.html" tile="培养方案（工程硕士）"><span>培养方案（工程硕士）</span></a></li>
+                                                          <li><a href="/publish/env/6352/index.html" tile="开设课程"><span>开设课程</span></a></li>
+                                                          <li><a href="/publish/env/6353/index.html" tile="留学生"><span>留学生</span></a></li>
+                             </ul></li>
+                                                      <!-- 输出二级栏目信息-->
+                           <li><a href="/publish/env/6355/index.html" title="博士生教学"><span>博士生教学</span></a>
+<ul>
+                                                          <li><a href="/publish/env/6355/index.html" tile="导师介绍（博士）"><span>导师介绍（博士）</span></a></li>
+                                                          <li><a href="/publish/env/6356/index.html" tile="培养方案（博士）"><span>培养方案（博士）</span></a></li>
+                                                          <li><a href="/publish/env/6357/index.html" tile="留学生"><span>留学生</span></a></li>
+                             </ul></li>
+                                                      <!-- 输出二级栏目信息-->
+                           <li><a href="/publish/env/6358/index.html" title="继续教育"><span>继续教育</span></a>
+<ul>
+                             </ul></li>
+                                                      <!-- 输出二级栏目信息-->
+                           <li><a href="/publish/env/6359/index.html" title="出版教材"><span>出版教材</span></a>
+<ul>
+                             </ul></li>
+                                                      <!-- 输出二级栏目信息-->
+                           <li><a href="/publish/env/6360/index.html" title="教学成果"><span>教学成果</span></a>
+<ul>
+                             </ul></li>
+                                                       </ul>
+                        </div>
+                    </div>
+                    <!-- end -->                    <!-- end -->
+                    
+                    <!-- start -->
+                    <div class="menu_bg_line"></div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <form id="searchForm" name="form1" method="post" action="#" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+<div class="search auto"><p class="left"><input name="Q" type="text" /></p><p class="right"><a href="javascript:document.form1.submit();" title="搜索"></a></p></div>
+</form>                    <!-- end -->
+                    
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="info_02 auto"><a href='http://100.tsinghua.edu.cn'><img width='190' height='67' src='/publish/env/images/100year_02.gif' /></a></div>
+                    <!-- end -->                    <!-- end -->
+                                                            
+                </td>
+                <td class="box_right">
+                 
+                    <!-- c_top start -->
+<!-- c_top start -->
+              <div class="c_top">
+                        <ul class="nav_01"><li>&nbsp;<A href='/publish/env/index.html' class='navigation_style'>首页</a>&nbsp;&nbsp;&#8250;</li><li><A href='/publish/env/6339/index.html' class='navigation_style'>教务教学</a>&nbsp;&nbsp;&#8250;</li><li><A href='/publish/env/6341/index.html' class='navigation_style'>本科生教学</a>&nbsp;&nbsp;&#8250;</li><li><A href='/publish/env/6346/index.html' class='navigation_style'>实践教学</a></li></ul>
+                    </div>
+                    <!-- c_bottom end -->                    <!-- c_bottom end -->
+                        
+                    <!-- start -->
+                <div class="box_detail"><p style="text-align: center"><strong>环境学院实习实训与实践教学情况概述&nbsp;</strong></p>
+<p>环境学院在多年的探索和实践中，逐步形成了结构清晰、内容丰富、目标明确、管理规范的新型环境学科实践教育体系。该体系包括课程实践体系、教学实验体系、专业实习体系和综合训练体系四个组成部分，其基本框架如图1所示。</p>
+<p style="text-align: center"><img alt="" width="246" height="442" src="/publish/env/6346/6346/1.jpg" /></p>
+<p style="text-align: center"><br />
+图1 环境学科新型实践教育体系的基本框架</p>
+<p>（1）课程实践体系</p>
+<p>课程实践体系由一系列专业基础课和主干专业课构成，通过课程改革增加实践教育环节。根据课程教学方式侧重不同，课程实践体系分成3个类型的课程系列，即设计型、项目型和案例型。</p>
+<p>目前，设计型课程系列有5门课程组成，包括《水处理工程设计》、《给水排水工程设计》、《大气污染控制工程设计》、《固体废物处理与处置工程设计》、《数据库与信息技术》，涵盖了环境工程专业的各个方向。项目型课程《校园环境质量监测》是校级精品课程，以此为依托的&ldquo;环境监测课程的改革与创新&rdquo;获得了2006年&ldquo;清华大学教学成果奖&rdquo;一等奖。案例型课程建设方面，环境学院与德国亚琛工业大学合作开设了《环境与市政工程实践与案例分析》系列课程，采取教师讲授与学生实践相结合、授课与专题学术报告相结合的方式，还择优选派学生赴德国进行现场实习。</p>
+<p>（2）教学实验体系</p>
+<p>教学实验体系依托专业基础课和主干专业课的配套实验课构建而成，通过教学方式改革，将原先的验证性实验发展为开放式、研究性实验，强调实验内容的实践性和学生参与的自主性。</p>
+<p>目前环境学院已经开设了五门实验课程：环境工程监测实验、环境工程微生物实验、水处理实验、大气污染控制实验和部分固体废物处理实验。拟新开设《环境工程原理实验》、《环境工程自动控制实验》以及《环境数据处理与数学模型实验》等实验课，形成由环境基础实验室、环境污染控制实验室、环境信息与过程控制实验室等三个不同层次的专业实验室构成的环境技术实验教学平台。针对不同类型实验课程的特点和学生不同层次的需求，教学实验采取了传统与预约、指定与自选相结合的运行管理模式。</p>
+<p>（3）专业实习体系</p>
+<p>专业实习体系依托社会上企事业单位、科研院所等专业实习基地构建而成。按照实践的内容和层次不同，专业实习体系包括专业认识实习、专业生产实习和Internship计划3种类型。</p>
+<p>从2004年开始，环境学院启动了Internship计划，制定了《Internship项目实施办法》，择优安排学生进入企事业单位、科研院所等参与生产实践、科研项目和管理工作，通常历时一个月，覆盖面达到学生总数的1/3左右。学生按照接待单位的项目需求，自主制定实施计划和解决方案，大大提高了知识综合运用的能力和解决实际问题的能力。2006年起，环境学院将Internship项目作为学分课程纳入学生培养计划，安排专职教师负责项目建设和实施，进一步健全了项目考核机制，完善了项目实施办法，拓展了项目资源和渠道，扩大了项目实施规模，提高了项目完成质量。三期Internship计划的实践表明，这种实践教育形式带来了传统教育模式不能提供的诸多实际而又新鲜的元素，基本实现了&ldquo;以学生实践教育为主旨，学生、学校和接待单位三方共赢&rdquo;的目标。</p>
+<p>（4）综合训练体系</p>
+<p>综合训练体系充分利用学校的公共平台，强化或融入实践教育理念和环境学科特点，从而成为实践教育体系的重要部分，包括综合论文训练、SRT计划和社会实践等。</p>
+<p>本科生导师制是新形势下改进学生教育管理基层体制的一项有效措施和制度。环境学院2002年底制定了《导师制实施办法》，开始全面实施本科生导师制，在学生自主报名的基础上，将本科一至三年级的所有同学分配到由副教授以上职称的老师担任导师的小组参加活动，一般每个小组8～10个同学。四年的实践表明，本科生导师制在培养学生实践能力与创新意识、激发学生专业兴趣、推动学生全面发展、实现本科生与研究生阶段的顺利衔接与过渡等方面发挥了重要作用。</p>
+<p>与早期的实践教育环节相比，环境学院新的实践教育体系具有&ldquo;个性化、灵活性、参与式、综合型&rdquo;的优点。&ldquo;个性化&rdquo;是指学生可以根据自身特点和兴趣，有选择地参加不同形式的实践教育环节，不像过去以年级或班级为单位&ldquo;集团式&rdquo;地参加。&ldquo;灵活性&rdquo;是指各个实践教育环节的时间安排更加灵活，不像过去只在一段时间内&ldquo;集中式&rdquo;地安排。&ldquo;参与式&rdquo;是指实践教育环节的时间延长，内容加深，学生可以切实得到锻炼和提高，避免过去走马观花的&ldquo;参观式&rdquo;实践。&ldquo;综合型&rdquo;是指实践教育环节的内容更加丰富多样，学生不仅可以提高专业知识技能，还可以广泛接触社会，全面提高综合素质，避免过去&ldquo;单一式&rdquo;的专业实践。</p>
+<p>&nbsp;</p></div>
+                    <!-- end -->
+                                                              
+                </td>
+              </tr>
+            </table>
+            <!-- end -->
+                                       
+       </div>
+        <!-- 中部区域结束 -->
+        
+        <!-- 页脚区域开始 -->
+        <!-- 页脚区域开始 -->
+        <div class="footer nomalwidth auto"><div class="footer nomalwidth auto"><p style="text-align: center;"><span style="color: rgb(51, 51, 51);">Copyright&nbsp;<img title="copyright_black.png" src="/publish/env/6421/20110117161025461497872/1492675051132.png"/> 2017&nbsp;清华大学环境学院<span style="color: rgb(0, 0, 0);"> </span></span></p><p style="text-align: center;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">地址：清华大学中意环境节能楼&nbsp;&nbsp;100084</span></p></div><!-- 页脚区域结束 --><!-- 页脚区域结束 --><!-- 整体区域结束 --></div>
+<!-- 页脚区域结束 -->        <!-- 页脚区域结束 -->
+        
+ </div>
+    <!-- 整体区域结束 -->
+</body>
+</html>

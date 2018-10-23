@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+	<title>北京大学教育基金会</title>
+
+	<link href="css/pkuef.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.slideBox.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="Scripts/jquery-1.7.1.min.js"></script>
+	<script src="Scripts/jquery.slideBox.min.js" type="text/javascript"></script>
+
+
+	<script language="javascript" type="text/javascript">
+
+		function changeColor(){
+
+
+			var color="#f00|#0f0|#00f|#880|#808|#088|green|blue|gray";
+			color=color.split("|");
+			document.getElementById("blink").style.color=color[parseInt(Math.random() * color.length)];
+		}
+
+		jQuery(function($){
+			$('#slide').slideBox({
+				duration : 0.5,//滚动持续时间，单位：秒
+				easing : 'linear',//swing,linear//滚动特效
+				delay : 6,//滚动延迟时间，单位：秒
+				hideClickBar : false,//不自动隐藏点选按键
+				clickBarRadius : 3
+			});
+
+			//setInterval("changeColor()",200);
+
+			$('#navdh li a').mouseover(
+				function(){
+					$(this).css({
+						"background-image":"URL(images/menuback3.jpg)"});
+				}
+			);
+			$('#navdh li a').mouseleave(
+				function(){
+					$(this).css({'background-image': 'URL(images/dhbg.gif)',
+						'background-repeat': 'repeat-x',
+						'background-position': 'bottom'});
+				}
+			);
+		});
+
+
+
+	</script>
+</head>
+<body>
+<div class="head">
+	<table class="tableforhead">
+		<tr>
+			<td rowspan="2" align="left" valign="middle"><img src="images/logo.gif" alt="" class="logo" /></td>
+			<td height="34" align="right" valign="top">
+				<a href= "aboutus.php?lanmu=16"> 关于我们 </a>|
+				<a href="aboutus.php?lanmu=3">常见问题</a> |
+				<a href="aboutus.php?lanmu=69">捐赠免税</a> |
+				<a href="lanmu.php?lanmu=146">信息公开</a> |
+				<a href="newdetail.php?id=2022">财务专区</a> |
+				<a href="aboutus.php?lanmu=5">下载专区</a> |
+				<a href="http://www.pkuefusa.org/" target="_blank">教育基金会（美国）</a>
+		</tr>
+		<tr>
+			<td align="right" valign="bottom"><form action = "search.php">
+					站内信息搜索
+					<input name="keyword" type="text" />
+					<input type="submit" value="搜索" />
+				</form>
+			</td>
+		</tr>
+	</table>
+
+</div>
+<!--end of head-->
+<div class="navigation">
+	<div class="nav">
+		<div class="navimg">
+			<!-- 轮播处理 -->
+			<div id="slide" class="slideBox">
+				<ul class="items">
+					<li><a href='newdetail.php?id=2448' title='北京大学出版社捐资，支持北大学术研究和理论创新' target='_blank'><img src='http://www.pkuef.org/pkuef/admin/upload/pictures/20181012041030053.jpg' title='北京大学出版社捐资，支持北大学术研究和理论创新' alt='北京大学出版社捐资，支持北大学术研究和理论创新' /></a></li><li><a href='newdetail.php?id=2405' title='李革、赵宁校友伉俪捐资1亿元支持北京大学教学科研事业发展' target='_blank'><img src='http://www.pkuef.org/pkuef/admin/upload/pictures/20180612080614869.jpg' title='李革、赵宁校友伉俪捐资1亿元支持北京大学教学科研事业发展' alt='李革、赵宁校友伉俪捐资1亿元支持北京大学教学科研事业发展' /></a></li><li><a href='newdetail.php?id=2361' title='邵氏基金会捐资5亿元支持北京大学生命科学前沿研究' target='_blank'><img src='http://www.pkuef.org/pkuef/admin/upload/pictures/20180507090554466.jpg' title='邵氏基金会捐资5亿元支持北京大学生命科学前沿研究' alt='邵氏基金会捐资5亿元支持北京大学生命科学前沿研究' /></a></li><li><a href='newdetail.php?id=2354' title='李彦宏校友捐赠支持北大人工智能领域的跨学科发展' target='_blank'><img src='http://www.pkuef.org/pkuef/admin/upload/pictures/20180428060409616.jpg' title='李彦宏校友捐赠支持北大人工智能领域的跨学科发展' alt='李彦宏校友捐赠支持北大人工智能领域的跨学科发展' /></a></li><li><a href='newdetail.php?id=2366' title='筑梦北大：纪念北大建校120周年' target='_blank'><img src='http://www.pkuef.org/pkuef/admin/upload/pictures/20180509110510769.jpg' title='筑梦北大：纪念北大建校120周年' alt='筑梦北大：纪念北大建校120周年' /></a></li>				</ul>
+			</div>
+			<!-- 轮播处理结束 -->
+		</div> <!-- end of navimg-->
+
+		<div class="navdh" id="navdh">
+			<ul>
+				<li><a class="a1" href="menu.php?lanmu=47">筹资项目</a></li>
+				<li><a class="a1" href="menu.php?lanmu=56">捐赠使用</a></li>
+				<li><a class="a1" href="newdetail.php?id=-15">捐赠方法</a></li>
+				<li><a class="a1" href="aboutus.php?lanmu=145">政策法规</a></li>
+				<li><a class="a1" href="aboutus.php?lanmu=16">关于我们</a></li>
+			</ul>
+			<div class="navdhimg">
+				<a href="giveNow.php"><img src="images/woyaojz.gif" alt="我要捐赠" /></a>
+			</div>
+
+
+			<div class="friend">
+				<!--2018挑战计划-->
+				<a href="http://www.pkuef.org/pkuef/newdetail.php?id=1804" alt="百廿华诞筹资项目">
+					<img src="images/2018.jpg" />
+				</a>
+			</div>
+		</div>
+	</div><!--end of nav-->
+</div><!--end of navigation-->
+
+<div class="main">
+	<div class="leftpic">
+		<a href='newdetail.php?id=1905'><img title='北京大学创新基金'　alt='北京大学创新基金' src='http://www.pkuef.org/pkuef/admin/upload/pictures/20160505040553061.png' /></a>	</div>
+	<div class="message">
+		<div class="news">
+			<div class="newstitle">
+				<a class="a1" href="lanmu.php?lanmu=1">新闻</a><br/>
+			</div>
+			<div class="dot"></div>
+			<div class="newsbody">
+				<ul>
+
+					<li class="li2"><strong>[新]<a href='newdetail.php?id=2449'> 成美学会纪念基金日本研学团报告会举行，分享赴日感悟</a></strong></li><li class="li2"><a href='newdetail.php?id=2448'> 北京大学出版社捐资，支持北大学术研究和理论创新</a></li><li class="li2"><a href='newdetail.php?id=2447'> 轩辕种子助学金学生见面会举行，勉励学生反哺社会</a></li><li class="li2"><a href='newdetail.php?id=2446'> 冯燊均伉俪访问北京大学</a></li><li class="li2"><a href='newdetail.php?id=2445'> 英国劳合社捐资设立北京大学经济学院劳合社讲席教授</a></li>				</ul>
+				<p align="right"><a class="a1" href="lanmu.php?lanmu=1">更多>></a></p>
+			</div>
+		</div>
+		<div class="news">
+			<div class="newstitle"><a class="a1" href="lanmu.php?lanmu=2">通知</a><br/>
+			</div>
+			<div class="dot"></div>
+			<div class="newsbody">
+				<ul>
+
+					<li class="li2"><a href='newdetail.php?id=2430'> <span id='blink'>基金会关于2016年12月31日前未入账捐赠资金的捐赠人信息公示</span> </a></li><li class="li2"><a href='newdetail.php?id=2425'> 北京大学教育基金会2018年暑假带值班计划</a></li><li class="li2"><a href='newdetail.php?id=2423'> 2018年度百人会英才奖推荐人名单公示</a></li>				</ul>
+				<p align="right"><a class="a1" href="lanmu.php?lanmu=2">更多>></a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="story">
+		<div class='box1'>
+	<a href='newdetail.php?id=2266'>
+		<img alt='捐赠人故事' title='捐赠人故事'  style='float:left;border:none;' src='http://www.pkuef.org/pkuef/admin/upload/pictures/20171214021228359.jpg' />
+	</a>
+	<p class='text5'> &#12288;&#12288;人才培养需要全社会方方面面关注人才，支持人才成长。 </p>
+	<p class=\"text5\"> ——苏州工业园区奖学金捐赠方代表林小明 </p>
+</div>
+<div class='dot'></div>
+<div class='box1'>
+	<a href='newdetail.php?lanmu=jzsy&id=2152'>
+		<img alt='学生感言' title='学生感言'  style='float:left;border:none;' src='http://www.pkuef.org/pkuef/admin/upload/pictures/20170529110547098.jpg' />
+	</a>
+	<p class='text5'> 科研是我的核心，却不是生活的全部 </p>
+	<p class=\"text5\"> ——记CASC 奖学金获奖者李梓维 </p>
+</div>	</div>
+</div><!--end of main-->
+<div class="tail">
+	<hr color="#740000"></hr>
+	<p>All Rights Reserved by Peking University Education Foundation</p>
+	<p> 京ICP备05005248号</p>
+	<p>北京大学镜春园75-76号 100871</p>
+	<br />
+	</p>
+</div><!--end fo tail-->
+</body>
+</html>

@@ -12,6 +12,7 @@ from org.apache.lucene.document import Document, Field, FieldType
 from org.apache.lucene.index import FieldInfo, IndexWriter, IndexWriterConfig
 from org.apache.lucene.store import SimpleFSDirectory
 from org.apache.lucene.util import Version
+from org.apache.lucene.analysis.core import WhitespaceAnalyzer
 import re
 from bs4 import  BeautifulSoup
 import jieba
@@ -47,7 +48,7 @@ class IndexFiles(object):
             os.mkdir(storeDir)
 
         store = SimpleFSDirectory(File(storeDir))
-        analyzer = StandardAnalyzer(Version.LUCENE_CURRENT)
+        analyzer = WhitespaceAnalyzer(Version.LUCENE_CURRENT)
         analyzer = LimitTokenCountAnalyzer(analyzer, 1048576)
         config = IndexWriterConfig(Version.LUCENE_CURRENT, analyzer)
         config.setOpenMode(IndexWriterConfig.OpenMode.CREATE)

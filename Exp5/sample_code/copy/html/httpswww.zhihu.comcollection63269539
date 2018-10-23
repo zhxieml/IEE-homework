@@ -1,0 +1,1872 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="25327ea34b26e09e5e1de79622d5f3ac">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<title>小说预备 - 收藏夹 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://collections/63269539">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/collection/63269539">
+<meta id="znonce" name="znonce" content="35182b81caf84953a751a85235bfd6e9">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+<style type="text/css">
+.zm-item-fav + .zm-item-fav .zm-item-answer {
+padding-top: 7px;
+border-top: 1px solid #eee;
+}
+.zm-item-answer-author-info a.collapse {
+margin-right: -25px;
+margin-top: 0;
+}
+</style>
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+<div class="zg-section-title">
+<div style="margin-bottom: 5px;">
+
+</div>
+<div style="margin:0 0 8px 0" id="zh-list-title" data-disabled="1">
+<h2 class="zm-item-title zm-editable-content" id="zh-fav-head-title">
+
+小说预备
+</h2>
+</div>
+<div class="zg-section" style="margin-bottom: 5px;" id="zh-list-desc" data-disabled="1">
+<div class="zm-editable-content" id="zh-fav-head-description"></div>
+<div class="zm-editable-content" id="zh-fav-head-description-source" style="display:none;"></div>
+</div>
+<div class="zm-item-meta" id="zh-list-meta-wrap">
+<div class="zm-item-meta-actions">
+<a href="#" name="addcomment" class="toggle-comment">
+<i class="z-icon-comment"></i>3 条评论</a>
+
+</div>
+
+</div>
+</div>
+
+<div id="zh-list-collection-wrap" style="margin-bottom: 10px;">
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/263552238">质朴平淡的文笔和拙劣的文笔的区别是什么？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="80213636"
+data-atoken="275794708"
+data-collapsed="0"
+data-created="1513170041"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/263552238/answer/275794708">
+<meta itemprop="answer-id" content="80213636">
+<meta itemprop="answer-url-token" content="275794708">
+<a class="zg-anchor-hidden" name="answer-80213636"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>782</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">782</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$ni-ke-liu-liu"
+target="_blank" href="/people/ni-ke-liu-liu"
+>尼克六六</a></span><span title="关注我英语会变厉害噢" class="bio">
+关注我英语会变厉害噢
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="782" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">782</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="19851251" data-action="/answer/content" data-author-name="尼克六六" data-entry-url="/question/263552238/answer/275794708">
+
+<textarea hidden class="content">&lt;p&gt;01&lt;/p&gt;&lt;p&gt;一九九七年早春，阿瑗去世。一九九八年岁末，钟书去世。我们三人就此失散了。就这么轻易地失散了。“世间好物不坚牢，彩云易散琉璃脆”。现在，只剩下了我一人。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;02&lt;/p&gt;&lt;p&gt;钟书这段时间只一个人过日子，每次到产院探望，常苦着脸说：“我做坏事了。”他打翻了墨水瓶，把房东家的桌布染了。我说：“不要紧，我会洗。”&lt;/p&gt;&lt;p&gt;“墨水呀！”“墨水也能洗”&lt;/p&gt;&lt;p&gt;他就放心回去了。然后他又做了坏事了，把台灯砸了。我问明是怎样的灯。我说：“不要紧，我会修。”他又放心回去了。&lt;/p&gt;&lt;p&gt;我说“不要紧”，他真的就放心了。因为他很相信我说的“不要紧”。我们在伦敦“探险”时，他颧骨上生了一个疔。我也很着急。有人介绍了一位英国护士，她教我做热敷。我安慰钟书说：“不要紧，我会给你治。”我认认真真每几小时为他做一次热敷，没几天，我把脓拔去，脸上没留下一点疤痕。他感激之余，对我说的“不要紧”深信不疑。我住产院时他做的种种“坏事”，我回寓后，真的全都修好。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;03&lt;/p&gt;&lt;p&gt;两年不见，她好像已经不认识了。她看见爸爸带回的行李放在妈妈床边，很不放心，猜疑地监视着，晚饭后，圆圆对爸爸发话了。&lt;/p&gt;&lt;p&gt;“这是我的妈妈，你的妈妈在那边。”她要赶爸爸走。&lt;/p&gt;&lt;p&gt;　　钟书很窝囊地笑说：“我倒问问你，是我先认识你妈妈，还是你先认识？”&lt;/p&gt;&lt;p&gt;“自然我先认识，我一生出来就认识，你是长大了认识的。”这是圆圆的原话，我只把无锡话改为国语。我当时非常惊奇，所以把她的话一字字记住了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;04&lt;/p&gt;&lt;p&gt;圆圆手足的骨骼造型都和钟书的手脚一模一样；圆圆安静，手脚不麻利，像钟书；圆圆胆子大，像钟书；圆圆格物致知，像钟书；两个指头翻书像钟书，翻得快像钟书……&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;05&lt;/p&gt;&lt;p&gt;有一夜，他穿了又重又不暖和的厚呢大衣在屋里满地走。我已连着几夜和衣而卧，陪着他不睡。忽然，我听不见他呼啸，只见他趴在桌上，声息全无。我吓得立即跳起来。我摸着他的手，他随即捏捏我的手，原来他是乏极了，打了个盹儿，他立刻继续呼啸。我深悔闹醒了他，但听到呼啸，就知道他还在呼吸。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;06&lt;/p&gt;&lt;p&gt;我们仨，却不止三人。每个人摇身一变，可变成好几个人。例如阿瑗小时才五六岁的时候，我三姐就说：“你们一家呀，圆圆头最大，钟书最小。”我的姐姐妹妹都认为三姐说得对。阿瑗长大了，会照顾我，像姐姐；会陪我，像妹妹；会管我，像妈妈。阿瑗常说：“我和爸爸最‘哥们’，我们是妈妈的两个顽童，爸爸还不配做我的哥哥，只配做弟弟。”我又变为最大的。钟书是我们的老师。我和阿瑗都是好学生，虽然近在咫尺，我们如有问题，问一声就能解决，可是我们决不打扰他，我们都勤查字典，到无法自己解决才发问。他可高大了。但是他穿衣吃饭，都需我们母女把他当孩子般照顾，他又很弱小。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;——摘自 杨绛《我们仨》&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;朴实的文笔都是先有感情，之后文字随情感自然流露。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;拙劣的文笔一般都是用文字的华丽来弥补情感的匮乏。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;最后打一个羞羞的小广告。最高效的英语学习方法和最棒的留学咨询，请关注微信公众号：「六浪记」。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+01一九九七年早春，阿瑗去世。一九九八年岁末，钟书去世。我们三人就此失散了。就这么轻易地失散了。“世间好物不坚牢，彩云易散琉璃脆”。现在，只剩下了我一人。 02钟书这段时间只一个人过日子，每次到产院探望，常苦着脸说：“我做坏事了。”他打翻了墨…
+
+<a href="/question/263552238/answer/275794708" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2017-12-13" target="_blank" href="/question/263552238/answer/275794708">编辑于 2017-12-14</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-19851251"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>38 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic3.zhimg.com/v2-d7edb87f0bac37370d401737dd23adfa_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=275794708" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/263552238">质朴平淡的文笔和拙劣的文笔的区别是什么？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="79741037"
+data-atoken="273194515"
+data-collapsed="0"
+data-created="1512751620"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/263552238/answer/273194515">
+<meta itemprop="answer-id" content="79741037">
+<meta itemprop="answer-url-token" content="273194515">
+<a class="zg-anchor-hidden" name="answer-79741037"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>4961</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">4961</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$gan-tang-54"
+target="_blank" href="/people/gan-tang-54"
+>甘棠</a></span><span title="可能非常喜欢龙" class="bio">
+可能非常喜欢龙
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="4961" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">4961</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="19851251" data-action="/answer/content" data-author-name="甘棠" data-entry-url="/question/263552238/answer/273194515">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;“质朴平淡”是伟大作家的自我剪裁，或者说，为了作品的艺术完成度而对自身文笔的有意识克制。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;包括但不限于：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;以更简练的句式结构来限制使用繁复的长句，保证作品的节奏感，阅读的音乐性；&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;blockquote&gt; 这个地方的地名有点怪，叫庵赵庄。赵，是因为庄上大都姓赵。叫做庄，可是人家住得很分散，这里两三家，那里两三家。一出门，远远可以看到，走起来得走一会，因为没有大路，都是弯弯曲曲的田埂。庵，是因为有一个庵。庵叫苦提庵，可是大家叫讹了，叫成荸荠庵。连庵里的和尚也这样叫。“宝刹何处？”——“荸荠庵。”庵本来是住尼姑的。“和尚庙”、“尼姑庵”嘛。可是荸荠庵住的是和尚。也许因为荸荠庵不大，大者为庙，小者为庵。&lt;br&gt;——汪曾祺 《受戒》&lt;/blockquote&gt;&lt;p&gt;（汪老的长短句交错，是重剑无锋的“音乐”。）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;以更口语化的语言来淡化环境和人物的铺陈感，更贴近现实的情境；&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;blockquote&gt; 小林家一斤豆腐变馊了。一斤豆腐有五块，二两一块，这是公家副食店卖的。个体户的豆腐一斤一块，水份大，发稀，锅里炒不成团。小林每天清早六点起床，到公家副食店门口排队买豆腐。排队也不一定每天都能到豆腐，要么排队的人多，排到，豆腐已经卖完了；要么还没排到，已经七点了，小林得离开豆腐队去赶单位的班车。最近单位办公室新到一个处长老关，新官上任三把火，对迟到早退抓得挺紧。最使人感到丧气的是，队眼看排到了，上班的时间也到了。离开豆腐队，小林就要对长长的豆腐队咒骂一声：&lt;br&gt;&lt;br&gt;“妈了个×，天底下穷人多了真不是好事！”&lt;br&gt;——刘震云 《一地鸡毛》开头&lt;/blockquote&gt;&lt;p&gt;（这段开头看起来貌不惊人。仔细看，信息量十足。主人公的身份、性格、社会地位、全文的主要矛盾——小林两口子日益增长的通勤需求和较低的经济实力产生的矛盾都交代了。这一段儿里所有的抱怨“水分大发稀炒不成团”，“排到了也不能买”，“迟到早退抓得紧”都是紧紧围绕着主人公自身利益的。至于“为什么公家副食店豆腐质量不能提上去”“咒骂同样排队的穷苦人民有用吗是不是应该咒骂控制豆腐供应的官僚比较好”“公务员小林本来就应该按时上班”，一句笔墨都不会浪费。）   &lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;以特定人物的视角（例如：儿童、初次进城的劳动人民、初嫁的新媳妇等）来描述事件，故需要使文笔与人物身份背景相合适；&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;blockquote&gt; 或者是为了抄作业，有几个笨主作业老是不会，就抄别人的，庙里安全，老师和家长都看不见。佛嘛，心中无佛什么事都敢干。抄者蹶着屁股在菩萨眼皮底下紧抄，被抄者则乘机大肆炫耀其优越感，说一句“我的时间不多你要抄就快点儿”，然后故意放大轻松与快乐，去捉蚂蚱、逮蜻蜓，大喊大叫地弹球儿、扇三角，急得抄者流汗，蹶起的屁股有节奏地颠，嘴里念念有词，不时扭起头来喊一句：“等我会儿嘿！”其实谁也知道，没法等。&lt;br&gt;&lt;br&gt;还有一回专门是为了比赛胆儿大。“晚上谁敢到那庙里去？”“这有什么，嘁！”“有什么？有鬼，你敢去吗？”“废话！我早都去过了。”“牛×！”“嘿，你要不信嘿……今儿晚上就去你敢不敢？”“去就去有什么呀，嘁！”“行，谁不去谁孙子敢不敢？”　“行，几点？”“九点。”“就怕那会儿我妈不让我出来。”“哎哟喂，不敢就说不敢！”“行，九点就九点！”那天晚上我们真的到那庙里去了一回，有人拿了个手电筒，还有人带了把水果刀好歹算一件武器。我们走进庙门时还是满天星斗，不一会儿天却阴下来，而且起了风。我们在侧殿的台阶上蹲着，挤成一堆儿，不敢动也不敢大声说话，荒草摇摇，老树沙沙，月亮在云中一跳一跳地走。有人说想回家去撒泡尿。有人说撒尿你就到那边撒去呗。有人说别的倒也不怕，就怕是要下雨了。有人说下雨也不怕，就怕一下雨家里人该着急了。有人说一下雨蛇先出来，然后指不定还有什么呢。那个想撒尿的开始发抖，说不光想撒尿这会儿又想屙屎，可惜没带纸。这样，大家渐渐地都有了便意，说憋屎憋尿是要生病的，有个人老是憋屎憋尿后来就变成了罗锅儿。大家惊诧道：是吗？那就不如都回家上厕所吧。可是第二天，那个最先要上厕所的成了惟一要上厕所的，大家都埋怨他，说要不是他我们还会在那儿呆很久，说不定就能捉到蛇，甚至可能看看鬼。&lt;/blockquote&gt;&lt;p&gt;可不可爱？可爱极了。所以这帮孩子眼中看到的“金属加工厂建立破坏了庙周围的生态环境”就绝对不能用成年人复杂的方法去写，而必须用儿童的认知能力去写——&lt;/p&gt;&lt;blockquote&gt;有一天，那庙院里忽然出现了很多暗红色粉末，一堆堆像小山似的，不知道是什么，也想不通到底何用。那粉末又干又轻，一脚踩上去“噗”的一声到处飞扬，而且从此鞋就变成暗红色，再也别想洗干净。又过了几天，庙里来了一些人，整天在那暗红色的粉末里折腾，于是一个个都变成暗红色不说，庙墙和台阶也都变成暗红色，荒草和老树也都变成暗红色，那粉末随风而走或顺水而流，不久，半条胡同都变成了暗红色。随后，庙门前挂出了一块招牌：有色金属加工厂。从此游戏的地方没有了，蛇和鬼不知迁徙何方，荒草被锄净，老树被伐倒，只剩下一团暗红色满天满地逐日壮大。再后来，庙堂也拆了，庙墙也拆了，盖起了一座轰轰烈烈的大厂房。那条胡同也改了名字，以后出生的人会以为那儿从来没有过庙。&lt;br&gt;——史铁生《有关庙的记忆》&lt;/blockquote&gt;&lt;p&gt;他们不可能像成年后的作者一样意识到那些暗红色的粉末是污染物。这些粉末是谁的氧化物，几价的，有毒没有，他们也不会关心。直观的感受仅仅是“暗红色”、“飞”、逮啥沾啥颜色洗不掉。而对于环境的改变，类似的，直观的感受也是“游戏的地方没有了”。这才是七八岁孩子眼中的世界。&lt;b&gt;不是为了质朴而质朴，是必须质朴而质朴&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;类似的自然还有陈焕生进城，刘姥姥进大观园。一个在身为高级知识分子的作家眼里“龙吟细细凤尾森森”的潇湘馆在老人家眼里是不可能一样的，她会指出的是两点：A.书真多。B.是不是公子的书房。同样的东西，但是换一个人的视角，则景象大变。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;当然，还有最重要的一条：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;克制修饰以显示真诚。&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;过度华丽的辞藻在炫技的同时，会触目地强调作者人工的痕迹，而令人疑心作者感情的真挚程度——真正的痛苦应该是说不出来的，开口讲一遍如同自揭伤疤。那么眼看你还有空做比喻做排比呢，又要我们怎么相信你？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;我知这世界本如露水般短暂。然而，然而。&lt;br&gt;——小林一茶&lt;/blockquote&gt;&lt;p&gt;（小林一茶作于子女亡故后。）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt; 那天我又独自坐在屋里，看着窗外的树叶刷刷啦啦地飘落。母亲进来了，挡在窗前：“北海的菊花开了，我推着你去看看吧。”她憔悴的脸上现出央求般的神色。“什么时候？”“你要是愿意，就明天?”她说。我的回答已经让她喜出望外了。“好吧，就明天。”我说。她高兴得一会儿坐下，一会儿站起：“那就赶紧准备准备。”“唉呀，烦不烦？几步路，有什么好准备的！”她也笑了，坐在我身边，絮絮叨叨地说着：“看完菊花，咱们就去‘仿膳’，你小时候最爱吃那儿的豌豆黄儿。还记得那回我带你去北海吗？你偏说那杨树花是毛毛虫，跑着，一脚踩扁一个……”她忽然不说了。对于“跑”和“踩”一类的字眼儿，她比我还敏感。她又悄悄地出去了。&lt;br&gt;她出去了，就再也没回来。&lt;br&gt;&lt;br&gt;——史铁生《秋天的回忆》&lt;/blockquote&gt;&lt;p&gt;（这一篇在众多答案中都有提及。这种淡而沉痛的回忆，在不多的对话中体现出的身为人子的痛悔、怀念，无不令人心碎。因为平淡，而显出平淡中压抑的巨大悲痛。）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;    她连爬带滚地下了山坡。她用麻木的冰冷的手指从那棵树上取下一包衣服，是他的棉袄，把两只袖子挽在一起打了个结，成为一个整齐的包袱。里面很小心地包着她的棉袄，在这一刹那间，她完全明白了，就像是听见他亲口和她说话一样。那苍白的明亮的溪水在她脚底下混混流着。他把他的棉裤穿了去了，因为反正已经撕破了，染上了许多血迹，没有用了。&lt;b&gt;但是他那件棉袄虽然破旧，还可以穿穿，所以留下来给她。&lt;/b&gt;&lt;br&gt;&lt;br&gt;他要她一个人走，不愿意带累她。他一定是知道他受的伤很重，虽然她一直不肯承认。他并没有说什么，但是她现在回想着，刚才她正要走开的时候，先给他靠在树根上坐稳了，她刚站直了身子，&lt;b&gt;忽然觉得他的手握住了她的脚踝，&lt;/b&gt;那时候仿佛觉得那是一种稚气的冲动，他紧紧地握住了不放手，就像是不愿意让她走似的。现在她知道了，&lt;b&gt;那是因为他在那一刹那间又觉得心里不能决定。&lt;/b&gt;他的手指箍在她的腿腕上，那感觉是那样真确，实在，那一刹那的时间仿佛近在眼前，然而已经是永远无法掌握了，使她简直难受得要发狂。&lt;br&gt;&lt;br&gt;她站在那里许久，一动也不动。然后她终于穿上她的棉袄，扣上了钮子。她把他那件棉袄披在身上，把两只袖子在领下松松地打了个结。&lt;b&gt;那旧棉袄越穿越薄，僵硬地竖在她的脸庞四周。她把面颊凑在上面揉擦着。&lt;/b&gt;她缓缓地走着，然后脚步渐渐地快了起来，向家的方向走去。&lt;br&gt;——张爱玲《秧歌》&lt;/blockquote&gt;&lt;p&gt;张爱玲文笔之华丽人尽皆知。一生工于纺织，疏于剪裁。但是这部创作生涯晚期写的长篇小说中，她在许多时候都把自己的文笔收敛了起来。在这样生离死别的全文高潮情节，她减掉了复杂敏锐的比喻，减掉了她喜欢写的颜色，减掉了她拿手的环境描写，减掉了生僻的词汇，甚至减掉了眼泪——不直接写流泪而写“她把面颊凑在上面揉擦着”。留下的是女主角对丈夫自我牺牲时的心理推理过程，并将这窒息、令人发狂的悲痛在“推理”的过程中还原出来。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;十年生死两茫茫，不思量，自难忘。千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。&lt;br&gt;夜来幽梦忽还乡，小轩窗，正梳妆。相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。&lt;br&gt;——苏轼《江城子 · 乙卯正月二十日夜记梦》&lt;/blockquote&gt;&lt;p&gt;苏轼才华横溢博古通今，自己也知道自己才华横溢博古通今。苏词中，妙句往往灵动不拘，绝不生硬堆砌。同时，喜欢用“君”，“我”等字，善用妙喻，善发议论，作者本身强烈的自我意识总是非常明显。然而《江城子》被誉为“千古悼亡诗”，是因为作者的克制——他排除掉了这种身为创作者的自我意识，而把梦境中的感情起伏在简单的语言中传递出来。作品的动人，是来自于诗中作者的“弃权”。他不评，不用典，不比，呈现在诗歌中的苏轼和梦中的苏轼一样，什么都做不了。“相顾无言，惟有泪千行”。他让自己成为作品中脆弱的一部分。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;blockquote&gt;麻里子、津庆、知代子，你们要齐心协力帮助妈妈。爸爸实在太遗憾了，一定无法获救了。不知道发生了什么事，已经5分钟了。再也不想坐飞机了，神啊，请救救我。想不到昨天大家一起吃的饭，是最后一顿。飞机好像发生了爆炸，四处都是烟，呼吸面罩也降下来了。孩子他妈，事情变成这样令人遗憾。永别了，孩子们全拜托给你了。现在是6点30分，飞机开始盘旋，并急速下降。到今天为止，对于至今为止都幸福的人生，我万分感激。&lt;br&gt;——&lt;b&gt;河口博次 遗书。日航123航班遇难者。&lt;/b&gt;&lt;/blockquote&gt;&lt;p&gt;他不是作家，这也不是文学作品，这是直白的痛苦。然而有谁能见此书不落泪动容？&lt;/p&gt;&lt;p&gt;无论是日久的怀念，还是死别的瞬间，是天灾，还是人祸。一个悲痛中的人，眼中不会有比喻，不会有颜色，不会有自然环境，也不会有文笔。这些华丽精致的玩意儿是没有生死大事的时候，才能有时间拿来把玩的。意识在脑海中流淌时，只剩下悲痛本身，而悲痛的本身一定是质朴，也一定是真诚的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;真实的人生如此残酷，显得任何修饰都是一种亵渎。文笔是达到目的的途径，不是目的本身。作为作家，唯一的目的是创造优秀甚至伟大的作品，而不是炫示自己的能力。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;正因为明白这个道理，所以以上列举的所有作家，明明可以写出比晋江那些浮夸的小说文案华丽无数倍的文笔，但是他们为了文学需要而&lt;b&gt;自我克制&lt;/b&gt;，选择了更适合作品的表达形式。因此，他们的作品，可以称之为文学。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;而拙劣的文笔是怎么样的呢？&lt;/p&gt;&lt;p&gt;他们没有克制，他们竭尽全力了，但还是那个鸟样子。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<b>“质朴平淡”是伟大作家的自我剪裁，或者说，为了作品的艺术完成度而对自身文笔的有意识克制。</b> 包括但不限于： <i>以更简练的句式结构来限制使用繁复的长句，保证作品的节奏感，阅读的音乐性；</i> 这个地方的地名有点怪，叫庵赵庄。赵，是因为庄上大都姓赵。叫做…
+
+<a href="/question/263552238/answer/273194515" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/263552238/answer/273194515">发布于 2017-12-09</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-19851251"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>195 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/263552238">质朴平淡的文笔和拙劣的文笔的区别是什么？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="79558878"
+data-atoken="272192882"
+data-collapsed="0"
+data-created="1512614296"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/263552238/answer/272192882">
+<meta itemprop="answer-id" content="79558878">
+<meta itemprop="answer-url-token" content="272192882">
+<a class="zg-anchor-hidden" name="answer-79558878"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>4034</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">4034</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$zhao-hai-feng-13"
+target="_blank" href="/people/zhao-hai-feng-13"
+>当时明月在</a></span><span title="那个叫明月的姑娘去哪了？" class="bio">
+那个叫明月的姑娘去哪了？
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="4034" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">4034</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="19851251" data-action="/answer/content" data-author-name="当时明月在" data-entry-url="/question/263552238/answer/272192882">
+
+<textarea hidden class="content">&lt;p&gt;开个小玩笑，商业作家和文艺作家对比有欠公允，是不公平的。大家看了姑且一乐罢了。至于郭老师的文笔，想来只是为了糊弄观众罢了，笔杆子上吃了这么多年饭，真想写，不至于如此。这里黑一波就好像照例黑咪蒙一样，你们真觉得咪蒙写不出好东西？&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;以下是原答案：&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;不好意思，既然看到这样的问题，就让我忍不住想黑一波。&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;1&lt;/p&gt;&lt;p&gt;你要相信世界上一定有你的爱人，无论你此刻正被光芒环绕被掌声淹没，还是当时你正孤独地走在寒冷的街道上被大雨淋湿，无论是飘着小雪的清晨，还是被热浪炙烤的黄昏，他一定会穿越这个世界上汹涌着的人群，他一定会走过他们，走向你。他一定会怀着满腔的热，和目光里沉甸甸的爱，走到你的身边，抓紧你。他会迫不及待地走到你身边，如果他还年轻，那他一定会像顽劣的孩童霸占着自己的玩具不肯与人分享般地拥抱你 。如果他已经不再年轻，那他一定会像披荆斩棘归来的猎人，在你身旁燃起篝火，然后拥抱着你疲惫而放心地睡去。他一定会找到你，你要等。  &lt;/p&gt;&lt;p&gt;                                                                                                    ——郭敬明&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;于千万人之中遇见你所要遇见的人，于千万年之中，时间的无涯的荒野里，没有早一步，也没有晚一步，刚巧赶上了，那也没有别的话可说，惟有轻轻地问一声：噢，你也在这里吗？&lt;/p&gt;&lt;p&gt;                                                                                                    ——张爱玲&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2&lt;/p&gt;&lt;p&gt;我们活在浩瀚的宇宙里，漫天漂浮的宇宙尘埃和星河光尘，我们是比这些还要渺小的存在。你并不知道生活在什么时候突然改变方向，陷入墨水一般浓稠的黑暗里去。你被失望拖进深渊，你被疾病拉进坟墓，你被挫折践踏的体无完肤，你被嘲笑、被讽刺、被讨厌、被怨恨、被放弃。但是我们却总在内心里保留着希望保留着不甘心放弃跳动的心。我们依然在大大的绝望里小小的努力着。这种不想放弃的心情，它们变成无边黑暗的小小星辰。我们都是小小的星辰。&lt;/p&gt;&lt;p&gt;                                                                                                    ——郭敬明&lt;/p&gt;&lt;p&gt;以笑的方式哭，在死亡的伴随下活着。   ——余华&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;3&lt;/p&gt;&lt;p&gt;我们永远都在崇拜着那些闪闪发亮的人。我们永远觉得他们像是神祗一样的存在。他们用强大而无可抗拒的魅力和力量征服着世界。但是我们永远不知道，他们用什么样的代价，去换来了闪亮的人生。                                                          ——郭敬明&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;世间的万物就是这样，小坏小怪遭人厌恨，大坏大怪被人敬仰。&lt;br&gt;&lt;/p&gt;&lt;p&gt;                                                                 ——莫言&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;4&lt;/p&gt;&lt;p&gt;我们平凡而又微茫的生活里，并不是只有轻松的欢笑和捧腹的乐趣。在时光日复一日的缓慢推进里，有很多痛苦就像是图钉一样，随着滚滚而过的车轮被扎进我们的心中。&lt;/p&gt;&lt;p&gt;                                                               ——郭敬明&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;人的一切痛苦，本质上都是对自己的无能的愤怒。         ——王小波&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;5&lt;/p&gt;&lt;p&gt;开学的第一天过去了。 其实我们的生命就是这样一天一天地转动过去。秒针、分针、时针，拖着虚影转动成无数密密麻麻的日子，最终汇聚成时间的长河，变成我们所生活的庞大的时代。 而我，和我们，都是其中，最最渺小微茫的一个部分。               ——郭敬明&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我曾经以为日子是过不完的，未来是完全不一样的。现在，我就呆在我自己的未来，我没有发现自己有什么真正的变化，我的梦想还像小时候一样遥远，唯一不同的是我已经不打算实现它了。&lt;/p&gt;&lt;p&gt;                                                                                          ——王朔&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;6&lt;/p&gt;&lt;p&gt;你不知道生活在什么时候就改变了方向，你被失望拖进了深渊，被疾病拉进坟墓，你被挫折践踏的体无完肤，在这之前，在这世界末日天翻地覆之前，让我陪在你的身边。&lt;/p&gt;&lt;p&gt;                                                                                          ——郭敬明&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;我已经交了首付，嫁给我好吗！                                     ——路人甲&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+开个小玩笑，商业作家和文艺作家对比有欠公允，是不公平的。大家看了姑且一乐罢了。至于郭老师的文笔，想来只是为了糊弄观众罢了，笔杆子上吃了这么多年饭，真想写，不至于如此。这里黑一波就好像照例黑咪蒙一样，你们真觉得咪蒙写不出好东西？ 以下是原答…
+
+<a href="/question/263552238/answer/272192882" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2017-12-07" target="_blank" href="/question/263552238/answer/272192882">编辑于 2017-12-07</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-19851251"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>400 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/293778824">你认为，江南《龙族》中，最动人的场景，是哪个？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="119183183"
+data-atoken="490124611"
+data-collapsed="0"
+data-created="1536731993"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/293778824/answer/490124611">
+<meta itemprop="answer-id" content="119183183">
+<meta itemprop="answer-url-token" content="490124611">
+<a class="zg-anchor-hidden" name="answer-119183183"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>41</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">41</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$shou-ye-ren-4-9"
+target="_blank" href="/people/shou-ye-ren-4-9"
+>彻画</a></span><span title="红豆红豆我是黑豆" class="bio">
+红豆红豆我是黑豆
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="41" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">41</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="27561577" data-action="/answer/content" data-author-name="彻画" data-entry-url="/question/293778824/answer/490124611">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;跑赢时光的法拉利&lt;/b&gt;&lt;/p&gt;&lt;p&gt;这时候光从他背后照来，仿佛闪电突破乌云，有人推开了放映厅的门。&lt;/p&gt;&lt;p&gt;　　人一生里总有几次觉得自己看见了天使之门洞开，路明非等了十八年，在他最衰的那一刻，门终于开了。&lt;/p&gt;&lt;p&gt;　　那个走进来的天使四下扫视，目光如刀。&lt;/p&gt;&lt;p&gt;　　所有人看清她之后都沉默下来，首先他们不知道为什幺忽然有个外人闯进了他们聚会的空间，其次这个人的光芒压倒了在场的所有人。&lt;/p&gt;&lt;p&gt;　　太耀眼了，实在太耀眼了，耀眼的让路明非以为她就是来出风头的。&lt;/p&gt;&lt;p&gt;　　“李嘉图，我们的时间不够了，还要继续参加活动吗？”诺诺用一种清晰冰洌的声音说，大讲堂里每个人都能听清她在说什幺。&lt;/p&gt;&lt;p&gt;　　她完全变了着装风格，披散的暗红色头发梳理得整整齐齐，深紫色的职业套装，月白色丝绸的小衬衣，紫色的丝袜，用上了全套黄金嵌紫晶的定制首饰，身高也比路明非上次见到她的时候骤然高了十厘米之多，压迫感简直让路明非也觉得腿软。好在诺诺及时托了他一把，让他站稳了。&lt;/p&gt;&lt;p&gt;      “哦，我……”路明非慢慢地从椅子上站起来。他从未有过这种感觉，他居然成了万众目光的焦点，像是被架在太阳灶上的热水壶，他觉得自己仿佛要被那些人的注视灼伤了，这时候觉得说什幺都显得傻。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;你不知道，这是小马仔送给你的礼物&lt;/b&gt;&lt;/p&gt;&lt;p&gt;可是没有，山路上没有车灯，天空里没有飞机，只有光忽然从天空里投射下来，照亮了两个人的脸。&lt;/p&gt;&lt;p&gt;　　“烟花啊！”诺诺勐地站住，惊叹出声。&lt;/p&gt;&lt;p&gt;　　那是山下射上天空的烟花，仿佛一道道逆射的流行划开天空，那是花的种子，它们在黑暗中恣意地盛开，紫色的太阳般的蒲公英，下坠的青色吊兰，红色和金色交织成的玫瑰花，白色的大丽菊……路明非从来没见过有人这幺奢侈地放烟花，在短短的一瞬间之内把上百枚烟花投入了天空，把夜空变成了花篮。&lt;/p&gt;&lt;p&gt;　　路明非也没有见过这幺美丽的脸，诺诺的侧脸在烟花的照耀下流淌着淡淡的光，还有细细的泪痕。&lt;/p&gt;&lt;p&gt;　　“真美啊！”诺诺轻声说。&lt;/p&gt;&lt;p&gt;　　沉寂了片刻后，最后一枚巨大的烟花弹升上天空，在极高的天顶，它炸开了。墨紫、洇绿、水蓝、月白，鹅黄……各种颜色的光在巨大的金色背景上拼出了文字。&lt;/p&gt;&lt;p&gt;　　“NoNo ，Happy Birthday！”&lt;/p&gt;&lt;p&gt;　　“是……”诺诺瞪大了眼睛，“是给我的幺？”&lt;/p&gt;&lt;p&gt;　　“是……是啊……”路明非蓝色古怪，“烟花上说NoNo，就是说诺诺吧……难道是说‘不不，生日快乐’，谁会叫那幺奇怪的名字？”&lt;/p&gt;&lt;p&gt;　　诺诺在路明非脑门上用力一拍，“谁的名字奇怪？你的名字才奇怪呢！”&lt;/p&gt;&lt;p&gt;　　路明非摸摸脑门，呲牙笑了。&lt;/p&gt;&lt;p&gt;　　“不管谁送的，真好啊。”诺诺看着慢慢暗淡下来的天空，轻轻地说。&lt;/p&gt;&lt;p&gt;　　她忽然笑了，伸手把路明非的脑袋抓了个乱七八糟，然后扭头就走。路明非呆呆地随她抓了，看着她的步伐忽然轻盈如一只小鹿。愣了好久，他也笑了起来。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;防火防盗防师兄&lt;/b&gt;&lt;/p&gt;&lt;p&gt;     真是一个棒极了的早晨，阳光透过屋顶的天窗照在夏弥身上，纤细柔软的女孩以芭蕾般曼妙的动作单腿而立，伸手去为他们偷两杯可乐。路明非看着她抬起在阳光中的长腿，每一根线条都青春而流畅，每一寸肌肤都温润如玉，他第一次明白了古人所谓“骨肉匀停”的意思。看着这一幕就只是欣赏一种美，既不蠢蠢欲动也不心痒难忍，只希望可乐杯大一些让她多接一会儿，又恨不得立刻掏出手机把这一刻存下来。&lt;/p&gt;&lt;p&gt;　　这份美好就像兄弟们第一次混进舞蹈学院隔着玻璃围观漂亮女生们的练习，心旷神怡。&lt;/p&gt;&lt;p&gt;　　漂亮小女贼真是这个世界上最萌的物种之一！&lt;/p&gt;&lt;p&gt;　　“喝了我偷来的可乐就欠我人情啰，以后多帮忙。”夏弥说。三个人正拖着行李往外走。&lt;/p&gt;&lt;p&gt;　　“那还用说？师兄罩你呀！”路明非喝着可乐，拍着胸脯。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;你们叫她小龙女吗？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;他伸手轻轻按在门上。他是太极拳的好手，即使不靠龙血，寸劲也可以震断金属锁舌，但这一次他觉得门很重，好像要洞开一个世界。&lt;/p&gt;&lt;p&gt;     门开了，夕阳扑面而来。他站在阳光里，愣住了。&lt;/p&gt;&lt;p&gt;       正对着门的，居然是一面巨大的落地窗，窗外巨大夕阳正在坠落。黯淡的阳光在地面上投下窗格的阴影，跟黑色的牢笼似的。金属窗框锈蚀得很厉害，好几块玻璃碎了，晚风灌进来，游走在屋子的每个角落。&lt;/p&gt;&lt;p&gt;       他沿着墙壁漫步，手指扫过满是灰尘的灶台；打开冰箱，里面只剩下一纸盒过期的酸奶。窗帘很没，是白色的蕾丝纱帘和深青色的绒帘，住在这样屋子里的人当然会很在意窗帘吧？连台电视都没有，于是一个人的时候会常常坐在床上看着夕阳落下吧？&lt;/p&gt;&lt;p&gt;       犹豫了很久，他还是打开了五斗柜。出人意料的，这是一个满满的五斗柜，收拾得整整齐齐。叠起来的天蓝色校服，胸口有士兰中学的标志，一叠叠白色衬衣，袖口有不同的刺绣花边；马仔纸盒里的头花，从木质的到金属的到玳瑁的，还有闪光缎的蝴蝶结；长袜短袜棉袜丝袜都卷成团一个挨一个放在某个抽屉的一边，像是一窝毛茸茸的粉鼠，另一边居然是五颜六色的内衣，同样叠得整整齐齐。楚子航从没想过女孩的内衣有那么多花样。他小心翼翼地伸手，试着触摸，满手灰尘。&lt;/p&gt;&lt;p&gt;       他把床上的罩单掀开，里面是简简单单的白色床单和白色的羽绒被，枕头也是白色的，只不过有轻松熊的图案，黄色的小熊坐在枕头的一角，表情认真。&lt;/p&gt;&lt;p&gt;他坐在床边，面对这夕阳。太阳就要落下去了，黑暗从窗外蔓延进来，他长长的影子投射在墙上。外面隐约有喧闹的声音，放学的孩子们在操场上打篮球。&lt;/p&gt;&lt;p&gt;       他觉得有点累了，很想睡一觉，于是合衣躺下，双手经济带搭在胸前。他用了半个小时做完了功课，回忆了那些不愿遗忘的事，现在这些事又多了几件。然后他缓缓地合上眼睛，此刻夕阳收走了最后的余晖，夜色如幕布把他覆盖。&lt;/p&gt;&lt;p&gt;       他清楚地知道这一次醒来，将不会看见阳光里天使低头，似乎要亲吻他的嘴唇。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;我们都是小怪兽&lt;/b&gt;&lt;/p&gt;&lt;p&gt;路明非轻轻摸摸她圆润的额头，心说无论你是什么样的公主身体里流着什么样的血，可你的社会经验真是可怜到爆啊，虽然你不说，可谁都能看得出你想要什么，你的眼睛里明明白白地写着呐。&lt;/p&gt;&lt;p&gt;“我是你的好朋友，将来你会有更多的好朋友。”路明非一字一顿地说，“只要我们这些好朋友喜欢你！那全世界都喜欢你！”&lt;/p&gt;&lt;p&gt;“可只要我们是你的好朋友，我们又怎么会不喜欢你呢？”他轻声说。&lt;/p&gt;&lt;p&gt;反正是旅行的最后一天了，没有明天也没有从今以后，他己经决定无论怎么样都要让这个女孩开心。他们因为某个神经病魔鬼的安排而邂逅，路明非能给她的只有一场旅行和鼓励她的话，所以今天他不说贱话也不笑场，每一句都说得郑重其事，说什么都看着绘梨衣的眼睛，绝不回避。&lt;/p&gt;&lt;p&gt;夕阳的光在绘梨衣的眼睛里缓缓地褪去，巨大的日轮即将沉没在海平面之下，最后的光把天空中的云烧成火焰的颜色，在越来越浓郁的夜色中，绘梨衣的眼睛前所未有的明亮。&lt;/p&gt;&lt;p&gt;她像小猫那样慢慢地爬向路明非，警惕地揣摩着他的神色。如果路明非拒绝她就会飞快地逃走，这是她第一次那么亲近一个人，她不知道会不会被拒绝。&lt;/p&gt;&lt;p&gt;路明非很想调头开溜，可他实在不想让这个生命很短暂的女孩失望。所以他气沉丹田目不转睛，仿佛老僧圆寂，眼睛眨也不眨地看着绘梨衣。&lt;/p&gt;&lt;p&gt;距离只是一步之遥，可绘梨衣爬了很久很久，就在路明非就快绷不住的时候，她张开双臂抱住他的脖子，这一刻太阳落山，铺天盖地的黑暗席卷整个世界。&lt;/p&gt;&lt;p&gt;不再是昨晚同病相怜的、恐惧中的拥抱，怀里的女孩很温暖，微微地颤抖着。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;可是我答应了，却没有做到&lt;/b&gt;&lt;/p&gt;&lt;p&gt;“这样加上之前在我这里买的花票，总数是十万零三百二十张花票，恭喜小樱花，你通过了实习期，成为这个家庭的一员。”座头鲸忽然不闹腾了，从西装口袋里抽出一张支票，举过头顶给所有人看，投影机立刻把放大之后的支票投在舞台背景上，没错，那是一张一亿日圆的支票，以今日的汇率来说，大约是95万美元，一张罕见的大额支票。座头鲸把那张支票投进服务生手中的金箱子，看着路明非说：“是的，有人希望你留下，几个月前她来找过我。”&lt;/p&gt;&lt;p&gt;《Friend》再次响起，这次是玉置浩二的原唱版，歌声像是风从山项吹过。&lt;/p&gt;&lt;p&gt;只有再见，再无言&lt;/p&gt;&lt;p&gt;在你的影子里，我的眼泪掉了下去&lt;/p&gt;&lt;p&gt;手指、头发和声音，都变得冰冷&lt;/p&gt;&lt;p&gt;两人相伴的生活远去了，连气息也失去&lt;/p&gt;&lt;p&gt;可路明非再也听不见任何声音，没有掌声没有哭声，也没有雨打风吹的歌声，在他的耳朵里整个世界一片寂静。在他的眼睛里只有那张支票的签名，角落里用他熟悉的笔迹写着：&lt;/p&gt;&lt;p&gt;上杉绘梨衣。&lt;/p&gt;&lt;p&gt;真讨厌……这种悲剧啊，在一个人都消失了的时候，再度发现她留在这个世界上的痕迹。可那又有什么用呢?为什么还要提起？就让所有无法挽回的事都随着潮水离去不好么？&lt;/p&gt;&lt;p&gt;可泪水还是不受控制地流了下来，路明非低下头来，做了个奇怪的动作：他轻轻地扣自己的胸口，想知道那里面的心是不是疼痛。&lt;/p&gt;&lt;p&gt;在他的世界之外，欢呼声震耳欲聋，上方落下几十串樱花爆竹，足足十万零三百二十响，座头鲸把它们一一点燃，樱花的香气中，爆竹碎片像飞雪那样席卷整个大厅，模糊了所有人的视线。&lt;/p&gt;&lt;p&gt;“趁这个时候走吧，”座头鲸拍了拍恺撒的肩膀，“否则你们就走不了了。”&lt;/p&gt;&lt;p&gt;“真是那个女孩留下的支票么?”恺撒从箱子里拿出那张大额支票，轻轻地弹着。&lt;/p&gt;&lt;p&gt;“蛇岐八家的支票怎么会有假呢?这个世界上有几个人敢伪造黑道宗家的支票?”座头鲸淡淡地说，“几个月前的一个下午，有个穿洛丽塔裙子的女孩来店里找Sakura，但是小樱花不在，店员就带她来找我。&lt;/p&gt;&lt;p&gt;“那是个很漂亮的女孩，但不会说话。她说她要找Sakura，我说店里的规矩，只有在营业时间牛郎才能跟客人见面，私下约会是不允许的。她显得很高兴，她说Sakura在这里就好，下次营业时间她再来。我说你那么喜欢Sakura就记得买花票支持他留下来，她问我说多少花票能让Sakura留下来，我说八百张，她说她没有那么多现金，但她可以给我一张支票，让我悄悄地去银行兑，不要让她哥哥知道。真没想到那种呆呆的少女会有支票本，她一口气签下了一亿日圆给我，没想到是蛇岐八家的支票。她真的很想把Sakura留下来吧?&lt;/p&gt;&lt;p&gt;“店长你有眼不识泰山啊，那可是黑道的公主啊，她当然有支票本了。”凯撒说，“不过还是第一次使用吧。”&lt;/p&gt;&lt;p&gt;“现在知道了。老板娘说今晚黑道公主不能来，所以我一定要带着这张支票来。”座头鲸说，“所以我还是得来，少了一条胳膊也得来。&lt;/p&gt;&lt;p&gt;“她居然能找到这里来。”楚子航说。&lt;/p&gt;&lt;p&gt;“好像是用Line的导航找来的。可别以为女人是好甩掉的东西，她喜欢你，是会追着你到天涯海角的。”座头鲸说，“女人爱一个男人，要付出的代价大很多，但她们愿意。”&lt;/p&gt;&lt;p&gt;“路明非。”恺撒冲着路明非的背影喊。&lt;/p&gt;&lt;p&gt;在他们说话的时候，路明非已经走得很远了，在震耳欲聋的鞭炮声中，在飞雪般的樱红色爆竹花中，他走得摇摇晃晃，像个发条将要用尽的人偶。&lt;/p&gt;&lt;p&gt;路明非默默地看着下方，铁龙般的新干线列车在夜幕下奔驰，是谁搭乘着这样的夜班列车，去向什么样的远方?&lt;/p&gt;&lt;p&gt;耳边似乎有人在说话，是啊，在那个大雨滂沱的晚上，在那间红色的情人酒店里，那个被认为是哑巴的女孩凑在他耳边轻声说：“我们都是小怪兽，有一天会被正义的奥特曼杀死。”&lt;/p&gt;&lt;p&gt;是啊，你是小怪兽，可小怪兽也有小怪兽的好朋友，孤独的小怪兽们害怕得靠在一起，但如果正义的奥特曼要来杀你，我就帮你把正义的奥特曼杀死。&lt;/p&gt;&lt;p&gt;可是我答应了，却没有做到。&lt;/p&gt;&lt;p&gt;“04.24，和Sakura去东京天空树，世界上最暖和的地方在天空树的项上。&lt;/p&gt;&lt;p&gt;“04.26，和Sakura去明治神宫，有人在那里举办婚礼。&lt;/p&gt;&lt;p&gt;“04.25，和Sakura去迪士尼，鬼屋很可怕，但是有Sakura在，所以不可怕。&lt;/p&gt;&lt;p&gt;“Sakura最好了。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;战争总会死人的，那又怎样？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;“你还记得当时的情形么？你一个劲儿地殴打我，我一个劲儿的咆哮。我说战争中每个人都是有罪的，你们并不神圣，我们也不后悔，大家都是为了国家的利益。最后你问我说，你知道你们的军队在海外都做了什么么？我忽然愣住了。是啊。我不知道，我从未亲眼看过海外战场，我只是呆在深宫中宣讲。第二天有个美国上尉开车给我送来了一车档案，那是你们用在东京审判中的证词。” &lt;/p&gt;&lt;p&gt;“是我派人给你送去的，我当时觉得你是个被惯坏的死孩子，货真价实的王八蛋。”昂热说，“需要学习学习。” &lt;/p&gt;&lt;p&gt;“我日夜不停地看那些证词，开始我每看一段就奚落美国人的无耻，把战争错误都算在日本人头上。战争总是要死人的，即使是有些平民会被遭殃，那又怎么样？在历史的前进中总有些人会殉难，这是理所当然的事。”上衫越说，“知道我看完了一份南京大屠杀的证词……我觉得自己石化了，一寸寸的开裂，一寸寸的灰化……1937年12月，南京被攻克，之后的六个星期中。城里有三十万平民被屠杀。南京城里西方侨民的证词是审判战犯的关键证据，一位法国天主教堂的修女说，日军甚至冲进西方教堂开设的育婴堂。强暴藏身在里面的中国女人。老嬷嬷让中国女人们穿上修女的衣服，秘密地带他们出城。他们在江边被日本军队拦截，藤原胜少校发现他们都是假修女，于是所有女人都遭到了强暴，反抗者被用刺刀刨开了肚子。没有遭到侵害的只有带队的那位老嬷嬷，但她目睹了那血腥残酷的一幕后无法忍受，于是开枪自杀。死前她诅咒说神会惩罚罪人，用雷电用火焰……” &lt;/p&gt;&lt;p&gt;“她的名字是夏洛特·陈。”&lt;/p&gt;&lt;p&gt;上衫越缓缓的转身，缓缓的抬起眼帘，直视昂热的眼睛：“那是我妈妈！”&lt;/p&gt;&lt;p&gt;他的眼睛变为酷烈的暗金色，彷佛有熔岩在深处流动，他的龙血正狂暴地涌动，完全不受控制。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;历史总是在重演&lt;/b&gt;&lt;/p&gt;&lt;p&gt; 昂热看向黑日坍塌的方向，仿佛日出东方，大海上波光粼粼。他回想起很多年前毁灭了卡塞尔庄园的那场血战，清晨的硝烟中他爬出坍塌的地窖，四顾无人，走了好久才看见梅涅克卡塞尔扶着亚特坎长刀站在雾气中。他向着梅涅克奔跑过去，近了才发现那只是一具破碎的人形罢了。在他触及梅涅克的瞬间，梅涅克变成了灰尘坍塌在地，亚特坎长刀“叮当”一声倒地，清越的鸣声回荡在汉堡的清晨中。&lt;/p&gt;&lt;p&gt;历史总是重演。他闭上眼睛，把上杉越的最后一幕牢牢地记在脑海里，古铜色的骷髅站在齐腰深的海水中，站在日出般的火光中。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;你给我吃的，我当你手下的漂亮女孩&lt;/b&gt;&lt;/p&gt;&lt;p&gt;子弹最终还是用完了。&lt;/p&gt;&lt;p&gt;她抬起头来看向路明非所在的方向，路明非不知道她是不是猜出了自己是谁，但他猛地揭开雨披，跳起来对她挥手。&lt;/p&gt;&lt;p&gt;樱忽然笑了，就像是她发现芬格尔的时候露出的那种笑容，她转向路明非的方向，双手按着膝盖深鞠躬，用唇形说：“ありがとうございます。”&lt;/p&gt;&lt;p&gt;这是她在这个世界上的最后一句话，用敬语说的“谢谢”。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<b>跑赢时光的法拉利</b>这时候光从他背后照来，仿佛闪电突破乌云，有人推开了放映厅的门。 人一生里总有几次觉得自己看见了天使之门洞开，路明非等了十八年，在他最衰的那一刻，门终于开了。 那个走进来的天使四下扫视，目光如刀。 所有人看清她之后都沉默下来，…
+
+<a href="/question/293778824/answer/490124611" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-12" target="_blank" href="/question/293778824/answer/490124611">编辑于 2018-10-16</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-27561577"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>2 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/64011441">有什么值得推荐的书单吗？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="123285126"
+data-atoken="512679188"
+data-collapsed="0"
+data-created="1539767997"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/64011441/answer/512679188">
+<meta itemprop="answer-id" content="123285126">
+<meta itemprop="answer-url-token" content="512679188">
+<a class="zg-anchor-hidden" name="answer-123285126"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>23</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">23</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$ren-min-wen-xue-chu-ban-she"
+target="_blank" href="/org/ren-min-wen-xue-chu-ban-she"
+>人民文学出版社</a><span class="OrgIcon sprite-global-icon-org-14" data-tooltip="s$b$已认证的官方帐号"></span></span><span class="badge-summary">已认证的官方帐号</span>
+
+
+<span title="古今中外，提高为主" class="bio">
+古今中外，提高为主
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="23" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">23</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="17830579" data-action="/answer/content" data-author-name="人民文学出版社" data-entry-url="/question/64011441/answer/512679188">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;毛姆：我的书单&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;《星期六晚邮报》委托我写了三篇文章，现在应广大读者的需求而重印成册，一来是为了方便读者阅读收藏，二来也希望此书能让另外一些曾与原文失之交臂的读者们有所受益。委托方要求我每篇写四千字，然而即便我的文章略微超过了这个字数，面对如此短小的篇幅，我也只能尽可能地缩减内容。说实话，这三篇文章每一篇都能扩展为厚厚一卷。前人为我们留下了丰富的精神财富，但是很多读者对此感到困惑，不知道该读些什么，而我的目标便是为他们列出一张清单，上面的每一本书都会让人心感愉悦，受益匪浅。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic1.zhimg.com/50/v2-5b27288255bf14c56fe47bab36ae5b4d_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;249&quot; data-rawheight=&quot;300&quot; class=&quot;content_image&quot; width=&quot;249&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;不过为了不让这份书单长到让人一看就感到沮丧，我不得不省去了很多重要的著作。除了极少数个别作家外，每一个作家我只提到了一本书，但是像简·奥斯汀、狄更斯、萨克雷、巴尔扎克和陀思妥耶夫斯基这样的小说家，我列举了他们每个人的好几本著作，而且每一本都符合我的择书标准。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;此外，我也不得不省去了一些有才华的作家，例如夏洛蒂·勃朗特，因为我实在没有篇幅留给那些徘徊在一流边缘的作家。而且我还省去了所有不甚知名的书籍，例如艾萨克·沃尔顿的《生平》（Lives）和詹姆斯·莫利阿的《伊斯巴罕的哈吉·巴巴历险记》（The 　Adventures 　of 　Hajji 　Ba-ba 　of 　Ispahan）。它们都是让人享受的书，但是受篇幅限制，我只能列上那些公认的杰作。这就好像是带着一位热情满满但行程仓促的朋友去雕塑馆一样，为了让他在有限的时间内感受到最杰出的辉煌，我只能直接带他去参观希腊黄金时代的伟大作品，而跳过罗马时期的肖像，甚至古风时期的雕塑，但这并不意味着我否定了后者的价值。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这本书很薄，也很微不足道，但是我相信各位读者一定不会认为它是一本没有深度的书。写这几篇文章的时候，我不是一个评论家（我确实也不是），也不是一个专业作家（如果是这一身份，我对文学的品味会很特别），而是作为一个对人性感兴趣的普通人。在将每一本书加入书单之前，我的第一个评判标准便是这本书是否可读。可读性对于文学教授或者评论家而言，是一件理所当然的事情，并不作为他们评判作品的标准，然而可读性并不是理所当然的，事实上，在文学史上有很多书只适合学生阅读。当今时代，几乎没有人会花时间阅读那些和自身毫无关系的书籍，而我接下来提到的书，都是关系到每一个人的。我所说的可读性，并非指读者即便不投入也能通读全篇——对读者来说，阅读的基本素质便是对人事抱有兴趣，并且有一定的想象力。我认识很多人，他们总说自己看不了小说，他们说，自己的脑子里装满了其他重要的事务，所以无法再容纳那些想象出来的人物和情节。不过我想，这些只是借口，之所以看不进小说，要么是因为太过关注自己，以至于对其他任何人的遭遇都提不起兴趣，要么就是实在缺乏想象力，没有能力驾驭小说中各种人物的悲喜哀愁。&lt;b&gt;若一个读者既没有好奇心，又没有同情心，那么任何书对他来说都是不可读的。&lt;/b&gt;一本可读的书必须是能让读者在阅读的瞬间便产生共鸣。这一点也许只是一本书的某一种特质，但正是这一特质，紧紧抓住了读者的兴趣。我可以很自信地说，我所推荐的所有书，都能唤起普通人的共鸣，因为它们所表达的，都是普遍的人性。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在美国文学那一篇中，我的叙述线索与其他两篇略有不同，在这里我想说明一下原因。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;欧洲文学浩如烟海，因此我挑选出的作品，皆为让我顶礼膜拜的、公认的上乘之作，若一本书配不上绝对的赞誉，那我是没有必要将其列入书单的。而美国文学历史较短，若采取相同的标准，那也许我只能列出四位作家，如此一来，想必读者并不受用。如今的美国文学已融入世界，因此不用拘泥于将美国作家和其他国家的作家区分对待，虽然对我来说，若坦言自己对某些美国作家的感受，读者势必会受到一定的引导，进而获益颇丰，但是我所希望的，是读者为自己而阅读，为自己找出书中的价值，而不受权威左右。在此我想重复我在第一章中写到的内容：对读者来说，唯有自己对一本书的理解，才是最重要的，即便全世界没有人认同你的看法，也全然没有关系，因为你的观点只对你受用。我想，尤其是美国人，相较于教授和评论家对艺术的专政，他们对政府的专政更为敏感，对于前者他们倾向于心甘情愿地接受，而后者则会让他们揭竿而起。但是这些事并没有对错，因为读者与书，就像是神秘主义者和上帝一样，他们的关系是自由而私密的。在所有形式的自命不凡中，文学大概是最令人憎恶的了，倘若某个白痴因为别人对某本书的看法与自己不一致便轻视他，那也没什么道理可言。在文学欣赏上，假装是令人作呕的行为，若是一本受到最伟大的评论家首肯的书对你而言却一无是处，这也没什么可羞愧的。另一方面，若你没有阅读过这些书，那还是不要肆意诋毁的好。再回到美国文学。因为美国历史短浅，著作匮乏，所以三流作家也荣登大雅之堂，而他们的作品也得到了在我看来根本不相称的推崇。如今的美国也应该抛开爱国主义的偏见，将那些美国作家看作是世界的公民，而不仅仅是美国人；将他们和那些伟大的艺术家放在一起比较，从而给出恰当的评价。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-ef811f0c5c8bc3d32be926091d7477e1_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;359&quot; data-rawheight=&quot;529&quot; class=&quot;content_image&quot; width=&quot;359&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;作者:  [英] 威廉·萨默塞特·毛姆 &lt;br&gt;出版社: 上海译文出版社&lt;br&gt;原作名: The Razor's Edge&lt;br&gt;译者:  周煦良&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;受篇幅限制，在英国文学一篇中，有三部小说我只提了名字，为了让自己满意，在此想借这篇前言再做一些说明。它们分别是特罗洛普的《尤斯蒂斯钻石》（The Eustace Diamonds），梅瑞狄斯的《利己主义者》（The 　Egoist）和乔治·艾略特的《米德尔马契》（Middle-march）。&lt;/b&gt;当我提笔时，已经很多年没有阅读这些书了，但随后我又将这些书重拾了起来。我原本建议读者阅读《尤斯蒂斯钻石》，而不是特罗洛普最知名的小说《巴切斯特塔》（Barchester 　Towers），因为《尤斯蒂斯钻石》是一本完整的书，而《巴切斯特塔》更像是一个系列中的一部分，书中的主题和人物并不清晰，所以除非将前后几本小说连起来一并阅读了，否则便无法得到完全的理解。我的目标是为读者推荐阅读起来既是享受又能从中受益匪浅的书，而特罗洛普在文坛的重要性并不值得我将他那一个系列的小说一一列出。此外，我记得《巴切斯特塔》中有很多维多利亚时期特有的夸张的描写，而那些在现在看来，都只是无聊的辞藻而已。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;不过再读了一遍《尤斯蒂斯钻石》后，我便建议读者仍旧去阅读那本更著名的《巴切斯特塔》，即便它并不完美。《尤斯蒂斯钻石》是一部侦探小说，特罗洛普巧妙地设计了两处出人意料的情节，但这个故事过于冗长。虽然这本书让我们很好地学习了该如何撰写这一题材的小说，然而三百页的篇幅所呈现出的，本应是一个更为精彩的故事。书中的人物虽然描写得很仔细，却不有趣，而且大多数人物都是维多利亚时期的小说中常见的老套人物。这本书让人感到，特罗洛普尝试创作狄更斯式的小说，但却又写得不到位。书中最体现人性的角色是莉琪·尤斯蒂斯，但是很显然特罗洛普非常讨厌她，或者说他希望读者憎恶她，因此对待这个人物有失公平。就像当看到律师在法庭上恫吓犯人时，不管他犯下了什么罪，你还是会报以同情一样，你会感到莉琪并不比其他人物坏多少，因此作者不应该对她如此严厉。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;这本书读起来并不困难，若有人对维多利亚时期的英国感兴趣，那么观察书中描写的昔日的礼节和风俗，定会获得很多乐趣。这是真实的评价。不过虽然相比之下我建议你们阅读《巴切斯特塔》，但也不要抱太大的希望，因为特罗洛普创作晚期有些江郎才尽。他几乎被一代人遗忘了，然而待到人们再次想起他时，他的作品被标上了时代特色，因而得到了我认为与之不符的赞誉。他是一个诚实而勤奋的手艺人，有着很强的观察力。他天生具有一种感染力，能够用一种直白（虽然极度冗长）的方式讲述一个简单易懂的故事，但他既没有热情，又没有才智，也没有精巧的构思，他没办法只用一句简单的、意味深长的句子揭露出人物的性格或者某个片段的重要性。他的兴趣只在于用不加粉饰、准确诚恳的描述重现一个已逝的社会形态。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;五十年前，每个有才智的年轻人都会热情满满地带着对文化的自负阅读梅瑞狄斯的书。不过年轻人的阅读品位是随着时代不断变化的，就好像在梅瑞狄斯之前十年他们阅读托马斯·艾略特，而在梅瑞狄斯之后便转为阅读萧伯纳一样。我想如今很少再有年轻人愿意阅读梅瑞狄斯的书了。尽管《利己主义者》和现在的时代有些脱节，不过它仍是一部不错的小说。乔治·梅瑞狄斯认为他书中所描述的阶层是应当受到敬畏的，但如今的人们已经变了，我们不再认为那些乘坐在四座四轮大马车里的乡绅和富足的淑女们是这个社会的中坚力量，他们的行为在我们看来也成了庸俗琐碎之举。在梅瑞狄斯之后，世界发生了变化，如今的我们已很难再为那个勇敢、自立、富足，因为发现自己已不再爱慕威洛比爵士而撕毁婚约的克莱拉·米德尔顿所感动，因为如今的姑娘们轻而易举便能解决这一困境。如今的读者希望小说有道理可言，而那些只要运用一些常识便完全能解决的困境只会让人无法忍耐。当克莱拉最终决定逃亡伦敦时，她溜出了房子，忐忑不安地走向了车站，然而因为一场愈演愈烈的暴风雨，她错过了火车，因此被劝说回去了。在她身上，几乎看不到作为女人该有的狡黠。她就要结婚了，肯定需要礼服，如果以去伦敦试礼服为借口，不会引起任何人的怀疑，奇怪的是，她从来都没有想过这一点。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;梅瑞狄斯的书并不易读，他的做作和迂回繁复的语言只会让人觉得无聊。他永远不会直截了当地说一些简单的话，因此他那引以为豪的才智也备受着折磨。不过他有一种天赋，能够创造出鲜活的、让人无法轻易忘怀的人物。他们并不像《白鲸》中的角色，是生活中原汁原味的人物，他们已经超越了普通人。在他们身上，有一种人工雕琢的痕迹，就像康格里夫的喜剧中的人物一样，但是这种痕迹并不死板，梅瑞狄斯用自己的热情点燃了他们的生命，他们就像是霍夫曼笔下那因魔法师而鲜活了起来的木偶们一样，绽放着属于自己的光彩。只有真正的小说家才能创作出这样的作品。而正是这股热情，吸引了众多读者。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;尽管他的文思有些跳跃，他的价值观有不当之处，他笔下的计谋有时很拙劣，但你若能欣然地读透梅瑞狄斯，便会发现他有条不紊地叙述着自己的故事，而你早已经迫不及待地想与他一起振翅高飞，翱翔在他那丰富的创造力带来的震彻心扉的喜悦中。《利己主义者》是梅瑞狄斯最好的一部小说，因为它的主题具有普遍性。利己主义是人性的主流，正是这一品质（尽管利己主义是人类最丑陋的恶习，但是我仍旧不愿意这么称呼它，因为它同样也是我们众多美德的精髓），决定了我们此时此刻的存在。没有利己主义，我们便不会是现在的我们，没有利己主义，我们便一无所有。然而，我们仍旧应该持之以恒地审视内心的私欲。一个人要想生活幸福，就必须尽己所能地压制内心的私欲。威洛比爵士是梅瑞狄斯塑造的一个前无古人后无来者的利己主义者，不过我想每个人在阅读这本书时，多少都会受到良心的谴责，因为如果人们没能从自己身上找出某些让威洛比爵士相形见绌的品质，这就意味着自己是更胜威洛比爵士一筹的利己主义者。正如梅瑞狄斯说，他那卑鄙的主人公不是特指这个人，或者那个人，而是所有人。因此，我推荐《利己主义者》并不仅仅因为它是一部生动有趣的小说，更因为这本书也许会让你对自己有更深的了解，而这对你来说是十分有益的。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;最后，我想讨论一下《米德尔马契》。单从小说的角度来说，它比前两本都要出色，是一本技艺纯熟的著作。&lt;/b&gt;乔治·艾略特笔下的人物并非局限在某个阶层中，而是来自各式各样不同的阶层，其中有居住在米德尔马契周围庄园内的拥有地产的贵族，也有居住在米德尔马契中的专业人士、商人和小商贩——要构建这样的故事结构是很不容易的。在阅读其他小说的时候，你只需要关心两三个人物的命运，他们在某种程度上是活在真空里的，周遭的变迁对这些人物来说并不重要。但在阅读《米德尔马契》时，你便要关注世上各种人物的命运。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-833998622e2dedbe85a9a566552bef5e_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;306&quot; data-rawheight=&quot;462&quot; class=&quot;content_image&quot; width=&quot;306&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;作者:  [英] 乔治·爱略特 &lt;br&gt;出版社: 人民文学出版社&lt;br&gt;原作名: Middlemarch&lt;br&gt;译者: 项星耀&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在《米德尔马契》中，乔治·艾略特运用精湛的技巧，将那些发生在不同人物身上的各种故事自然地串联了起来。若是技艺并非如此娴熟的作家也尝试这种复杂的创作，那读者很有可能只喜欢某一类型的人物，而不愿意接受其他类型的形象。然而乔治·艾略特却有本领让读者对笔下的所有人物“雨露均沾”，而且当她的焦点从这一群人转移到另一群人时，就好像在现实生活中我们随着某些人而认识了其他一些人一样，极其自然。这也让她的小说有一种非凡的真实感，尽管故事发生在乔治四世执政时期，但是我们仍能感到，生活该将如此。《米德尔马契》　中的众多人物都非常自然，乔治·艾略特细致地描绘着这些人物，他们每个人都是独立自主的，都拥有属于自己的特质，然而乔治·艾略特却没有热情，她无法像乔治·梅瑞狄斯一样赋予人物生命。（我突然想到，克莱拉·米德尔顿想不到借试婚纱出逃也是很正常的，因为像她那样的人是不会想到婚纱的问题的。）乔治·艾略特精确地描绘出各种人物，对待这些人物她虽然冷淡却充满了同情，因此她的英雄不比我们伟大多少，她的坏人也并未真的十分邪恶。她用人物的思维进行思考，因而我们看待这些人物时，并不是外人，更像是人物对自我的审视，因此即便是卡萨波先生（Mr Casaubon），人们在憎恨之余，也会心怀怜悯。乔治·艾略特的人物都是有思想的，因为他们并不仅仅只受情感掌控，他们关心政治和时事，他们也过着柴米油盐的生活，就如同我们一样，他们既有情感，也有头脑，简而言之，他们是和我们一样有血有肉的人。最后，我想这样评价乔治·艾略特：除了热情，她拥有一流小说家应有的所有素质，没有哪个英语作家能比她更丰富恰当地诠释生活，不过她的缺陷在于，虽然她的文笔理智而充满同情，但缺少了些许浪漫。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic3.zhimg.com/50/v2-02fbb613d5eaefa680ba1fb3c4c92b9b_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;640&quot; data-rawheight=&quot;396&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;640&quot; data-original=&quot;https://pic3.zhimg.com/50/v2-02fbb613d5eaefa680ba1fb3c4c92b9b_r.jpg&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;在结束这篇前言之前，我想再补充一点。在谈及诗集时，我遗漏了罗伯特·布里奇斯的《人的精神》（The 　Spirit 　of Man）。一位评论家反对我将《牛津诗选》放入书单，他认为这本书并无价值。我并不赞同他的意见，尽管我承认这本书后半部分收集的一些诗歌的阅读价值不大。这是无法避免的。文选所体现的，是编者的选择和品味。在编选过程中，若是以前的作品，编者也许还有充分的自信，但面对同时代的作品时，却会犹豫起来，因为时间会将这些作品蹂躏殆尽，谁又能知道此时此刻让我们为之震撼的作品是否也能同样地感染后人呢？不过我想，挑剔《人的精神》纯粹是吹毛求疵。这绝对只是一家之言，读者是不会买账的。不过因为罗伯特·布里奇斯学识渊博，拥有良好的判断力，并且热切地追求着美，这本书中收纳了许多并不为大多数读者所熟悉的优秀诗作，但这并不影响《人的精神》成为一本高尚而振奋人心的书。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;最后我想引用约翰逊博士写给斯莱尔夫人的一句话作为此篇结尾&lt;b&gt;：“那些不读书的人，无所可思，无所可言。”&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;（本文摘自《书与你》）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;figure&gt;&lt;img src=&quot;https://pic4.zhimg.com/50/v2-e4782a02a5e6cd4e18423c22f09a8a34_b.jpg&quot; data-caption=&quot;&quot; data-size=&quot;normal&quot; data-rawwidth=&quot;346&quot; data-rawheight=&quot;481&quot; class=&quot;content_image&quot; width=&quot;346&quot;&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/50/v2-5b27288255bf14c56fe47bab36ae5b4d_200x112.jpg" data-caption="" data-size="normal" data-rawwidth="249" data-rawheight="300" data-watermark="" data-original-src="" data-watermark-src="" data-private-watermark-src="" data-tags="politic" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/50/v2-5b27288255bf14c56fe47bab36ae5b4d_r.jpg">
+<b>毛姆：我的书单</b> 《星期六晚邮报》委托我写了三篇文章，现在应广大读者的需求而重印成册，一来是为了方便读者阅读收藏，二来也希望此书能让另外一些曾与原文失之交臂的读者们有所受益。委托方要求我每篇写四千字，然而即便我的文章略微超过了这个字数，面对…
+
+<a href="/question/64011441/answer/512679188" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-17" target="_blank" href="/question/64011441/answer/512679188">编辑于 2018-10-17</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-17830579"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>2 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/264186020">你赞同婚前性行为吗？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="119918123"
+data-atoken="494169970"
+data-collapsed="0"
+data-created="1537288220"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/264186020/answer/494169970">
+<meta itemprop="answer-id" content="119918123">
+<meta itemprop="answer-url-token" content="494169970">
+<a class="zg-anchor-hidden" name="answer-119918123"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>3875</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">3875</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$victorguan-22"
+target="_blank" href="/people/victorguan-22"
+>熊啾啾</a></span><span title="一生伏首学观势" class="bio">
+一生伏首学观势
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="3875" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">3875</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="20105156" data-action="/answer/content" data-author-name="熊啾啾" data-entry-url="/question/264186020/answer/494169970">
+
+<textarea hidden class="content">&lt;p&gt;其实吧，好多人以为自己具有现代精神，其实反而是迷信。&lt;/p&gt;&lt;p&gt;在性生活中，人会大量产生催产素，使人产生信任和依赖感。女性在同等行为中获得的催产素水平是男性的400%&lt;/p&gt;&lt;p&gt;女性的额前页左右脑联络远大于男性，情感敏感性远大于男性，第六感远大于男性&lt;/p&gt;&lt;p&gt;男性的血清素水平高于女性52%，女性的情绪稳定性和安全感远低于男性&lt;/p&gt;&lt;p&gt;客观来说，无论出于什么样的原因，一段具备性经历的情感的解体，对于女性的伤害远大于男性。只不过有的时候伤害期是在分手之前。&lt;/p&gt;&lt;p&gt;性经历的确可以快速提升情侣的信任水平，但并不是只能靠这个。拥抱、饮酒、共同玩耍等活动，都会产生催产素，提升彼此的信任。&lt;/p&gt;&lt;p&gt;所以在婚前感情的维系中，性是充分不必要。但也具体看情况。&lt;/p&gt;&lt;p&gt;在一段感情中，如果是所谓一见钟情，两情相悦，那么建立假想恋爱对象带入仅需要十秒以内，同时会建立体外信息素识别。又或者是因为各种刺激而产生了大量去甲肾上腺素，被脑补成了心动，也几乎是瞬间完成。之后两人建立多巴胺标的，快速提升彼此兴趣，但多巴胺联络一般仅持续3到6月。在此之后，如果没有性生活加入，提供超额催产素水平，很快会使男性丧失兴趣。如果靠兴趣与暧昧继续维系至两年左右，会产生亲属关系识别。所以，如果是一段校园恋情，离结婚还早，两个人的三观兴趣之类没那么合，那么长期维系中，性几乎是不可或缺的。但反过来说，如果能不靠性就能维持长期恋情，多半是真爱。&lt;/p&gt;&lt;p&gt;如果有过性行为而没有走到最后，对于男女双方都有影响。感情是自私的，人都有占有欲，所以自然而然的会介意。但人常说，如果爱，就会包容。这个是对的。因为处不处的，只是关系考量中的砝码，是加减法，而爱情是关系考量的乘数。所以归根结底的，不是在问对方介不介意，而是问自己有没有彻底放下过去，问自己能不能重新完整的爱一个人。当然，这只针对自由恋爱。在相亲市场上，这种事情自然而然的是减分项，男女同等。只不过对女性上嫁心理达成的影响更大，因为目标对象往往具有更大更广选择权。&lt;/p&gt;&lt;p&gt;当然，这里还有一个隐藏炸弹。虽然爱能解决一切。但实际上维持亲密关系的催产素，一般维持不超过七年。而一旦进入七年之痒，没有了爱情乘数的魔力，过去掩盖的问题很有可能被重新摆上桌面。同时，一个人在行业站稳脚跟，大体需要三年投入两年产出，所以很多当初看似普通的屌丝青年会逐步去屌丝化，身边莺莺燕燕未必不会多起来。如果心理没有良好疏导，未必不会产生不良情绪。对应的，女性在婚姻的长期波折中，未必不会把配偶当成蚊子血，把前任当成朱砂痣。客观来说，不同文化不同地区在性解放之后，都迎来了快速提升的离婚率。人性很伟大，但伟大之所以伟大，是因为不具备普遍性。所以想要加入潮流，亦需要承担风险。&lt;/p&gt;&lt;p&gt;另，女性对性伴侣的自由选择权，虽然在社会平等角度上应当对应着男性的自由选择权。但由于性解放打破社会枷锁后并不能提供强有力的完整约束，很多时候处于无政府状态，所以实质对应着强势男性的多偶。毕竟，拖去社会化的外衣，摘掉理性的面具，我们只是一种更聪明的猴子，他们怎么做我们也同理。&lt;/p&gt;&lt;p&gt;最后，性束缚婚房彩礼，都是典型的小农意识。以社会进程来看，一旦打破其中一个，剩余部分的解体是早晚的事情。&lt;/p&gt;&lt;p&gt;以上。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;目测这个答案有些人感兴趣，稍微更新一下，简单说几句。不知道会不会冒犯到谁。&lt;/p&gt;&lt;p&gt;环顾历史，任何弱势群体的权利运动能否取得成果，核心在于能否遇见改革窗口。而常见的改革窗口，往往是经济蛋糕做大期。&lt;/p&gt;&lt;p&gt;任何平权运动，都会被裹挟着往特权方向发展。无产者打破枷锁后，想要的从来不是什么平等，而是整个世界。&lt;/p&gt;&lt;p&gt;理想主义的大旗，从来都只会在现实主义的堡垒前碰的头破血流。&lt;/p&gt;&lt;p&gt;凡有改革之进步，必有保守之反扑，其进步愈甚，其反扑愈烈。&lt;/p&gt;&lt;p&gt;目前中国范围内的女权运动，看似甚嚣尘上，甚至开始出现特权化倾向，但实则已经错过了改革窗口期。目前看似你来我往的针尖对麦芒，只是分蛋糕的前奏。&lt;/p&gt;&lt;p&gt;目前中国经济基本处于贫穷加强版的日本90年代，悲剧的M2社融投资增速消费增速，已经注定了经济积重难返的态势。在经济萧条期，在赤裸裸的利益争夺期，女权主义的小胳膊几乎很难撼动男权的大腿。寒冬降临，女孩子会比男孩子受更多的苦啊。&lt;/p&gt;&lt;p&gt;我个人一方面非常反感一些纯粹的男权者，毕竟世俗的太彻底了，非常的浊；一方面也不是很赞同整个女权主义，一种把姑娘从宝珠变成鱼目的感觉。毕竟以马基雅维利的角度考虑，任何主义，除了挪不开屁股的人以及被洗脑的人，归根结底只是剩余人群利用的工具罢了。&lt;/p&gt;&lt;p&gt;个人早年是比较激进典型的右派思想，然后有过一个八年异地恋的左派前女友，所以被扳成了中左。其实很多时候我比女权主义的前女友还女权主义，前些年也参加过一些LGBT游行什么的，但内心里不是特别喜欢过于激进的思潮。总让人感觉，前一步还是自由民主博爱的三色旗，后一步就是罗布斯皮尔。&lt;/p&gt;&lt;p&gt;我觉得归根结底，主义也好运动也好，虽然给人一种步入“伟大进军”的感受，但两个人相爱，归根结底是两个人自己的事。&lt;/p&gt;&lt;p&gt;男权也好，女权也好，归根结底是人权。男人也好，女人也好，归根结底是人。如果爱，就将心比心吧。&lt;/p&gt;&lt;p&gt;毕竟，权利宣言只承诺，每个人都有追求幸福的权利，而从未保证过每个人都一定会幸福。&lt;/p&gt;&lt;p&gt;幸福等不来，总归要靠自己追求与经营。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;与他人品评时想起一句诗，很想写在这里。&lt;/p&gt;&lt;p&gt;Do not go gentle into that good night.&lt;/p&gt;&lt;p&gt;全诗的本意不在此，但可以做close reading嘛。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+其实吧，好多人以为自己具有现代精神，其实反而是迷信。在性生活中，人会大量产生催产素，使人产生信任和依赖感。女性在同等行为中获得的催产素水平是男性的400%女性的额前页左右脑联络远大于男性，情感敏感性远大于男性，第六感远大于男性男性的血清素水平…
+
+<a href="/question/264186020/answer/494169970" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-09-19" target="_blank" href="/question/264186020/answer/494169970">编辑于 2018-09-30</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-20105156"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>265 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/61067682">为什么明教高手如云没有违和感，红花会高手众多就显得别扭呢？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="71698926"
+data-atoken="228955362"
+data-collapsed="0"
+data-created="1505203243"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/61067682/answer/228955362">
+<meta itemprop="answer-id" content="71698926">
+<meta itemprop="answer-url-token" content="228955362">
+<a class="zg-anchor-hidden" name="answer-71698926"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>507</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">507</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$xiao-qian-10-73"
+target="_blank" href="/people/xiao-qian-10-73"
+>小钱</a><span class="icon icon-badge-identity icon-badge" data-tooltip="s$b$已认证的个人"></span></span><span class="badge-summary">北京大学 法学院宪法学与行政法学博士在读</span>
+
+
+<span title="金庸迷，公众号“大猫想”" class="bio">
+金庸迷，…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="507" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">507</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="16651115" data-action="/answer/content" data-author-name="小钱" data-entry-url="/question/61067682/answer/228955362">
+
+<textarea hidden class="content">&lt;p&gt;谢邀。&lt;/p&gt;&lt;p&gt;其实接到这个问题的邀请，我很惭愧，因为《书剑恩仇录》是我读的次数最少的一本金庸小说，只在上初中的时候读过一遍。现在十几年过去，我对这本书的记忆，除了基本情节之外，能记住的也就是香香公主很美，陈家洛很渣，余鱼同很苦逼，李沅芷很调皮，最后书里还有个阿凡提，使一口大锅，有万夫不当之勇，至于骆冰的本子什么的，我听都没听说过。&lt;/p&gt;&lt;p&gt;所以为了回答这个问题，我重新去读了一遍《书剑》，读完以后，觉得前面许多朋友说的都有道理，比如金庸笔力的不同，角色缺乏特色等等，但是还有一点非常重要的原因：如果把红花会在书中的经历一件一件地撸下来，就会发现，他们的经历十分令人缺乏代入感。&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;红花会上来的第一件大事，是骆冰等人劫下了文泰来，躲到了周仲英的地窖里，可惜周仲英的小儿子周英杰年幼无知，被张召重一激，失口透露了文泰来等人藏身的位置，导致文泰来再度被抓。其余骆冰等人逃走后，误以为是周家告的密，叫了援军到周仲英家里寻仇，冲突愈演愈烈，最后周仲英的庄子也被反派童兆和趁机给烧没了。&lt;/p&gt;&lt;p&gt;当然，要只是这样也就罢了，误会嘛，武侠小说里从来不缺的。但关键是，周仲英回来之后，发现是小儿子不小心吐露了文泰来的位置，然后，&lt;b&gt;他就失手把小儿子给杀了&lt;/b&gt;。&lt;/p&gt;&lt;blockquote&gt;周仲英怒气不可抑制，喝道：“英雄好汉是这样做的么？”右手一挥，两枚铁胆向对面墙上掷去。岂知周英杰便在这时冲将上来，要扑在父亲的怀里求饶，脑袋正好撞在一枚铁胆之上。周仲英投掷铁胆之时，满腔忿怒全发泄在这一掷之中，力道何等强劲，噗噗两响，一枚铁胆嵌入了对面墙壁，&lt;b&gt;另一枚正中周英杰的脑袋，登时鲜血四溅&lt;/b&gt;。&lt;/blockquote&gt;&lt;p&gt;所以说，这一场误会下来，周仲英不光是偌大一个庄子被烧成了平地，牵连着连小儿子也送了命，最后打斗时寡不敌众，在红花会逼迫之下，不得不把儿子交出来。&lt;/p&gt;&lt;blockquote&gt;周仲英怒道：“好，我认栽了。我儿子交给你，跟我来！”扶着周绮，一拐一拐的往厅外便走。&lt;br&gt;……&lt;br&gt;周仲英对这一切犹如不见不闻，大踏步直到后厅。众人进厅，只见设着一座灵堂，灵位前点着两对白烛，素幡冥镪，阴沉沉的一派凄凉景象。周仲英掀开白幕，露出一具黑色小棺材来，棺材尚未上盖。原来周仲英击毙爱子后，因女儿外出未归，是以未将周英杰成殓，以待周绮回来再见弟弟一面。&lt;br&gt;&lt;br&gt;&lt;b&gt;周仲英喝道：“我儿子泄露了文爷的行藏，那不错，你们要我儿子，好……你们拿去吧！”&lt;/b&gt;他心神激荡，语音大变。众人在黯淡的烛光之下，见一个小孩尸身躺在棺材之中，都摸不着头脑。周绮叫道：“我弟弟还只十岁，他不懂事，把姓文的藏身地方说了出来。爹爹回到家来，大怒之下，失手把弟弟打死了，把我妈妈也气走了，这总对得起你们了吧？你们还不够，把我们父女都杀了吧！”&lt;/blockquote&gt;&lt;p&gt;这一番描写下来，冲突算是达到最高潮了，正在读者寻思这下红花会该怎么收场的时候，&lt;b&gt;周仲英居然直接选择了原谅&lt;/b&gt;！&lt;/p&gt;&lt;blockquote&gt;周仲英眼见铁胆庄烧成灰烬，多年心血经营毁于一旦，自也不免可惜，但听陈家洛这么一说，忙道：“陈当家的说哪里话来，钱财是身外之物，你再说这等话，那是不把兄弟当朋友了。”他素来最爱朋友，现下误会冰释，见红花会众人救火救人，奋不顾身，对他又是极为敬重感激，&lt;b&gt;一时之间结交到这许多英雄人物，心中十分痛快，对铁胆庄被焚之事登时释然&lt;/b&gt;，但一瞥眼间见到那具小小棺材，心中却又一阵惨伤。&lt;/blockquote&gt;&lt;p&gt;是的，庄子没了，儿子也没了，陈家洛们帮忙救了个火，道了个歉，周仲英就直接原谅了他们，还“心中十分痛快”！之后周仲英就一直跟着红花会行动，儿子的事情再也没提起过。&lt;/p&gt;&lt;p&gt;这里我不是想说红花会做的有什么不对，误会是武侠小说里经常发生的事情，烧庄的火是童兆和放的，小儿子周英杰的死是一个意外，这些事情红花会谈不上有多大的责任。&lt;b&gt;这里违和的关键在于，周仲英心也太大了，一日之间家破人亡，周仲英居然就像没事一样，家也不要了，儿子也不想了，就这么跟着红花会走了&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;其实，《书剑》一书里很多情节都有这个毛病，具体细节固然有不同，但整体上给人一种感觉，好像红花会做什么都是理所应当的，无论是书里还是书外，所有人都要特别理解他们，特别能够接受他们才行。&lt;/p&gt;&lt;p&gt;再举一个例子，镇远镖局。镇远镖局一开始是和红花会有冲突的，童兆和他们都是名副其实的反派，要惩治他们也是理所应当的事情。但是韩文冲可没招你惹你啊？结果一上来先是被骆冰偷了白马。&lt;/p&gt;&lt;blockquote&gt;（骆冰）掷刀换马。取囊阻敌，这几下手势一气呵成，干净利落，直如迅雷陡作，不及掩耳。马主出其不意，呆了一呆，骆冰的坐骑耳中猛受火灸，痛得发狂般乱踢乱咬，阻住马主当路。那马主果是一副好身手，纵身跃过鹰马，直赶出去。这时骆冰早已去得远了，见有人赶出，勒马转身，囊里拈出一锭金子，挥手掷出，笑道：“咱们掉一匹马骑骑，你的马好，补你一锭金子吧！”&lt;/blockquote&gt;&lt;p&gt;韩文冲找上门来要马，反而被红花会众人羞辱一番。&lt;/p&gt;&lt;blockquote&gt;骆冰取出铁琵琶，交给陆菲青。陆菲青接了过来，说道：“韩五娘当年首创铁琵琶门，名闻江湖，也算得是女中豪杰。唉……”言下不胜感慨，一面说一面双手暗运内劲。&lt;b&gt;铁琵琶肚腹中空，被他一按，登时变成一块扁平的铁板&lt;/b&gt;。他又道：“焦文期既受陈府之托，寻访公子，便须忠于所事，怎地使了人家钱财，却来寻我老头子的晦气？咱们武林中人，就算不能舍身报国，和满虏鞑子拚个死活，也当行侠仗义，为民除害。”武当派内功非同小可，口中说话，&lt;b&gt;双手已将铁板卷成个铁筒，捏了几下，变成根铁棍&lt;/b&gt;，又道：“至不济，也当洁身自好，隐居山林，做个安分良民。陆某生平最痛恨的是朝廷鹰犬、保镖护院的走狗，仗着有一点武艺，助纣为虐，欺压良民。这种人要是给我遇上了，哼哼，陆某决计放他们不过。”说到这里声色俱厉，&lt;b&gt;手中的铁棍也已变成了一个铁环&lt;/b&gt;。&lt;br&gt;……&lt;br&gt;蒋四根眼见陆菲青弄得有趣，童心顿起，接过铁环，双手一拉，又变成铁棍，自己拿了一端，另一端伸到杨成协面前。杨成协伸手握住，笑道：“比比力气？”蒋四根点点头，两人用力一拉，各不相下，铁棍却越拉越长。众人哈哈大笑。陈家洛怕二人分出输赢，伤了和气，笑道：“两位哥哥力气一样大，这铁琵琶给我吧。”众人听他仍管这东西叫作铁琵琶，都笑了起来。&lt;br&gt;&lt;br&gt;陈家洛接过铁棍，笑道：“道长、周老前辈、常五哥，你们三位一边。赵三哥、常六哥，我们三个一边，咱们来练个功夫。”周仲英等都笑嘻嘻的走拢，三个一边，站在铁棍两端，各伸单掌相叠，抵住铁棍。陈家洛笑道：“他们两个把铁棍拉长了，咱们把它缩短。一、二、三！”六人一齐用力，这六人内劲加在一起，实是当世难得一见，铁棍渐粗渐短，旁观众人彩声雷动。&lt;br&gt;&lt;br&gt;韩文冲骇然变色，心道：“罢了，罢了，这真叫天外有天，人上有人。姓韩的今日若是留得命在，明天回乡耕田去了。”&lt;/blockquote&gt;&lt;p&gt;韩文冲此人在《书剑》里面并未作恶，也没有丝毫对不起红花会诸位的地方，反倒是被红花会的骆冰偷了马。结果只因自己是镇远镖局的，就被红花会众人羞辱，连兵器也被弄坏了，马也不要了。&lt;/p&gt;&lt;p&gt;当然，韩文冲不过一个小角色，这点事情也不过是小到不能再小的细节，但是很奇怪的是，后面无论是红花会还是韩文冲再提到此事，无一例外地觉得，韩文冲自己才是理亏的一方。红花会这么觉得也就罢了，但是韩文冲丢了马，赔了兵器，反倒觉得自己理亏，我不明白这是一种什么精神。&lt;/p&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;说到镇远镖局，不得不提另一个人物：威震河朔王维扬。这位老镖头年近七十，从来和红花会没什么纠葛，但是自从保了朝廷的一趟镖，也摊上大事了。王维扬保的这趟镖，是回人送给乾隆的一对玉瓶，红花会假扮成清朝的官员，把玉瓶给骗来，王维扬也被扣下。&lt;/p&gt;&lt;blockquote&gt;王维扬一进去，两旁公差军官一齐大喝：“跪下！”到此地步，王维扬不得不跪。福康安喝道：“你便是王维扬么？”王维扬道：“小人王维扬。”福康安道：“听说你有个外号叫威震河朔。”&lt;br&gt;&lt;br&gt;王维扬道：“那是江湖上朋友们胡乱说的。”福康安冷冷的道：“皇上和我都在北京，那么你的威把皇上和我都震倒了？”王维扬陡然一惊，连连叩头说：“小人不敢，小人马上把这外号废了。”福康安喝道：“好大的胆子，拿下。”两旁官兵拥上来，把他带了下去。王维扬空有一身武艺，不敢反抗。&lt;/blockquote&gt;&lt;p&gt;当然，这些都是正常情节，没什么问题。&lt;/p&gt;&lt;p&gt;不过之后事情就来了。红花会在救文泰来的时候，和张召重交了手，凭着人数的优势占了点便宜，张召重不服，想约陈家洛单打独斗决个胜负，这时候，“武诸葛”徐天宏出了个主意：让人假扮成张召重手下，去激王维扬，让王维扬先和张召重打一架，耗秏张召重的力气。&lt;/p&gt;&lt;p&gt;这王维扬正在屋里关着呢，就被告知：我们抓你，其实是张召重要找你的麻烦，张召重觉得你名头太响，要和你比武，如果你输了的话，外号要撤，镖局要关，自己还需得在江湖上宣扬一番。王维扬哪受得了这份气，当然是答应了。&lt;/p&gt;&lt;p&gt;之后，红花会又派人假扮成王维扬的手下，也和张召重说了一番类似的话，约好了时间，这俩人就去比武了。比武的时候，王维扬赢了拳脚，输了刀剑，最后不小心中了暗算，失去反抗能力，眼看就要被活埋。这个时候，红花会终于赶到，救下了王维扬，并且说明了事情的真相：&lt;b&gt;福康安是我们假扮的，玉瓶是我们骗走的，您老是我们给关起来的，和张召重的比武是我们撺掇的&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;&lt;b&gt;然后，王维扬会怎么做呢？&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;当然是选择原谅他呀！&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;众人边谈边行，走下山来。陈家洛对王维扬和韩文冲道：“两位请便，再见了。”王维扬道：“陈当家的再生之德，永不敢忘。”陈家洛呵呵大笑，说道：“有两件事要请王老英雄原谅。”&lt;br&gt;&lt;br&gt;于是把假扮官差劫夺玉瓶，挑拨他与张召重比武之事，都原原本本说了出来。&lt;br&gt;&lt;br&gt;王维扬向来豁达豪迈，这次死里逃生，把世情更加看得淡了，笑道：“刚才我见你和张召重说话，才知你是冒牌统领。哈哈，真是英雄出在少年，老头儿临老还学了一乖。咱们是不打不成相识。虽然我和姓张的比武是你们挑起，可是我性命总是你们救的。”陈家洛道：“等我们正事了结，大家痛痛快快的喝几杯！”&lt;/blockquote&gt;&lt;p&gt;--&lt;/p&gt;&lt;p&gt;《书剑》这本书就是这样，它一直带有一种谜之情绪，好像觉得所有人都会理所应当的认可红花会。这并不是说红花会哪件事情做的不对，重点不在这里。&lt;b&gt;重点在于，好像所有的人，都没有情绪，生气是生气，生气完了，一看原来是红花会啊，大家哈哈一笑，就好像什么事情都没发生过一样&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;所以我说，读者可能很难对红花会产生代入感，不止是红花会，包括周仲英、王维扬，还有张召重，都是这样。读这些剧情，读者必须做好一个预设：&lt;b&gt;正派人物（红花会）是绝对正确的，和正派作对的，要么是反派，要么是误会，产生误会的人在误会解除后会马上醒悟，和正派站在一起&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;这种作品思路大家有没有觉得熟悉呢？我给大家举几个例子吧：《隋唐演义》、《薛刚反唐》，等等。《书剑恩仇录》和这些古典小说颇有类似之处。甚至我们可以再精确一点：&lt;/p&gt;&lt;p&gt;&lt;b&gt;《书剑恩仇录》这部小说，其实最像的是评书&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;我们可以看一下书中的描写。首先是武功，《书剑恩仇录》里武功描写，极重招式，这人如何进击，那人如何迎敌，每个动作写的清清楚楚，一招一式写下来，就好像直接在读者面前展开一幅画面一般。而后来几部书中所注重的真气运转云云，在《书》中并无多少戏份。我们来看一下第二章中的一大段描写：&lt;/p&gt;&lt;blockquote&gt;这时李沅芷看出了便宜，还剑入鞘，施展无极玄功拳加入战团。霍青桐连陆菲青一人都已敌不过，哪禁得李沅芷又来助战？李沅芷狡猾异常，东摸一把，西勾一腿，并不攻击对方要害，却是存心开玩笑，以报前日马鬣被拉之仇。回教男女界限极严，妇女出门多戴面纱，霍青桐此次要事在身，料知争斗必多，因此不戴面纱，以免与人动战时不便。她向来端严，哪容得李沅芷如此轻薄胡闹，心头气急，门户封得不紧，被陆菲青剑进中宫，点到面门。霍青桐举剑挡开。李沅芷乘机窜到她背后，喝声：“看拳！”一记“猛鸡夺粟”，向她左肩打去。霍青桐左腕翻转，以擒拿法化开。李沅芷乘她右手挡剑、左手架拳之际，一掌向她胸部按去，这一掌如打实了，非受重伤不可。霍青桐一惊，双手抽不出来招架，只得向后一仰，以消减对方掌力。&lt;/blockquote&gt;&lt;p&gt;见招拆招，节奏极快，读起来可能还感觉不到，但想象一下，&lt;b&gt;如果是单田芳老师，或者是其他评书大家，一边口中讲解，一边手上再将这一招一式比划出来，两相配合，那会是怎样一副情景&lt;/b&gt;。&lt;/p&gt;&lt;p&gt;另外人物描写也是。《书》中对人物和相关情节的描写，十分直观，一个人怎么做、怎么想，全都一一摆在桌面上，极少有花花肠子。哪怕是反派想使什么阴谋，也会在旁白里尽快给一个交代。大家可以再回想一下自己听过的评书，是不是这个样子。&lt;/p&gt;&lt;p&gt;最后，也就是之前说到的，评书里一定是要有一个预设的。正派就是正派，反派就是反派，就像《薛刚反唐》里面，薛刚薛蛟薛葵就是正派，听众只要接受就是了。至于为什么他们是正派，当然书里会有交代，但是这并不重要，因为大家来听书的时候，已经接受这个设定了。&lt;/p&gt;&lt;p&gt;又像听《三国》评书，刘皇叔好，曹孟德坏，但到底为什么刘好曹坏呢？没人真的来跟你掰扯历史，大家听的就是这部书里的故事，刘备好而曹操坏，在某种意义上已经成为来听书的人的一种共识，大家直接接受就好了。&lt;/p&gt;&lt;p&gt;然后，就到了《书剑恩仇录》。它也是类似的情况，读者需要预设红花会就和刘备、薛刚这种角色一样，然后带着这样一种情绪，去走进书里的各种情节，只有这样，才能稍微理解一点书中众人对红花会的看法。&lt;/p&gt;&lt;p&gt;但是，问题就来了，红花会的这种预设很难站的住脚，书里是通过旁白说了红花会行侠仗义，里面几个当家的个个侠肝义胆，但是，这大部分只出现在旁白里，缺少具体的事例。&lt;/p&gt;&lt;p&gt;一个可行的途径是“反清复明”，这也是诸多小说、评书所借用的一条：汉-满/金/蒙/契丹的民族之争。但这一条也要受到时空的局限，如果放在民国，或是50年代，这是一个非常有效的手法，但是在清帝退位已逾百年的今天，个人觉得，还是需要再多做一点铺垫，才好把大家代入书里的时代和情景。&lt;/p&gt;&lt;p&gt;以上，是我对于《书剑恩仇录》这本书的一点粗浅看法。《书》的笔力自然不能和金庸先生后期作品相比，不过其与评书体例的相似性，以及在正反派上的预设，可能使得当今的读者很难对红花会等角色产生代入感，从而让书里的许多情节显得有些“莫名其妙”。在这里，写作风格和写作年代可能也产生了比较大的影响。&lt;/p&gt;&lt;p&gt;全文完，请各位指正。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+谢邀。其实接到这个问题的邀请，我很惭愧，因为《书剑恩仇录》是我读的次数最少的一本金庸小说，只在上初中的时候读过一遍。现在十几年过去，我对这本书的记忆，除了基本情节之外，能记住的也就是香香公主很美，陈家洛很渣，余鱼同很苦逼，李沅芷很调皮，最…
+
+<a href="/question/61067682/answer/228955362" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2017-09-12" target="_blank" href="/question/61067682/answer/228955362">编辑于 2017-09-12</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-16651115"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>79 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic3.zhimg.com/704dce2e98f4d8139f5c7bd67113cc5c_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=228955362" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/285762257">为什么有人说电击文库影响了半个二次元？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="111249387"
+data-atoken="446496239"
+data-collapsed="0"
+data-created="1531984934"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="0"
+data-zop
+>
+<link itemprop="url" href="/question/285762257/answer/446496239">
+<meta itemprop="answer-id" content="111249387">
+<meta itemprop="answer-url-token" content="446496239">
+<a class="zg-anchor-hidden" name="answer-111249387"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>300</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">300</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$yyyy-gg-86"
+target="_blank" href="/people/yyyy-gg-86"
+>南都有雪</a></span><span title="拥有数分钟动漫鉴赏经验，资深宅用户，对腐不了解" class="bio">
+拥有数分钟动漫鉴赏经验，资深宅用户，对…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="300" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">300</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="25779987" data-action="/answer/content" data-author-name="南都有雪" data-entry-url="/question/285762257/answer/446496239">
+
+<textarea hidden class="content">&lt;p&gt;&lt;b&gt;我们不妨换个友善点的角度来看待题主的问题。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;日本Anime历史里，04到09年这个时间段是有特殊的意义的。我们经常能够听到身边宅圈的“老人”们感叹，如今动画质量参差不齐，04年到09年才是日本动画（二次元）光辉灿烂的二次黄金年代。&lt;/p&gt;&lt;p&gt;这时期的日本动画显示了超强的实力，剧本故事性、技术水平领先程度、题材深度广度、创作手法多元化程度等等大大超过了以往，诞生出了大量优秀的动画作品。&lt;/p&gt;&lt;p&gt;这个时间段有一个非常明显的特点，是什么呢？&lt;/p&gt;&lt;p&gt;就是，轻改动画爆炸。&lt;/p&gt;&lt;p&gt;当然，爆炸指的是质量口碑上好评高。这段时期的轻改动画意味着故事质量的保证，是可以和很多优秀原创作品比肩的（口碑不像如今）。&lt;/p&gt;&lt;p&gt;我们可以从“二次元的主流文化和衍生文化”角度来看。&lt;/p&gt;&lt;p&gt;二次元的主流文化也就是ACGN，而电击文库在A（anime）和N（novel）上具备的统治力非常强大，尤以轻小说、动画相结合的轻改动画最强，只这两者便是笑傲动画领域。&lt;/p&gt;&lt;p&gt;轻改动画，就是轻小说改编动画，很大程度看重原作轻小说质量。而日本轻小说质量全部向宝岛社主办活动《这本轻小说真厉害！》看齐，能够登上这本杂志的轻小说都是日本一等一的质量。&lt;/p&gt;&lt;p&gt;有趣的来了，从《轻厉》第1回开始，电击文库的轻小说都属于在榜单上制霸的存在。05年第1回，前20席电击文库占8席；06年第2回，前20席占比10席，这一年《奇诺之旅》《灼眼的夏娜》《无头骑士异闻录》便诞生了；到了07年，前20更是占11位，《狼与香辛料》独占鳌头；08年，占了9席，《龙与虎》来了，萌王萌虎诞生……&lt;/p&gt;&lt;p&gt;在完全能够左右日本轻小说行业方向和半个二次元方向的《轻厉》上，电击文库做到了半垄断，不可谓不恐怖啊。&lt;/p&gt;&lt;p&gt;而更重要，这些轻小说改变动画之后，凭借自身就有的亲民化、网络化的直白特点，作品在传播度、影响力行极其高。比如电击文库后期的《魔法禁书目录》系列，《刀剑神域》系列，&lt;b&gt;你可以说它们的评价褒贬不一，但绝不能否认它们在整个二次元界的超然地位，这种影响是覆盖全球的，说影响了半个二次元一点也不过分。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;电击文库的作品，其10年以前的作品价值在于质量高影响足够持久；10后的作品价值在于，传播度极高覆盖度极广。&lt;/p&gt;&lt;p&gt;《灼眼的夏娜》，算是打响了傲娇钉宫的最重要的一枪，硬生生让“傲娇”独立成为了一个广为人知的人物性格，也成为了整个日本动画极其独特的文化符号。&lt;/p&gt;&lt;p&gt;《灼眼的夏娜》的价值在于，它成为了早期“世界系”作品后期支撑，让这方面的作品在逐渐滑落的过程有了一个软着陆。也为了后期诞生同质量甚至更高级“世界系”作品奠定了基础。&lt;/p&gt;&lt;p&gt;而这部动画在衍生文化上的发力，更引得当时全面热议。钉宫理惠的成名，再次打开了“声优偶像化、歌手化”的开关，形成了更凶猛的二次元衍生文化变革趋势，对当时日本声优产业产生了巨大的冲击和历久弥坚的影响力。&lt;/p&gt;&lt;p&gt;声优钉宫理惠当时有多火，后来者可以看看B站那个传说视频 [好想被钉宫辱骂啊] 的播放量吧，就是被钉宫理惠用傲娇声音骂抖M的那个，别说了，我没听过（捂脸。&lt;/p&gt;&lt;p&gt;《龙与虎》，火爆程度当年无敌，以校园恋爱喜剧身份当年强势C位出道，推出了超级萌王逢坂大河，傲娇再次制霸。而且，逢坂大河真是头一个以“异性恋”身份登顶萌王的角色，以前只有百合cp才能上萌王。从这里可以看出电击文库挑小说、培养作者的能力有多强，《龙与虎》算是彻底影响了校园恋爱。当时我一度非常喜欢萌虎，还有她的玩偶。&lt;/p&gt;&lt;p&gt;再往后，《魔法禁书目录》的诞生，掀起了校园超能力动画的新狂潮。其中的角色御坂美琴，主角送她的外号就是bilibili，也是中国最大二次元平台B站bilibli的名字由来。论起跟B站的渊源，御坂美琴秒杀所有人，她就是天。&lt;/p&gt;&lt;p&gt;《某科学的超电磁炮》这部作品，开创了二次元史上先河之一。炮姐御坂美琴以配角身份登场，以超高人气制霸二次元，随后因其高人气，片方直接制作了以御坂美琴为主角的动画《某科学的超电磁炮》取得巨大成功。纵观整个动画史，如此成功的配角，实属罕见。电击文库在其中对于作者的指导，和旗下IP的运营、扩展更值得称赞。&lt;/p&gt;&lt;p&gt;在国内，御坂美琴算是最知名的两大女性动画角色，有此成就，也和bilibili这个中国最大的二次元平台分不开关系，两者相辅相成。前者让“bilibili”更具有二次元特征、气息和元素，钦定二次元身份，对二次元用户来说会更加亲近，因此粘性更足；而后者让整个中国二次元圈子乃至资本界都对御坂美琴这个角色，对《超电磁炮》《魔禁》两部作品有了充足认知，对站在它们身后的电击文库也有了地位上的肯定。&lt;/p&gt;&lt;p&gt;再后面，《刀剑神域》不消说了吧。如果说初期是作者想给所有读者展现对虚拟现实游戏的幻想，那么到了现在，它已经成为了虚拟与现实、游戏与生活之间的哲学探究、伦理讨论，深度更深。&lt;/p&gt;&lt;p&gt;《刀剑神域》属于电击文库更加全方面的深入尝试“衍生文化”的作品，也极其成功。&lt;/p&gt;&lt;p&gt;从小说到动画，从游戏到电影，几乎每个二次元相关领域都被探索了。小说原本就是日本销量常年前几的存在，动画出现后更是在全球范围内有了无与伦比的热度。在游戏方面，主机、VR、手机游戏都有了，电影票房当时更是连破历史记录。这部作品的商业化运作的如此成功，跟电击文库自身实力分不开。&lt;/p&gt;&lt;p&gt;《刀剑神域》向整个行业展示了，如何全方面渗透入二次元用户的方方面面。也成了商业化运作动画的榜样，几乎锁定了二次元前进方向之一。&lt;/p&gt;&lt;p&gt;对于圈粉无数的《我的妹妹哪有那么可爱》，是电击文库在把握市场方向上的敏锐嗅觉产生出的“佳作”。自从我老婆春日野穹出现后，妹控更广为认知，但这一属性其实并没有真正的被发扬光大，由于题材的特殊性，妹控动画不具备大规模产生影响力的条件。&lt;/p&gt;&lt;p&gt;电击文库的《我的妹妹哪有那么可爱》的横空出世，终于打破妹控作品桎梏，成为当时风头无两的高播放量、高话题度大作，也再次向我们证明了，电击文库对于市场和观众的把控能力、预测能力有多强。对于这部旧时B站真霸权番，其小说发售后，真正适合普通人的妹控便出现了；动画播放后，又将“妹控”这一“风潮”推向全球，蔓延整个二次元圈子。也是那一年，妹控作品如雨后春笋，与妹控有关的动画数量直接倍增。萌豚死宅番没个妹妹都没人看，如今谈起妹控作品，也逃不开那两部。&lt;/p&gt;&lt;p&gt;总的来说，电击文库的作品普遍亲民，内容非常适合娱乐性观看，点击量超高，你能在互联网各个角落找到。很多时候，电击文库的作品你都能看到一条直白的线贯穿全部。这代表了电击文库作品的亲民化、网络化和通俗化。但从这条线的分支上，你又能看到很多不同的内容，让这些作品更加具有时代意义。&lt;/p&gt;&lt;p&gt;从《灼眼的夏娜》对于世界系作品的探索、尝试，到《无头骑士异闻录》群像文化的深入解读，再到《龙与虎》对于关键角色/人物的塑造，IP运作，以及《魔禁》《电磁炮》系列对IP更大程度的拓展，尝试，最后是《刀剑神域》全领域发力，矩阵式前进，完全把二次元圈子罩在了IP之下，令人惊叹。&lt;/p&gt;&lt;p&gt;正是这些特点，让整个电击文库对二次元影响极其深远，说半个二次元，绰绰有余。&lt;/p&gt;&lt;p&gt;二次元毕竟是涵盖了ACGN即Anime、Comic、Game，Novel四大种类。动画类目上，电击文库已经有了非常多的优秀动画作品，BD光盘卖的贼好；漫画反而还在动画之前制作，销量十分之不错；在轻小说类目，电击文库是行业顶尖，基本决定着行业前进方向；在游戏领域，前不久推的手游《电击文库：零境交错》质量也很好，还和国内大厂达成了合作，前途可望。&lt;/p&gt;&lt;p&gt;不过回头一想，25周年……25年了……卧槽，岂不是跟我同岁？！&lt;/p&gt;&lt;p&gt;啊？？我这么老了？？？&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<b>我们不妨换个友善点的角度来看待题主的问题。</b>日本Anime历史里，04到09年这个时间段是有特殊的意义的。我们经常能够听到身边宅圈的“老人”们感叹，如今动画质量参差不齐，04年到09年才是日本动画（二次元）光辉灿烂的二次黄金年代。这时期的日本动画显示了…
+
+<a href="/question/285762257/answer/446496239" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/285762257/answer/446496239">发布于 2018-07-19</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-25779987"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>44 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic1.zhimg.com/v2-3ee0a784a37c74d69a2890b44065e975_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=446496239" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/297927403">为什么美国的精英人群不喜欢川普总统？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="122678048"
+data-atoken="509344365"
+data-collapsed="0"
+data-created="1539346411"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/297927403/answer/509344365">
+<meta itemprop="answer-id" content="122678048">
+<meta itemprop="answer-url-token" content="509344365">
+<a class="zg-anchor-hidden" name="answer-122678048"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>91</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">91</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$han-han-25"
+target="_blank" href="/people/han-han-25"
+>韩韩</a></span><span title="HIFI发烧友、手办发烧友、游戏达人、果蛆。" class="bio">
+HIFI发烧友、手办发烧友、游戏达人、果蛆。
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="91" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">91</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28482593" data-action="/answer/content" data-author-name="韩韩" data-entry-url="/question/297927403/answer/509344365">
+
+<textarea hidden class="content">&lt;p&gt;川普其实也没动多少大佬的蛋糕。（希拉里上来了，那不过就是换几个方向没区别的）川普上任到现在最大的动作就是贸易战，特别是中美贸易战。有关贸易战，事实上美国精英上下都是目标一致的。至于手段的问题，我又要用这段话了：&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;我不想脏了我的手；但是；我不介意；有人愿意替我解决一些问题；哪怕用很肮脏的手段；大不了事后；把这个家伙当成替罪羊罢了；反正；既成事实是无法改变的；就好比人死不能复生；已经发动的战争；再也回不到当初&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;以上是一段老话，别的地方看到的，但是我认为真是哪里都好用。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+川普其实也没动多少大佬的蛋糕。（希拉里上来了，那不过就是换几个方向没区别的）川普上任到现在最大的动作就是贸易战，特别是中美贸易战。有关贸易战，事实上美国精英上下都是目标一致的。至于手段的问题，我又要用这段话了：<b><i>我不想脏了我的手；但是；我不…</i></b>
+
+<a href="/question/297927403/answer/509344365" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2018-10-12" target="_blank" href="/question/297927403/answer/509344365">编辑于 2018-10-12</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28482593"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>20 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="zm-item" data-type="Answer">
+<h2 class="zm-item-title"><a target="_blank" href="/question/296833822">为何同样是充满“负能量”的动画，《轻羽飞扬》恶评如潮，而类似小圆，EVA，攻壳机动队之类的评价高 ？</a></h2>
+<div class="zm-item-fav">
+<div tabindex="-1" class="zm-item-answer "
+itemscope itemtype="http://schema.org/Answer"
+data-aid="121552630"
+data-atoken="503155917"
+data-collapsed="0"
+data-created="1538569132"
+data-deleted="0"
+data-isowner="0"
+data-helpful="True"
+data-copyable="1"
+data-zop
+>
+<link itemprop="url" href="/question/296833822/answer/503155917">
+<meta itemprop="answer-id" content="121552630">
+<meta itemprop="answer-url-token" content="503155917">
+<a class="zg-anchor-hidden" name="answer-121552630"></a>
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>33</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">33</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$hong-bi-zi-42"
+target="_blank" href="/people/hong-bi-zi-42"
+>强袭型吉姆</a></span><span title="专业胡扯脑洞/专业高达问题回答/专业挖坑不填" class="bio">
+专业胡扯脑洞/专业高达问题回答/专业挖坑…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="33" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">33</span>&nbsp;人赞同</a></span>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="28240112" data-action="/answer/content" data-author-name="强袭型吉姆" data-entry-url="/question/296833822/answer/503155917">
+
+<textarea hidden class="content">&lt;p&gt;治愈和治愈和致郁和致郁是不一样的。&lt;/p&gt;&lt;p&gt;大家觉得夏目友人帐或者魔法使的新娘治愈，是因为这些作品确实像清茶一样，入口淡，回味浓，心头热。&lt;/p&gt;&lt;p&gt;大家觉得假面骑士ooo治愈，是因为虽然痛失挚友，但映司没有停滞不前，而是继续踏上旅途，去寻找挚友回归的希望。&lt;/p&gt;&lt;p&gt;大家觉得老虚的fate或者蘑菇的fate致郁，或者魔圆致郁，是因为这些作品或是在讨论希望与绝望，或是在讨论理想与现实，或是很多智斗作品干脆讨论人性。这些都直指人的心灵中比较“禁忌”又敏感的地方。&lt;/p&gt;&lt;p&gt;大家觉得高达致郁，是因为这个系列的人物不存在主角或配角，无论下了多大的功夫塑造，其所有人物都只是历史洪流中的一片落花，精彩不亮丽，起落是无常，让人对战争产生了强烈的感同身受。&lt;/p&gt;&lt;p&gt;总结来说就是，悲剧都是负面的，但是看悲剧的人所引发的思考，却不能单以一句“负能量”概括。人们喜欢的悲剧，不是因为拥有“负能量”，而是因为悲剧可以引发思考，产生希望，在漫无边际的黑暗之中，往往有一丝光明。于切嗣而言，士郎就是那一丝光明，于晓美焰而言，小圆就是那一丝光明，于渊累而言，最后的演出是她人生最辉煌的时刻，于球磨川禊而言，踏上寻找安心院的路程就是他幸福的追求。无论被欺骗，被背叛，被玩弄，被嘲笑，失败，徒劳，求之不得，一无所有，他们依然在心中存有希望，去对抗世界的绝望。这本身就是可歌可泣的，是伊卡洛斯一般，自取灭亡但耀眼夺目的史诗。&lt;/p&gt;&lt;p&gt;举不恰当的例子，哈姆雷特和小时代，毫无疑问都是悲剧——至少小时代小说最后突然地震还不是火灾全死完了，是很惨。&lt;/p&gt;&lt;p&gt;但是会有人问为什么哈姆雷特是传世经典，而小时代就是矫揉造作吗？不会，这是个不言而喻的问题。&lt;/p&gt;&lt;p&gt;轻羽飞扬就是这样的问题。剧情前后的不自洽，无意义的黑化洗白反复，角色塑造矛盾又难以自圆其说。这样的“负能量”，除了负面真的一无是处，主角的黑化，亲妈的飞妈，完全不知道体育的精神何在，角色的追求何寻。&lt;/p&gt;&lt;p&gt;最后附上我最喜欢的负能量角色，“负完全”的球磨川禊的一段话：&lt;/p&gt;&lt;p&gt;我想赢过那些家伙。 即使不帅气，即使不强大，即使不正确，即使不美丽，即使不可爱，即使不干净。我也想赢过那些帅气、强大、正确、美丽、可爱、干净的家伙。 即使没有被赋予才能，即使头脑不好，即使性格恶劣，即使学习跟不上，即使误入歧途，即使是废物，也想赢过那些富有才干、头脑和性格都很好、总是一帆风顺的那些家伙。 交不到朋友就想赢过交到朋友的人，不能付出努力就想赢过可以努力的人，得不到胜利就想赢过可以胜利的人，不幸就想赢过那些幸福的人！ 即使是被讨厌的人！即使是被憎恶的孩子！即使是小角色！也想证明自己能演好主角！&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;球磨川禊，是负能量的集合，是在漫画最后销声匿迹，不知道有没有洗去负能量的角色。但最后，大家都爱球磨川。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+治愈和治愈和致郁和致郁是不一样的。大家觉得夏目友人帐或者魔法使的新娘治愈，是因为这些作品确实像清茶一样，入口淡，回味浓，心头热。大家觉得假面骑士ooo治愈，是因为虽然痛失挚友，但映司没有停滞不前，而是继续踏上旅途，去寻找挚友回归的希望。大家…
+
+<a href="/question/296833822/answer/503155917" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/296833822/answer/503155917">发布于 2018-10-03</a></p>
+
+</div>
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-28240112"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>2 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+</div>
+
+<div class="border-pager">
+<div class="zm-invite-pager">
+
+<span class="zg-gray-normal">上一页</span>
+
+
+
+
+
+
+
+
+<span class="zg-gray-normal">1</span>
+
+
+
+<span><a href="?page=2">2</a></span>
+
+
+
+<span><a href="?page=3">3</a></span>
+
+
+
+<span>...</span>
+
+<span><a href="?page=1100">1100</a></span>
+
+
+
+<span><a href="?page=2">下一页</a></span>
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+
+<!-- <div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="SignFlow SignFlow--bordered" id="SidebarSignFlow">
+<div class="SignFlow-panel">
+<div class="title register">
+<h1>加入知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view register SignupForm" data-za-module="SignUpForm">
+<form action="/register/email" method="POST">
+<div class="input-wrapper">
+<input type="text" name="fullname" aria-label="姓名" data-placeholder="姓名" required>
+</div>
+<div class="input-wrapper">
+
+<input type="text" name="phone_num" class="account" aria-label="手机号" data-placeholder="手机号" required>
+
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" hidden> 
+<input type="password" name="password" aria-label="密码" data-placeholder="密码（不少于 8 位）" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="注册" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<span>已有帐号？<a href="#" class="switch-to-login">登录</a></span>
+</div>
+</form>
+</div>
+</div>
+<div class="SignFlow-panel" hidden>
+<div class="LoginForm">
+<div class="title login">
+<h1>登录知乎</h1>
+<h2>与世界分享你的知识、经验和见解</h2>
+</div>
+<div class="view login" data-za-module="SignInForm">
+<form method="POST">
+<div class="input-wrapper">
+<input type="text" name="account" class="account" aria-label="手机号或邮箱" placeholder="手机号或邮箱" required>
+</div>
+<div class="input-wrapper toggle-password">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required>
+<span class="z-ico-show-password"></span>
+</div>
+<div class="input-wrapper captcha-module" data-type="en" >
+<input id="captcha" name="captcha" placeholder="验证码" required data-rule-required="true" data-msg-required="请填写验证码">
+<div class="captcha-container">
+
+<img class="js-refreshCaptcha captcha" width="120" height="30" data-tooltip="s$t$看不清楚？换一张"  alt="验证码">
+</div>
+</div>
+<div class="actions">
+
+<input type="submit" value="登录" class="submit zg-btn-blue">
+
+</div>
+<div class="sns clearfix">
+<label class="remember-me"><input type="checkbox" name="remember_me" checked value="true">记住我</label>
+<span class="middot">·</span>
+<button class="unable-login" type="button">无法登录？</button>
+<button type="button" class="js-show-sns-buttons is-visible">社交帐号登录</button>
+<div class="sns-buttons">
+<button type="button" class="wechat"><span class="ico sprite-global-icon-wechat-gray"></span>微信</button>
+<button type="button" class="weibo"><span class="ico sprite-global-icon-weibo-gray"></span>微博</button>
+<button type="button" class="qq"><span class="ico sprite-global-icon-qq-gray"></span>QQ</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+<div class="zm-side-section">
+<div class="DownloadApp">
+<button class="DownloadApp-button">
+<span class="sprite-global-icon-qrcode"></span>
+下载知乎 App
+</button>
+</div>
+</div>
+
+
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<h3>关于创建者</h3>
+<a class="zm-list-avatar-link" href="/people/yier-40-59">
+<img class="zm-list-avatar-medium"
+src="https://pic2.zhimg.com/8919d55202fc985e625cfea9caa803a0_m.jpg"/>
+</a>
+<div class="zm-list-content-medium" id="zh-single-answer-author-info">
+<span class="zg-right">
+<button data-follow="m:button" data-id="d2ada3be867d597d8840a9faa0bf7bff" class="zg-btn zg-btn-follow zm-rich-follow-btn small nth-0">关注他</button>
+</span>
+<h2 class="zm-list-content-title">
+
+<a href="/people/yier-40-59" class="author-link">一二</a>
+</h2>
+<div class="summary-wrapper summary-wrapper--short">
+
+<span class="zg-gray-normal bio">矛盾的人</span>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="zm-side-section explore-side-section">
+<div class="zm-side-section-inner">
+<div class="section-title">
+<a href="javascript:;" id="js-hot-fav-switch" class="zg-link-gray zg-right" data-za-c="collection" data-za-a="click_trending_collections_change" data-za-l="explore_sidebar_trending_collections_collection_name">换一换</a>
+<h3>热门收藏</h3>
+</div>
+<ul class="list hot-favlists">
+<li>
+<div class="content">
+<a href="/collection/20972312" target="_blank">一语胜千言</a>
+<div class="meta">
+<span>16412 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>684 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/122390358" target="_blank">车小胖TCP/IP</a>
+<div class="meta">
+<span>937 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>162 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/71859050" target="_blank">装逼专用</a>
+<div class="meta">
+<span>861 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>50 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/26501934" target="_blank">被知乎科普</a>
+<div class="meta">
+<span>19630 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>4498 条内容</span>
+</div>
+</div>
+</li>
+
+<li>
+<div class="content">
+<a href="/collection/63269539" target="_blank">小说预备</a>
+<div class="meta">
+<span>1406 人关注</span>
+<span class="zg-bull">&bull;</span>
+<span>10992 条内容</span>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="explore_down" data-params='{}'></div>
+
+
+</div>
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/terms/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2018 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1540037747000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script type="text/json" class="json-inline" data-name="current_list">[18096421,true,63269539,1406]</script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.758ac409.js"></script>
+<meta name="entry" content="ZH.entryL" data-module-id="page-main">
+
+<script type="text/zscript" znonce="35182b81caf84953a751a85235bfd6e9"></script>
+
+<input type="hidden" name="_xsrf" value="cda2a4823bdce81b2faa61987e329661"/>
+</body>
+</html>

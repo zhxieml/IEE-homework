@@ -1,0 +1,475 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<!-- filename: find-b --> 
+<html> 
+<head> 
+<!-- filename: meta-tags --> 
+ 
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
+<META HTTP-EQUIV="Expires" CONTENT="Sun, 06 Nov 1994 08:49:37 GMT"> 
+<META HTTP-EQUIV="REFRESH" CONTENT="1200; URL=http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18281?func=logout"> 
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"> 
+ 
+<link rel="stylesheet" href="http://opac.lib.sjtu.edu.cn:80/exlibris.css" TYPE="text/css"> 
+<title>上海交通大学图书馆OPAC - 中日文献库 - 基本检索</title> 
+</head> 
+<body topmargin="0" 
+      onload="javascript:setCookie();window.document.form1.request.focus();"> 
+<!-- filename: head-1-nobor-ill-02 --> 
+<script src="/cookie.js"></script> 
+<script> 
+if(self.location!=parent.location&&getCookie('redirect')){delCookie('redirect');} 
+else if(document.referrer.match("primo_library")){ 
+if(self.location!=parent.location)setCookie('redirect','1'); 
+var url="http://opac.lib.sjtu.edu.cn:8118/sjt-local/primo-opac2.jsp"; 
+if('\v'=='v'){ 
+document.write("<a id='goa' href="+url+" style='display:none'>a</a>");document.getElementById("goa").click(); 
+} 
+else{location.href=url;} 
+} 
+</script> 
+<script language="Javascript"> 
+<!-- 
+  function open_window (loc) 
+  { 
+    self.name="main"; 
+    if ((navigator.appVersion.indexOf("MSIE 5.0") != -1) && (navigator.appName.indexOf("Explorer") != -1)){ 
+   var w = window.open ("","win1","height=500,width=500,scrollbars,resizable"); 
+     w.document.write("<html>\n"); 
+     w.document.write('<body onLoad="window.location.href='); 
+     w.document.write("'" + loc + "';\n"); 
+     w.document.write('"'); 
+     w.document.write("</body>\n"); 
+     w.document.write("</html>\n"); 
+     w.document.close(); 
+    } else { 
+    var w = window.open (loc,"win1","height=500,width=500,scrollbars,resizable"); 
+    } 
+    w.focus(); 
+  } 
+ 
+ 
+  function open_window2 (loc) 
+  { 
+    self.name="main"; 
+    if ((navigator.appVersion.indexOf("MSIE 5.0") != -1) && (navigator.appName.indexOf("Explorer") != -1)){ 
+ 
+    var w = window.open ("", 
+                         "win1", 
+                         "height=100,width=500,scrollbars,resizable" 
+                         ); 
+     w.document.write("<html>\n"); 
+     w.document.write('<body onLoad="window.location.href='); 
+     w.document.write("'" + loc + "';\n"); 
+     w.document.write('"'); 
+     w.document.write("</body>\n"); 
+     w.document.write("</html>\n"); 
+     w.document.close(); 
+    } else { 
+    var w = window.open (loc, 
+                         "win1", 
+                         "height=100,width=500,scrollbars,resizable" 
+                         ); 
+    } 
+     w.focus(); 
+  } 
+ 
+ 
+  function open_window3 (loc) 
+  { 
+    self.name="main"; 
+    if ((navigator.appVersion.indexOf("MSIE 5.0") != -1) && (navigator.appName.indexOf("Explorer") != -1)){ 
+ 
+    var w = window.open ("", 
+                         "win1", 
+                         "height=400,width=450,scrollbars,resizable,top=200" 
+                         ); 
+     w.document.write("<html>\n"); 
+     w.document.write('<body onLoad="window.location.href='); 
+     w.document.write("'" + loc + "';\n"); 
+     w.document.write('"'); 
+     w.document.write("</body>\n"); 
+     w.document.write("</html>\n"); 
+     w.document.close(); 
+    } else { 
+    var w = window.open (loc, 
+                         "win1", 
+                         "height=400,width=450,scrollbars,resizable,top=200" 
+                         ); 
+    } 
+     w.focus(); 
+  } 
+ 
+ 
+  function open_window4 (loc) 
+  { 
+    self.name="main"; 
+    if ((navigator.appVersion.indexOf("MSIE 5.0") != -1) && (navigator.appName.indexOf("Explorer") != -1)){ 
+ 
+    var w = window.open ("", 
+                         "win1", 
+                         "height=150,width=450,scrollbars,resizable,top=200" 
+                         ); 
+     w.document.write("<html>\n"); 
+     w.document.write('<body onLoad="window.location.href='); 
+     w.document.write("'" + loc + "';\n"); 
+     w.document.write('"'); 
+     w.document.write("</body>\n"); 
+     w.document.write("</html>\n"); 
+     w.document.close(); 
+    } else { 
+    var w = window.open (loc, 
+                         "win1", 
+                         "height=150,width=450,scrollbars,resizable,top=200" 
+                         ); 
+    } 
+     w.focus(); 
+  } 
+ 
+ 
+  function open_window_ext (loc) 
+  { 
+    self.name="main"; 
+    if ((navigator.appVersion.indexOf("MSIE 5.0") != -1) && (navigator.appName.indexOf("Explorer") != -1)){ 
+    var w = window.open ("","win2","height=500,width=500,scrollbars,resizable,toolbar,status,menubar"); 
+     w.document.write("<html>\n"); 
+     w.document.write('<body onLoad="window.location.href='); 
+     w.document.write("'" + loc + "';\n"); 
+     w.document.write('"'); 
+     w.document.write("</body>\n"); 
+     w.document.write("</html>\n"); 
+     w.document.close(); 
+    } else { 
+    var w = window.open (loc,"win2","height=500,width=500,scrollbars,resizable,toolbar,status,menubar"); 
+
+    } 
+    w.focus(); 
+  } 
+ 
+  function set_iframe_location(url,id){ 
+    eval('document.all.' + id).src = url; 
+  } 
+ 
+  function open_window_confirm (loc,frame) 
+  { 
+    self.name=frame; 
+    if ((navigator.appVersion.indexOf("MSIE 5.0") != -1) && (navigator.appName.indexOf("Explorer") != -1)){ 
+   var w = window.open ("","win1","height=220,width=450,scrollbars,resizable"); 
+     w.document.write("<html>\n"); 
+     w.document.write('<body onLoad="window.location.href='); 
+     w.document.write("'" + loc + "';\n"); 
+     w.document.write('"'); 
+     w.document.write("</body>\n"); 
+     w.document.write("</html>\n"); 
+     w.document.close(); 
+    } else { 
+    var w = window.open (loc,"win1","height=220,width=450,scrollbars,resizable"); 
+    } 
+    w.focus(); 
+  } 
+ 
+  function delete_win1 () 
+  { 
+    var w = window.open ("","win1","height=220,width=450,scrollbars,resizable"); 
+    w.close(); 
+  } 
+ 
+  function open_window_ill (loc) 
+  { 
+    if ((navigator.appVersion.indexOf("MSIE 5.0") != -1) && (navigator.appName.indexOf("Explorer") != -1)){ 
+  var w = window.open ("","win1","height=500,width=500,scrollbars,resizable"); 
+     w.document.write("<html>\n"); 
+     w.document.write('<body onLoad="window.location.href='); 
+     w.document.write("'" + loc + "';\n"); 
+     w.document.write('"'); 
+     w.document.write("</body>\n"); 
+     w.document.write("</html>\n"); 
+     w.document.close(); 
+    } else { 
+    var w = window.open (loc,"win1","height=500,width=500,scrollbars,resizable"); 
+    } 
+    w.focus(); 
+  } 
+ 
+// --> 
+</script> 
+ 
+<TABLE cellSpacing=0 cellPadding=0 width=1000 
+      background=http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/top_bg_main.gif border=0> 
+        <TBODY> 
+        <TR> 
+          <TD width=206 rowspan="4">&nbsp; </TD> 
+          <TD height=30 align=right vAlign=bottom> 
+            <TABLE cellSpacing=0 cellPadding=0 border=0> 
+              <TBODY> 
+              <TR align=right> 
+                <TD> 
+                                  <A href="http://opac.lib.sjtu.edu.cn:8118/sjt-local/login-session.jsp" title="登录系统"><IMG 
+                  onfocus=this.blur() 
+                  src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/top_login.gif" align=absMiddle 
+                  border=0></A> 
+                                  <A href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18282?func=file&file_name=logout" title="关闭会话"><IMG 
+                  onfocus=this.blur() 
+                  src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/top_logout.gif" align=absMiddle 
+                  border=0></A> 
+                            <!-- 
+                                  <A href="http://www.lib.sjtu.edu.cn/showRssLink.do" title="定制个人借阅信息"><IMG 
+                  onfocus=this.blur() 
+                  src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/top_rss.gif" align=absMiddle 
+                  border=0></A> 
+          --> 
+                                                                </TD> 
+              </TR></TBODY></TABLE></TD></TR> 
+        <TR> 
+          <TD height="44"><table width="795" border="0" cellpadding="0" cellspacing="0"> 
+            <tr> 
+              <td width="120"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18283?func=find-b-0" title="通过关键词检索记录"><img src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/top_search.gif" width="120" height="30" border="0" /></a></td> 
+              <td width="120"><a href="http://opac.lib.sjtu.edu.cn:8118/sjt-local/opac-new-ill-request-l.jsp" title="查看读者个人借阅情况"><img src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/top_myinfo.gif" width="120" height="30" border="0" /></a></td> 
+              <td width="120"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18284?func=myshelf-short" title="查看保存在电子书架上的记录"><img src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/top_myshelf.gif" width="120" height="30" border="0" /></a></td> 
+              <td width="120"><a href="http://www.lib.sjtu.edu.cn/index.php?m=content&c=index&a=show&catid=82&id=24" title="馆际互借" target="blank"><img src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/top_ill.gif" width="120" height="30" border="0" /></a></td> 
+              <td width="315">&nbsp;</td> 
+            </tr> 
+          </table></TD> 
+          </TR> 
+        <TR> 
+          <TD height=25 colspan="7"><table width="795" border="0" cellpadding="0" cellspacing="0"> 
+            <tr> 
+              <td width="18" align="center" valign="middle"><img src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/mirror.gif" width="18" height="18"></td> 
+              <td width="80" align="center" class="top_menu"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18285?func=find-b-0" title="通过关键词检索记录">基本检索</a></td> 
+              <td width="2" align="center" class="bott">|</td> 
+              <td width="80" align="center" class="top_menu"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18286?func=find-d-0" title="通过关键词组合检索记录">高级检索</a></td> 
+              <td width="2" align="center" class="bott">|</td> 
+              <td width="75" align="center" class="top_menu"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18287?func=file&file_name=find-m" title="选择不同数据库检索记录">多库检索</a></td> 
+              <td width="2" align="center" class="bott">|</td> 
+              <td width="90" align="center" class="top_menu"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18288?func=find-a-0" title="通过不同字段组合检索记录">多字段检索</a></td> 
+
+              <td width="2" align="center" class="bott">|</td> 
+              <td width="105" align="center" class="top_menu"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18289?func=find-c-0" title="通过通用命令语言检索记录">通用命令语言</a></td> 
+              <td width="2" align="center" class="bott">|</td> 
+              <td width="80" align="center" class="top_menu"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18290?func=scan-list" title="浏览著者、题名等字顺索引.">字顺浏览</a></td> 
+              <td width="2" align="center" class="bott">|</td> 
+              <td width="105" align="center" class="top_menu"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18291?func=history" title="临时保存的检索历史">临时检索历史</a></td> 
+              <td width="2" align="center" class="bott">|</td> 
+              <td width="105" align="center" class="top_menu"><a href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18292?func=short" title="末次检索的结果">末次检索结果</a></td> 
+              <td align="center">&nbsp;</td> 
+            </tr> 
+          </table></TD> 
+        </TR> 
+                                  <tr> 
+                                    <td class="feedbackbar" valign="middle" align="left" height=22 colspan="16" nowrap> 
+                                      &nbsp;</td> 
+                                  </tr> 
+        </TBODY></TABLE> 
+<!-- filename: find-b-head --> 
+<table width="1000" border="0" cellspacing="0" cellpadding="0" background="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/frame_bg.jpg"> 
+<form method=get 
+      name=form1 
+      action="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18293"> 
+<input type="hidden" name="func" value="find-b"> 
+  <tr> 
+    <td><table width="1000" border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+    <td width="180">&nbsp;</td> 
+    <td width="150" height="50" class="frame_title">基本检索</td> 
+    <td width="300" height="30">&nbsp;</td> 
+    <td width="250" rowspan="6" align="center"><img src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/mirror_bg.gif" width="128" height="128" /></td> 
+    <td width="120">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="180">&nbsp;</td> 
+    <td width="150" height="25" class="td2" nowrap>输入检索词或词组</td> 
+    <td width="300" height="25" class="td2"  id="small"> 
+      <input size=40 name="request" value=''> 
+    </td> 
+    <td width="120">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="180">&nbsp;</td> 
+    <td width="150" height="25" class="td2" nowrap>检索字段</td> 
+  <td class="td2" id="small"> 
+<!-- filename: find-code-include --> 
+    <select name=find_code> 
+     <option value=WRD              >所有字段</option> 
+<!-- 
+     <option value=ETI              >题名</option> 
+--> 
+     <option value=WET              >正题名</option> 
+     <option value=WTI              >所有题名</option> 
+     <option value=WAU              >著者</option> 
+     <option value=CAL              >索书号</option> 
+     <option value=ISS              >ISSN</option> 
+     <option value=ISB              >ISBN</option> 
+     <option value=WSU              >主题词</option> 
+     <option value=SYS              >系统号</option> 
+     <option value=BAR              >条形码</option> 
+     <option value=WPU              >出版社</option> 
+     <!-- 
+     <option value=TIT              >实际题名</option> 
+     <option value=CLC              >分类号</option> 
+     <option value=WET              >正题名</option> 
+     <option value=SUD              >Gov't Doc, No.</option> 
+         <option value=LCI              >LCCN</option> 
+     <option value=TXT              >全文</option> 
+      --> 
+    </select> 
+ 
+ 
+  </td> 
+    <td width="120">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="180">&nbsp;</td> 
+    <td width="150" height="25" class="td2">匹配度?</td> 
+    <td width="300" height="25" class="td2"> 
+    <input Type="radio" name="adjacent"             value="N"> 模糊 
+    <input type="radio" name="adjacent"             value="Y" checked> 精确 
+    </td> 
+    <td width="120">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="180">&nbsp;</td> 
+    <td width="150" height="25" class="td2" nowrap>选择数据库</td> 
+  <td class="td2" id="small"> 
+<!-- filename: base-list-include --> 
+     <!-- 
+    <select name=local_base> 
+     <option value=SJT01                >中日文文献库</option> 
+     <option value=SJT09                >西俄文文献库</option> 
+     <option value=LCL50                >拟定信息库</option> 
+     <option value=ZDMLK                >征订目录库</option> 
+    </select> 
+                --> 
+ 
+        <input name="local_base" type="radio" value=SJT01                 checked>       中日文文献库 
+        <input name="local_base" type="radio" value=SJT09                >       西俄文文献库 
+  </td> 
+    <td width="120">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="180" height="30" align="right" valign="bottom">&nbsp;</td> 
+    <td width="150" height="30" valign="bottom">&nbsp;</td> 
+    <td width="300" height="30" align="right" class="td2"> 
+       <input type="image" src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/search.gif" border=0>&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href="javascript:document.form1.reset();"><img src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/clear.gif" border=0></a> 
+
+        </a> 
+        </td> 
+    <td width="120">&nbsp;</td> 
+  </tr> 
+</table></td> 
+  </tr> 
+  <tr> 
+    <td><table width="1000" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+    <td width="120" height="30">&nbsp;</td> 
+    <td height="30" class="STYLE5 STYLE6"><img src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/frame_help.gif" width="100" height="30" /></td> 
+    <td width="80" height="30">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="120">&nbsp;</td> 
+    <td height="20" class="bottom_help">&nbsp;&nbsp;1.&nbsp;选择“精确”匹配，当输入词组computer programming时，系统将作为词组检索。 </td> 
+    <td width="80">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="120">&nbsp;</td> 
+    <td height="20" class="bottom_help">&nbsp;&nbsp;2.&nbsp;系统不区分西文检索词的大/小写。</td> 
+    <td width="80">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="120">&nbsp;</td> 
+    <td height="20" class="bottom_help">&nbsp;&nbsp;3.&nbsp;您可以在检索式里使用AND和OR进行布尔逻辑运算。</td> 
+    <td width="80">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="120">&nbsp;</td> 
+    <td height="20" class="bottom_help">&nbsp;&nbsp;4.&nbsp;可以使用字符&quot;?&quot;做为检索词的一部分进行匹配。例如.g?n 将检索 gun,gown等。</td> 
+    <td width="80">&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td width="120">&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td width="80">&nbsp;</td> 
+  </tr> 
+</table></td> 
+  </tr> 
+</form> 
+</table> 
+<!-- filename: copyrights --> 
+<script language="javascript"> 
+<!-- 
+ function recommend(the_url){ 
+     var first_split = the_url.split("//"); 
+     var without_resource = first_split[1]; 
+     var second_split = without_resource.split(":"); 
+     var domain = second_split[0]; 
+ 
+     window.open("http://"+domain+":8118/apsm/recommend/recommend.jsp?url_id=" + the_url,"_blank"); 
+} 
+//--> 
+</script> 
+<TABLE cellSpacing=0 cellPadding=0 width=1000 border=0> 
+     <TR> 
+          <TD height=30 background="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/line.gif">&nbsp;</TD> 
+          <TD width="1" height=30 background="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/line.gif">&nbsp;</TD> 
+          <TD height=30 colspan="2" background="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/line.gif"> 
+            <TABLE cellSpacing=0 cellPadding=0 width=424 border=0> 
+              <TBODY> 
+              <TR> 
+                <TD align=right width=64><A href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18294?func=file&file_name=about.html" title="关于"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_01.gif" width=64 
+                  border=0></A></TD> 
+                <TD width=64><A href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18295?func=file&file_name=help.html" title="帮助"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_02.gif" width=64 
+                  border=0></A></TD> 
+                <!-- 
+                <TD width=64><A href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18296?func=file&file_name=help-1" title="帮助" target="_blank"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_02.gif" width=64 
+                  border=0></A></TD> 
+                --> 
+                <TD width=85><A href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18297?func=file&file_name=phb.html" title="借阅排行榜"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_03.gif" width=85 
+                  border=0></A></TD> 
+                <TD width=78><A href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18298?func=file&file_name=newbook.html" title="新书通报"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_04.gif" width=78 
+                border=0></A></TD> 
+                <TD width=78><A href="javascript:recommend('http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18299');" title="图书荐购"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_05.gif" width=78 
+                border=0></A></TD> 
+                <TD width=90><A href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18300?func=file&file_name=toolbar.html" title="交大OPAC工具条"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_06.gif" width=90 
+                  border=0></A></TD> 
+                <TD width=110><A href="http://opac.lib.sjtu.edu.cn:8118/sjt-local/opac-login-sms.jsp" title="短信/Mail"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_07.gif" width=110 
+                border=0></A></TD> 
+                                <TD width=110><A href="http://opac.lib.sjtu.edu.cn:80/F/8X8P31212T6JBINS7TBABREEDRS8DH9UUX2VMYVXG738FR2581-18301?func=file&file_name=robot.html" title="OPAC机器人"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_08.gif" width=100 
+                border=0></A></TD> 
+                <TD width=120><A href="http://www.lib.sjtu.edu.cn/showRssLink.do" title="个人借阅信息RSS" target="_blank"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_09.gif" width=120 
+                border=0></A></TD> 
+                <!-- 
+                <TD width=120><A href="http://www.lib.sjtu.edu.cn/showRssLink.do" title="个人借阅信息RSS" target="_blank"><IMG 
+                  height=30 src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/bottom_07.gif" width=120 
+                border=0></A></TD> 
+                --> 
+              </TR></TBODY></TABLE></TD></TR> 
+        <TR> 
+          <TD width=80 height="43" rowspan="3" align=center><a href="http://www.lib.sjtu.edu.cn" target="_blank"><IMG src="http://opac.lib.sjtu.edu.cn:80/exlibris/aleph/u20_1/alephe/www_f_chi/icon/logo-s.gif" alt="上海交通大学图书馆" border=0></a></TD> 
+
+          <TD height="5" colspan="3"></TD> 
+  </TR> 
+        <TR> 
+          <TD width="1" height="19" class="bott"></span></TD> 
+          <TD width="9" height="19" class="bott">&nbsp;</TD> 
+          <TD class="bott">版权所有&copy;<a href="http://www.lib.sjtu.edu.cn" target="_blank">上海交通大学图书馆</a>&nbsp;&nbsp;沪交ICP备05015</TD> 
+        </TR> 
+        <TR> 
+          <TD height="19" class="bott">&nbsp;</TD> 
+          <TD height="19" class="bott">&nbsp;</TD> 
+          <TD height="19" class="bott">中国上海市东川路800号&nbsp;200240&nbsp;&nbsp;Email:<a href="mailto:master@mail.lib.sjtu.edu.cn">master@mail.lib.sjtu.edu.cn</a></TD> 
+        </TR> 
+</TABLE> 
+</body> 
+</html> 
+
+ 

@@ -1,0 +1,764 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML><HEAD><TITLE>上海交通大学人力资源处</TITLE>
+
+
+<STYLE type="text/css">
+#msg_win
+{
+position:absolute;right:0px;display:none;overflow:hidden;
+z-index:99;border:1px solid #5f73a7;
+background:#F9EFFC;width:160px;font-size:12px;margin:0px;}
+#msg_win .icos
+{position:absolute;top:2px;*top:0px;right:2px;z-index:9;}
+.icos a{float:left;color:#FFFFFF;margin:1px;text-align:center
+;font-weight:bold;width:14px;height:22px;line-height:22px;
+padding:1px;text-decoration:none;font-family:webdings;}
+.icos a:hover{color:#FFCC00;}
+
+#msg_title
+{  
+   background:#294491;
+   border-bottom:1px solid #710B97;
+   border-top:1px solid #FFF;
+   border-left:1px solid #FFF;
+   color:#FFFFFF;
+   height:25px;
+   line-height:25px;
+   text-indent:5px;
+   font-weight:bold;}
+#msg_content
+{
+   margin:5px;margin-right:0;width:160px;height:50px;overflow:hidden;}
+</STYLE>
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8"><LINK href="default.css" rel="stylesheet" type="text/css">
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323074684754525b564203040000 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<META Name="keywords" Content="上海交通大学人力资源处,上海交通大学人力资源处" />
+<script type="text/javascript" src="system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,784985423)</script>
+</HEAD>
+<BODY target="_blank"><script language="javascript">
+function addBookmark(url, title) {
+if( document.all ) {
+  try
+  {
+   window.external.addFavorite(url, title);
+  }
+  catch (e1)
+  {
+   try
+   {
+    window.external.addToFavoritesBar(url, title);
+   }
+   catch (e2)
+   {
+alert('加入收藏失败，不支持此浏览器。')
+   }
+  }
+} else if (window.external) {
+  window.sidebar.addPanel(title, url,"");
+} else {
+alert('加入收藏失败，不支持此浏览器。')
+}
+}
+</script><A href="system/resource/code/nocolumn.jsp"></A>
+<DIV id="wrap">
+<DIV id="top">
+<DIV id="top_left"><A href="http://www.sjtu.edu.cn/" target="_self" border="0" style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px"><IMG width="364" height="66" src="images/logo.gif" style="border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px"></A></DIV>
+<DIV id="top_right">
+<UL class="top_nav">
+<LI><A target="_blank" onclick="addBookmark('http://hr.sjtu.edu.cn/','上海交通大学人力资源处')">添加收藏</A></LI></UL><!--#begineditable viewid="2809" name="快速链接"--><script language="javascript" src="system/resource/js/dynclicks.js"></script><script language="javascript" src="system/resource/js/openlink.js"></script><UL class="top_nav">
+    <LI><a href="http://www.sjtu.edu.cn" target="_blank" title="旧版主页" onclick="_addDynClicks(&#34;wburl&#34;, 784985423, 1790)">交大主页</a></li>
+    <LI><a href="index/LianjieDaohangURL.htm" title="链接导航" onclick="_addDynClicks(&#34;wburl&#34;, 784985423, 1791)">链接导航</a></li>
+    <LI><a href="index/WZDT.htm" title="网站地图" onclick="_addDynClicks(&#34;wburl&#34;, 784985423, 1792)">网站地图</a></li>
+    <LI><a href="index/LXWM.htm" title="联系我们" onclick="_addDynClicks(&#34;wburl&#34;, 784985423, 1793)">联系我们</a></li>
+</UL><!--#endeditable-->
+<DIV align="right" class="search"><!--#begineditable viewid="2893" name="简单检索"-->
+
+
+
+
+
+
+<script language="javascript" src="system/resource/js/base64.js"></script>
+<script language="javascript" src="system/resource/js/formfunc.js"></script>
+<form action="GuangJianZiCheck.jsp?wbtreeid=1001" method="post" name="a2893a" target="_blank" onsubmit="return subsearchdataa2893a()" style="display: inline">
+ <input type="hidden" name="Find" value="find">
+ <input type="hidden" name="entrymode" value="1">
+ <input type="hidden" id="INTEXT2" name="INTEXT2" value="">
+ <input type="hidden" name="news_search_code">
+ <table border="0" cellspacing="0" cellpadding="5">
+  <tr>
+   <td Valign="middle" nowrap="nowrap" height="22">
+    <font class="leaderfont2893">站内搜索：</font>
+    
+        <input type="hidden" name="wbtreeids" value="0">
+    </td><td><span id="intextspana2893a"></span><iframe id="intextframea2893a" src="about:blank" scrolling="no" frameborder="0" style="position:absolute;top:0px;left:0px;display:none"></iframe><input size="22" name="INTEXT" class="querystyle2893">
+   </td>
+   <td align="absmiddle" nowrap="nowrap" height="1">
+   <input type="image" src="system/resource/images/research/seach22.gif" valign="bottom" style="cursor: hand"></td>
+  </tr>
+  
+ </table>
+</form>
+<script>
+String.prototype.trim　= function()       
+{              
+    var t = this.replace(/(^\s*)|(\s*$)/g, "");     
+    return t.replace(/(^　*)|(　*$)/g, "");     
+}
+ 
+function subsearchdataa2893a()
+{ 
+	
+	if(document.a2893a.INTEXT.value.trim()=="")
+	{
+		alert("请输入查询关键字！");
+		return false;
+	}
+	
+	
+    if(checkDataa2893a(document.a2893a))
+    {
+       return true;  
+    }
+    return false;
+}       
+</script>
+
+<script> 
+function checkDataa2893a(formname)
+{
+	if(formname.INTEXT.value.trim()=="")
+	{
+		alert("请输入查询关键字！");
+		return false;
+	}
+
+	var  base64 = new Base64();
+    if(window.toFF==1)
+        {
+            var ssvalue = formname.INTEXT.value;
+            formname.INTEXT2.value = Simplized(ssvalue);
+            formname.INTEXT2.value = base64.encode(formname.INTEXT2.value);
+        }else
+        formname.INTEXT2.value = formname.INTEXT.value;
+        formname.INTEXT2.value = base64.encode(formname.INTEXT2.value);
+       return true;
+}
+</script>
+<!--#endeditable--></DIV></DIV></DIV>
+<DIV id="menu"><!--#begineditable viewid="2751" name="网站导航"--> <ul class="nav">
+     <li>
+      <a href="index.htm" title="首页">首页</a>
+     </li>
+
+     <li>
+      <a href="Zhuzhijigou.htm" title="组织机构">组织机构</a>
+     </li>
+
+     <li>
+      <a href="RenCaiDuiWu.htm" title="人才队伍">人才队伍</a>
+     </li>
+
+     <li>
+      <a href="http://join.sjtu.edu.cn/" target="_blank" title="招聘引进">招聘引进</a>
+     </li>
+
+     <li>
+      <a href="XiangGuangXiaZai.jsp?urltype=tree.TreeTempUrl&wbtreeid=1021" title="相关下载">相关下载</a>
+     </li>
+
+     <li>
+      <a href="BianMianFuWu.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022" title="信息公开">信息公开</a>
+     </li>
+
+     <li>
+      <a href="ZhiBuShengHuo.jsp?urltype=tree.TreeTempUrl&wbtreeid=1210" title="支部生活">支部生活</a>
+     </li>
+
+     <li>
+      <a href="XueFengJianShe.jsp?urltype=tree.TreeTempUrl&wbtreeid=1231" title="学风建设">学风建设</a>
+     </li>
+
+     <li>
+      <a href="JiaoShiGongZuoBu.jsp?urltype=tree.TreeTempUrl&wbtreeid=1269" title="党委教师工作部">党委教师工作部</a>
+     </li>
+
+          <li style="float:right;width:100px;background:#294795"><a href="EnglishVersion.htm" target="_blank" style="background:none;padding:0 2px 0 0px;text-align:right">English Version</a></li>
+    </ul>
+
+<!--#endeditable--></DIV>
+<DIV id="banner">
+<OBJECT codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="950" height="206"><PARAM name="_cx" value="25135"><PARAM name="_cy" value="5450"><PARAM name="FlashVars" value=""><PARAM name="Movie" value="images/benner.swf"><PARAM name="Src" value="images/benner.swf"><PARAM name="WMode" value="Window"><PARAM name="Play" value="0"><PARAM name="Loop" value="-1"><PARAM name="Quality" value="High"><PARAM name="SAlign" value=""><PARAM name="Menu" value="-1"><PARAM name="Base" value=""><PARAM name="AllowScriptAccess" value=""><PARAM name="Scale" value="NoScale"><PARAM name="DeviceFont" value="0"><PARAM name="EmbedMovie" value="0"><PARAM name="BGColor" value=""><PARAM name="SWRemote" value=""><PARAM name="MovieData" value=""><PARAM name="SeamlessTabbing" value="1"><PARAM name="Profile" value="0"><PARAM name="ProfileAddress" value=""><PARAM name="ProfilePort" value="0"><PARAM name="AllowNetworking" value="all"><PARAM name="AllowFullScreen" value="false">
+<embed src="images/benner.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="950" height="206"></embed></OBJECT></DIV>
+<DIV id="main_top"></DIV>
+<DIV id="mode_01">
+<DIV class="notice">
+<DIV class="title_01"><A href="News.jsp?urltype=tree.TreeTempUrl&wbtreeid=1012" target="_self">新闻通告</A></DIV>
+<DIV class="more"><A href="News.jsp?urltype=tree.TreeTempUrl&wbtreeid=1012" target="_self">more</A></DIV><!--#begineditable viewid="2711" name="新闻通告"--><table width="100%" cellspacing="3" cellpadding="0">
+  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2711">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1043/4106.htm" class="c2711" title="上海交通大学2018年秋季管理、教辅人员统一招聘结果公示（第一批）">
+        上海交通大学2018年秋季管理、教辅人员统一招...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2711" width="1%" nowrap>2018/10/19</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2711">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="https://www.sjtu.edu.cn/info/1736/72987.htm" class="c2711" title="上海交通大学关于开展第三届青年教师教学竞赛的通知">
+        上海交通大学关于开展第三届青年教师教学竞赛...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2711" width="1%" nowrap>2018/10/12</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2711">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1047/4080.htm" class="c2711" title="关于开展2018年上海市“超级博士后”激励计划资助申报工作的通知">
+        关于开展2018年上海市“超级博士后”激励计划...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2711" width="1%" nowrap>2018/09/26</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2711">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1047/4079.htm" class="c2711" title="关于第八批《中国社会科学博士后文库》征稿的通知">
+        关于第八批《中国社会科学博士后文库》征稿的通知
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2711" width="1%" nowrap>2018/09/26</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2711">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1047/4075.htm" class="c2711" title="上海交通大学关于开展2018年度“SMC-晨星青年教辅/管理人员奖励计划”的通知">
+        上海交通大学关于开展2018年度“SMC-晨星青年...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2711" width="1%" nowrap>2018/09/20</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2711">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1047/4074.htm" class="c2711" title="上海交通大学关于开展2018年度“晨星-优秀青年学者奖励计划”的通知">
+        上海交通大学关于开展2018年度“晨星-优秀青年...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2711" width="1%" nowrap>2018/09/20</td></tr>
+</table><!--#endeditable--></DIV>
+<DIV id="news_pic"><!--#begineditable viewid="2706" name="变换图片文章"--><LINK href="system/resource/style/component/news/list/imagechangenews.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="system/resource/js/news/imagechangenews.js"></script><script language="JavaScript">
+var u_44glzps268_icn = new ImageChangeNews("u_44glzps268_", 243, 150, 5, 2.0, true, false, false, true);
+
+//初始化图片, 并启动定时
+function u_44glzps268_init_img()
+{
+
+    u_44glzps268_icn.addimg("\/_mediafile\/hr\/2018\/10\/18\/6z2hw1za68.jpg", "http:\/\/news.sjtu.edu.cn\/jdyw\/20181017\/85049.html", "上海交通大学2018年敬老节庆祝暨表彰大...", "");
+
+    u_44glzps268_icn.addimg("\/_mediafile\/hr\/2018\/10\/18\/ao616xha1q.jpg", "http:\/\/news.sjtu.edu.cn\/jdyw\/20181017\/84945.html", "人力资源处举办首届英语演讲比赛提升管...", "");
+
+    u_44glzps268_icn.addimg("\/_mediafile\/hr\/2018\/10\/18\/4739htg9tj.jpg", "http:\/\/news.sjtu.edu.cn\/jdyw\/20181015\/84819.html", "上海交通大学举行2018年秋季管理、支撑...", "");
+
+    u_44glzps268_icn.addimg("\/_mediafile\/hr\/2018\/10\/18\/ev6qu9l9y0.jpg", "http:\/\/news.sjtu.edu.cn\/jdyw\/20181017\/84951.html", "交大师生聆听全国科学道德和学风建设宣...", "");
+
+    u_44glzps268_icn.addimg("\/znhm_image001.jpg", "\/info\/1002\/4094.htm", "人力资源处（教工部）与图书馆进行中心...", "");
+
+    u_44glzps268_icn.changeimg(0);
+}
+</script><table height="168" width="243" cellspacing="0" cellpadding="0" border="0" style="padding:0px margin:0px;border:0px">
+    <tr><td height="150">
+        <div style="width:243px;height:150px;overflow:hidden;text-overflow:clip;float:left;padding:0px;margin:0px;border:0px">
+            <div id="u_44glzps268_div" align="center" style="padding:0px;margin:0px;border:0px;background-color:#000000;width:243px;height:150px;FILTER: progid:DXImageTransform.Microsoft.RevealTrans (duration=2.0,transition=23)">
+                <div id="u_44glzps268_imgdiv" style="padding:0px;margin:0px;border:0px;width:243px;height:150px"><a id="u_44glzps268_url" target="_blank"><img id="u_44glzps268_pic" border="0" width="243" height="150" src="system/resource/images/space.gif"></a></div>
+            </div>
+            <div style="filter:alpha(style=1,opacity=10,finishOpacity=80);width:242px;height:19px;text-align:right;top:-19px;position:relative;padding:0px;margin:0px;border:0px">
+<a href="javascript:u_44glzps268_icn.changeimg(0)" ; id="u_44glzps268_selectNode0" class="imagechangenews_pnode" target="_self">1</a><a href="javascript:u_44glzps268_icn.changeimg(1)" ; id="u_44glzps268_selectNode1" class="imagechangenews_pnode" target="_self">2</a><a href="javascript:u_44glzps268_icn.changeimg(2)" ; id="u_44glzps268_selectNode2" class="imagechangenews_pnode" target="_self">3</a><a href="javascript:u_44glzps268_icn.changeimg(3)" ; id="u_44glzps268_selectNode3" class="imagechangenews_pnode" target="_self">4</a><a href="javascript:u_44glzps268_icn.changeimg(4)" ; id="u_44glzps268_selectNode4" class="imagechangenews_pnode" target="_self">5</a>
+            </div>
+        </div>
+    </td></tr>
+       
+    <tr><td height="18">
+        <div align="center" style="overflow:hidden;text-overflow:ellipsis;height:18px;width:243px;text-align:center"><a target="_blank" class="titlestyle2706" id="u_44glzps268_newstitle"></a></div>
+    </td></tr>
+   
+</table><SCRIPT language="JavaScript">u_44glzps268_init_img();</SCRIPT><!--#endeditable--></DIV>
+<DIV class="service">
+<DIV class="title_02"><A href="Erjilanmuye.jsp?urltype=tree.TreeTempUrl&wbtreeid=1013" target="_self">服务指南</A></DIV>
+<DIV class="more"><A href="Erjilanmuye.jsp?urltype=tree.TreeTempUrl&wbtreeid=1013" target="_self">more</A></DIV><!--#begineditable viewid="2712" name="服务指南"--><table width="100%" cellspacing="3" cellpadding="0">
+  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2712">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1066/2393.htm" class="c2712" title="新进教职工进校流程及详细材料">
+        新进教职工进校流程及详细材料
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2712" width="1%" nowrap>2018/05/08</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2712">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1068/2426.htm" class="c2712" title="人力资源处服务承诺">
+        人力资源处服务承诺
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2712" width="1%" nowrap>2014/05/06</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2712">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1066/2391.htm" class="c2712" title="办理上海市居住证、就业证及上海市落户须知">
+        办理上海市居住证、就业证及上海市...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2712" width="1%" nowrap>2018/06/21</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2712">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1066/2395.htm" class="c2712" title="上海交通大学人力资源处人事服务中心、人才服务中心交通示意图">
+        上海交通大学人力资源处人事服务中...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2712" width="1%" nowrap>2015/12/01</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2712">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1066/2462.htm" class="c2712" title="新进教职工入校温馨指南">
+        新进教职工入校温馨指南
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2712" width="1%" nowrap>2014/06/13</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2712">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1066/2399.htm" class="c2712" title="上海交通大学教职员工调动、离职、退休、延退须知">
+        上海交通大学教职员工调动、离职、...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2712" width="1%" nowrap>2013/12/17</td></tr>
+</table><!--#endeditable--></DIV></DIV>
+<DIV id="mode_02">
+<DIV class="rule">
+<DIV class="title_01"><A href="ZhengceFagui.jsp?urltype=tree.TreeTempUrl&wbtreeid=1006" target="_self">政策法规</A></DIV>
+<DIV class="more"><A href="ZhengceFagui.jsp?urltype=tree.TreeTempUrl&wbtreeid=1006" target="_self">more</A></DIV><!--#begineditable viewid="2713" name="政策法规"--><table width="100%" cellspacing="3" cellpadding="0">
+  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2713">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/1590.htm" class="c2713" title="国内人才引进申报上海市户口相关政策法规">
+        国内人才引进申报上海市户口相关政策法规
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2713" width="1%" nowrap>2011/05/06</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2713">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/1610.htm" class="c2713" title="留学回国人员来沪工作申办本市常住户口相关政策法规">
+        留学回国人员来沪工作申办本市常住户口相关政...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2713" width="1%" nowrap>2011/05/07</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2713">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1055/1262.htm" class="c2713" title="上海交通大学关于调整博士后相关管理工作规定的通知">
+        上海交通大学关于调整博士后相关管理工作规定...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2713" width="1%" nowrap>2011/04/18</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2713">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1057/2628.htm" class="c2713" title="上海交通大学专任教师基本工作规范（试行）">
+        上海交通大学专任教师基本工作规范（试行）
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2713" width="1%" nowrap>2015/08/05</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2713">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1057/2496.htm" class="c2713" title="上海交通大学国防科研人员高级专业技术职务聘任实施细则（修订版）">
+        上海交通大学国防科研人员高级专业技术职务聘...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2713" width="1%" nowrap>2014/11/24</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2713">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1056/2386.htm" class="c2713" title="新进人员进校流程及详细材料">
+        新进人员进校流程及详细材料
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2713" width="1%" nowrap>2013/12/16</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2713">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="cbxl.pdf" class="c2713" title="上海交通大学出版系列专业技术职务聘任实施办法">
+        上海交通大学出版系列专业技术职务聘任实施办法
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2713" width="1%" nowrap>2013/09/17</td></tr>
+</table><!--#endeditable--></DIV>
+<DIV class="rule">
+<DIV class="title_02"><A href="ChangJiWenTi.jsp?urltype=tree.TreeTempUrl&wbtreeid=1027" target="_self">常见问题</A></DIV>
+<DIV class="more" target="_self"><A href="ChangJiWenTi.jsp?urltype=tree.TreeTempUrl&wbtreeid=1027" target="_self">more</A><A href="ChangJiWenTi.jsp?urltype=tree.TreeTempUrl&wbtreeid=1027"></A></DIV><!--#begineditable viewid="2714" name="常见问题"--><table width="100%" cellspacing="3" cellpadding="0">
+  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2714">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1076/1685.htm" class="c2714" title="如何查询档案转入转出情况？">
+        如何查询档案转入转出情况？
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2714" width="1%" nowrap>2011/06/15</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2714">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1073/3912.htm" class="c2714" title="如何办理探亲费报销？">
+        如何办理探亲费报销？
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2714" width="1%" nowrap>2018/05/03</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2714">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1073/3911.htm" class="c2714" title="如何办理幼儿托费报销？">
+        如何办理幼儿托费报销？
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2714" width="1%" nowrap>2018/05/03</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2714">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1073/2418.htm" class="c2714" title="教职工的社会保险和公积金缴费比例是怎样的？何时调整？">
+        教职工的社会保险和公积金缴费比例是怎样的？...
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2714" width="1%" nowrap>2017/04/11</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2714">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1073/3211.htm" class="c2714" title="如何领取社保卡（医保卡）和就医手册">
+        如何领取社保卡（医保卡）和就医手册
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2714" width="1%" nowrap>2017/02/28</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2714">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1073/3121.htm" class="c2714" title="如何办理新进教职工住房津贴网上申请">
+        如何办理新进教职工住房津贴网上申请
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2714" width="1%" nowrap>2016/12/30</td></tr>  
+<tr><td align="center" valign="middle" width="10" nowrap><span class="leaderfont2714">·</span></td>
+<td valign="middle" align="left">
+    
+    
+        <a href="info/1078/2275.htm" class="c2714" title="如何办理在职证明和收入证明">
+        如何办理在职证明和收入证明
+        </a>
+        
+        
+        
+            </td>
+        
+        <td valign="middle" align="right" class="timestyle2714" width="1%" nowrap>2016/01/04</td></tr>
+</table><!--#endeditable--></DIV>
+<DIV class="quick">
+<DIV class="title_01">快速通道</DIV>
+<DIV style="padding-top: 20px"><!--#begineditable viewid="2729" name="链接列表"--><UL class="list">
+    <LI style="width:186px"><a href="http://rsc2.sjtu.edu.cn/HR/ChoiceRole.aspx" target="_blank" title="人事管理平台" onclick="_addDynClicks(&#34;wburl&#34;, 784985423, 1679)">人力资源管理系统</a></li>
+    <LI style="width:186px"><a href="http://rsc2.sjtu.edu.cn/YJ/Login.aspx" target="_blank" title="新进人员进校信息入口" onclick="_addDynClicks(&#34;wburl&#34;, 784985423, 1680)">新进人员进校信息入口</a></li>
+    <LI style="width:186px"><a href="http://rsc.sjtu.edu.cn/" target="_blank" title="教职工信息审核" onclick="_addDynClicks(&#34;wburl&#34;, 784985423, 1796)">教职工信息审核</a></li>
+    <LI style="width:186px"><a href="http://202.120.35.23/rsbd2004/chaxun.aspx" target="_blank" title="人员查询" onclick="_addDynClicks(&#34;wburl&#34;, 784985423, 1681)">人员查询</a></li>
+</UL><!--#endeditable--><!--#begineditable viewid="2716" name="友情链接"-->    
+    
+    
+    
+  
+
+    
+<script language="javascript">    
+<!--    
+    function doLinksu9(o)    
+    {    
+        var link=document.getElementsByName("su9")[0];    
+        var index=link.selectedIndex;    
+        if (index==-1 || index>=link.options.length)    
+        {    
+          return;    
+        }    
+        var value = link.options[index].value;    
+        var obj = document.getElementById("hu9");    
+        obj.href = value;
+        var wburlid =link.options[index].getAttribute("aa2716aa");
+        _addDynClicks('wburl',784985423,wburlid)
+            
+                     obj.target = "_blank"
+                    
+         if(document.all){
+          obj.click();     
+        }         
+         else 
+        { 
+          window.open(value);
+         }
+       
+       if(o.selectedIndex != 0)    
+       {    
+           o.selectedIndex = 0;    
+       }    
+    }    
+-->    
+</script>  
+<table>    
+    <tr><td align="center">    
+            <span class="titlestyle2716"></span> <a id="hu9"></a>    
+            <select name="su9" class="selectstyle2716" onChange="doLinksu9(this)">    
+                <option value="">--------其他通道--------</option>    
+                <option vsbhrefname="value" aa2716aa="1786" value="http://cgcj.sjtu.edu.cn/">出国境申报系统    
+                <option vsbhrefname="value" aa2716aa="2462" value="http://202.120.35.160:8080/system/login.jsp">网站后台管理    
+                </select>    
+        </td><tr></table><!--#endeditable--></DIV></DIV></DIV>
+<DIV id="footer" style="height: 22px;width: 100.2%"><!--#begineditable viewid="2717" name="版权"--><FONT style="font-size: 9pt">
+<P align="center">上海交通大学人力资源处&nbsp; &nbsp; 沪交ICP备05168&nbsp;&nbsp;&nbsp; 版权所有©上海交通大学，未经许可，不得转载</P></FONT><!--#endeditable-->
+<DIV align="center" style="width: 200px;margin: 0px auto"><!--#begineditable viewid="2724" name="计数器"-->     
+<table width="1%" align="center">
+    <tr>
+
+        <td valign="middle" nowrap><span class="btextstyle2724">首页总访问量</span></td>
+        
+        <td valign="middle" nowrap><img src="system/_component/jsq/counter.jsp?wbtreeid=1001&owner=784985423&len=7&style=10&basenum=0&countertype=TOTAL_COUNTER"></td>
+        
+        <td valign="middle" nowrap><span>次</span></td>
+        
+    </tr>
+</table><!--#endeditable--></DIV><A href="http://rsc2.sjtu.edu.cn/IE8/IE8Html.htm" target="_blank">建议使用IE浏览器8.0及以上版本,flash Player8.0及以上版本插件</A> </DIV></DIV><script language="javascript">
+var Message={
+set: function() {//最小化与恢复状态切换
+var set=this.minbtn.status == 1?[0,1,'block',this.char[0],'最小化']:[1,0,'none',this.char[1],'恢复'];
+this.minbtn.status=set[0];
+this.win.style.borderBottomWidth=set[1];
+this.content.style.display =set[2];
+this.minbtn.innerHTML =set[3]
+this.minbtn.title = set[4];
+this.win.style.top = this.getY().top;
+},
+close: function() {//关闭
+this.win.style.display = 'none';
+window.onscroll = null;
+},
+setOpacity: function(x) {//设置透明度
+var v = x >= 100 ? '': 'Alpha(opacity=' + x + ')';
+this.win.style.visibility = x<=0?'hidden':'visible';//IE有绝对或相对定位内容不随父透明度变化的bug
+this.win.style.filter = v;
+this.win.style.opacity = x / 100;
+},
+show: function() {//渐显
+clearInterval(this.timer2);
+var me = this,fx = this.fx(0, 100, 0.1),t = 0;
+this.timer2 = setInterval(function() {
+t = fx();
+me.setOpacity(t[0]);
+if (t[1] == 0) {clearInterval(me.timer2) }
+},6);//10 to 6
+},
+fx: function(a, b, c) {//缓冲计算
+var cMath = Math[(a - b) > 0 ? "floor": "ceil"],c = c || 0.1;
+return function() {return [a += cMath((b - a) * c), a - b]}
+},
+getY: function() {//计算移动坐标
+var d = document,b = document.body, e = document.documentElement;
+var s = Math.max(b.scrollTop, e.scrollTop);
+var h = /BackCompat/i.test(document.compatMode)?b.clientHeight:e.clientHeight;
+var h2 = this.win.offsetHeight;
+return {foot: s + h + h2 + 2+'px',top: s + h - h2 - 2+'px'}
+},
+moveTo: function(y) {//移动动画
+clearInterval(this.timer);
+var me = this,a = parseInt(this.win.style.top)||0;
+var fx = this.fx(a, parseInt(y));
+var t = 0 ;
+this.timer = setInterval(function() {
+t = fx();
+me.win.style.top = t[0]+'px';
+if (t[1] == 0) {
+clearInterval(me.timer);
+me.bind();
+}
+},6);//10 to 6
+},
+bind:function (){//绑定窗口滚动条与大小变化事件
+var me=this,st,rt;
+window.onscroll = function() {
+clearTimeout(st);
+clearTimeout(me.timer2);
+me.setOpacity(0);
+st = setTimeout(function() {
+me.win.style.top = me.getY().top;
+me.show();
+},100);//600 mod 100
+};
+window.onresize = function (){
+clearTimeout(rt);
+rt = setTimeout(function() {me.win.style.top = me.getY().top},100);
+}
+},
+init: function() {//创建HTML
+function $(id) {return document.getElementById(id)};
+this.win=$('msg_win');
+var set={minbtn: 'msg_min',closebtn: 'msg_close',title: 'msg_title',content: 'msg_content'};
+for (var Id in set) {this[Id] = $(set[Id])};
+var me = this;
+this.minbtn.onclick = function() {me.set();this.blur()};
+this.closebtn.onclick = function() {me.close()};
+this.char=navigator.userAgent.toLowerCase().indexOf('firefox')+1?['_','::','×']:['0','2','r'];//FF不支持webdings字体
+this.minbtn.innerHTML=this.char[0];
+this.closebtn.innerHTML=this.char[2];
+setTimeout(function() {//初始化最先位置
+me.win.style.display = 'block';
+me.win.style.top = me.getY().foot;
+me.moveTo(me.getY().top);
+},0);
+return this;
+}
+};
+Message.init();
+</script>
+<DIV id="ipv6_enabled_www_test_logo" style="width: 150px;clear: both;margin: 0px auto"></DIV><script language="JavaScript" type="text/javascript">
+        var Ipv6_Js_Server = (("https:" == document.location.protocol) ? "https://" : "http://");
+    document.write(unescape("%3Cscript src='" + Ipv6_Js_Server + "www.ipv6forum.com/ipv6_enabled/sa/SA1.php?id=4023' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</BODY></HTML>

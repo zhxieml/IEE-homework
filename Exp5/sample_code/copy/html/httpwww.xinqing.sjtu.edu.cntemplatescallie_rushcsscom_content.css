@@ -1,0 +1,265 @@
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+
+.article_separator {
+	display: block;
+	border-bottom:dotted 1px #BABABA;
+	margin-bottom:10px;
+	height: 15px; }
+
+.article_column .contentpaneopen {
+	padding-right:15px;}
+
+.buttonheading {
+	float:right;
+	padding-right:5px;}
+
+.contentpane ul li {
+	text-align:left;}
+
+.sectiontableheader  {
+	text-align:left;
+	font-weight:bold;
+	padding:5px; }
+legend.sectiontableheader {
+	background:none;
+	}
+	
+.sectiontableheader  th {
+	padding-left:8px;
+	padding-right:8px;
+	}
+	
+.sectiontableentry1, .sectiontableentry2 {
+	padding-bottom:5px;}	
+
+.artnumber {
+	float:left;
+	text-align:left;
+	width:25px;}
+	
+.arttitle {
+	float:left;}
+
+.artauthor {
+	float:right;}
+	
+.arthits {	
+	float:right;
+	padding-left:10px;}
+	
+.artcreated {
+	float:right;}	
+	
+.contentheading {
+	padding-left: 0px;
+    padding-bottom: 12px;}
+	
+.createdate  {
+    padding-bottom:11px;
+	font-size:0.9em;
+	padding-top:0px;
+	line-height: 10px;
+	font-weight: bold; }	
+	
+.componentheading  {
+	font-size:1.5em;
+	line-height:23px;
+	padding-bottom: 17px;
+	padding-top:14px;
+	font-weight:normal; }
+
+.contentheading  {
+	font-size:1.5em;
+	float:left;
+	font-weight:normal;
+	line-height:normal; }
+
+a.contentpagetitle  {
+	text-decoration: none!important;
+	font-size:1.2em;
+}
+
+.modifydate {
+	margin-top:20px;
+	font-size:0.9em;
+	clear:both;
+	}
+
+.mosimage  {
+	padding: 0;
+	border:1px solid #CCCCCC;
+	background:#ffffff;
+	margin:6px;	}
+
+.mosimage img  {
+	padding: 0;
+	margin: 0!important; }
+
+	
+.mosimage_caption {
+	background:#EFEFEF none repeat scroll 0%;
+	border-top:1px solid #CCCCCC;
+	color:#666666;
+	margin-top:2px;
+	padding:1px 2px;}
+
+.pagenav,
+.pagenav_prev,
+.pagenav_next,
+.pagenavbar  {
+	padding:7px 2px; }
+
+a.pagenav,
+.pagenav_prev a,
+.pagenav_next a,
+.pagenavbar a  {
+	text-decoration: none; }
+
+a.pagenav:hover, a.pagenav:active, a.pagenav:focus,
+.pagenav_prev a:hover, .pagenav_prev a:active, .pagenav_prev a:focus,
+.pagenav_next a:hover, .pagenav_next a:active, .pagenav_next a:focus,
+.pagenavbar a:hover, .pagenavbar a:active, .pagenavbar a:focus  {
+	text-decoration: none; }
+
+.pagenavbar  {
+	padding-left: 14px; }
+
+.pagenavcounter  {
+	padding: 8px 14px 0 14px; }
+
+
+
+.small  {
+	font-size:0.9em; }
+
+.smalldark  {
+	text-align: left; }
+
+div.syndicate div  {
+	text-align: center; }
+
+.pollstableborder tr.sectiontableentry1 td,
+.pollstableborder tr.sectiontableentry2 td  {
+	background: none; }	
+	
+
+/* Poll Styling */
+
+.poll label {
+margin-bottom:5px;
+display:block;
+text-align:left;
+}
+
+table.poll  {
+padding: 0;
+width: 100%;
+border-collapse: collapse; }
+
+table.pollstableborder  {
+padding: 0;
+width: 100%;
+border: none;
+}
+
+table.pollstableborder .sectiontableentry2, table.pollstableborder .sectiontableentry1 {
+float:left;
+}
+
+table.pollstableborder img  {
+vertical-align: baseline; }
+
+table.pollstableborder td  {
+padding: 2px!important; }
+
+.pollstableborder {
+margin-top:10px;
+margin-bottom:10px;
+}
+
+table.pollstableborder td {
+background:none;
+}
+
+/* Joomla Style */
+
+td {
+padding-bottom:0px;
+padding-top:0px;
+}
+
+table.searchintro  {
+padding: 10px 0;
+width: 80%; }
+
+tr.sectiontableentry1 td  {
+padding: 2px; }
+
+tr.sectiontableentry2 td  {
+padding: 2px; }
+
+div.syndicate div  {
+text-align: center; }
+
+a.readon:hover, a.readon:active, a.readon:focus  {	
+text-decoration:underline; }
+
+.back_button {
+height:37px;
+padding-top:26px; }
+
+div.back_button a,
+div.back_button a:hover,
+div.back_button a:active  {
+margin: -2px 0;
+display: block;
+font-weight:bold;
+height:37px;
+text-decoration: none!important; }
+
+.sectiontableheader {
+line-height:29px;
+padding:0pt 10px;
+}
+
+.sectiontableentry1 {
+font-size:9pt;
+padding:7px;
+background:#ECECEC;
+}
+
+.sectiontableentry2 {
+font-size:9pt;
+padding:7px;
+}
+
+.latestnews li, .mostread li, .sections li{
+padding:24px;
+padding-bottom:6px;
+padding-top:6px;
+border-bottom:solid 1px #ECECEC;
+
+}
+
+
+	
+/* END JOOMLA STYLE
+--------------------------------------------------------- */	
+
+
+/* System Messages */
+
+/* System Standard Messages */
+#system-message { margin-bottom: 20px; }
+
+#system-message dd.message ul { background: #C3D2E5 url(../../system/images/notice-info.png) 4px center no-repeat;margin-left: 4px;
+    margin-top: 13px;}
+
+/* System Error Messages */
+#system-message dd.error ul { color: #c00; background: #E6C0C0 url(../../system/images/notice-alert.png) 4px center no-repeat; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B;}
+
+/* System Notice Messages */
+#system-message dd.notice ul { color: #c00; background: #EFE7B8 url(../../system/images/notice-note.png) 4px center no-repeat; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E;}
+
+		

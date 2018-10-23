@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+                                        <title>清华大学环境学院</title>
+<link href="/publish/env/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/env/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="/publish/env/js/grayscale.js" type="text/javascript"></script>
+<script src="/publish/env/js/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*env
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/env/css/style_second.css" rel="stylesheet" type="text/css" />
+<!-- 导入全局模板 -->
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!-- 整体区域开始 -->
+ <div class="wrapper nomalwclassth auto">
+    
+     <!-- 页头区域开始 -->
+       <!-- 页头区域开始 -->
+  <div class="header nomalwidth auto" style="height:140px;background-image:url(/publish/env/images/banner2018.jpg)">
+      
+       <!--<div class="logo_text">
+         <p class="cn">&nbsp;</p>
+         <p class="en">&nbsp;</p>
+        </div>-->
+  
+                <div class="hot_links" style="top: 40px;"><a href="/publish/enven/index.html">English</a></div>
+    
+         <!-- <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="960" height="140">
+    <param name="movie" value="/publish/env/images/banner.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    
+    <param name="expressinstall" value="30years/expressInstall.swf" />
+    <param name="menu" value="false" />
+   
+    <object type="application/x-shockwave-flash" data="/publish/env/images/banner.swf" width="960" height="140">
+     
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="/publish/env/images/expressInstall.swf" />
+      <param name="menu" value="false" />
+     
+      <div>
+        <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      </div>
+     
+    </object>
+   
+  </object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>-->
+</div>
+<!-- 页头区域结束 -->        <!-- 页头区域结束 -->
+        
+        <!-- nav start -->
+        <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu6326 = ms.addMenu(document.getElementById("menu_6326"));
+menu6326.addItem("栏目概述","/publish/env/6327/index.html","");
+        menu6326.addItem("教研教师","/publish/env/6329/index.html","");
+        var subMenu6326_1 = menu6326.addMenu(menu6326.items[1]);
+       subMenu6326_1.addItem("院士","/publish/env/6329/index.html","");
+    subMenu6326_1.addItem("千人计划","/publish/env/6330/index.html","");
+    subMenu6326_1.addItem("教研所师资","/publish/env/6331/index.html","");
+      menu6326.addItem("兼职教授","/publish/env/6334/index.html","");
+        menu6326.addItem("实验教师","/publish/env/6817/index.html","");
+        menu6326.addItem("行政教师","/publish/env/6818/index.html","");
+        menu6326.addItem("合同制教师","/publish/env/6335/index.html","");
+        menu6326.addItem("博士后","/publish/env/6336/index.html","");
+        menu6326.addItem("访问学者","/publish/env/6819/index.html","");
+        menu6326.addItem("荣退教师","/publish/env/6337/index.html","");
+        var menu6317 = ms.addMenu(document.getElementById("menu_6317"));
+menu6317.addItem("组织机构","/publish/env/6318/index.html","");
+        menu6317.addItem("学术机构","/publish/env/6319/index.html","");
+        menu6317.addItem("研究机构","/publish/env/6321/index.html","");
+        var subMenu6317_2 = menu6317.addMenu(menu6317.items[2]);
+       subMenu6317_2.addItem("研究所","/publish/env/6321/index.html","");
+    subMenu6317_2.addItem("国家级研究机构","/publish/env/6322/index.html","");
+    subMenu6317_2.addItem("省部级研究机构","/publish/env/6323/index.html","");
+    subMenu6317_2.addItem("校级研究机构","/publish/env/6324/index.html","");
+    subMenu6317_2.addItem("联合研究机构","/publish/env/6325/index.html","");
+      var menu6312 = ms.addMenu(document.getElementById("menu_6312"));
+menu6312.addItem("学院简介","/publish/env/6313/index.html","");
+        menu6312.addItem("现任领导","/publish/env/7208/index.html","");
+        menu6312.addItem("历任领导","/publish/env/6314/index.html","");
+        menu6312.addItem("历史沿革","/publish/env/6315/index.html","");
+        menu6312.addItem("大事年表","/publish/env/6316/index.html","");
+        var menu6338 = ms.addMenu(document.getElementById("menu_6338"));
+menu6338.addItem("栏目概述","/publish/env/6339/index.html","");
+        menu6338.addItem("本科生教学","/publish/env/6341/index.html","");
+        var subMenu6338_1 = menu6338.addMenu(menu6338.items[1]);
+       subMenu6338_1.addItem("专业介绍","/publish/env/6341/index.html","");
+    subMenu6338_1.addItem("课程介绍","/publish/env/6342/index.html","");
+    subMenu6338_1.addItem("精品课程","/publish/env/6343/index.html","");
+    subMenu6338_1.addItem("专业设置","/publish/env/6344/index.html","");
+    subMenu6338_1.addItem("培养方案","/publish/env/6345/index.html","");
+    subMenu6338_1.addItem("实践教学","/publish/env/6346/index.html","");
+    subMenu6338_1.addItem("留学生","/publish/env/6347/index.html","");
+      menu6338.addItem("硕士生教学","/publish/env/6349/index.html","");
+        var subMenu6338_2 = menu6338.addMenu(menu6338.items[2]);
+       subMenu6338_2.addItem("导师介绍","/publish/env/6349/index.html","");
+    subMenu6338_2.addItem("培养方案（硕士）","/publish/env/6350/index.html","");
+    subMenu6338_2.addItem("培养方案（工程硕士）","/publish/env/6351/index.html","");
+    subMenu6338_2.addItem("开设课程","/publish/env/6352/index.html","");
+    subMenu6338_2.addItem("留学生","/publish/env/6353/index.html","");
+      menu6338.addItem("博士生教学","/publish/env/6355/index.html","");
+        var subMenu6338_3 = menu6338.addMenu(menu6338.items[3]);
+       subMenu6338_3.addItem("导师介绍（博士）","/publish/env/6355/index.html","");
+    subMenu6338_3.addItem("培养方案（博士）","/publish/env/6356/index.html","");
+    subMenu6338_3.addItem("留学生","/publish/env/6357/index.html","");
+      menu6338.addItem("继续教育","/publish/env/6358/index.html","");
+        menu6338.addItem("出版教材","/publish/env/6359/index.html","");
+        menu6338.addItem("教学成果","/publish/env/6360/index.html","");
+        
+var menu6361 = ms.addMenu(document.getElementById("menu_6361"));
+menu6361.addItem("栏目概述","/publish/env/6362/index.html","");
+        menu6361.addItem("本科生","/publish/env/6363/index.html","");
+        menu6361.addItem("研究生","/publish/env/6364/index.html","");
+        menu6361.addItem("学生绿色协会","/publish/env/6365/index.html","");
+        menu6361.addItem("环境友好科技竞赛","/publish/env/6366/index.html","");
+        menu6361.addItem("博士生学术会议","/publish/env/6367/index.html","");
+        menu6361.addItem("陶氏-可持续发展创新挑战赛","/publish/env/7841/index.html","");
+        menu6361.addItem("清源协会","/publish/env/8478/index.html","");
+        menu6361.addItem("奖学金","/publish/env/10530/index.html","");
+        var menu6368 = ms.addMenu(document.getElementById("menu_6368"));
+menu6368.addItem("栏目概述","/publish/env/6369/index.html","");
+        menu6368.addItem("研究领域","/publish/env/6370/index.html","");
+        menu6368.addItem("研究成果","/publish/env/6372/index.html","");
+        var subMenu6368_2 = menu6368.addMenu(menu6368.items[2]);
+       subMenu6368_2.addItem("各类奖项","/publish/env/6372/index.html","");
+    subMenu6368_2.addItem("编著译著","/publish/env/6373/index.html","");
+    subMenu6368_2.addItem("知识产权","/publish/env/6374/index.html","");
+      menu6368.addItem("编辑期刊","/publish/env/6376/index.html","");
+        var subMenu6368_3 = menu6368.addMenu(menu6368.items[3]);
+       subMenu6368_3.addItem("期刊简介","/publish/env/6376/index.html","");
+    subMenu6368_3.addItem("编委会","/publish/env/6378/index.html","");
+    subMenu6368_3.addItem("征稿简则","/publish/env/6379/index.html","");
+    subMenu6368_3.addItem("稿件模板","/publish/env/6380/index.html","");
+      menu6368.addItem("主办会议","/publish/env/6381/index.html","");
+        menu6368.addItem("重大专项","/publish/env/6384/index.html","");
+        var menu6385 = ms.addMenu(document.getElementById("menu_6385"));
+menu6385.addItem("栏目概述","/publish/env/6386/index.html","");
+        menu6385.addItem("合作机构","/publish/env/6387/index.html","");
+        menu6385.addItem("重要项目","/publish/env/6388/index.html","");
+        var menu6390 = ms.addMenu(document.getElementById("menu_6390"));
+menu6390.addItem("环境节能楼","/publish/env/6391/index.html","");
+        menu6390.addItem("实验教学中心","/publish/env/6392/index.html","");
+        menu6390.addItem("公共研究平台","/publish/env/6393/index.html","");
+        menu6390.addItem("环境图书馆","/publish/env/6394/index.html","");
+        var menu6395 = ms.addMenu(document.getElementById("menu_6395"));
+menu6395.addItem("本科生","/publish/env/6396/index.html","");
+        menu6395.addItem("硕士生","/publish/env/6398/index.html","");
+        var subMenu6395_1 = menu6395.addMenu(menu6395.items[1]);
+       subMenu6395_1.addItem("硕士","/publish/env/6398/index.html","");
+    subMenu6395_1.addItem("工程硕士","/publish/env/6399/index.html","");
+    subMenu6395_1.addItem("工程管理硕士","/publish/env/9171/index.html","");
+      menu6395.addItem("博士生","/publish/env/6400/index.html","");
+        menu6395.addItem("留学生","/publish/env/6401/index.html","");
+        menu6395.addItem("继续教育","/publish/env/6402/index.html","");
+        var menu6404 = ms.addMenu(document.getElementById("menu_6404"));
+menu6404.addItem("教师招聘","/publish/env/6405/index.html","");
+        menu6404.addItem("博士后招聘","/publish/env/6406/index.html","");
+        menu6404.addItem("合同制人员招聘","/publish/env/6407/index.html","");
+        var menu6408 = ms.addMenu(document.getElementById("menu_6408"));
+menu6408.addItem("综合新闻","/publish/env/6409/index.html","");
+        menu6408.addItem("图片新闻","/publish/env/6410/index.html","");
+        menu6408.addItem("人物新闻","/publish/env/6411/index.html","");
+        menu6408.addItem("工作简报","/publish/env/6413/index.html","");
+        var menu6414 = ms.addMenu(document.getElementById("menu_6414"));
+menu6414.addItem("电话电邮","/publish/env/6415/index.html","");
+        menu6414.addItem("邮寄地址","/publish/env/6416/index.html","");
+        menu6414.addItem("来访路线","/publish/env/6417/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<!-- nav start -->
+        <div class="nav nomalwidth auto">
+         <ul>
+<li><a href="/publish/env/index.html" title="&nbsp;">首页</a></li>
+<li id="menu_6312"  class="first"><a href="/publish/env/6313/index.html" title="学院概况">学院概况</a></li>
+<li id="menu_6317"><a href="/publish/env/6318/index.html" title="机构设置">机构设置</a></li>
+<li id="menu_6326"><a href="/publish/env/6327/index.html" title="师资队伍">师资队伍</a></li>
+<li id="menu_6338"><a href="/publish/env/6339/index.html" title="教务教学">教务教学</a></li>
+<li id="menu_6361"><a href="/publish/env/6362/index.html" title="学生生活">学生生活</a></li>
+<li id="menu_6368"><a href="/publish/env/6369/index.html" title="科学研究">科学研究</a></li>
+<li id="menu_6385"><a href="/publish/env/6386/index.html" title="合作交流">合作交流</a></li>
+<li id="menu_6390"><a href="/publish/env/6391/index.html" title="基础设施">基础设施</a></li>
+<li id="menu_6395"><a href="/publish/env/6396/index.html" title="招生信息">招生信息</a></li>
+<li id="menu_6404"><a href="/publish/env/6405/index.html" title="招聘人才">招聘人才</a></li>
+<li id="menu_6408"><a href="/publish/env/6409/index.html" title="新闻">新闻</a></li>
+<li id="menu_6414"><a href="/publish/env/6415/index.html" title="联系我们" class="clear">联系我们</a></li>
+</ul>
+        </div>
+  <script language="JavaScript">initMenuData();</script>
+        <!-- nav end -->        <!-- nav end -->
+        
+        <!-- 中部区域开始 -->
+        <div class="content auto">
+         
+            <!-- start -->
+            <table width="0" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="box_left">
+                 
+                    <!-- start -->
+                    <div class="s_menu">
+<p><img src="/publish/env/images/left_menu_pic.gif" width="200" height="76" /></p>
+                    </div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <div class="menu_bg_line"></div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <form id="searchForm" name="form1" method="post" action="#" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+<div class="search auto"><p class="left"><input name="Q" type="text" /></p><p class="right"><a href="javascript:document.form1.submit();" title="搜索"></a></p></div>
+</form>                    <!-- end -->
+                    
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="info_02 auto"><a href='http://100.tsinghua.edu.cn'><img width='190' height='67' src='/publish/env/images/100year_02.gif' /></a></div>
+                    <!-- end -->                    <!-- end -->
+                                                            
+                </td>
+                <td class="box_right">
+                 
+                    <!-- c_top start -->
+<!-- c_top start -->
+<div class="c_top">
+  <ul class="nav_01">
+    <li>&nbsp;您所在的位置：<A href="/publish/env/index.html" >首页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A href="/publish/env/6422/index.html" >教师个人主页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A>教师详细信息</A></li>
+    <li style="width:400px; text-align:right;"><A href="javascript:history.go(-1);">返&nbsp;&nbsp;回</A></li>
+  </ul>
+</div>
+<!-- c_bottom end -->                    <!-- c_bottom end -->
+                    <!-- start -->
+                <!--s2_right_con开始处-->
+                      <div id="s2_right_con">
+<img src="/publish/env/6422/20111229222432918146280/20111229222743609662002.jpg" />
+<p>
+<table style="width: 246px; height: 163px" border="1" cellspacing="1" cellpadding="1" width="246">
+    <tbody>
+        <tr>
+            <td>所在单位：</td>
+            <td>水环境保护教研所</td>
+        </tr>
+        <tr>
+            <td>职　　称：</td>
+            <td>副高级</td>
+        </tr>
+        <tr>
+            <td>邮寄地址：</td>
+            <td>清华大学中意节能楼424室</td>
+        </tr>
+        <tr>
+            <td>办公电话：</td>
+            <td>010－62796953</td>
+        </tr>
+        <tr>
+            <td>电子邮件：</td>
+            <td><a href="mailto:liuyc@mail.tsinghua.edu.cn">liuyc@mail.tsinghua.edu.cn</a></td>
+        </tr>
+    </tbody>
+</table>
+</p>
+                        <h4>教育背景</h4>
+<p>1999.9-2003.7&nbsp; 清华大学环境科学与工程系，学士</p>
+<p>2003.9-2008.7&nbsp; 清华大学环境科学与工程系，博士</p>
+<p>2005.9 &ndash; 2005.12&nbsp; 意大利威尼斯国际大学，交流学习</p>
+                        <h4>工作履历</h4>
+<p>2008.07-2011.06 清华大学，博士后，院党委学生组组长</p><p>
+2011.06-2014.12 清华大学环境学院，讲师/助理研究员、院党委研究生组组长</p><p>
+2014.12-今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 清华大学环境学院，副教授/副研究员、院党委研究生组组长</p>
+                        <h4>学术兼职</h4>
+<p>International Water Association (IWA);Water Environment Federation( WEF);American Water Works Association( AWWA)会员</p>
+                        <h4>社会兼职</h4>
+<p>2005年09月至今 清华大学学生绿色协会理事</p>
+                        <h4>研究领域</h4>
+<p>污水系统优化运行与管理</p>
+                        <h4>研究概况</h4>
+<p><strong>科研项目</strong></p>
+<p>1.&nbsp;产业集中区管网安全运行与预警技术研究与示范, 国家水重大专项子课题，2014-2016，负责</p><p>
+2.&nbsp;城市排水管网优化运行与管理技术，国家水重大专项子课题，2014-2016，主要负责</p><p>
+3.&nbsp;基于管网在线监测技术的排水管网优化运行与管理，哈希-清华联合项目，2013-2015，负责</p><p>
+4.&nbsp;排水管网硫循环过程功能微生物菌群特征研究，国家环境保护微生物重点实验室开放基金，2013-2014，负责</p><p>
+5.&nbsp;底物条件变化对排水管网沉积相生物膜中硫化氢生成转化过程影响机制研究，国家自然科学基金，2010-2012，负责</p><p>
+6.&nbsp;典型金属离子对活性污泥系统生物除磷过程影响机制及其优化控制条件研究，浙江省自然科学基金，2010-2011，负责</p><p>
+7.&nbsp;污水处理厂化学除磷优化控制模型及策略研究，中国博士后科学基金项目，2009-2010，负责</p><p>
+8.&nbsp;城市污水处理厂与排水管网优化技术集成与示范，国家重大水专项课题，2008-2011，主要参加人</p><p>
+9.&nbsp;城镇污水处理厂除磷脱氮提标改造技术攻关示范科研课题－强化生物处理技术研究，江苏省重大项目，2007-2008，主要参加人</p><p>
+10.&nbsp;城市污水氧化沟处理工艺的设备成套化研究，国家863计划课题，2004-2008，主要参加人</p>
+                        <h4>奖励与荣誉</h4>
+<p>1．&nbsp;污水处理新型高效生物流化反应器技术与应用，中国产学研合作创新成果奖，2014.11，排名7</p><p>
+2．&nbsp;城市污水处理氧化沟工艺技术、过程控制与设备成套化研究，华夏建设科学技术奖一等奖，2010.10，排名7 </p><p>
+3．&nbsp;中国环境科学学会第八届优秀青年科技奖，2012.12</p><p>
+4．&nbsp;清华大学就业工作先进个人称号，2012.12</p><p>
+5．&nbsp;清华大学林枫辅导员称号，2013.10</p><p>
+6．&nbsp;环境专业拔尖创新人才培养的第二课堂建设实践，清华大学教学成果奖一等奖，2010.9，排名2</p><p>
+7．&nbsp;2009年度环境科学与工程系学生工作先进工作者，清华大学环境科学与工程系，2010.1</p><p>
+8．&nbsp;氧化沟同步硝化反硝化试验装置，清华大学学生实验室建设贡献奖二等奖，2008.1</p><p>
+9．&nbsp;简易液相颗粒形态及速度分析系统，清华大学学生实验室建设贡献奖三等奖，2007.1</p>
+                        <h4>学术成果</h4>
+<p><strong>发表文章：</strong></p>
+<p>1.&nbsp;Yanchen Liu, Chen Wu, Xiaohong Zhou, Tuanjie Zhang, Lei Mu, Hanchang Shi. Effect of variation of liquid condition on transformation of sulfur and carbon in the sediment of sanitary sewer. Journal of Environmental Management, 2014. (Accept, in press, SCI)</p><p>
+2.&nbsp;Yanchen Liu, Qian Dong, Chen Wu, Xiaohong Zhou, Hanchang Shi. Study of the succession of microbial communities for sulfur cycle response to ecological factors change in sediment of sewage system. Environmental Science and Pollution Research, 2014. (Accept, in press, SCI)</p><p>
+3.&nbsp; Yanchen Liu, ChenWu, Xiaohong Zhou, Hanchang Shi, D. Z. Zhu . Study on the sulfide elimination by intermittent nitrate dosing in sediments of sewer system. Journal of Environmental Science, 2014.&nbsp; (Accept, in press, SCI)</p><p>
+4.&nbsp; M. Zheng, Y. C. Liu, C. W. Wang. Modeling of enhanced denitrification capacity with microbial storage product in MBR systems. Saparation and Purification Technology, 2014,126: 1-6. (SCI), </p><p>
+5.&nbsp; Song L., Zhu L., Liu Yan-chen, Zhou X-H, Shi H-C. A disposable cobalt-based phosphate sensor based on screen printing technology. Science China Chemistry. 2014,57(9):1283-1290. (SCI)</p><p>
+6.&nbsp; X. H. Zhou, B. C. Huang, T. Zhou, Y. C. Liu, H.C. Shi. Aggregation behaviour of engineered nanoparticles and their impact on activated sludge in wastewater treatment. Chemosphere. 119 (2015) 568&ndash;576. (SCI)</p><p>
+7.&nbsp; Yanchen Liu, Han chang Shi , Zhi qiang Wang, Long Fan, Hui ming Shi. Approach to enhancing nitrogen removal performance with fluctuation of influent in an oxidation ditch system. Chemical Engineering Journal, 2013, 219:520-526. （SCI） </p><p>
+8.&nbsp; M. Zheng, Y. C. Liu, K. Xu, C. Wang, Hui He, Wei Zhu, Qian Dong. Use of low frequency and density ultrasound to stimulate partial nitrification and simultaneous nitrification and denitrification. Bioresource Technology, 2013, 146: 537-542. (SCI)</p><p>
+9.&nbsp; M. Zheng, Y. C. Liu, C. Wang, K. Xu. Study on enhanced denitrification using particulate organic matter in membrane bioreactor by mechanism modeling. Chemosphere. 2013,93: 2669-2674. (SCI)</p><p>
+10. X. H. Zhou, B. C. Huang, T. Zhou, Y. C. Liu, H.C. Shi. Aggregation behaviour of engineered nanoparticles and their impact on activated sludge in wastewater treatment. Chemosphere. 119 (2015) 568&ndash;576. (SCI)</p><p>
+11.&nbsp; L. Song, L. Zhu, Y. C. Liu, X. H. Zhou, H.C. Shi. A disposable cobalt-based phosphate sensor based on screen printing technology. Science China Chemistry, 2013, 10.1007/s11426-014-5127-6. (SCI)</p><p>
+12.&nbsp; X. H. Zhou, M. K. Zhang, T. Yu, Y. C. Liu, H.C. Shi. Oxygen profiles in biofilms undergoing endogenous respiration. Chemical Engineering Journal, 2013, 220: 452-458. （SCI）</p><p>
+13．Yanchen Liu, Hanchang Shi, Wenlin Li, Yanling Hou, Miao He. Inhibition of chemical dose in biological phosphorus and nitrogen removal in simultaneous chemical precipitation for phosphorus removal. Bioresource Technology, 2011, 102(5): 4008-4012. （SCI）</p><p>
+14. Yanchen Liu, Hanchang Shi, Huiming Shi, Zhiqiang Wang. Study on a discrete-time dynamic control model to enhance nitrogen removal with fluctuation of influent in oxidation ditches. Water Research, 2010.44(18): 5150-5157. （SCI）</p><p>
+15.&nbsp; Liu Yanchen, Shi Hanchang, Xia Lan, Shi Huiming, Shen Tonggang, Wang Zhiqiang, Wang Gan, Wang Yingzhe. Study of operational conditions of simultaneous nitrification and denitrification in a Carrousel oxidation ditch for domestic wastewater treatment. Bioresource Technology, 2010, 101(3) : 901-905. （SCI）</p><p>
+16. Yanchen Liu, Long Fan, Zhiqiang Wang, Hanchang Shi. Simulation and control strategy for the variational influent of WWTP. Journal of Environmental Science, 2006, 18(1): 62-68. （SCI）</p><p>
+17. Y. Wang, Y. C.Liu, H. C. Shi. Study on the optimal operation strategy of sewer system of beixiaohe district in Beijing city. China Water and Wastewater, 2014.30(23):1-3 (China)</p><p>
+18. T. J. Zhang, C. Wu, Y. C. Liu, X. H. Zhou, T. Wang. H. C. Shi. Study on the influence of oxygen aeration as a means of controlling sulfide accumulation of sewer system. China Environmental Science, 2013, 33(11): 1953-1957. (China)</p><p>
+19. R. J. He, Y. C. Liu, L.A. Wu, W. Wu, Y. Xu, D. P. Qian, J. Li.&nbsp; Construction and Application of Information Management System for Sewer System in Wuxi City. China Water and Wastewater, 2013, 29(11): 18-21. (China)</p><p>
+20. Hanchang Shi, Ji Li, Li Chen, Yanchen Liu, Xianghua Wen, Renjie He, Dongquan Zhao, Qinxue Wen. The study on the optimal operation technology of wastewater treatment and drainage pipe network of Taihu lake basin. Water and Wastewater, 2012,10:21-24. (China)</p><p>
+21. Lan Xia, Shuquan Zhu, Yanchen Liu, Hanchang Shi. Effect of different operational conditions on simultaneous nitrogen and phosphorus removal in carrousel oxidation ditch. Journal of Environmental Engineering, 2012, 6(1): 73-76. (China)</p><p>
+22．钱晨, 刘艳臣, 汪诚文. 真空排水系统动力学特征及其优化设计方法研究. 中国给水排水, 2012, 03:110-113.</p><p>
+23．刘艳臣, 张书军, 沈悦啸, 梁鹏, 黄霞, 施汉昌. 快速城市化进程中排水管网运行管理的技术思考与展望. 中国给水排水, 2011, 27(14): 1-4.</p><p>
+24．刘艳臣, 范茏, 王志强, 陈大方, 施汉昌, 罗彬, 王颖哲. Carrousel氧化沟内特性参数的分布. 中国环境科学,&nbsp; 2007, 27(6): 792-796.</p><p>
+25．刘艳臣, 施汉昌, 王志强, 王淦, 戴贤良, 王颖哲. Carrousel氧化沟溶解氧变化规律及其优化控制条件研究. 中国环境科学,&nbsp; 2008, 28(9):843-846.</p><p>
+26．施慧明, 刘艳臣, 施汉昌, 王颖哲, 王淦. 深水型表面曝气机的模拟计算与构型比较. 环境工程学报, 2008,2(2): 154-159.</p><p>
+27．侯艳玲, 刘艳臣, 邱勇, 何苗, 施汉昌. 辅助化学除磷药剂中Fe3+、Al3+对生物系统污泥活性影响的研究. 给水排水, 2010, 36(6): 38-41.</p><p>
+28．范茏, 陈大方, 刘艳臣, 王志强, 施汉昌. Carrousel氧化沟单个表曝机流态的模型试验和分析比较.环境科学研究, 2007,20(4): 97-101.</p><p>
+29．范茏, 王志强, 刘艳臣, 陈大方, 施汉昌. 双表曝机Carrousel氧化沟流态的PDA实验研究. 合肥工业大学学报( 自然科学版), 2007, 30(11): 1454-1457.</p><p>
+30．范茏, 陈大方, 王志强, 刘艳臣, 施汉昌. Carrousel 氧化沟的流动特性研究. 环境污染设备技术与设备, 2006, 7(12):36-41.</p><p>
+31．范茏, 王志强, 王颖哲, 陈大方, 罗彬, 刘艳臣, 施汉昌. 污水厂Carrousel氧化沟溶解氧和流速分布的研究. 环境工程学报, 2007, 1(1): 19-22.</p><p>
+32．范茏, 王志强, 王颖哲, 陈大方, 罗彬, 刘艳臣, 施汉昌. 污水处理厂脱氮效果及相关参数的分析. 环境工程学报, 2007,1(6): 1-5.</p>
+<p><strong>会议论文：</strong></p>
+<p>1.&nbsp;Yanchen Liu, Chen Wu, Hanchang Shi. Study on the optimal control condition of nitrate dosing for sulfide control in sediment of sewer system. 2nd International Conference on Water Research,in Singapore Expo, 20-23 January 2013.</p><p>
+2.&nbsp;Mingkai Zhang, Yanchen Liu, Hanchang Shi, Yong Qiu, He Jing. Study on the evaluation method of sewer operation performance by the recognizing region feature based on the wastewater quantity and quality monitoring, in Singapore Expo, 20-23 January 2013.</p><p>
+3.&nbsp;Yanchen Liu, Yong Qiu, He Jing, Hanchang Shi, Ji Li, Renjie He. The Estimate of Influence of Drainage Pipe Network Operation on Influent of WWTP. International conference on pipelines and trenchless technology, ASCE, Xi&rsquo;an. 2013, 10.</p><p>
+4.&nbsp;Yanchen Liu, Chen Wu, Qian Dong, Xiaohong Zhou, Hanchang Shi. Estimate the sulfide accumulation and control in sediment of sewer system. 7th international conference on sewer processes and networks, United Kingdom, the edge conference centre Sheffield, 2013.8.</p><p>
+5.&nbsp;He Jing, Yanchen Liu, Mingkai Zhang, Yong Qiu, Hanchang Shi. Integrated operation strategy of sewer system and WWTP based on the flow control coupled with the evaluation of wastewater quality variation. 7th international conference on sewer processes and networks, United Kingdom, the edge conference centre Sheffield, 2013.8.</p><p>
+6.&nbsp;Mingkai Zhang, Yanchen Liu, Hanchang Shi. Assessing infiltration and inflow based on quantity and quality in sewer system. 8th International Conference on Environment Simulation and Pollution Control, In Beijing, 2013.11.</p><p>
+7.&nbsp;Yanchen Liu, Xiaohong zhou, Hanchang Shi, Chen Wu. The sulfur cycle of biofilm and sediments in sewer system. 7th International Conference on Environment Simulation and Pollution Control, In Beijing, 2011.11.</p><p>
+8.&nbsp;Mingkai Zhang, Yanchen Liu, He Jing, Yong Qiu, Zhiqiang Wang, Hanchang Shi. The method of recognition of regional feature and prediction of the flow data in drainage pipe network. 7th International Conference on Environment Simulation and Pollution Control, In Beijing, 2011.11.</p><p>
+9.&nbsp;Yanchen Liu, He Jing, Yong Qiu, Hanchang Shi. Study on the variation character and forecasting method of flow between pump stations in sewer and WWTP. 6th international conference on sewer processes and networks, In Australia, 2010, 11.</p><p>
+10.&nbsp;Yanchen Liu, Hanchang Shi. Study on a dynamic control model to enhance nitrogen removal in oxidation ditches. 10th IWA Conference on Instrumentation Control and Automation 14-17 June 2009 Cairns, Australia, <a href="http://www.iwa-ica2009.org/">www.iwa-ica2009.org</a>.</p><p>
+11.&nbsp;Yanchen Liu, Hanchang Shi. The application of WEST in the dynamic control to enhance nitrogen removal with fluctuation of influent. WWWEST 2009&nbsp; Copenhagen, April 2009, <a href="http://www.mostforwater.com/">http://www.mostforwater.com/</a> Documents/Wwwest2009_ 20090415.htm</p><p>
+12.&nbsp;Liu Yanchen, Shi Hanchang, Wang Zhiqiang. Study the effect of influent fluctuation on operation of WWTP by simulation， 4th Leading Edge Conference and Exhibion on Water and Wastewater Technologies,In Singapore, 2007, 6.</p><p>
+13.&nbsp;Yanchen Liu, Hanchang Shi, Zhiqiang Wang. Study on the influence and control for the uncertainty variational in influent of WWTP, International workshop on Monitoring and Sensor, In Beijing, 2007, 6.</p><p>
+14.&nbsp;Yanchen Liu, Hanchang Shi. Study on the strategy of dynamic control for SND in Oxidation Ditch, The Croucher Foundation Advanced Study Institute (ASI) 2006-Leading-Edge Strategies and Technologies For Sustainable Urban Water Mannagement, In Hongkong, 2006, 8.</p><p>
+15.&nbsp;Yanchen Liu, Hanchang Shi, Zhiqiang Wang. Study on the process control to reducing the influence of influent change, The 2nd IWA Conference on Instrumentation, Control and Automation for water and wastewater treatment and transport systems, In Busan, 2005, 5.</p>
+<p><strong>参编论著：</strong></p>
+<p>1.&nbsp;污水处理在线监测仪器原理与应用（第二版）[M]. 施汉昌，周小红，刘艳臣. 化学工业出版社，2013年11月.</p>
+<p><strong>申请授权专利：</strong></p>
+<p>1.&nbsp;施汉昌,刘艳臣,等. 一种排水管网多指标在线监测装置, 申请号：2013101414245</p><p>
+2.&nbsp;刘艳臣,等. 城市排水管网在线监测信号转译配置系统V1.0,&nbsp; 2014SR049384</p><p>
+3.&nbsp;刘艳臣,等. 排水管网多指标在线监测传感器现场维护管理软件V1.0, 2014SR049391</p><p>
+4.&nbsp;汪诚文,刘艳臣,等. 真空排水系统集水界面单元装置.国家发明专利.国家发明专利,授权号: ZL 2010 1 0505036.7</p><p>
+5.&nbsp;汪诚文,钱晨,刘艳臣,等.一种真空排水系统集水界面单元的气动执行设备. 国家发明专利,申请号:ZL 201010244406.6</p><p>
+6.&nbsp;施汉昌,施慧明,刘艳臣. 一种倒伞型氧化沟曝气机叶轮的结构.&nbsp; 国家发明专利，专利号: ZL 2007 1 0176396.5</p><p>
+7.&nbsp;施汉昌,刘艳臣,王志强. 基于入水变化的氧化沟智能控制系统.国家发明专利，专利号: ZL200710177244.7</p>
+                  </div>
+                      <!--s2_right_con结束处-->
+                    <!-- end -->
+                                                              
+                </td>
+              </tr>
+            </table>
+            <!-- end -->
+                                       
+       </div>
+        <!-- 中部区域结束 -->
+        
+        <!-- 页脚区域开始 -->
+        <!-- 页脚区域开始 -->
+        <div class="footer nomalwidth auto"><div class="footer nomalwidth auto"><p style="text-align: center;"><span style="color: rgb(51, 51, 51);">Copyright&nbsp;<img title="copyright_black.png" src="/publish/env/6421/20110117161025461497872/1492675051132.png"/> 2017&nbsp;清华大学环境学院<span style="color: rgb(0, 0, 0);"> </span></span></p><p style="text-align: center;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">地址：清华大学中意环境节能楼&nbsp;&nbsp;100084</span></p></div><!-- 页脚区域结束 --><!-- 页脚区域结束 --><!-- 整体区域结束 --></div>
+<!-- 页脚区域结束 -->        <!-- 页脚区域结束 -->
+        
+ </div>
+    <!-- 整体区域结束 -->
+</body>
+</html>
