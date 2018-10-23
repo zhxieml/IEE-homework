@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="Author" content="微普科技 http://www.wiipu.com">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>北京大学暑期学校</title>
+	<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+	<link type="text/css" rel="stylesheet" href="css/common.css"/>
+	<link type="text/css" rel="stylesheet" href="css/index.css"/>
+	<link type="text/css" rel="stylesheet" href="css/slider.css"/>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/superslide.2.1.js"></script>
+	
+	<link type="text/css" rel="stylesheet" href="css/flexslider.css"/>
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){		
+		//轮播图效果
+		$('.flexslider').flexslider({
+			pauseOnAction: false,
+			directionNav: true
+		});
+		$(".flex-direction-nav .flex-prev").text("<");
+		$(".flex-direction-nav .flex-next").text(">");
+		//轮播图文字上阴影设置的大小
+		var banner_width = $(".banner_swap").width();
+		
+		if(banner_width > 1920){
+			banner_width = 1920;
+		}
+		if(banner_width < 1280){
+			banner_width = 1280;
+		}
+		$(".banner_swap").css("width",banner_width+"px");		
+		
+		//新闻鼠标悬停效果
+		$(".newsmain .newslink").mouseover(function(){
+			$(this).parents("li").css("border-color","#595959");
+			$(this).parents("li").find(".blackshadow").show();
+		});
+		$(".newsmain .newslink").mouseout(function(){
+			$(this).parents("li").css("border-color","#fdde7d");
+			$(this).parents("li").find(".blackshadow").hide();
+		});
+		$(".blackshadow").mouseover(function(){
+		$(this).parents("li").css("border-color","#595959");
+			$(this).show();
+		});
+		$(".blackshadow").mouseout(function(){
+			$(this).parents("li").css("border-color","#fdde7d");
+			$(this).hide();
+		});
+		
+		//学生感言部分轮播效果
+		$("#slider_student").slide({
+			titCell:".hd ul", 
+			mainCell:".bd ul", 
+			effect:"leftLoop",
+			interTime:5000,
+			autoPlay:false, 
+			vis:1,
+			autoPage:false, 
+			trigger:"click"
+		});
+	});
+	</script>
+</head>
+<body>
+	<div id="index_swap" class="warp">
+		<!--头部-->
+		<div id="top">
+	<!--顶部-->
+	<div class="header oh">
+		<div class="logo fl"><a href="#"><img src="images/common/logo.png" alt="logo"/></a></div>
+		<div class="links fr">
+			<ul class="oh">
+				
+							<li class="login fl"><a href="stu/login.html" target="_blank">登录</a></li>
+							<li class="register dividing fl"><a href="stu/register.html" target="_blank">注册</a></li>
+										<li class="dividing fl"><a href="en/en_pkuss_intro.php">English</a></li>
+				<li class="last fl"><a href="contact.php">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--导航及搜索-->
+	<div class="nav_container">
+		<div class="nav_swap oh">
+			<ul class="nav fl oh">
+				<li class="fl"><a href="index.php">首页</a></li>
+				<li class="fl"><a href="pkuss_intro.php">关于我们</a></li>
+				<li class="fl"><a href="course.php">课程信息</a></li>
+				<li class="fl"><a href="teaching_rule.php">教学规章</a></li>
+				<li class="fl"><a href="enrollment.php">报名信息</a></li>
+				<li class="fl"><a href="life.php">生活服务</a></li>
+				<li class="fl"><a href="pkuss_stat.php">历史数据</a></li>
+				<li class="fl"><a href="qa.php">Q&A</a></li>
+			</ul>
+			<div class="searchbox fr">
+				<form action="search.php" method="get">
+					<input type="text" placeholder="搜索关键词" name="keywords" id="s_keywords"/>
+					<input type="image" src="images/common/icon_nav_search.png" id="btn_search"/>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>		
+		<!--主体内容-->
+		<div class="index_main">			
+			<!--轮播内容-->
+			<div id="banner">
+				<div class="flexslider">
+					<ul class="slides">
+						
+										<li style="background: url(userfiles/flash/20160203172518114.jpg) 50% 50% no-repeat;">
+											<a href="http://summer.pku.edu.cn">
+												<div class="banner_swap">
+													<div class="word_swap oh">
+														<div class="bannerword fr">
+															<p class="btime"><span class="month">02</span>/03</p>
+															<h2 class="btitle">2018北京大学暑期学校欢迎您</h2>
+															<p class="btext">2018年暑期学校将在7月9日-8月10日期间举行，课程信息时间为4月10日，账户注册时间为5月7日。北大研究生开放选课时间为5月25日，外校学生选课时间为5月28日，敬请关注！</p>
+														</div>
+													</div>
+												</div>				
+											</a>
+										</li>
+									
+										<li style="background: url(userfiles/flash/20170308173440648.jpeg) 50% 50% no-repeat;">
+											<a href="flash_info.php?id=11">
+												<div class="banner_swap">
+													<div class="word_swap oh">
+														<div class="bannerword fr">
+															<p class="btime"><span class="month">03</span>/08</p>
+															<h2 class="btitle">许青春不负荣耀——2016届学生反馈集锦</h2>
+															<p class="btext">来，听听同学们对暑期学校的感受吧。点击进入</p>
+														</div>
+													</div>
+												</div>				
+											</a>
+										</li>
+									
+										<li style="background: url(userfiles/flash/20170308173045455.jpg) 50% 50% no-repeat;">
+											<a href="http://summer.pku.edu.cn/news_info.php?id=16">
+												<div class="banner_swap">
+													<div class="word_swap oh">
+														<div class="bannerword fr">
+															<p class="btime"><span class="month">03</span>/08</p>
+															<h2 class="btitle">燕园情，千千结——2016北京大学暑期学校圆满落幕</h2>
+															<p class="btext">共有2696名北大学生通过校内选课系统选课，选课3508门次。校外选课学生总共2611人，选课3712门次。</p>
+														</div>
+													</div>
+												</div>				
+											</a>
+										</li>
+									
+										<li style="background: url(userfiles/flash/20160530082954565.jpg) 50% 50% no-repeat;">
+											<a href="http://summer.pku.edu.cn">
+												<div class="banner_swap">
+													<div class="word_swap oh">
+														<div class="bannerword fr">
+															<p class="btime"><span class="month">05</span>/30</p>
+															<h2 class="btitle">2017国际暑期学校课程欢迎广大国内同学选修</h2>
+															<p class="btext">今年，国际暑期学校课程继续开设20余门精品课程，授课老师为北大老师或聘请的外教名师。目前这批课程尚有部分名额，为保障资源充分利用，加强课堂的多元性，课程将继续向国内广大学生开放选修。感兴趣的同学，可以自行在暑期学校网站注册后选修“国际课程”系列里的相应课程。</p>
+														</div>
+													</div>
+												</div>				
+											</a>
+										</li>
+															
+					</ul>
+				</div>				
+			</div>
+			
+			<!--快捷访问-->
+			<div class="quick_access">
+				<div class="fl left_block">
+					<ul class="oh">
+						<li class="fl">
+							<a class="icon wechat" href="#"></a>
+							<a href="#">微信</a>
+						</li>
+						<li class="fl">
+							<a class="icon email" href="#"></a>
+							<a href="mailto:sqxx@pku.edu.cn">邮箱</a>
+						</li>
+						<li class="fl">
+							<a class="icon join" href="stu/login.html"></a>
+							<a href="stu/login.html">报名/登录</a>
+						</li>
+						<li class="fl">
+							<a class="icon teacher" href="teacher_area.php"></a>
+							<a href="teacher_area.php">教师专区</a>
+						</li>
+						<li class="fl">
+							<a class="icon download" href="download.php"></a>
+							<a href="download.php">下载专区</a>
+						</li>
+					</ul>
+				</div>
+				<div class="fr right_block">
+					<li class="fl" style="width:39%;">
+						<a href="http://www.oir.pku.edu.cn/summerschool/" target="_blank">
+							<p>国际暑期学校</p>
+							<p style="font-size:10px;">Summer School International</p>
+						</a>
+					</li>
+					<li class="fl"  style="width:30%;"><a href="pkuss_read.php">港澳台专项</a></li>
+					<li class="fl last"  style="width:30%;">
+						其他项目
+						<ul id="other_project">
+							<li><a href="http://globex.coe.pku.edu.cn/">Globex项目</a></li>
+						</ul>
+					</li>
+				</div>
+			</div>
+
+			<div class="main oh">
+				<!--公告-->
+				<div class="notice fl">
+					<div class="title oh">
+						<h2 class="fl">公告<span class="en">NOTICE</span></h2>
+						<a class="fr more" href="notice.php"></a>
+					</div>
+					<ul>
+						
+										<li class="oh">
+											<div class="ntime fl"><p class="day">25</p><p>2018-07</p></div>
+											<div class="ncontent fr tl">
+												<h3 class="ntitle"><a href="notice_info.php?id=56">2018年北京大学暑期学校课程评估通知</a></h3>
+												<p style="text-indent: 2em"><a href="notice_info.php?id=56">同学们的意见对促进教师提高教学水平、改进课堂教学具有积极作用。所有的评价意见都是匿名的，请同学们填写时不要有顾虑。</a></p>
+												<p class="taglist"></p>
+											</div>
+										</li>
+									
+										<li class="oh">
+											<div class="ntime fl"><p class="day">09</p><p>2018-07</p></div>
+											<div class="ncontent fr tl">
+												<h3 class="ntitle"><a href="notice_info.php?id=54">暑期学校校园卡、网络使用说明</a></h3>
+												<p style="text-indent: 2em"><a href="notice_info.php?id=54">暑期学校校园卡无法用绑定微信，网络需先缴费才能使用。具体请进</a></p>
+												<p class="taglist"></p>
+											</div>
+										</li>
+									
+										<li class="oh">
+											<div class="ntime fl"><p class="day">28</p><p>2018-06</p></div>
+											<div class="ncontent fr tl">
+												<h3 class="ntitle"><a href="notice_info.php?id=53">2018年暑期学校报到通知</a></h3>
+												<p style="text-indent: 2em"><a href="notice_info.php?id=53">从7月8日起设置不同报到时段。请根据自己选课情况选择合适时段前来报到。</a></p>
+												<p class="taglist"></p>
+											</div>
+										</li>
+															
+					</ul>					
+				</div>
+				
+				<!--日程表-->
+				<div class="schedule fr">
+					<div class="title oh">
+						<h2 class="fl">日程表<span class="en">SCHEDULE</span></h2>
+						<a class="fr more" href="notice_info.php?id=43" style="margin-right:33px;"></a>
+					</div>
+					<ul>
+						<li class="active"><div class="sicon"></div><p class="fl stime">2018-04-10</p><p class="fl">课程发布</p><div class="cb"></div></li>
+						<li><div class="sicon"></div><p class="fl stime">2018-04-16</p><p class="fl">北大本科生选课</p><div class="cb"></div></li>
+						<li><div class="sicon"></div><p class="fl stime">2018-05-21</p><p class="fl">校内选课结束</p><div class="cb"></div></li>
+						<li><div class="sicon"></div><p class="fl stime">2018-05-25</p><p class="fl">北大研究生选课</p><div class="cb"></div></li>
+						<li><div class="sicon"></div><p class="fl stime">2018-05-28</p><p class="fl">外校学生选课</p><div class="cb"></div></li>
+						<li><div class="sicon"></div><p class="fl stime">2018-06-28</p><p class="fl">外校学生选课结束</p><div class="cb"></div></li>
+						<li><div class="sicon"></div><p class="fl stime">2018-07-08</p><p class="fl">外校学生报到</p><div class="cb"></div></li>
+						<li><div class="sicon"></div><p class="fl stime">2018-07-23</p><p class="fl">外校学生报到</p><div class="cb"></div></li>
+                        <!--
+                        <li>
+							<div class="sicon"></div>
+							<p class="fl stime">2016-04-12</p>
+							<div class="fl">
+								<p>知名企业参观</p>
+								<p class="ssecond">日常安排3天，地点杭州</p>
+							</div>
+							<div class="cb"></div>
+						</li>
+                        -->
+					</ul>
+				</div>
+			</div>
+			
+			<div class="main">
+				<!--新闻-->
+				<div class="news">
+					<div class="title oh">
+						<h2 class="fl">新闻<span class="en">NEWS</span></h2>
+						<a class="fr more" href="news.php"></a>
+					</div>
+					<div class="newsmain">
+						<ul class="oh">
+							
+										<li class="fl">
+											<a href="news_info.php?id=16" class="blackshadow"></a>
+											<div class="newsimg"><a href="#" class="newslink"><img src="userfiles/news/20170309080300324.jpg" alt="新闻图片" width="360" height="219"/></a></div>
+											<h3 class="newstitle"><a href="news_info.php?id=16" class="newslink">燕园情，千千结——2016北京大学暑期学校圆满举办</a></h3>
+											<p class="newscontent" style="text-indent: 2em"><a href="news_info.php?id=16" class="newslink">在北大，真真实实地感受到大学之道，这里是一个崇尚自由的地方，是一个愿意让每一个人做梦，去努力追求自己梦想的地方。</a></p>
+											<p class="newstime">2016-08-08</p>
+										</li>
+									
+										<li class="fl">
+											<a href="news_info.php?id=13" class="blackshadow"></a>
+											<div class="newsimg"><a href="#" class="newslink"><img src="userfiles/news/20170308133254968.jpg" alt="新闻图片" width="360" height="219"/></a></div>
+											<h3 class="newstitle"><a href="news_info.php?id=13" class="newslink">未名湖畔好读书——北大暑期学校2016港澳台项目圆满举办</a></h3>
+											<p class="newscontent" style="text-indent: 2em"><a href="news_info.php?id=13" class="newslink">一个月的时光不短不长。当港澳台暑期学校的同学们渐渐熟悉了燕南园幽静的小道，喜欢上未名湖的日落与日出，离不开松林的包子和豆浆时，告别的日子也来了。临别之际，香港大学的林家纬同学告诉辅导员：“这其实是我第二次来北大，我有预感，日后还有机会在这里相见。”</a></p>
+											<p class="newstime">2016-08-05</p>
+										</li>
+									
+										<li class="fl">
+											<a href="news_info.php?id=14" class="blackshadow"></a>
+											<div class="newsimg"><a href="#" class="newslink"><img src="userfiles/news/20170308133955556.jpg" alt="新闻图片" width="360" height="219"/></a></div>
+											<h3 class="newstitle"><a href="news_info.php?id=14" class="newslink">五洲汇聚：2016北大国际暑期学校拉开序幕</a></h3>
+											<p class="newscontent" style="text-indent: 2em"><a href="news_info.php?id=14" class="newslink">本届国际暑期学校招生总人数达到242人，来自26个国家和地区，其中包括来自国际研究型大学联盟、荷兰亚洲暑期项目联盟、伦敦国王学院、新加坡国立大学等世界知名联盟及高校学生。</a></p>
+											<p class="newstime">2016-07-06</p>
+										</li>
+															</ul>
+					</div>
+				</div>
+			</div>
+						<!--学生感言-->
+			<div class="student_feel">
+				<div class="student_swap">
+					<h2 class="stu_title"><a href="student_feel.php">学生感言</a></h2>
+					<div id="slider_student">
+						<div class="bd">
+							<ul>
+								
+    										<li>
+												<div class="simg"><img alt="学生头像" src="http://summer.pku.edu.cn/userfiles/user/20170209121627995.jpeg"/></div>
+												<p class="sname">董科含</p>
+												<p class="sword">感谢北大，让我们这些在海外求学的留学生能够有机会感受国内顶尖大学的教育。天南海北的中国大学生齐聚在北大，一起交流一起学期是一件多么幸福的事！</p>
+												<p class="scount">1/3</p>
+											</li>
+    									
+    										<li>
+												<div class="simg"><img alt="学生头像" src="http://summer.pku.edu.cn/userfiles/user/20160510174943540.jpg"/></div>
+												<p class="sname">黄洛茵</p>
+												<p class="sword">今年在北京大學，我們不只學習了不同學科的知識，更豐富了我們的閱歷，帶我們參觀了不同的觀點，讓我們對祖國的認識更深。除此之外，透過不同的文化交流活動，讓我們對國家更有歸宿感。</p>
+												<p class="scount">2/3</p>
+											</li>
+    									
+    										<li>
+												<div class="simg"><img alt="学生头像" src="http://summer.pku.edu.cn/userfiles/user/20160611163103604.jpg"/></div>
+												<p class="sname">关霖</p>
+												<p class="sword">真正的教育是：其身正，不令而行。教授恳切的鼓励，课上的谆谆教导，组成了这个无比美好的夏天。与教授度过的这个夏天伴着我对于知识的向往的增长是我人生中最好的滋养。                                                 ...</p>
+												<p class="scount">3/3</p>
+											</li>
+    																</ul>
+						</div>
+						<div class="pnBtn prev"><a class="arrow" href="javascript:void(0)">&lt;</a></div>
+						<div class="pnBtn next"><a class="arrow" href="javascript:void(0)">&gt;</a></div>
+					</div>
+				</div>
+			</div>
+					</div>
+		<!--底部-->
+		<div id="footer">
+	<div class="contact oh">
+		<div class="fr"><img src="images/common/icon_footer_qrcode2.jpg" alt="二维码"/></div>
+		<div class="fr"><img src="images/common/icon_footer_qrcode.jpg" alt="二维码"/></div>
+		
+		<div class="fr worddiv tc">
+			<a href="http://www.dean.pku.edu.cn" target="_blank">
+				<p class="linkname">北京大学教务部</p><p class="phone">www.dean.pku.edu.cn</p>
+			</a>
+		</div>
+		<div class="fr worddiv tc">
+			<a href="http://www.oir.pku.edu.cn" target="_blank">
+				<p class="linkname">北京大学国际合作部</p><p class="phone">www.oir.pku.edu.cn</p>
+			</a>
+		</div>
+		<div class="fr worddiv tc">
+			<a href="http://hmt.pku.edu.cn" target="_blank">
+				<p class="linkname">北京大学港澳台办公室</p><p class="phone"> hmt.pku.edu.cn</p>
+			</a>
+		</div>
+	</div>
+	<div class="weblinks cb">
+		<div class="weblinks_swap oh">
+			<ul class="fl first">
+				<li>课程信息</li>
+				<li><a href="course_list.php?type=1">A类课程（仅限北大学生报名）</a></li>
+				<li><a href="course_list.php?type=2">B类课程</a></li>
+				<li><a href="course_list.php?type=3">C类课程</a></li>
+				<li><a href="course_list.php?type=4">国际暑期学校课程</a></li>
+				<li><a href="download.php">往年课程</a></li>				
+			</ul>
+			<div class="fl dividing"></div>
+			<ul class="fl">
+				<li>教学规章</li>
+				<li><a href="teaching_rule.php#course">选课</a></li>
+				<li><a href="teaching_rule.php#withdraw">退课</a></li>
+				<li><a href="teaching_rule.php#assessment">课程考核</a></li>
+				<li><a href="teaching_rule.php#norm">学术规范</a></li>
+				<li><a href="teaching_rule.php#evaluation">课程评估</a></li>
+				<li><a href="teaching_rule.php#report">成绩单</a></li>
+				<li><a href="teaching_rule.php#conversion">学分转换</a></li>		
+			</ul>
+			<div class="fl dividing"></div>
+			<ul class="fl">
+				<li>报名信息</li>
+				<li><a href="enrollment.php#obj">申请要求</a></li>
+				<li><a href="enrollment.php#applytime">申请时间</a></li>
+				<li><a href="enrollment.php#step">申请流程</a></li>
+				<li><a href="enrollment.php#fee">费用</a></li>
+				<li><a href="enrollment.php#paytype">支付方式</a></li>
+				<li><a href="enrollment.php#withdraw">退出政策</a></li>
+			</ul>
+			<div class="fl dividing"></div>					
+			<ul class="fl last">
+				<li>生活服务</li>
+				<li><a href="life.php#security">安全信息</a></li>
+				<li><a href="life.php#food">餐饮服务</a></li>
+				<li><a href="life.php#accommodation">住宿服务</a></li>
+				<li><a href="life.php#shopping">购物</a></li>
+				<li><a href="life.php#traffic">交通出行</a></li>
+				<li><a href="life.php#life">生活服务</a></li>
+				<li><a href="life.php#book">图书教材</a></li>
+				<li><a href="life.php#map">北大吃货地图</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="bottom">
+		<div>
+			<a href="http://www.pku.edu.cn/" target="_blank">北大官网</a>
+			<a href="#">官方微站</a>
+			<a class="last" href="#">网站地图</a>
+		</div>
+		<div>
+			<p class="di">技术支持：<a href="http://www.wiipu.com" target="_blank">微普科技</a></p>
+			<p class="di">地址：北京市海淀区颐和园路5号</p>
+			<p class="di">咨询信箱：<a href="mailto:sqxx@pku.edu.cn">sqxx@pku.edu.cn</a></p>
+			<p class="di">版权所有&copy;北京大学</p>
+			<p class="di">All Rights Reserved</p>
+			
+		</div>
+	</div>
+</div>
+	<div style="display:none;">
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "//hm.baidu.com/hm.js?3f32fec5805292941cc04ed3ad740540";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</div>
+<script type="text/javascript" src="js/common.js"></script>
+	
+	</div>
+</body>
+</html>

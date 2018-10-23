@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title> Sign In JD </title>
+    <meta name="google-translate-customization" content="4a59cc671fcf82c6-dde0ca028c594a15-g7518baae2bd23516-e"></meta>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="//www.jd.com/favicon.ico"/>
+ 
+		 <script>
+	    var site = 'en';
+	</script>    <script>
+	    var site = 'en';
+	</script>
+<link media="all" href="//static.joybuy.com/ept/newapp/app/css/base.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//static.joybuy.com/ept/newapp/st-user/ui/website/css/common1.css"
+      media="all"/>
+<link media="all" href="//static.joybuy.com/ept/newapp/st-user/ui/website/css/content.css" type="text/css"
+      rel="stylesheet"/>
+<link media="all" href="/static/css/login-refactor.css" type="text/css" rel="stylesheet">
+
+<link media="all" href="//static.joybuy.com/ept/newapp/app/css/index.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="//static.joybuy.com/ept/newapp/jdf/lib/jquery-1.7.2.js"></script>
+<script src="/static/js/lib/layer/layer.js"></script>
+<script type="text/javascript" src="//static.joybuy.com/ept/newapp/ept/static/js/page/common/??site/site-en.js,lang/language-en.js?ver=544450744"></script>
+<script type="text/javascript" src="//static.joybuy.com/ept/newapp/jdf/1.0.0/unit/base/1.0.0/base.js"></script>
+<script type="text/javascript"
+        src="//static.joybuy.com/ept/newapp/st-user/js/??lib/components/lang.js,lib/utils/json2.js,lib/utils/cookie.js,lib/utils/droplist.js"></script>
+
+<script type="text/javascript">
+    seajs.config({
+        base: '//static.joybuy.com/ept/newapp/st-user/'/*,
+        comboExcludes: /.*!/*/
+    })
+</script>
+</head>
+
+<script type="text/javascript">
+    Site = {langId: 2};
+    var language = 'en';
+</script>
+
+<body>
+		
+<div class="login-hd">
+    <div class="w">
+        <a class="logo" href="//www.joybuy.com"></a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    Site = {langId: 2};
+</script>		<div class="login-bd">
+    <div class="w">
+        <div class="wrap clearfix">
+            <div class="login-ad" 
+            		            				clstag="pageclick|keycount|signin_en_201606298|1" 
+            		            	><a href="//sale.joybuy.com/pc/aluAKNXfbE.html"><img width="480" height="270" src="//img10.joybuy.com/da/jfs/t24478/208/1407476263/70772/f6970c0/5b5eb336N954a9116.png" alt=""/></a></div>
+            <div class="login-form">
+                <form id="loginFrmId" method="post" onsubmit="return false">
+                    <input type="hidden" name="uid" id="uid" value="">
+                    <input type="hidden" name="ReturnUrl" value="https://imsg.joybuy.com/usercenter/news/importantList.html?newsCategory=1">
+                    <input type="hidden" name="pk" value="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJWKHj1ONiU0C2HXhvTdQd+7Xkchhywt/JLbtCDIDI7H
+UaqsGh0seegE/k+AOd8Pbzum1FTIg6ySqHhVQDFmYI8CAwEAAQ=="/>
+                    <input type="hidden" name="fp" value=""/>
+                    <input type="hidden" name="eid" value=""/>
+                    <input type="hidden" name="res" value=""/>
+                    <div class="form-line">
+                        <div class="form-label"><label>Login account:</label></div>
+                        <div class="form-info">
+                            <input tabindex="1" type="text"  placeholder="Email address"
+                                   id="emailId" class="form-input"  />
+                            <div class="error" id="login_err" style="display: none">Your login account or password is incorrect. Please try again.</div>
+                            <input  type="hidden" id="submitEmail" name="email" />
+                        </div>
+                    </div>
+                    <div class="form-line">
+                        <div class="form-label"><label>Password:</label></div>
+                        <div class="form-info">
+                            <input tabindex="2" type="password" placeholder="Password"
+                                   name="password" id="pwdId" class="form-input"/>
+                        </div>
+                    </div>
+                    <div class="form-line">
+                        <div class="form-link tr"><a class="form-link" href="/findPwd/index.html?ReturnUrl=https%3A%2F%2Fimsg.joybuy.com%2Fusercenter%2Fnews%2FimportantList.html%3FnewsCategory%3D1">Forgot your password?</a></div>
+                    </div>
+                    <div class="form-line" id="authcodeDivId" style="display:none;">
+                        <div class="form-label">Security Code:</div>
+                        <div class="form-info">
+                            <input class="ui-form-ipt" type="text" id="authCodeId"
+                                   style="width: 60px;margin-right: 10px;" name="authCode" tabindex="3"/>
+                            <span class="chkpic" style="cursor:pointer;">
+                            			<img id="imgcode" style="margin-bottom:2px;" src="" alt="" height="26"/>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-line form-sub mt20">
+                        <a href="javascript:void(0)" tabindex="3" id="login-btn" class="btn-common btn-submit">Sign In</a>
+                        <a class="form-link fr" id="new-reg-btn" href="//reg.joybuy.com/reg/person.html?ReturnUrl=https%3A%2F%2Fimsg.joybuy.com%2Fusercenter%2Fnews%2FimportantList.html%3FnewsCategory%3D1">Join free now!</a>
+                    </div>
+                </form>
+                <div class="social-link">
+                    <span>Login with:</span>
+                        <span>
+                             <a tabindex="4" class="icon-facebook" href="javascript:login4FacebookUnion('https://imsg.joybuy.com/usercenter/news/importantList.html?newsCategory=1');"></a>                                                    <a tabindex="5" class="icon-pinterest" href="javascript:login4PinterestUnion('https://imsg.joybuy.com/usercenter/news/importantList.html?newsCategory=1');"></a>                                                         <a tabindex="7" class="icon-twitter" href="javascript:login4TwitterUnion('https://imsg.joybuy.com/usercenter/news/importantList.html?newsCategory=1');"></a>                                                 </span>
+                </div>
+                <div id="rcs-infos" style="margin-top: 10px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bgPopbox" id="popbox">
+    <div class="popbox">
+        <div class="pop_txt">
+            <h3>Thank you! Your have landed completed.</h3>
+
+            <p>5s later to <a id='login-success-redirect' href='javascript:void(0);'>redirect</a> to previous page before your registration...</p>
+        </div>
+        <a style="margin-left:0;" id="login-success-adv-address" href="javascript:void(0);" ;>
+            <img id="login-success-adv" src="" width="600" height="260" alt="">
+        </a>
+        <a href="javascript:void(0);" title="close" class="btn_close_popbox" id="btn_close_popbox">&times;</a>
+    </div>
+</div>
+<!-- popbox_login end -->
+
+<div id="status">
+</div>
+
+<script type="text/javascript">
+    var crossDomaisStr = '';
+    var domains = crossDomaisStr.substring(crossDomaisStr.indexOf("[")+1,crossDomaisStr.length-1).split(",");
+    if(domains && domains.length>0){
+        for (var i = 0; i < domains.length; i++) {
+            if(domains[i].trim() != '') {
+                $.ajax({
+                    type: "get",
+                    dataType: "jsonp",
+                    url: "//" + domains[i].trim() + "/cross/logout.html",
+                    cache: false,
+                    crossDomain: true,
+                    success: function (data) {
+                    }
+                });
+            }
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    seajs.use(['js/lib/components/cookie', 'js/lib/components/ucbase', 'js/lib/utils/jquery.i18n.properties', 'js/lib/utils/validator', 'js/lib/utils/jquery.form'], function () {
+        seajs.use(['js/lib/utils/lib-v2','js/lib/utils/validate_rules'],function(){
+            seajs.use(['js/page/login/login'],function(){});
+        });
+    });
+
+    function login4FacebookUnion(rUrl) {
+        var url = decodeReturnUrl(rUrl) || "http://www.joybuy.com";
+        var url2 = 'http://unionen.jd.com/new/facebook/login.html?ReturnUrl=' + escape(url).replace(/\//g, "%2F")
+                + "&res=" + $('input[name=res]').val() + "&eid=" + $('input[name=eid]').val() + "&fp=" + $('input[name=fp]').val();
+        window.location.href = url2;
+    };
+
+    function login4VkUnion(rUrl) {
+        var returnUrl = decodeReturnUrl(rUrl) || "http://www.joybuy.com";
+        window.location.href = 'http://unionen.jd.com/new/vk/login.html?ReturnUrl=' + escape(returnUrl).replace(/\//g, "%2F")
+                + "&res=" + $('input[name=res]').val() + "&eid=" + $('input[name=eid]').val() + "&fp=" + $('input[name=fp]').val();
+    };
+
+    function login4OkUnion(rUrl) {
+        var returnUrl = decodeReturnUrl(rUrl) || "http://www.joybuy.com";
+        window.location.href = 'http://unionen.jd.com/new/ok/login.html?ReturnUrl=' + escape(returnUrl).replace(/\//g, "%2F")
+                + "&res=" + $('input[name=res]').val() + "&eid=" + $('input[name=eid]').val() + "&fp=" + $('input[name=fp]').val();
+    };
+
+    function login4PinterestUnion(rUrl) {
+        var returnUrl = decodeReturnUrl(rUrl) || "http://www.joybuy.com";
+        window.location.href = 'http://unionen.jd.com/new/pinterest/login.html?ReturnUrl=' + escape(returnUrl).replace(/\//g, "%2F")
+                + "&res=" + $('input[name=res]').val() + "&eid=" + $('input[name=eid]').val() + "&fp=" + $('input[name=fp]').val();
+    };
+
+    function login4InstagramUnion(rUrl) {
+        var returnUrl = decodeReturnUrl(rUrl) || "http://www.joybuy.com";
+        window.location.href = 'http://unionen.jd.com/new/instagram/login.html?ReturnUrl=' + escape(returnUrl).replace(/\//g, "%2F")
+                + "&res=" + $('input[name=res]').val() + "&eid=" + $('input[name=eid]').val() + "&fp=" + $('input[name=fp]').val();
+    };
+
+    function login4TwitterUnion(rUrl) {
+        var returnUrl = decodeReturnUrl(rUrl) || "http://www.joybuy.com";
+        window.location.href = 'http://unionen.jd.com/thirdparty/twitter.html?ReturnUrl=' + escape(returnUrl).replace(/\//g, "%2F")
+                + "&res=" + $('input[name=res]').val() + "&eid=" + $('input[name=eid]').val() + "&fp=" + $('input[name=fp]').val();
+    };
+    
+    function login4GoogleUnion(rUrl) {
+        var returnUrl = decodeReturnUrl(rUrl) || "http://www.joybuy.com";
+        window.location.href = 'http://unionen.jd.com/new/google/login.html?ReturnUrl=' + escape(returnUrl).replace(/\//g, "%2F")
+                + "&res=" + $('input[name=res]').val() + "&eid=" + $('input[name=eid]').val() + "&fp=" + $('input[name=fp]').val();
+    };
+
+		function decodeReturnUrl(url) {
+				if (url) return decodeURIComponent(url).replace(/#.+$/,'');
+				return null;
+		};
+		
+    $("#pwdId").focus(function () {
+        $("#pwdId").val("");
+    });
+
+</script>
+
+<!-- google  -->
+<script type="text/javascript">
+    if(window.google_tag_params){
+        dataLayer = [{
+            'google_tag_params': window.google_tag_params
+        }];
+    }
+</script>
+
+<!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5DS654"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5DS654');</script>
+<!-- End Google Tag Manager -->
+<script src="//gias.joybuy.com/fp.html"></script>
+<script src="//gias.joybuy.com/js/md5.js"></script>
+<script src="//gias.joybuy.com/js/f.js"></script>
+<script>
+    var screen = window.screen;
+    if(screen){
+        document.querySelector('input[name="res"]').value = screen.width + 'x' + screen.height;
+    }
+    try{
+        getJdEid(function(eid,fp){
+            document.querySelector('input[name="eid"]').value = eid;
+            document.querySelector('input[name="fp"]').value = fp;
+        });
+    }catch(e){ }
+
+</script>
+<!--埋点-->
+<script>
+    $(function(){
+        //join free now的点击
+        $('#new-reg-btn').on('click',function(e){
+        		 try {log('click_join_free_now_'+site,'001');} catch (e){}
+        });
+        //忘记密码的点击
+        $('a',$('#authcodeDivId').prev()).on('click',function(e){
+        		 try {log('click_forget_pwd_'+site,'001');} catch (e){}
+        });
+        //联合登录-facebook的点击
+        $('.social-link .icon-facebook').on('click',function(e){
+        		 try {log('click_facebook_'+site,'001');} catch (e){}
+        });
+        //联合登录-pinterest的点击
+        $('.social-link .icon-pinterest').on('click',function(e){
+        		 try {log('click_pinterest_'+site,'001');} catch (e){}
+        });
+        //联合登录-witter的点击
+        $('.social-link .icon-twitter').on('click',function(e){
+         		 try {log('click_witter_'+site,'001');} catch (e){}
+        });
+        //联合登录-vk的点击
+        $('.social-link .icon-vk').on('click',function(e){
+        	   try {log('click_pinterest_'+site,'001');} catch (e){}
+        });
+        $('#login-btn').on('click',function(e){
+        		 try {log('click_sign_in_'+site,'001');} catch (e){}
+        });
+
+                loginWithJDAccount();
+            });
+
+    <!--ServerName: signin.joybuy.com   -->
+
+    // 京东账号登陆
+    function loginWithJDAccount() {
+        var bizCode='1';
+                    bizCode="1";//1 代表 en 站
+                //ept调主站接口2
+        $.ajax({
+            type: "GET",
+            cache: false,
+            async: false,
+            dataType: "jsonp",
+            jsonpCallback:"cb",
+            url: "https://sso.jd.com/setCookie?biz_code="+bizCode+"&rd="+new Date().getTime(),
+            //1 代表 en 站，2 代表 俄罗斯站，3 代表印尼站
+            //url: "//127.0.0.1:8080/testRedirect.do?biz_code=1",
+            data: {},
+            success: function (response) {
+                var result = response.data;
+                if (response.success) {//ok
+                    window.location.href = result.returnUrl;
+                }
+            },
+            error: function () {
+                //alert('error');
+            }
+        });
+
+
+        //接口1 写 ept的登录态
+    }
+
+</script>
+
+
+		<link rel="stylesheet" href="//static.joybuy.com/aui/1.0.0/css/aui.css">
+<link type="text/css" rel="stylesheet" href="//static.joybuy.com/ept/header/1.1.0/components/??/base/base.css,/shortcut/shortcut.css,/header/header.css,/footer/footer.css" />
+
+<footer class="footer">
+    <div class="w footer-w">
+        <div class="mod-service">
+            <div class="mod-service-item">
+                <div class="item-icon payment"></div>
+                <div class="item-title">
+                    <h4>Secure Payments</h4>
+                </div>
+                <div class="item-desc">
+                    <p>Pay with secure payment methods</p>
+                </div>
+            </div>
+            <div class="mod-service-item">
+                <div class="item-icon day"></div>
+                <div class="item-title">
+                    <h4>30-day Return Policy</h4>
+                </div>
+                <div class="item-desc">
+                    <p>If your item is not as described or damaged, you may return it within 30 days upon delivery.</p>
+                </div>
+            </div>
+            <div class="mod-service-item">
+                <div class="item-icon help"></div>
+                <div class="item-title">
+                    <h4>24/7 Customer Service</h4>
+                </div>
+                <div class="item-desc">
+                    <p>We'll respond to you within 24 hours</p>
+                </div>
+            </div>
+            <div class="mod-service-item">
+                <div class="item-icon delivery"></div>
+                <div class="item-title">
+                    <h4>Worldwide Delivery</h4>
+                </div>
+                <div class="item-desc">
+                    <p>Covers more than 200 countries and regions worldwide</p>
+                </div>
+            </div>
+            <div class="mod-service-item">
+                <div class="item-icon brands"></div>
+                <div class="item-title">
+                    <h4>International Brands</h4>
+                </div>
+                <div class="item-desc">
+                    <p>Guaranteed authenticity</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mod-copyright">
+            <p>Copyright &copy; 2016-<span id="cr-full-year">2018</span>Joybuy.com. All Rights Reserved</p>
+            <script>document.getElementById('cr-full-year').innerText=(new Date()).getFullYear()</script>
+        </div>
+    </div>
+</footer>
+		
+
+<!-- DO NOT MODIFY -->
+<script>
+    var jaq = jaq || [];
+    jaq.push(['account','UA-J2011-6']);
+    jaq.push(['domain','www.joybuy.com']);
+    jaq.push(['erp_account', '']);
+    (function () {
+        var ja = document.createElement('script');
+        ja.type = 'text/javascript';
+        ja.async = true;
+        ja.src = '//wl.joybuy.com/joya.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ja, s);
+    })();
+</script>
+<script type="text/javascript">
+    if(window.google_tag_params){
+        dataLayer = [{
+            'google_tag_params': window.google_tag_params
+        }];
+    }
+</script>
+
+
+<!-- End Google Tag Manager --></body>
+</html>
+

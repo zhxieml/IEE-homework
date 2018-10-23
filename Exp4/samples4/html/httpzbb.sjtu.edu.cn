@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk2312" />
+<meta name="keywords" content="上海交通大学招投标与政府采购办公室" 111/>
+<meta content="all" name="robots" />
+<link href="/r/cms/www/red/style/global.css" type="text/css" rel="stylesheet" />
+<link href="/r/cms/www/red/style/index.css" type="text/css" rel="stylesheet" />
+<script src="/r/cms/www/red/style/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="/r/cms/www/red/style/OpenWindow.js" type="text/javascript"></script>
+<link href="/r/cms/www/red/style/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<title>上海交通大学招投标与政府采购办公室</title>
+</head>
+<body>
+<TABLE align=center>
+<TR>
+	<TD>
+
+<!---<DIV id=img1 onmouseover=pause_resume(); onmouseout=pause_resume(); style="Z-INDEX: 100; LEFT: 2px; TOP: 43px; POSITION: absolute;  
+ visibility: visible;"><script type="text/javascript" src="/ad.jspx?id=1"></script></DIV>
+
+<SCRIPT language=javascript> 
+var xPos = 300;
+var yPos = 200; 
+var step = 1;
+var delay = 30; 
+var height = 0;
+var Hoffset = 0;
+var Woffset = 0;
+var yon = 0;
+var xon = 0;
+var pause = true;
+var interval;
+img1.style.top = yPos;
+function changePos() 
+{
+	width = document.body.clientWidth;
+	height = document.body.clientHeight;
+	Hoffset = img1.offsetHeight;
+	Woffset = img1.offsetWidth;
+	img1.style.left = xPos + document.body.scrollLeft;
+	img1.style.top = yPos + document.body.scrollTop;
+	if (yon) 
+		{yPos = yPos + step;}
+	else 
+		{yPos = yPos - step;}
+	if (yPos < 0) 
+		{yon = 1;yPos = 0;}
+	if (yPos >= (height - Hoffset)) 
+		{yon = 0;yPos = (height - Hoffset);}
+	if (xon) 
+		{xPos = xPos + step;}
+	else 
+		{xPos = xPos - step;}
+	if (xPos < 0) 
+		{xon = 1;xPos = 0;}
+	if (xPos >= (width - Woffset)) 
+		{xon = 0;xPos = (width - Woffset);   }
+	}
+	
+	function start()
+	 {
+	 	img1.visibility = "visible";
+		interval = setInterval('changePos()', delay);
+	}
+	function pause_resume() 
+	{
+		if(pause) 
+		{
+			clearInterval(interval);
+			pause = false;}
+		else 
+		{
+			interval = setInterval('changePos()',delay);
+			pause = true; 
+			}
+		}
+	start();
+</SCRIPT>
+-->
+<!--顶部Begin-->
+<div class="Center W950">
+<div class="Cut"><img src="/r/cms/www/red/images/Banner.jpg" /></div>
+  <!--导航Begin-->
+  <div class="DhBg">
+  	<div class="Left"><img src="/r/cms/www/red/images/DhLeft.jpg" /></div>
+    <div class="Right"><img src="/r/cms/www/red/images/DhRight.jpg" /></div>
+  	<div class="Dh Blue14"><a href="/">首页</a><a href="/bmjj/index.jhtml">部门概况</a><a href="/tzgg/index.jhtml">通知公告</a><a href="/zbxx/index.jhtml">招标信息</a><a href="/zhongb/index.jhtml">中标信息</a><a href="/bszn/index.jhtml">办事指南</a><a href="/wdxz/index.jhtml">文档下载</a><a href="/zcfg/index.jhtml">政策法规</a><a href="/yjyts/index.jhtml">研究与探索</a><a href="/contact.jhtml">联系我们</a></div>
+    <div class="WeiZhi"><div class="Right Right20 Top5">
+	  <form action="/search.jspx" target="_blank">
+        <input name="q" value="请输入关键词" type="text" id="txtKey" onfocus="if(this.value=='请输入关键词')this.value=''" onblur="if(this.value=='')this.value='请输入关键词'" maxlength="24" autocomplete="off" class="SeacheInput" />
+        <input type="submit" id="btnSearch"  class="BtnSeach" value=""/>
+      </form>
+	</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今天是：<span id="divT"><script type="text/javascript" src="/r/cms/www/red/style/time.js"></script></span><iframe width="280" height="21" frameborder="0" src="http://i.tianqi.com/index.php?c=code&id=34&icon=1&num=3" allowtransparency="true" scrolling="no"></iframe></div>
+    <div class="Clear"></div>
+  </div>
+  <!--导航End-->
+</div>
+<!--顶部End-->
+<div class="W950 Center Top8">
+	<div class="W700 Left">
+    <!--通知公告Begin-->
+    <div class="Left W230">
+    	<div class="TitleW230-1"><h2 class="White Left20 Top10 Left">通知公告</h2><span class="Right Right10 Top10"><a target="_blank" href="/tzgg/index.jhtml"><img src="/r/cms/www/red/images/More01.gif" title="更多" /></a></span></div>
+		  <div class="BorderCCCNoTop Bg01 Padding8 Cut" style="height:166px!important;height:180px;">
+			<ul class="List1">
+				<li><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle" /><a target="_blank" href="/tzgg/23209.jhtml" title="上海交通大学招投标与政府采购办公室 关于增设徐汇校区服务窗口的通知">上海交通大学招投标与政府采购办公室 关于增设徐汇...</a></li>
+				<li><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle" /><a target="_blank" href="/tzgg/23191.jhtml" title="招采办每周开/评标及会议安排（2018年10月08日--10月12日）">招采办每周开/评标及会议安排（2018年10月08日--10...</a></li>
+				<li><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle" /><a target="_blank" href="/tzgg/22950.jhtml" title="招采办每周开/评标及会议安排（2018年9月25日--9月28日）">招采办每周开/评标及会议安排（2018年9月25日--9月...</a></li>
+				<li><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle" /><a target="_blank" href="/tzgg/22332.jhtml" title="2018年招采办（7月30日--9月05日）开评标及会议安排">2018年招采办（7月30日--9月05日）开评标及会议安排</a></li>
+			</ul>
+		  </div>  
+    </div>
+    <!--通知公告end-->
+	<!--轮换图片Begin-->
+    <div class="Right W460 Cut BorderCCC" style="height:215px;"><div class="Padding2"" id="flashcontent">﻿
+
+﻿<script type="text/javascript" src="/r/cms/www/red/js/swfobject.js"></script>
+<script type="text/javascript">
+var width=456;var focus_height=190;var text_height=20;
+var swf_height=focus_height+text_height;
+
+			var so = new SWFObject("/r/cms/focus4.swf?xmlPath=/r/cms/xixi.xml", "sotester", ""+width+"", ""+swf_height+"", "7", "#000000");
+			so.addParam("allowFullScreen", "true");
+			so.addParam("menu", "false");
+			so.addParam("wmode", "transparent");
+		
+			so.write("flashcontent");
+</script>
+
+
+</div></div>
+    <div class="Clear"></div>
+    <!--轮换图片End-->
+        <div class="Top8"></div>
+
+
+		
+
+
+		<!--招标信息Begin-->
+        <div id="TabbedPanels1" class="TabbedPanels">
+          <ul class="TabbedPanelsTabGroup TxtBg01">
+			<li class="TabbedPanelsTab" tabindex="0">设备类</li>
+			<li class="TabbedPanelsTab" tabindex="0">工程类</li>
+			<li class="TabbedPanelsTab" tabindex="0">物资类</li>
+			<li class="TabbedPanelsTab" tabindex="0">服务类</li>
+            <li class="Right Right10 Top8"><a target="_blank" href="/zbxx/index.jhtml"><img src="/r/cms/www/red/images/More01.gif" align="absmiddle"/></a></li>
+          </ul>
+          <div class="TabbedPanelsContentGroup BorderCCCNoTop" style="height:221px;">
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-10-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/csb/23772.jhtml" title="航空航天学院力学试验测试系统 公开招标公告">航空航天学院力学试验测试系统 公开招标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/csb/23751.jhtml" title="上海交大仁济医院仁济医院腹部超声教育虚拟模拟器招标公告">上海交大仁济医院仁济医院腹部超声教育虚拟模拟器招标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/csb/23750.jhtml" title="上海交通大学仁济医院上海交通大学仁济医院心肺复苏模拟人和心肺听诊招标公告">上海交通大学仁济医院上海交通大学仁济医院心肺复苏模拟人和心肺听诊招标</a> </li>
+                  <li><span class="Right Gray">2018-10-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/csb/23749.jhtml" title="上海交通大学材料科学与工程学院 X射线探测器项目国际重新招标公告">上海交通大学材料科学与工程学院 X射线探测器项目国际重新招标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/csb/23735.jhtml" title="上海交大机械与动力工程学院机械与动力工程学院微碳烟计招标公告">上海交大机械与动力工程学院机械与动力工程学院微碳烟计招标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/csb/23734.jhtml" title="上海交大物理与天文学院物理与天文学院纳秒光子高速相机招标公告">上海交大物理与天文学院物理与天文学院纳秒光子高速相机招标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/csb/23733.jhtml" title="上海交通大学机械与动力工程学院上海交通大学机械与动力工程学院机械与动力工程学院（转化医学平台）3D非金属打印机（多种材料）招标公告">上海交通大学机械与动力工程学院上海交通大学机械与动力工程学院机械与动</a> </li>
+                  <li><span class="Right Gray">2018-10-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/csb/23732.jhtml" title="上海交通大学机械与动力工程学院上海交通大学机械与动力工程学院机械与动力工程学院（转化医学平台）金属3D打印机招标公告">上海交通大学机械与动力工程学院上海交通大学机械与动力工程学院机械与动</a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-10-13</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cgc/23629.jhtml" title="上海交通大学教师公寓装修改造工程入围遴选">上海交通大学教师公寓装修改造工程入围遴选</a> </li>
+                  <li><span class="Right Gray">2018-10-11</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cgc/23349.jhtml" title="上海交通大学基建处闵行校区老行政楼修缮项目空调工程招标公告">上海交通大学基建处闵行校区老行政楼修缮项目空调工程招标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-08</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cgc/23210.jhtml" title="上海交通大学李政道研究所实验楼跟踪审计招标公告">上海交通大学李政道研究所实验楼跟踪审计招标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-30</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cgc/23173.jhtml" title="上海交通大学基建处新建剑川学生创新基地项目空调采购及安装招标公告">上海交通大学基建处新建剑川学生创新基地项目空调采购及安装招标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-29</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cgc/23130.jhtml" title="上海交通大学基建处闵行校区老行政楼修缮项目施工招标公告">上海交通大学基建处闵行校区老行政楼修缮项目施工招标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-25</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cgc/22949.jhtml" title="上海交通大学基建处新建闵行校区船建学院科研综合楼施工总承包招标公告">上海交通大学基建处新建闵行校区船建学院科研综合楼施工总承包招标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-20</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cgc/22850.jhtml" title="上海交通大学基建处闵行校区光明网球场修缮膜结构设计施工一体化招标公告">上海交通大学基建处闵行校区光明网球场修缮膜结构设计施工一体化招标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-17</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cgc/22729.jhtml" title="上海交通大学基建处闵行校区数学楼及附楼修缮项目施工招标公告">上海交通大学基建处闵行校区数学楼及附楼修缮项目施工招标公告</a> </li>
+                </ul>
+              </div>
+			</div>
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-08-20</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cwz/22262.jhtml" title=" 机械与动力工程学院快速转盘共聚焦显微镜采购项目招标公告"> 机械与动力工程学院快速转盘共聚焦显微镜采购项目招标公告</a> </li>
+                  <li><span class="Right Gray">2018-07-31</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cwz/21949.jhtml" title="上海交通大学高纯度氙气采购">上海交通大学高纯度氙气采购</a> </li>
+                  <li><span class="Right Gray">2018-07-26</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cwz/21889.jhtml" title="上海交大物理与天文学院新理科楼室内空间标识导视系统采购项目招标公告">上海交大物理与天文学院新理科楼室内空间标识导视系统采购项目招标公告</a> </li>
+                  <li><span class="Right Gray">2018-07-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cwz/21770.jhtml" title="上海交通大学资产管理与实验室处上海交通大学资产管理与实验室处公共卫生间卷筒纸、洗手液、擦手纸采购招标公告">上海交通大学资产管理与实验室处上海交通大学资产管理与实验室处公共卫生</a> </li>
+                  <li><span class="Right Gray">2018-07-13</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cwz/21698.jhtml" title="上海交通大学中英国际低碳学院上海交通大学中英国际低碳学院中英国际低碳学院临港大楼开办办公家具购置招标公告">上海交通大学中英国际低碳学院上海交通大学中英国际低碳学院中英国际低碳</a> </li>
+                  <li><span class="Right Gray">2018-07-13</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cwz/21697.jhtml" title="上海交大后勤保障中心闵行校区空天大楼等楼宇LED平板灯采购招标公告">上海交大后勤保障中心闵行校区空天大楼等楼宇LED平板灯采购招标公告</a> </li>
+                  <li><span class="Right Gray">2018-06-29</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cwz/21472.jhtml" title="上海交通大学转化医学大楼实验室家具（一期）采购及安装项目进行国内公开招标">上海交通大学转化医学大楼实验室家具（一期）采购及安装项目进行国内公开</a> </li>
+                  <li><span class="Right Gray">2018-06-25</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cwz/21336.jhtml" title="上海交通大学机械与动力工程学院上海交通大学机械与动力工程学院基础与实验教学中心实验家具采购招标公告">上海交通大学机械与动力工程学院上海交通大学机械与动力工程学院基础与实</a> </li>
+                </ul>
+              </div>
+			</div>
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-10-11</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cfw/23569.jhtml" title="上海交通大学“转化医学国家重大科技基础设施（上海）”项目建设指挥部办公室荧光定量PCR系统项目招标公告">上海交通大学“转化医学国家重大科技基础设施（上海）”项目建设指挥部办</a> </li>
+                  <li><span class="Right Gray">2018-10-11</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cfw/23549.jhtml" title="上海交通大学转化医学研究院蛋白纯化系统重新招标公告">上海交通大学转化医学研究院蛋白纯化系统重新招标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-09</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cfw/23229.jhtml" title="上海交通大学教育技术中心上海交通大学2018学年秋季学期在线课程摄制服务采购项目招标公告">上海交通大学教育技术中心上海交通大学2018学年秋季学期在线课程摄制服务</a> </li>
+                  <li><span class="Right Gray">2018-09-28</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cfw/23101.jhtml" title="上海交大校园管理办公室上海交通大学闵行、徐汇校区校园电子地图（一期）建设招标公告">上海交大校园管理办公室上海交通大学闵行、徐汇校区校园电子地图（一期）</a> </li>
+                  <li><span class="Right Gray">2018-09-20</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cfw/22889.jhtml" title="上海交通大学上海高级金融学院2018年12月SAIF EMBA美西模块竞争性磋商公告">上海交通大学上海高级金融学院2018年12月SAIF EMBA美西模块竞争性磋商公告</a> </li>
+                  <li><span class="Right Gray">2018-09-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cfw/22769.jhtml" title="上海交大船舶海洋与建筑工程学院船建学院深水池水泵维修招标公告">上海交大船舶海洋与建筑工程学院船建学院深水池水泵维修招标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-07</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cfw/22509.jhtml" title="上海交通大学上海高级金融学院综合业务平台项目招标公告">上海交通大学上海高级金融学院综合业务平台项目招标公告</a> </li>
+                  <li><span class="Right Gray">2018-08-31</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/cfw/22352.jhtml" title="上海交通大学化学发光荧光影像分析系统项目国际重新招标公告">上海交通大学化学发光荧光影像分析系统项目国际重新招标公告</a> </li>
+                </ul>
+              </div>
+			</div>
+          </div>
+        </div>
+
+		
+		
+		
+		
+		<!--招标信息End-->
+		  <div class="Top8 Cut" style="height:80px;">
+			<script type="text/javascript" src="/ad.jspx?id=3"></script>
+		  </div>
+        <div class="Top8"></div>
+		<!--中标信息Begin-->
+        <div id="TabbedPanels2" class="TabbedPanels">
+          <ul class="TabbedPanelsTabGroup TxtBg02">
+			<li class="TabbedPanelsTab" tabindex="0">设备类</li>
+			<li class="TabbedPanelsTab" tabindex="0">工程类</li>
+			<li class="TabbedPanelsTab" tabindex="0">物资类</li>
+			<li class="TabbedPanelsTab" tabindex="0">服务类</li>
+			<li class="TabbedPanelsTab" tabindex="0">单位自采</li>
+            <li class="Right Right10 Top8"><a target="_blank" href="/zhongb/index.jhtml"><img src="/r/cms/www/red/images/More01.gif" align="absmiddle"/></a></li>
+          </ul>
+          <div class="TabbedPanelsContentGroup BorderCCCNoTop" style="height:221px;">
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-10-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jsb/23799.jhtml" title="学生创新中心VR CAVE系统中标公告">学生创新中心VR CAVE系统中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jsb/23791.jhtml" title="上海交通大学网络信息中心上海交通大学公共基础服务设施云计算平台中标公告">上海交通大学网络信息中心上海交通大学公共基础服务设施云计算平台中标公</a> </li>
+                  <li><span class="Right Gray">2018-10-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jsb/23771.jhtml" title="机械与动力工程学院协作机器人及配套软件中标公告">机械与动力工程学院协作机器人及配套软件中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-15</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jsb/23649.jhtml" title="上海交通大学化学化工学院四级杆飞行时间液质联用仪中标公告">上海交通大学化学化工学院四级杆飞行时间液质联用仪中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-12</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jsb/23596.jhtml" title="生命科学技术学院多功能激光扫描成像仪中标公告">生命科学技术学院多功能激光扫描成像仪中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-08</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jsb/23192.jhtml" title="上海交通大学分析测试中心转化医学大楼集中供气系统中标公告">上海交通大学分析测试中心转化医学大楼集中供气系统中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-08</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jsb/23190.jhtml" title="上海交通大学化学发光荧光影像分析系统项目 评标结果公示">上海交通大学化学发光荧光影像分析系统项目 评标结果公示</a> </li>
+                  <li><span class="Right Gray">2018-10-08</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jsb/23189.jhtml" title="电子信息与电气工程学院AEMD平台椭圆偏振仪采购项目中标公告">电子信息与电气工程学院AEMD平台椭圆偏振仪采购项目中标公告</a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-10-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jgc/23809.jhtml" title="闵行校区威达楼修缮项目空调采购安装中标公告">闵行校区威达楼修缮项目空调采购安装中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-15</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jgc/23654.jhtml" title=" 上海交通大学人工智能研究院办公空间装修工程成交公告"> 上海交通大学人工智能研究院办公空间装修工程成交公告</a> </li>
+                  <li><span class="Right Gray">2018-10-12</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jgc/23594.jhtml" title="新建闵行校区船建学院科研综合楼施工监理招标中标公告">新建闵行校区船建学院科研综合楼施工监理招标中标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-24</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jgc/22929.jhtml" title="新建闵行校区校史档案文博大楼项目弱电专业分包中标公告">新建闵行校区校史档案文博大楼项目弱电专业分包中标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-21</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jgc/22890.jhtml" title="上海交通大学七宝校区综合楼修缮工程中标公告">上海交通大学七宝校区综合楼修缮工程中标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-20</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jgc/22849.jhtml" title="子衿街修缮项目二次结构及装修工程">子衿街修缮项目二次结构及装修工程</a> </li>
+                  <li><span class="Right Gray">2018-09-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jgc/22789.jhtml" title="闵行单身公寓8号楼大修改造中标公告">闵行单身公寓8号楼大修改造中标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jgc/22749.jhtml" title="徐汇校区玻璃房修缮项目门窗采购及安装中标公告">徐汇校区玻璃房修缮项目门窗采购及安装中标公告</a> </li>
+                </ul>
+              </div>
+			</div>
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-08-29</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jwz/22329.jhtml" title="高纯度氙气100立方中标公告">高纯度氙气100立方中标公告</a> </li>
+                  <li><span class="Right Gray">2018-08-21</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jwz/22257.jhtml" title="新理科楼室内空间标识导视系统采购项目中标公告">新理科楼室内空间标识导视系统采购项目中标公告</a> </li>
+                  <li><span class="Right Gray">2018-08-21</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jwz/22256.jhtml" title="实验室家具中标公告">实验室家具中标公告</a> </li>
+                  <li><span class="Right Gray">2018-08-21</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jwz/22261.jhtml" title="上海交通大学分析测试中心（转化医学大楼）办公家具采购 成交结果公告">上海交通大学分析测试中心（转化医学大楼）办公家具采购 成交结果公告</a> </li>
+                  <li><span class="Right Gray">2018-08-16</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jwz/22229.jhtml" title="上海交通大学资产管理与实验室处公共卫生间卷筒纸、洗手液、擦手纸采购中标公告">上海交通大学资产管理与实验室处公共卫生间卷筒纸、洗手液、擦手纸采购中</a> </li>
+                  <li><span class="Right Gray">2018-07-23</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jwz/21833.jhtml" title="上海交通大学机械与动力工程学院基础与实验教学中心实验家具采购中标公告">上海交通大学机械与动力工程学院基础与实验教学中心实验家具采购中标公告</a> </li>
+                  <li><span class="Right Gray">2018-07-20</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jwz/21812.jhtml" title="上海交通大学闵行校区留学生公寓8、9号楼家具采购 成交结果公告">上海交通大学闵行校区留学生公寓8、9号楼家具采购 成交结果公告</a> </li>
+                  <li><span class="Right Gray">2018-07-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jwz/21773.jhtml" title="上海交通大学徐汇第九学生宿舍家具采购 成交结果公告">上海交通大学徐汇第九学生宿舍家具采购 成交结果公告</a> </li>
+                </ul>
+              </div>
+			</div>
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-10-17</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jfw/23709.jhtml" title="船建学院深水池水泵维修中标公告">船建学院深水池水泵维修中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-16</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jfw/23729.jhtml" title="上海交通大学上海高级金融学院 2018年12月SAIF EMBA美西模块竞争性磋商 成交公告">上海交通大学上海高级金融学院 2018年12月SAIF EMBA美西模块竞争性磋商 </a> </li>
+                  <li><span class="Right Gray">2018-10-12</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jfw/23590.jhtml" title="上海交通大学上海高级金融学院综合业务平台项目 中标公告">上海交通大学上海高级金融学院综合业务平台项目 中标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-28</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jfw/23102.jhtml" title="上海交通大学闵行、徐汇校区校园电子地图（一期）建设中标公告">上海交通大学闵行、徐汇校区校园电子地图（一期）建设中标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-21</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jfw/22909.jhtml" title="上海交通大学闵行、徐汇校区校园电子地图（一期）建设中标公告">上海交通大学闵行、徐汇校区校园电子地图（一期）建设中标公告</a> </li>
+                  <li><span class="Right Gray">2018-09-20</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jfw/22829.jhtml" title="实验室搬迁中标公告">实验室搬迁中标公告</a> </li>
+                  <li><span class="Right Gray">2018-08-29</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jfw/22331.jhtml" title="上海交通大学就闵行校区公共教学楼多媒体教室运维服务中标公告">上海交通大学就闵行校区公共教学楼多媒体教室运维服务中标公告</a> </li>
+                  <li><span class="Right Gray">2018-08-29</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/jfw/22330.jhtml" title="上海交通大学资产综合管理系统中标公告">上海交通大学资产综合管理系统中标公告</a> </li>
+                </ul>
+              </div>
+			</div>
+            <div class="TabbedPanelsContent">
+              <div class="List3">
+                <ul>
+                  <li><span class="Right Gray">2018-10-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/zbyxl/23795.jhtml" title="激光粒度仪中标公告">激光粒度仪中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/zbyxl/23790.jhtml" title="NAO新一代智能机器人中标公告">NAO新一代智能机器人中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-19</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/zbyxl/23789.jhtml" title="零号湾园区智慧照明、空调节能控制、无线网络访问控制与数据分析统计系统软件中标公告">零号湾园区智慧照明、空调节能控制、无线网络访问控制与数据分析统计系统</a> </li>
+                  <li><span class="Right Gray">2018-10-18</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/zbyxl/23731.jhtml" title="Illumina 850K甲基化芯片、试剂中标公告">Illumina 850K甲基化芯片、试剂中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-16</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/zbyxl/23673.jhtml" title="傅立叶红外光谱仪中标公告">傅立叶红外光谱仪中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-16</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/zbyxl/23671.jhtml" title="高精度光测量系统中标公告">高精度光测量系统中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-16</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/zbyxl/23670.jhtml" title="世界大学生赛艇锦标赛赛事技术服务中标公告">世界大学生赛艇锦标赛赛事技术服务中标公告</a> </li>
+                  <li><span class="Right Gray">2018-10-16</span><img src="/r/cms/www/red/images/Ico01.gif" align="absmiddle"/><span class="Blue"> </span><a target="_blank" href="/zbyxl/23669.jhtml" title="高通量微波消解仪中标公告">高通量微波消解仪中标公告</a> </li>
+                </ul>
+              </div>
+			</div>
+
+		  </div>
+        </div>
+        <!--中标信息End-->
+    </div>
+    <Div class="W240 Right">
+        <!--用户登录Begin-->
+		<div class="LoginBg"><div style="height:80px;" ></div><a href="http://202.120.32.117:8080/ceps/app" target="_blank"><img src="/r/cms/www/red/images/LoginBtn.jpg" alt="管理信息系统登录" title="管理信息系统登录"></a></div>
+        <!--用户登录End--> 
+        <!--开标月历Begin-->
+            <div class="TitleW240-1 Top8"><h2 class="Blue Left20 Top10 Left">工作月历</h2></div>
+            <div class="BorderCCCNoTop Padding8 Cut TxtCenter" style="height:190px!important;height:220px;">
+<a href="/gzyl.jhtml" target="_blank"><img src="/r/cms/www/red/images/Calendar01.jpg"  width="220" height="190" border="0"/></a>
+        </div>
+        <!--开标月历End-->        
+    	<!--常用按钮Begin-->
+        <div class="BorderCCC Top8"> <img src="/r/cms/www/red/images/BtnRight02.jpg" class="Hand" title="校内专家征集" onclick="openWindowWithURL('ZCMainWindow','http://202.120.32.117:8080/gxcg-wwzc/eps/zjzc/Notice.html', 1020, 620)" /><br />
+        <img src="/r/cms/www/red/images/BtnRight01.jpg" class="Hand" title="此功能正在开发中！" /><br />
+<img src="/r/cms/www/red/images/BtnRight03.jpg" class="Hand" title="供应商入口" onclick="openWindowWithURL('ZCMainWindow','http://202.120.32.117:8080/gys-app/app', 1020, 620)"/><br />
+     	</div>
+        <!--常用按钮End-->
+		<!--联系方式Begin-->
+            <div class="TitleW240 Top8"><h2 class="White Left20 Top10 Left">联系我们</h2></div>
+            <div class="BorderCCCNoTop Bg01 Padding8 Cut" style="height:217px;line-height:200%;">
+建筑工程招投标 021-54747169
+<br>
+仪器设备招投标 021-54744366   
+<br>
+家具物资招投标 021-54747172<br>
+物业服务招投标 021-54747337<br>
+政府采购 021-54747300<br>
+传真：021-54747300
+<br>
+邮箱：<a href="mailto:ztbb@sjtu.edu.cn" target="_blank">ztbb@sjtu.edu.cn</a>
+ <br>
+地址：上海市闵行区东川路800号<br>上海交通大学新行政楼711、715
+        </div>
+        <!--联系方式End-->    
+    </Div>
+    <Div class="Clear"></Div>
+</div>
+  <!--网站底部Begin-->
+<!--Link Begin-->
+<div class="W950 Center Top8">
+<div class="Left LinkTitle"></div><div class="Left BorderCCC Padding2 LinkBox Cut" style="border-left:none;height:34px; padding-top:2px; width:840px;">
+    <marquee behavior="alternate" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();">
+        <Div  style="width:1300px;">
+                 <a href="http://www.shzfcg.gov.cn" target="_blank"><img src="/u/cms/www/201210/26134246v8ns.jpg" alt="上海市政府采购网" title="上海市政府采购网"/></a>
+         <a href="http://www.chinabidding.com.cn" target="_blank"><img src="/u/cms/www/201210/261339526gdn.gif" alt="中国采购与招标网" title="中国采购与招标网"/></a>
+         <a href="http://www.infobidding.com" target="_blank"><img src="/u/cms/www/201210/26134031f15e.gif" alt="中国招投标网" title="中国招投标网"/></a>
+         <a href="http://www.zfcg.edu.cn" target="_blank"><img src="/u/cms/www/201704/05134509f3bc.jpg" alt="教育部政府采购网" title="教育部政府采购网"/></a>
+         <a href="http://www.chinabidding.com/" target="_blank"><img src="/u/cms/www/201210/26134112tvbo.jpg" alt="中国国际招标网" title="中国国际招标网"/></a>
+         <a href="http://www.ciac.sh.cn/" target="_blank"><img src="/u/cms/www/201211/14161008x0vm.jpg" alt="上海建筑建材业" title="上海建筑建材业"/></a>
+         </Div>
+     </marquee>
+</div>
+</div>
+<!--Link End-->
+<!--Bottom Begin-->
+<div class="SiteBottom TxtCenter W950 Center Top8">
+<p><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage(location.href)" href="javascript:void(0);">设为首页</a> | <a onclick="javascript:window.external.AddFavorite('http://zbb.sjtu.edu.cn','上海交通大学招投标与政府采购办公室');" href="javascript:void(0);">加入收藏</a> | <a href="/contact/index.jhtml" target="_blank">联系我们</a> | <a href="#">返回顶部</a><br />
+           版权所有 2011 <a href="/xyadmin/xycms/index.do" target="_blank">上海交通大学招投标管理办公室</a> 沪交ICP备20111162<br />
+地址：上海市闵行区东川路800号上海交通大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 邮编：200240 &nbsp;&nbsp;技术支持：<a href="http://www.xinyuan.com.cn"><img src="/r/cms/www/red/images/searun.jpg" align="absmiddle" title="郑州信源信息技术股份有限公司" /></a></p> 
+</div>
+<!--Bottom End-->  <!--网站底部Begin-->
+	</TD>
+</TR>
+</TABLE>
+<script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+var TabbedPanels2 = new Spry.Widget.TabbedPanels("TabbedPanels2");
+//-->
+</script>
+</body>
+</html>

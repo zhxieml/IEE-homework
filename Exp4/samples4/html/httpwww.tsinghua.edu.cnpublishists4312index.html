@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+                            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<title>清华大学科学技术与社会研究所</title>
+<link href="/publish/ists/css/common.css" type="text/css" rel="stylesheet" />
+<link href="/publish/ists/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+ function cutDate(summaryStr,lengTh){
+     summaryStr=summaryStr.substring(5,lengTh);
+    document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/ists/css/style_index.css" rel="stylesheet"  type="text/css" />
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!--container开始处-->
+ <div id="container">
+      <!--header开始处-->
+        <div id="header">
+<!--logo开始处-->
+   <div id="logo">
+    <h1>科学技术与社会研究所<span>Institute of Science, Technology and Society</span></h1>
+   </div>
+   <!--logo结束处-->
+   <!--search开始处-->
+   <div id="search">
+ <form id="searchForm" action="#" method="post" target="_blank" >
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+    <p><a href="/publish/istsen/index.html">English Version</a> 
+<span> <a href="http://www.tsinghua.edu.cn">清华主页</a> </span> 
+搜索<input type="button" name="btn" style="height:10px" tabindex="0" class="btn" onclick="javascript:document.getElementById('searchForm').submit()" />
+<input type="text" name="Q" tabindex="1" class="sch" /></p>
+</form>  </div>
+   <!--search结束处-->
+</div>   <!--header结束处-->
+      <!--s_content开始处-->
+      <div id="s_content">
+        <!--second_nav开始处-->
+                 <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4292 = ms.addMenu(document.getElementById("menu_4292"));
+menu4292.addItem("公告栏","/publish/ists/4340/index.html","");
+        menu4292.addItem("图片新闻","/publish/ists/4341/index.html","");
+        menu4292.addItem("历年新闻","/publish/ists/8248/index.html","");
+        var menu4293 = ms.addMenu(document.getElementById("menu_4293"));
+menu4293.addItem("概述","/publish/ists/4335/index.html","");
+        menu4293.addItem("历史沿革","/publish/ists/4337/index.html","");
+        menu4293.addItem("历任领导","/publish/ists/4338/index.html","");
+        var menu4294 = ms.addMenu(document.getElementById("menu_4294"));
+menu4294.addItem("校级中心","/publish/ists/10305/index.html","");
+        menu4294.addItem("院级中心","/publish/ists/10306/index.html","");
+        var menu4295 = ms.addMenu(document.getElementById("menu_4295"));
+menu4295.addItem("教授","/publish/ists/4325/index.html","");
+        menu4295.addItem("副教授","/publish/ists/4326/index.html","");
+        menu4295.addItem("讲师","/publish/ists/4327/index.html","");
+        menu4295.addItem("长江学者","/publish/ists/4328/index.html","");
+        menu4295.addItem("兼职教授","/publish/ists/4330/index.html","");
+        menu4295.addItem("返聘教授","/publish/ists/4332/index.html","");
+        menu4295.addItem("中心研究人员","/publish/ists/4333/index.html","");
+        var menu4296 = ms.addMenu(document.getElementById("menu_4296"));
+menu4296.addItem("研究方向","/publish/ists/4315/index.html","");
+        menu4296.addItem("研究成果","/publish/ists/4318/index.html","");
+        var subMenu4296_1 = menu4296.addMenu(menu4296.items[1]);
+       subMenu4296_1.addItem("著作类","/publish/ists/4318/index.html","");
+    subMenu4296_1.addItem("发表论文","/publish/ists/4319/index.html","");
+    subMenu4296_1.addItem("课题项目","/publish/ists/4320/index.html","");
+      menu4296.addItem("博士后","/publish/ists/4321/index.html","");
+        var subMenu4296_2 = menu4296.addMenu(menu4296.items[2]);
+       subMenu4296_2.addItem("哲学博士后流动站","/publish/ists/4321/index.html","");
+    subMenu4296_2.addItem("历年受资助情况","/publish/ists/4322/index.html","");
+    subMenu4296_2.addItem("在站博士后名单","/publish/ists/4323/index.html","");
+    subMenu4296_2.addItem("已出站博士后名单","/publish/ists/4324/index.html","");
+      var menu4297 = ms.addMenu(document.getElementById("menu_4297"));
+menu4297.addItem("学科点介绍","/publish/ists/4312/index.html","");
+        menu4297.addItem("课程设置","/publish/ists/4313/index.html","");
+        menu4297.addItem("精品课与精品教材","/publish/ists/4314/index.html","");
+        var menu4298 = ms.addMenu(document.getElementById("menu_4298"));
+menu4298.addItem("科学社会学与政策学沙龙","/publish/ists/4306/index.html","");
+        menu4298.addItem("科学哲学与技术哲学沙龙","/publish/ists/4307/index.html","");
+        menu4298.addItem("科学技术史沙龙","/publish/ists/4308/index.html","");
+        menu4298.addItem("STS博士论坛","/publish/ists/4309/index.html","");
+        menu4298.addItem("学术会议","/publish/ists/4310/index.html","");
+        menu4298.addItem("其他学术活动","/publish/ists/4311/index.html","");
+        var menu4299 = ms.addMenu(document.getElementById("menu_4299"));
+menu4299.addItem("招生信息","/publish/ists/4304/index.html","");
+        menu4299.addItem("招聘信息","/publish/ists/4305/index.html","");
+        var menu4300 = ms.addMenu(document.getElementById("menu_4300"));
+menu4300.addItem("学生活动","/publish/ists/4301/index.html","");
+        menu4300.addItem("在学学生名单","/publish/ists/4302/index.html","");
+        menu4300.addItem("已毕业学生名单","/publish/ists/4303/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="second_nav">
+          <ul>
+            <li><a href="/publish/ists/index.html">首页</a></li>
+<li id="menu_4292"><a href="/publish/ists/4292/index.html" title="动态新闻">动态新闻</a>
+            </li>
+            <li id="menu_4293"><a href="/publish/ists/4335/index.html" title="所简介">所简介</a>
+            </li>
+            <li id="menu_4294"><a href="/publish/ists/4294/index.html" title="机构设置">机构设置</a>
+            </li>
+            <li id="menu_4295"><a href="/publish/ists/4295/index.html" title="师资队伍">师资队伍</a>
+            </li>
+            <li id="menu_4296" class="width_100"><a href="/publish/ists/4315/index.html" title="科学研究">科学研究</a>
+            </li>
+            <li id="menu_4297"><a href="/publish/ists/4312/index.html" title="教学培养">教学培养</a>
+            </li>
+   <li id="menu_4298"><a href="/publish/ists/4298/index.html" title="学术活动">学术活动</a>
+            </li>
+   <li id="menu_4299"><a href="/publish/ists/4304/index.html" title="招生招聘">招生招聘</a>
+            </li>
+            <li id="menu_4300" class="no_bg"><a href="/publish/ists/4301/index.html" title="学生园地">学生园地</a>
+            </li> 
+</ul>
+</div>
+<script language="JavaScript">initMenuData();</script>        <!--second_nav结束处-->
+        <!--s_con_left开始处-->
+           <div id="s_con_left">
+      <img src="/publish/ists/images/jsjkxyjs_s_left_bg.jpg" title="" width="210px" height="88px" />
+<dl>   <dt>教学培养</dt>
+            <dt><a href="/publish/ists/4312/index.html">学科点介绍</a></dt>
+                                      <dt><a href="/publish/ists/4313/index.html">课程设置</a></dt>
+                                      <dt><a href="/publish/ists/4314/index.html">精品课与精品教材</a></dt>
+                                    </dl>
+</div>        <!--s_con_left-->
+        <!--s_con_right开始处-->
+        <div id="s_con_right" >
+          <p>&nbsp;<A href='/publish/ists/index.html' class='navigation_style'>首页</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4312/index.html' class='navigation_style'>教学培养</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4312/index.html' class='navigation_style'>学科点介绍</a></p>          <!--s2_right_con开始处-->
+          <div id="s2_right_con">
+            <p>
+<table cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td>
+            <p style="text-align: center"><strong>硕士点</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td id="zoom">
+            <p><strong>培养目标</strong>：以关于科学技术的哲学研究为引领，以科技史为广泛基础，通过科技战略和政策、科技文化传播与普及诸方面，突出理论与实际、学术与社会、动脑与动手的结合。形成相应的课程体系与专攻研究，在课程学习的基础上参加多种相关项目研究和社会调研，培养对于科技与社会发展方方面面有系统理解，并在其中某些方面专攻有得的高级人才。</p>
+            <p><strong>1. 科学技术史硕士点</strong></p>
+            <p>科学技术史硕士点，属于理科类一级学科硕士点，与科学技术哲学、科学社会学等学科有内在的密切联系。</p>
+            <p><strong>研究方向</strong>：科学史理论与文化传播，比较科技史与学社会比较科技史，技术史和工程技术史，其它科技史方向</p>
+            <p><strong>就业</strong>：毕业生在就业方面有着较宽的去向和选择。除继续学习深造之外，国内相关领域的教学和学术机构、各种传媒与出版机构、文化事业单位、政府部门、以及其他企事业的管理机构，都是可能的选择。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p><strong>2. 科学技术哲学硕士点</strong></p>
+            <p>科学技术哲学硕士点属哲学二级学科硕士点</p>
+            <p><strong>研究方向</strong>：科学技术哲研究，科学技术文化及传播研究，科学技术思想与社会史研究，科学技术发展战略及政策与管理研究，科学技术与创新系统研究</p>
+            <p><strong>就业</strong>：毕业生在就业方面有着较宽的去向和选择。已毕业的硕士生多数在国内相关领域的教学和学术机构、各种传媒与出版机构、文化事业单位、政府部门、以及其他企事业的管理机构从事教学、科研或管理工作。</p>
+            <p><strong>3. 科学社会学硕士点</strong></p>
+            <p>科学社会学研究方向属社会学（法学门）下应用社会学的研究方向之一</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+<div>
+<table cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td style="text-align: center"><strong>博士点</strong></td>
+        </tr>
+        <tr>
+            <td id="zoom">
+            <p><strong>1. 科学技术哲学博士点</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p><strong>培养目标</strong>：培养科技哲学、科技与社会、科技政策与管理等方面的高层次专门人才。博士学位获得者应系统掌握科技发展规律、科技思想、科技体制和科技产业化各历史阶段的发展脉络和当代前沿的基本特征，对科技的社会运行有较深刻的理解，具有坚实宽广的基础理论知识和系统深入的专业知识，具备独立从事重要研究课题的能力，能够胜任高校、科技机构的相关教学和科研工作，或在企事业单位和社会组织中从事科技传播、科技管理等相关工作。</p>
+            <p><strong>研究方向</strong>：<br />
+            1、科学技术的哲学研究：重点为科学哲学，技术哲学，产业哲学。<br />
+            2、科学技术的历史和文化研究：重点为科技史理论，科技社会史和体制史，科技文化与传播。<br />
+            3、科学技术的社会研究：重点为科学社会学，技术社会学，中国科技与社会问题，科技与国际事务。<br />
+            4、科学技术战略、政策与管理研究：重点为科技发展战略，科技政策，科技管理，科技产业化，创新理论与政策。</p>
+            <p><strong>2. 科学社会学博士点</strong></p>
+            <p>科学社会学属社会学（法学门）学科点下应用社会学的研究方向之一</p>
+            <p><strong>培养目标</strong>：培养科学社会学、科技与社会、科技政策与管理等方面的高层次专门人才。博士学位获得者应系统掌握科技发展规律、科技思想、科技体制和科技产业化各历史阶段的发展脉络和当代前沿的基本特征，对科技的社会运行有较深刻的理解，具有坚实宽广的基础理论知识和系统深入的专业知识，具备独立从事重要研究课题的能力，胜任高校、科技机构的相关教学和科研工作，或在企事业单位和社会组织中从事科技传播、科技管理等相关工作。</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+          </div>
+          <!--s2_right_con结束处-->
+        </div>
+        <!--s_con_right开始处-->
+      </div>
+   <!--s_content结束处-->
+      <!--footer开始处-->
+        <div id="footer"><p>版权所有&copy;清华大学科学技术与社会研究所  地址:北京市海淀区清华大学  邮编:100084</p></div>   <!--footer结束处-->
+    </div>
+ <!--container结束处-->
+</body>
+</html>

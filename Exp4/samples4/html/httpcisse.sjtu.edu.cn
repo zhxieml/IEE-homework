@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="puyuan" />
+<meta name="robots" content="all,index,follow" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<link rel = "shortcut icon" href="" />
+<title>高新船舶与深海开发装备协同创新中心</title>
+<meta name="keywords" content="高新船舶与深海开发装备协同创新中心" />
+<meta name="description" content="高新船舶与深海开发装备协同创新中心" />
+<link rel="stylesheet" type="text/css" href="/css/Home/css.css" />
+</head>
+<SCRIPT type=text/javascript src="/js/Home/MSClass.js"></SCRIPT>
+<script type="text/javascript" src="/js/Home/jquery.js"></script>
+<SCRIPT type=text/javascript><!--//-->//><!--
+function menuFix() {
+ var sfEls = document.getElementById("nav").getElementsByTagName("li");
+ for (var i=0; i<sfEls.length; i++) {
+  sfEls[i].onmouseover=function() {
+  this.className+=(this.className.length>0? " ": "") + "sfhover";
+  }
+  sfEls[i].onMouseDown=function() {
+  this.className+=(this.className.length>0? " ": "") + "sfhover";
+  }
+  sfEls[i].onMouseUp=function() {
+  this.className+=(this.className.length>0? " ": "") + "sfhover";
+  }
+  sfEls[i].onmouseout=function() {
+  this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"),
+
+"");
+  }
+ }
+}
+window.onload=menuFix;
+
+//--><!</SCRIPT>
+<body>
+<!--top-->
+<div class="top1">
+  <div class="main">
+    <div class="l"><a href="/"><img src="/images/Home/cbxt-s_04.jpg" width="699" height="113" /></a>
+    </div>
+    <div class="r" style=" margin-top:35px;">
+     <div style="text-align:right"><a href="/index.php/Home/Active/register">注册</a> | <a href="/index.php/Home/Active/login">登录</a></div>
+      <div class="ssbj">
+      <form method="get" action="/index.php/Home/Active/search">
+      <input name="keywords" type="text" class="txt1" value="搜索" onfocus="this.value='';" /><input name="" type="submit" value=" " class="an1" />
+      <input type="hidden" name="__hash__" value="62a1426086c519c1514b51535c923625" /></form>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!--menu-->
+<div class="top2">
+  <div class="menu">
+    <ul id="nav">
+      <li><a href="/" class="mdq">首&nbsp;&nbsp;页</a></li>
+            <li>
+      <a href="/index.php/Home/article/catePage/parentID/0/cat_id/1730"  class="">中心概况</a>
+            <ul>
+      	        <li><a href="/index.php/Home/article/detailPage/parentID/1730/cat_id/1731">中心简介</a></li>
+                <li><a href="/index.php/Home/article/detailPage/parentID/1730/cat_id/1778">中心LOGO</a></li>
+                <li><a href="/index.php/Home/article/detailPage/parentID/1730/cat_id/1732">组织架构</a></li>
+                <li><a href="/index.php/Home/article/detailPage/parentID/1730/cat_id/1733">理事会</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1730/cat_id/1734">首席科学家</a></li>
+                <li><a href="/index.php/Home/article/detailPage/parentID/1730/cat_id/1735">中心主任、副主任</a></li>
+                <li><a href="/index.php/Home/article/detailPage/parentID/1730/cat_id/1736">学术委员会</a></li>
+                <li><a href="/index.php/Home/article/detailPage/parentID/1730/cat_id/1769">国际专家咨询委员</a></li>
+                <li><a href="/index.php/Home/article/detailPage/parentID/1730/cat_id/1770">综合办公室</a></li>
+              </ul>
+            </li>
+            <li>
+      <a href="/index.php/Home/article/catePage/parentID/0/cat_id/1783"  class="">党建工作</a>
+            <ul>
+      	        <li><a href="/index.php/Home/article/detailPage/parentID/1783/cat_id/1784">支部概况</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1783/cat_id/1785">党建动态</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1783/cat_id/1786">党务公开</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1783/cat_id/1787">学习园地</a></li>
+              </ul>
+            </li>
+            <li>
+      <a href="/index.php/Home/article/catePage/parentID/0/cat_id/1725"  class="">新闻动态</a>
+            <ul>
+      	        <li><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1726">通知公告</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1727">中心动态</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1728">科研动态</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1782">媒体聚焦</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1729">人才培养动态</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1789">协同单位动态</a></li>
+              </ul>
+            </li>
+            <li>
+      <a href="/index.php/Home/article/catePage/parentID/0/cat_id/1737"  class="">科学研究</a>
+            <ul>
+      	        <li><a href="/index.php/Home/article/detailPage/parentID/1737/cat_id/1738">研发平台</a></li>
+                <li><a href="/index.php/Home/article/detailPage/parentID/1737/cat_id/1740">科研成果</a></li>
+              </ul>
+            </li>
+            <li>
+      <a href="/index.php/Home/article/catePage/parentID/0/cat_id/1741"  class="">人才队伍</a>
+            <ul>
+      	        <li><a href="/index.php/Home/article/listPage/parentID/1741/cat_id/1742">人才队伍</a></li>
+              </ul>
+            </li>
+            <li>
+      <a href="/index.php/Home/article/catePage/parentID/0/cat_id/1748"  class="">人才培养</a>
+            <ul>
+      	        <li><a href="/index.php/Home/article/catePage/parentID/1748/cat_id/1749">硕士</a></li>
+                <li><a href="/index.php/Home/article/catePage/parentID/1748/cat_id/1750">博士</a></li>
+              </ul>
+            </li>
+            <li>
+      <a href="/index.php/Home/article/catePage/parentID/0/cat_id/1752"  class="">中心基地</a>
+            <ul>
+      	        <li><a href="/index.php/Home/article/listPage/parentID/1752/cat_id/1753">国家实验室</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1752/cat_id/1754">国家重点实验室</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1752/cat_id/1755">国防科技重点实验室</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1752/cat_id/1756">国家工程研究中心</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1752/cat_id/1757">国家工程实验室</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1752/cat_id/1758">国家能源技术研发中心</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1752/cat_id/1759">国家能源重点实验室</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1752/cat_id/1760">国家大型科学仪器中心</a></li>
+              </ul>
+            </li>
+            <li>
+      <a href="/index.php/Home/article/listPage/parentID/0/cat_id/1761"  class="">合作交流</a>
+            </li>
+            <li>
+      <a href="/index.php/Home/article/catePage/parentID/0/cat_id/1762"  class="">人才招聘</a>
+            <ul>
+      	        <li><a href="/index.php/Home/article/listPage/parentID/1762/cat_id/1780">科研人员</a></li>
+                <li><a href="/index.php/Home/article/listPage/parentID/1762/cat_id/1779">管理人员</a></li>
+              </ul>
+            </li>
+          </ul>
+  </div>
+</div>
+<!--/top--><!--banner-->
+<DIV style="margin-bottom: 0px; display: none;" id="pcList" class="videoList-container">
+<DIV id="slide-index">
+<DIV class="slides">
+<DIV class="slide autoMaxWidth" links="[{left:'30px',top:'81px'},{left:'30px',top:'244px'},{direction:'tb'}]">
+<DIV id="bi_0" class="image"><img src="/upload/1413968299216228.jpg" width="1560" height="465" /></DIV>
+<DIV id="bt_0" class="text">&nbsp;</DIV>
+<DIV id="bb_0" class="button">&nbsp;</DIV></DIV>
+<DIV class="slide autoMaxWidth" links="[{left:'30px',top:'81px'},{left:'30px',top:'244px'},{direction:'tb'}]">
+<DIV id="bi_0" class="image"><img src="/upload/139003508112324.jpg" width="1560" height="465" /></DIV>
+<DIV id="bt_0" class="text">&nbsp;</DIV>
+<DIV id="bb_0" class="button">&nbsp;</DIV></DIV>
+<DIV class="slide autoMaxWidth" links="[{left:'30px',top:'81px'},{left:'30px',top:'244px'},{direction:'tb'}]">
+<DIV id="bi_0" class="image"><img src="/upload/1390035006240120.jpg" width="1560" height="465" /></DIV>
+<DIV id="bt_0" class="text">&nbsp;</DIV>
+<DIV id="bb_0" class="button">&nbsp;</DIV></DIV>
+<DIV class="slide autoMaxWidth" links="[{left:'30px',top:'81px'},{left:'30px',top:'244px'},{direction:'tb'}]">
+<DIV id="bi_0" class="image"><img src="/upload/140187599615184.jpg" width="1560" height="465" /></DIV>
+<DIV id="bt_0" class="text">&nbsp;</DIV>
+<DIV id="bb_0" class="button">&nbsp;</DIV></DIV>
+</DIV>
+<DIV class="control"><A href="#">&nbsp;</A><A href="#">&nbsp;</A><A href="#">&nbsp;</A><A href="#">&nbsp;</A></DIV></DIV>
+</div>
+<SCRIPT type="text/javascript" src="/js/Home/global_cn.index.js"></SCRIPT>
+<!--/banner-->
+<!--body-->
+<!--
+<div class="top3" style="height:128px;">
+  <div class="main" style="height:128px;">
+    <div class="l">通知公告</div>
+    <div class="r" style="height:128px;">
+      <DIV id=TextDiv3 style="height:128px">
+            <A href="/index.php/download/download/group/Home/parentID/1725/cat_id/1726/artID/2149">[学术报告]上海交大＂海外名师计划＂访问教授Yoichi Sumi船舶结构力学讲座 </A> (2017-05-02)<BR>
+            <A href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2112">[暑期学校]2017年船舶海洋工程与力学国际暑期学校</A> (2017-03-29)<BR>
+            <A href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2111">[学术报告]英伦剑桥大学DAMTP Colm-cille P Caulfield教授学术报告</A> (2017-03-28)<BR>
+            <A href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2107">首届创新论坛优秀论文评选结果通知</A> (2017-03-16)<BR>
+            <A href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2068">[学术讲座]Numerical Modelling of the Ecosystems Dynamics in Semi-enclosed Marine Water Bodies</A> (2016-11-17)<BR>
+            </DIV>
+<SCRIPT type=text/javascript> 
+/*********禁止鼠标控制暂停或滚动***************/
+/*var Marquee1=new Marquee("TextDiv3")				//禁止鼠标控制暂停或滚动实例
+Marquee1.ScrollStep=-0.5;						//禁止鼠标控制
+Marquee1.Start();
+*/
+new Marquee("TextDiv3",0,1,900,128,50,4000,3000,128)
+</SCRIPT>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+-->
+<div class="jg1"></div>
+<div class="top4 main">
+  <div class="l">
+    <div class="lm1">
+      <div class="lm1bt"><font>中心动态</font><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1727">更多>></a></div>
+      <div class="lm1k">
+        <div class="lnr_1">
+          <div class="nrl">
+          <script src="/js/Home/jquery-1.4a2.min.js" type="text/javascript"></script>
+<script src="/js/Home/jquery.KinSlideshow-1.0.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$("#KinSlideshow").KinSlideshow({
+			moveStyle:"right",
+			titleBar:{titleBar_height:30,titleBar_bgColor:"#000000",titleBar_alpha:0},
+			titleFont:{TitleFont_size:12,TitleFont_color:"#FFFFFF",TitleFont_weight:"normal"},
+			btn:{btn_bgColor:"#242321",btn_bgHoverColor:"#ff0000",btn_fontColor:"#ffffff",btn_fontHoverColor:"#FFFFFF",btn_borderColor:"#242321",btn_borderHoverColor:"#ff0000",btn_borderWidth:1}
+	});
+})
+</script>
+           <div id="KinSlideshow" style="visibility:hidden;">
+                                 <a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2215"><img src="/upload/1522725080210255.png" width="315" height="209" /></a>
+                                                                  <a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2213"><img src="/upload/152108764018312.jpg" width="315" height="209" /></a>
+                                            <a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2212"><img src="/upload/1520314597120128.JPG" width="315" height="209" /></a>
+                                                                                        <a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2203"><img src="/upload/151262820018218.jpg" width="315" height="209" /></a>
+                               </div>
+          </div>
+          <div class="nrr">
+            <ul class="list_n1">
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2215"> 中国“海龙11000”潜水器2000米级海试成...</a>2018-04-03</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2214">“海上大型绞吸疏浚装备的自主研发与产业化”成果鉴...</a>2018-03-21</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2213">第二届“高新船舶与深海开发装备”创新论坛成功举办</a>2018-03-12</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2212">服务区域经济发展，海洋装备战略研究院开展“上海海...</a>2018-02-27</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2207">中心水下工程团队研发“深鳗II号”在“锦泽轮”打...</a>2017-12-19</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2201">中心主办学术期刊《Journal of Ocea...</a>2017-12-07</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1727/artID/2203">中心主任林忠钦带队出席“2017年深海能源大会”</a>2017-11-29</li>
+                        </ul>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="jg1"></div>
+    <div class="lm1">
+      <div class="lm1bt"><font>协同单位动态</font><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1789">更多>></a></div>
+      <div class="lm1k">
+        <p><img src="/upload/138932852223.jpg" width="384" height="170" usemap="#Map" style="float:right; margin-left:15px;" />
+          <map name="Map" id="Map">
+            <area shape="rect" coords="42,1,156,29" href="http://www.sjtu.edu.cn/" target="_blank">
+            <area shape="rect" coords="27,35,137,63" href="http://www.cssc.net.cn/" target="_blank">
+            <area shape="rect" coords="25,71,139,100" href="http://www.cssrc.com.cn/" target="_blank">
+            <area shape="rect" coords="36,107,153,135" href="http://www.hust.edu.cn/" target="_blank">
+            <area shape="rect" coords="229,3,341,29" href="http://www.cnooc.com.cn/" target="_blank">
+            <area shape="rect" coords="245,37,358,65" href="http://www.ccs.org.cn/" target="_blank">
+            <area shape="rect" coords="245,72,355,101" href="http://www.tju.edu.cn/" target="_blank">
+            <area shape="rect" coords="229,107,343,135" href="http://www.dlut.edu.cn/" target="_blank">
+            <area shape="rect" coords="139,136,242,167" href="http://www.whut.edu.cn/" target="_blank">
+          </map>
+          <!--
+          <map name="Map" id="Map">
+            <area shape="rect" coords="25,11,139,39" href="http://www.sjtu.edu.cn/" target="_blank" />
+            <area shape="rect" coords="10,49,120,77" href="http://www.cssc.net.cn/" target="_blank" />
+            <area shape="rect" coords="8,88,122,117" href="http://www.cssrc.com.cn/" target="_blank" />
+            <area shape="rect" coords="24,129,141,157" href="http://www.hust.edu.cn/" target="_blank" />
+            <area shape="rect" coords="237,11,349,37" href="http://www.cnooc.com.cn/" target="_blank" />
+            <area shape="rect" coords="255,49,368,77" href="http://www.ccs.org.cn/" target="_blank" />
+            <area shape="rect" coords="256,88,366,117" href="http://www.tju.edu.cn/" target="_blank" />
+            <area shape="rect" coords="236,130,350,158" href="http://www.dlut.edu.cn/" target="_blank" />
+          </map>
+          -->
+          <!--
+            “高新船舶与深海开发装备协同创新中心”由上海交通大学牵头，联合中国船舶工业集团公司、中国海洋石油总公司、华中科技大学、天津大学、大连理工大学、武汉理工大学、中船重工第702研究所、中国船级社组建，2012年8月运行。中心针对高新船舶与深海开发装备研发中的关键技术和核心科学问题，开展前沿探索和共性技术研究，构建协同创新机制，汇聚优质资源，推进船舶与海洋工程产业转型和能级提升，建成我国海洋开发的科技创新与人才培养...
+        -->
+        	<div class="nrr">
+            <ul class="list_n1">
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1789/artID/2211" title="上海交大与中国船舶重工集团公司签署全面战略合作协议">上海交大与中国船舶重工集团公司签署全...</a>2018-01-29</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1789/artID/2210" title="【华中科技大学】华中科技大学与中船集团签署人才培养合作协议">【华中科技大学】华中科技大学与中船集...</a>2017-12-28</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1789/artID/2204" title="【上海交通大学】海洋结构物安全性与海洋环境保护国际研讨会（第33届IAS论坛）召开">【上海交通大学】海洋结构物安全性与海...</a>2017-12-15</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1789/artID/2209" title="【天津大学】天津大学与中船集团签订人才培养合作协议">【天津大学】天津大学与中船集团签订人...</a>2017-12-08</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1789/artID/2202" title="【上海交通大学】上海交大重大科研成果亮相2017年中国国际海事展">【上海交通大学】上海交大重大科研成果...</a>2017-12-07</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1789/artID/2208" title="【中船重工702所】拖曳水池获法国船级社颁发的全球首张EEDI认证证书">【中船重工702所】拖曳水池获法国船...</a>2017-11-29</li>
+                          <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1789/artID/2198" title="七〇二所成功研制船舶振动噪声两项国际标准">七〇二所成功研制船舶振动噪声两项国际...</a>2017-10-20</li>
+                        </ul>
+          </div>
+        </p>
+        <div class="clear"></div>
+        </div>
+    </div>
+    <div class="jg1"></div>
+    <div class="lm1">
+      <div class="lm1bt"><font>中心基地</font><a href="/index.php/Home/article/catePage/parentID/0/cat_id/1752">更多>></a></div>
+      <div class="lm1k" style="padding-bottom:0px;">
+        <div class="lnr_2" id="zdt">
+          <div id="nrt">
+          <ul class="list_p1">
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1753/artID/1808"><img src="/upload/140082751718013.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1753/artID/1808">船舶与海洋工程国家实验室（筹）<br>（上海交通大学）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1507"><img src="/upload/13901439961362.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1507">海岸与近海工程国家重点实验室<br>（大连理工大学）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1809"><img src="/upload/1400726204158101.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1809">机械系统与振动国家重点实验室<br>（上海交通大学）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1810"><img src="/upload/1400726323213202.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1810">金属基复合材料国家重点实验室<br>（上海交通大学）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1812"><img src="/upload/1400728280188105.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1812">水利工程仿真与安全国家重点实验室<br>（天津大学）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1856"><img src="/upload/1400827165731.JPG" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1754/artID/1856">海洋工程国家重点实验室<br>（上海交通大学）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1756/artID/1814"><img src="/upload/140081835818380.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1756/artID/1814">船舶设计技术国家工程研究中心<br>（中船工业集团）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1756/artID/1815"><img src="/upload/1400728355207192.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1756/artID/1815">船舶制造国家工程研究中心<br>（大连理工大学）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1757/artID/1501"><img src="/upload/1400728407240189.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1757/artID/1501">数字化造船国家工程实验室<br>（中船工业集团）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1758/artID/1818"><img src="/upload/140072852920048.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1758/artID/1818">国家能源深水油气工程技术研发中心<br>（中国海洋石油总公司）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1759/artID/1819"><img src="/upload/140074844846177.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1759/artID/1819">国家能源LNG海上储运装备重点实验室（中船工业集团）</a></div></li>
+                      <li><div class="imgk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1760/artID/1820"><img src="/upload/14007472435179.jpg" /></a></div><div class="txtk"><a href="/index.php/Home/article/detailPage/parentID/1752/cat_id/1760/artID/1820">国家深海试验技术中心<BR>（上海交通大学）</a></div></li>
+                      <div class="clear"></div>  
+          </ul>
+ </div>  
+        </div>
+        <SCRIPT language=javascript>
+	new Marquee(["zdt","nrt"],2,1,690,177,20,0,0);
+	</SCRIPT>
+      </div>
+    </div>
+    
+    <div class="lm1" style="margin-top:15px;">
+    <a href="/forum/" target="_blank"><img src="/images/Home/ltgg01_03.jpg" width="100%"></a>
+    </div>
+    
+    
+  </div>
+  <div class="r">
+  
+  	<div class="lm2">
+      <div class="lm2bt"><font>通知公告</font></div>
+      <div class="lm2k">
+        <ul class="list_n2" style="height:100px;">
+                  <li class="jq"><a href="/index.php/download/download/group/Home/parentID/1725/cat_id/1726/artID/2149" title="[学术报告]上海交大＂海外名师计划＂访问教授Yoichi Sumi船舶结构力学讲座 ">[学术报告]上海交大＂海外名师计划＂访问教授Yoichi Sumi船舶结构力学讲座 </a><!--<span style="float:right;">2017-05-02</span>--><div style="display:none; clear:both;"></div></li>
+                  <li class="jq"><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2112" title="[暑期学校]2017年船舶海洋工程与力学国际暑期学校">[暑期学校]2017年船舶海洋工程与力学国际暑期学校</a><!--<span style="float:right;">2017-03-29</span>--><div style="display:none; clear:both;"></div></li>
+                  <li class="jq"><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2111" title="[学术报告]英伦剑桥大学DAMTP Colm-cille P Caulfield教授学术报告">[学术报告]英伦剑桥大学DAMTP Colm-cille P Caulfield教授学术报告</a><!--<span style="float:right;">2017-03-28</span>--><div style="display:none; clear:both;"></div></li>
+                  <li class="jq"><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2107" title="首届创新论坛优秀论文评选结果通知">首届创新论坛优秀论文评选结果通知</a><!--<span style="float:right;">2017-03-16</span>--><div style="display:none; clear:both;"></div></li>
+                  <li class="jq"><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2068" title="[学术讲座]Numerical Modelling of the Ecosystems Dynamics in Semi-enclosed Marine Water Bodies">[学术讲座]Numerical Modelling of the Ecosystems Dynamics in Semi-enclosed Marine Water Bodies</a><!--<span style="float:right;">2016-11-17</span>--><div style="display:none; clear:both;"></div></li>
+                </ul>
+        <div class="more1"><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1726">查看更多</a></div>
+      </div>
+    </div>
+    <script language="javascript" type="text/javascript">  
+	//js截取字符串，中英文都能用  
+	//如果给定的字符串大于指定长度，截取指定长度返回，否者返回源字符串。  
+	//字符串，长度  
+	  
+	/** 
+	 * js截取字符串，中英文都能用 
+	 * @param str：需要截取的字符串 
+	 * @param len: 需要截取的长度 
+	 */ 
+	 $(document).ready(function(e) {
+        $('.jq').find('a').each(function(){
+			var t=this
+			if($(this).parent('li').find('img').attr('src')){
+				var html=cutstr($(t).html(),24);
+			}else
+			{
+				var html=cutstr($(t).html(),30);
+			}
+			$(t).html(html);
+			})
+    });
+	function cutstr(str,len)  
+	{  
+	   var str_length = 0;  
+	   var str_len = 0;  
+		  str_cut = new String();  
+		  str_len = str.length;  
+		  for(var i = 0;i<str_len;i++)  
+		 {  
+			a = str.charAt(i);  
+			str_length++;  
+			if(escape(a).length > 4)  
+			{  
+			 //中文字符的长度经编码之后大于4  
+			 str_length++;  
+			 }  
+			 str_cut = str_cut.concat(a);  
+			 if(str_length>=len)  
+			 {  
+			 str_cut = str_cut.concat("...");  
+			 return str_cut;  
+			 }  
+		}  
+		//如果给定字符串小于指定长度，则返回源字符串；  
+		if(str_length<len){  
+		 return  str;  
+		}  
+	}  
+	  
+	</script> 
+    <div class="jg1"></div>
+    
+    <div class="lm2">
+      <div class="lm2bt"><font>科研动态</font></div>
+      <div class="lm2k">
+        <ul class="list_n2">
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1728/artID/2067" title="工信部正式发布《信息化和工业化融合发展规划（2016~2020年）》">工信部正式发布《信息化和工业化融合发展规划（2016~2...</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1728/artID/2046" title="海洋高端装备创新发展获中央财政支持">海洋高端装备创新发展获中央财政支持</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1728/artID/2037" title="4部委发布５大工程实施指南，高技术船舶与海工成为高端装备创新的重点领域之一">4部委发布５大工程实施指南，高技术船舶与海工成为高端装备...</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1728/artID/2038" title="胡可一：大国工匠需要知识武装">胡可一：大国工匠需要知识武装</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1728/artID/2032" title="《“十三五”国家科技创新规划》发布，船海产业明确多项战略任务">《“十三五”国家科技创新规划》发布，船海产业明确多项战略...</a></li>
+                </ul>
+        <div class="more1"><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1728">查看更多</a></div>
+      </div>
+    </div>
+    <div class="jg1"></div>
+    <div class="lm2">
+      <div class="lm2bt"><font>媒体聚焦</font></div>
+      <div class="lm2k">
+        <ul class="list_n2" style="min-height:82px;">
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1782/artID/2191" title="【东方卫视】海龙号系列：以自主核心技术 向万米深渊挺进" class="jq22">【东方卫视】海龙号系列：以自主核心技术 向万米深渊挺进</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1782/artID/2106" title="【新民晚报】打造探究深海的“兄弟连”—上海交大水下所研制成十余大型潜水器和水下装备" class="jq22">【新民晚报】打造探究深海的“兄弟连”—上海交大水下所研制成十余大型潜水器和水下装备</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1782/artID/2101" title="【上海教育新闻网】专家齐聚上海交大 畅想未来造船厂" class="jq22">【上海教育新闻网】专家齐聚上海交大 畅想未来造船厂</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1782/artID/2100" title="【解放日报】]辽宁舰总设计师：我国水面舰艇技术已与世界海军强国同列" class="jq22">【解放日报】]辽宁舰总设计师：我国水面舰艇技术已与世界海军强国同列</a></li>
+                </ul>
+        <div class="more1"><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1782">查看更多</a></div>
+      </div>
+    </div>
+    <div class="jg1"></div>
+    <div class="lm2">
+      <div class="lm2bt"><font>人才培养</font></div>
+      <div class="lm2k">
+        <ul class="list_n2" style="min-height:82px;">
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1729/artID/2196" title="上海交大学子获“第十八届中国海洋（岸）工程学术讨论会”青年优秀论文奖" class="jq22">上海交大学子获“第十八届中国海洋（岸）工程学术讨论会”青年优秀论文奖</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1729/artID/2169" title="上海交大和英国纽卡斯尔大学2+2本科生交换项目讲座顺利召开" class="jq22">上海交大和英国纽卡斯尔大学2+2本科生交换项目讲座顺利召开</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1729/artID/2148" title="2017全国船舶与海洋工程博士生论坛在上海交通大学成功举办" class="jq22">2017全国船舶与海洋工程博士生论坛在上海交通大学成功举办</a></li>
+                  <li><a href="/index.php/Home/article/detailPage/parentID/1725/cat_id/1729/artID/2081" title="SJTU-YNU Joint Workshop暨日本横滨国立大学短期交流交换生结业典礼举办" class="jq22">SJTU-YNU Joint Workshop暨日本横滨国立大学短期交流交换生结业典礼举办</a></li>
+                </ul>
+        <div class="more1"><a href="/index.php/Home/article/listPage/parentID/1725/cat_id/1729">查看更多</a></div>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    <script type="text/javascript">
+	var sub=function(str,n){
+	var r=/[^\x00-\xff]/g;
+	if(str.replace(r,"mm").length<=n){return str;}
+	var m=Math.floor(n/2);
+	for(var i=m;i<str.length;i++){
+	if(str.substr(0,i).replace(r,"mm").length>=n){
+	return str.substr(0,i)+"...";
+	}
+	}
+	return str;
+	}
+	$('.jq22').each(function(){
+		$(this).html(sub($(this).html(),30));
+	})
+	</script> 
+    <div class="jg1"></div>
+ <a href="javascript:alert('请先登录！');location.href='/index.php/Home/Active/login';"><img src="/images/Home/zygx.jpg" /></a>
+
+	
+  </div>
+  <div class="clear"></div>
+  <div class="jg1"></div>
+    <div class="lm1" style="width:1000px;">
+      <div class="lm1bt" style=" background-image:url(/images/Home/cbxt-s_1000.png);"><font>快速链接</font></div>
+      <div class="lm1k">
+        	          	<a href="http://www.sjtu.edu.cn/" target="_blank" title="上海交通大学">上海交通大学</a> |         	          	<a href="http://www.ccs.org.cn/" target="_blank" title="中国船级社">中国船级社</a> |         	          	<a href="http://www.cssrc.com.cn/" target="_blank" title="中船重工702研究所">中船重工702研究所</a> |         	          	<a href="http://www.dlut.edu.cn/" target="_blank" title="大连理工大学">大连理工大学</a> |         	          	<a href="http://www.tju.edu.cn/" target="_blank" title="天津大学">天津大学</a> |         	          	<a href="http://www.hust.edu.cn/" target="_blank" title="华中科技大学">华中科技大学</a> |         	          	<a href="http://www.cnooc.com.cn/" target="_blank" title="中国海洋石油总公司">中国海洋石油总公司</a> |         	          	<a href="http://www.cssc.net.cn/" target="_blank" title="中国船舶工业集团公司">中国船舶工业集团公司</a> |         	          	<a href="http://www.most.gov.cn/" target="_blank" title="中华人民共和国科学技术部">中华人民共和国科学技术部</a> |         	          	<a href="http://www.moe.edu.cn/" target="_blank" title="中华人民共和国教育部门户网站">中华人民共和国教育部门户网站</a> |         	          	<a href="http://csioe.sjtu.edu.cn/index.html" target="_blank" title="中国海洋装备工程科技发展战略研究院">中国海洋装备工程科技发展战略研究院</a> |         	          	<a href="http://joes.sjtu.edu.cn/Default.aspx" target="_blank" title="Journal of Ocean Engineering and Science">Journal of Ocean Engineering and Science</a>        	      </div>
+    </div>
+  
+</div>
+
+
+<!--
+<div id="img" style="LEFT:20px; visibility:hidden;POSITION:absolute; TOP:20px; z-index:9999999">    
+
+ <a href="http://cisse.cn/index.php/Home/article/detailPage/parentID/1725/cat_id/1726/artID/2078" target="_blank">        
+
+ <img border=0 src="/images/Home/float2016.jpg" >   
+
+  </a> </div>
+
+ <script language="javascript">
+
+
+
+var xPos = 20;
+
+ var yPos = document.documentElement.clientHeight;
+
+var step = 1;
+
+ var delay = 30;
+
+var height = 0;
+
+var Hoffset = 0;
+
+var Woffset = 0;
+
+var yon = 0;
+
+var xon = 0;
+
+var pause = true;
+
+var interval;
+
+var img = document.getElementById("img");
+
+ img.style.top = yPos; function changePos() {    
+
+　　width=document.documentElement.clientWidth;    
+
+　　 height=document.documentElement.clientHeight;  
+
+　　 Hoffset=img.offsetHeight;   Woffset=img.offsetWidth;
+
+      img.style.left=xPos+document.body.scrollLeft+"px";    
+
+　   img.style.top=yPos+document.body.scrollTop+"px";    
+
+     if(yon) {       
+
+           yPos=yPos+step;    
+
+     }else {     
+
+           yPos=yPos-step;  
+
+   }
+
+    if(yPos<0) {        
+
+          yon=1;     
+
+          yPos=0;    
+
+    }
+
+    if(yPos>=(height-Hoffset)) {    
+
+        yon=0;    
+
+        yPos=(height-Hoffset);  
+
+    }
+
+     if(xon) {       
+
+          xPos=xPos+step;
+
+     }else {         xPos=xPos-step;   
+
+     }
+
+    if(xPos<0) {       
+
+         xon=1;      xPos=0;    
+
+    }
+
+    if(xPos>=(width-Woffset)) {    
+
+        xon=0;      xPos=(width-Woffset);    
+
+     } }
+
+    function start() {     img.style.visibility="visible"; interval=setInterval('changePos()',delay); }
+
+    start();
+
+ </script>
+-->
+
+<!--foot-->
+<div class="jg2"></div>
+<div class="foot">
+  <div class="main">
+    <div class="l">Copyright © 2013 高新船舶与深海开发装备协同创新中心 版权所有 </div>
+    <div class="r">
+        <a href="/index.php/Home/sitemap/detailPage/parentID/0/cat_id/1702">网站地图</a>
+        |<a href="/index.php/Home/article/detailPage/parentID/0/cat_id/1765">友情链接</a>
+        |<a href="/index.php/Home/article/detailPage/parentID/0/cat_id/1766">联系我们</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</body>
+</html>

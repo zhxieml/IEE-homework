@@ -1,0 +1,511 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+                                        <title>清华大学环境学院</title>
+<link href="/publish/env/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/env/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="/publish/env/js/grayscale.js" type="text/javascript"></script>
+<script src="/publish/env/js/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*env
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/env/css/style_second.css" rel="stylesheet" type="text/css" />
+<!-- 导入全局模板 -->
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!-- 整体区域开始 -->
+ <div class="wrapper nomalwclassth auto">
+    
+     <!-- 页头区域开始 -->
+       <!-- 页头区域开始 -->
+  <div class="header nomalwidth auto" style="height:140px;background-image:url(/publish/env/images/banner2018.jpg)">
+      
+       <!--<div class="logo_text">
+         <p class="cn">&nbsp;</p>
+         <p class="en">&nbsp;</p>
+        </div>-->
+  
+                <div class="hot_links" style="top: 40px;"><a href="/publish/enven/index.html">English</a></div>
+    
+         <!-- <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="960" height="140">
+    <param name="movie" value="/publish/env/images/banner.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    
+    <param name="expressinstall" value="30years/expressInstall.swf" />
+    <param name="menu" value="false" />
+   
+    <object type="application/x-shockwave-flash" data="/publish/env/images/banner.swf" width="960" height="140">
+     
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="/publish/env/images/expressInstall.swf" />
+      <param name="menu" value="false" />
+     
+      <div>
+        <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      </div>
+     
+    </object>
+   
+  </object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>-->
+</div>
+<!-- 页头区域结束 -->        <!-- 页头区域结束 -->
+        
+        <!-- nav start -->
+        <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu6326 = ms.addMenu(document.getElementById("menu_6326"));
+menu6326.addItem("栏目概述","/publish/env/6327/index.html","");
+        menu6326.addItem("教研教师","/publish/env/6329/index.html","");
+        var subMenu6326_1 = menu6326.addMenu(menu6326.items[1]);
+       subMenu6326_1.addItem("院士","/publish/env/6329/index.html","");
+    subMenu6326_1.addItem("千人计划","/publish/env/6330/index.html","");
+    subMenu6326_1.addItem("教研所师资","/publish/env/6331/index.html","");
+      menu6326.addItem("兼职教授","/publish/env/6334/index.html","");
+        menu6326.addItem("实验教师","/publish/env/6817/index.html","");
+        menu6326.addItem("行政教师","/publish/env/6818/index.html","");
+        menu6326.addItem("合同制教师","/publish/env/6335/index.html","");
+        menu6326.addItem("博士后","/publish/env/6336/index.html","");
+        menu6326.addItem("访问学者","/publish/env/6819/index.html","");
+        menu6326.addItem("荣退教师","/publish/env/6337/index.html","");
+        var menu6317 = ms.addMenu(document.getElementById("menu_6317"));
+menu6317.addItem("组织机构","/publish/env/6318/index.html","");
+        menu6317.addItem("学术机构","/publish/env/6319/index.html","");
+        menu6317.addItem("研究机构","/publish/env/6321/index.html","");
+        var subMenu6317_2 = menu6317.addMenu(menu6317.items[2]);
+       subMenu6317_2.addItem("研究所","/publish/env/6321/index.html","");
+    subMenu6317_2.addItem("国家级研究机构","/publish/env/6322/index.html","");
+    subMenu6317_2.addItem("省部级研究机构","/publish/env/6323/index.html","");
+    subMenu6317_2.addItem("校级研究机构","/publish/env/6324/index.html","");
+    subMenu6317_2.addItem("联合研究机构","/publish/env/6325/index.html","");
+      var menu6312 = ms.addMenu(document.getElementById("menu_6312"));
+menu6312.addItem("学院简介","/publish/env/6313/index.html","");
+        menu6312.addItem("现任领导","/publish/env/7208/index.html","");
+        menu6312.addItem("历任领导","/publish/env/6314/index.html","");
+        menu6312.addItem("历史沿革","/publish/env/6315/index.html","");
+        menu6312.addItem("大事年表","/publish/env/6316/index.html","");
+        var menu6338 = ms.addMenu(document.getElementById("menu_6338"));
+menu6338.addItem("栏目概述","/publish/env/6339/index.html","");
+        menu6338.addItem("本科生教学","/publish/env/6341/index.html","");
+        var subMenu6338_1 = menu6338.addMenu(menu6338.items[1]);
+       subMenu6338_1.addItem("专业介绍","/publish/env/6341/index.html","");
+    subMenu6338_1.addItem("课程介绍","/publish/env/6342/index.html","");
+    subMenu6338_1.addItem("精品课程","/publish/env/6343/index.html","");
+    subMenu6338_1.addItem("专业设置","/publish/env/6344/index.html","");
+    subMenu6338_1.addItem("培养方案","/publish/env/6345/index.html","");
+    subMenu6338_1.addItem("实践教学","/publish/env/6346/index.html","");
+    subMenu6338_1.addItem("留学生","/publish/env/6347/index.html","");
+      menu6338.addItem("硕士生教学","/publish/env/6349/index.html","");
+        var subMenu6338_2 = menu6338.addMenu(menu6338.items[2]);
+       subMenu6338_2.addItem("导师介绍","/publish/env/6349/index.html","");
+    subMenu6338_2.addItem("培养方案（硕士）","/publish/env/6350/index.html","");
+    subMenu6338_2.addItem("培养方案（工程硕士）","/publish/env/6351/index.html","");
+    subMenu6338_2.addItem("开设课程","/publish/env/6352/index.html","");
+    subMenu6338_2.addItem("留学生","/publish/env/6353/index.html","");
+      menu6338.addItem("博士生教学","/publish/env/6355/index.html","");
+        var subMenu6338_3 = menu6338.addMenu(menu6338.items[3]);
+       subMenu6338_3.addItem("导师介绍（博士）","/publish/env/6355/index.html","");
+    subMenu6338_3.addItem("培养方案（博士）","/publish/env/6356/index.html","");
+    subMenu6338_3.addItem("留学生","/publish/env/6357/index.html","");
+      menu6338.addItem("继续教育","/publish/env/6358/index.html","");
+        menu6338.addItem("出版教材","/publish/env/6359/index.html","");
+        menu6338.addItem("教学成果","/publish/env/6360/index.html","");
+        
+var menu6361 = ms.addMenu(document.getElementById("menu_6361"));
+menu6361.addItem("栏目概述","/publish/env/6362/index.html","");
+        menu6361.addItem("本科生","/publish/env/6363/index.html","");
+        menu6361.addItem("研究生","/publish/env/6364/index.html","");
+        menu6361.addItem("学生绿色协会","/publish/env/6365/index.html","");
+        menu6361.addItem("环境友好科技竞赛","/publish/env/6366/index.html","");
+        menu6361.addItem("博士生学术会议","/publish/env/6367/index.html","");
+        menu6361.addItem("陶氏-可持续发展创新挑战赛","/publish/env/7841/index.html","");
+        menu6361.addItem("清源协会","/publish/env/8478/index.html","");
+        menu6361.addItem("奖学金","/publish/env/10530/index.html","");
+        var menu6368 = ms.addMenu(document.getElementById("menu_6368"));
+menu6368.addItem("栏目概述","/publish/env/6369/index.html","");
+        menu6368.addItem("研究领域","/publish/env/6370/index.html","");
+        menu6368.addItem("研究成果","/publish/env/6372/index.html","");
+        var subMenu6368_2 = menu6368.addMenu(menu6368.items[2]);
+       subMenu6368_2.addItem("各类奖项","/publish/env/6372/index.html","");
+    subMenu6368_2.addItem("编著译著","/publish/env/6373/index.html","");
+    subMenu6368_2.addItem("知识产权","/publish/env/6374/index.html","");
+      menu6368.addItem("编辑期刊","/publish/env/6376/index.html","");
+        var subMenu6368_3 = menu6368.addMenu(menu6368.items[3]);
+       subMenu6368_3.addItem("期刊简介","/publish/env/6376/index.html","");
+    subMenu6368_3.addItem("编委会","/publish/env/6378/index.html","");
+    subMenu6368_3.addItem("征稿简则","/publish/env/6379/index.html","");
+    subMenu6368_3.addItem("稿件模板","/publish/env/6380/index.html","");
+      menu6368.addItem("主办会议","/publish/env/6381/index.html","");
+        menu6368.addItem("重大专项","/publish/env/6384/index.html","");
+        var menu6385 = ms.addMenu(document.getElementById("menu_6385"));
+menu6385.addItem("栏目概述","/publish/env/6386/index.html","");
+        menu6385.addItem("合作机构","/publish/env/6387/index.html","");
+        menu6385.addItem("重要项目","/publish/env/6388/index.html","");
+        var menu6390 = ms.addMenu(document.getElementById("menu_6390"));
+menu6390.addItem("环境节能楼","/publish/env/6391/index.html","");
+        menu6390.addItem("实验教学中心","/publish/env/6392/index.html","");
+        menu6390.addItem("公共研究平台","/publish/env/6393/index.html","");
+        menu6390.addItem("环境图书馆","/publish/env/6394/index.html","");
+        var menu6395 = ms.addMenu(document.getElementById("menu_6395"));
+menu6395.addItem("本科生","/publish/env/6396/index.html","");
+        menu6395.addItem("硕士生","/publish/env/6398/index.html","");
+        var subMenu6395_1 = menu6395.addMenu(menu6395.items[1]);
+       subMenu6395_1.addItem("硕士","/publish/env/6398/index.html","");
+    subMenu6395_1.addItem("工程硕士","/publish/env/6399/index.html","");
+    subMenu6395_1.addItem("工程管理硕士","/publish/env/9171/index.html","");
+      menu6395.addItem("博士生","/publish/env/6400/index.html","");
+        menu6395.addItem("留学生","/publish/env/6401/index.html","");
+        menu6395.addItem("继续教育","/publish/env/6402/index.html","");
+        var menu6404 = ms.addMenu(document.getElementById("menu_6404"));
+menu6404.addItem("教师招聘","/publish/env/6405/index.html","");
+        menu6404.addItem("博士后招聘","/publish/env/6406/index.html","");
+        menu6404.addItem("合同制人员招聘","/publish/env/6407/index.html","");
+        var menu6408 = ms.addMenu(document.getElementById("menu_6408"));
+menu6408.addItem("综合新闻","/publish/env/6409/index.html","");
+        menu6408.addItem("图片新闻","/publish/env/6410/index.html","");
+        menu6408.addItem("人物新闻","/publish/env/6411/index.html","");
+        menu6408.addItem("工作简报","/publish/env/6413/index.html","");
+        var menu6414 = ms.addMenu(document.getElementById("menu_6414"));
+menu6414.addItem("电话电邮","/publish/env/6415/index.html","");
+        menu6414.addItem("邮寄地址","/publish/env/6416/index.html","");
+        menu6414.addItem("来访路线","/publish/env/6417/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<!-- nav start -->
+        <div class="nav nomalwidth auto">
+         <ul>
+<li><a href="/publish/env/index.html" title="&nbsp;">首页</a></li>
+<li id="menu_6312"  class="first"><a href="/publish/env/6313/index.html" title="学院概况">学院概况</a></li>
+<li id="menu_6317"><a href="/publish/env/6318/index.html" title="机构设置">机构设置</a></li>
+<li id="menu_6326"><a href="/publish/env/6327/index.html" title="师资队伍">师资队伍</a></li>
+<li id="menu_6338"><a href="/publish/env/6339/index.html" title="教务教学">教务教学</a></li>
+<li id="menu_6361"><a href="/publish/env/6362/index.html" title="学生生活">学生生活</a></li>
+<li id="menu_6368"><a href="/publish/env/6369/index.html" title="科学研究">科学研究</a></li>
+<li id="menu_6385"><a href="/publish/env/6386/index.html" title="合作交流">合作交流</a></li>
+<li id="menu_6390"><a href="/publish/env/6391/index.html" title="基础设施">基础设施</a></li>
+<li id="menu_6395"><a href="/publish/env/6396/index.html" title="招生信息">招生信息</a></li>
+<li id="menu_6404"><a href="/publish/env/6405/index.html" title="招聘人才">招聘人才</a></li>
+<li id="menu_6408"><a href="/publish/env/6409/index.html" title="新闻">新闻</a></li>
+<li id="menu_6414"><a href="/publish/env/6415/index.html" title="联系我们" class="clear">联系我们</a></li>
+</ul>
+        </div>
+  <script language="JavaScript">initMenuData();</script>
+        <!-- nav end -->        <!-- nav end -->
+        
+        <!-- 中部区域开始 -->
+        <div class="content auto">
+         
+            <!-- start -->
+            <table width="0" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="box_left">
+                 
+                    <!-- start -->
+                    <div class="s_menu">
+<p><img src="/publish/env/images/left_menu_pic.gif" width="200" height="76" /></p>
+                    </div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <div class="menu_bg_line"></div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <form id="searchForm" name="form1" method="post" action="#" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+<div class="search auto"><p class="left"><input name="Q" type="text" /></p><p class="right"><a href="javascript:document.form1.submit();" title="搜索"></a></p></div>
+</form>                    <!-- end -->
+                    
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="info_02 auto"><a href='http://100.tsinghua.edu.cn'><img width='190' height='67' src='/publish/env/images/100year_02.gif' /></a></div>
+                    <!-- end -->                    <!-- end -->
+                                                            
+                </td>
+                <td class="box_right">
+                 
+                    <!-- c_top start -->
+<!-- c_top start -->
+<div class="c_top">
+  <ul class="nav_01">
+    <li>&nbsp;您所在的位置：<A href="/publish/env/index.html" >首页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A href="/publish/env/6422/index.html" >教师个人主页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A>教师详细信息</A></li>
+    <li style="width:400px; text-align:right;"><A href="javascript:history.go(-1);">返&nbsp;&nbsp;回</A></li>
+  </ul>
+</div>
+<!-- c_bottom end -->                    <!-- c_bottom end -->
+                    <!-- start -->
+                <!--s2_right_con开始处-->
+                      <div id="s2_right_con">
+<img src="/publish/env/6422/20110219165446880712432/20110219165944216921361.jpg" />
+<table style="width: 309px; height: 188px" border="1" cellspacing="1" cellpadding="1" width="309">
+    <tbody>
+        <tr>
+            <td>姓　　名：</td>
+            <td>张晓健</td>
+        </tr>
+        <tr>
+            <td>所在单位：</td>
+            <td>饮用水安全教研所</td>
+        </tr>
+        <tr>
+            <td>职　　称：</td>
+            <td>教授</td>
+        </tr>
+        <tr>
+            <td>办公电话：</td>
+            <td>010-62781779</td>
+        </tr>
+        <tr>
+            <td>电子邮件：</td>
+            <td><a href="mailto:zhangxj@tsinghua.edu.cn">zhangxj@tsinghua.edu.cn</a></td>
+        </tr>
+        <tr>
+            <td>邮寄地址：</td>
+            <td>北京市清华大学环境学院</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+                        <h4>教育背景</h4>
+<p>给水排水工程专业本科（清华大学1974.9-1978.1）</p>
+<p>环境工程硕士（清华大学1978.9-1981.3）</p>
+<p>环境工程博士（清华大学1981.9-1986.6，中国自己培养的第一名环境工程博士）</p>
+                        <h4>工作履历</h4>
+<p><strong>工作简历：</strong></p>
+<p>清华大学环境学院教师（1981.3－现在）、教授（1993.12－现在）、博士生导师（1995.10－现在）。曾任环境科学与工程系副系主任（1994.12-2001.3）、水质科学与工程研究所所长（1991.1－2006.10）。</p>
+<p><strong>国外学习经历：</strong></p>
+<p>英国伯明翰大学博士后（1988-1989）、美国辛辛纳提大学访问学者（1994.4-7）、加拿大R.V.Anderson工程咨询公司访问学者（1994.7-12）。&nbsp;</p>
+<p><strong>教学：</strong></p>
+<p>研究生课程《高等水处理工程》主讲教师 （1999-现在）&nbsp;</p>
+<p>教学中教书育人，经学生评选2次获校级&ldquo;良师益友&rdquo;奖，所讲授的&ldquo;高等水处理工程&rdquo;是清华大学的精品课程，教学成果多次获国家和省市级教学奖。在讲授该课程之前曾多年（1990-1999）担任本科生《水处理工程》系列课程负责人，教学成果获得北京市优秀教学成果一等奖。教学管理工作在1994-2001年期间曾担任环境科学与工程系主管教学的副主任，为环境系教学改革和建设中做出突出成果。</p>
+<p>多年担任高等学校给水排水工程专业教学指导委员会（1994-现在）和高等学校环境工程教学指导委员会（1995-2006）的工作，积极推动全国的专业教学改革和建设，教学成果在专业教育界有较大影响。在近期的教改研究&ldquo;给水排水工程专业发展战略&rdquo;、&ldquo;给水排水工程专业规范&rdquo;、&ldquo;卓越工程师教育培养计划给水排水工程专业本科培养标准&rdquo;中发挥了核心作用，以上成果均在2011年通过验收并形成教学文件，对专业教育发展有重要意义。</p>
+<p>曾获高等教育国家级教学成果奖一等奖（2005）和二等奖（2005）、北京市教育教学成果奖（高等教育）一等奖三项（2004、1997、1993）、黑龙江省高等教育教学成果奖一等奖两项（2005、2009）、北京市优秀教师、北京市孟二冬式优秀教师、北京市人民教师提名奖、清华大学校级优秀教学奖(十余项)等奖励，发表教学研究论文20余篇。</p>
+                        <h4>学术兼职</h4>
+<p>中国城镇供水排水协会 副会长（2006.9-现在）</p>
+<p>中国土木工程学会水工业分会副理事长（1996-现在），理事、副秘书长（1991-1996）</p>
+<p>给水排水学会给水委员会 理事（1995-现在）</p>
+<p>国际水协会(International Water Association) 政府会员代表 (2000-现在)</p>
+<p>高等学校给水排水工程专业指导委员会 委员（1994-2004），副主任委员（2005-现在）</p>
+<p>住建部高等教育给水排水工程专业评估委员会 副主任委员（2003-现在）</p>
+<p>住建部&ldquo;卓越工程师教育培养计划&rdquo;给水排水工程专业专家组副组长（2010-现在）</p>
+<p>全国公用设备注册工程师专家组 成员（2002-现在）</p>
+<p>《给水排水》杂志编委会副主任（1997-现在）</p>
+<p>《中国给水排水》杂志编委会副主任（2001-现在）</p>
+<p>《工业用水与废水》杂志编委会主任（1999-现在）</p>
+<p>《环境科学学报》杂志编委（1987-1991，1996-现在）</p>
+<p>环保部环境应急专家组专家（2010-现在）</p>
+<p>住建部科技委委员（2009-现在）</p>
+                        <h4>研究领域</h4>
+<p>1. 饮用水处理理论与技术</p>
+<p>2. 城市供水应急处理技术</p>
+<p>3. 供水管网水质稳定控制理论与技术</p>
+<p>4. 饮用水安全消毒理论与技术</p>
+<p>5. 水环境和水资源</p>
+                        <h4>研究概况</h4>
+<p><strong>主要研究成果：</strong></p>
+<p>在应对水源突发性污染事故城市供水应急技术研究中，确立了提前主动研究、加强应急能力建设的指导思想，并作为负责人组织了城市供水应急处理技术研究课题。在国内外首次建立了由六类技术组成的城市供水应急处理技术体系，基本上覆盖了饮用水相关标准中的全部污染物。在应急处理技术研究创新中，确定了粉末活性炭应急处理技术的实施要点，提出了应对重金属污染物的化学沉淀应急处理技术和工艺，形成了应对藻类暴发复合污染的针对性应急处理工艺。在多次重大环境污染事故的应急处置中做出突出贡献，包括：2005年松花江硝基苯污染事件、2005年广东北江镉污染事件、2007年无锡水危机事件、2007年秦皇岛嗅味事件、2008年贵州都柳江砷污染事件、2008年汶川地震灾后供水安全保障、2010年1月陕西渭南柴油泄漏事件等。近期主要成果是：在2010年10月广东北江铊污染事件、2011年6月浙江苕溪水污染事件、2011年7月湖南广东武江锑污染事件中，作为环保部和住建部的专家赴现场指导，根据前期技术储备迅速确定水厂应急处理工艺，并协助组织实施，及早恢复了正常供水，为应急处置做出新贡献。</p>
+<p><strong>曾承担和完成的国家级项目：</strong></p>
+<p>国家高技术研究发展计划(863计划)课题《给水管网水质稳定性控制技术研究与应用》（2006AA06Z301，2007-2009，负责人）</p>
+<p>国家高技术研究发展计划(863计划)课题《北方地区安全饮水保障技术》（2002AA601140，课题专家组副组长，2003～2006）</p>
+<p>&nbsp;财政部专项计划《城市供水应急净化技术方案研究》（2006，项目负责人）</p>
+<p>建设部科技计划项目&ldquo;应对水源突发性污染事故的城市供水应急技术研究&rdquo;（2006，第二负责人）</p>
+<p>&ldquo;十一五&rdquo;国家科技支撑计划重点项目&ldquo;农村安全供水集成技术研究与示范&rdquo;的课题&ldquo;微污染水处理技术研究与装置开发&rdquo;（2007-2009，第二负责人）等。</p>
+<p>国家自然科学基金重点项目《水质安全与净化新理论新技术》（2004-2006，主要参加人）</p>
+<p>国家自然科学基金面上项目《给水管网中铁稳定性控制机理研究》（2006-2008，负责人）</p>
+<p>国家自然科学基金面上项目《我国饮用水中硫醇硫醚类与微生物代谢产物类致嗅物质的去除机理研究》（2008-2010，负责人）</p>
+<p>国家十五科技攻关课题《小城镇水环境关键技术》（2002BA806B04，主要参加人）</p>
+<p>国家九五科技攻关课题&ldquo;受污染水源水净化集成技术与设备&rdquo;、国家自然科学基金重点项目&ldquo;水中颗粒物和难降解有机物的特性与控制机理&rdquo;（1992～1995）</p>
+<p>国家八五科技攻关课题&ldquo;含难降解有机物工业废水治理技术与工艺&rdquo;</p>
+<p>国家七五科技攻关课题&ldquo;城市污水回用技术研究&rdquo;</p>
+<p>国家六五科技攻关课题&ldquo;城市污水处理与再利用&rdquo;等。</p>
+<p><strong>目前正在承担的主要科研项目：</strong></p>
+<p>国家重大科技专项《水体污染控制与治理》饮用水主题项目《珠江下游地区饮用水安全保障技术集成与综合示范》（2008ZX07423，2008-2011，负责人）</p>
+<p>国家重大科技专项《水体污染控制与治理》饮用水主题《监测预警应急项目课题《自来水厂应急净化处理技术及工艺系统研究与示范》（2008ZX07420-005，2008-2010，主要研究人）</p>
+<p>国家高技术研究发展计划(863计划)课题《给水管网化学稳定特性研究与控制技术》（2009AA06Z308，2010-2012，负责人）</p>
+<p>国家自然科学基金面上项目《饮用水中亚硝胺类消毒副产物的关键前体物识别与控制技术研究》（51078208，2011-2013，负责人）</p>
+<p>科技部国际科技合作项目《内外源污染引起供水管网水质变化的机理和处理技术》（2010DFA91830，2010-2013，负责人）</p>
+                        <h4>奖励与荣誉</h4>
+<p><strong>2000年以来获奖：</strong></p>
+<p>2011，绿动&bull;2011中国十大经济领军人物，2011.11，新华社经济参考报等</p>
+<p>&nbsp;2011，中国水利水电科学研究院2011年度科学技术奖一等奖，&ldquo;微污染水处理技术与装置&rdquo;，2011.12，中国水利水电科学研究院</p>
+<p>2011，清华大学精品课程，《高等水处理工程》，复评，清华大学</p>
+<p>2010，清华大学教学成果特等奖，&ldquo;理论与实践融合的水处理工程课程&rdquo;，（个人排序第3），2010.9，清华大学</p>
+<p>2010，北京水务科学技术奖二等奖（个人排序第1），2010.5，北京市水务局</p>
+<p>2009，黑龙江省高等教育教学成果一等奖，&ldquo;给水排水工程专业创新型人才培养体系建设&rdquo;（住建部给水排水工程专业指导委员会申报，个人排序第2），黑龙江省</p>
+<p>2009，&ldquo;第十一届清华大学研究生良师益友（优秀导师）奖&rdquo;，2009.4，清华大学</p>
+<p>2009，华夏建设科学技术奖二等奖，&ldquo;应对水源突发性污染的城市供水应急处理技术研究&rdquo;，（个人排序第2），2009.12，住房和城乡建设部</p>
+<p>2008，2008环境保护科学技术奖一等奖，&ldquo;河流突发性水污染事件生态环境影响评估与应急控制技术研究&rdquo;，共10个单位30人，个人排序第6，2008.12，环境保护部</p>
+<p>2008，清华大学精品课程，《高等水处理工程》，2008，清华大学</p>
+<p>2008，&ldquo;北京市人民教师提名奖&rdquo;，荣誉称号10名其中高校3名，提名奖10名其中高校3名，2008.9，北京市</p>
+<p>2008，全国五一劳动奖状（清华大学环境科学与工程系饮用水安全研究所）2008.4，全国总工会</p>
+<p>2008，首都劳动奖状（清华大学环境科学与工程系饮用水安全研究所），2008.4，北京市总工会</p>
+<p>2008，清华大学先进集体（清华大学环境科学与工程系饮用水应急小组）2008.4，清华大学</p>
+<p>2007，&ldquo;2007绿色中国年度人物&rdquo;，2007.12，中宣部、全国人大环资委、全国政协人口资源环境委员会、文化部、国家广电总局、共青团中央、国家环保总局</p>
+<p>2007，&ldquo;孟二东式优秀教师&rdquo;（四年一评，首届北京市20名），北京市教育工委、北京市教委、北京市教育工会</p>
+<p>2007，天津市科技进步二等奖，&ldquo;北方地区安全饮用水保障技术&rdquo;，个人排序第3，天津市</p>
+<p>2006，&ldquo;&lsquo;十五&rsquo;全国建设科技进步先进个人&rdquo;，建设部</p>
+<p>2006，&ldquo;第九届清华大学研究生良师益友（优秀导师）奖&rdquo;，清华大学</p>
+<p>2005，高等教育国家级教学成果奖一等奖，&ldquo;环境工程专业人才培养方案及教学内容体系改革的研究与实践&rdquo;，个人排序第4，教育部</p>
+<p>2005，高等教育国家级教学成果奖二等奖，&ldquo;给水排水工程专业课程体系改革、建设的研究与实践&rdquo;，教育部</p>
+<p>2005，黑龙江省高等教育教学优秀成果奖一等奖，&ldquo;给水排水专业课程体系改革建设的研究与实践&rdquo;，黑龙江省</p>
+<p>2004，北京市教育教学成果奖（高等教育）一等奖，&ldquo;环境工程专业人才培养方案及教学内容体系改革的研究与实践&rdquo;个人排序第4，北京市</p>
+<p>2003，国家自然科学奖二等奖，&ldquo;水中颗粒物和难降解有机物特性和控制技术机理&rdquo;，科技部</p>
+<p>2001，中科院自然科学奖一等奖，&ldquo;水中颗粒物和难降解有机物特性和控制技术机理&rdquo;，中科院</p>
+<p>2000，北京市科技进步三等奖，&ldquo;北京市饮用水消毒、消毒副产物和水质生物稳定性关系研究&rdquo;，个人排序第1，北京市</p>
+                        <h4>学术成果</h4>
+<p><strong>出版著作：</strong></p>
+<p>1.《水与废水物化处理的原理与工艺》，张晓健、黄霞，清华大学出版社，2011年。</p>
+<p>2.《城市供水系统应急净水技术指导手册》，张悦、张晓健、陈超、王欢、张素霞，中国建筑工工业出版社，2009年。</p>
+<p>3.《安全饮用水保障技术》，何文杰、李伟光、张晓健等主编，中国建筑工业出版社，2006年。</p>
+<p>4.《饮用水深度净化与水质处理器》，鄂学礼、凌波主编，第二章&ldquo;饮用水深度处理技术&rdquo;中&ldquo;2.1活性炭技术、2.2离子交换技术、2.3电渗析技术、2.10生物活性炭技术&rdquo;的作者，化学工业出版社，2004年。</p>
+<p>5.《全国勘察设计注册公用设备工程师给水排水专业考试复习教材》，全国勘察设计注册工程师公用设备专业管理委员会秘书处，张晓健、季民、陈怀德主编，中国建筑工业出版社，2004。</p>
+<p>6.《饮用水水质安全与净化》，秦钰慧、凌波、张晓健主编，化学工业出版社，2002。</p>
+<p>7.《水体颗粒物和难降解有机物的特性与控制技术原理》下卷&ldquo;难降解有机物&rdquo;，钱易、汤鸿宵等著，其中第五章&ldquo;提高常规生物处理技术去除难降解有机物效果的措施&rdquo;的作者，第120-173页，中国环境科学出版社，2000。</p>
+<p>8.《环境工程手册&mdash;水污染控制卷》,张自杰主编，其中第四篇第一章&ldquo;饮用水处理系统&rdquo;的作者，第865-873页，高教出版社，1996。</p>
+<p>9.《中国环境保护２１世纪议程》，国家环保局编，其中第二十五章&ldquo;环境科学与技术&rdquo;讨论稿的第一作者,第217-228页，环境科学出版社，1995。</p>
+<p>10.《给水排水新技术》，许京琪、陈培康主编, 其中&ldquo;论生物活性法生物降解与炭吸附的相互关系&rdquo;一章的作者，中国建筑工业出版社，1988。</p>
+<p>11.《水污染及其防治》，钱易、张晓健，60万字，中国文化书院，1987。</p>
+<p><strong>发表论文：</strong></p>
+<p>1.X. J. Zhang, C. Chen, P. Lin, A. Hou, Z. Niu, J. Wang. Emergency Drinking Water Treatment during Source Water Pollution Accidents in China: Origin Analysis, Framework and Technologies. Environ. Sci. Technol. 2011, 45, 1: 161-167. SCI, 699RA, IF=4.630; EI 20110113542161</p>
+<p>发表SCI论文：&nbsp;</p>
+<p>2.LI&nbsp; Y. H., WANG J., ZHANG W., ZHANG X. J., CHEN C.. Effect of Powdered Activated Carbon on Immersed Hollow Fiber Ultrafiltration Membrane Fouling Caused by Particles and Natural Organic Matter. Desalination. 2011, 1-3: 443-446. IF=2.047; EI</p>
+<p>3.LI Y. H., WANG J., ZHANG W., ZHANG X. J., CHEN C.. Effects of coagulation on submerged ultrafiltration membrane fouling caused by particles and natural organic matter. Chinese Science Bulletin, 2011, 56, 6:584-590. SCI, 726FR, IF=0.917</p>
+<p>4.C. Chen, X. J. Zhang, L. X. Zhu, W.J. He, H. D. Han.&nbsp;Changes in different organic matter fractions during conventional treatment followed by advanced treatment. Journal of Environmental Sciences-China. 2011, 23, 4: 582-586. SCI, 754QJ, IF=1.412; EI: 20111613916364.</p>
+<p>5.W. Zhang, X. J. Zhang, Y. H. Li, J. Wang, C. Chen. Membrane flux dynamic in the submerged ultrafiltration hybrid treatment process when removing particles and natural organic matter. Journal of Environmental Sciences-China. 2011. 23, 12: 1970-1976. SCI, IF=1.412; EI</p>
+<p>6.Yuqiao Chen, Chao Chen, Xiaojian Zhang, Qi Zheng and Yuanyuan Liu. Inactivation of persistent Mycobacteria mucogenicum in water: chlorine resistance and mechanism analysis. Biomed. Environ. Sci. .2011. In press. SCI, IF =0.846.</p>
+<p>7.X.J. Zhang, C. Chen, J. Ding, A. Hou, Y. Li , Z. Niu, X. Su, Y. Xu, E. Laws. The 2007 water crisis in Wuxi, China: analysis of the origin. Journal of Hazardous Material. 2010, 182, 130-135. SCI, IF= 4.144; EI 20103313159676</p>
+<p>8.Y. H. Li, W Zhang, X. J. Zhang, C Chen, J. Wang. Characterization of fouling in immersed polyvinylidence fluoride hollow fibre membrane ultrafiltration by particles and natural organic matter. Desalination and Water Treatment. 2010 18: 309-314. SCI, 646DB</p>
+<p>9.Xiaojian ZHANG, Chao CHEN. Emergency drinking water treatment in source water pollution incident: Technology and practice in China. Frontier of Environmental Science and Engineering in China. 2009, 3:364-368. SCI, 500VM</p>
+<p>10.Li Y, Zhang X, Chen C. Reviews on Analytical Technologies of Sulfur Odorants in Water with Chromatography. Progress in Chemistry. 2009.&nbsp; SCI, IF= 0.528.</p>
+<p>11.Wang, Y; Zhang, XJ; Feng, S; Chen C. Study on inactivation of iron bacteria isolated from real drinking water distribution systems by free chlorine and chloramine. Annals of Microbiology, 2009, 59 (2): 353-358, SCI, IF=0.358</p>
+<p>12.C. Chen, X. J. Zhang, L. Zhu, J. Liu, W. He, and H. Han. Disinfection by-products and their precursors in a water treatment plant in north China: seasonal changes and fraction analysis. Science of the Total Environment. 2008, 397: 140-147. SCI, 316BD, IF= 2.905; EI 081911248769.</p>
+<p>13.S. B. Xie, J. Yang, C. Chen, X. J. Zhang, Q. L. Wang, C. Zhang Study on biosorption kinetics and thermodynamics of uranium by Citrobacter freudii. Journal of Environmental Radioactivity. 2008. 99, 1, 126-133. SCI, 274KJ, IF=1.073. EI: 20080611083724</p>
+<p>14.C. Chen, X. J. Zhang, W. J. He, and H. D. Han. Comparison of seven kinds of drinking water treatment processes to enhance organic material removal: a pilot test. Science of the Total Environment. 2007, 382: 93-102. SCI, 194CT, IF= 2.905; EI 072410653683.</p>
+<p>15.C. Chen, X. J. Zhang, W. J. He, and H. D. Han. Simultaneous Control of Microorganisms, Disinfection By-products by Sequential Chlorination. Biomed. Environ. Sci. 2007, 20:119-125. SCI, 161FS, IF=0.846.</p>
+<p>16.X. J. Zhang, C. Chen, and Y. Wang. Synergetic inactivation of microorganisms by short-term free chlorination and subsequent monochloramination in drinking water disinfection. Biomed. Environ. Sci. 2007, 20:373-380. SCI, 226UC, IF =0.846.</p>
+<p>17.C. Chen, X. J. Zhang, Y. wang, L. Zhu and J. Liu. Waste water disinfection during SARS epidemic: aiming for microbiological and toxicological control. Biomed. Environ. Sci., 2006, 19: 173-178. SCI, 058WE, IF=0.846.</p>
+<p>18.Yu X, Qi ZH, Zhang XJ, et al., Nitrogen loss and oxygen paradox in full-scale biofiltration for drinking water treatment, WATER RESEARCH, 2007, 41(7):1455-1464</p>
+<p>19.Zhang XJ, Lu W, Control of biofilm growth in drinking water distribution system by biodegradable carbon and disinfectant residuals, WATER SCIENCE AND TECHNOLOGY: WATER SUPPLY, 2006. 6(2):147-151</p>
+<p>20.Kong LY, Zhang XJ, Wang ZS, Pilot plant study on ozonation and biological activated carbon process for drinking water treatment, JOURNAL OF ENVIRONMENTAL SCIENCES-CHINA, 2006. 18(2): 232-235</p>
+<p>21.Niu ZB, Wang Y, Zhang XJ, et al, Iron stability in drinking water distribution systems in a city of China, JOURNAL OF ENVIRONMENTAL SCIENCES-CHINA, 2006, 18(1): 40-46</p>
+<p>22.Lu W, Zhang XJ, Biological stability in drinking water: a regression analysis of influencing factors, JOURNAL OF ENVIRONMENTAL SCIENCES-CHINA, 2005, 17(3): 395-398</p>
+<p>23.Lu W, Zhang XJ, Factors affecting bacterial growth in drinking water distribution system, BIOMEDICAL AND ENVIRONMENTAL SCIENCES, 2005, 18(2): 137-140</p>
+<p>24.Zhou H, Zhang XJ, Wang ZS, Occurrence of haloacetic acids in drinking water in certain cities of China, BIOMEDICAL AND ENVIRONMENTAL SCIENCES, 2004, 17(3): 299-308</p>
+<p>25.Xie SG, Zhang XJ, Wang ZS, Temperature effect on aerobic denitrification and nitrification, JOURNAL OF ENVIRONMENTAL SCIENCES-CHINA, 2003, 15(5): 669-673</p>
+<p>26.Yu X, Zhang XJ, Liu XL, et al., Phosphorus limitation in biofiltration for drinking water treatment, JOURNAL OF ENVIRONMENTAL SCIENCES-CHINA, 15(4): 494-499</p>
+<p>27.Yu X, Zhang XJ, Wang ZS, Improving removal efficiency of organic matters by adding phosphorus in drinking water biofiltration treatment, BIOMEDICAL AND ENVIRONMENTAL SCIENCES, 2003, 16(1): 29-39</p>
+<p>28.Zhou H, Zhang XJ, Wang ZS, Research development of endocrine disrupting chemicals (EDCs) in water in China, BIOMEDICAL AND ENVIRONMENTAL SCIENCES 2003, 16(1): 62-67</p>
+<p>29.Li S, Zhang XJ, Liu WJ, et al., Formation and evolution of haloacetic acids in drinking water of Beijing city, JOURNAL OF ENVIRONMENTAL SCIENCE AND HEALTH PART A-TOXIC/HAZARDOUS SUBSTANCES &amp; ENVIRONMENTAL ENGINEERING, 2001, 36(4): 475-481</p>
+<p>30.Yang Yunxia, Zhang Xiaojian and Zhansheng, Oilfield Produced Water Treatment with Surface &ndash;Modified Fiber Ball Filtration, Water Science and Technology, 2002, 46(11-12)165-170</p>
+<p>31.ZHANG XJ, WANG ZS, GU XS, SIMPLE COMBINATION OF BIODEGRADATION AND CARBON ADSORPTION - THE MECHANISM OF THE BIOLOGICAL ACTIVATED CARBON PROCESS, WATER RESEARCH, 1991, 25(2): 165-172</p>
+<p><strong>发表EI论文（不含同时被SCI收录的论文）：</strong></p>
+<p>32.李永红，张伟，张晓健，陈超，汪隽. PAC-UF 处理微污染地表水的膜污染特性研究[J], 清华大学学报（自然科学版）, 2010,50(9):1392-1395. EI: 20104113293645</p>
+<p>33.张伟，李永红，陈超，张晓健，汪隽. 混凝/浸没式超滤膜工艺处理微污染地表水的运行工况和处理效果研究, 清华大学学报（自然科学版）,2010,50(11):1885-1889. EI: 20111113755399</p>
+<p>34.李勇，张晓健，陈超. 臭氧活性炭去除水中硫醇类致嗅物质的研究. 清华大学学报. 2009. 49(3). EI: 20091311991098</p>
+<p>35.刘静，陈超，张晓健，王洋.两点短时游离氯后转氯胺的顺序氯化消毒工艺研究. 环境科学. 2008, 29(12): 3368-3371.&nbsp;EI: 20090211846926</p>
+<p>36.刘静，陈超，张晓健，张车琼.&nbsp;微生物杀灭效果试验中的游离氯转化研究. 环境科学. 2008, 29(11): 3054-3058.&nbsp;EI: 20085011775821</p>
+<p>37.李勇，陈超，张晓健.饮用水中典型致嗅物质去除技术研究. 环境科学. 2008, 29(11): 3049-3053.&nbsp;EI: 20085011775820</p>
+<p>38.李勇，陈超，张晓健， 张晓慧，朱晓辉，戴吉胜，许欢. 东江水中典型致嗅物质的调查. 中国环境科学. 2008, 28(11):&nbsp; 974-978.&nbsp;EI: 20085111794689</p>
+<p>39.王洋，牛璋彬，张晓健，陈超，何文杰，韩宏大.水源更换对给水管网水质的影响研究. 2007. 28(10): 2270-2274. &nbsp;EI, 074510909958</p>
+<p>40.牛璋彬，张晓健，王洋，陈超，何文杰，韩宏大.给水管网中铁释放现象的影响因素研究. 环境科学. 2007. 28(10): 2275-2279.&nbsp;EI, 074510909957</p>
+<p>41.陈超，张晓健，朱玲侠，何文杰，韩宏大.高藻期控制消毒副产物及前体物的优化工艺组合. 环境科学. 2007, 28(12): 2722-2726. &nbsp;EI: 20080211013112</p>
+<p>42.张晓健，陈超，何文杰，韩宏大，朱玲侠，王云，刘静.一种新型安全氯化消毒工艺&mdash;&mdash;顺序氯化消毒工艺的研究开发. 中国环境科学. 2006, 26(40): 454-458. EI: 20064110168922</p>
+<p>43.陈超，张晓健，何文杰，韩宏大，朱玲侠，王云，刘静.顺序氯化消毒工艺对卫生学、消毒副产物和生物稳定性的综合控制. 环境科学. 2006, 27(1): 74-79. &nbsp;EI:&nbsp; 2006089716031</p>
+<p>44.王小文，张晓健，陈超，郝晓飞.芳香类有机物生成氯化消毒副产物特性及其与化学结构的关系. 环境科学，2006, 27(7): 1603-1607. &nbsp;EI: 063710112252</p>
+<p>45.陈超，张晓健，何文杰，韩宏大，朱玲侠.&nbsp;控制消毒副产物及其前体物的优化工艺组合. 环境科学. 2005, 26(4): 87-94. EI:&nbsp; 2005309266127</p>
+<p><strong>其它期刊论文：略</strong></p>
+<p>&nbsp;</p>
+<p><strong>申请专利、注册软件：&nbsp;</strong></p>
+<p>1.短时游离氯后转氯胺的顺序水处理消毒方法，发明专利2004100427906</p>
+<p>2.一种清水池内加氨并混合的实施系统，发明专利2005100866096</p>
+<p>3.应对水中金属污染的碱性化学沉淀法，发明专利2008100560046</p>
+<p>4.应对水中金属污染的硫化物沉淀法，发明专利2008101116673</p>
+<p>5.一种适用于微污染水源生物预处理的跌水曝气生物滤池，发明专利2010102754679</p>
+<p>6.山区饮用水的预处理与浸没式超滤膜工艺联用方法及装置，发明专利2010102754611</p>
+<p>7.饮用水突发挥发性卤代烷烃类有机物污染时的曝气吹脱法，发明专利2010105233550</p>
+<p>8.移动集装箱式一体化粉质溶解投加装置，发明专利2011101552104</p>
+<p>9.一种移动式应急处理导试水厂，发明专利2011102978000</p>
+<p>10.给水管网水质化学稳定性研究用的管段反应器和方法，发明专利2011102583805</p>
+<p>11.反冲洗后增加微冲洗的快滤池初滤水浊度控制方法，发明专利2011100834705</p>
+                  </div>
+                      <!--s2_right_con结束处-->
+                    <!-- end -->
+                                                              
+                </td>
+              </tr>
+            </table>
+            <!-- end -->
+                                       
+       </div>
+        <!-- 中部区域结束 -->
+        
+        <!-- 页脚区域开始 -->
+        <!-- 页脚区域开始 -->
+        <div class="footer nomalwidth auto"><div class="footer nomalwidth auto"><p style="text-align: center;"><span style="color: rgb(51, 51, 51);">Copyright&nbsp;<img title="copyright_black.png" src="/publish/env/6421/20110117161025461497872/1492675051132.png"/> 2017&nbsp;清华大学环境学院<span style="color: rgb(0, 0, 0);"> </span></span></p><p style="text-align: center;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">地址：清华大学中意环境节能楼&nbsp;&nbsp;100084</span></p></div><!-- 页脚区域结束 --><!-- 页脚区域结束 --><!-- 整体区域结束 --></div>
+<!-- 页脚区域结束 -->        <!-- 页脚区域结束 -->
+        
+ </div>
+    <!-- 整体区域结束 -->
+</body>
+</html>

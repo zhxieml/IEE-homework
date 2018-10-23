@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+                                        <title>清华大学环境学院</title>
+<link href="/publish/env/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/env/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="/publish/env/js/grayscale.js" type="text/javascript"></script>
+<script src="/publish/env/js/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*env
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/env/css/style_second.css" rel="stylesheet" type="text/css" />
+<!-- 导入全局模板 -->
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!-- 整体区域开始 -->
+ <div class="wrapper nomalwclassth auto">
+    
+     <!-- 页头区域开始 -->
+       <!-- 页头区域开始 -->
+  <div class="header nomalwidth auto" style="height:140px;background-image:url(/publish/env/images/banner2018.jpg)">
+      
+       <!--<div class="logo_text">
+         <p class="cn">&nbsp;</p>
+         <p class="en">&nbsp;</p>
+        </div>-->
+  
+                <div class="hot_links" style="top: 40px;"><a href="/publish/enven/index.html">English</a></div>
+    
+         <!-- <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="960" height="140">
+    <param name="movie" value="/publish/env/images/banner.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    
+    <param name="expressinstall" value="30years/expressInstall.swf" />
+    <param name="menu" value="false" />
+   
+    <object type="application/x-shockwave-flash" data="/publish/env/images/banner.swf" width="960" height="140">
+     
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="/publish/env/images/expressInstall.swf" />
+      <param name="menu" value="false" />
+     
+      <div>
+        <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      </div>
+     
+    </object>
+   
+  </object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>-->
+</div>
+<!-- 页头区域结束 -->        <!-- 页头区域结束 -->
+        
+        <!-- nav start -->
+        <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu6326 = ms.addMenu(document.getElementById("menu_6326"));
+menu6326.addItem("栏目概述","/publish/env/6327/index.html","");
+        menu6326.addItem("教研教师","/publish/env/6329/index.html","");
+        var subMenu6326_1 = menu6326.addMenu(menu6326.items[1]);
+       subMenu6326_1.addItem("院士","/publish/env/6329/index.html","");
+    subMenu6326_1.addItem("千人计划","/publish/env/6330/index.html","");
+    subMenu6326_1.addItem("教研所师资","/publish/env/6331/index.html","");
+      menu6326.addItem("兼职教授","/publish/env/6334/index.html","");
+        menu6326.addItem("实验教师","/publish/env/6817/index.html","");
+        menu6326.addItem("行政教师","/publish/env/6818/index.html","");
+        menu6326.addItem("合同制教师","/publish/env/6335/index.html","");
+        menu6326.addItem("博士后","/publish/env/6336/index.html","");
+        menu6326.addItem("访问学者","/publish/env/6819/index.html","");
+        menu6326.addItem("荣退教师","/publish/env/6337/index.html","");
+        var menu6317 = ms.addMenu(document.getElementById("menu_6317"));
+menu6317.addItem("组织机构","/publish/env/6318/index.html","");
+        menu6317.addItem("学术机构","/publish/env/6319/index.html","");
+        menu6317.addItem("研究机构","/publish/env/6321/index.html","");
+        var subMenu6317_2 = menu6317.addMenu(menu6317.items[2]);
+       subMenu6317_2.addItem("研究所","/publish/env/6321/index.html","");
+    subMenu6317_2.addItem("国家级研究机构","/publish/env/6322/index.html","");
+    subMenu6317_2.addItem("省部级研究机构","/publish/env/6323/index.html","");
+    subMenu6317_2.addItem("校级研究机构","/publish/env/6324/index.html","");
+    subMenu6317_2.addItem("联合研究机构","/publish/env/6325/index.html","");
+      var menu6312 = ms.addMenu(document.getElementById("menu_6312"));
+menu6312.addItem("学院简介","/publish/env/6313/index.html","");
+        menu6312.addItem("现任领导","/publish/env/7208/index.html","");
+        menu6312.addItem("历任领导","/publish/env/6314/index.html","");
+        menu6312.addItem("历史沿革","/publish/env/6315/index.html","");
+        menu6312.addItem("大事年表","/publish/env/6316/index.html","");
+        var menu6338 = ms.addMenu(document.getElementById("menu_6338"));
+menu6338.addItem("栏目概述","/publish/env/6339/index.html","");
+        menu6338.addItem("本科生教学","/publish/env/6341/index.html","");
+        var subMenu6338_1 = menu6338.addMenu(menu6338.items[1]);
+       subMenu6338_1.addItem("专业介绍","/publish/env/6341/index.html","");
+    subMenu6338_1.addItem("课程介绍","/publish/env/6342/index.html","");
+    subMenu6338_1.addItem("精品课程","/publish/env/6343/index.html","");
+    subMenu6338_1.addItem("专业设置","/publish/env/6344/index.html","");
+    subMenu6338_1.addItem("培养方案","/publish/env/6345/index.html","");
+    subMenu6338_1.addItem("实践教学","/publish/env/6346/index.html","");
+    subMenu6338_1.addItem("留学生","/publish/env/6347/index.html","");
+      menu6338.addItem("硕士生教学","/publish/env/6349/index.html","");
+        var subMenu6338_2 = menu6338.addMenu(menu6338.items[2]);
+       subMenu6338_2.addItem("导师介绍","/publish/env/6349/index.html","");
+    subMenu6338_2.addItem("培养方案（硕士）","/publish/env/6350/index.html","");
+    subMenu6338_2.addItem("培养方案（工程硕士）","/publish/env/6351/index.html","");
+    subMenu6338_2.addItem("开设课程","/publish/env/6352/index.html","");
+    subMenu6338_2.addItem("留学生","/publish/env/6353/index.html","");
+      menu6338.addItem("博士生教学","/publish/env/6355/index.html","");
+        var subMenu6338_3 = menu6338.addMenu(menu6338.items[3]);
+       subMenu6338_3.addItem("导师介绍（博士）","/publish/env/6355/index.html","");
+    subMenu6338_3.addItem("培养方案（博士）","/publish/env/6356/index.html","");
+    subMenu6338_3.addItem("留学生","/publish/env/6357/index.html","");
+      menu6338.addItem("继续教育","/publish/env/6358/index.html","");
+        menu6338.addItem("出版教材","/publish/env/6359/index.html","");
+        menu6338.addItem("教学成果","/publish/env/6360/index.html","");
+        
+var menu6361 = ms.addMenu(document.getElementById("menu_6361"));
+menu6361.addItem("栏目概述","/publish/env/6362/index.html","");
+        menu6361.addItem("本科生","/publish/env/6363/index.html","");
+        menu6361.addItem("研究生","/publish/env/6364/index.html","");
+        menu6361.addItem("学生绿色协会","/publish/env/6365/index.html","");
+        menu6361.addItem("环境友好科技竞赛","/publish/env/6366/index.html","");
+        menu6361.addItem("博士生学术会议","/publish/env/6367/index.html","");
+        menu6361.addItem("陶氏-可持续发展创新挑战赛","/publish/env/7841/index.html","");
+        menu6361.addItem("清源协会","/publish/env/8478/index.html","");
+        menu6361.addItem("奖学金","/publish/env/10530/index.html","");
+        var menu6368 = ms.addMenu(document.getElementById("menu_6368"));
+menu6368.addItem("栏目概述","/publish/env/6369/index.html","");
+        menu6368.addItem("研究领域","/publish/env/6370/index.html","");
+        menu6368.addItem("研究成果","/publish/env/6372/index.html","");
+        var subMenu6368_2 = menu6368.addMenu(menu6368.items[2]);
+       subMenu6368_2.addItem("各类奖项","/publish/env/6372/index.html","");
+    subMenu6368_2.addItem("编著译著","/publish/env/6373/index.html","");
+    subMenu6368_2.addItem("知识产权","/publish/env/6374/index.html","");
+      menu6368.addItem("编辑期刊","/publish/env/6376/index.html","");
+        var subMenu6368_3 = menu6368.addMenu(menu6368.items[3]);
+       subMenu6368_3.addItem("期刊简介","/publish/env/6376/index.html","");
+    subMenu6368_3.addItem("编委会","/publish/env/6378/index.html","");
+    subMenu6368_3.addItem("征稿简则","/publish/env/6379/index.html","");
+    subMenu6368_3.addItem("稿件模板","/publish/env/6380/index.html","");
+      menu6368.addItem("主办会议","/publish/env/6381/index.html","");
+        menu6368.addItem("重大专项","/publish/env/6384/index.html","");
+        var menu6385 = ms.addMenu(document.getElementById("menu_6385"));
+menu6385.addItem("栏目概述","/publish/env/6386/index.html","");
+        menu6385.addItem("合作机构","/publish/env/6387/index.html","");
+        menu6385.addItem("重要项目","/publish/env/6388/index.html","");
+        var menu6390 = ms.addMenu(document.getElementById("menu_6390"));
+menu6390.addItem("环境节能楼","/publish/env/6391/index.html","");
+        menu6390.addItem("实验教学中心","/publish/env/6392/index.html","");
+        menu6390.addItem("公共研究平台","/publish/env/6393/index.html","");
+        menu6390.addItem("环境图书馆","/publish/env/6394/index.html","");
+        var menu6395 = ms.addMenu(document.getElementById("menu_6395"));
+menu6395.addItem("本科生","/publish/env/6396/index.html","");
+        menu6395.addItem("硕士生","/publish/env/6398/index.html","");
+        var subMenu6395_1 = menu6395.addMenu(menu6395.items[1]);
+       subMenu6395_1.addItem("硕士","/publish/env/6398/index.html","");
+    subMenu6395_1.addItem("工程硕士","/publish/env/6399/index.html","");
+    subMenu6395_1.addItem("工程管理硕士","/publish/env/9171/index.html","");
+      menu6395.addItem("博士生","/publish/env/6400/index.html","");
+        menu6395.addItem("留学生","/publish/env/6401/index.html","");
+        menu6395.addItem("继续教育","/publish/env/6402/index.html","");
+        var menu6404 = ms.addMenu(document.getElementById("menu_6404"));
+menu6404.addItem("教师招聘","/publish/env/6405/index.html","");
+        menu6404.addItem("博士后招聘","/publish/env/6406/index.html","");
+        menu6404.addItem("合同制人员招聘","/publish/env/6407/index.html","");
+        var menu6408 = ms.addMenu(document.getElementById("menu_6408"));
+menu6408.addItem("综合新闻","/publish/env/6409/index.html","");
+        menu6408.addItem("图片新闻","/publish/env/6410/index.html","");
+        menu6408.addItem("人物新闻","/publish/env/6411/index.html","");
+        menu6408.addItem("工作简报","/publish/env/6413/index.html","");
+        var menu6414 = ms.addMenu(document.getElementById("menu_6414"));
+menu6414.addItem("电话电邮","/publish/env/6415/index.html","");
+        menu6414.addItem("邮寄地址","/publish/env/6416/index.html","");
+        menu6414.addItem("来访路线","/publish/env/6417/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<!-- nav start -->
+        <div class="nav nomalwidth auto">
+         <ul>
+<li><a href="/publish/env/index.html" title="&nbsp;">首页</a></li>
+<li id="menu_6312"  class="first"><a href="/publish/env/6313/index.html" title="学院概况">学院概况</a></li>
+<li id="menu_6317"><a href="/publish/env/6318/index.html" title="机构设置">机构设置</a></li>
+<li id="menu_6326"><a href="/publish/env/6327/index.html" title="师资队伍">师资队伍</a></li>
+<li id="menu_6338"><a href="/publish/env/6339/index.html" title="教务教学">教务教学</a></li>
+<li id="menu_6361"><a href="/publish/env/6362/index.html" title="学生生活">学生生活</a></li>
+<li id="menu_6368"><a href="/publish/env/6369/index.html" title="科学研究">科学研究</a></li>
+<li id="menu_6385"><a href="/publish/env/6386/index.html" title="合作交流">合作交流</a></li>
+<li id="menu_6390"><a href="/publish/env/6391/index.html" title="基础设施">基础设施</a></li>
+<li id="menu_6395"><a href="/publish/env/6396/index.html" title="招生信息">招生信息</a></li>
+<li id="menu_6404"><a href="/publish/env/6405/index.html" title="招聘人才">招聘人才</a></li>
+<li id="menu_6408"><a href="/publish/env/6409/index.html" title="新闻">新闻</a></li>
+<li id="menu_6414"><a href="/publish/env/6415/index.html" title="联系我们" class="clear">联系我们</a></li>
+</ul>
+        </div>
+  <script language="JavaScript">initMenuData();</script>
+        <!-- nav end -->        <!-- nav end -->
+        
+        <!-- 中部区域开始 -->
+        <div class="content auto">
+         
+            <!-- start -->
+            <table width="0" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="box_left">
+                 
+                    <!-- start -->
+                    <div class="s_menu">
+<p><img src="/publish/env/images/left_menu_pic.gif" width="200" height="76" /></p>
+                    </div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <div class="menu_bg_line"></div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <form id="searchForm" name="form1" method="post" action="#" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+<div class="search auto"><p class="left"><input name="Q" type="text" /></p><p class="right"><a href="javascript:document.form1.submit();" title="搜索"></a></p></div>
+</form>                    <!-- end -->
+                    
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="info_02 auto"><a href='http://100.tsinghua.edu.cn'><img width='190' height='67' src='/publish/env/images/100year_02.gif' /></a></div>
+                    <!-- end -->                    <!-- end -->
+                                                            
+                </td>
+                <td class="box_right">
+                 
+                    <!-- c_top start -->
+<!-- c_top start -->
+<div class="c_top">
+  <ul class="nav_01">
+    <li>&nbsp;您所在的位置：<A href="/publish/env/index.html" >首页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A href="/publish/env/6422/index.html" >教师个人主页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A>教师详细信息</A></li>
+    <li style="width:400px; text-align:right;"><A href="javascript:history.go(-1);">返&nbsp;&nbsp;回</A></li>
+  </ul>
+</div>
+<!-- c_bottom end -->                    <!-- c_bottom end -->
+                    <!-- start -->
+                <!--s2_right_con开始处-->
+                      <div id="s2_right_con">
+<img src="/publish/env/6422/20110219145416904345118/20120417172752498856118.jpg" />
+<p>
+<table style="width: 372px; height: 165px" border="1" cellspacing="1" cellpadding="1" width="372" height="165">
+    <tbody>
+        <tr>
+            <td><strong>姓　　名：</strong></td>
+            <td>李广贺</td>
+        </tr>
+        <tr>
+            <td><strong>所在单位：</strong></td>
+            <td>地下水与土壤环境教研所</td>
+        </tr>
+        <tr>
+            <td><strong>职　　称：</strong></td>
+            <td>正高级</td>
+        </tr>
+        <tr>
+            <td><strong>邮寄地址：</strong></td>
+            <td>清华大学环境学院</td>
+        </tr>
+        <tr>
+            <td><strong>办公电话：</strong></td>
+            <td>010－62773232</td>
+        </tr>
+        <tr>
+            <td><strong>电子邮件：</strong></td>
+            <td>ligh@tsinghua.edu.cn</td>
+        </tr>
+        <tr>
+            <td><strong>办公地点：</strong></td>
+            <td>环境节能楼702</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+                        <h4>教育背景</h4>
+<p>1990.09 - 1992.12 中国地质大学 博士</p>
+<p>1983.09 - 1986.07 吉林大学（原长春地质学院） 硕士</p>
+<p>1979.09 - 1983.07 吉林大学（原长春地质学院） 学士</p>
+                        <h4>工作履历</h4>
+<p>2011.01-至今&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 清华大学环境学院 教授、博导</p>
+<p>2000.08-2011.01&nbsp;&nbsp;&nbsp;清华大学环境系 教授、博导</p>
+<p>2005.05-2007.12&nbsp;&nbsp; 英国Cardiff大学 合作研究</p>
+<p>1999.02-2000.07&nbsp;&nbsp; 清华大学环境系 副教授</p>
+<p>1998.01-1999.01&nbsp; &nbsp;英国Shefield大学 访问学者</p>
+<p>1994.12-1997.12&nbsp; &nbsp;清华大学环境系 副教授</p>
+<p>1993.03-1994.11&nbsp;&nbsp; 清华大学环境系 博士后</p>
+<p>1986.08-1990.08&nbsp;&nbsp; 吉林大学（原长春地质学院） 讲师</p>
+<p><strong>教学：</strong></p>
+<p>本科生课程：&ldquo;水资源利用工程与管理&rdquo;</p>
+<p>本科生课程：&ldquo;流域面源污染控制与生态工程&rdquo;</p>
+<p>研究生课程：&ldquo;地下水污染控制理论与治理工程&rdquo;</p>
+                        <h4>研究领域</h4>
+<p>1．污染场地环境风险评价与修复</p>
+<p>2．污染场地生态毒性表征</p>
+<p>3．水体污染生物控制理论与技术</p>
+<p>4．劣质地下水净化技术</p>
+                        <h4>研究概况</h4>
+<p><strong>科研项目：</strong></p>
+<p>1．国家重大水专项项目&ldquo;环太湖河网地区城市水环境整治技术研究与综合示范&rdquo;，2008～2010&nbsp;</p>
+<p>2．国家重大水专项课题&ldquo;水乡城镇水环境整治技术研究与综合示范&rdquo;，2008～2010</p>
+<p>3．国家重点基金项目&ldquo;地下水系统多环芳烃迁移与转化生物过程和生态毒性表征研究&rdquo;，2008～2011</p>
+<p>4．公益性行业科研项目&ldquo;地下水污染风险源识别与防控区划技术研究&rdquo;，2009～2011</p>
+<p>5．国家自然基金项目&ldquo;污染土壤高碳残油物化－生物协同降解研究&rdquo;，2007～2009</p>
+<p>6．国家&ldquo;十一五&rdquo;科技支撑项目&ldquo;陆地石油开采生态风险评估与污染控制关键技术研究&rdquo;，2008～2011</p>
+<p>7．国家&ldquo;十一五&rdquo;科技支撑项目&ldquo;典型工业污染场地分类管理、风险评估与土壤修复技术筛选研究&rdquo;，2007～2010</p>
+<p>8．国土资源调查项目&ldquo;建设用地土壤与地下水污染风险评价示范研究&rdquo;，2009～2010</p>
+<p>9．基金国家自然基金项目&ldquo;地下水硝酸盐污染原位生态脱氮效应研究&rdquo;，2004～2006</p>
+<p>10．国家科技部平台项目&ldquo;受污染场地技术规范与标准&rdquo;，2004～2006</p>
+<p>11．国际合作项目&ldquo;地下水硝酸盐污染原位生态脱氮效应研究&rdquo;2005～2007.07</p>
+<p>12．国家&ldquo;十五&rdquo;攻关课题&ldquo;受污染场地环境风险及修复技术规范&rdquo;，2003 ～2005；</p>
+<p>13．国家重大科技专项&ldquo;滇池流域面源污染控制技术研究&rdquo;，2000～2003</p>
+<p>14．国家&ldquo;十五&rdquo;攻关课题&ldquo;面源水污染控制成套技术和示范工程研究&rdquo;，2002～2004</p>
+                        <h4>奖励与荣誉</h4>
+<p>1．国家&ldquo;十五&rdquo;攻关课题&ldquo;受污染场地环境风险及修复技术规范&rdquo;，环保部科技进步奖一等奖，2008</p>
+<p>2．国家重大科技专项&ldquo;滇池流域面源污染控制技术研究&rdquo;，教育部科技进步奖一等奖，2007</p>
+<p>3．&ldquo;包气带石油污染的微生物修复研究&rdquo;获北京市科技进步三等奖，2005</p>
+<p>4．国家&ldquo;六五&rdquo;攻关专题&ldquo;华北及北方地区水资源保护与地下水质演化&rdquo;，获地质矿产部科技进步一等奖，1988；国家科技进步二等奖，1989</p>
+<p>5．河北省科委重点项目&ldquo;东坪金矿含氰尾矿水循环与重复利用研究&rdquo;，获冶金部黄金科技进步三等奖，1996</p>
+<p>6．黑龙江省科委项目 &ldquo;大庆市水环境研究与管理&rdquo;，获黑龙江省科技进步二等奖，1999</p>
+<p>7. &ldquo;专业课程体系改革、建设的研究与实践&rdquo;，高等教育国家级教学成果二等奖，2005</p>
+<p>8．国家&ldquo;八五&rdquo;攻关专题&ldquo;淄博市地下饮用水源地石油污染防治技术研究&rdquo;，获清华大学效益奖，1996</p>
+<p><strong>其他奖项：</strong></p>
+<p>1．1994年度&quot;清华之友-优秀青年教师奖励金&quot;二等奖；&nbsp;</p>
+<p>2．1994、1995年度清华大学教学工作优秀奖二等奖；</p>
+<p>3．1995年度&quot;清华之友-优秀青年教师奖励金&quot;一等奖、清华大学校级先进工作者；</p>
+<p>4．1996年度&quot;清华之友-优秀青年教师奖励金&quot;二等奖；</p>
+<p>5．1997-1998年度长谷集团-清华大学青年教师教学优秀奖；</p>
+<p>6．首届&quot;清华大学优秀博士后&quot;奖（1997.11）</p>
+<p>7．同济大学吴新九环境工程基金会教学奖（1998.4）；</p>
+<p>8．中国环境科学学会&quot;优秀科技工作者奖&quot;（1999.12）；</p>
+<p>9．清华大学第七届&ldquo;良师益友&rdquo;，2004</p>
+<p>10．请华大学优秀教材二等奖，2004</p>
+                        <h4>学术成果</h4>
+<p><strong>出版著作：</strong></p>
+<p>1．李广贺、张旭等, 《水资源利用与保护》，中国建筑工业出版社，2002, 国家&ldquo;十五&rdquo;&ldquo;十一五&rdquo;重点教材&nbsp;</p>
+<p>2．陈吉宁、李广贺、王洪涛等，《流域面源污染控制技术－以滇池流域为例》，中国环境科学出版社，2009</p>
+<p>3．李广贺、李发生、张旭等，《污染场地环境风险评价与管理的技术体系》，中国环境科学出版社，2009</p>
+<p>4．中国地下水科学战略研究小组，《中国地下水科学的机遇与挑战》，科学出版社，2009</p>
+<p>5．李广贺，刘兆昌，张旭. 《水资源利用工程与管理》，清华大学出版社，1998</p>
+<p>6．刘兆昌，李广贺，朱琨. 《供水水文地质》（第三版），中国建筑工业出版社，1998</p>
+<p><strong>发表文章：</strong></p>
+<p>多年来，一直从事&ldquo;水体污染控制与修复&rdquo;新的学科方向的建设与发展。主要研究领域为地下水系统污染物输移模式与生物过程、污染场地环境风险评价与生态毒理表征、水体污染生物控制、污染场地修复技术与工程设计。发表研究论文120余篇。代表性论文为：&nbsp;</p>
+<p>1．&quot;Optimization of Bacterial Whole Cell Bioreporters for Toxicity Assay of Environmental Samples.&quot; Environmental Science &amp; Technology. (2009)</p>
+<p>2．&quot;Microarray-based functional gene analysis of soil microbial communities during ozonation and biodegradation of crude oil.&quot; Chemosphere 75(2): 193-199. (2009)</p>
+<p>3．&quot;Porous biocarrier-enhanced biodegradation of crude oil contaminated soil.&quot; International Biodeterioration &amp; Biodegradation 63(1): 80-87. (2009)</p>
+<p>4．&quot;Bio-geological processes of nitrogen transport and transformation in the aeration zone and aquifer.&quot; Hydrological Sciences Journal-Journal Des Sciences Hydrologiques 54(2): 316-326. (2009)</p>
+<p>5．&quot;Relationships between loading rates and nitrogen removal effectiveness in subsurface flow constructed wetlands.&quot; Frontiers of Environmental Science and Engineering in China 2(1): 89-93. (2008)</p>
+<p>6．&quot;Ultrasound-mediated DNA transfer for bacteria.&quot; Nucleic Acids Research 35(19): Article No.: e129. (2007)</p>
+<p>7. &quot;Nitrogen balance and dynamics as affected by water table and fertilization management in celery (Apium graveolens) cropping system of southwestern China.&quot; African Journal of Agricultural Research 2(4): 139-149. (2007)</p>
+<p>8．&quot;Sensitivity of key factors and uncertainties in health risk assessment of benzene pollutant.&quot; Journal of Environmental Sciences-China 19(10): 1272-1280. (2007)</p>
+<p>9．&quot;Effects of water table and fertilization management on nitrogen loading to groundwater.&quot; Agricultural Water Management 82(1-2): 86-98. (2006)</p>
+<p>10．&quot;Production of biosurfactant and its role in the biodegradation of oil hydrocarbons.&quot; Journal of Environmental Science and Health Part a-Toxic/Hazardous Substances &amp; Environmental Engineering 38(3): 483-492. (2003)</p>
+<p>11．&quot;volatile fatty acids as electron donors for the reductive dechlorination of chloroethenes.&quot; Journal of Environmental Science and Health, Part A: Toxic/Hazardous Substances and Environmental Engineering 37(4): 439 - 449. (2002)</p>
+<p>12．&quot;Enrichment of degrading microbes and bioremediation of petrochemical contaminants in polluted soil.&quot; Water Research 34(15): 3845-3853. (2000)</p>
+<p>13．&quot;Enhanced biodegradation of petroleum hydrocarbons in polluted soil.&quot; Journal of Environmental Science and Health Part a-Toxic/Hazardous Substances &amp; Environmental Engineering 35(2): 177-188. (2000)</p>
+<p>14．&quot;In situ remediation of petroleum compounds in groundwater aquifer with chlorine dioxide.&quot; Water Research 32(5): 1471-1480.(1998)</p>
+<p><strong>申请专利、注册软件：</strong></p>
+<p>1．多功能复合型固-液旋流分离器，专利号：ZL02153487.X，国际专利主分类号：B04C 5/08，2005.02&nbsp;</p>
+<p>2．氮磷污染控制的复合湿地生态方法及其系统，专利号：ZL03121947.0，国际专利主分类号：C02F 9/14，2004.12</p>
+<p>3．苯反硝化降解菌及其应用，专利号：ZL200410038040.1</p>
+<p>4．一株苯反硝化降解菌及其应用，专利号：ZL200410038039.9</p>
+<p>5．循环式填充型菌剂与生物载体复合制备器，专利号：ZL200510011257.8</p>
+<p>6．治理油污土壤的方法及其专用菌群，专利号：ZL200510002740.X</p>
+<p>7．用于生物法水处理的控释高分子碳源材料的制备方法，专利号：ZL200510011120.2</p>
+<p>8．一种复合功能的强化自养生物脱硫的装置，公开号：CN 101503244A</p>
+                  </div>
+                      <!--s2_right_con结束处-->
+                    <!-- end -->
+                                                              
+                </td>
+              </tr>
+            </table>
+            <!-- end -->
+                                       
+       </div>
+        <!-- 中部区域结束 -->
+        
+        <!-- 页脚区域开始 -->
+        <!-- 页脚区域开始 -->
+        <div class="footer nomalwidth auto"><div class="footer nomalwidth auto"><p style="text-align: center;"><span style="color: rgb(51, 51, 51);">Copyright&nbsp;<img title="copyright_black.png" src="/publish/env/6421/20110117161025461497872/1492675051132.png"/> 2017&nbsp;清华大学环境学院<span style="color: rgb(0, 0, 0);"> </span></span></p><p style="text-align: center;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">地址：清华大学中意环境节能楼&nbsp;&nbsp;100084</span></p></div><!-- 页脚区域结束 --><!-- 页脚区域结束 --><!-- 整体区域结束 --></div>
+<!-- 页脚区域结束 -->        <!-- 页脚区域结束 -->
+        
+ </div>
+    <!-- 整体区域结束 -->
+</body>
+</html>

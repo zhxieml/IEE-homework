@@ -1,0 +1,300 @@
+@charset "utf-8";
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}img,body,html{border:0;}textarea{resize:none;overflow-y:auto;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul {list-style:none;}caption,th {text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;}q:before,q:after{content:'';}
+body{
+	background-color:#E0F4FF;
+	font-size:13px;
+	font-family:"宋体","Arial Narrow";
+}
+.alumniReg{
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.alumniReg .header{
+	width:900px;
+	height:60px;
+	margin:0 auto;
+	text-align:left;
+	overflow:hidden;
+	zoom:1;
+}
+.alumniReg .mainCnt{
+	width:900px;
+	margin:0 auto;
+	text-align:left;
+	overflow:hidden;
+	zoom:1;
+}
+.alumniReg .regTop{
+	width:900px;
+	height:5px; 
+	background-image:url(../images/regBg.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	overflow:hidden;
+}
+.alumniReg .regMiddle{
+    width:900px;
+	background-image:url(../images/regBg.jpg);
+	background-repeat:repeat-y;
+	background-position:-900px 0px;
+	overflow:hidden;
+	text-align:left;
+}
+.alumniReg .regFooter{
+	width:900px;
+	height:5px; 
+	background-image:url(../images/regBg.jpg);
+	background-repeat:no-repeat;
+	background-position:0px -5px;
+	overflow:hidden;
+}
+.alumniReg .regLeft{
+	float:left;
+	width:600px; 
+	padding-left:20px;
+}
+.alumniReg .regTip{
+	font-size:12px;
+	color: #339900;
+	margin-left:20px;
+}
+.alumniReg .regRight{ 
+   float:right;
+   width:260px;
+   padding-top: 30px;
+   text-align: left;
+}
+.alumniReg .regTitle1{
+	width:600px;
+	height:50px; 
+	background-image:url(../images/regTitle.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	overflow:hidden;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.alumniReg .regTitle2{
+	width:600px;
+	height:50px; 
+	background-image:url(../images/regTitle.jpg);
+	background-repeat:no-repeat;
+	background-position:0px -50px;
+	overflow:hidden;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.alumniReg .regTitle3{
+	width:600px;
+	height:50px; 
+	background-image:url(../images/regTitle.jpg);
+	background-repeat:no-repeat;
+	background-position:0px -100px;
+	overflow:hidden;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.alumniReg .regLine{
+	clear:both;
+	margin-left:20px;
+	padding-top:20px;
+	/*margin-bottom:10px;*/
+	color:#666666;
+	font-size:15px;
+	/*overflow:hidden;*/
+}
+.alumniReg .regLabel{
+	float:left;
+	width: 120px;
+	text-align: right;
+	line-height: 25px;
+}
+.alumniReg .regField{
+	float:left;
+	position:relative;
+}
+.alumniReg .regField .getcode{
+	top: 0;
+	right: 0;
+	display: inline-block;
+	height: 20px;
+	padding: 0 4px;
+	font-size: 12px;
+	background: #1fa5ef;
+	color: #ffffff;
+	line-height: 20px;
+	cursor:pointer;
+}
+.alumniReg .regMust{
+	font-size: 12px; 
+	color: #f00;
+}
+.alumniReg .regFieldMsg{
+	clear:both;
+	padding-top:5px;
+	color: #777;
+	font-size:12px;
+}
+.alumniReg .regSel{
+	font-size:13px;
+	height:24px;
+	line-height:24px;
+	color:#333;
+	padding-left:2px;
+	padding-top:2px;
+	padding-bottom:2px;
+	border:solid 1px #ccc;
+}
+.alumniReg .regTxt{
+	font-size:13px;
+	height:20px;
+	line-height:20px;
+	color:#333;
+	padding-left:4px;
+	border:solid 1px #ccc;
+}
+.alumniReg .regArea{
+	font-size:13px;
+	width:243px;
+	height:60px;
+	line-height:20px;
+	color:#333;
+	padding-left:4px;
+	border:solid 1px #ccc;
+}
+.alumniReg .regPwd{
+	font-size:13px;
+	height:20px;
+	line-height:20px;
+	color:#333;
+	padding-left:4px;
+	border:solid 1px #ccc;
+	font-family:"lucida grande",tahoma,verdana,arial,STHeiTi,simsun,sans-serif;
+}
+.alumniReg .regSubmit{
+	clear:both;
+	margin-top:50px;
+	margin-bottom:40px;
+	overflow:hidden;
+	zoom:1;
+}
+.alumniReg .regSubmitLeft{
+	float:left;
+	padding-left:25px;
+	padding-top:10px;
+}
+.alumniReg .regSubmitRight{
+	float:right;
+	padding-right:10px;
+}
+.alumniReg .regGoLogin,.alumniReg .regGoLogin:link,.alumniReg .regGoLogin:visited,.alumniReg .regGoLogin:active {
+	color:#005eac;
+	text-decoration: none;
+}
+.alumniReg .regGoLogin:hover{
+  	color:#ff0000;
+  	text-decoration: underline;
+}
+.alumniReg .regPrev{
+	border:0px;
+	width:110px;
+	height:30px; 
+	background-image:url(../images/regPreNext.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.alumniReg .regNext{
+	border:0px;
+	width:110px;
+	height:30px; 
+	background-image:url(../images/regPreNext.jpg);
+	background-repeat:no-repeat;
+	background-position:0px -30px;
+}
+
+.alumniReg .regNext.sub{
+	background-position: 0px -60px;
+}
+
+.alumniReg .regNotice{
+	background-color:#feffcf;
+	border:solid 1px #edce7b;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	text-align:left;
+	margin-bottom:10px;
+	display:none;
+}
+.regNotice li{
+	height:18px;
+	line-height:18px;
+	margin-left:4px;
+	color:#666666;
+}
+.regNotice a,.regNotice a:link,.regNotice a:visited,.regNotice a:active {
+	color:#666666;
+	text-decoration: none;
+}
+.regNotice a:hover{
+  	color:#ff0000;
+  	text-decoration: underline;
+}
+.alumniReg .regNoticeWait{
+	background-image:url(../images/regWait.gif);
+	background-repeat:no-repeat;
+	background-position:5px center;
+	padding-top:10px;
+	padding-left:25px;
+	margin-bottom:10px;
+	color:#666;
+}
+.alumniReg .regActive{
+	background-image:url(../images/regNotice.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	width:600px;
+	height:300px;
+	margin-top:100px;
+	margin-left:20px;
+}
+.alumniReg .regActive p{
+	height:26px;
+	line-height:26px;
+	padding-left:60px;
+	padding-top:5px;
+	font-size:16px;
+	color:#000000;
+	font-weight:bold;
+}
+.alumniReg .regActiveFont{
+	color:#ff0000;
+}
+.alumniReg .regActived{
+	background-image:url(../images/regNotice.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	width:740px;
+	height:500px;
+	margin-top:100px;
+	margin-left:20px;
+}
+.alumniReg .regActived p{
+	height:26px;
+	line-height:26px;
+	padding-left:60px;
+	padding-top:5px;
+	font-size:16px;
+	color:#000000;
+	font-weight:bold;
+}
+.alumniReg .regActivedFont{
+	color:#ff0000;
+}
+.alumniReg .regActivedFontSmall{
+	color:#565448;
+	font-size:14px;
+	font-weight:normal;
+}

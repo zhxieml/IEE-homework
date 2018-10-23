@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>北京大学邮件系统 Peking University WebMail</title>
+<base href="https://mail.pku.edu.cn/coremail/cmcu_var/index.jsp" />
+
+<link href="index_pku_1/login.css" rel="stylesheet" type="text/css" charset="iso-8859-1" />
+<link href="index_pku_1/custom.css" rel="stylesheet" type="text/css" charset="iso-8859-1" />
+
+<script type="text/javascript">
+	
+	var login_page_custom = {};
+	login_page_custom.locale = "zh_CN";
+</script>
+
+
+
+
+
+
+    
+    
+        <script type="text/javascript" src="/coremail/common/assets/c13f4b5d/jquery/jquery-1.8.2.min.js" charset="iso-8859-1"></script>
+    
+
+
+
+<script type="text/javascript" src="../common/assets/25879/jquery/jquery-1.8.2.min.js" charset="iso-8859-1"></script>
+<script type="text/javascript" src="../common/assets/25879/jquery-ui/ui/minified/jquery-ui.min.js" charset="iso-8859-1"></script>
+<script type="text/javascript" src="index_pku_1/login_0.js" charset="iso-8859-1"></script>
+<script type="text/javascript" src="index_pku_1/blur.js" charset="iso-8859-1"></script>
+
+<script language="javascript">
+function page_onLoad(){var une=document.getElementById("username");var _uck=getCookie("uid");if(_uck){une.value=_uck;document.getElementById('password').focus();}else{if(une.value==""){une.value="校园网帐号/北大邮箱";une.style.fontSize='14px';une.style.color='#999';une.focus();var iu = une.createTextRange();iu.collapse();iu.select();}}}
+function loginchk(a,b){
+if(document.getElementById('username').value==""||document.getElementById('username').value=="校园网帐号/北大邮箱")
+{alert("缺少用户账号，请重新输入\n NetID or Mail address needed");document.getElementById('username').focus();return false;}if(document.getElementById('password').value==""){alert("缺少密码，请重新输入\n Password needed");document.getElementById('password').focus();return false;}
+if(document.getElementById('verifyCode')!=null){if(document.getElementById('verifyCode').value==""){alert("请输入验证码\nVerifyCode needed");document.getElementById('verifyCode').focus();return false}
+}document.getElementById('uid').value=document.getElementById('username').value;return loginSubmit(a,b);}
+function gotoPWD(evt){evt=(evt)?evt:((window.event)?window.event:"");var key=evt.keyCode?evt.keyCode:evt.which;if(key==13){document.getElementById('password').focus();return false;}}
+</script>
+</head>
+<body  onLoad="page_onLoad();">
+<div style="display:none">
+<img src="./bgpic/bg_v1.jpg" width="0" height="0"/>
+<img src="./bgpic/bg_v2.jpg" width="0" height="0" />
+<img src="./bgpic/bg_v3.jpg" width="0" height="0"/>
+<img src="./bgpic/bg_v4.jpg" width="0" height="0"/>
+<img src="./bgpic/bg_v5.jpg" width="0" height="0"/>
+<img src="./bgpic/bg_v6.jpg" width="0" height="0"/>
+<img src="./bgpic/bg_v7.jpg" width="0" height="0"/>
+</div>
+<center>
+<div class="Head">
+	<div class="logo">
+		<a href="http://www.pku.edu.cn" target="_blank" title="北京大学"><img src="index_pku_1/logo_mail.gif" border="0"></a>
+	</div>
+	<div class="Links" style="padding-right:0px;" >
+		    <span> <a  href="https://mailt.pku.edu.cn/">电信入口</a> | </span>
+		    <span> <a  href="https://mailu.pku.edu.cn/">联通入口</a> | </span>
+		    <span> <a  href="https://mailc.pku.edu.cn/">教育网入口</a> | </span>
+        <span id="helpIndex"><a target="_blank" href="/coremail/help/index_zh_CN.jsp">帮助</a></span>
+        </div>
+</div>
+</center>
+<center>
+<div class="Main" id="Main">
+<div class="MainBg" id="MainBg" style="background-image:url(./bgpic/bg_v6.jpg);">
+
+<form id="loginForm" method="post" action="/coremail/index.jsp?cus=1" onSubmit="return loginchk(this,event);">
+<div class="MainL">
+</div>
+<div class="MainR MainR_bg">
+<div class="Header">
+    
+    <div class="language" id="language" onClick="fadeInElement(jQ('.localePanel').get(0), this, 5, -4);">
+        <span>Language:</span>
+        <span id="languageName">简体中文</span>
+        <!--b class="ico icoArr"></b-->
+        <input type="hidden" name="locale" id="locale" value="zh_CN" />
+    </div>
+    <div class="select_options localePanel">
+            <ul>
+                
+                    
+                    
+                        
+                    
+                    <a href="javascript:void(0);" onclick="changeLocale('zh_CN', '简体中文'); return false;">
+                        <li>
+                            <span>简体中文</span>
+                        </li>
+                    </a>
+                
+                    
+                    
+                    <a href="javascript:void(0);" onclick="changeLocale('zh_TW', '繁體中文'); return false;">
+                        <li>
+                            <span>繁體中文</span>
+                        </li>
+                    </a>
+                
+                    
+                    
+                    <a href="javascript:void(0);" onclick="changeLocale('en_US', 'English'); return false;">
+                        <li>
+                            <span>English</span>
+                        </li>
+                    </a>
+                
+            </ul>
+        </div>
+</div>
+    <div id="logArea">
+        <div class="inptr">
+            <input name="username" type="text" class="inpUser2" id="username"  maxlength="40" onBlur="if(this.value==''||this.value=='校园网帐号/北大邮箱'){this.value='校园网帐号/北大邮箱';this.style.color='#999';this.style.fontSize='14px';}" onMouseDown="if(this.value=='校园网帐号/北大邮箱'){this.style.color='#eee';};" 
+            	onKeyDown="if(this.value=='校园网帐号/北大邮箱'){this.value=''}else{gotoPWD();};this.style.color='#000000';this.style.fontSize='18px';"  value="" autocomplete="off">
+            <div style="font-size:14px;margin-top:4px;color:#000" >@pku.edu.cn</div>
+            <input type="hidden" name="nodetect" value="false" />
+            <input type="hidden" name="domain" id="domain" value="pku.edu.cn" ignoreIDV>
+        </div>
+        <div style="display:none"><input type="hidden" id="uid" name="uid" value=""></div>
+        <div class="inptr">
+            <input type="password" id="password" name="password" class="inpPW2" autocomplete="off"
+                   value="">
+        </div>
+        
+        
+        
+        <div class="inplist">
+            <label for="saveUsername" id="saveUsernameLabel">
+                <input type="checkbox" id="saveUsername" class="checkboxfix" />
+                记住用户名
+            </label>
+
+        </div>
+        <br>
+        
+            
+            
+            
+            <br><br>
+            
+        
+	<br>
+        <div class="inpB">
+            <div>
+                <button name="action:login" type="submit" class="Button" id="login_button">
+                    登录
+                </button>
+            </div>
+        </div>
+       
+    </div>
+
+</div>
+</form>
+</div>
+</div>
+</center>
+<center>
+<div class="footer">
+    <div class="copyright" id="copyright">
+       服务热线：62751023 　服务信箱： netinfo@pku.edu.cn 　地址：北京大学理科1号楼<br />
+		Copyright(C): Peking University Computer Center
+    </div>
+</div>
+</center>
+<script type="text/javascript">
+
+	initXT3("uid");
+jQ(document).mousedown(function (e){e=e||window.event||this.parentWindow.event;var _10=e.srcElement||e.target;while (_10!==undefined&&_10!==null){if(_10.className!="language"){fadeOutElement(jQ(".localePanel").get(0));}_10=_10.parentNode;}});initCommon();adjustHeight();window.onresize = adjustHeight;
+</script>
+</body>
+</html>

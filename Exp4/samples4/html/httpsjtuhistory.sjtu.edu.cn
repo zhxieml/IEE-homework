@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML><HEAD><TITLE>校史网子站</TITLE><META Name="keywords" Content="校史网子站" />
+
+
+
+
+
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<META name="format-detection" content="telephone=no">
+<META name="format-detection" content="address=no">
+<META content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"><LINK rel="stylesheet" href="css/style.css"><LINK rel="stylesheet" href="css/bdcss.css"><script type="text/javascript" src="js/bdtxk.js"></script><script type="text/javascript" src="js/Slide.js"></script><script type="text/javascript" src="js/index.js"></script><script>
+function checkInput(sef,n){
+    if(n==0){
+        if(sef.value=='请输入查找内容'){
+            sef.value = '';
+        }
+    }else{
+        if(sef.value==''){
+            sef.value ='请输入查找内容';
+        }
+    }
+}
+</script>
+<STYLE>
+	 * {
+	 	margin: 0;
+	 	padding: 0;}
+	 ul li {
+	 	text-decoration: none;}
+		.slideTxtBox .hd ul li {
+			float: left;
+			width: 95px;
+			height: 32px;
+			background-color: #efefef;
+			text-align: center;
+			line-height: 32px;
+			cursor: pointer;
+			margin-right: 15px;}
+		.slideTxtBox .hd ul li.on {
+			background: url(images/tab08.png) center bottom no-repeat;
+			color: #fff;
+			height: 41px;
+			line-height: 48px;
+			overflow: visible;
+			margin-top: -9px;}
+		.slideTxtBox {
+			width: 460px;
+			height: 250px;
+			position: relative;}
+		.slideTxtBox .hd {
+			position: absolute;
+			bottom: 20px;
+			left: 15px;}
+		.slideTxtBox .bd ul li a{
+			font-size: 14px;
+			line-height: 28px;
+			color: #333;}
+		.slideTxtBox .bd {
+			padding: 15px;}
+		.slideTxtBox .bd h3 {
+			font-size: 18px;
+			color: #9a0000;
+			margin-bottom: 15px;}
+	</STYLE>
+
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323074684754525b564203040000 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1422478947)</script>
+</HEAD>
+<BODY><!------top start-------->
+<DIV class="w100" style="background: url(images/back-top.png)">
+<DIV class="top w1200">
+<DIV class="logo fl">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm"><img src="images/logo.png" width="323" height="53" border="0" alt="上海交通大学校史网" title="上海交通大学校史网"></a></DIV>
+<DIV class="top-r fr">
+<DIV class="top-a"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><a href="http://archives.sjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422478947, 39637)" class="c198721">校史 ·  档案  · 文博网</a><span>|</span>
+<a href="http://digitalarchives.sjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422478947, 40331)" class="c198721">数字档案馆</a><span>|</span>
+<a href="http://museum.sjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1422478947, 40332)" class="c198721">校史博物馆</a>
+</DIV>
+
+
+
+
+
+<DIV class="form">
+<form action="jsjgy.jsp?wbtreeid=1001" method="post" name="a202616a" onsubmit="return subsearchdataa202616a()" style="display: inline;">
+  <input type="hidden" name="Find" value="find"><input type="hidden" name="entrymode" value="1"><input type="hidden" id="INTEXT2" name="INTEXT2" value=""><input type="hidden" name="news_search_code">
+ 
+       <span id="intextspana202616a"></span>
+       <iframe id="intextframea202616a" src="about:blank" scrolling="no" frameborder="0" style="position:absolute;top:0px;left:0px;display:none;"></iframe>
+       
+       
+       <INPUT class="search-right fl" src="images/sousuo.png" type="image">
+  <INPUT class="text" value="请输入查找内容" name="INTEXT" onClick="checkInput(this,0);" onBlur="checkInput(this,1);">
+  
+  
+  
+       
+   
+       
+                    <input type="submit" class="sou" name="FindButton" value="搜索" style=" border:0px;cursor:pointer  " />
+              
+
+</form>
+ 
+</DIV>
+<script>
+String.prototype.trim　= function()       
+{              
+    var t = this.replace(/(^\s*)|(\s*$)/g, "");     
+    return t.replace(/(^　*)|(　*$)/g, "");     
+}
+function subsearchdataa202616a()
+{ 
+    if(document.a202616a.INTEXT.value.trim()=="")
+    {
+         alert("请输入查询关键字！");
+         return false;
+    }
+    if(checkDataa202616a(document.a202616a))
+    {
+       return true;  
+    }
+    return false;
+}       
+</script>
+
+    <script language="JavaScript" src="_dwr/engine.js"></script>
+    <script language="JavaScript" src="_dwr/util.js"></script>
+    <script language="JavaScript" src="_dwr/interface/NewsSearchDWR.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search_entry.js"></script>    
+    <script language="JavaScript" src="/system/resource/js/language.js"></script>
+    <script language="JavaScript" src="/system/resource/js/base64.js"></script>
+    <script language="JavaScript" src="/system/resource/js/formfunc.js"></script>    
+    <script>    
+    news_searcha202616a = new vsb_news_search();
+    news_searcha202616a.isShowCode=false;
+    news_searcha202616a.tooltipid = 'tooltipa202616a';
+    news_searcha202616a.apptag = 'intextspana202616a';
+    news_searcha202616a.frametag = 'intextframea202616a';
+    news_search_entrya202616a = new vsb_news_search_entry();
+    news_search_entrya202616a.formname = "a202616a";
+    news_search_entrya202616a.news_search_obj = news_searcha202616a; 
+    news_search_entrya202616a.querytxtsize = 155
+    news_search_entrya202616a.yzmts ="您的查询过于频繁，请输入验证码后继续查询";
+    news_search_entrya202616a.qdstyle ="";
+    news_search_entrya202616a.qdname = "确定";
+    news_search_entrya202616a.qxstyle = "";
+    news_search_entrya202616a.qxname = "取消";
+    news_search_entrya202616a.showstr='请输入查询验证码！';    
+    function checkDataa202616a(formname)
+    {    
+        return news_search_entrya202616a.checkdata(formname)   
+    }
+    </script>
+<script language="javascript" src="/system/resource/js/base64.js"></script> 
+</DIV></DIV></DIV><!------top   end--------><!-------nav start-------->
+<DIV class="navBar w100">
+<UL class="nav clearfix">
+
+<LI class="m on">
+  <H3><a href="index.htm">首页</a></H3>
+</LI>
+    
+
+
+<LI class="m ">
+  <H3><a href="bmgk1/bmjj.htm">部门概况</a></H3>
+  <UL class="sub">
+<LI><a href="bmgk1/bmjj.htm" title="部门简介">部门简介</a> </LI><LI><a href="bmgk1/jgry.htm" title="机构人员">机构人员</a> </LI><LI><a href="bmgk1/kycg.htm" title="科研成果">科研成果</a> </LI><LI><a href="bmgk1/ryjx.htm" title="荣誉奖项">荣誉奖项</a> </LI><LI><a href="bmgk1/lxwm.htm" title="联系我们">联系我们</a> </LI><LI><a href="lyb.jsp?urltype=tree.TreeTempUrl&wbtreeid=1008" title="意见反馈">意见反馈</a> </LI>
+  </UL>
+</LI>
+    
+
+
+<LI class="m ">
+  <H3><a href="yxjd.htm">影像交大</a></H3>
+</LI>
+    
+
+
+<LI class="m ">
+  <H3><a href="ksjd1/syws.htm">口述交大</a></H3>
+  <UL class="sub">
+<LI><a href="ksjd1/syws.htm" title="思源往事">思源往事</a> </LI><LI><a href="ksjd1/syqh.htm" title="思源起航">思源起航</a> </LI><LI><a href="ksjd1/sybm.htm" title="思源北美">思源北美</a> </LI>
+  </UL>
+</LI>
+    
+
+
+<LI class="m ">
+  <H3><a href="xswc.htm">校史文萃</a></H3>
+</LI>
+    
+
+
+<LI class="m ">
+  <H3><a href="jdds1/dzjd.htm">交大党史</a></H3>
+  <UL class="sub">
+<LI><a href="jdds1/dzjd.htm" title="党在交大">党在交大</a> </LI><LI><a href="jdds1/dsnb.htm" title="大事年表">大事年表</a> </LI><LI><a href="jdds1/hhzc1/dxdlddxmzzygmyd.htm" title="辉煌征程">辉煌征程</a> </LI>
+  </UL>
+</LI>
+    
+
+
+<LI class="m ">
+  <H3><a href="szdj.htm">史志典籍</a></H3>
+</LI>
+    
+
+
+<LI class="m ">
+  <H3><a href="njxz/lnnj.htm">年鉴校志</a></H3>
+  <UL class="sub">
+<LI><a href="njxz/lnnj.htm" title="历年年鉴">历年年鉴</a> </LI><LI><a href="njxz/jdxz.htm" title="交大校志">交大校志</a> </LI>
+  </UL>
+</LI>
+    
+</UL></DIV><!-------nav   end--------><!----------fullslide----------->
+<DIV class="background">
+<DIV class="fullSlide w1200">    <DIV class="bd">
+<UL>
+<LI><A href=""><IMG src="images/banner3rt.png"></A> </LI>
+
+<LI><A href="#"><IMG src="images/banner01.png"></A> </LI>
+
+<LI><A href="#"><IMG src="images/banner33.png"></A> </LI>
+</UL></DIV>
+<DIV class="hd">
+<UL>
+<LI></LI>
+<LI></LI>
+<LI></LI>
+</UL></DIV></DIV>
+<DIV class="content">
+<DIV class="cont-top">
+<DIV class="p2-l fl">
+<DIV class="part-h">
+<DIV class="part-hh"><A class="title" href="jdjs.htm">交大简史</A> <A class="more" href="jdjs.htm">更多</A></DIV></DIV>
+<UL>    
+<LI>
+  <DIV class="p2-btn"><a href="jdjs/xsyg.htm" title="校史沿革" onclick="_addDynClicks(&#34;wbimage&#34;, 1422478947, 36990)" target="_blank">校史沿革<IMG src="images/more2.png"></A></DIV>
+  <DIV class="p2-i"><IMG src="images/men999.png"></DIV>
+</LI>
+
+                       
+
+<LI>
+  <DIV class="p2-btn"><a href="jdjs/whfh1/xy.htm" title="文化符号" onclick="_addDynClicks(&#34;wbimage&#34;, 1422478947, 36989)" target="_blank">文化符号<IMG src="images/more2.png"></A></DIV>
+  <DIV class="p2-i"><IMG src="images/tu888886.png"></DIV>
+</LI>
+
+                       
+</UL></DIV>
+<DIV class="p2-2 fl">
+<DIV class="part-h">
+<DIV class="part-hh"><A class="title" href="dtgg.htm">动态公告</A> <A class="more" href="dtgg.htm">更多</A></DIV></DIV>
+<UL>
+<LI style=" font-weight:bold"><a href="info/1023/1723.htm" target="_blank" title="党史校史研究室参加全国校史第十五届年会">党史校史研究室参加全国校史第十五届年会</a>
+  <P style="text-indent:2em;padding-bottom:9px;padding-top:5px;border-bottom:1px dotted  #5e5e5e ;font-weight:normal;">10月10日至11日，中国高等教育学会校史研究分会第15届年会在河南大学金明校区举行，来自清华、北大、复旦、交大、浙...</P>
+ </LI>
+
+<LI style=" font-weight:bold"><a href="info/1023/1703.htm" target="_blank" title="厦门大学档案馆馆长戴岩一行来校调研校史文博建设">厦门大学档案馆馆长戴岩一行来校调研校史文博建设</a>
+  
+ </LI>
+
+<LI style=" font-weight:bold"><a href="info/1023/1694.htm" target="_blank" title="上海市地方志办公室领导莅校调研">上海市地方志办公室领导莅校调研</a>
+  
+ </LI>
+
+<LI style=" font-weight:bold"><a href="info/1023/1663.htm" target="_blank" title="党史校史研究室赴复旦大学考察交流">党史校史研究室赴复旦大学考察交流</a>
+  
+ </LI>
+
+<LI style=" font-weight:bold"><a href="info/1023/1657.htm" target="_blank" title="中国海洋大学来校调研校史工作">中国海洋大学来校调研校史工作</a>
+  
+ </LI>
+<script>_showDynClickBatch(['dynclicks_u6_1723','dynclicks_u6_1703','dynclicks_u6_1694','dynclicks_u6_1663','dynclicks_u6_1657'],[1723,1703,1694,1663,1657],"wbnews", 1422478947)</script>
+</UL></DIV>
+<DIV class="p2-3 fl">
+<DIV class="part-h">
+<DIV class="part-hh"><A class="title" href="xszl.htm">校史专栏</A> <A class="more" href="xszl.htm">更多</A></DIV></DIV>
+<DIV class="slideTxtBox"><div class="hd">
+			<ul>
+				<li>通史</li>
+				<li>部门史</li>
+				<li>院系史</li>
+				<li>专题史</li>
+			</ul>
+		</div>
+		<div class="bd">
+			<ul>
+				<li>
+					<h3>《上海交通大学史》</h3>
+					<a href="info/1061/1651.htm">《上海交通大学史》以恢宏的卷帙记录了上海交通大学百余年厚重历史。以历史研究的客观与责任感，以全方位视角和近距离直击结合，以学术的精神和细致的笔触，在深入、广泛挖掘档案史料和现有出版资料的基础上，全景展示了上海交通大学...</a></li>
+			</ul><ul>
+				<li>
+					<h3>《上海交通大学图书馆馆史》</h3>
+					<a href="info/1053/1323.htm">如烟岁月，史海泛舟。《思源籍府书香致远：上海交通大学图书馆馆史（1896-2012）》由陈进主编，以时间为序，展示了上海交通大学图书馆百余年的历史。围绕近代化发展（1896—1949），调整、西迁、停滞（1949一。1976），现代化征程（19...</a></li>
+			</ul><ul>
+				<li>
+					<h3>《上海交大百年物理》</h3>
+					<a href="info/1052/1332.htm">‍物理学是研究物质运动最基本规律的科学。上海交通大学物理系从成立至今一直肩负着二项重要任务，即为交大全体学生提高物理学的素养和培养物理领域的专门人才。近百年来交大物理学科名师荟萃，桃李满天下。《上海交大百年物理》一书...</a></li>
+			</ul><ul>
+				<li>
+					<h3>《老房子 新建筑—上海交大110年校园》</h3>
+					<a href="info/1051/1631.htm">品味校园建筑之美  感悟学子人生真谛                         ——110年交大校园变迁
+        
+        
+           
+上海交通大学座落在上海徐家汇的北边，1896年创办时校名为南洋公学，校园占地不到百亩，经过一个...</a></li>
+			</ul>
+			
+		</div><script>_showDynClickBatch(['dynclicks_u7_1651','dynclicks_u7_1323','dynclicks_u7_1332','dynclicks_u7_1631'],[1651,1323,1332,1631],"wbnews", 1422478947)</script>
+ </DIV></DIV></DIV>
+<DIV class="cont-bottom">
+<DIV class="b1 fl">
+<DIV class="b1-h">
+<DIV class="b1-hh"><A class="title1" href="xswx.htm">校史微信</A> <A class="more1" href="xswx.htm">更多</A></DIV></DIV>
+<UL>
+<LI>
+  <DIV class="bd-i"><IMG src="/__local/1/82/29/CD41221AB1C8B47E9558D966599_C3F43B1D_119CE.jpg"></DIV>
+  <DIV class="bd-r"><a href="https://mp.weixin.qq.com/s/8YDlvpWdSEnEKNVePJUELQ" target="_blank" title="盘点交大老师们的“十八般武艺”，大写的服！！！">盘点交大老师们的“十八般武艺”，大写的服！！！</a></DIV>
+</LI>
+
+
+<LI>
+  <DIV class="bd-i"><IMG src="/__local/4/19/F5/A5C1D8ECAA83F19461853D7D63C_FFB9904E_70EA.jpg"></DIV>
+  <DIV class="bd-r"><a href="https://mp.weixin.qq.com/s/-N585_72UPKHdH2ClfQj9A" target="_blank" title="后来，学霸们为何选择了交大这个专业？">后来，学霸们为何选择了交大这个专业？</a></DIV>
+</LI>
+
+<script>_showDynClickBatch(['dynclicks_u8_1713','dynclicks_u8_1680'],[1713,1680],"wbnews", 1422478947)</script>
+</UL></DIV>
+<DIV class="b2 fl">
+<DIV class="b2-h">
+<DIV class="b2-hh"><A class="title2" href="rw.htm">人物春秋</A> <A class="more2" href="rw.htm">更多</A></DIV></DIV>
+<DIV class="content-six">
+<UL class="contentbox-six">
+<LI class="con-six"><IMG class="conimg-two" src="/__local/E/EB/13/C0714B2EEBB64E79089299CF2DE_3AC8F388_1C48F.jpg">
+  <DIV class="txt-six">
+    <H3><a href="info/1031/1196.htm" target="_blank" title="盛宣怀">盛宣怀</a></H3>
+    <P><a href="info/1031/1196.htm" target="_blank" title="盛宣怀" style="color:#fff">‍盛宣怀​南洋公学创始人盛宣怀 盛...</a></P>
+  </DIV>
+</LI>
+
+<script>_showDynClickBatch(['dynclicks_u9_1196'],[1196],"wbnews", 1422478947)</script>
+
+<LI class="con-six"><IMG class="conimg-two" src="/__local/8/37/CF/4BDD84E6A3FAF517E93CACF29D5_754BF7A0_4D7A.jpg">
+  <DIV class="txt-six">
+    <H3><a href="info/1032/1222.htm" target="_blank" title="蔡元培">蔡元培</a></H3>
+    <P><a href="info/1032/1222.htm" target="_blank" title="蔡元培" style="color:#fff">​蔡元培蔡元培（1868——1940年）...</a></P>
+  </DIV>
+</LI>
+
+<script>_showDynClickBatch(['dynclicks_u10_1222'],[1222],"wbnews", 1422478947)</script>
+
+<LI class="con-six"><IMG class="conimg-two" src="/__local/A/45/FA/4910FA22AE98E687AA7EFF15453_67083E9C_1ADC7.png">
+  <DIV class="txt-six">
+    <H3><a href="info/1038/1609.htm" target="_blank" title="蔡锷">蔡锷</a></H3>
+    <P><a href="info/1038/1609.htm" target="_blank" title="蔡锷" style="color:#fff">蔡锷​蔡锷 （1882~1916）中国民主...</a></P>
+  </DIV>
+</LI>
+
+<script>_showDynClickBatch(['dynclicks_u11_1609'],[1609],"wbnews", 1422478947)</script>
+
+<LI class="con-six"><IMG class="conimg-two" src="/__local/A/01/E0/86AD6B052B50C84E2EA8A20ED69_96A7AB75_EB63D.jpg">
+  <DIV class="txt-six">
+    <H3><a href="info/1034/1248.htm" target="_blank" title="穆汉祥">穆汉祥</a></H3>
+    <P><a href="info/1034/1248.htm" target="_blank" title="穆汉祥" style="color:#fff">‍穆汉祥​‍穆汉祥（1924~1949），...</a></P>
+  </DIV>
+</LI>
+
+<script>_showDynClickBatch(['dynclicks_u12_1248'],[1248],"wbnews", 1422478947)</script>
+</UL></DIV></DIV></DIV></DIV></DIV>
+<DIV class="bottom w100">
+<DIV class="bottom-box w1200">
+<DIV class="foot-left">
+<DIV class="link"><SPAN>友情链接:</SPAN> <a href="http://archives.sjtu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1422478947, 39637)">校史 ·  档案  · 文博...</a>
+<a href="http://digitalarchives.sjtu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1422478947, 40331)">数字档案馆</a>
+<a href="http://museum.sjtu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1422478947, 40332)">校史博物馆</a>
+</DIV>
+<DIV class="foot-tt"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright© 2018 上海交通大学档案馆（党史校史研究室）</p><p>上海市华山路1954 号</p></DIV></DIV>
+<DIV class="foot-e">    <DIV class="fe-i"><IMG src="images/wx.jpg">
+<P>官方微信</P>
+</DIV>
+<DIV class="fe-i"><IMG src="images/528.png">
+<P>官方微博</P>
+</DIV>
+ </DIV></DIV></DIV><!---------fullslide end----------><script type="text/javascript">
+	//大图切换
+	jQuery(".game163").slide({ titCell:".smallImg li", mainCell:".bigImg", effect:"fold", autoPlay:true,delayTime:200,
+		startFun:function(i,p){
+			//控制小图自动翻页
+			if(i==0){ jQuery(".game163 .sPrev").click() } else if( i%4==0 ){ jQuery(".game163 .sNext").click()}
+		}
+	});
+
+	//小图左滚动切换
+	jQuery(".game163 .smallScroll").slide({ mainCell:"ul",delayTime:100,vis:4,scroll:4,effect:"left",autoPage:true,prevCell:".sPrev",nextCell:".sNext",pnLoop:false });
+	jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+jQuery(".nav").slide({ 
+		type:"menu", //效果类型
+		titCell:".m", // 鼠标触发对象
+		targetCell:".sub", // 效果对象，必须被titCell包含
+		delayTime:300, // 效果时间
+		triggerTime:0, //鼠标延迟触发时间
+		returnDefault:true  //返回默认状态
+});
+$(".sel_mask").click(function(){
+	$(this).children("ul").slideToggle();
+	$(this).siblings().children("ul").hide();
+});
+</script><script>
+		jQuery(".slideTxtBox").slide();
+	</script>
+
+</BODY></HTML>

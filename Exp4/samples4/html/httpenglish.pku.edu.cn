@@ -1,0 +1,902 @@
+﻿<!-- ONLINE: 2018-04-18 -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<title>Peking University</title>
+<!-- <link href="css/banner.css" type="text/css" rel="stylesheet" /> -->
+
+<link href="css/indexi.css" type="text/css" rel="stylesheet" />
+<!-- <script src="js/index.js"type="text/javascript"></script> -->
+
+
+<link rel="shortcut icon" href="/pku_favicon.ico" mce_href="/pku_favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/pku_favicon.ico" mce_href="/pku_favicon.ico" type="image/x-icon">
+
+	<link href="css/basei.css" rel="stylesheet" type="text/css">
+    <link href="css/indexf.css" rel="stylesheet" type="text/css"> 
+	<link href="css/thuicon.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/mmenu.css" rel="stylesheet" type="text/css">
+	<script src="js/jq.js" type="text/javascript"></script>
+	<script src="js/comm.js" type="text/javascript"></script>
+	<script src="js/jquery.easing-1.3.js" type="text/javascript"></script>
+	<script src="js/jquery.iosslider.js" type="text/javascript"></script>
+	<script src="js/visualMacth.js" type="text/javascript"></script>
+
+	<!--[if lt IE 9]>
+	<script src="js/html5.js" type="text/javascript"></script>
+	<script src="js/response.min.js"></script>
+	<link href="js/mmenu2.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+
+	<link href="css/pku.css" rel="stylesheet" type="text/css">
+	<script src="js/pku.js" type="text/javascript"></script>
+	<script src="js/slider.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<header class="header">
+	<section>
+		<div class="topLine"></div>
+		<section class="subNav yahei clearfix">
+			<!-- section class="ssubNav">子导航<section -->
+			<section class="ssubNavPKU show-md subNavText">
+			<ul>
+				<li><a href="http://english.pku.edu.cn">Peking University</a></li>
+			</ul>
+			</section>
+			<section class="ssubNavPKU show-md subNavlogo">
+                <span id="navline_1" class="navline"></span>
+        		<span id="navline_2" class="navline"></span>
+        		<span id="navline_3" class="navline" style="margin-bottom:3px;"></span>
+            </section>
+            <section class="ssubNavPKU show-lg">
+                <ul class="subnavLeft">
+					<li id="alumni"><a href="intro_organization_admindetail.shtml?id=027">Alumni</a></li>
+					<li id="jobs"><a href="jobs.shtml">Jobs</a></li>
+					<li id="giving"><a href="intro_organization_admindetail.shtml?id=047">Give</a></li>
+				</ul>
+				<ul class="subNavRight">
+					<li id="lib"><a href="http://www.lib.pku.edu.cn/portal/en">Library</a></li>
+					<li id="yxb"><a href="http://e.bjmu.edu.cn/">Medicine</a></li>
+					<!-- li id="120xiaoqin"><a href="http://120.pku.edu.cn/en/index.htm">120th Anniversary</a></li -->
+					<li id="its"><a href="https://its.pku.edu.cn/">ITS</a></li>
+					<li id="en"><a href="http://www.pku.edu.cn/">中文</a></li>
+					<li id="form_Search_itme">
+						<a id="form_Search_a" href="#" class="glyphicon glyphicon-search btn searchlogo" style="padding-top:3px;font-size:12px;"></a>
+						<div class="searchDIV">
+							<!-- pad 样式 -->
+							<form id="bing_Search" name="bing_Search" method="get" action="http://cn.bing.com/search" target="_blank" onsubmit="return false;">
+								<input id="form_Searchword" name="form_Searchword1" class="searchinp" onFocus="" onBlur="" type="text" placeholder="Search..." onKeyDown="doSearch(event,1)">
+								<input id="q" name="q" type="hidden">
+								<input id="ensearch" name="ensearch" value="1" type="hidden">
+								<a id="form_SearchGo" href="javascript:bingsearch(1)" class="searchGO" title="Search" style="color:#fff;display:inline;">go</a>
+							</form>
+						</div>
+					</li>
+				</ul>
+            </section>
+			<section class="mainWrap mainWrap02 noline">
+				<ul id="subNav" class="subnavLeft">
+					<li id="alumni"><a href="intro_organization_admindetail.shtml?id=027">Alumni</a></li>
+					<li id="jobs"><a href="jobs.shtml">Jobs</a></li>
+					<li id="giving"><a href="intro_organization_admindetail.shtml?id=047">Give</a></li>
+				</ul>
+				<ul class="subNavRight" style="padding-right:12px;">
+					<li id="lib"><a href="http://www.lib.pku.edu.cn/portal/en">Library</a></li>
+					<li id="yxb"><a href="http://e.bjmu.edu.cn/">PKUHSC</a></li>
+					<!-- li id="120xiaoqin"><a href="http://120.pku.edu.cn/en/index.htm">120th Anniversary</a></li -->
+					<li id="its"><a href="https://its.pku.edu.cn/">ITS</a></li>
+					<li id="en"><a href="http://www.pku.edu.cn/">中文</a></li>
+					<li id="form_Search_itme">
+						<a id="form_Search_a" href="#" class="glyphicon glyphicon-search btn searchlogo" style="padding-top:3px;font-size:12px;"></a>
+							<div class="searchDIV">
+								<!-- 宽屏 样式 -->
+								<form id="bing_Search2" name="bing_Search2" method="get" action="#" target="_blank" onsubmit="return false;" >
+									<input id="form_Searchword" name="form_Searchword2" class="searchinp" onFocus="" onBlur="" type="text" placeholder="Search..." onKeyDown="doSearch(event,2)">
+									<a id="form_SearchGo" href="javascript:bingsearch(2)" class="searchGO" title="Search" style="color:#fff;display:inline;">go</a>
+								</form>
+							</div>
+					</li>
+				</ul>
+			</section>
+
+			<!-- search -->
+			<section class="clearfix">
+			
+			</section>
+			
+			
+			<!-- for mobile [begin] -->
+			<section id="mobileNav" class="onlymobileshow clearfix">
+			<div style="background-color:#fff;clear:both;padding-left:20px;padding-bottom:7px;line-height:30px;font-size:16px;">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="show-md">
+				<tr>
+					<td width="35%"><a href="intro_about.shtml">About</a></td>
+					<td><a href="intro_organization_admindetail.shtml?id=027">Alumni</a></td>
+					<td><!-- a href="http://120.pku.edu.cn/en/index.htm">120th Anniversary</a -->
+					<a href="http://www.lib.pku.edu.cn/portal/en">Library</a>
+					</td>
+				</tr>
+				<tr>
+					<td><a href="http://www.isd.pku.edu.cn/index.php?m=content&c=index&a=lists&catid=89">Admissions</a></td>
+					<td><a href="jobs.shtml">Jobs</a></td>
+					<td><a href="http://e.bjmu.edu.cn/">PKUHSC</a></td>
+				</tr>
+				<tr>
+					<td><a href="academics.shtml">Schools</a></td>
+					<td><a href="intro_organization_admindetail.shtml?id=047">Give</a></td>
+					<td><a href="https://its.pku.edu.cn/">ITS</a></td>
+				</tr>
+				<tr>
+					<td><a href="education.shtml">Education</a></td>
+					<td></td>
+					<td><a href="http://www.pku.edu.cn/">中文</a></td>
+				</tr>
+				<tr>
+					<td><a href="research.shtml">Research</a></td>
+					<td></td>
+					<td></td>
+					
+				</tr>
+				<tr>
+					<td><a href="http://www.oir.pku.edu.cn/home.htm">Collaboration</a></td>
+				</tr>
+				<tr>
+					<td><a href="campuslife.shtml">Campus Life</a></td>
+					<td colspan="2">
+					<!-- 手机窄屏 模式 -->
+					<form id="bing_Search3" name="bing_Search3" method="get" action="#" target="_blank" onsubmit="return false;">
+						<input name="form_Searchword3" id="form_Searchword" style="opacity:0.8;background-color:#fff;border:1px solid #C4C4C4;width:70%;margin-right:3px;margin-top:3px;" type="text" onFocus="" onBlur="" onKeyDown="doSearch(event,3)">
+						<a href="javascript:bingsearch(3);" class="glyphicon glyphicon-search btn" style="line-height:22px;font-size:12px" title="Search"></a>
+						</form>
+					</td>
+				</tr>
+			</table>
+			</div>
+			</section>
+			<!--  for mobile [end] -->
+
+		</section>
+
+		<section class="topWrap clearfix">
+
+			<section class="mainWrap"><a class="logo" href="index.shtml" title="Homepage of Peking University"><img src="img/pkulogo_white.png"  style="width:213px;heigth:60px;"></a></section>
+
+			<section class="nav yahei clearfix noMobileShow" style="clear:both;">
+
+				<section class="menu" id="smenu"><a class="thuicon-menu menuicon"></a>Nav</section>
+
+					<ul id="nav">
+						<li class="nav_first"><a id="intro" href="intro_about.shtml">About</a>
+							<div class="minfoWrap">
+								<div class="minfoWrap_inner">
+									<div class="fl"><img src="img/channel_about.jpg" border="0" /></div>
+									<p class="fl nav03 slogan" style="margin-left:40px; margin-right:10px">Peking University always be the pioneer of novation and improvement, should lead China walks into the road of good and upwards.</p>
+									<ul class="nav01 fl ml30">
+										<li id="intro_about"><a href="intro_about.shtml">General Information</a></li>
+										<li id="intro_leaders"><a href="intro_history.shtml">History</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li id="intro_formerleaders"><a href="intro_cuc.shtml">Message from the  CUC</a></li>
+										<li id="intro_celebrities"><a href="intro_president.shtml">Message from the President</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li id="intro_internals"><a href="intro_tour.shtml">Virtual Tour</a></li>
+									</ul>
+
+								</div>
+							</div>
+						</li>
+						<li><a id="admissions" href="http://www.isd.pku.edu.cn/index.php?m=content&c=index&a=lists&catid=89">Admissions</a>
+							<div class="minfoWrap">
+								<div class="minfoWrap_inner">
+									<div class="fl"><img src="img/channel_admissions.jpg" border="0" /></div>
+									<p class="fl nav03 slogan" style="margin-left:40px; margin-right:10px">A Global University with <br>a Beautiful Campus.<br> Welcome to Peking University!</p>
+									<ul class="nav01 ml30 fl">
+										<li><a href="http://www.isd.pku.edu.cn/index.php?m=content&c=index&a=lists&catid=89">General Information</a></li>
+										<li><a href="http://www.isd.pku.edu.cn/index.php?m=content&c=index&a=lists&catid=116">Degree Programs </a></li>
+										<li><a href="http://www.isd.pku.edu.cn/index.php?m=content&c=index&a=lists&catid=121">Non-degree Programs</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://www.isd.pku.edu.cn/clssen/">Chinese Language Summer School</a></li>
+										<li><a href="http://www.oir.pku.edu.cn/summerschool/">PKU Summer School International</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://www.oir.pku.edu.cn/LSE/">LSE-PKU Summer School</a></li>
+										<li><a href="https://pku.17gz.org/member/login.do?request_locale=en_US">Online Application</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a id="schools" href="academics.shtml">Schools</a>
+							<div class="minfoWrap">
+								<div class="minfoWrap_inner">
+									<div class="fl"><img src="img/channel_academic.jpg" border="0" /></div>
+									<p class="fl nav03 slogan" style="margin-left:40px; margin-right:10px">Diligence, Discipline, Truth and Creativity.</p>
+									<ul class="nav01 ml30 fl">
+										<li><a href="http://fs.pku.edu.cn/">Sciences</a></li>
+										<li><a href="http://fies.pku.edu.cn/">Information & Engineering</a></li>
+										<li><a href="http://english.pkusz.edu.cn/">Shenzhen Graduate School</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://fh.pku.edu.cn/">Humanities</a></li>
+										<li><a href="http://fss.pku.edu.cn/">Social Sciences</a></li>
+									        <li><a href="http://fem.pku.edu.cn/">Economic & Management</a></li>
+									</ul>
+									<ul class="nav01 fl">
+									        <li><a href="http://e.bjmu.edu.cn/">PKUHSC</a></li>
+										<li><a href="javascript:void()">Interdisciplinary</a></li>
+									</ul>
+
+								</div>
+							</div>
+						</li>
+						<li><a id="education" href="education.shtml" class="long_li">Education</a>
+							<div class="minfoWrap">
+								<div class="minfoWrap_inner">
+									<div class="fl"><img src="img/channel_education.jpg" border="0" /></div>
+									<p class="fl nav03 slogan" style="margin-left:40px; margin-right:10px">Free-thinking and Open-minded</p>
+									<ul class="nav01 ml30 fl">
+										<li><a href="education_elitist.shtml" style="width:200px">Faculties</a></li>
+										<li><a href="education_course.shtml" style="width:200px">Courses</a></li>
+										<li><a href="http://dean.pku.edu.cn/englishcourses/" style="width:200px">English Taught Courses</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://mooc.pku.edu.cn/mooc/" style="width:200px">MOOK at PKU</a></li>
+										<li><a href="https://www.edx.org/school/pekingx" style="width:200px">Courses on edX</a></li>
+										<li><a href="http://dean.pku.edu.cn/pkudean/" style="width:200px">Courses on Coursera</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://dean.pku.edu.cn/pkudean/" style="width:200px">Office of Education Administration</a></li>
+										<li><a href="http://162.105.205.229/en/" style="width:200px">Graduate School</a></li>
+										<li><a href="http://www.isd.pku.edu.cn/html/english/" style="width:200px">Overseas Students</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a id="research" href="research.shtml">Research</a>
+							<div class="minfoWrap">
+								<div class="minfoWrap_inner">
+									<div class="fl"><img src="img/channel_research.jpg" border="0" /></div>
+									<p class="fl nav03 slogan" style="margin-left:40px; margin-right:10px">Great works are performed not by strength, but by perseverance.<br>Keep on going never give up.</p>
+									<ul class="nav01 ml30 fl">
+										<li><a href="research.shtml">Nature Sciences</a></li>
+										<li><a href="research_humanity.shtml">Humanities & Social Sciences</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="research_institute.shtml">Key Institutes</a></li>
+										<li><a href="research_lab.shtml">Labs & Centers</a></li>
+										<li><a href="research_journal.shtml">Journals</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li><a id="collaboration" href="http://www.oir.pku.edu.cn/home.htm">Collaboration</a>
+							<div class="minfoWrap">
+								<div class="minfoWrap_inner">
+									<div class="fl"><img src="img/channel_collaboration.jpg" border="0" /></div>
+									<p class="fl nav03 slogan" style="margin-left:40px; margin-right:10px">The master said, I set my heart on the Way, base myself on virtue, lean upon benevolence for support and take my recreation in the arts.<br></p>
+									<ul class="nav01 ml30 fl">
+										<li><a href="http://www.oir.pku.edu.cn/home.htm">Office of International Relations</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://hmt.pku.edu.cn/">Hong Kong, Macao and Taiwan Communication</a></li>
+										<!--li><a href="http://gnhz.pku.edu.cn/">Mainland Communication</a></li-->
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://www.hanban.pku.edu.cn/">Confucius Institute</a></li>
+									</ul>
+
+								</div>
+							</div>
+						</li>
+						<li class="nav_last"><a id="campuslife" href="campuslife.shtml">Campus Life</a>
+							<div class="minfoWrap">
+								<div class="minfoWrap_inner">
+									<div class="fl"><img src="img/channel_life.jpg" border="0" /></div>
+									<p class="fl nav03 slogan" style="margin-left:40px; margin-right:10px">In all seasons, vibrant youth and the campus melt into eternal harmony.</p>
+									<ul class="nav01 ml30 fl">
+										<li><a href="http://english.pku.edu.cn/events/index.htm">Events</a></li>
+										<li><a href="http://english.pku.edu.cn/news_events/news/campus/index.htm">News</a></li>
+										<li><a href="intro_organization_admin.shtml">Administration</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://www.oir.pku.edu.cn/xwzx/cbw/PKU_Newsletter.htm">PKU Newsletter</a></li>
+										<li><a href="http://lecture.pku.edu.cn/index_new.php">Lectures</a></li>
+										<li><a href="http://www.pku-hall.com/">Film & Performance</a></li>
+									</ul>
+									<ul class="nav01 fl">
+										<li><a href="http://www.xsg.pku.edu.cn/">Museum of History</a></li>
+										<li><a href="https://maps.pku.edu.cn/index_en.html">Maps</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+			</section>
+
+		</section>
+
+	</section>
+
+</header>
+<!--
+<div id="header_placeholder"></div>
+-->
+
+<script type="text/javascript">
+	var _filename_ = location.pathname.match(/[^\/]+$/);
+
+ 	if (_filename_ != null && _filename_.length == 1)
+	{
+		var _id_ = _filename_[0].match(/^[^_\.]+/);
+
+		if (_id_ != null && _id_.length > 0)
+		{
+			$("#" + _id_).addClass("current");
+		}
+	}
+$(function(){
+	$(".ssubNav1").toggle(function(){
+		$("#mobileNav").slideDown(300);
+	},function(){
+		$("#mobileNav").slideUp(300);
+	})
+	$(".searchlogo").click(function(event){
+		event.stopPropagation();
+		$('.searchDIV').slideToggle('fast');
+	});
+});
+/*-- zhangyang 2018.03.21 --*/
+function bingsearch(num){
+if($("input[name='form_Searchword"+num+"']").val()==""){return;}
+$("#q").val($("input[name='form_Searchword"+num+"']").val()+"+site:pku.edu.cn");
+document.forms["bing_Search"].submit();
+$("input[name='form_Searchword"+num+"']").val("");
+$("#q").val("");}
+function doSearch(keypressed,formnum){var key;
+if(document.all){key=window.event.keyCode;
+}else{key=keypressed.which;};
+if(key==13||key==10){bingsearch(formnum);}}
+
+$(".header .mainWrap a:first-child").hover(function(){
+$(this).children("img").attr("src","img/pkulogo_grey.png");
+},function(){$(this).children("img").attr("src","img/pkulogo_white.png");});
+
+</script>
+
+<article class="content">
+    <!--修改banner开始-->
+    <section class = 'iosSliderDemo'>
+		<div class = 'fluidHeight'>
+			<div class = 'sliderContainer'>
+				<div class = 'iosSlider'>
+					<div class = 'slider'>
+					
+					<div class = 'item item3'>
+						<div class = 'inner'><a href="http://newsen.pku.edu.cn/news_events/news/focus/7561.htm" target="_blank">
+							<img src = 'img/banner/banner20181017.jpg' title=""></a>
+							<div class = 'selectorShadow'></div>
+							<div class = 'text1-bg'></div>
+							<div class = 'text1'><span>Gérard Mourou, 2018 Nobel Laureate in Physics, lectures at Peking University</span></div>
+							<div class = 'more'><a href="features_cur.shtml">More &gt;</a></div>
+						</div>
+					</div>
+
+					<div class = 'item item2'>
+							<div class = 'inner'><a href="http://newsen.pku.edu.cn/news_events/news/focus/7557.htm" target="_blank">
+								<img src = 'img/banner/banner20181010.jpg' title=""></a>
+								<div class = 'selectorShadow'></div>
+                                <div class = 'text1-bg'></div>
+								<div class = 'text1'><span>60th Anniversary of Peking University Third Hospital Academic Seminar held</span></div>
+                                <div class = 'more'><a href="features_cur.shtml">More &gt;</a></div>
+							</div>
+					</div>
+					
+					<div class = 'item item4'>
+							<div class = 'inner'><a href="http://newsen.pku.edu.cn/news_events/news/focus/7453.htm" target="_blank">
+								<img src = 'img/banner/banner20180911.jpg' title=""></a>
+								<div class = 'selectorShadow'></div>
+                                <div class = 'text1-bg'></div>
+								<div class = 'text1'><span>Peking University HSBC Business School earns AACSB International Accreditation</span></div>
+								<div class = 'more'><a href="features_cur.shtml">More &gt;</a></div>
+                               </div>
+						</div>
+						
+						<div class = 'item item5'>
+							<div class = 'inner'><a href="http://newsen.pku.edu.cn/news_events/news/focus/7468.htm" target="_blank">
+								<img src = 'img/banner/banner20180830.jpg' title=""></a>
+								<div class = 'selectorShadow'></div>
+                                <div class = 'text1-bg'></div>
+								<div class = 'text1'><span>China-Japan University Student Communication Conference held in Peking University</span></div>
+                                <div class = 'more'><a href="features_cur.shtml">More &gt;</a></div>
+							</div>
+						</div>
+						
+						<div class = 'item item6'>
+							<div class = 'inner'><a href="#" target="_blank">
+								<img src = 'img/banner/banner20180828.jpg' title=""></a>
+								<div class = 'selectorShadow'></div>
+                                <div class = 'text1-bg'></div>
+								<div class = 'text1'><span>The second Sino Japanese university students' thousand person exchange activities were held</span></div>
+                                <div class = 'more'><a href="features_cur.shtml">More &gt;</a></div>
+							</div>
+						</div>
+						
+						<div class = 'item item1'>
+							<div class = 'inner'><a href="http://newsen.pku.edu.cn/news_events/news/focus/7415.htm" target="_blank">
+								<img src = 'img/banner/banner20180713.jpg' title=""></a>
+								<div class = 'selectorShadow'></div>
+                                <div class = 'text1-bg'></div>
+								<div class = 'text1'><span>PKU 2018 undergraduate commencement ceremony held</span></div>
+                                <div class = 'more'><a href="features_cur.shtml">More &gt;</a></div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+				<div class = 'slideSelectors'>
+					<div class = 'prev'></div>
+					<div class = 'item selected'></div>
+					<div class = 'item'></div>
+					<div class = 'item'></div>
+					<div class = 'item'></div>
+					<div class = 'item'></div>
+					<div class = 'item'></div>
+					<div class = 'next'></div>
+				</div>
+				<div class = 'scrollbarContainer'></div>
+			</div>
+		</div>
+	</section>
+    <!--修改banner结束-->
+
+    <section class="con_wap">
+        <section class="new">
+            <h2><a href="http://newsen.pku.edu.cn/news_events/news/focus/index.htm" target="_blank">News</a></h2>
+            <section class="newL" id="newsLeft">
+                <a href="http://newsen.pku.edu.cn/news_events/news/global/7203.htm" target="_blank"><img src="img/news20180416.jpg" />
+                <h3>[Beijing Forum 2018]Exploring the Future of Higher Education</h3></a> 
+                <p>The Opening Ceremony of the World University Presidents Symposium and Beijing Forum 2018, hosted by Peking University, highlighted the themes and ideas that the gathering of educators from all of the world would focus on over the weekend. As explained by the host, Peking University Council Chairman Hao Ping, the event included representatives from 44 countries and regions and 130 Chines universities.</p>
+            </section>
+            <section class="newR" id="newsCenter">
+		<li><a href="http://newsen.pku.edu.cn/news_events/news/campus/7011.htm" target="_blank">The 11th Outdoor Skills Competition held by MAPKU</a></li>
+                	<li><a href="http://newsen.pku.edu.cn/news_events/news/focus/7009.htm" target="_blank">Peking University Laboratory Animal Research Center earns full accreditation</a> </li>
+		<li><a href="http://newsen.pku.edu.cn/news_events/news/campus/6992.htm" target="_blank">PKU RUN100871 Club restarts the Long March of Southwest United University</a> </li>
+		<li><a href="http://newsen.pku.edu.cn/news_events/news/campus/6990.htm" target="_blank">Peking University Hosts 11th “Australian Writers’ Week”</a> </li>
+             </section>
+            <ul class="newR" id="newsRight">
+            	<li><a href="http://newsen.pku.edu.cn/news_events/news/focus/6982.htm" target="_blank">30th Anniversary of the Application of Assisted Reproductive Technology Held</a> </li>
+                	<li><a href="http://newsen.pku.edu.cn/news_events/news/focus/6976.htm" target="_blank">Dean of Yale School of Public Health Elaborates on Climate Change and Health</a> </li>
+                	<li><a href="http://newsen.pku.edu.cn/news_events/news/focus/6968.htm" target="_blank">Peking University Graduate School Wins Outstanding Organization Prize</a> </li>
+		<li><a href="http://newsen.pku.edu.cn/news_events/news/global/6984.htm" target="_blank">Sri Lanka Ambassador visits Peking University First Hospital</a> </li>
+               
+		<li class="last" style="text-align:right;"><!--a class="lastL" href="https://portal.pku.edu.cn/portal2017/#/index" target="_blank"><span id="notice_num" style="font-family: Arial;">0</span> News Today</a-->
+		<a class="lastR" href="http://newsen.pku.edu.cn/news_events/news/global/index.htm" target="_blank">More</a> </li>
+            </ul>
+        </section>
+        <section class="conL">
+            <section class="jxky">
+                <h2><a href="http://newsen.pku.edu.cn/news_events/news/research/index.htm" target="_blank">Research</a> </h2>
+                <dl>
+                    <dt><img src="img/pic20180416.jpg" /></dt>
+                    <dd>
+                       	<h3><a href="http://newsen.pku.edu.cn/news_events/news/research/6901.htm" target="_blank">Blood Publishes Findings by Professor Huang Xiaojun’s Research Team as Cover Highlight</a></h3>
+			<p style="text-align:justify;">
+			On March 16, 2018, the latest research findings by Professor Huang Xiaojun, Director of Peking University Institute of Hematology (PKUIH) and Dean of Hematology Department of Peking University People’s Hospital, were published by Blood,the international top journal in hematology ...... 
+			</p>
+                    </dd>
+                </dl>
+            </section>
+            <section class="mtbd clear">
+                <h2><a href="http://newsen.pku.edu.cn/news_events/news/media/index.htm" target="_blank">Media</a> </h2>
+                <ul>
+                    <li><span>Xinhua News</span><a href="http://newsen.pku.edu.cn/news_events/news/media/6827.htm" target="_blank">
+			New chip technology can lead to better quantum computing power</a> </li>
+                    <li><span>China Daily</span><a href="http://newsen.pku.edu.cn/news_events/news/media/6819.htm" target="_blank">
+			Reducing taxes could help solve the baby dilemma</a> </li>
+                </ul>
+            </section>
+            <section class="tzgg clear">
+                <h2><a href="http://newsen.pku.edu.cn/events/index.htm" target="_blank">Events</a> </h2>
+                <ul id="pku_notice">
+                     <li><span><i>MAR 20</i></span><a href="http://newsen.pku.edu.cn/events/7027.htm" target="_blank">
+			[Lecture] Minicourse in dynamical systems—entropy in differentiable dynamical systems</a> </li>
+                     <li><span><i>MAR 19</i></span><a href="http://newsen.pku.edu.cn/events/7026.htm" target="_blank">
+			[Lecture] Next-generation bioanalysis and DNA sequencing with nanopores</a> </li>
+		    <li><span><i>APR 18</i></span><a href="http://newsen.pku.edu.cn/events/6931.htm" target="_blank">
+			[Lecture] Some Equations of Mathematical Biology</a> </li>
+                </ul>
+            </section>
+        </section>
+        <section class="conR" id="conR">
+            <dl class="first">
+                <dt>
+                    <a href="http://newsen.pku.edu.cn/news_events/news/people/index.htm" target="_blank"><img src="img/rw_icon.svg"><span>People</span></a>
+                </dt>
+                <dd>
+                    <a href="http://newsen.pku.edu.cn/news_events/news/focus/7206.htm" style=" background-image:url(img/news/person20180511.jpg);" target="_blank"><!--<img src="img/rw_img.jpg" />-->
+					<h3>Professor Gao Jiahong elected chairman of the OHBM</h3></a>
+                    <section class="cover">
+                    <p></p>
+                    <h3>Professor Gao Jiahong elected chairman of the OHBM</h3>
+                    </section>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <a href="http://newsen.pku.edu.cn/news_events/news/campus/index.htm" target="_blank"><img src="img/yay_icon.svg"><span>Campus</span></a>
+                </dt>
+                <dd>
+                    <a href="http://newsen.pku.edu.cn/news_events/news/focus/7199.htm" style=" background-image:url(img/news/campus20180511.jpg);" target="_blank"><!-- img src="img/yw_img.jpg" />-->
+					<h3>The artistic performance of the 120th anniversary celebration</h3></a>
+                    <section class="cover">
+                    <p></p>
+                    <h3>The artistic performance of the 120th anniversary celebration </h3>
+                    </section>
+                </dd>
+            </dl>
+            <dl class="last">
+                <dt>
+                    <a href="intro_PKUhistory.shtml"><img src="img/xs_icon.svg"><span>History</span></a>
+                </dt>
+                <dd>
+                    <a href="javascript:showFamous();" style="background-image:url(img/xs_img.jpg);">
+					<img src="img/celebrities/bg.png">
+					<h3></h3></a>
+                    <section class="cover">
+                    <p></p>
+                    <h3></h3>
+                    </section>
+                </dd>
+            </dl>
+        </section>
+        <section class="ztw clear">
+            <dl>
+                <dt>
+                    <img src="img/zt_icon.svg" /><span>Topic</span>
+                </dt>
+                <dd>
+                    <ul id="ztw">
+                        <li>
+                            <a href="http://120th.pku.edu.cn/en/index.htm"><img src="img/zt_img1.jpg"><h3>120<sup>th</sup> Anniversary</h3></a>
+                            <section class="cover">
+                            <p></p>
+                            <h3>120<sup>th</sup> Anniversary</h3>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="http://www.isd.pku.edu.cn/HOME.htm"><img src="img/zt_img2.jpg"><h3>Overseas Students</h3></a>
+                            <section class="cover">
+                            <p></p>
+                            <h3>Overseas Students</h3>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="http://www.oir.pku.edu.cn/xwzx/cbw/PKU_Newsletter.htm"><img src="img/zt_img3.jpg"><h3>PKU Newsletter</h3></a>
+                            <section class="cover">
+                            <p></p>
+                            <h3>PKU Newsletter</h3>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="http://www.bjf.pku.edu.cn/"><img src="img/zt_imgbjf.jpg"><h3>Beijing Forum</h3></a>
+                            <section class="cover">
+                            <p></p>
+                            <h3>Beijing Forum</h3>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="http://www.oir.pku.edu.cn/summerschool/"><img src="img/zt_img5.jpg"><h3>Summer School</h3></a>
+                            <section class="cover">
+                            <p></p>
+                            <h3>Summer School</h3>
+                            </section>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </section>
+        <section class="fw_wap clear">
+            <ul id="fw_wap">
+                <li class="icon1">
+                    <a href="https://maps.pku.edu.cn/index_en.html"><img class="img" src="img/fw_maps.jpg" style="height:126px"></a>
+                    <section class="cover1">
+                        <p></p>
+                        <h3><span><img src="img/rc_icon.png"/> </span><a href="https://maps.pku.edu.cn/index_en.html" style="width:115px;padding-left:2px;text-align:left;">Maps</a> </h3>
+                    </section>
+                </li>
+                <li class="icon2">
+                    <a href="https://www.edx.org/school/pekingx"><img class="img" src="img/fw_edx.jpg"  style="height:126px"></a>
+                    <section class="cover1">
+                    <p></p>
+                    <h3><span><img src="img/xf_icon.png"/></span><a href="https://www.edx.org/school/pekingx" style="padding-left:2px;text-align:left;">PKU at edX</a> </h3>
+                    </section>
+                </li>
+                <li class="icon3">
+                    <a href="https://www.coursera.org/pku"><img class="img" src="img/fw_coursera.jpg"  style="height:126px"></a>
+                    <section class="cover1">
+                    <p></p>
+                    <h3><span><img src="img/xn_icon.png"/></span><a href="https://www.coursera.org/pku" style="padding-left:2px;text-align:left;">PKU at Coursera</a> </h3>
+                    </section>
+                </li>
+                <li class="icon4">
+                    <a href="http://bicmr.pku.edu.cn/"><img class="img" src="img/fw_bicmr.jpg" style="height:126px"> </a>
+                    <section class="cover1">
+                    <p></p>
+                    <h3><span><img src="img/jz_icon.png"/> </span><a href="http://bicmr.pku.edu.cn/" style="padding-left:2px;text-align:left;">BICMR</a> </h3>
+                    </section>
+                </li>
+                <li class="icon5">
+                    <a href="http://en.yenchingacademy.org/"><img class="img" src="img/fw_yenching.jpg" style="height:126px"> </a>
+                    <section class="cover1">
+                    <p></p>
+                    <h3><span><img src="img/gk_icon.png"/> </span><a href="http://en.yenchingacademy.org/" style="padding-left:2px;text-align:left;">Yenching Academy</a> </h3>
+                    </section>
+                </li>
+                <li class="icon6">
+                    <a href="http://www.isscad.pku.edu.cn/"><img class="img" src="img/fw_isscad.jpg" style="height:126px"> </a>
+                    <section class="cover1">
+                    <p></p>
+                    <h3><span><img src="img/mh_icon.png"/> </span><a href="http://www.isscad.pku.edu.cn/" style="padding-left:2px;text-align:left;">ISSCAD</a></h3>
+                    </section>
+                </li>
+                <li class="icon7">
+                    <a href="http://english.phbs.pku.edu.cn/"><img class="img" src="img/fw_phbs.jpg" style="height:126px"> </a>
+                    <section class="cover1">
+                    <p></p>
+                    <h3><span><img src="img/xx_icon.png"/> </span><a href="http://english.phbs.pku.edu.cn/" style="padding-left:2px;text-align:left;">PHBS</a> </h3>
+                    </section>
+                </li>
+                <li class="icon8">
+                    <a href="http://stl.pku.edu.cn/"><img class="img" src="img/fw_stl.jpg" style="height:126px"></a>
+                    <section class="cover1">
+                    <p></p>
+                    <h3><span><img src="img/lj_icon.png"/> </span><a href="http://stl.pku.edu.cn/" style="padding-left:2px;text-align:left;">STL</a> </h3>
+                    </section>
+                </li>
+            </ul>
+        </section>
+    </section>
+</article >
+<footer class="footer">
+    <div id="wechats" class="img_list">
+                <!--<div><img src="img/pkuweixin.png"/><span>北京大学官方微信</span></div>-->
+				<!--<div><img src="img/pkuweixinen.png"/><span>北京大学英文官方微信</span></div>-->
+				<div><img src="img/pkuweixinen.png"/></div>
+                <!--<div><img src="img/pkuyinxin.png"/><span>北京大学招生办</span></div>
+                <div><img src="img/pkualumni.png"/><span>北京大学校友会</span></div>
+                <div><img src="img/pkuinfosvc.png" /><span>北京大学信息服务</span></div>
+                <div><img src="img/pkuxinqingnian.png"/><span>北大新青年</span></div>
+                <div><img src="img/pkubbs.png"/><span>北大未名BBS</span></div>-->
+        </div>
+    <section class="fot_wap">
+        <section class="fot_left" style="padding-left:50px">
+            <!--section class="eng"><a href="#">中文</a>    |   <a href="#">English</a></section-->
+            <section class="sf">
+                <a href="intro_about.shtml">About</a>
+                <a href="http://www.isd.pku.edu.cn/index.php?m=content&c=index&a=lists&catid=89">Admission</a>
+                <a href="academics.shtml" style="padding-right:60px">School</a>
+                <a href="education.shtml">Education</a>
+                <a href="research.shtml" style="padding-right:40px">Research</a>
+                <a href="http://www.oir.pku.edu.cn/home.htm" style="padding-right:20px">Collaboration</a>
+                <a href="campuslife.shtml" style="padding-right:50px">Campus</a>
+                <a href="http://www.pku.org.cn/">Alumni</a>
+            </section>
+        </section>
+        <section class="fot_cen">
+            <a href="index.shtml"><img src="img/f_logo.png" /> </a>
+        </section>
+        <section class="fot_right">
+        	<div class="bdsharebuttonbox pku_share2" data-tag="share_2">
+                	<a class="bds_isohu" style="padding-right:18px;background:url(./img/share01.png) no-repeat;"  href="https://www.facebook.com/PKU1898/" target="_blank"></a>
+					<a class="bds_sqq" style="padding-right:18px;background:url(./img/share02.png) no-repeat;" href="https://twitter.com/PKU1898" target="_blank"></a> 
+                	<a class="bds_douban" style="padding-right:18px;background:url(./img/share03.png) no-repeat;" href="https://www.instagram.com/pku1898/" target="_blank"></a>
+                	<a class="bds_renren" style="background:url(./img/share04.png) no-repeat;" href="https://www.linkedin.com/school/peking-university/" target="_blank"></a>
+                	<a class="bds_tqf" style="padding-right:18px;background:url(./img/share05.png) no-repeat;" href="https://www.youtube.com/channel/UCE4U908y-nBHcNazDnX0xvw" target="_blank"></a> 
+					<a style="padding-right:18px;background:url(./img/share06.png) no-repeat;" href="http://weibo.com/PKU" target="_blank"></a> 
+					<a style="padding-right:18px;background:url(./img/share07.png) no-repeat;"  href="javascript:void(0);" id="wechat"></a> 
+                	<a class="bds_tqq" style="background:url(./img/share08.png) no-repeat;" data-cmd="tqq" href="#"></a> 
+
+	        	<!--a style="padding-right:18px;background:url(./img/share01.png) no-repeat;"  href="http://weibo.com/PKU" target="_blank"></a> 
+               	<a  style="padding-right:18px;background:url(./img/share02.png) no-repeat;"   href="javascript:void(0);" id="wechat"></a> 
+                	<a class="bds_isohu" style="padding-right:18px;background:url(./img/share08.png) no-repeat;" data-cmd="isohu" href="#"></a>
+		<a class="bds_sqq" data-cmd="sqq" style="background:url(./img/share03.png) no-repeat;" href="#"></a> 
+                	<a class="bds_tqq" style="padding-right:18px;background:url(./img/share04.png) no-repeat;" data-cmd="tqq" href="#"></a> 
+                	<a class="bds_douban" style="padding-right:18px;background:url(./img/share05.png) no-repeat;" data-cmd="douban" href="#"></a>
+                	<a class="bds_renren" style="padding-right:18px;background:url(./img/share06.png) no-repeat;" data-cmd="renren" href="#"></a>
+                	<a class="bds_tqf" data-cmd="tqf" style="background:url(./img/share07.png) no-repeat;" href="#"></a--> 
+        	</div>
+	</section>
+    </section>
+    <section class="fot_wap6">
+        <span><a href="index.shtml"><img src="img/f_logo.png" /> </a></span>
+   	<div class="bdsharebuttonbox pku_share" data-tag="share_3">
+              <a style="margin-left:20px;background:url(./img/share01.png) no-repeat;" href="https://www.facebook.com/PKU1898/" target="_blank"></a>
+              <a style="margin-left:20px;background:url(./img/share02.png) no-repeat;" href="https://twitter.com/PKU1898" target="_blank"></a>
+              <a class="bds_sqq" style="margin-left:20px;background:url(./img/share03.png) no-repeat;" href="https://www.instagram.com/pku1898/" target="_blank"></a>
+              <a class="bds_tqq" style="margin-left:20px;background:url(./img/share04.png) no-repeat;"  href="https://www.linkedin.com/school/peking-university/" target="_blank"></a>
+              <a class="bds_douban" style="margin-left:20px;background:url(./img/share05.png) no-repeat;" href="https://www.youtube.com/channel/UCE4U908y-nBHcNazDnX0xvw" target="_blank"></a>
+              <a class="bds_renren" style="margin-left:20px;background:url(./img/share06.png) no-repeat;" href="http://weibo.com/PKU" target="_blank"></a>
+              <a class="bds_tqf" style="margin-left:20px;background:url(./img/share07.png) no-repeat;" href="javascript:void(0);" id="wechat2"></a>
+              <a class="bds_isohu" style="margin-left:20px;background:url(./img/share08.png) no-repeat;" href="#" target="_blank"></a>
+  </div> 
+   </section>
+    <section class="fot_bot clear_f">
+        <section class="bq1">
+            Copyright © Peking University All rights reserved <span>|</span>
+			No.5 Yiheyuan Road Haidian District, Beijing, P.R.China 100871<span>|</span>
+			京ICP备05065075号-1<span>|</span>
+			京公网安备110402430047号
+        </section>
+        <section class="bq2">
+            Copyright © Peking University All rights reserved <span>|</span>
+			No.5 Yiheyuan Road Haidian District, Beijing, P.R.China 100871<span>|</span>
+			京ICP备05065075号-1<span>|</span>
+			京公网安备110402430047号
+        </section>
+        <section class="bq3">
+            <div id="bq3_left">
+				<span>Copyright © Peking University All rights reserved</span>
+				<span>京ICP备05065075号-1</span>
+			</div>
+            <div id="bq3_mid">
+				<span>&nbsp;</span>
+				<span>&nbsp;</span>
+			</div>
+            <div id="bq3_right">
+				<span>No.5 Yiheyuan Road Haidian District, Beijing, P.R.China 100871</span>
+				<span>京公网安备 110402430047 号</span>
+			</div>
+        </section>
+    </section>
+	<script>
+	
+	window._bd_share_config={
+		"common":{
+			"bdSnsKey":{},
+			"bdText":"",
+			"bdMini":"2",
+			"bdMiniList":false,
+			"bdPic":"",
+			"bdStyle":"0",
+			"bdSize":"32"
+		},"share":{}
+	};
+	
+	
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+	
+        $("a#wechat").hover(function(){
+            /*$("div#wechats").css("top","-10px"); */ /*105px*/
+            $("div#wechats").fadeIn();
+        },function(){
+            $("div#wechats").fadeOut();
+        });
+        $("a#wechat2").hover(function(){
+            /*$("div#wechats").css("top","0px");*/
+            $("div#wechats").fadeIn();
+        },function(){
+            $("div#wechats").fadeOut();
+        });
+	
+</script>
+</footer>
+
+<div class="lightbox_back">
+	</div>
+	<div class="lightbox_fore">
+		<div id="id_LB_corner"><a class="cls_shut_LB" href="#"><span class="yaheired" style="font-size:2em">×</span></a></div>
+		<div id="id_LB_content"></div>
+		<div id="id_LB_footer"><a class="cls_shut_LB readmore" href="#">close</a></div>
+	</div>
+<!-- <script src="js/jquery.min.js" type="text/javascript"></script>-->
+<script src="js/responsiveslides.min.js" type="text/javascript"></script>
+<script>
+	FAMES = [{"id":"maozedong","name":"Mao Zedong (1893—1976) Xiangtan,Hunan Province"},{"id":"lidazhao","name":"Li Dazhao (1889—1927) Leting,Hebei Province"},{"id":"dengzhongxia","name":"Deng Zhongxia (1894—1933) Yizhang,Hunan Province"},{"id":"chenduxiu","name":"Chen Duxiu(1879—1942) Huaining,Anhui Province"},{"id":"zhangtailei","name":"Zhang Tailei(1898—1927) Changzhou,Jiangsu Province"},{"id":"yinzanxun","name":"Yin Zanxun(1902—1984) Pingxiang,Hebei Province"},{"id":"fengding","name":"Feng Ding(1902—1983) Ningbo,Zhejiang Province"},{"id":"zhuwuhua","name":"Zhu Wuhua(1902—1998) Yangzhou,Jiangsu Province"},{"id":"jiangzehan","name":"Jiang Zehan(1902—1994) Jingde,Anhui Province"},{"id":"sunguohua","name":"Sun Guohua(1902—1958) Weixian(now Weifang),Shandong Province"},{"id":"shencongwen","name":"Shen Congwen(1902—1988) Fenghuang,Hunan Province"},{"id":"zhoupeiyuan","name":"Zhou Peiyuan(1902—1993) Yixing,Jiangsu Province"},{"id":"zhaozhongyao","name":"Zhao Zhongyao(1902—1998) Zhuji,Zhejiang Province"},{"id":"liangdhiqiu","name":"Liang Shiqiu(1902—1987) Hangxian(now Yuhang),Zhejiang Province"},{"id":"fuying","name":"Fu Ying(1902—1979) Fuzhou,Fujian Province"},{"id":"fenglanzhou","name":"Feng Lanzhou(1903—1972) Linqu,Shandong Province"},{"id":"tangpeisong","name":"Tang Peisong(1903—2001) Xishui,Hubei Province"},{"id":"linrong","name":"Lin Rong(1903—1981) Danyang,Jiangsu Province"},{"id":"liudizhi","name":"Liu Sizhi(1904—1983) Xianyou,Fujian Province"},{"id":"wangshuxian","name":"Wang Shuxian(1904—1985) Shanghai"},{"id":"huangjiqing","name":"Huang Jiqing(1904—1995) Renshou,Sichuan Province"},{"id":"fengzhi","name":"Feng Zhi(1905—1993) Zhuozhou,Hebei Province"},{"id":"peiwenzhong","name":"Pei Wenzhong(1904—1982) Fengnan,Hebei Province"},{"id":"jianglongji","name":"Jiang Longji(1905—1966) Xixiang,Shaanxi Province"},{"id":"xianxinghai","name":"Xian Xinghai(1905—1945) Panyu,Guangdong Province"},{"id":"zhengxin","name":"Zheng Xin(1905—1974)  Lujiang,Anhui Province"},{"id":"yuanhanqing","name":"Yuan Hanqing(1905—1994) Nantong,Jiangsu Province"},{"id":"yinda","name":"Yin Da(1906—1983) Huaxian,Henan Province"},{"id":"yuruihuang","name":"Yu Ruihuang(1906—1997) Yihuang,Jiangxi"},{"id":"mengzhaoying","name":"Meng Zhaoying(1906—1995) Leting,Hebei Province"},{"id":"zhangdayu","name":"Zhang Dayu(1906—1989) Jiangyin,Jiangsu Province"},{"id":"tuchangwang","name":"Tu Changwang(1906—1962) Wuhan,Hubei Province"},{"id":"wudayou","name":"Wu Ta-you(1907—2000) Panyu,Guangdong Province"},{"id":"zhangxiangtong","name":"Zhang Xiangtong(1907—2007) Zhengding,Hebei Province"},{"id":"zhoutongqing","name":"Zhou Tongqing(1907—1989) Kunshan,Jiangsu Province"},{"id":"zhangmingtao","name":"Zhang Mingtao(1907—1985) Ningbo,Zhejiang Province"},{"id":"zhangqinglian","name":"Zhang Qinglian(1908—2006) Changshu,Jiangsu Province"},{"id":"lilianjie","name":"Li Lianjie(1908—1992) Yutian,Hebei Province"},{"id":"gugongxu","name":"Gu Gongxu(1908—1992) Jiashan,Zhejiang Province"},{"id":"yinhongzhang","name":"Jiashan, Zhejiang Province(1908—1992) Guiyang,Guizhou Province"},{"id":"dingshengshu","name":"Ding Shengshu(1909—1989) Dengxian,Henan Province"},{"id":"qianjiaju","name":"Qian Jiaju(1909－2002) Wuyi,Zhejiang Province"},{"id":"wuHan","name":"Wu Han(1909—1969) Yiwu,Zhejiang Province"},{"id":"wuXuelin","name":"Wu Xuelin(1909—1985) Changzhou,Jiangsu Province"},{"id":"yangjiachi","name":"Yang Jiachi(1919—2006) Wujiang,Jiangsu Province"},{"id":"dengjiaxian","name":"Deng Jiaxian(1924—1986) Huaining,Anhui Province"},{"id":"wangxiji","name":"Wang Xiji(1921—    ) Dali,Yunnan Province"},{"id":"zhuguangya","name":"Zhu Guangya(1924—2011) Wuhan,Hubei Province"},{"id":"zhouguangzhao","name":"Zhou Guangzhao(1929—    ) Changsha,Hunan Province"},{"id":"yumin","name":"Yu Min(1926—    ) Ninghe,Hebei Province"},{"id":"wuwenjun","name":"Wu Wenjun(1919—    ) Shanghai"},{"id":"huangkun","name":"Huang Kun(1919—2005) Jiaxing,Zhejiang Province"},{"id":"wangxuan","name":"Wang Xuan(1937－2006) Wuxi,Jiangsu Province"},{"id":"zhangwenyou","name":"Zhang Wenyou(1909－1985) Tangshan,Hebei Province"},{"id":"aisiqi","name":"Ai Siqi(1910—1966) Tengchong,Yunnan Province"},{"id":"fuchengyi","name":"Fu Chengyi(1909—2000) Minhou,Fujian Province"},{"id":"xubaolu","name":"Xu Baolu(1910—1970) Hangzhou,Zhejiang Province"},{"id":"hualuogeng","name":"Loo-keng Hua(1910—1985) Jintan,Jiangsu Province"},{"id":"zhaoyibing","name":"Zhao Yibing(1909—1987) Nanchang,Jiangxi Province"},{"id":"zhangwenyu","name":"Zhang Wenyu(1910－1992) Huian,Fujian Province"},{"id":"jixianlin","name":"Ji Xianlin(1911—2009) Qingping,Shandong Province"},{"id":"qianweichang","name":"Wei-zang Chien(1912—2010) Wuxi,Jiangsu Province"},{"id":"wangzhuxi","name":"Wang Zhuxi(1911—1983) Gong’an,Hubei Province"},{"id":"heqifang","name":"He Qifang(1912—1977)  Wanxian,Sichuan Province"},{"id":"zhangwei","name":"Zhang Wei(1913—2001) Beijing"},{"id":"getingsui","name":"Ge Tingsui(1913－2000) Penglai,Shandong Province"},{"id":"madayou","name":"Ma Dayou(1915—2012) Chaoyang,Guangdong Province"},{"id":"zhangzongsui","name":"Zhang Zongsui(1915—1969) Hangzhou,Zhejiang Province"},{"id":"duanxuefu","name":"Duan Xuefu(1914—2005) Huaxian,Shaanxi Province"},{"id":"wangxianghao","name":"Wang Xianghao(1915—1993) Anping,Hebei Province"},{"id":"tangaoqing","name":"Tang Au-Chin(1915—2008) Yixing,Jiangsu Province"},{"id":"wuzhengyi","name":"Wu Zhengyi(1916—2013) Yizheng,Jiangsu Province"},{"id":"husheng","name":"Hu Sheng(1918—2000) Suzhou,Jiangsu Province"},{"id":"huning","name":"Hu Ning(1916—1997) Suqian,Jiangsu Province"},{"id":"wuzhonghua","name":"Wu Zhonghua(1917—1992) Shanghai"},{"id":"yangzhenning","name":"Chen Ning Yang(1922—    ) Hefei,Anhui Province"},{"id":"lizhengdao","name":"Tsung-Dao Lee(1926—    ) Shanghai"},{"id":"zhaojiuzhang","name":"Zhang Jiuzhang(1907—1968) Kaifeng,Henan Province"},{"id":"qiansanqiang","name":"Tsien San-Tsiang(1913—1992) Huzhou,Zhejiang Province"},{"id":"chenfangyun","name":"Chen Fangyun(1916—2000) Huangyan,Zhejiang Province"},{"id":"guoyonghuai","name":"Yung-huai Kuo(1909—1968) Rongcheng,Shandong Province"},{"id":"penghuanwu","name":"Peng Hwan-wu(1915—2007) Macheng, Hubei Province"},{"id":"tushoue","name":"Tu Shou’e(1917—2012) Wuxing,Zhejiang Province"},{"id":"gaojunyu","name":"Gao Junyu(1896—1925) Jingle,Shanxi Province"},{"id":"fanhongjie","name":"Fan Hongjie(1897—1927) Echeng,Hubei Province"},{"id":"weijiangong","name":"Wei Jiangong(1901—1980) Hai’an,Jiangsu Province"},{"id":"sunbingwen","name":"Sun Bingwen(1885—1927) Nanxi,Sichuan Province"},{"id":"qianzhuangfei","name":"Qian Zhuangfei(1895—1935) Huzhou,Zhejiang Province"},{"id":"huangrikui","name":"Huang Rikui(1898—1930) Guiping,Guangxi Province"},{"id":"sunjianai","name":"Sun Jianai(1827—1909) Shouzhou(now Shouxian),Anhui Province"},{"id":"wurulun","name":"Wu Rulun(1840—1903) Tongcheng,Anhui Province"},{"id":"zhangbaixi","name":"Zhang Baixi(1847—1907) Changsha,Hunan Province"},{"id":"zhanghengjia","name":"Zhang Hengjia(1847—1911) Houguan(now Fuzhou),Fujian Province"},{"id":"linshu","name":"Lin Shu(1852—1924) Minxian(now Fuzhou),Fujian Province"},{"id":"yanfu","name":"Yan Fu(1854—1921) Houguan(now Fuzhou),Fujian Province"},{"id":"caiyuanpei","name":"Cai Yuanpei(1868—1940) Shaoxing,Zhejiang Province"},{"id":"gelipu","name":"Amadeus William Grabau (1870—1946) Wisconsin,the United States"},{"id":"liangqichao","name":"Liang Qichao(1873—1929) Xinhui,Guangdong Province"},{"id":"yutongkui","name":"Yu Tongkui(1876—1962) Deqing,Zhejiang Province"},{"id":"zhanghongzhao","name":"Zhang Hongzhao(1877—1951) Huzhou,Zhejiang Province"},{"id":"zhongguanguang","name":"Zhong Guanguang(1869—1940) Zhenhai,Zhejiang Province"},{"id":"fengzuxun","name":"Feng Zuxun(1880—约1940) Hangzhou,Zhejiang Province"},{"id":"chenyuan","name":"Chen Yuan(1880—1971) Xinhui,Guangdong Province"},{"id":"maheng","name":"Ma Heng(1881—1955) Yinxian,Zhejiang Province"},{"id":"zhangshizhao","name":"Zhang Shizhao(1881—1973) Changsha,Hunan Province"},{"id":"luxun","name":"Lu Xun(1881—1936) Shaoxing,Zhejiang Province"},{"id":"mayinchu","name":"Ma Yinchu(1882—1982)  Shengxian,Zhejiang Province"},{"id":"heyujie","name":"He Yujie(1882—1939) Cixi,Zhejiang Province"},{"id":"qianchongshu","name":"Qian Chongshu(1883—1965) Haining,Zhejiang Province"},{"id":"maxulun","name":"Ma Xulun(1884—1970) Hangzhou,Zhejiang Province"},{"id":"liushipei","name":"Liu Shipei(1884—1919) Yizheng,Jiangsu Province"},{"id":"wumei","name":"Wu Mei(1884—1936) Changzhou(now Suzhou),Jiangsu Province"},{"id":"xiayuanli","name":"Xia Yuanli(1884—1944) Hangzhou,Zhejiang Province"},{"id":"xiaoyoumei","name":"Xiao Youmei(1884—1940) Xiangshan(now Zhongshan),Guangdong Province"},{"id":"xiongshili","name":"Xiong Shili(1884—1968) Huanggang,Hubei Province"},{"id":"mawenzhao","name":"Ma Wenzhao(1886—1965) Baoding,Hebei Province"},{"id":"renhongjuan","name":"Ren Hongjun(1886—1961) Wuxing(now Huzhou),Zhejiang Province"},{"id":"shenjianshi","name":"Shen Jianshi(1886—1947) Wuxing(now Huzhou),Zhejiang Province"},{"id":"bingzhi","name":"Bingzhi(1886—1965) Kaifeng,Henan Province"},{"id":"huangkan","name":"Huang Kan(1886—1935) Qichun,Hubei Province"},{"id":"jiangmenglin","name":"Monlin Chiang(1886—1964) Yuyao,Zhejiang Province"},{"id":"dingwenjiang","name":"Ting Wen-chiang(1887—1936) Taixing,Jiangsu Province"},{"id":"wangxinggong","name":"Wang Xinggong(1887—1950) Huaining,Anhui Province"},{"id":"chendaqi","name":"Chen Daqi(1887—1983) Haiyan,Zhejiang Province"},{"id":"qianxuantong","name":"Qian Xuantong(1887—1939) Wuxing(now Huzhou),Zhejiang Province"},{"id":"taomenghe","name":"Tao Menghe(1887—1960) Tianjin"},{"id":"duguoyang","name":"Du Guoyang(1889—1961) Chenghai,Guangdong Province"},{"id":"lisiguang","name":"Li Siguang(1889—1971) Huanggang,Hubei Province"},{"id":"wengwenhao","name":"Weng Wenhao(1889—1971) Yinxian,Zhejiang Province"},{"id":"liuxianzhou","name":"Liu Xianzhou(1890—1975) Wanxian,Hebei Province"},{"id":"xudehang","name":"Xu Deheng(1890—1990) Jiujiang,Jiangxi Province"},{"id":"chenyinke","name":"Tschen Yin-koh(1890—1969) Yining(now Xiushui),Jiangxi Province,"},{"id":"lijinxi","name":"Li Jinxi(1890—1978) Xiangtan,sHunan Province"},{"id":"wangzhuquan","name":"Wang Zhuquan(1891—1975) Jiaohe,Hebei Province"},{"id":"liubannong","name":"Liu Bannong(1891—1934) Jiangyin,Jiangsu Province"},{"id":"bihuade","name":"Bi Huade(1891—1966) Beijing"},{"id":"hushi","name":"Hu Shi(1891—1962) Jixi,Anhui Province"},{"id":"raoyutai","name":"Rao Yutai(1891—1968) Linchuan,Jiangxi Province"},{"id":"tangyue","name":"Tang Yue(1891—1987) Houguan(now Fuzhou),Fujian Province"},{"id":"tangyongtong","name":"Tang Yongtong(1893—1964) Huangmei,Hubei Province"},{"id":"jinbaoshan","name":"Jin Baoshan(1893—1984) Shaoxing,Zhejiang Province"},{"id":"fanwenlan","name":"Fan Wenlan(1893—1969) Shaoxing,Zhejiang Province"},{"id":"gujiegang","name":"Ku Chieh-kang(1893—1980) Suzhou,Jiangsu Province"},{"id":"liangshuming","name":"Liang Shuming(1893—1988) Guilin,Guangxi Province"},{"id":"panzinian","name":"Pan Zinian(1893—1972) Yixing,Jiangsu Province"},{"id":"daifanglan","name":"Dai Fanglan(1893—1973) Jiangling,Hubei Province"},{"id":"yeshengtao","name":"Ye Shengtao(1894—1988) Suzhou,Jiangsu Province"},{"id":"shenjunqi","name":"Shen Junqi(1894—1969) Tianjin"},{"id":"chenzhen","name":"Chen Zhen(1894—1957) Hanjiang,Jiangsu Province"},{"id":"xubaohuang","name":"Xu Baohuang(1894—1930) Jiujiang,Jiangxi Province"},{"id":"xueyu","name":"Xue Yu(1894—1988) Xiangyang(now Xiangfan City),Hubei Province,"},{"id":"fengyoulan","name":"Feng Youlan(1895—1990) Tanghe,Henan Province"},{"id":"liutianhua","name":"Liu Tianhua(1895—1932) Jiangyin,Jiangsu Province"},{"id":"sunyunzhu","name":"Sun Yunzhu(1895—1979) Gaoyou,Jiangsu Province"},{"id":"liruqi","name":"Li Ruqi(1895—1991) Tianjin"},{"id":"zhangjingyue","name":"Zhang Jingyue(1895—1975) Wujin, Jiangsu Province"},{"id":"linyutang","name":"Lin Yutang(1895—1976) Longxi(now Longhai),Fujian Province"},{"id":"jinyuelin","name":"Jin Yuelin(1895—1984) Changsha,Hunan Province"},{"id":"qianmu","name":"Qian Mu(1895—1990) Wuxi,Jiangsu Province"},{"id":"xubeihong","name":"Xu Beihong(1895—1953) Yixing,Jiangsu Province"},{"id":"dongzuobin","name":"Dong Zuobin(1895—1963) Nanyang,Henan Province"},{"id":"jiwenfu","name":"Ji Wenfu(1895—1963) Jixian,Henan Province"},{"id":"shenyanbing","name":"Shen Yanbing(1896—1981) Tongxiang,Zhejiang Province"},{"id":"fusinian","name":"Fu Sinian(1896—1950) Liaocheng,Shandong Province"},{"id":"shizhiren","name":"Shi Zhiren(1897—1972) Changli,Hebei Province"},{"id":"zhuguangqian","name":"Zhu Guangqian(1897—1986) Tongcheng,Anhui Province"},{"id":"yangshixian","name":"Yang Shixian(1897—1985) Hangzhou,Zhejiang Province"},{"id":"lijidong","name":"Li Jitong(1897—1961) Xinghua,Jiangsu Province"},{"id":"yangzhongjian","name":"Yang Zhongjian(1897—1979) Huaxian,Shaanxi Province"},{"id":"chenhansheng","name":"Chen Hansheng(1897—2004) Wuxi,Jiangsu Province"},{"id":"wuyouxun","name":"Wu Youxun(1897—1977) Gaoan,Jiangxi Province"},{"id":"luojialun","name":"Luo Jialun(1897—1969) Shaoxing,Zhejiang Province"},{"id":"xuzhimo","name":"Hsu Chih-mo(1897—1931) Haining,Zhejiang Province"},{"id":"caojinghua","name":"Cao Jinghua(1897—1987)  Lushi,Henan Province"},{"id":"yuhongzheng","name":"Yu Hongzheng(1897—1966) Minhou,Fujian Province"},{"id":"panshu","name":"Pan Shu(1897—1988) Yixing,Jiangsu Province"},{"id":"yeqisun","name":"Yeh Chi-sun (1898—1977) Shanghai"},{"id":"fengjinglan","name":"Feng Jinglan(1898—1976) Tanghe,Henan Province"},{"id":"zhengzhenduo","name":"Zheng Zhenduo(1898—1958) Changle,Fujian Province"},{"id":"zhuziqing","name":"Zhu Ziqing(1898―1948) Shaoxing,Zhejiang Province"},{"id":"huangminglong","name":"Huang Minglong(1898—1979) Yangzhou,Jiangsu Province"},{"id":"xiejiarong","name":"Xie Jiarong(1898—1966) Shanghai"},{"id":"jianbozan","name":"Jian Bozan(1898—1968) Taoyuan,Hunan Province"},{"id":"tianqijuan","name":"Tian Qijuan(1899—1975) Dayong,Hunan Province"},{"id":"lesenxun","name":"Le Senxun(1899—1989) Guiyang,Guizhou Province"},{"id":"jiyufeng","name":"Ji Yufeng(1899—1982) Yinxian,Zhejiang Province"},{"id":"luochangpei","name":"Luo Changpei(1899—1958) Beijing"},{"id":"yanghui","name":"Yang Hui(1899—1983) Liaoyang,Liaoning Province"},{"id":"zhengtianting","name":"Zheng Tianting(1899—1981) Changle,Fujian Province"},{"id":"yujianzhang","name":"Yu Jianzhang(1899－1980) Hexian,Anhui Province"},{"id":"wenyidong","name":"Wen Yiduo(1899—1946) Xishui,Hubei Province"},{"id":"zhufutang","name":"Zhu Futang(1899—1994) Wuxi,Jiangsu Province"},{"id":"zengzhaolun","name":"Zeng Zhaolun(1899—1967) Xiangxiang,Hunan Province"},{"id":"youguodong","name":"You Guo’en(1899—1978) Linchuan,Jiangxi Province"},{"id":"wangli","name":"Wang Li(1900—1986) Bobai,Guangxi Province"},{"id":"xiangda","name":"Xiang Da(1900—1966) Xupu,Hunan Province"},{"id":"wuchaoren","name":"Wu Chaoren(1900—1973) Fuzhou,Fujian Province"},{"id":"hezuolin","name":"He Zuolin(1900—1967) Lixian,Hebei Province"},{"id":"chendaisun","name":"Chen Daisun(1900—1997) Minhou,Fujian Province"},{"id":"zhangzhaoqian","name":"Zhang Zhaoqian(1900—1972) Wenzhou,Zhejiang Province"},{"id":"linzhengang","name":"Lin Zhengang(1900—1976) Shaoxing,Zhejiang Province"},{"id":"houdefeng","name":"Hou Defeng(1900—1980) Gaoyang,Hebei Province"},{"id":"yupingbo","name":"Yu Pingbo(1900—1990) Deqing,Zhejiang Province"},{"id":"qiandongsheng","name":"Qian Duansheng(1900—1990) Shanghai"},{"id":"maoxiejun","name":"Mao Xiejun(1901—1979) Renshou,Sichuan Province"},{"id":"huangziqing","name":"Huang Ziqing(1900—1982) Meixian,Guangdong Province"},{"id":"liuchongle","name":"Liu Chongle(1901—1969) Fuzhou,Fujian Province"},{"id":"linqiaozhi","name":"Lin Qiaozhi(1901—1983) Xiamen, Fujian Province"},{"id":"xujie","name":"Xu Jie(1901—1989) Guangde, Anhui Province"},{"id":"huchuankui","name":"Hu Chuankui(1901—1986) Jiangling,Hubei Province"},{"id":"zhonghuilan","name":"Chung Huei-lan(1901—1987) Meixian,Guangdong Province"},{"id":"yudafu","name":"Yu Dafu(1901—1993) Shaoxing,Zhejiang Province"},{"id":"liangsicheng","name":"Liang Sicheng(1901—1972) Xinhui,Guangdong Province"},{"id":"sixingjian","name":"Si Xingjian(1901—1964) Zhuji,Zhejiang Province"},{"id":"caifangyin","name":"Cai Fangyin(1901—1963) Nanchang,Jiangxi Province"},{"id":"zangyuquan","name":"Tsang Yu-chuan(1901—1964) Wanxian,Hebei Province"}];
+	FAME_I=0;
+    function showFamous(){
+           $.get("seg/celebrities/"+FAMES[FAME_I].id+".seg",function(dat)
+        {
+            	$("#id_LB_content").html(dat);
+                  openLightbox();
+        },"text");
+    }
+    $(function () {
+        $("#mbtn").click(function(){
+            $("#navm").toggle(300);
+        });
+        /*$("#slider").responsiveSlides({
+            auto: true,
+            pager: false,
+            nav: true,
+            speed: 500,
+            // 对应外层div的class : slide_container
+            namespace: "slide"
+        });*/
+        
+        /* 随机获取名人*/
+        var fl = FAMES.length;
+        FAME_I = Math.floor(Math.random()*fl);
+        $("#conR dl.last dd a img").attr("src","http://www.pku.edu.cn/img/celebrities/"+FAMES[FAME_I].id+".png");
+        $("#conR dl.last dd a h3").text(FAMES[FAME_I].name);
+        $("#conR dl.last dd section h3").text(FAMES[FAME_I].name);
+		
+		//var newsPic = Math.floor(Math.random()*6)+1; /* 1 - 6 */
+		$("#newsLeft a img").attr("src","/img/news/news20180511.jpg");
+    });
+    
+	/*$.get("dat/newsLeft.xml", function(dat)
+    {
+    	var news=dat.getElementsByTagName("root");
+		var table = document.getElementById("newsLeft");
+		table.innerHTML=news[0].firstChild.data;    
+    });*/
+    
+	$.get("dat/newsCenter.xml", function(dat)
+    {
+    	var news=dat.getElementsByTagName("root");
+		var table = document.getElementById("newsCenter");
+		table.innerHTML=news[0].firstChild.data;    
+    });
+	$.get("dat/newsRight.xml", function(dat)
+    {
+    	var news=dat.getElementsByTagName("root");
+		$("#newsRight").children("[class!=\"last\"]").remove();
+        $("#newsRight li:last-child").before(news[0].firstChild.data);
+        
+    }); 
+    $.get("dat/notice_num.dat", function(dat)
+    {
+        if(false == isNaN(parseInt(dat)))
+	       $("#notice_num").html("<b>&nbsp;" + parseInt(dat) + "&nbsp;</b>");
+        else
+            $("#notice_num").html("<b>&nbsp;0&nbsp;</b>");
+    });
+	$.get("dat/newsJXKY.xml", function(dat)
+    {
+    	var news=dat.getElementsByTagName("root");
+		$("section.jxky>dl").html(news[0].firstChild.data);
+        
+    }); 
+    $.get("dat/newsMTBD.xml", function(dat)
+    {
+    	var news=dat.getElementsByTagName("root");
+		$("section.mtbd>ul").html(news[0].firstChild.data);
+        
+    }); 
+	$.get("dat/newsRWFC.xml", function(dat)
+    {
+    	var news=dat.getElementsByTagName("root");
+		$("section.conR>dl.first>dd").html(news[0].firstChild.data);    
+    });
+	$.get("dat/newsJJXY.xml", function(dat)
+    {
+    	var news=dat.getElementsByTagName("root");
+	   $("section.conR>dl:eq(1)>dd").html(news[0].firstChild.data);        
+    }); 
+    $.get("dat/newsZTWZ.xml", function(dat)
+    {
+    	var news=dat.getElementsByTagName("root");
+		$("section.ztw>dl>dd").html(news[0].firstChild.data); 
+    }); 
+	$.get("dat/newsEvents.xml", function(dat)
+    {
+		var news=dat.getElementsByTagName("root");
+		$("#pku_notice").html(news[0].firstChild.data); 
+    });
+</script>
+<!--banner效果JS-->
+<script src = "js/jquery.easing-1.3.js"></script>
+<script src = "js/jquery.iosslider.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+</body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+                                        <title>清华大学环境学院</title>
+<link href="/publish/env/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/env/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="/publish/env/js/grayscale.js" type="text/javascript"></script>
+<script src="/publish/env/js/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*env
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/env/css/style_second.css" rel="stylesheet" type="text/css" />
+<!-- 导入全局模板 -->
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!-- 整体区域开始 -->
+ <div class="wrapper nomalwclassth auto">
+    
+     <!-- 页头区域开始 -->
+       <!-- 页头区域开始 -->
+  <div class="header nomalwidth auto" style="height:140px;background-image:url(/publish/env/images/banner2018.jpg)">
+      
+       <!--<div class="logo_text">
+         <p class="cn">&nbsp;</p>
+         <p class="en">&nbsp;</p>
+        </div>-->
+  
+                <div class="hot_links" style="top: 40px;"><a href="/publish/enven/index.html">English</a></div>
+    
+         <!-- <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="960" height="140">
+    <param name="movie" value="/publish/env/images/banner.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    
+    <param name="expressinstall" value="30years/expressInstall.swf" />
+    <param name="menu" value="false" />
+   
+    <object type="application/x-shockwave-flash" data="/publish/env/images/banner.swf" width="960" height="140">
+     
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="/publish/env/images/expressInstall.swf" />
+      <param name="menu" value="false" />
+     
+      <div>
+        <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      </div>
+     
+    </object>
+   
+  </object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>-->
+</div>
+<!-- 页头区域结束 -->        <!-- 页头区域结束 -->
+        
+        <!-- nav start -->
+        <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu6326 = ms.addMenu(document.getElementById("menu_6326"));
+menu6326.addItem("栏目概述","/publish/env/6327/index.html","");
+        menu6326.addItem("教研教师","/publish/env/6329/index.html","");
+        var subMenu6326_1 = menu6326.addMenu(menu6326.items[1]);
+       subMenu6326_1.addItem("院士","/publish/env/6329/index.html","");
+    subMenu6326_1.addItem("千人计划","/publish/env/6330/index.html","");
+    subMenu6326_1.addItem("教研所师资","/publish/env/6331/index.html","");
+      menu6326.addItem("兼职教授","/publish/env/6334/index.html","");
+        menu6326.addItem("实验教师","/publish/env/6817/index.html","");
+        menu6326.addItem("行政教师","/publish/env/6818/index.html","");
+        menu6326.addItem("合同制教师","/publish/env/6335/index.html","");
+        menu6326.addItem("博士后","/publish/env/6336/index.html","");
+        menu6326.addItem("访问学者","/publish/env/6819/index.html","");
+        menu6326.addItem("荣退教师","/publish/env/6337/index.html","");
+        var menu6317 = ms.addMenu(document.getElementById("menu_6317"));
+menu6317.addItem("组织机构","/publish/env/6318/index.html","");
+        menu6317.addItem("学术机构","/publish/env/6319/index.html","");
+        menu6317.addItem("研究机构","/publish/env/6321/index.html","");
+        var subMenu6317_2 = menu6317.addMenu(menu6317.items[2]);
+       subMenu6317_2.addItem("研究所","/publish/env/6321/index.html","");
+    subMenu6317_2.addItem("国家级研究机构","/publish/env/6322/index.html","");
+    subMenu6317_2.addItem("省部级研究机构","/publish/env/6323/index.html","");
+    subMenu6317_2.addItem("校级研究机构","/publish/env/6324/index.html","");
+    subMenu6317_2.addItem("联合研究机构","/publish/env/6325/index.html","");
+      var menu6312 = ms.addMenu(document.getElementById("menu_6312"));
+menu6312.addItem("学院简介","/publish/env/6313/index.html","");
+        menu6312.addItem("现任领导","/publish/env/7208/index.html","");
+        menu6312.addItem("历任领导","/publish/env/6314/index.html","");
+        menu6312.addItem("历史沿革","/publish/env/6315/index.html","");
+        menu6312.addItem("大事年表","/publish/env/6316/index.html","");
+        var menu6338 = ms.addMenu(document.getElementById("menu_6338"));
+menu6338.addItem("栏目概述","/publish/env/6339/index.html","");
+        menu6338.addItem("本科生教学","/publish/env/6341/index.html","");
+        var subMenu6338_1 = menu6338.addMenu(menu6338.items[1]);
+       subMenu6338_1.addItem("专业介绍","/publish/env/6341/index.html","");
+    subMenu6338_1.addItem("课程介绍","/publish/env/6342/index.html","");
+    subMenu6338_1.addItem("精品课程","/publish/env/6343/index.html","");
+    subMenu6338_1.addItem("专业设置","/publish/env/6344/index.html","");
+    subMenu6338_1.addItem("培养方案","/publish/env/6345/index.html","");
+    subMenu6338_1.addItem("实践教学","/publish/env/6346/index.html","");
+    subMenu6338_1.addItem("留学生","/publish/env/6347/index.html","");
+      menu6338.addItem("硕士生教学","/publish/env/6349/index.html","");
+        var subMenu6338_2 = menu6338.addMenu(menu6338.items[2]);
+       subMenu6338_2.addItem("导师介绍","/publish/env/6349/index.html","");
+    subMenu6338_2.addItem("培养方案（硕士）","/publish/env/6350/index.html","");
+    subMenu6338_2.addItem("培养方案（工程硕士）","/publish/env/6351/index.html","");
+    subMenu6338_2.addItem("开设课程","/publish/env/6352/index.html","");
+    subMenu6338_2.addItem("留学生","/publish/env/6353/index.html","");
+      menu6338.addItem("博士生教学","/publish/env/6355/index.html","");
+        var subMenu6338_3 = menu6338.addMenu(menu6338.items[3]);
+       subMenu6338_3.addItem("导师介绍（博士）","/publish/env/6355/index.html","");
+    subMenu6338_3.addItem("培养方案（博士）","/publish/env/6356/index.html","");
+    subMenu6338_3.addItem("留学生","/publish/env/6357/index.html","");
+      menu6338.addItem("继续教育","/publish/env/6358/index.html","");
+        menu6338.addItem("出版教材","/publish/env/6359/index.html","");
+        menu6338.addItem("教学成果","/publish/env/6360/index.html","");
+        
+var menu6361 = ms.addMenu(document.getElementById("menu_6361"));
+menu6361.addItem("栏目概述","/publish/env/6362/index.html","");
+        menu6361.addItem("本科生","/publish/env/6363/index.html","");
+        menu6361.addItem("研究生","/publish/env/6364/index.html","");
+        menu6361.addItem("学生绿色协会","/publish/env/6365/index.html","");
+        menu6361.addItem("环境友好科技竞赛","/publish/env/6366/index.html","");
+        menu6361.addItem("博士生学术会议","/publish/env/6367/index.html","");
+        menu6361.addItem("陶氏-可持续发展创新挑战赛","/publish/env/7841/index.html","");
+        menu6361.addItem("清源协会","/publish/env/8478/index.html","");
+        menu6361.addItem("奖学金","/publish/env/10530/index.html","");
+        var menu6368 = ms.addMenu(document.getElementById("menu_6368"));
+menu6368.addItem("栏目概述","/publish/env/6369/index.html","");
+        menu6368.addItem("研究领域","/publish/env/6370/index.html","");
+        menu6368.addItem("研究成果","/publish/env/6372/index.html","");
+        var subMenu6368_2 = menu6368.addMenu(menu6368.items[2]);
+       subMenu6368_2.addItem("各类奖项","/publish/env/6372/index.html","");
+    subMenu6368_2.addItem("编著译著","/publish/env/6373/index.html","");
+    subMenu6368_2.addItem("知识产权","/publish/env/6374/index.html","");
+      menu6368.addItem("编辑期刊","/publish/env/6376/index.html","");
+        var subMenu6368_3 = menu6368.addMenu(menu6368.items[3]);
+       subMenu6368_3.addItem("期刊简介","/publish/env/6376/index.html","");
+    subMenu6368_3.addItem("编委会","/publish/env/6378/index.html","");
+    subMenu6368_3.addItem("征稿简则","/publish/env/6379/index.html","");
+    subMenu6368_3.addItem("稿件模板","/publish/env/6380/index.html","");
+      menu6368.addItem("主办会议","/publish/env/6381/index.html","");
+        menu6368.addItem("重大专项","/publish/env/6384/index.html","");
+        var menu6385 = ms.addMenu(document.getElementById("menu_6385"));
+menu6385.addItem("栏目概述","/publish/env/6386/index.html","");
+        menu6385.addItem("合作机构","/publish/env/6387/index.html","");
+        menu6385.addItem("重要项目","/publish/env/6388/index.html","");
+        var menu6390 = ms.addMenu(document.getElementById("menu_6390"));
+menu6390.addItem("环境节能楼","/publish/env/6391/index.html","");
+        menu6390.addItem("实验教学中心","/publish/env/6392/index.html","");
+        menu6390.addItem("公共研究平台","/publish/env/6393/index.html","");
+        menu6390.addItem("环境图书馆","/publish/env/6394/index.html","");
+        var menu6395 = ms.addMenu(document.getElementById("menu_6395"));
+menu6395.addItem("本科生","/publish/env/6396/index.html","");
+        menu6395.addItem("硕士生","/publish/env/6398/index.html","");
+        var subMenu6395_1 = menu6395.addMenu(menu6395.items[1]);
+       subMenu6395_1.addItem("硕士","/publish/env/6398/index.html","");
+    subMenu6395_1.addItem("工程硕士","/publish/env/6399/index.html","");
+    subMenu6395_1.addItem("工程管理硕士","/publish/env/9171/index.html","");
+      menu6395.addItem("博士生","/publish/env/6400/index.html","");
+        menu6395.addItem("留学生","/publish/env/6401/index.html","");
+        menu6395.addItem("继续教育","/publish/env/6402/index.html","");
+        var menu6404 = ms.addMenu(document.getElementById("menu_6404"));
+menu6404.addItem("教师招聘","/publish/env/6405/index.html","");
+        menu6404.addItem("博士后招聘","/publish/env/6406/index.html","");
+        menu6404.addItem("合同制人员招聘","/publish/env/6407/index.html","");
+        var menu6408 = ms.addMenu(document.getElementById("menu_6408"));
+menu6408.addItem("综合新闻","/publish/env/6409/index.html","");
+        menu6408.addItem("图片新闻","/publish/env/6410/index.html","");
+        menu6408.addItem("人物新闻","/publish/env/6411/index.html","");
+        menu6408.addItem("工作简报","/publish/env/6413/index.html","");
+        var menu6414 = ms.addMenu(document.getElementById("menu_6414"));
+menu6414.addItem("电话电邮","/publish/env/6415/index.html","");
+        menu6414.addItem("邮寄地址","/publish/env/6416/index.html","");
+        menu6414.addItem("来访路线","/publish/env/6417/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<!-- nav start -->
+        <div class="nav nomalwidth auto">
+         <ul>
+<li><a href="/publish/env/index.html" title="&nbsp;">首页</a></li>
+<li id="menu_6312"  class="first"><a href="/publish/env/6313/index.html" title="学院概况">学院概况</a></li>
+<li id="menu_6317"><a href="/publish/env/6318/index.html" title="机构设置">机构设置</a></li>
+<li id="menu_6326"><a href="/publish/env/6327/index.html" title="师资队伍">师资队伍</a></li>
+<li id="menu_6338"><a href="/publish/env/6339/index.html" title="教务教学">教务教学</a></li>
+<li id="menu_6361"><a href="/publish/env/6362/index.html" title="学生生活">学生生活</a></li>
+<li id="menu_6368"><a href="/publish/env/6369/index.html" title="科学研究">科学研究</a></li>
+<li id="menu_6385"><a href="/publish/env/6386/index.html" title="合作交流">合作交流</a></li>
+<li id="menu_6390"><a href="/publish/env/6391/index.html" title="基础设施">基础设施</a></li>
+<li id="menu_6395"><a href="/publish/env/6396/index.html" title="招生信息">招生信息</a></li>
+<li id="menu_6404"><a href="/publish/env/6405/index.html" title="招聘人才">招聘人才</a></li>
+<li id="menu_6408"><a href="/publish/env/6409/index.html" title="新闻">新闻</a></li>
+<li id="menu_6414"><a href="/publish/env/6415/index.html" title="联系我们" class="clear">联系我们</a></li>
+</ul>
+        </div>
+  <script language="JavaScript">initMenuData();</script>
+        <!-- nav end -->        <!-- nav end -->
+        
+        <!-- 中部区域开始 -->
+        <div class="content auto">
+         
+            <!-- start -->
+            <table width="0" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="box_left">
+                 
+                    <!-- start -->
+                    <div class="s_menu">
+<p><img src="/publish/env/images/left_menu_pic.gif" width="200" height="76" /></p>
+                    </div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <div class="menu_bg_line"></div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <form id="searchForm" name="form1" method="post" action="#" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+<div class="search auto"><p class="left"><input name="Q" type="text" /></p><p class="right"><a href="javascript:document.form1.submit();" title="搜索"></a></p></div>
+</form>                    <!-- end -->
+                    
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="info_02 auto"><a href='http://100.tsinghua.edu.cn'><img width='190' height='67' src='/publish/env/images/100year_02.gif' /></a></div>
+                    <!-- end -->                    <!-- end -->
+                                                            
+                </td>
+                <td class="box_right">
+                 
+                    <!-- c_top start -->
+<!-- c_top start -->
+<div class="c_top">
+  <ul class="nav_01">
+    <li>&nbsp;您所在的位置：<A href="/publish/env/index.html" >首页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A href="/publish/env/6422/index.html" >教师个人主页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A>教师详细信息</A></li>
+    <li style="width:400px; text-align:right;"><A href="javascript:history.go(-1);">返&nbsp;&nbsp;回</A></li>
+  </ul>
+</div>
+<!-- c_bottom end -->                    <!-- c_bottom end -->
+                    <!-- start -->
+                <!--s2_right_con开始处-->
+                      <div id="s2_right_con">
+<img src="/publish/env/6422/20110219211449834995923/20120417172955359783898.jpg" />
+<p>
+<table border="1" cellspacing="0" cellpadding="1" width="400" height="100">
+    <tbody>
+        <tr>
+            <td>姓名</td>
+            <td>石磊</td>
+        </tr>
+        <tr>
+            <td>单 位</td>
+            <td>环境管理与政策教研所</td>
+        </tr>
+        <tr>
+            <td>职 称</td>
+            <td>副高级</td>
+        </tr>
+        <tr>
+            <td>电 话</td>
+            <td>62796955</td>
+        </tr>
+        <tr>
+            <td>手 机</td>
+            <td>18618288157</td>
+        </tr>
+        <tr>
+            <td>邮 箱</td>
+            <td><a href="mailto:slone@tsinghua.edu.cn">slone@tsinghua.edu.cn</a></td>
+        </tr>
+        <tr>
+            <td>办 公</td>
+            <td>中意清华环境节能楼1014室</td>
+        </tr>
+    </tbody>
+</table>
+</p>
+                        <h4>教育背景</h4>
+<p>1996年09月1999年07月： 大连理工大学 化工系统工程 博士</p>
+<p>1993年09月1996年07月： 大连理工大学 精细化工 硕士</p>
+<p>1989年09月1993年07月： 常州大学 有机化工 学士</p>
+                        <h4>工作履历</h4>
+<p>2001年至今，清华大学环境学院副教授, 助研</p>
+<p>1999－2001年，清华大学环境模拟与污染控制国家联合重点实验室博士后</p>
+<p><strong>校内职务</strong></p>
+<p>国家环境保护生态工业重点实验室副主任</p><p>
+清华大学绿色跨越研究中心副主任</p><p>
+清华大学环境学院清洁生产与生态工业研究中心副主任</p>
+                        <h4>学术兼职</h4>
+<p>中国生态经济学会工业生态经济与技术专业委员会常务理事（2006-）</p>
+<p>国际工业生态学学会会员，物质流分会委员（2012-）</p>
+<p>第四届工业生态学国际大会共同主席（多伦多，2007）</p>
+<p>第三届工业生态学亚太会议共同主席（北京，2012）</p>
+<p>《生态学报》编委（2013-）</p>
+                        <h4>研究领域</h4>
+<p>1. 工业生态系统复杂性，解析区域产业共生体系、环保产业和化工产业的复杂性，服务于生态工业园区规划和产业技术政策制定；</p>
+<p>2. 物质代谢，解析特定元素、物质和社会经济系统的物质代谢过程，服务于循环经济规划；</p>
+<p>3. 生态创新</p>
+<p><strong>讲授课程</strong></p>
+<p>1.&nbsp;《工业生态学》，本科全校选修课，清华大学文化素质核心课程；</p>
+<p>2.&nbsp;《清洁生产》，本科全校选修课</p>
+<p>3.&nbsp;《产业生态学》，环境学院研究生课程</p>
+<p>4.&nbsp;《新能源生命周期评价》，深研院研究生课程</p>
+                        <h4>研究概况</h4>
+<p>1.&nbsp;生态工业园区规划：衢州化工园区（2000）；福州经济技术开发区（规划2005，验收2013）；河南安阳高新区（2006）；珠海高栏港经济区（2010）；江苏宜兴经济技术开发区（2012）；西安高新区产业共生规划（2013）；焦作市西部化工区（2014）</p>
+<p>2.&nbsp;循环经济发展规划：贵阳市（2002）；江苏省（2003）；义马市（2004）；巩义市（2005）；辽宁省（2006）；邯郸市（2009）；宁夏自治区（2010）</p>
+<p>3.&nbsp;环保产业发展规划：中国宜兴环保科技工业园（2011）；江苏海安（2012）；安徽芜湖（2012）；东盟南宁基地（2013）</p>
+<p>4.&nbsp;生态文明及环境友好型社会研究：包头市（2009）；宁波北仑（2010）</p>
+<p>5.&nbsp;中国生态经济发展模式的理论与实证研究，国家社会科学基金项目（13BJY030），2012-2015</p>
+<p>6.&nbsp;基于工业的循环经济价值流分析研究，国家社科基金重大项目（11&amp;ZD166），2011-2015</p>
+<p>7.&nbsp;徒骇河、马颊河流域水污染防治与水质改善技术集成与综合示范（2012ZX07203-004），水体污染控制与治理重大专项，2012-2015</p>
+<p>8.&nbsp;工业园区清洁生产与污染控制技术研究与工程示范（2012ZX07301-005），水体污染控制与治理重大专项，2012-2015</p>
+<p>9.&nbsp;资源产出率核算方法及指标区域分解体系研究与示范（2012BAC03B01），国家科技支撑计划，2012-2015</p>
+<p>10.&nbsp;基于复杂网络的产业共生交叉研究平台及产业生态系统数据库构建，清华大学学科交叉专项基金（20121088096），2012.07-2015.06</p>
+<p>11.&nbsp;我国铅锌铟生产的耦合代谢途径与驱动机制研究，环境模拟与污染控制国家重点联合实验室自由探索课题，2014-2016</p>
+<p>12.&nbsp;我国典型环保产业的演进规律与调控机制 &ndash; 基于复杂网络的视角，环境模拟与污染控制国家重点联合实验室资助课题(12Y01ESPCT)，2012-2014</p>
+<p>13.&nbsp;基于复杂网络的工业生态化演进机制解析与系统模拟（41071352），国家自然科学基金，2011-2013，主持</p>
+<p>14.&nbsp;生态工业园区发展低碳经济的评价体系、推行模式与综合示范，环保公益项目，2010-2012</p>
+<p>15.&nbsp;工业园区物质代谢分析方法集成及数据库建立，环境模拟与污染控制国家重点联合实验室资助课题，2010-2011</p>
+<p>16.&nbsp;循环经济评价考核指标测算技术研发及应用示范（2009BAC64B01），国家科技支撑计划，2009-2011，工业园区子课题负责</p>
+<p>17.&nbsp;工业园区清洁生产和污染源控制技术研究与工程示范(2008ZX07313-005),水体污染控制与治理专项, 2009-2011，子课题负责</p>
+<p>18.&nbsp;以物质流分析为基础开展中国铝业循环经济发展模式及评价体系研究，中国铝业股份有限公司委托项目，2006－2008，主持</p>
+<p>19.&nbsp;工业共生体系的网络复杂性研究（40601037），国家自然科学基金，2007-2009，主持</p>
+<p>20.&nbsp;Sustainable Development of Rural Area in China, 美国Alcoa基金会环境保护与可持续发展项目，2005－2009，导师团成员</p>
+<p>21.&nbsp;循环经济立法框架研究，全国人大环资委（世界银行资助项目），2005－2007，中方专家</p>
+<p>22.&nbsp;企业循环经济指标体系研究，德国GTZ委托课题，2005-2006，主持</p>
+<p>23.&nbsp;资源约束下首都经济可持续发展研究，北京市科委招标项目，2004－2005，主持</p>
+<p>24.&nbsp;区域循环经济理论与方法研究，国家十五科技攻关子课题，2003-2005，主持</p>
+<p>25.&nbsp;中国可持续发展矿产资源研究之环境对策研究，中国工程院矿产资源咨询项目, 2003－2005</p>
+                        <h4>学术成果</h4>
+<p><strong>著作与教材：</strong></p>
+<p>1.&nbsp;董颖, 石磊. 区域经济的产业联动与生态化:宁波北仑案例, 杭州: 浙江大学出版社, 2014</p>
+<p>2.&nbsp;石磊, 刘志高, 曾灿, 董颖. 区域生态文明建设的理论与实践:宁波北仑案例, 杭州: 浙江大学出版社, 2014</p>
+<p>3.&nbsp;杨建新, 石磊, 刘晶茹等. 产业生态学研究. 中国生态学学会. 生态学学科发展报告（2011-2012）(pp164-178), 北京: 中国科学技术出版社, 2012</p>
+<p>4.&nbsp;第六章可持续发展的基本理论; 第八章循环经济与循环型社会; 第十二章清洁生产. 钱易, 唐孝炎.《环境保护与可持续发展》(第二版), 北京: 高等教育出版社, 2010</p>
+<p>5.&nbsp;包头市环境友好型社会建设研究（主持课题研究报告），呼和浩特: 内蒙古人民出版社, 2009</p>
+<p>6.&nbsp;张天柱, 石磊, 贾小平主编. 清洁生产导论, 北京: 高等教育出版社, 2006</p>
+<p>7.&nbsp;石磊. 发展循环经济的国内外经验、地位和作用（第四章）, 见中国科学院可持续发展战略研究组，《中国可持续发展报告（2006）》, 北京：科学出版社，2006，82-109</p>
+<p>8.&nbsp;石磊, 张进德, 刘建伟, 钱易主笔. 矿产资源环境问题及对策研究, 《中国可持续发展矿产资源战略研究》（综合卷），中国工程院，北京：科学出版社，2006, 349-374</p>
+<p><strong>发表文章：</strong></p>
+<p>1.&nbsp;Yu B, Li X, Shi L. Quantifying CO2 emission reduction from industrial symbiosis in integrated steel mills in China, Journal of Cleaner Production, <a href="http://dx.doi.org/10.1016/j.jclepro.2014.08.015">http://dx.doi.org/10.1016/j.jclepro.2014.08.015</a></p>
+<p>2.&nbsp;Shi L, Yu B. Eco-Industrial Parks from strategic niches to development mainstream: the cases of China, Sustainability, 2014, 6(9), 6325-6331; doi:10.3390/su6096325</p>
+<p>3.&nbsp;Shi H, Shi L. Identifying Emerging Motif in Growing Networks. PLoS ONE,2014: 9(6): e99634. doi:10.1371/journal.pone.0099634</p>
+<p>4.&nbsp;Yu B, Li X, Qiao Y B, Shi L. Low-carbon transition of iron and steel industry in China: Carbon intensity, economic growth and policy intervention. Journal of Environmental Sciences, Accepted</p>
+<p>5.&nbsp;Li Y, Shi L. The resilience of interdependent industrial symbiosis networks: a case of Yixing Economic and Technological Development Zone, Journal of Industrial Ecology, Accepted</p>
+<p>6.&nbsp;蓝英, 董颖, 傅庆铃, 石磊. 宜兴环保产业产学研合作模式实证研究, 科技进步与对策, 2013, 30(13): 78-82</p>
+<p>7.&nbsp;董颖、石磊，&ldquo;波特假说&rdquo;&mdash;生态创新与环境管制的关系研究述评，生态学报，2013, 33(3): 809-824</p>
+<p>8.&nbsp;李清慧, 石磊. 基于主体建模的废物交换模型与仿真分析.&nbsp; 环境科学研究, 2012, 25( 11): 1297-1303</p>
+<p>9.&nbsp;李清慧，石磊. 环境规制下化工产业供应链网络的鲁棒性分析&mdash;&mdash;以太湖水事件为例[J]. 江西化工. 2012(2): 37-42.</p>
+<p>10.&nbsp;石磊，刘果果，郭思平. 中国产业共生发展模式的国际比较及对策[J]. 生态学报. 2012(12): 3950-3957.</p>
+<p>11.&nbsp;Chen W Q, Shi L. Analysis of aluminum stocks and flows in mainland China from 1950 to 2009: Exploring the dynamics driving the rapid increase in China's aluminum production[J]. Resources Conservation and Recycling. 2012, 65: 18-28.</p>
+<p>12.&nbsp;石磊，郭思平. 韩国的生态工业园区[J]. 世界环境. 2011(5): 56-58.</p>
+<p>13.&nbsp;石海佳，梁赛，王震，等. 科学、系统与可持续性&mdash;&mdash;第六届工业生态学国际大会述评[J]. 生态学报. 2011(21): 6641-6644.</p>
+<p>14.&nbsp;刁周玮，石磊. 中国光伏电池组件的生命周期评价[J]. 环境科学研究. 2011(5): 571-579.</p>
+<p>15.&nbsp;石磊，万红艳，陈伟强. 中国铝工业的产业共生模式分类及其特征[J]. 环境科学研究. 2011(10): 1185-1193.</p>
+<p>16.&nbsp;Liang S, Shi L, Zhang T Z. Achieving Dewaterization in Industrial Parks A Case Study of the Yixing Economic Development Zone[J]. Journal of Industrial Ecology. 2011, 15: 597-613.</p>
+<p>17.&nbsp;武娟妮，石磊. 工业园区氮代谢&mdash;&mdash;以江苏宜兴经济开发区为例[J]. 生态学报. 2010(22): 6208-6217.</p>
+<p>18.&nbsp;武娟妮，石磊. 工业园区磷代谢分析&mdash;&mdash;以江苏宜兴经济开发区为例[J]. 生态学报. 2010(9): 2397-2405.</p>
+<p>19.&nbsp;石磊，周宏春. 国家循环经济试点城市评价指标体系设计及案例分析[J]. 环境科学研究. 2010(6): 799-804.</p>
+<p>20.&nbsp;董颖，石磊. 生态创新的内涵、分类体系与研究进展[J]. 生态学报. 2010(9): 2465-2474.</p>
+<p>21.&nbsp;贾小平，刘彩洪，石磊. 用水成本不确定条件下生态工业园区全局用水网络综合研究[J]. 计算机与应用化学. 2010(10): 1449-1452.</p>
+<p>22.&nbsp;石磊，王震. 中国生态工业园区的发展(2000&mdash;2010年)[J]. 中国地质大学学报(社会科学版). 2010(4): 60-66.</p>
+<p>23.&nbsp;武娟妮，万红艳，陈伟强，等. 中国原生铝工业的能耗与温室气体排放核算[J]. 清华大学学报(自然科学版). 2010(3): 407-410.</p>
+<p>24.&nbsp;Chen W Q, Shi L, Qian Y. Substance flow analysis of aluminium in mainland China for 2001, 2004 and 2007: Exploring its initial sources, eventual sinks and the pathways linking them[J]. Resources Conservation and Recycling. 2010, 54: 557-570.</p>
+<p>25.&nbsp;Wang Z, Jia X P, Shi L. Optimization of multi-product batch plant design under uncertainty with environmental considerations[J]. Clean Technologies and Environmental Policy. 2010, 12: 273-282.</p>
+<p>26.&nbsp;Wang Z, Shi L, Hu D, et al. Pursuing sustainable industrial development through the ecoindustrial parks Three case studies of China[J]. Ecological Complexity and Sustainability. 2010, 1195: E145-E153.</p>
+<p>27.&nbsp;陈伟强，石磊，常皛宇，等. 1991年～2007年中国铝物质流分析(Ⅰ):全生命周期进出口核算及其政策启示[J]. 资源科学. 2009(11): 1887-1897.</p>
+<p>28.&nbsp;陈伟强，石磊，钱易. 1991年～2007年中国铝物质流分析(Ⅱ):全生命周期损失估算及其政策启示[J]. 资源科学. 2009(12): 2120-2129.</p>
+<p>29.&nbsp;王政，石磊，贾小平. 基于结构洞理论的产业生态群落关联度赋值方法[J]. 生态学报. 2009(2): 810-814.</p>
+<p>30.&nbsp;石磊. 可持续性转型&mdash;&mdash;第五届工业生态学国际大会综述[J]. 生态学报. 2009(8): 4426-4430.</p>
+<p>31.&nbsp;陈伟强，万红艳，武娟妮，等. 铝的生命周期评价与铝工业的环境影响[J]. 轻金属. 2009(5): 3-10.</p>
+<p>32.&nbsp;王震，石磊，徐毅，等. 我国环境政策中生态工业园内涵误区的分析[J]. 环境科学与技术. 2009(11): 195-200.</p>
+<p>33.&nbsp;王震，石磊，孙德智. 我国生态工业园认识和实践中的误区:隐喻的使用[J]. 生态学报. 2009(11): 6199-6206.</p>
+<p>34.&nbsp;于冰，石磊. 中国不同历史时期的钢铁工业共生体系及其演进分析[J]. 资源科学. 2009(11): 1907-1918.</p>
+<p>35.&nbsp;石磊，张天柱. 中国发展循环经济的内涵审视与路径选择[J]. 中国发展. 2009(5): 26-32.</p>
+<p>36.&nbsp;韦艳，石磊. 中国国家尺度元素流动的主导因素分析[J]. 资源科学. 2009(8): 1286-1294.</p>
+<p>37.&nbsp;石海佳，石磊. 中国有机化工原料供应链结构&mdash;&mdash;复杂网络视角[J]. 化工学报. 2009(6): 1500-1505.</p>
+<p>38.&nbsp;Yuan Z W, Shi L. Improving enterprise competitive advantage with industrial symbiosis: case study of a smeltery in China[J]. Journal of Cleaner Production. 2009, 17: 1295-1302.</p>
+<p>39.&nbsp;陈伟强，石磊，钱易. 2005年中国国家尺度的铝物质流分析[J]. 资源科学. 2008(9): 1320-1326.</p>
+<p>40.&nbsp;楼俞，石磊. 城市尺度的金属存量分析&mdash;&mdash;以邯郸市2005年钢铁和铝存量为例[J]. 资源科学. 2008(1): 147-152.</p>
+<p>41.&nbsp;石磊，楼俞. 城市物质流分析框架及测算方法[J]. 环境科学研究. 2008(4): 196-200.</p>
+<p>42.&nbsp;宋雨萌，石磊. 工业共生网络的复杂性度量及案例分析[J]. 清华大学学报(自然科学版). 2008(9): 1441-1444.</p>
+<p>43.&nbsp;石磊. 工业生态学的内涵与发展[J]. 生态学报. 2008(7): 3356-3364.</p>
+<p>44.&nbsp;陈伟强，石磊，钱易. 国家尺度上铝的社会流动过程解析[J]. 资源科学. 2008(7): 1004-1012.</p>
+<p>45.&nbsp;楼俞，石磊. 邯郸市物质流分析[J]. 环境科学研究. 2008(4): 201-204.</p>
+<p>46.&nbsp;陈伟强，熊慧，石磊. 铝循环过程的物质流分析&mdash;&mdash;框架、数据与待解的问题[J]. 资源再生. 2008(6): 50-53.</p>
+<p>47.&nbsp;王震，石磊，刘晶茹，等. 区域工业生态效率的测算方法及应用[J]. 中国人口.资源与环境. 2008(6): 121-126.</p>
+<p>48.&nbsp;王玺，董颖，石磊. 宜兴市环保产业的技术模式与集群模式分析[J]. 中国环保产业. 2008(7): 56-59.</p>
+<p>49.&nbsp;陈波，石磊. 中国生态工业园区废物交换系统的功能框架及原型开发[J]. 环境科学与管理. 2008(1): 161-165.</p>
+<p>50.&nbsp;Xu M, Jia X P, Shi L, et al. Societal metabolism in Northeast China: Case study of Liaoning Province[J]. Resources Conservation and Recycling. 2008, 52: 1082-1086.</p>
+<p>51.&nbsp;王玺，石磊. 福州CRT产业集群废物产生特征及管理模式研究[J]. 环境科学与管理. 2007(4): 35-37.</p>
+<p>52.&nbsp;于冰，石磊. 企业循环经济相关指标体系的比较与对策建议[J]. 环境科学与管理. 2007(11): 158-162.</p>
+<p>53.&nbsp;张默，石磊. 我国彩色电视机废弃量预测模型对比[J]. 环境与可持续发展. 2007(5): 53-54.</p>
+<p>54.&nbsp;石磊，周海林. 循环经济的组织尺度与地理尺度及其政策含义[J]. 地球信息科学. 2007(1): 61-64.</p>
+<p>55.&nbsp;石磊，张天柱. 循环经济规划在立法研究中的问题[J]. 环境与可持续发展. 2007(3): 1-3.</p>
+<p>56.&nbsp;徐明，贾小平，石磊，等. 辽宁省经济系统物质代谢的核算及分析[J]. 资源科学. 2006(5): 127-133.</p>
+<p>57.&nbsp;石磊，张天柱. 贵阳市循环经济发展度量的研究[J]. 中国人口.资源与环境. 2005(5): 67-70.</p>
+<p>58.&nbsp;姜建军，刘建伟，张进德，等. 我国矿产资源开发的环境问题及对策探析[J]. 国土资源情报. 2005(8): 22-26.</p>
+<p>59.&nbsp;Gao Y, Shi L, Yao P J. Application of genetic algorithms for process integration and optimization considering environmental factors[J]. Environmental Progress. 2005, 24: 51-59.</p>
+<p>60.&nbsp;石磊. 从物质循环论发展循环经济的必要性[J]. 环境科学动态. 2004(1): 1-3.</p>
+<p>61.&nbsp;徐一剑，张天柱，石磊，等. 贵阳市物质流分析[J]. 清华大学学报(自然科学版). 2004(12): 1688-1691.</p>
+<p>62.&nbsp;石磊. 国际发展循环经济的经验[J]. 领导之友. 2004(4): 35-37.</p>
+<p>63.&nbsp;石磊，张天柱. 化学工业与循环经济[J]. 现代化工. 2004(7): 1-3.</p>
+<p>64.&nbsp;杨友麒，石磊. 绿色过程系统工程进展[J]. 化工进展. 2004(1): 17-23.</p>
+<p>65.&nbsp;石磊，张天柱. 浅谈北京发展循环经济的思路[J]. 科技潮. 2004(12): 8-9.</p>
+<p>66.&nbsp;石磊，陈吉宁，张天柱. 循环经济型生态城市规划框架研究&mdash;&mdash;以贵阳市为例[J]. 中国人口.资源与环境. 2004(3): 56-58.</p>
+<p>67.&nbsp;石磊. 浅议清洁生产技术[J]. 产业与环境(中文版). 2003(S1): 27-29.</p>
+<p>68.&nbsp;石磊，钱易. 国际推行清洁生产的发展趋势[J]. 中国人口.资源与环境. 2002(1): 66-69.</p>
+<p>69.&nbsp;石磊，钱易. 清洁生产的回顾与展望&mdash;&mdash;世界及中国推行清洁生产的进程[J]. 中国人口.资源与环境. 2002(2): 123-126.</p>
+<p>70.&nbsp;石磊，施汉昌，钱易. 清洁生产技术框架探讨[J]. 化工环保. 2002(2): 97-101.</p>
+<p>71.&nbsp;杨友麒，石磊. 环境影响最小化的化工过程综合[J]. 化工学报. 2001(2): 95-102.</p>
+<p>72.&nbsp;Gao Y, Shi L, Yao P J. Waste minimization through process integration and multi-objective optimization[J]. Chinese Journal of Chemical Engineering. 2001, 9: 267-272.</p>
+<p>73.&nbsp;Shi L, Yao P J. Multi-objective evolutionary algorithms for MILP and MINLP in process synthesis[J]. Chinese Journal of Chemical Engineering. 2001, 9: 173-178.</p>
+<p>74.&nbsp;Yang Y Q, Shi L. Integrating environmental impact minimization into conceptual chemical process design - a process systems engineering review[J]. Computers &amp; Chemical Engineering. 2000, 24: 1409-1419.</p>
+<p>75.&nbsp;姚平经，石磊. 过程能量优化综合与清洁生产[J]. 大连理工大学学报. 1999(2): 243-246.</p>
+<p>76.&nbsp;石磊，李绍军，姚平经. 清洁生产的技术演变及其整体框架[J]. 化工进展. 1999(3): 20-22.</p>
+<p>77.&nbsp;石磊，宋东明. 2-重氮-1-萘醌-5-磺酰氯的合成研究[J]. 精细化工. 1998(1): 49-51.</p>
+                  </div>
+                      <!--s2_right_con结束处-->
+                    <!-- end -->
+                                                              
+                </td>
+              </tr>
+            </table>
+            <!-- end -->
+                                       
+       </div>
+        <!-- 中部区域结束 -->
+        
+        <!-- 页脚区域开始 -->
+        <!-- 页脚区域开始 -->
+        <div class="footer nomalwidth auto"><div class="footer nomalwidth auto"><p style="text-align: center;"><span style="color: rgb(51, 51, 51);">Copyright&nbsp;<img title="copyright_black.png" src="/publish/env/6421/20110117161025461497872/1492675051132.png"/> 2017&nbsp;清华大学环境学院<span style="color: rgb(0, 0, 0);"> </span></span></p><p style="text-align: center;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">地址：清华大学中意环境节能楼&nbsp;&nbsp;100084</span></p></div><!-- 页脚区域结束 --><!-- 页脚区域结束 --><!-- 整体区域结束 --></div>
+<!-- 页脚区域结束 -->        <!-- 页脚区域结束 -->
+        
+ </div>
+    <!-- 整体区域结束 -->
+</body>
+</html>

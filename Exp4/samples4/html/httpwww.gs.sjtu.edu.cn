@@ -1,0 +1,418 @@
+﻿<!DOCTYPE html>
+<HTML><HEAD><TITLE>上海交通大学研究生院</TITLE><META Name="keywords" Content="上海交通大学研究生院" />
+
+
+
+
+
+<META name="description" content="欢迎访问上海交通大学研究生院，网站主要内容：研究生招生、培养、学位、国际化以及日常工作通知公告；研究生教育新闻动态；研究生培养、学籍管理操作、学位信息申请；研究生教育相关规章制度公式、信息公开；研究生教育成果展示。">
+<META name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type"><LINK rel="stylesheet" href="css/default.css"><LINK rel="stylesheet" href="css/style.css"><LINK rel="stylesheet" href="css/indix-b.css"><script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/index.js"></script><script type="text/javascript" src="js/jquery-1.7.1.min.js"></script><script type="text/javascript" src="js/jquery.event.drag-1.5.min.js"></script><script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+<META name="baidu-site-verification" content="LiZjIZk0Jk">
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323074684754525b564203040000 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1217522277)</script>
+</HEAD>
+<BODY><!--header-->
+<DIV class="headerWrap">
+<DIV class="header w1000 cleafix"><!--logo-->
+<DIV class="logo fl"><a href="index.htm" title="研究生院"><img src="img/logo.png" border="0"></a></DIV>
+<DIV class="word fl"></DIV><!--顶部导航-->
+<DIV class="hea-ri fr">
+<DIV class="her-top"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script>    <a href="http://www.gs.sjtu.edu.cn/">首页</a>
+    <span></span>
+    <a href="index/lxwm.htm">联系我们</a>
+    <span></span>
+    <a href="http://en.gs.sjtu.edu.cn">English</a>
+    <span></span>
+    <a href="index/wzdt.htm">网站地图</a>
+    
+</DIV>
+<DIV class="her-bom cleafix"><script type="text/javascript">
+    function _nl_ys_check2(){
+        
+        var keyword = document.getElementById('showkeycode65867pc').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey65867").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey65867").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey65867").value = base64.encode(document.getElementById("lucenenewssearchkey65867").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode65867pc"));
+        return true;
+    } 
+</script>
+<form action="sous.jsp?wbtreeid=1001" method="post" id="au2a" name="au2a" onsubmit="return _nl_ys_check2()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey65867" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype65867" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope65867" name="searchScope" value="1">
+
+ <input class="heb-te" name="showkeycode" id="showkeycode65867pc" value="输入搜索关键字" onfocus="this.style.color='#999999';if (value =='输入搜索关键字'){value =''}" onblur="this.style.color='#999999';if (value ==''){value='输入搜索关键字'}">
+
+ <input type="image" src="img/ico.png" align="absmiddle" style="cursor: hand;padding-top:6px;">
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+</DIV></DIV></DIV></DIV><!--nav-->
+<DIV class="navWrap">
+<DIV class="nav w1000"><UL>
+<LI class="mainmenu"><A href="jgsz.htm">机构设置</A>
+<div id="nav">
+  <A href="jgsz/yjsyjj.htm">研究生院简介</A>
+  <A href="jgsz/zgfxz.htm">主管副校长</A>
+  <A href="jgsz/yjsyld.htm">研究生院领导</A>
+  <A href="jgsz/yjszsbgs.htm">研究生招生办公室</A>
+  <A href="jgsz/pybgs.htm">培养办公室</A>
+  <A href="jgsz/xwbgs.htm">学位办公室</A>
+  <A href="jgsz/xwbgs1.htm">院办公室</A>
+  <A href="jgsz/zljsbgs.htm">质量建设办公室</A>
+  <A href="jgsz/gjhbgs.htm">国际化办公室</A>
+  <A href="jgsz/xkjsbgs.htm">学科建设办公室</A>
+  <A href="jgsz/yjsjyfwzx.htm">研究生教育服务中心</A>
+</div> 
+</LI>
+<LI class="mainmenu"><A href="http://yzb.sjtu.edu.cn" target="_blank">招生在线</A>
+</LI>
+<LI class="mainmenu"><A href="pygl.htm">培养管理</A>
+<div id="nav">
+  <A href="http://www.yjs.sjtu.edu.cn:81/epstar/web/outer/KKBJ_CX/kkbj.jsp" target="_blank">课表查询</A>
+  <A href="pygl/zhsw.htm">综合事务</A>
+  <A href="http://www.yjs.sjtu.edu.cn/epstar/" target="_blank">学籍管理</A>
+  <A href="pygl/xkgl.htm">选课管理</A>
+  <A href="pygl/bssgnfx.htm">国内访学</A>
+  <A href="pygl/bgxz.htm">表格下载</A>
+  <A href="pygl/cyxx.htm">常用信息</A>
+</div> 
+</LI>
+<LI class="mainmenu"><A href="gjjl.htm">国际交流</A>
+<div id="nav">
+  <A href="gjjl/gjgpyjsxm.htm">国家公派研究生</A>
+  <A href="gjjl/gjhrcpyzzxm.htm">国际化培养资助</A>
+  <A href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1367">校际交换与联培</A>
+  <A href="gjjl/gjjlyhzxm.htm">交流与合作项目</A>
+  <A href="http://isc.sjtu.edu.cn" target="_blank">国际研究生招生</A>
+  <A href="gjjl/xmzmyxjh.htm">项目招募与宣讲</A>
+  <A href="gjjl/bgxz.htm">常用表格与文件</A>
+</div> 
+</LI>
+<LI class="mainmenu"><A href="xwxk.htm">学位学科</A>
+<div id="nav">
+  <A href="xwxk/sqsyxw.htm">申请授予学位</A>
+  <A href="xwxk/bsxwlwydb.htm">博士学位论文预答辩</A>
+  <A href="xwxk/xwlwps.htm">学位论文评审</A>
+  <A href="xwxk/xwlwdb.htm">学位论文答辩</A>
+  <A href="xwxk/xwsqysh.htm">学位申请与审核</A>
+  <A href="xwxk/yxcg_xwlw_.htm">优秀成果</A>
+  <A href="xwxk/xkztysp1.htm">同等学力</A>
+  <A href="xwxk/xkztysp.htm">学科状态与水平</A>
+  <A href="xwxk/xkglywj.htm">学科管理与文件</A>
+  <A href="xwxk/bgxz.htm">表格下载</A>
+</div> 
+</LI>
+<LI class="mainmenu"><A href="zljs.htm">质量建设</A>
+<div id="nav">
+  <A href="zljs/yjsjxdd.htm">研究生教学督导</A>
+  <A href="zljs/bsszyryjh.htm">博士生致远荣誉计划</A>
+</div> 
+</LI>
+<LI class="mainmenu"><A href="xskc.htm">创新工程</A>
+<div id="nav">
+  <A href="xskc/dsjtlm.htm">大师讲坛</A>
+  <A href="xskc/yjsxsjs.htm">研究生学术竞赛</A>
+</div> 
+</LI>
+<LI class="mainmenu"><A href="xxfw.htm">信息服务</A>
+<div id="nav">
+  <A href="http://www.jwc.sjtu.edu.cn/web/sjtu/198109.htm" target="_blank">校历</A>
+  <A href="xxfw/xxgk.htm">信息公开</A>
+  <A href="http://www.yjs.sjtu.edu.cn/ssfw/xwgl/zsdy/zsdyForm/queryXWZS.do">学位查询</A>
+  <A href="http://www.chsi.cn/xlrz/">学历查询</A>
+  <A href="http://lixiao.sjtu.edu.cn/">离校系统</A>
+  <A href="xxfw/bgxz.htm">表格下载</A>
+</div> 
+</LI>
+<LI class="mainmenu"><A href="zwgk.htm">政务公开</A>
+<div id="nav">
+  <A href="zwgk/gzzd.htm">工作手册</A>
+  <A href="zwgk/bszn.htm">办事指南</A>
+  <A href="zwgk/bszn1.htm">规章制度</A>
+  <A href="zwgk/xfjs.htm">学风建设</A>
+  <A href="zwgk/djgz.htm">党建工作</A>
+  <A href="zwgk/jysxdtl.htm">教育思想大讨论</A>
+</div> 
+</LI>
+</UL>
+
+</DIV><script type="text/javascript">
+    $(function(){
+    
+        $(".nav ul li #nav").hide();
+        
+        $("li.mainmenu").hover(function(){
+            $(this).find("#nav").stop(true,true);
+            $(this).find("#nav").slideDown();
+        },function(){
+            $(this).find("#nav").stop(true,true);
+            $(this).find("#nav").slideUp();
+        });
+        $(document).ready(function(){
+            $(".nav ul li").hover(function(){
+                $(this).addClass('cur').siblings().removeClass('cur');
+            });
+        });
+        
+    })
+    </script>
+<DIV class="navtel w1000">
+<DIV class="her-bom fl cleafix"><script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode65869').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey65869").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey65869").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey65869").value = base64.encode(document.getElementById("lucenenewssearchkey65869").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode65869"));
+        return true;
+    } 
+</script>
+<form action="sous.jsp?wbtreeid=1001" method="post" id="au4a" name="au4a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey65869" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype65869" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope65869" name="searchScope" value="0">
+
+ <input onclick="test3()" onblur="test4()" name="showkeycode" id="showkeycode65869" type="text" class="heb-te" id="test1" value="输入搜索关键字" onfocus="this.style.color='#999999';if (value =='输入搜索关键字'){value =''}" onblur="this.style.color='#999999';if (value ==''){value='输入搜索关键字'}" />
+
+  <input type="image" src="img/ico.png" align="absmiddle" style="cursor: hand;padding-top:6px;">  
+</form>
+</DIV><!--侧滑--><!--left  icon-->
+<DIV id="wrapper" class="wrapper"></DIV>
+<DIV id="mm-menu-toggle" class="mm-menu-toggle"></DIV><NAV id="mm-menu" class="mm-menu">
+<DIV class="chlogo">
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+    <td><a href="index.htm" target="_blank" onclick="_addDynClicks('wbimage',1217522277,15315)"><img src="img/logo.png" border="0"></a></td>
+        </tr>
+        </table></DIV>
+ <ul class="form">
+    
+    
+    
+            <li><a href="jgsz.htm">机构设置</a></li>
+        
+    
+    
+    
+    
+    
+            <li><a href="http://yzb.sjtu.edu.cn">招生在线</a></li>
+        
+    
+    
+    
+    
+    
+            <li><a href="pygl.htm">培养管理</a></li>
+        
+    
+    
+    
+    
+    
+            <li><a href="gjjl.htm">国际交流</a></li>
+        
+    
+    
+    
+    
+    
+            <li><a href="xwxk.htm">学位学科</a></li>
+        
+    
+    
+    
+    
+    
+            <li><a href="zljs.htm">质量建设</a></li>
+        
+    
+    
+    
+    
+    
+            <li><a href="xskc.htm">创新工程</a></li>
+        
+    
+    
+    
+    
+    
+            <li><a href="xxfw.htm">信息服务</a></li>
+        
+    
+    
+    
+    
+    
+            <li><a href="zwgk.htm">政务公开</a></li>
+        
+    
+    
+ </ul></NAV><script type="text/javascript" src="js/materialMenu.min.js"></script><script>
+          var menu = new Menu;
+        </script></DIV></DIV><!--banner-->
+<DIV class="bannerWrap cleafix">
+<DIV class="main_visual w1000">
+<DIV class="flicking_con">            <span><h2 onclick="window.open('http://yzb.sjtu.edu.cn')">招生信息</h2><h3 onclick="window.open('info/1195/6838.htm')">硕士招生报名通知</h3></span>
+
+<script>_showDynClickBatch(['dynclicks_u7_6838'],[6838],"wbnews", 1217522277)</script>
+            <span><h2 onclick="window.open('index/tzgg/pyxx.htm')">培养信息</h2><h3 onclick="window.open('info/1196/6879.htm')">证书电子照片采集</h3></span>
+
+<script>_showDynClickBatch(['dynclicks_u8_6879'],[6879],"wbnews", 1217522277)</script>
+            <span><h2 onclick="window.open('index/tzgg/xwxx.htm')">学位学科</h2><h3 onclick="window.open('http://www.gs.sjtu.edu.cn/xxfw/xxgk/yjsxwlwdbgg.htm')">答辩公告</h3></span>
+
+<script>_showDynClickBatch(['dynclicks_u9_6657'],[6657],"wbnews", 1217522277)</script>
+            <span><h2 onclick="window.open('index/tzgg/gjjl.htm')">国际交流</h2><h3 onclick="window.open('info/1198/4223.htm')">国际会议资助</h3></span>
+
+<script>_showDynClickBatch(['dynclicks_u10_4223'],[4223],"wbnews", 1217522277)</script>
+</DIV>     <div class="main_image">
+            <ul>
+           
+                <li>
+                        <img src="img/05.jpg" title="欢迎访问上海交通大学研究生院" border="0" width="735px" height="260">
+                         <p>欢迎访问上海交通大学研究生院</p>
+                </li>
+      
+       
+                <li>
+                        <img src="img/02.jpg" title="" border="0" width="735px" height="260">
+                         <p></p>
+                </li>
+      
+       
+                <li>
+                        <img src="2017.jpg" title="" border="0" width="735px" height="260">
+                         <p></p>
+                </li>
+      
+       
+                <li>
+                        <img src="img/01.jpg" title="" border="0" width="735px" height="260">
+                         <p></p>
+                </li>
+      
+            </ul>
+        </div>
+
+       
+</DIV></DIV><!--页面主体内容-->
+<DIV class="mainWrap">
+<DIV class="main w1000 cleafix"><!--报名申请系统-->
+<DIV class="apply fl">
+<DIV class="app-ti">报名申请系统</DIV><UL>
+    <LI><a href="http://yz.chsi.com.cn/yzwb/" target="_blank">硕士研究生网上报名</a></li>
+    <LI><a href="http://ga.sjtu.edu.cn/zsgl/bswb/">博士研究生网上报名</a></li>
+    <LI><a href="http://www.gatzs.com.cn/" target="_blank">港澳台研究生网上报名</a></li>
+    <LI><a href="http://isc.sjtu.edu.cn/EN/Default.aspx" target="_blank">留学生研究生网上报名</a></li>
+    <LI><a href="http://apply.csc.edu.cn/csc/main/person/login/index.jsf" target="_blank">高水平大学公派研究生项目</a></li>
+    <LI><a href="http://ga.sjtu.edu.cn/zsgl/xlygl/default.aspx" target="_blank">夏令营网上报名</a></li>
+</UL>
+
+<!--大师讲坛-->
+<DIV class="pulpit">    <a target="_blank" href="index/yxbsxwlw.htm" class="pu-ds"><span>优秀博士学位论文</span></a>
+</DIV>
+<DIV class="pulpit pulpit1">    <a href="index/yjsjyfwzx.htm" class="pu-ds pu-ds1"><span class="yc">研究生教育服务中心</span><span class="xs">研究生教育服务中心</span></a>
+</DIV>
+<DIV class="pulpit pulpit2">    <a target="_blank" href="zwgk/jysxdtl.htm" class="pu-ds pu-ds2"><span>教育思想大讨论</span></a>
+</DIV></DIV>
+<DIV class="dynamic fl"><!--最新动态-->
+<DIV class="dy-ti"><SPAN>通知公告</SPAN><A href="index/tzgg.htm" onfocus="undefined" onfocus="undefined">更多</A></DIV><ul class="dy-list">
+   <li><a href="info/1133/6889.htm" target="_blank">关于2018年秋季学期研究生体育课部分教学班调整的通知</a><span>10/19</span></li>
+   <li><a href="info/1107/6863.htm" target="_blank">2018年U21三分钟博士论文演讲比赛投票启动</a><span>10/12</span></li>
+   <li><a href="info/1133/6861.htm" target="_blank">关于组织2019届毕业研究生进行学历学位证书电子照片采集的通知</a><span>10/12</span></li>
+   <li><a href="info/1108/6858.htm" target="_blank">2018年CSC—IBM中国优秀学生奖学金项目遴选通知</a><span>10/10</span></li>
+</ul><script>_showDynClickBatch(['dynclicks_u16_6889','dynclicks_u16_6863','dynclicks_u16_6861','dynclicks_u16_6858'],[6889,6863,6861,6858],"wbnews", 1217522277)</script>
+
+<DIV class="dy-ti  dy-ti1"><SPAN>最新动态</SPAN><A href="index/zxdt.htm" onfocus="undefined" onfocus="undefined">更多</A></DIV><ul class="dy-list">
+   <li><a href="info/1132/6837.htm" target="_blank">上海交大召开2018年秋季学期研究生教育工作会议</a><span>09/25</span></li>
+   <li><a href="info/1132/6836.htm" target="_blank">校党委任命归琳为研究生院副院长</a><span>09/25</span></li>
+   <li><a href="info/1132/6829.htm" target="_blank">中国科学院院士郭华东教授做客第106期大师讲坛</a><span>09/21</span></li>
+   <li><a href="info/1132/6878.htm" target="_blank">【一流学科巡礼】前沿化学与绿色化工</a><span>09/13</span></li>
+</ul><script>_showDynClickBatch(['dynclicks_u17_6837','dynclicks_u17_6836','dynclicks_u17_6829','dynclicks_u17_6878'],[6837,6836,6829,6878],"wbnews", 1217522277)</script>
+<!--通知公告--></DIV><!--管理信息系统登录-->
+<DIV class="apply apply1 fr">
+<DIV class="app-ti">管理信息系统登录</DIV><UL>
+    <LI><a href="http://www.yjs.sjtu.edu.cn/ssfw/login.jsp">学生、教师、导师</a></li>
+    <LI><a href="http://www.yjs.sjtu.edu.cn:81/epstar">教务、答辩秘书</a></li>
+    <LI><a href="http://www.yjs.sjtu.edu.cn:81/epstar/login/dblogin.jsp">医学院入口</a></li>
+    <LI><a href="http://www.yjs.sjtu.edu.cn/ssfw/login_wslwpy.jsp">论文评阅</a></li>
+    <LI><a href="http://202.120.1.53/mis/">老系统</a></li>
+</UL>
+<DIV class="fast">
+<H2>快速链接</H2>
+<DIV class="choice">
+<DL class="select"><dt>------快速链接-------</dt>
+                    <dd>
+                        <ol>
+                                                    <li><a href="http://www.sjtu.edu.cn/">----上海交通大学主页----</a>
+                            <li><a href="https://mail.sjtu.edu.cn">----交大Email邮箱系统----</a>
+                            <li><a href="http://lixiao.sjtu.edu.cn/" target="_blank">----离校服务网----</a>
+                            <li><a href="http://cc.sjtu.edu.cn/">----课程中心----</a>
+                            <li><a href="http://alumni.sjtu.edu.cn/newalu/" target="_blank">----校友会----</a>
+                            <li><a href="http://www.tongqu.me/">----同去网----</a>
+                            <li><a href="https://clubz.cloudsation.com/index.php">----呼啦圈----</a>
+                            <li><a href="http://www.moe.gov.cn/" target="_blank">----教育部----</a>
+                            <li><a href="http://www.cdgdc.edu.cn/">----中国学位与研究生教育信息网----</a>
+                            <li><a href="http://yz.chsi.com.cn/">----中国研究生招生信息网----</a>
+                            <li><a href="http://www.csc.edu.cn/">----国家留学网----</a>
+                            <li><a href="http://www.chsi.com.cn/">----学信网----</a>
+                            <li><a href="http://www.csadge.edu.cn/">----中国学位与研究生教育学会----</a>
+                            <li><a href="www.meng.edu.cn/">----全国工程专业学位研究生教育网----</a>
+                            <li><a href="http://www.hie.edu.cn/">----中国高等教育学会----</a>
+                            <li><a href="http://www.yjsxh.edu.sh.cn/">----上海市研究生教育学会----</a>
+                            <li><a href="http://www.shmec.gov.cn/" target="_blank">----上海教育----</a>
+                        
+                        </ol>
+                    </dd></DL></DIV></DIV></DIV></DIV></DIV><!--footer-->
+<DIV class="footerWrap">
+<DIV class="footer"></DIV>
+<DIV class="foot-word"><H2>办公地址：闵行校区：上海市东川路800号陈瑞球楼三、四楼（邮编:200240）</H2>
+<H2>徐汇校区：上海市华山路1954号新上院502室（邮编:200030）</H2>
+<H2>版权所有©2016 上海交通大学研究生院 沪交ICP 备 50534</H2></DIV>
+<DIV style="margin: 0px auto;width: 1000px">
+<DIV style="float: left;text-align: right;padding-left: 200px"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script><table class="winstyle65880" width="100%">
+    <tr>
+        <td><p class="MsoNormal" align="center" style="text-align: center;margin: 0cm 0cm 0pt;text-indent: 23.4pt;mso-hyphenate: none"><font style="font-size: 7.5pt"><span style="font-size: 7.5pt;font-: 宋体;mso-bidi-font-size: 14.0pt;mso-ascii-font-family: 'Times New Roman';mso-hansi-font-family: 'Times New Roman'">办公地址：闵行校区：上海市东川路</span><span lang="zh-" cn="" style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt">800</span><span style="font-size: 7.5pt;font-family: 宋体;mso-bidi-font-size: 14.0pt;mso-ascii-font-family: 'Times New Roman';mso-hansi-font-family: 'Times New Roman'">号陈瑞球楼三、四楼（邮编</span><span lang="zh-CN" style="font-size: 7.5pt;mso-bidi-font-: 14.0pt">:200240）                   
+   <o:p></o:p></span></font></p> 
+<p class="MsoNormal" align="center" style="text-align: center;margin: 0cm 0cm 0pt;text-indent: 23.4pt;mso-hyphenate: none"><font style="font-size: 7.5pt"><span lang="zh-" cn="" style="font-: 7.5pt;mso-bidi-font-size: 14.0pt;mso-fareast-font-family: 宋体"><span style="font-size: 7.5pt;mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 7.5pt;font-family: 宋体;mso-bidi-font-size: 14.0pt;mso-hansi-font-family: 'Times New Roman';mso-ascii-: 'Times New Roman'">徐汇校区：上海市华山路</span><span lang="zh-" cn="" style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt">1954</span><span style="font-size: 7.5pt;font-family: 宋体;mso-bidi-font-size: 14.0pt;mso-ascii-font-family: 'Times New Roman';mso-hansi-font-family: 'Times New Roman'">号新上院</span><span lang="zh-CN" style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt">502室</span><span style="font-size: 7.5pt;font-family: 宋体;mso-ascii-font-family: 'Times New Roman';mso-hansi-font-family: 'Times New Roman';mso-bidi-: 14.0pt">（邮编</span><span lang="zh-CN" style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt">:200030</span><span style="font-size: 7.5pt;font-family: 宋体;mso-bidi-font-size: 14.0pt;mso-bidi-font-family: 宋体">）</span><span lang="zh-CN" style="font-: 7.5pt;mso-bidi-font-size: 14.0pt"> 
+   <o:p></o:p></span></font></p> 
+<p class="MsoNormal" align="center" style="text-align: center;margin: 0cm 0cm 0pt;text-indent: 23.4pt;mso-hyphenate: none"><font style="font-size: 7.5pt"><span style="font-size: 7.5pt;font-: 宋体;mso-bidi-font-size: 14.0pt;mso-ascii-font-family: 'Times New Roman';mso-hansi-font-family: 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp; 版权所有</span><span lang="zh-" cn="" style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt">&copy;2018 </span><span style="font-size: 7.5pt;font-family: 宋体;mso-bidi-font-size: 14.0pt;mso-ascii-font-family: 'Times New Roman';mso-hansi-font-family: 'Times New Roman'">上海交通大学研究生院</span><span style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt;mso-fareast-font-family: 宋体"> </span><span style="font-family: 宋体;font-: 7.5pt;mso-bidi-font-size: 14.0pt;mso-ascii-font-family: 'Times New Roman';mso-hansi-font-family: 'Times New Roman'">沪交</span><span lang="zh-CN" style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt">ICP </span><span style="font-size: 7.5pt;font-family: 宋体;mso-bidi-font-size: 14.0pt;mso-ascii-font-family: 'Times New Roman';mso-hansi-font-family: 'Times New Roman'">备</span><span lang="zh-CN" style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt"> 50534</span><span lang="zh-CN" style="font-size: 7.5pt;mso-bidi-font-size: 14.0pt;mso-fareast-font-family: 宋体">&nbsp; &nbsp; 
+   <o:p></o:p></span></font></p> 
+<p align="center"><font style="font-size: 7.5pt">&nbsp;</font></p></td>
+    </tr>
+</table></DIV>
+<DIV style="float: left;padding-top: 10px"></DIV>
+
+<a href="tencent://message/?uin=1351506494&amp;Site=www.vsbclub.com&amp;Menu=yes"><img src="images/button_old_11.gif" /></a></DIV></DIV>
+
+</BODY></HTML>

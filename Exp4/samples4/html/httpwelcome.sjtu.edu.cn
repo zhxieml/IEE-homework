@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+<html>
+<head><title>上海交通大学迎新网</title><META Name="keywords" Content="上海交通大学迎新网" />
+
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=10">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/component.css">
+<script src="js/bdtxk.js" type="text/javascript"></script>
+<script src="js/SuperSlide.js" type="text/javascript"></script>
+<script src="js/banner.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/SuperSlide.js"></script>
+<script type="text/javascript" src="js/pic.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.dlmenu.js"></script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323074684754525b564203040000 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1467904066)</script>
+</head>
+<body>
+<div class="slideBox slideBox2">
+<div class="menu">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+
+
+<a href="index.htm" class="logo"><img src="images/logo.png" /></a>
+<div class="top">
+<div class="top-right">
+<div class="search"><script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode209485').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey209485").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey209485").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey209485").value = base64.encode(document.getElementById("lucenenewssearchkey209485").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode209485"));
+        return true;
+    } 
+</script>
+<form action="ssjgy.jsp?wbtreeid=1001" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey209485" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype209485" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope209485" name="searchScope" value="0">
+
+
+ <input name="showkeycode" id="showkeycode209485" class="search-input" onclick="if(this.value == '搜 索')this.value='';" onblur="if(this.value == '')this.value='搜 索';" class="search-input" value="搜 索"> 
+                    <input name="search_btn" type="image" class="search-btn" src="images/sousuo.png">
+
+
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+</div><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script>
+
+<a href="https://www.sjtu.edu.cn/xbdh/yjdh/yx.htm" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43596)" class="home-link"><img src="images/tb2.png" />交大院系</a>
+
+
+
+
+<a href="http://news.sjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43595)" class="home-link1"><img src="images/tb1.png" />交大新闻</a>
+
+
+
+
+<a href="http://www.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43570)" class="home-link2"><img src="images/home.png" />交大主页</a>
+
+
+</div>
+<div class="clear"></div>
+<div class="nav"><ul>
+<li><a href="index.htm" title="首页">首页</a></li>
+
+<li><a href="yxkx.htm" title="迎新快讯">迎新快讯</a></li>
+
+<li><a href="xzjd.htm" title="学在交大">学在交大</a></li>
+
+<li><a href="zzjd.htm" title="住在交大">住在交大</a></li>
+
+<li><a href="lzjd.htm" title="乐在交大">乐在交大</a></li>
+
+<li><a href="http://account.welcome.sjtu.edu.cn" title="新生登录" target="_blank">新生登录</a></li>
+</ul></div></div></div>
+<div class="hd">
+<ul>
+<li class="on"></li>
+<li></li>
+<li></li></ul></div>
+<div class="bd">    <ul>
+<li><a href="" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42879)" target="_blank" onfocus="undefined"><img src="images/banner.jpg" /></a></li>
+</ul></div></div>
+<div id="dl-menu" class="dl-menuwrapper"><button id="dl-menu-button"></button> <ul class="dl-menu">
+
+<li><a href="index.htm" title="首页">首页</a>
+</li>
+<li><a href="Line" title="迎新快讯">迎新快讯</a>
+<ul class="dl-submenu">
+        <li class="dl-back"><a href="#">返回上一级</a></li>
+         <li><a href="yxkx/bks.htm" title="本科生">本科生</a></li>
+         <li><a href="yxkx/yjs.htm" title="研究生">研究生</a></li>
+         <li><a href="yxkx/lxs.htm" title="留学生">留学生</a></li>
+</ul>
+</li>
+<li><a href="xzjd.htm" title="学在交大">学在交大</a>
+</li>
+<li><a href="zzjd.htm" title="住在交大">住在交大</a>
+</li>
+<li><a href="lzjd.htm" title="乐在交大">乐在交大</a>
+</li>
+<li><a href="http://account.welcome.sjtu.edu.cn" title="新生登录">新生登录</a>
+</li>
+           </ul></div><script>    
+$(function() {
+        $( '#dl-menu' ).dlmenu();
+    });
+</script>
+<div class="phone-top">    
+    <a href="index.htm" class="phone-logo"><img src="images/logo.png"></a>
+
+</div><script src="js/TouchSlide.1.1.js"></script>
+<div id="phone-banner" class="phone-banner">
+<div class="bd">    
+
+
+<ul>
+            <li><a href="" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42886)" target="_blank"><img src="images/pic1.jpg" /></a></li>
+
+            <li><a href="" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42887)" target="_blank"><img src="images/pic2.jpg" /></a></li>
+
+            <li><a href="" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42888)" target="_blank"><img src="images/pic1.jpg" /></a></li>
+</ul></div>
+<div class="hd">
+<ul></ul></div></div><script type="text/javascript">
+    TouchSlide({ 
+        slideCell:"#phone-banner",
+        titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell:".bd ul", 
+        effect:"leftLoop", 
+        autoPage:true,//自动分页
+        autoPlay:true //自动播放
+    });
+</script><!-----banner----->
+<div class="clear"></div>
+<div class="sy-main">
+<div class="wid1200">
+<div class="yxkx">
+<div class="yxkx-title">
+<h3>迎新快讯</h3><a class="yxkx-title h3" href="yxkx.htm">MORE→ </a></div>
+<div class="picScroll-left">
+<div class="hd"><a class="next" onfocus="undefined"></a><a class="prev" onfocus="undefined"></a></div>
+<div class="bd"><ul>
+
+ <li><a href="https://mp.weixin.qq.com/s?__biz=MzA5ODEzODI1Mw==&mid=2647650630&idx=1&sn=39a68cb8adcbbee316bae3c9552519a0&chksm=88ad70a4bfdaf9b21bf03674fbb8bc21d6cac8ee79174291c9781437ce0674663a749f49065d&mpshare=1&scene=1&srcid=08023WcrmGRusBpCxIz4u41v#rd" target="_blank" title="2018 | 新学期缴费指南" target="_blank">
+    <div class="date"><span>Aug  </span><i>2</i></div>
+    <div class="txt">
+        <h3>【本科生】2018 | 新学期缴费指南</h3>
+        <p>2018 | 新学期缴费指南</p>
+    </div>
+ </a></li>  
+
+
+ <li><a href="info/1026/1063.htm" target="_blank" title="财务计划处关于推行中央非税收入统一票据电子化管理的通知" target="_blank">
+    <div class="date"><span>Aug  </span><i>1</i></div>
+    <div class="txt">
+        <h3>【本科生】财务计划处关于推行中央非税收入统一票据电子化管理的通知</h3>
+        <p>财务计划处〔2018〕9号                 签发人：王光艳​	财务计划处关于推行中央非税收入统一票据电子化管理的通知各院(系)、部、处、直属单位：根据《财政部关于做好财政电子票据管理改革第二批试点有关工作的通知》（财综〔2017〕66号）公布的名单，我校成为财政电子票据管理改革第二批试点单位。经过前期的系统衔接和测试，财务计划处完成了“中央非税收入统一票据”电子开票（以下简称“电子票据”）系统的开发工作，实现...</p>
+    </div>
+ </a></li>  
+
+
+ <li><a href="info/1027/1052.htm" target="_blank" title="上海交通大学2018年研究生新生报到须知" target="_blank">
+    <div class="date"><span>Jul  </span><i>19</i></div>
+    <div class="txt">
+        <h3>【研究生】上海交通大学2018年研究生新生报到须知</h3>
+        <p>研究生新生报到须知；缴费指南；行李标签。</p>
+    </div>
+ </a></li>  
+
+</ul><script>_showDynClickBatch(['dynclicks_u8_1065','dynclicks_u8_1063','dynclicks_u8_1052'],[1065,1063,1052],"wbnews", 1467904066)</script>
+</div></div>
+<div class="phone-yxkx"><ul>
+
+ <li><a href="info/1026/1081.htm" target="_blank" title="2018级新生入学手册" target="_blank">
+    <div class="date"><span>Aug  </span><i>17</i></div>
+    <div class="txt">
+        <h3>2018级新生入学手册</h3>
+
+    </div>
+ </a></li>  
+
+
+ <li><a href="http://isc.sjtu.edu.cn" target="_blank" title="留学交大官网  Study@SJTU" target="_blank">
+    <div class="date"><span>Aug  </span><i>9</i></div>
+    <div class="txt">
+        <h3>留学交大官网  Study@SJTU</h3>
+
+    </div>
+ </a></li>  
+
+
+ <li><a href="info/1028/1076.htm" target="_blank" title="2018国际学生新生指南" target="_blank">
+    <div class="date"><span>Aug  </span><i>9</i></div>
+    <div class="txt">
+        <h3>2018国际学生新生指南</h3>
+
+    </div>
+ </a></li>  
+
+
+ <li><a href="info/1028/1075.htm" target="_blank" title="2018 徐汇交换新生报到注册流程图" target="_blank">
+    <div class="date"><span>Aug  </span><i>9</i></div>
+    <div class="txt">
+        <h3>2018 徐汇交换新生报到注册流程图</h3>
+
+    </div>
+ </a></li>  
+
+
+ <li><a href="info/1028/1074.htm" target="_blank" title="2018 闵行交换新生报到注册流程图" target="_blank">
+    <div class="date"><span>Aug  </span><i>9</i></div>
+    <div class="txt">
+        <h3>2018 闵行交换新生报到注册流程图</h3>
+
+    </div>
+ </a></li>  
+
+
+ <li><a href="info/1028/1073.htm" target="_blank" title="2018 徐汇学位新生报到注册流程图" target="_blank">
+    <div class="date"><span>Aug  </span><i>9</i></div>
+    <div class="txt">
+        <h3>2018 徐汇学位新生报到注册流程图</h3>
+
+    </div>
+ </a></li>  
+
+</ul><script>_showDynClickBatch(['dynclicks_u9_1081','dynclicks_u9_1077','dynclicks_u9_1076','dynclicks_u9_1075','dynclicks_u9_1074','dynclicks_u9_1073'],[1081,1077,1076,1075,1074,1073],"wbnews", 1467904066)</script>
+
+<div class="clear"></div></div></div>
+<div class="sy-sf">    <ul>
+                <li><a href="yxkx/bks.htm" title="本科生" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42881)" target="_blank"><img src="images/sf1.jpg" /></a></li>
+
+
+                <li><a href="yxkx/yjs.htm" title="研究生" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42882)" target="_blank"><img src="images/sf2.jpg" /></a></li>
+
+
+                <li><a href="yxkx/lxs.htm" title="留学生" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42883)" target="_blank"><img src="images/sf3.jpg" /></a></li>
+
+
+
+
+
+            </ul></div></div>
+<div class="clear"></div></div>
+<div class="clear"></div>
+<div class="xsdh">
+<div class="xsdh-1">
+<div class="wid1200">
+<div class="xsdh-con fl">
+
+
+
+
+
+    <ul>
+
+
+<li><a href="xzjd.htm"><img src="images/xsdh1.jpg" /></a></li>
+                    
+
+
+<li><a href="zzjd.htm"><img src="images/xsdh2.jpg" /></a></li>
+                    
+
+
+<li><a href="lzjd.htm"><img src="images/xsdh3.jpg" /></a></li>
+                    
+</ul>
+
+
+</div></div>
+<div class="clear"></div></div></div>
+<div class="wid100">
+<div class="wid1200">
+<div class="sy-sf">
+
+
+    <ul>
+    
+
+
+<li><a href="http://www.sh.10086.cn/h5/180521.jsp?tcid=101&WT.mc_id=YX20180709DYXYKmhjd05&channel=jiaoda" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42915)" target="_blank"><img src="images/chainmobile_s21.jpg" /></a></li>
+
+
+
+
+
+
+<li><a href="https://m.10010.com/queen/tencent/onlineGo.html?param=P2guLDMlC7IabUFK610VX7mVrii3M9HzuHgOSj%2F%2BDDR7ttBfxNhZ1q6wfdhOc5FITr7oyi" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42916)" target="_blank"><img src="images/unicom011.jpg" /></a></li>
+
+
+
+
+
+
+<li><a href="http://www.189young.com" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1467904066, 42917)" target="_blank"><img src="images/telecom.png" /></a></li>
+
+
+
+</ul>
+
+
+
+
+
+</div></div></div>
+<div class="clear"></div>
+<div class="foot">
+<div class="foot-xx">
+<div class="foot-1"><UL>
+
+<li><a href="http://sac.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43571)">学指委</a></li>
+
+
+<li><a href="http://www.gs.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43572)">研究生院</a></li>
+
+
+<li><a href="http://jwc.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43574)">教务处</a></li>
+
+
+<li><a href="http://bwc.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43605)">保卫处</a></li>
+
+
+<li><a href="http://lib.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43606)">图书馆</a></li>
+
+
+<li><a href="http://archives.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43607)">档案馆</a></li>
+
+</UL></div>
+<div class="foot-2"><UL>
+
+<li><a href="http://electsys.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43579)">教学信息网</a></li>
+
+
+<li><a href="http://affairs.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43578)">学生事务中心</a></li>
+
+
+<li><a href="http://ecard.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43577)">校园卡中心</a></li>
+
+
+<li><a href="http://cc.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43576)">课程中心</a></li>
+
+
+<li><a href="http://net.sjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43575)">网络信息中心</a></li>
+
+</UL></div>
+<div class="foot-3"><UL>
+
+<li><a href="http://www.jdcw.sjtu.edu.cn/payment/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43582)">上海交通大学网上缴费平台</a></li>
+
+
+<li><a href="#" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1467904066, 43584)">交大贴吧</a></li>
+
+</UL></div>
+<div class="ewm">
+<ul>    
+<li><img src="images/wechat.jpg" /><br />上海交大官微</li>
+
+
+</ul></div></div>
+<div class="clear"></div><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<div class="bq">沪交ICP备20151427　版权所有©上海交通大学<br />通讯地址：上海市东川路800号　邮编：200240　查号台：86-21-54740000</div></div>
+
+</body></html>

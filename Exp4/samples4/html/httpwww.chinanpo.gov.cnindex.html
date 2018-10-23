@@ -1,0 +1,1122 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="ie=11,IE-edge,chrome=1">
+<meta name="description" content="中国社会组织公共服务平台是由民政部国家社会组织管理局主办的，为登记管理机关、社会组织以及社会公众提供信息服务和工作交流的政务网站" /> 
+<meta name="author" content="太极计算机股份有限公司-数字政府事业部,http://www.taiji.com.cn.com">
+<meta name="keywords" content="中国社会组织公共服务平台,中国社会组织,社会组织,民间组织,组织,协会,社团,基金会,民非,社会服务机构,外国商会,NGO,CNGO,国家社会组织管理局,社会组织管理局"/>
+<meta name="copyright" content="本页版权归国家社会组织管理局所有。All Rights Reserved">
+<link rel="Shortcut Icon" href="/image/favicon.ico">
+<link rel="Bookmark" href="/image/favicon.ico">
+<title>欢迎访问中国社会组织公共服务平台</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/focuspic.css" rel="stylesheet" type="text/css" />
+<style>
+.left_mark{position:fixed;left:0px;top:50%;width:32px;height:168px;margin-top:-84px;}
+.left_mark ul li{ float:left; list-style:none;position:relative;}
+.left_mark ul li a{width:auto;display: block;border:1px solid #ffffff;text-align:center;color:#ffffff;padding:6px 2px;font-size:16px;}
+.left_mark ul li a.wza-h{width:32px;background-color:#3c88db;margin-bottom:-1px;}
+.left_mark ul li a.code-wx{width:32px;height:30px;background:url(common/images/f029-2.png) no-repeat center;display: block;background-color:#3c88db;border:1px solid #ffffff;}
+.left_mark ul li ul{display:none;font-weight:normal; z-index:9999999;}
+.left_mark ul li:hover ul {display:block; position:absolute; left:37px; border:#f1f1f1 solid 1px; padding:6px; background:#3c88db; z-index:9999999;}
+.left_mark ul li:hover ul.top {top:0px;}
+.left_mark ul li:hover ul.bottom {bottom:0px;}
+.left_mark ul li a.wza-img{ padding:6px;border:none;}
+</style>
+<script type="text/javascript" src="/lib/focuspic/jquery-1.8.3.min.js"></script>
+<!--
+<script type="text/javascript" src="/lib/focuspic/koala.min.1.5.js"></script>
+-->
+<script src="/lib/layer/layer.js"></script>
+<script>
+
+	function toggleLeftNewsTab(index) {
+		var target="newsLeftBox-"+index;
+		resetLeftNewsTabs();
+		document.getElementById('newsLeftTab-'+index).className = "tab-news-on";
+		document.getElementById('newsLeftBox-'+index).style.display = "";
+		$("#"+target).slideDown('fast');
+	}
+
+	function resetLeftNewsTabs(){
+		for(i = 0; i <= 1; i ++){
+			var target="newsLeftBox-"+i;
+			document.getElementById('newsLeftTab-'+i).className = "tab-news";
+			document.getElementById('newsLeftBox-'+i).style.display = "none";
+		}
+	}
+
+	function toggleNewsTab(index) {
+		var target="newsBox-"+index;
+		resetNewsTabs();
+		if(index==2){
+			document.getElementById('newsTab-'+index).className = "on_8";
+		}else if(index==4){
+			document.getElementById('newsTab-'+index).className = "onhov";
+		}else{
+			document.getElementById('newsTab-'+index).className = "tab-news-on";
+		}
+		$("#"+target).slideDown('fast');
+	}
+
+	function resetNewsTabs(){
+		for(i = 1; i <= 4; i ++){
+			var target="newsBox-"+i;
+			document.getElementById('newsTab-'+i).className = "tab-news";
+			document.getElementById('newsBox-'+i).style.display = "none";
+		}
+	}
+
+	 
+	function toggleLabs(value) {
+		if (value == 1) {
+			document.getElementById('yqljDiv').style.display = ""; //显示
+			document.getElementById('yqljImg').style.display = ""; //显示
+			document.getElementById('yqljA').style.display = "none"; 
+			document.getElementById('zfwz').style.display="";
+
+			document.getElementById('lxdfDiv').style.display = "none"; 
+			document.getElementById('lxdfImg').style.display = "none"; 
+			document.getElementById('lxdfA').style.display = ""; //显示
+
+		} else if (value == 2) {
+			document.getElementById('yqljDiv').style.display = "none"; 
+			document.getElementById('yqljImg').style.display = "none"; 
+			document.getElementById('yqljA').style.display = ""; //显示
+			document.getElementById('zfwz').style.display="none";
+
+			document.getElementById('lxdfDiv').style.display = ""; //显示
+			document.getElementById('lxdfImg').style.display = ""; //显示
+			document.getElementById('lxdfA').style.display = "none"; 
+		}
+	}
+	
+</script>
+
+<SCRIPT language=javascript>
+	$(function(){
+		 $(".time").each(function(){ 
+			 if( timeEq($(this).html())) {
+				$(this).prev().children().after("&nbsp;<span><img src='images/new.jpg' width='19' height='9' /></span>")
+			 }
+			});;
+	})
+	function timeEq (strTime) {
+		if(strTime!=""){
+			 var date = new Date();
+			 var timeStr = strTime.split("-");
+			 
+			 if((parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate())) || (parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate()-1)) ) 
+			 {
+				 return true;
+			 }else  {
+				 return false;
+			 }
+		 }else {
+			 return false;
+		 }
+	}
+	
+	$(function(){
+		 $(".time2").each(function(){ 
+			 if( timeEq2($(this).html())) { 
+				$(this).after("&nbsp;<span><img src='images/new.jpg' width='19' height='9' /></span>") 
+			 }
+			});;
+	})
+	function timeEq2 (strTime) {
+		if(strTime!=""){
+			 var date = new Date();
+			 var timeStr = strTime.split("-"); 
+			 if((parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate())) 
+		|| (parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate()-1)) || (parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate()-2)) 
+		|| (parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate()-3)) || (parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate()-4))
+		|| (parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate()-5)) ||(parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate()-6)) 
+		|| (parseInt(timeStr[0]) == parseInt(date.getMonth()+1) && parseInt(timeStr[1]) == parseInt(date.getDate()-6)) ) 
+			 {
+				 return true;
+			 }else  {
+				 return false;
+			 }
+		 }else {
+			 return false;
+		 }
+	}
+</SCRIPT>
+<!--
+<script type="text/javascript">
+	Qfast.add('widgets', { path: "/lib/focuspic/terminator2.2.min.js", type: "js", requires: ['fx'] });  
+	Qfast(false, 'widgets', function () {
+		K.tabs({
+			id: 'fsD1',   /*焦点图包裹id  */
+			conId: "D1pic1",  /** 大图域包裹id  */
+			tabId:"D1fBt",  
+			tabTn:"a",
+			conCn: '.fcon', /** 大图域配置class    */   
+			auto: 1,   /*自动播放 1或0*/
+			effect: 'fade',   /*效果配置*/
+			eType: 'click', //** 鼠标事件*/
+			pageBt:true,/*是否有按钮切换页码*/
+			bns: ['.prev', '.next'],/** 前后按钮配置class  */                        
+			interval: 3000  /** 停顿时间  */
+		}) 
+	})   
+</script>
+-->
+<body>
+<table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" style="background-image: url(/common/images/top-bg.jpg);background-repeat: repeat-x;height:188px;min-width:1096px;"><img src="/common/images/top-i.jpg"  height="188" /></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="1096">
+		<table width="1096" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr><td height="1"></td></tr>
+			<tr>
+	            <td rowspan="2" colspan="1" width="898">
+	            	<a href="https://dj.chinanpo.gov.cn/" target="_blank"><img src="images/19_npc2.jpg" width="898"></a>
+	            </td>
+	            <td width="402" width="190" height="47">
+	            	<a href="https://dj.chinanpo.gov.cn/" target="_blank"><img src="images/ggw1.jpg" width="190"></a>
+	            </td>
+	        </tr>
+	        <tr>
+	            <td width="402" width="190" height="47">
+	            	<a href="https://jijian.chinanpo.gov.cn/" target="_blank"><img src="images/ggw2.jpg" width="190"></a>
+	            </td>
+	        </tr>
+		  <tr><td height="10"></td></tr>
+		</table>
+		<table width="1096" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td width="50%" height="220" valign="top" align="left">
+
+				<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" class="line2"  style="background-color:#e84221;" >
+				  <tr >
+					<td width="21%" align="center"><div id="newsLeftTab-0" class="tab-news-on"><a class="font16" href="/1938/index.html" target="_blank" onmouseover="toggleLeftNewsTab('0')">业务动态</a></div></td>
+					<td width="21%" align="center"><div id="newsLeftTab-1" class="tab-news"><a class="font16-red" href="/1919/index.html" target="_blank" onmouseover="toggleLeftNewsTab('1')">社会组织党建</a></div></td>
+					<td width="28%" align="center"></td>
+					<td width="28%" align="center"></td>
+				  </tr>
+				</table>
+
+			    <div id="newsLeftBox-0" height="220" > 
+				  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+					
+					<tr>
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="86%" height="40" align="left" class="font15">
+					  <a  title="民政部社会组织服务中心纪委举办2018年第二期部管社会组织廉政教育培训班" href="/1938/114840/index.html" target="_blank">
+					
+					民政部社会组织服务中心纪委举办2018年第二期部管社会组织廉政教育培训班
+					</td>
+					  <td width="9%" height="40" class="font12 time" id="getDate">10-19</td>
+					</tr>
+					
+					<tr>
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="86%" height="40" align="left" class="font15">
+					  <a  title="民政部举办2018年第二期全国性社会组织负责人培训暨助力“三区三州”脱贫攻坚交流班" href="/1938/114304/index.html" target="_blank">
+					
+					民政部举办2018年第二期全国性社会组织负责人培训暨助力“三区三州”脱贫攻坚交流班
+					</td>
+					  <td width="9%" height="40" class="font12 time" id="getDate">09-25</td>
+					</tr>
+					
+					<tr>
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="86%" height="40" align="left" class="font15">
+					  <a  title="第六届中国公益慈善项目交流展示会在深圳开幕" href="/1938/114268/index.html" target="_blank">
+					
+					第六届中国公益慈善项目交流展示会在深圳开幕
+					</td>
+					  <td width="9%" height="40" class="font12 time" id="getDate">09-21</td>
+					</tr>
+					
+					<tr>
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="86%" height="40" align="left" class="font15">
+					  <a  title="“社会组织与精准扶贫”高峰论坛成功举办" href="/1938/114261/index.html" target="_blank">
+					
+					“社会组织与精准扶贫”高峰论坛成功举办
+					</td>
+					  <td width="9%" height="40" class="font12 time" id="getDate">09-21</td>
+					</tr>
+					
+					<tr>
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="86%" height="40" align="left" class="font15">
+					  <a  title="民政部：利用大数据打击整治非法社会组织" href="/1938/114213/index.html" target="_blank">
+					
+					民政部：利用大数据打击整治非法社会组织
+					</td>
+					  <td width="9%" height="40" class="font12 time" id="getDate">09-19</td>
+					</tr>
+					
+				  </table>
+				</div>
+
+				<div id="newsLeftBox-1" height="220" style="display:none;"> 
+				  <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+					
+					<tr class="line1">
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="85%" height="40" align="left" class="font15">
+						<a  title="天津举办社会组织党建工作专题培训班" href="/1919/114839/index.html" target="_blank">
+						天津举办社会组织党建工作专题培训班
+						</a> 
+					  </td>
+					  <td width="10%" height="40" align="center" class="font12 time" >10-19</td>
+					</tr> 
+					
+					<tr class="line1">
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="85%" height="40" align="left" class="font15">
+						<a  title="河北清河“四个一”破解社会组织党建难题" href="/1919/114810/index.html" target="_blank">
+						河北清河“四个一”破解社会组织党建难题
+						</a> 
+					  </td>
+					  <td width="10%" height="40" align="center" class="font12 time" >10-18</td>
+					</tr> 
+					
+					<tr class="line1">
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="85%" height="40" align="left" class="font15">
+						<a  title="四川省邮管局开展行业社会组织“两个覆盖”行动" href="/1919/114785/index.html" target="_blank">
+						四川省邮管局开展行业社会组织“两个覆盖”行动
+						</a> 
+					  </td>
+					  <td width="10%" height="40" align="center" class="font12 time" >10-17</td>
+					</tr> 
+					
+					<tr class="line1">
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="85%" height="40" align="left" class="font15">
+						<a  title="陕西韩城首个社会组织党群服务中心成立" href="/1919/114782/index.html" target="_blank">
+						陕西韩城首个社会组织党群服务中心成立
+						</a> 
+					  </td>
+					  <td width="10%" height="40" align="center" class="font12 time" >10-17</td>
+					</tr> 
+					
+					<tr class="line1">
+					  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+					  <td width="85%" height="40" align="left" class="font15">
+						<a  title="江苏徐州出台相关实施方案 加强和改进社会组织党建工作" href="/1919/114778/index.html" target="_blank">
+						江苏徐州出台相关实施方案 加强和改进社会组织党建工作
+						</a> 
+					  </td>
+					  <td width="10%" height="40" align="center" class="font12 time" >10-17</td>
+					</tr> 
+					
+					</table>
+				</div> 
+			</td>
+			<td width="50%" valign="top" align="right">
+			  
+			  <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0" class="line2" background="/images/tab_bg.jpg">
+				<tr>
+				  <td width="21%" align="center"><div id="newsTab-1" class="tab-news-on"><a class="font16" href="/shzzfp.html" target="_blank" onmouseover="toggleNewsTab('1')">精准扶贫</a></div></td>
+				  <td width="28%" align="center"><div id="newsTab-2" class="tab-news"><a class="font16" href="/1942/index.html" target="_blank" onmouseover="toggleNewsTab('2')">打击非法社会组织</a>&nbsp;</div></td>
+				  <td width="21%" align="center"><div id="newsTab-3" class="tab-news"><a class="font16" href="/3501/index.html" target="_blank" onmouseover="toggleNewsTab('3')">地方亮点</a></div></td>
+				  <td width="28%" align="center"><div id="newsTab-4" class="tab-news"><a class="font16" href="/6000/index.html" target="_blank" onmouseover="toggleNewsTab('4')">社会组织风采</a></div></td>
+				</tr>
+			  </table>
+
+		  <div id="newsBox-1" height="220" >
+			  <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a title="山西高校志愿者深入贫困县宣传资助政策" href="/1943/114832/index.html" target="_blank">
+					山西高校志愿者深入贫困县宣传资助政策
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-19</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a title="贵州息烽县慈善嘉年华助力大扶贫" href="/1943/114829/index.html" target="_blank">
+					贵州息烽县慈善嘉年华助力大扶贫
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-19</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a title="习近平：咬定目标加油干 如期打赢脱贫攻坚战" href="/1943/114818/index.html" target="_blank">
+					习近平：咬定目标加油干 如期打赢脱贫攻坚战
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-18</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a title="四川南充社会组织举行扶贫日宣传活动" href="/1943/114815/index.html" target="_blank">
+					四川南充社会组织举行扶贫日宣传活动
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-18</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a title="上海社会组织投身社区、郊区和对口支援地区建设助力帮困扶贫" href="/1943/114784/index.html" target="_blank">
+					上海社会组织投身社区、郊区和对口支援地区建设助力帮困扶贫
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-17</td>
+				</tr>
+				
+			</table>
+		  </div>
+
+		  <div id="newsBox-2" style="display:none;" height="220" >
+			  <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="天津滨海新区31家社会组织被撤销登记" href="/1942/114786/index.html" target="_blank">
+					天津滨海新区31家社会组织被撤销登记
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-17</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="宁夏47家违规社会组织被撤销登记" href="/1942/114756/index.html" target="_blank">
+					宁夏47家违规社会组织被撤销登记
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-16</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="宁夏召开打击整治非法社会组织专项行动推进会" href="/1942/114736/index.html" target="_blank">
+					宁夏召开打击整治非法社会组织专项行动推进会
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-15</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="广东东莞公布5家涉嫌非法社会组织名单" href="/1942/114583/index.html" target="_blank">
+					广东东莞公布5家涉嫌非法社会组织名单
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-11</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="福建南安出台社会组织异常名录和失信黑名单管理办法" href="/1942/114579/index.html" target="_blank">
+					福建南安出台社会组织异常名录和失信黑名单管理办法
+				  </a> 
+				</td>
+				<td width="10%" height="40" align="center" class="font12 time">10-11</td>
+				</tr>
+				
+			</table>
+		  </div>
+
+		  <div id="newsBox-3" style="display:none;" height="220" >
+			  <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="深圳召开社工机构检查工作小结会议" href="/3501/114833/index.html" target="_blank">
+					深圳召开社工机构检查工作小结会议
+				  </a> 
+				</td>
+				  <td width="10%" height="40" align="center" class="font12 time">10-19</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="江苏连云港加强社会组织信用信息管理" href="/3501/114830/index.html" target="_blank">
+					江苏连云港加强社会组织信用信息管理
+				  </a> 
+				</td>
+				  <td width="10%" height="40" align="center" class="font12 time">10-19</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="贵州黔东南州整改规范社会组织名称" href="/3501/114827/index.html" target="_blank">
+					贵州黔东南州整改规范社会组织名称
+				  </a> 
+				</td>
+				  <td width="10%" height="40" align="center" class="font12 time">10-19</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="广东佛山首个社会工作服务管理系统上线" href="/3501/114826/index.html" target="_blank">
+					广东佛山首个社会工作服务管理系统上线
+				  </a> 
+				</td>
+				  <td width="10%" height="40" align="center" class="font12 time">10-19</td>
+				</tr>
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+				  <a title="浙江台州楚门禁毒社工开出戒毒“良药”" href="/3501/114838/index.html" target="_blank">
+					浙江台州楚门禁毒社工开出戒毒“良药”
+				  </a> 
+				</td>
+				  <td width="10%" height="40" align="center" class="font12 time">10-19</td>
+				</tr>
+				
+			</table>
+		  </div>
+
+		  <div id="newsBox-4" style="display:none;" height="220" > 
+			  <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a  title="中国煤炭工业协会第五次会员代表大会在京召开" href="/6000/114837/index.html" target="_blank">
+					中国煤炭工业协会第五次会员代表大会在京召开
+					</a> 
+				  </td>
+				  <td width="10%" height="40" align="center" class="font12 time" >10-19</td>
+				</tr> 
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a  title="2018年国际减贫与发展国际论坛暨扶贫志愿服务论坛在京举行" href="/6000/114824/index.html" target="_blank">
+					2018年国际减贫与发展国际论坛暨扶贫志愿服务论坛在京举行
+					</a> 
+				  </td>
+				  <td width="10%" height="40" align="center" class="font12 time" >10-19</td>
+				</tr> 
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a  title="浙江：协会助力打响宁波户外运动品牌" href="/6000/114836/index.html" target="_blank">
+					浙江：协会助力打响宁波户外运动品牌
+					</a> 
+				  </td>
+				  <td width="10%" height="40" align="center" class="font12 time" >10-19</td>
+				</tr> 
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a  title="天津西青区志愿者协会成立" href="/6000/114835/index.html" target="_blank">
+					天津西青区志愿者协会成立
+					</a> 
+				  </td>
+				  <td width="10%" height="40" align="center" class="font12 time" >10-19</td>
+				</tr> 
+				
+				<tr class="line1">
+				  <td width="5%" height="40" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="85%" height="40" align="left" class="font15">
+					<a  title="四川遂宁社工志愿者“培力计划”服务进基层" href="/6000/114834/index.html" target="_blank">
+					四川遂宁社工志愿者“培力计划”服务进基层
+					</a> 
+				  </td>
+				  <td width="10%" height="40" align="center" class="font12 time" >10-19</td>
+				</tr> 
+				
+			</table>
+		  </div>
+
+			</td>
+		  </tr>
+		</table>
+		<table width="1095" border="0" align="center" cellpadding="5" cellspacing="0">
+		  <tr>
+			<td  width="565" align="right"><img src="images/i_bsdt.jpg" usemap="#Map"usemap="#Map" /></td>
+			<td  width="530" align="left"><a id="orgcx" href="/search/orgindex.html" target="_blank"><img src="images/i_zzcx.jpg" /></a></td> 
+		  </tr> 
+		</table>
+		<table width="1095" border="0" align="center" cellpadding="5" cellspacing="0">
+		 <tr>
+			
+			<td width="20%" align="center"><a href="http://jb.chinanpo.gov.cn" target="_blank"><img src="images/img-tsjb.jpg" /></a></td>
+			<td width="20%" align="center"><a href="/bsfw/index.html" target="_blank"><img src="images/i_bszn.jpg" /></a></td> 
+			<td width="20%" align="right"><a href="http://data.chinanpo.gov.cn" target="_blank"><img src="images/i_dsjfx.jpg"  width="165" height="84"/></a></td>
+			<td width="40%" align="left"><img src="images/i_ycml.jpg" usemap="#Xyxt"/></td>
+		  </tr>
+		</table>
+
+		<table width="100" border="0" align="center" cellpadding="0" cellspacing="0" >
+		  <tr>
+			<td height="5"></td>
+		  </tr>
+		</table> 
+		<table width="1096" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+		   <td width="298" height="86" valign="top">
+		   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+				  <td height="7"></td>
+				</tr>
+			  </table>
+		   <table width="97%" border="0" align="center" cellpadding="0" cellspacing="0" class="line2">
+			  <tr >
+				<td width="25%" height="39" align="left" class="font-18b" ><a class="font-18b" href="/2351/index.html" target="_blank">
+					<img src="images/img-tzgg.jpg"/>
+					</a></td>
+			  </tr>
+			</table>
+			  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr> <td height="9"></td> 
+				</tr>
+			  </table>
+			  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="民办非企业单位2017年度检查结论公告（第一批）" href="/2351/114823/index.html" target="_blank">
+				
+				民办非企业单位2017年度检查结论公告（第一批）
+				</td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">10-18</td>
+				</tr>
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="民政部社会组织管理局关于中国老区建设促进会参与脱贫攻坚有关工作情况的通报" href="/2351/114770/index.html" target="_blank">
+				
+				民政部社会组织管理局关于中国老区建设促进会参与脱贫攻坚有关工作情况的通报
+				</td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">10-16</td>
+				</tr>
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="关于举办2018年第三期社会组织负责人培训暨助力“三区三州”脱贫攻坚交流班的通知" href="/2351/114769/index.html" target="_blank">
+				
+				关于举办2018年第三期社会组织负责人培训暨助力“三区三州”脱贫攻坚交流班的通知
+				</td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">10-16</td>
+				</tr>
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="民政部对中国地名学会违规设立分支机构的行为作出停止活动一个月的行政处罚" href="/2351/114750/index.html" target="_blank">
+				
+				民政部对中国地名学会违规设立分支机构的行为作出停止活动一个月的行政处罚
+				</td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">10-15</td>
+				</tr>
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="民政部严厉查处社团违规涉企收费行为 对中国建筑业协会等3家社团作出行政处罚" href="/2351/114748/index.html" target="_blank">
+				
+				民政部严厉查处社团违规涉企收费行为 对中国建筑业协会等3家社团作出行政处罚
+				</td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">10-15</td>
+				</tr>
+				
+				
+			</table></td>
+			<td width="50%" valign="top">
+			 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+				  <td height="7"></td>
+				</tr>
+			  </table>
+			<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0" class="line2">
+			  <tr>
+				<td width="25%" height="39" align="left" class="font-18b"><a class="font-18b" href="/bgtnews/index.html" target="_blank">
+					<img src="images/img-bgt.jpg"/></a> 
+				</td>
+				<td width="25%" height="39" align="right" class="font-18b"><a class="font-18b" href="/sxffOrg/index.html" target="_blank">
+					<img src="images/img-sxff.jpg" width="260"/></a> 
+				</td>
+				</tr>
+			</table>
+			  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+				  <td height="9"></td>
+				</tr>
+			</table>
+			<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="民政部对中国地名学会违规设立分支机构的行为作出停止活动一个月的行政处罚" href="/800102/114751/newsbgtindex.html" target="_blank">
+				
+				民政部对中国地名学会违规设立分支机构的行为作出停止活动一个月的行政处罚
+				</a></td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">10-15</td>
+				</tr>
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="民政部严厉查处社团违规涉企收费行为 对中国建筑业协会等3家社团作出行政处罚" href="/800102/114749/newsbgtindex.html" target="_blank">
+				
+				民政部严厉查处社团违规涉企收费行为 对中国建筑业协会等3家社团作出行政处罚
+				</a></td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">10-15</td>
+				</tr>
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="1800多个非法社会组织被取缔或劝散" href="/800102/113646/newsbgtindex.html" target="_blank">
+				
+				1800多个非法社会组织被取缔或劝散
+				</a></td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">08-24</td>
+				</tr>
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="哪些“大帽子”文艺社团是“李鬼”──山寨文艺社团调查" href="/800102/113468/newsbgtindex.html" target="_blank">
+				
+				哪些“大帽子”文艺社团是“李鬼”──山寨文艺社团调查
+				</a></td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">08-21</td>
+				</tr>
+				
+				<tr>
+				  <td width="5%" height="42" align="center"><img src="images/i.jpg" width="5" height="5" /></td>
+				  <td width="86%" height="42" align="left" class="font15">
+				  <a  title="原慈孝特困老人救助基金会理事长被判无期" href="/800102/113382/newsbgtindex.html" target="_blank">
+				
+				原慈孝特困老人救助基金会理事长被判无期
+				</a></td>
+				  <td width="9%" height="42" class="font12 time" id="getDate">08-16</td>
+				</tr>
+				
+
+			</table></td>
+		  </tr>
+		</table>
+		<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td height="2"> </td>
+		  </tr>
+		</table>
+		<table width="1096" border="0" align="center" cellpadding="5" cellspacing="0">
+		  <tr>
+			<td width="25%" align="right"><a href="/zcfgindex.html" target="_blank"><img src="images/img-zcfg.jpg" width="261" height="94" /></a></td>
+			<td width="25%" align="center"><a href="http://cishan.chinanpo.gov.cn" target="_blank"><img src="images/img-cszzgk.jpg" width="261" height="94" /></a></td>
+			<td width="25%" align="center"><a href="/ndbgsindex.html" target="_blank"><img src="images/img-ndbg.jpg" width="261" height="94" /></a></td>
+			<td width="25%" align="left"><a href="/tgnews/index.html" target="_blank"><img src="images/img-hyxh.jpg" width="261" height="94" /></a></td>
+		  </tr>
+
+		</table>
+		<table width="1096" border="0" align="center" cellpadding="5" cellspacing="0">
+		 <tr>
+			<td width="25%" align="right"><a href="http://www.chinavolunteer.cn/" target="_blank"><img src="images/i-zyzc.jpg" width="261" height="94" /></a></td>
+			<td width="25%" align="center"><a href="/xiangmu/" target="_blank"><img src="images/img-czzc.jpg" width="261" height="94" /></a></td>
+			<td width="25%" align="center"><a href="/pg/index.html" target="_blank"><img src="images/img-zzpg.jpg" width="261" height="94" /></a></td>
+			<td width="25%" align="left"><a href="https://px.chinanpo.gov.cn/" target="_blank"><img src="images/img-jypx-1.jpg" width="261" height="94" /></a></td>
+		  </tr>
+
+		</table>
+		<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+		   <td height="2"> </td>
+		  </tr>
+		</table>
+		<table width="1096" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td width="33%" height="86" valign="top">
+			<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+		   <td height="7"> </td>
+		  </tr>
+		</table>
+			<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0" class="line2">
+			  <tr >
+				<td width="25%" height="39" align="left" class="font-18b"><a class="font-18b" href="/xzxknew.html" target="_blank">
+					<img src="images/img-xzxk.jpg"/>
+				</a></td>
+			  </tr>
+			</table> 
+			
+			  <table width="94%" border="0" align="center" cellpadding="0" cellspacing="2">
+				<tr class="border-01">
+				  <td width="66%" height="28" align="center" class="border-01">社会组织名称</td>
+				  <td width="22%" align="center" class="border-01">许可事项 </td>
+				  <td width="12%" align="center" class="border-01"> 结果</td>
+				</tr>
+			  </table>
+			  <iframe id="xzxk_idx" src="/xzxkindex.html" height="108" width="100%" align="center"  frameborder="0" scrolling="No"></iframe> 
+			  </td>
+			<td width="33%" valign="top">
+			<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+		   <td height="7"> </td>
+		  </tr>
+		</table>
+			<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0" class="line2">
+			  <tr>
+				<td width="25%" height="39" align="left" class="font-18b"><a class="font-18b" href="/xzcf/xzcfList.html" target="_blank">
+					<img src="images/img-xzcf.jpg"/>
+				</a></td>
+			  </tr>
+			</table>
+		  
+			  <table width="94%" border="0" align="center" cellpadding="0" cellspacing="2">
+				<tr class="border-01">
+				  <td width="59%" height="28" align="center" class="border-01">社会组织名称</td> 
+				  <td width="41%" align="center" class="border-01"> 处罚结果</td>
+				</tr>
+			  </table>
+			  <iframe id="xzcf_idx" src="/xzcfList.html" height="108" width="100%" align="center"  frameborder="0" scrolling="No"></iframe>  
+			  
+			  </td>
+			<td width="33%" valign="top">
+			<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+		   <td height="7"> </td>
+		  </tr>
+		</table>
+			<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0" class="line2">
+			  <tr>
+				<td width="25%" height="39" align="left" class="font-18b"><a class="font-18b" href="/54001/index.html" target="_blank">
+					<img src="images/img-cszz.jpg"/>
+				</a></td>
+			  </tr>
+			</table>
+			
+			 <table width="94%" border="0" align="center" cellpadding="0" cellspacing="2">
+				<tr class="border-01">
+				  <td width="59%" height="28" align="center" class="border-01">社会组织名称</td>
+				  <td width="41%" align="center" class="border-01">事项</td>
+				</tr>
+			  </table>
+			  <table width="94%" border="0" align="center" cellpadding="0" cellspacing="0"> 
+				
+				  <tr>
+				  <td width="59%" height="33" align="left" class="font15">
+				  <a href="#" title="民生人寿保险公益基金会">民生人寿保险公益基金会</a>
+				  <font class="time2" style="display:none;">10-08</font> 
+				  </td>
+				  <td width="41%" align="center"><a href="#">认定为慈善组织</a></td>
+				</tr> 
+				 
+				  <tr>
+				  <td width="59%" height="33" align="left" class="font15">
+				  <a href="#" title="光华工程科技奖励基金会">光华工程科技奖励基金会</a>
+				  <font class="time2" style="display:none;">10-08</font> 
+				  </td>
+				  <td width="41%" align="center"><a href="#">认定为慈善组织</a></td>
+				</tr> 
+				 
+				  <tr>
+				  <td width="59%" height="33" align="left" class="font15">
+				  <a href="#" title="健坤慈善基金会">健坤慈善基金会</a>
+				  <font class="time2" style="display:none;">10-08</font> 
+				  </td>
+				  <td width="41%" align="center"><a href="#">认定为慈善组织</a></td>
+				</tr> 
+				 
+			  </table></td>
+		  </tr>
+		</table>
+
+		<table width="1096" border="0" align="center" cellpadding="5" cellspacing="0">
+		 <tr>
+			<td width="25%" align="right"><a href="http://lyzx.mca.gov.cn:8280/consult/Search.do?OP=cat&infoCat=2" target="_blank"><img src="images/img-lyzx.jpg" width="261"  /></a></td>
+			<td width="25%" align="center"><a href="/lianst/index.html" target="_blank"><img src="images/img-last.jpg" width="261" /></a></td>
+			<td width="25%" align="center"><a href="/700106/newswjindex.html" target="_blank"><img src="images/img-yjck.jpg" width="261"  /></a></td> 
+			<td width="25%" align="left"><a href="/lxwm.html" target="_blank"><img src="images/img-lxwm.jpg" width="261"   /></a></td>
+		  </tr>
+		</table>
+		<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td height="3"></td>
+		  </tr>
+		</table> 
+		<table width="1096" border="0" align="center" cellpadding="5" cellspacing="0">
+		  <tr>
+			<td width="70" height="30" align="center"><a id="yqljA" href="#" class="font18black" onclick="toggleLabs(1)" style="display:none;" onmouseover="toggleLabs(1)">友情链接</a><span id="yqljImg"><img src="images/img-yqlj.jpg" width="78" height="29"  onclick="toggleLabs(1)" /></span></td>
+			<td width="70" align="center"><a id="lxdfA" href="#" class="font18black" onclick="toggleLabs(2)" onmouseover="toggleLabs(2)">联系地方</a><span id="lxdfImg" style="display:none;"><img src="images/img-lxdf.jpg" width="78" height="29"  onclick="toggleLabs(2)" /></span></td>
+			<td width="538" align="right">&nbsp;</td>
+			<td width="265" align="right">&nbsp;</td>
+		  </tr>
+		</table>
+		<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td height="5"></td>
+		  </tr>
+		</table>
+		  
+		<table width="1096" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td align="center">
+
+			<div style="width:auto; padding:0px 20px 10px 20px;display:none;" align="center" id="lxdfDiv">
+				<span class="df-div-1" style="width:1024px; padding:5px; float:left; border:none;">
+					<ul>
+						<li><a href="http://www.bjsstb.gov.cn/" target="_blank">北京</a></li>
+						<li><a href="http://www.tjstj.gov.cn/" target="_blank">天津</a></li>
+						<li><a href="http://www.hebmz.gov.cn/" target="_blank">河北</a></li>
+
+						<li><a href="http://www.sxmz.gov.cn/" target="_blank">山西</a></li>
+
+						<li><a href="http://www.nmgmz.gov.cn/nscs/shzz_200/jgml_205/" target="_blank">内蒙古</a></li>
+						<li><a href="http://lnnpo.lndca.gov.cn/" target="_blank">辽宁</a></li>
+						<li><a href="http://mzt.jl.gov.cn/" target="_blank">吉林</a></li>
+						<li><a href="http://www.hljmjzz.cn/" target="_blank">黑龙江</a></li>
+
+						<li><a href="http://www.shstj.gov.cn/" target="_blank">上海</a></li>
+						<li><a href="http://shzzxy.jsmz.gov.cn:8190/camsjs/" target="_blank">江苏</a></li>
+						<li><a href="http://www.zjmz.gov.cn/" target="_blank">浙江</a></li>
+
+						<li><a href="http://www.ahnpo.gov.cn/" target="_blank">安徽</a></li>
+						<li><a href="http://www.fjsmzt.gov.cn/xxgk/jggk/cszz/mgj/" target="_blank">福建</a></li>
+						<li><a href="http://www.jxmjzz.cn/" target="_blank">江西</a></li>
+
+						<li><a href="http://www.sdnpo.gov.cn/" target="_blank">山东</a></li>
+						<li><a href="http://www.hnmjzz.org.cn/" target="_blank">河南</a></li>
+
+						<li><a href="http://www.hbshzz.gov.cn/" target="_blank">湖北</a></li>
+						<li><a href="http://mzt.hunan.gov.cn/" target="_blank">湖南</a></li>
+
+						<li><a href="http://www.gdnpo.gov.cn/" target="_blank">广东</a></li>
+						<li><a href="http://www.gxnpo.gov.cn/" target="_blank">广西</a></li>
+						<li><a href="http://mz.hainan.gov.cn/" target="_blank">海南</a></li>
+
+						<li><a href="http://www.scmz.gov.cn/" target="_blank">四川</a></li>
+						<li><a href="http://222.177.8.134:9051/camscq/jsp/ext/onlineservice/sorg/creditAppMain.jsp" target="_blank">重庆</a></li>
+						<li><a href="http://www.gznpo.gov.cn/" target="_blank">贵州</a></li>
+						<li><a href="http://www.ynmz.gov.cn" target="_blank">云南</a></li>
+						<!--
+						<li><a href="#" target="_blank">西藏</a></li>
+						-->
+						<li><a href="http://sgj.saxmz.gov.cn/" target="_blank">陕西</a></li>
+						<li><a href="http://www.gsshzzw.gov.cn/" target="_blank">甘肃</a></li>
+						<li><a href="http://www.qhsgj.gov.cn/" target="_blank">青海</a></li>
+						<li><a href="http://nxnpo.nxmca.gov.cn/" target="_blank">宁夏</a></li>
+						
+						<li><a href="http://www.xjmca.gov.cn/" target="_blank">新疆</a></li>
+						<li><a href="http://mzj.xjbt.gov.cn/" target="_blank">新疆兵团</a></li>
+
+						<li><a href="http://www.szmz.sz.gov.cn/" target="_blank">深圳</a></li>
+						<li><a href="" target="_blank">青岛</a></li>
+						<li><a href="http://minzh.dl.gov.cn" target="_blank">大连</a></li>
+						<li><a href="http://www.xmmzj.gov.cn/" target="_blank">厦门</a></li>
+						<li><a href="http://nbshzz.nbmz.gov.cn/" target="_blank">宁波</a></li> 
+						
+						<!--
+						<li><a href="http://www.chinanpo.gov.cn/rlinkList.do?action=list&catCode=RLINK_LLXC" target="_blank">其他</a></li>
+						-->
+					</ul>
+				</span>
+			</div>
+				
+			<DIV id="yqljDiv"  style="padding:10px 20px 10px 20px;" align="center">
+				<UL>
+					<LI class="ej-li" style="WIDTH: 25%; FLOAT: left; align: center"><A href="http://www.gov.cn/" target="_blank"><IMG border=0 src="images/zgzfw.jpg"></A> </LI>
+					<LI class="ej-li" style="WIDTH: 25%; FLOAT: left; align: center"><A href="http://www.mca.gov.cn/" target="_blank"><IMG border=0 src="images/mzb.jpg"></A> </LI>
+					<!--<LI class="ej-li" style="WIDTH: 25%; FLOAT: left; align: center"><A href="http://www.creditchina.gov.cn/" target="_blank"><IMG border=0 src="images/xyzg.jpg"></A> </LI> -->
+					<LI class="ej-li" style="WIDTH: 25%; FLOAT: left; align: center"><A href="http://www.chinasocialwork.cn/" target="_blank"><IMG border=0 src="images/zhshgzw.jpg"></A> </LI>
+					<LI class="ej-li"  style="WIDTH: 25%; FLOAT: left; align: center"><A href="http://www.chinavolunteer.cn/" target="_blank"><IMG border=0 src="images/zgzyfww.jpg"></A> </LI>
+				</UL>
+			</DIV>
+			</td>
+		  </tr>
+		</table>
+		<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+			<tr>
+			<td height="10"></td>
+			</tr>
+		</table>
+		<table width="1096" border="0" align="center" cellpadding="5" cellspacing="0" id="zfwz">
+		 <tr>
+			<td width="25%" align="right"><a href="http://www.creditchina.gov.cn/" target="_blank"><img src="images/img_xyzg.jpg" width="261" height="45" /></a></td>
+			<td width="25%" align="center"><a href="http://jgjs.scopsr.gov.cn/query/list" target="_blank"><img src="images/img_zgjgjs.jpg" width="261" height="45" /></a></td>
+			<td width="25%" align="center"><a href="http://www.gsxt.gov.cn/index.html" target="_blank"><img src="images/img_gjqy.jpg" width="261" height="45" /></a></td>
+			<td width="25%" align="left"><a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action"  target="_blank"><img src="images/img_bajs.jpg" width="261" height="45" /></a></td>
+		  </tr>
+		</table>
+		<table width="100" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+		<td height="16"></td>
+		</tr>
+		</table>
+	</td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="150" bgcolor="#2d5fb1"><table border="0" align="center" cellpadding="0" cellspacing="0" style="min-width:1096px;">
+      <tr>
+        <td align="center"><table width="720" border="0" cellspacing="0" cellpadding="5">
+          <tr> 
+            <td width="20%" align="right"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/33/000/0000/60553604/CA330000000605536040002.js' type='text/javascript'%3E%3C/script%3E"));</script></td>
+            <td width="80%" style="color: #FFF;font-size:15px;font-family:'微软雅黑';" align="left">主办方：民政部社会组织管理局(社会组织执法监察局、社会工作司) 版权所有 <br />
+              ICP备案编号：京ICP备13012430号-6 <br />
+              技术支持：太极计算机股份有限公司 
+			  <script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3adce665674fbfb5552846b40f1c3cbc' type='text/javascript'%3E%3C/script%3E")); </script>
+			  </td>
+          </tr>
+        </table></td>
+        <!--<td width="20%" align="left"><img src="/common/images/code-wx.jpg" width="98" height="98" /></td>-->
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<map name="Map" id="Map">
+  <!--<area shape="rect" coords="176,7,343,38" href="/npowork/platform/shetuan/npo.do?catlog=s02" target="_blank"/> 
+  <area shape="rect" coords="357,7,522,38" href="/npowork/platform/jjh/npo.do?catlog=s01" target="_blank"/>
+  <area shape="rect" coords="175,45,343,80" href="/npowork/platform/minfei/npo.do?catlog=s03" target="_blank"/>
+  <area shape="rect" coords="357,45,522,80" href="/npowork/platform/jwjjh/npo.do?catlog=s04" target="_blank"/>
+  -->
+  <area shape="rect" coords="176,7,343,38" href="/npowork/platform/shetuan" target="_blank"/> 
+  <area shape="rect" coords="357,7,522,38" href="/npowork/platform/jjh" target="_blank"/>
+  <area shape="rect" coords="175,45,343,80" href="/npowork/platform/minfei" target="_blank"/>
+  <area shape="rect" coords="357,45,522,80" href="/npowork/platform/jwjjh" target="_blank"/>
+ 
+</map>
+
+
+<map name="Xyxt" id="Xyxt">
+
+  <area shape="rect" coords="25,15,299,70" href="/noticesearch/searchIndex.html" target="_blank"/> 
+  <area shape="rect" coords="316,15,511,43" href="/xy/ycmlList.html" target="_blank"/>
+  <area shape="rect" coords="316,45,511,72" href="/xy/yzwfmdList.html" target="_blank"/>
+</map>
+
+<div class="left_mark">
+  <ul>
+	<li>
+	  <a href="/wca.html" class="wza-h">无<br/>障<br/>碍<br/>阅<br/>读</a>
+	  <ul class="top">
+	    <li><a class="wza-img" href="/wca.html" target="_blank" title="无障碍通道"><img src="/common/images/wza-1.png" width="128" /></a></li>
+	  </ul>
+	</li>
+	<li>
+	  <a class="code-wx" href="#"></a>
+	  <ul class="bottom">
+	    <li><img src="/common/images/wx-code-128.jpg" width="128" /></li>
+	  </ul>
+	</li>
+  </ul>
+</div>
+
+</body>
+<script>
+
+	if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+		//跳转移动端页面
+		document.getElementById("orgcx").href="/search/cx_app.html";
+    }
+
+	var toggleIdx=1;
+
+	var toggleLeftIdx=0;
+
+	var timer_5;/*//指定5秒执行新一次 */
+
+	var timer_3;/*//指定3秒执行新一次*/
+	
+	var timer_10 = window.setInterval("taskToggle()",5000);/*//指定10秒执行新一次*/
+
+	var timer_20 = window.setInterval("taskLeftToggle()",5000);;/*//指定10秒执行新一次*/
+
+	function changeTimer(){
+
+		if(toggleIdx==2){
+			if(timer_10){
+				window.clearInterval(timer_10);
+			}
+			timer_5 = window.setInterval("taskToggle()",5000);/*//指定5秒执行新一次*/
+		}
+
+		if(toggleIdx==4){
+			if(timer_5){
+				window.clearInterval(timer_5);
+			}
+			timer_3 = window.setInterval("taskToggle()",3000);/*//指定3秒执行新一次*/
+		}
+		/*
+		if(toggleIdx==1){
+			if(timer_3){
+				window.clearInterval(timer_3);
+			}
+			timer_10 = window.setInterval("taskToggle()",16000);//指定10秒执行新一次
+		}
+		*/
+	}
+
+	function taskLeftToggle(){
+		
+		toggleLeftNewsTab(toggleLeftIdx);
+		//changeLeftTimer()
+		toggleLeftIdx++;
+		if(toggleLeftIdx==2){
+			toggleLeftIdx=0; 
+		}
+		
+	} 
+
+	function taskToggle(){
+		
+		toggleNewsTab(toggleIdx);
+		//changeTimer();
+		toggleIdx++;
+		if(toggleIdx==5){
+			toggleIdx=1; 
+		}
+		
+	} 
+	
+	function changeLeftTimer(){
+
+		if(toggleLeftIdx==1){
+			if(timer_20){
+				window.clearInterval(timer_20);
+			}
+			timer_5 = window.setInterval("taskLeftToggle()",10000);//指定5秒执行新一次
+		}
+		
+	}
+	
+	/*setTimeout('taskToggle()',5000); //指定5秒后刷新一次 */
+	
+
+	/*window.clearInterval(timer);*/
+</script>
+</html>

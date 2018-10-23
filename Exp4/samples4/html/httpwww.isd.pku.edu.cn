@@ -1,0 +1,867 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>北京大学国际合作部留学生办公室</title><META Name="keywords" Content="北京大学国际合作部留学生办公室" />
+
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta name="Description" content="北京大学国际合作部留学生办公室">
+<link rel="shortcut icon" type="image/x-icon" href="dfiles/15965/phpcms/templates/peking/images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="dfiles/15965/phpcms/templates/peking/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="dfiles/15965/phpcms/templates/peking/css/bootstrap-responsive.min.css">
+<link rel="stylesheet" type="text/css" href="dfiles/15965/phpcms/templates/peking/css/common.css">
+<link rel="stylesheet" type="text/css" href="dfiles/15965/phpcms/templates/peking/css/custom-theme/jquery-ui.custom.css">
+<script type="text/javascript" src="dfiles/15965/statics/js/jquery.min.js"></script><script type="text/javascript" src="dfiles/15965/phpcms/templates/peking/js/jquery.switchable.min.js"></script><script type="text/javascript" src="dfiles/15965/phpcms/templates/peking/js/jquery-ui.custom.min.js"></script><script type="text/javascript" src="dfiles/15965/phpcms/templates/peking/js/bootstrap.min.js"></script><script type="text/javascript">
+     $(document).ready(function(){ 
+    $(".parentcat").click(function(){
+        $(".xy_left_k ul").hide();
+        showul = $(this).attr('rel');
+        $("#ul"+showul).slideDown();
+    });
+    
+    
+    
+    $("#changevideo").change(function(){
+        var num = $(this).val();
+        $("embed").hide();
+        $("embed").eq(num).show();
+    });
+});
+    </script>
+<style>
+.quick_k table {
+    float: left;}
+</style>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307003475455525643055748 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1141,'/index.jsp',-1,1409799244)</script>
+</head>
+<body>
+<!--header start-->
+<div class="header header_b cf">
+  <div class="header_k">
+    <h1 class="logo">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm" title="国际合作部留学生办公室"><img src="dfiles/15965/phpcms/templates/peking/images/logo.jpg" width="320" height="240" border="0" alt="国际合作部留学生办公室" title="国际合作部留学生办公室"></a></h1>
+    <span class="sp_fav" style="height: 20px; width: 120px"><span><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><a class="linkss on" href="index.htm" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36415)" style="padding-left:0;">中文版</a>
+<a class="linkss " href="HOME.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36416)">English</a>
+<a class="linkss " href="gywm/rhdd.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36417)">如何到达</a>
+<a class="linkss link-last" href="" data-toggle="dropdown" style="background: none transparent scroll repeat 0% 0%">友情链接</a>
+    <ul class="dropdown-menu" style="margin-left: 54px">
+      <li><a href="http://www.pku.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36418)">北大首页</a></li>
+<li><a href="http://www.oir.pku.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36419)">国合首页</a></li>
+
+    </ul>
+    </span></span>
+    
+   
+
+
+
+
+
+<form action="search.jsp?wbtreeid=1141" method="post" name="a200729a" onsubmit="return subsearchdataa200729a()" class="navbar-form navbar-right" style="display: inline;">
+  <input type="hidden" name="Find" value="find"><input type="hidden" name="entrymode" value="1"><input type="hidden" id="INTEXT2" name="INTEXT2" value=""><input type="hidden" name="news_search_code">
+
+                  <input type="hidden" name="condition" value="0">  
+               
+                <iframe id="intextframea200729a" src="about:blank" scrolling="no" frameborder="0" style="position:absolute;top:0px;left:0px;display:none;"></iframe>
+
+ <div style="margin:0px;display:inline;font-size:12px;position:absolute;right:0;top:55px;">
+<input id="search" name="INTEXT" style="width:150px;border:1px solid #ddd;height:23px;line-height:23px;vertical-align:middle;padding-left:7px;">
+ <input type="submit" align="absmiddle" value="搜 索" style="cursor:pointer;background:#ddd;vertical-align:middle;border:none;font-family:'microsoft YaHei';width:50px;height:25px;">
+ </div>
+
+
+
+
+
+</form>
+<script>
+String.prototype.trim= function()       
+{              
+    var t = this.replace(/(^\s*)|(\s*$)/g, "");     
+    return t.replace(/(^　*)|(　*$)/g, "");     
+}  
+function subsearchdataa200729a()
+{ 
+    if(document.a200729a.INTEXT.value.trim()=="")
+    {
+        alert("请输入查询关键字！");
+        return false;
+    }
+    if(checkDataa200729a(document.a200729a))
+    {
+       return true;  
+    }
+    return false;
+}       
+</script>
+
+    <script language="JavaScript" src="_dwr/engine.js"></script>
+    <script language="JavaScript" src="_dwr/util.js"></script>
+    <script language="JavaScript" src="_dwr/interface/NewsSearchDWR.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search_entry.js"></script>  
+    <script language="JavaScript" src="/system/resource/js/language.js"></script>
+    <script language="JavaScript" src="/system/resource/js/base64.js"></script>
+    <script language="JavaScript" src="/system/resource/js/formfunc.js"></script>    
+    
+    <script>    
+    news_searcha200729a = new vsb_news_search();
+    news_searcha200729a.isShowCode=false;
+    news_searcha200729a.tooltipid = 'tooltipa200729a';
+    news_searcha200729a.apptag = 'intextspana200729a';
+    news_searcha200729a.frametag = 'intextframea200729a';
+    news_search_entrya200729a = new vsb_news_search_entry();
+    news_search_entrya200729a.formname = "a200729a";
+    news_search_entrya200729a.news_search_obj = news_searcha200729a; 
+    news_search_entrya200729a.querytxtsize = 155
+    news_search_entrya200729a.yzmts ="您的查询过于频繁，请输入验证码后继续查询";
+    news_search_entrya200729a.qdstyle ="";
+    news_search_entrya200729a.qdname = "确定";
+    news_search_entrya200729a.qxstyle = "";
+    news_search_entrya200729a.qxname = "取消";
+    news_search_entrya200729a.showstr='请输入查询验证码！';    
+    function checkDataa200729a(formname)
+    {    
+        return news_search_entrya200729a.checkdata(formname)   
+    }
+    </script>
+<script language="javascript" src="/system/resource/js/base64.js"></script> 
+
+    
+    
+    </div>
+  <div class="header_nav"><ul class="navs">
+<li><a class="a_sy" href="index.htm" title="首　页">首　页</a></li>
+<li><a href="gywm/xxjs.htm" title="关于我们">关于我们</a></li>
+<li><a href="lxsq.htm" target="_blank" title="留学申请">留学申请</a></li>
+<li><a href="ORIENTATION/zwb/ORIENTATION.htm" target="_blank" title="ORIENTATION">ORIENTATION</a></li>
+<li><a href="zxxx.htm" target="_blank" title="在校学习">在校学习</a></li>
+<li><a href="bysy.htm" target="_blank" title="毕业事宜">毕业事宜</a></li>
+<li><a href="lxsxy1/zw.htm" title="留学生校友">留学生校友</a></li>
+<li><a href="yxzs1/cjwt.htm" title="院系助手">院系助手</a></li>
+</ul></div>
+</div>
+<!--header end--><script language="javascript">
+$(function() {
+      $('#slider-area').switchable({
+        triggers: ' ',
+        putTriggers: 'appendTo',
+        triggersWrapCls:'ppt_ico',
+        currentTriggerCls:'sele',
+        panels: 'li',
+        initIndex: 0, // display the last panel
+        effect: 'scrollLeft', // taking effect when autoplay == true
+        easing: 'cubic-bezier(.455, .03, .515, .955)', // equal to 'easeInOutQuad'
+        end2end: true, // if set to true, loop == true
+        loop: false, // not taking effect, because end2end == true
+        autoplay: true,
+        interval: 6,
+        api: true // if set to true, Switchable returns API
+      }).play();
+      
+})
+
+</script><!--main start-->
+<div class="main cf">
+  <div class="pptbox cf">
+    <div id="slider-area" class="pptbox_l">
+      <ul>
+            <li>  <a href="info/1296/4409.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 40908)" target="_blank"><img alt="" src="images/17/11/04/24ye06autk/20171115093541255.jpg" style="width:1000px;height:339px"></a> </li>
+<li>  <a href="info/1211/1131.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 36277)" target="_blank"><img alt="" src="images/banner2019.jpg" style="width:1000px;height:339px"></a> </li>
+<li>  <a href="info/1213/1156.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 40909)" target="_blank"><img alt="" src="images/Admissions2019.jpg" style="width:1000px;height:339px"></a> </li>
+<li>  <a href="http://www.isd.pku.edu.cn/lxsq/yksxm.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 36278)" target="_blank"><img alt="" src="images/17/11/04/24ye06autk/3.jpg" style="width:1000px;height:339px"></a> </li>
+<li>  <a href="lxsq/fxwxm/hyjxxm/xqhyjxxm.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 36279)" target="_blank"><img alt="" src="images/17/11/04/24ye06autk/4.jpg" style="width:1000px;height:339px"></a> </li>
+<li>  <a href="http://www.oir.pku.edu.cn/summerschool/" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 36280)" target="_blank"><img alt="" src="images/17/11/04/24ye06autk/5.jpg" style="width:1000px;height:339px"></a> </li>
+<li>  <a href="lxsq/fxwxm/hyjxxm.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 36276)" target="_blank"><img alt="" src="images/17/11/04/24ye06autk/1.jpg" style="width:1000px;height:339px"></a> </li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="main_nav cf"><a class="a_1" href="lxsq.htm" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36420)"><strong>招生信息</strong></a>
+<a class="a_2" href="http://www.studyatpku.com/member/login.do" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36421)"><strong>网上申请</strong></a>
+<a class="a_3" href="index/jxj.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36422)"><strong>奖学金</strong></a>
+<a class="a_4" href="zxxx/qzsx.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36423)"><strong>签证手续</strong></a>
+<a class="a_5" href="cyxz.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36424)"><strong>常用下载</strong></a>
+</div>
+  <div class="left w_300 cf">
+    <div class="notice cf">
+      <h3>公告通知</h3>
+      <div>
+         
+      
+        <ul>
+              <li style="background:url(dfiles/15965/phpcms/templates/peking/images/ggtz-bj.png) repeat-x left 0;height:53px;padding:0;margin-bottom:5px;"><p style="width:240px;margin-top:5px;"><b>[宿舍]</b><a href="info/1296/5142.htm" title="北京大学留学生宿舍网上预定通知">北京大学留学生宿舍网上预定通知</a></p></li>
+<script>_showDynClickBatch(['dynclicks_u7_5142'],[5142],"wbnews", 1409799244)</script>
+
+            <li class=" cf"><span><em>2018/10</em><strong>08</strong></span>
+    <p><b>[预科]</b><a href="info/1296/5208.htm" title="2018年外国留学生预科新老生摄影大赛 ——我在北大玩摆拍">2018年外国留学生预科新老生摄影大赛 ——我在北大玩...</a></p>
+</li>
+
+  <li class=" cf"><span><em>2018/09</em><strong>27</strong></span>
+    <p><b>[]</b><a href="info/1296/5205.htm" title="上海市世界著名企业青年人才发展高峰论坛招募参会留学生">上海市世界著名企业青年人才发展高峰论坛招募参会留学生</a></p>
+</li>
+
+  <li class=" cf"><span><em>2018/09</em><strong>27</strong></span>
+    <p><b>[学习优秀奖]</b><a href="info/1296/5202.htm" title="关于申请2018年北京大学外国留学生学习优秀奖的通知">关于申请2018年北京大学外国留学生学习优秀奖的通知</a></p>
+</li>
+
+  <li class=" cf"><span><em>2018/09</em><strong>17</strong></span>
+    <p><b>[奖学金]</b><a href="info/1296/5199.htm" title="关于申请2018年北京市外国留学生奖学金的通知(在校生-校本部)">关于申请2018年北京市外国留学生奖学金的通知(在校生...</a></p>
+</li>
+
+  <li class=" cf"><span><em>2018/09</em><strong>17</strong></span>
+    <p><b>[招募]</b><a href="info/1296/5198.htm" title="留学生办公室招募学生助理">留学生办公室招募学生助理</a></p>
+</li>
+
+
+<script>_showDynClickBatch(['dynclicks_u8_5208','dynclicks_u8_5205','dynclicks_u8_5202','dynclicks_u8_5199','dynclicks_u8_5198'],[5208,5205,5202,5199,5198],"wbnews", 1409799244)</script>
+
+        </ul>
+      </div>
+      <a class="a_more" href="index/ggtz.htm">更多通知</a> </div>
+  </div>
+  <div class="right w_688 cf">
+    <div class="newscenter cf">
+      <h3>新闻中心</h3>
+      <div class="new_t cf">   <a href="info/1284/5093.htm"><img alt="" src="/__local/2/4F/BB/3E64D092CEBCA141204C012C0E4_FB87A2CE_29668.jpg"></a>
+<div><strong><a href="info/1284/5093.htm" title="“四海一家”外国留学生和校友庆祝北京大学建校120周年献礼演出成功举办">“四海一家”外国留学生和校友庆祝北京大学建校120...</a></strong>
+    <p>4月24日晚，“四海一家”外国留学生和校友庆祝北京大学建校120周年献礼演出在百周年纪念讲堂隆重举行，孔子学院总部副总干事国家汉办副主任赵国成、教育部留学服务中心主任程家财、国家留学基金管理委员会副秘书长张...</p>
+</div>
+<script>_showDynClickBatch(['dynclicks_u9_5093'],[5093],"wbnews", 1409799244)</script>
+</div>
+      <ul>
+           <li><span><a href="info/1284/5204.htm" title="【2018迎新】初入燕园——海外交换学生迎新活动">【2018迎新】初入燕园——海外交换学生迎新活动</a></span><i>2018-09-27</i> </li>
+   <li><span><a href="info/1284/5197.htm" title="从世界到燕园：留学生全英文授课研究生培养说明会">从世界到燕园：留学生全英文授课研究生培养说明会</a></span><i>2018-09-14</i> </li>
+   <li><span><a href="info/1284/5196.htm" title="【2018迎新】本科新生训练营举办“我的北大故事”优秀学生经验分享会">【2018迎新】本科新生训练营举办“我的北大故事”优秀学生经验分享会</a></span><i>2018-09-14</i> </li>
+   <li><span><a href="https://b.xiumi.us/board/v5/3bIJD/106279346?from=groupmessage&isappinstalled=0" title="【2018迎新】迎新手记：来和你的留学生新同学聊聊天（一）">【2018迎新】迎新手记：来和你的留学生新同学聊聊天（一）</a></span><i>2018-09-14</i> </li>
+   <li><span><a href="info/1284/5195.htm" title="【2018迎新】本科新生训练营举办系列名师讲座">【2018迎新】本科新生训练营举办系列名师讲座</a></span><i>2018-09-13</i> </li>
+   <li><span><a href="info/1284/5191.htm" title="【2018迎新】本科新生训练营举办素质拓展训练">【2018迎新】本科新生训练营举办素质拓展训练</a></span><i>2018-09-11</i> </li>
+   <li><span><a href="info/1284/5189.htm" title="【2018迎新】外国留学生本科新生训练营开幕">【2018迎新】外国留学生本科新生训练营开幕</a></span><i>2018-09-11</i> </li>
+   <li><span><a href="info/1284/5183.htm" title="“你好，北大！” ｜2018国际学生步入燕园">“你好，北大！” ｜2018国际学生步入燕园</a></span><i>2018-09-07</i> </li>
+<script>_showDynClickBatch(['dynclicks_u10_5204','dynclicks_u10_5197','dynclicks_u10_5196','dynclicks_u10_5187','dynclicks_u10_5195','dynclicks_u10_5191','dynclicks_u10_5189','dynclicks_u10_5183'],[5204,5197,5196,5187,5195,5191,5189,5183],"wbnews", 1409799244)</script>
+
+      </ul>
+      <a class="morenews" href="index/xwzx.htm">更多新闻</a> </div>
+  </div>
+  <div class="other cf">
+    <div class="left w_310 cf">
+      <div class="vidio m_t_13 cf"> <embed src="http://player.youku.com/player.php/sid/XNjk2NDU1NDAw/v.swf" allowfullscreen="true" quality="high" width="310" height="235" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
+        <ul>
+             <li><a href="http://v.qq.com/page/b/9/i/b0300ba249i.html" target="_blank">Welcome to Peking University</a> </li>
+   <li><a href="http://v.youku.com/v_show/id_XNjk2NDU1NDAw.html" target="_blank">北京大学宣传片——光与影</a> </li>
+   <li><a href="http://v.qq.com/boke/page/h/l/q/h0120701wlq.html" target="_blank">北京大学第十届国际文化节宣传片</a> </li>
+   <li><a href="http://v.youku.com/v_show/id_XNTcyMjQ4Nzk2.html" target="_blank">北京大学宣传片——留学简介</a> </li>
+<script>_showDynClickBatch(['dynclicks_u12_1769','dynclicks_u12_1768','dynclicks_u12_1767','dynclicks_u12_1766'],[1769,1768,1767,1766],"wbnews", 1409799244)</script>
+
+        </ul>
+      </div>
+    </div>
+    <div class="left w_430 cf">
+      <div class="m_t_13 zazhi cf">
+        <h3></h3>
+        <ul class="cf">
+              <li><img alt="" src="images/20171228010743334.jpg"><span><a href="http://a2017/alxbd_qk27q.htm" target="_blank" href="http://a2017/alxbd_qk27q.htm" title="2017年第2期　" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 41061)">2017年第2期　</a></span> </li>
+<li><img alt="" src="images/17/11/10/1hpoi8mev1/1.jpg"><span><a href="http://a2017/lxbd_qk26q.htm" target="_blank" href="http://a2017/lxbd_qk26q.htm" title="2017年第1期" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 36614)">2017年第1期</a></span> </li>
+<li><img alt="" src="images/17/11/10/1hpoi8mev1/2.jpg"><span><a href="http://a2016/lxbd_qk25q.htm" target="_blank" href="http://a2016/lxbd_qk25q.htm" title="2016年第3期" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 36615)">2016年第3期</a></span> </li>
+
+        </ul>
+        <a class="a_more" href="http://www.oir.pku.edu.cn/index.php?g=&m=list&a=index&id=59" target="_blank">更多杂志</a> </div>
+      <div class="m_t_13 shixijiuye cf">
+        <h3></h3>
+        <div class="cf">    <a href="index/sxjy.htm" href="index/sxjy.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1409799244, 36617)"><img src="images/17/11/10/1us52w3f6n/1.jpg"></a>
+</div>
+        <a class="a_more" href="index/sxjy.htm" target="_blank">更多信息</a> </div>
+    </div>
+    <div class="right w_260 cf">
+      <div class="rili m_t_13 cf">       <b><a href="index/hd.htm">EVENTS</a></b>
+          <div class="dayinfo cf">
+               <div> 
+                    <strong id="dayofmonth"></strong> <em id="month"></em> 
+             </div>
+              <p><a href="" id="title"></a></p>
+          </div>
+        <div class="tab_info" id="tab_info">
+       </div>
+       
+       
+       
+       <script>
+         
+       
+    var map = {}; //存储date-json:index对应关系
+    var tb = ["一","二","三","四","五","六","七","八","九","十","十一","十二",
+              "十三","十四","十五","十六","十七","十八","十九","二十","二十一",
+              "二十二","二十三","二十四","二十五","二十六","二十七","二十八","二十九","三十","三十一"];
+    var monthE = ["JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"];
+    var json = [[{
+                     date :"10",
+                     url  :"",
+                     title:"",
+                     add :"",
+                     time :"2016-10-08 16:00",
+                     uri:""
+                    }
+               ],[{
+                     date :"18",
+                     montofyear :"9",
+                     link :"",
+                     title:"",
+                     uri:"",
+                     add :"",
+                     time :"2016-10-08 16:00"
+                    }]];
+    
+    //为Json对象添加date字段   
+    function dealJson(){
+       $.each(json,function(index,item){
+            if (index<3){
+                $.each(item,function(index,_item){
+                    var time = _item["time"];
+                    var regEx = new RegExp("\\-","gi"); 
+                    time=time.replace(regEx,"/");
+                    var date = new Date(time);
+                    _item["date"] = date.getDate();
+                });
+            }
+       });
+    }
+    function getJson(year,date){
+        var url="http://115.27.240.128:8080/system/resource/calendarService.jsp?type=china&calendarselecteddate="+year+"-"+date;
+        $.get(url,function(data,state){
+            console.log(url);
+            json = data;
+           dealJson(); 
+            calUtil.init(json[0]); 
+        }, "json")
+    }
+  
+    
+    //更新通知信息
+    function updateNotice(){
+    var item=json[1][0]; 
+        if (item.title!=undefined){
+            $("#dayofmonth").html(item.date);
+            $("#month").html(monthE[item.montofyear].substr(0 ,3));
+              $("#title").text(item.title+" >>>");
+             // $("#title").attr("href",item.link );
+             $("#title").attr("href",item.uri);
+              
+        }
+    }
+    function updateCalName(date){
+        //var calendarName=  +" "+calUtil.;
+        
+        $(".ui-datepicker-month").html(monthE[calUtil.showMonth-1]+" "); 
+        $(".ui-datepicker-year").html(calUtil.showYear);
+    }
+    $(function(){  
+        //ajax获取日历json数据  
+        //calUtil.init([{"date":""}]);  
+        
+        //默认初始化
+        calUtil.init([{"date":""}]);
+        //使用服务器期时间戳,校正本地日历时间
+        var url="/system/resource/calendarService.jsp?type=china";
+        $.get(url,function(data,state,xhr){
+            var datestr=xhr.getResponseHeader("Date");
+            if(datestr){
+                var date=new Date(datestr);
+                if(date!=undefined){
+                    calUtil.curYear=calUtil.showYear=date.getFullYear();
+                    calUtil.curMonth=calUtil.showMonth=date.getMonth() + 1;
+                    calUtil.curDate=calUtil.showDate=date.getDate();
+                }
+            }
+            calUtil.getCurJson();
+        },"json")
+
+        
+    }); 
+//getJson(calUtil.showYear,calUtil.showMonth);
+var calUtil = {
+  //当前日历显示的年份
+  showYear:2017,
+  //当前日历显示的月份
+  showMonth:1,
+  //当前日历显示的天数
+  showDate:1,
+  showUrl:"",
+  curYear:2017,
+  curMonth:1,
+  curDate:1,
+  eventName:"load",
+  curTab:0,
+  //初始化日历
+  init:function(signList){
+  
+    calUtil.setMonthAndDay();
+    calUtil.draw(signList);
+    calUtil.bindEnvent();
+  },
+  draw:function(signList){
+  
+  updateNotice();
+    //绑定日历
+    var str = calUtil.drawCal(calUtil.showYear,calUtil.showMonth,signList);
+    $("#tab_info").html(str); 
+    //绑定日历表头
+    //var calendarName = buildCalName(terms[0],"三");
+    //$(".ui-datepicker-month").html(calendarName);  
+    if (calUtil.isCurrent()){
+        updateCalName(parseInt(calUtil.curDate));
+    }else{
+        //var calendarName=  monthE[calUtil.showMonth-1]+" "+calUtil.showYear;
+        $(".ui-datepicker-month").html(monthE[calUtil.showMonth-1]+" "); 
+        $(".ui-datepicker-year").html(calUtil.showYear)
+        //$(".ui-datepicker-month").html(calUtil.showMonth+"月"); 
+    }
+  },
+  //绑定事件
+  bindEnvent:function(){
+    //绑定上个月事件
+    $(".ui-icon-circle-triangle-w").click(function(){
+      //ajax获取日历json数据
+      calUtil.eventName="prev";
+      //alert(calUtil.showMonth);
+      calUtil.init(json[0]);
+      calUtil.eventName="current";
+      //getJson("2017","03");
+      calUtil.getCurJson();
+    });
+    //绑定下个月事件
+    $(".ui-icon-circle-triangle-e").click(function(){
+    if(calUtil.showYear == calUtil.curYear && calUtil.showMonth == calUtil.curMonth)
+    {}else{
+      //ajax获取日历json数据
+      calUtil.eventName="next";
+      //alert(calUtil.showMonth);
+      calUtil.init(json[0]);
+      calUtil.eventName="current";
+      //getJson("2017","04");
+      calUtil.getCurJson();
+      }
+    });
+   
+  },
+  //获取当前选择的年月
+  setMonthAndDay:function(){
+    switch(calUtil.eventName)
+    {
+      case "load":
+        var current = new Date();
+        calUtil.curYear=calUtil.showYear=current.getFullYear();
+        calUtil.curMonth=calUtil.showMonth=current.getMonth() + 1;
+        calUtil.curDate=calUtil.showDate=current.getDate();
+        break;
+      case "prev":
+        var nowMonth=calUtil.showMonth;
+        calUtil.showMonth=parseInt(nowMonth)-1;
+        if(calUtil.showMonth==0)
+        {
+            calUtil.showMonth=12;
+            calUtil.showYear-=1;
+        }
+        break;
+      case "next":
+        var nowMonth=calUtil.showMonth;
+        calUtil.showMonth=parseInt(nowMonth)+1;
+        if(calUtil.showMonth==13)
+        {
+            calUtil.showMonth=1;
+            calUtil.showYear+=1;
+        }
+        break;
+      case "current":
+        break; 
+    }
+  },
+      getCurJson:function(){
+            var year = calUtil.showYear;
+            var month = (calUtil.showMonth<10)?("0"+calUtil.showMonth):(""+calUtil.showMonth);
+            getJson(year,month);
+        },
+  getDaysInmonth : function(iMonth, iYear){
+   var dPrevDate = new Date(iYear, iMonth, 0);
+   return dPrevDate.getDate();
+  },
+  bulidCal : function(iYear, iMonth) {
+   var aMonth = new Array();
+   aMonth[0] = new Array(7);
+   aMonth[1] = new Array(7);
+   aMonth[2] = new Array(7);
+   aMonth[3] = new Array(7);
+   aMonth[4] = new Array(7);
+   aMonth[5] = new Array(7);
+   aMonth[6] = new Array(7);
+   var dCalDate = new Date(iYear, iMonth - 1, 1);
+   var iDayOfFirst = dCalDate.getDay();
+   //if(iDayOfFirst==0)iDayOfFirst=7;
+   var iDaysInMonth = calUtil.getDaysInmonth(iMonth, iYear);
+   var iVarDate = 1;
+   var d, w;
+   aMonth[0][0] = "Su";//"一";
+   aMonth[0][1] = "Mo";//"二";
+   aMonth[0][2] = "Tu"//"三";
+   aMonth[0][3] = "We";//"四";
+   aMonth[0][4] = "Th";//"五";
+   aMonth[0][5] = "Fr";//"六";
+   aMonth[0][6] = "Sa";//"日";
+   for (d = iDayOfFirst; d < 7; d++) {
+    aMonth[1][d] = iVarDate;
+    iVarDate++;
+   }
+   for (w = 2; w < 7; w++) {
+    for (d = 0; d < 7; d++) {
+     if (iVarDate <= iDaysInMonth) {
+      aMonth[w][d] = iVarDate;
+      iVarDate++;
+     }
+    }
+   }
+   return aMonth;
+  },
+  ifHasSigned : function(signList,day){
+   var signed = false;
+   calUtil.showUrl ="";
+   $.each(signList,function(index,item){
+    if(item.date == day) {
+     signed = true;
+     calUtil.showUrl = item.url;
+      calUtil.showUrl = item.uri;
+     
+     if(map[day]==undefined){
+        map[day]=index;
+     }
+    }
+   });
+   return signed ;
+  },
+  isCurrent :function(){
+   return (calUtil.curYear==calUtil.showYear && calUtil.curMonth==calUtil.showMonth);
+  },
+  drawCal : function(iYear, iMonth ,signList) {
+   var myMonth = calUtil.bulidCal(iYear, iMonth);
+   var htmls = new Array();
+   htmls.push('<div id="datepicker" class="hasDatepicker"> ');
+   htmls.push('<div class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="display: block;">');
+   htmls.push('<div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">');
+   htmls.push('<a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Prev">');
+   htmls.push('<span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a>');
+   
+   if(calUtil.showYear == calUtil.curYear && calUtil.showMonth == calUtil.curMonth)
+   {
+   htmls.push('<a class="ui-datepicker-next ui-corner-all ui-state-disabled" title="Next">');
+   }else{
+   
+    htmls.push('  <a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Next">');
+   }
+  
+   htmls.push('<span class="ui-icon ui-icon-circle-triangle-e">Next</span></a>');
+     
+   htmls.push('<div class="ui-datepicker-title">');
+   htmls.push('<span class="ui-datepicker-month">December</span>');
+   htmls.push('<span class="ui-datepicker-year">2017</span></div></div>');
+   htmls.push('<table class="ui-datepicker-calendar">');
+   htmls.push('<thead><tr>');
+   htmls.push('<th class="ui-datepicker-week-end"><span title="Sunday">Su</span></th>');
+   htmls.push('<th><span title="Monday">Mo</span></th>');
+   htmls.push('<th><span title="Tuesday">Tu</span></th>');
+   htmls.push('<th><span title="Wednesday">We</span></th>');
+   htmls.push('<th><span title="Thursday">Th</span></th>');
+   htmls.push('<th><span title="Friday">Fr</span></th>');
+   htmls.push('<th class="ui-datepicker-week-end"><span title="Saturday">Sa</span></th>');
+   htmls.push('</tr></thead><tbody>');
+   htmls.push('');   
+  
+   var d, w;
+   for (w = 1; w < 7; w++) {
+    htmls.push("<tr>");
+    for (d = 0; d < 7; d++) {
+     var ifHasSigned = calUtil.ifHasSigned(signList,myMonth[w][d]);
+         
+     //当前天 ui-datepicker-today
+     //有文章可以点击 没有样式
+     if(d==0 || d==6)
+     {
+         if(ifHasSigned)
+         {
+             htmls.push('<td class="ui-datepicker-week-end undefined">');   
+         }else
+         {
+             htmls.push('<td class="ui-datepicker-week-end ui-datepicker-unselectable ui-state-disabled undefined">');  
+         }
+   
+     }else{
+     
+          if(ifHasSigned)
+         {
+                htmls.push('<td class=" undefined">');
+         }else
+         {
+         htmls.push('<td class="ui-datepicker-unselectable ui-state-disabled undefined">');
+         }
+     
+     }
+     if(ifHasSigned){
+     
+    // var item=json[calUtil.curTab][map[d]];
+     //var uri = item.url;
+     var uri =calUtil.showUrl;
+     
+      htmls.push((!isNaN(myMonth[w][d]) ? '<a class="ui-state-default" href="'+uri+'">'+myMonth[w][d]+'</a>' : " ") +'</td>');
+     }else{
+      htmls.push((!isNaN(myMonth[w][d]) ? '<span class="ui-state-default">'+myMonth[w][d]+'</span>' : " ") +'</td>');
+     }
+    
+    
+    }
+    htmls.push("</tr>");
+   }
+   htmls.push("</tbody>");
+   htmls.push("</table>");
+   htmls.push("</div>");
+   htmls.push("</div>");
+   return htmls.join('');
+  }
+}; 
+</script>  </div>
+    </div>
+  </div>
+</div>
+<div class="quick m_t_10 cf">
+  <div class="quick_k">
+    <h3>Quick Links</h3>
+        
+    
+    
+    
+  
+
+    
+<script language="javascript">    
+<!--    
+    function doLinksu16(o)    
+    {    
+        var link=document.getElementsByName("su16")[0];    
+        var index=link.selectedIndex;    
+        if (index==-1 || index>=link.options.length)    
+        {    
+          return;    
+        }    
+        var value = link.options[index].value;    
+        var obj = document.getElementById("hu16");    
+        obj.href = value;
+        var wburlid =link.options[index].getAttribute("aa189464aa");
+        _addDynClicks('wburl',1409799244,wburlid)
+            
+                     obj.target = "_blank"
+                    
+         if(document.all){
+          obj.click();     
+        }         
+         else 
+        { 
+          window.open(value);
+         }
+       
+       if(o.selectedIndex != 0)    
+       {    
+           o.selectedIndex = 0;    
+       }    
+    }    
+-->    
+</script>  
+<table>    
+    <tr><td align="center">    
+            <span class="titlestyle189464"></span> <a id="hu16"></a>    
+            <select name="su16" class="selectstyle189464" onChange="doLinksu16(this)">    
+                <option value="">====留学北大====</option>    
+                <option vsbhrefname="value" aa189464aa="36435" value="ORIENTATION/zwb/cyxx1/bjsh/gybj.htm">关于北京    
+                <option vsbhrefname="value" aa189464aa="36436" value="lxsq.htm">提交申请    
+                <option vsbhrefname="value" aa189464aa="36437" value="ORIENTATION/zwb/lhqdzb1/sqrhqz.htm">来华前的准备    
+                <option vsbhrefname="value" aa189464aa="36438" value="ORIENTATION/zwb/rjhxz1/rhcjcqwbjdx.htm">入境后须知    
+                </select>    
+        </td><tr></table>    
+    
+    
+    
+  
+
+    
+<script language="javascript">    
+<!--    
+    function doLinksu17(o)    
+    {    
+        var link=document.getElementsByName("su17")[0];    
+        var index=link.selectedIndex;    
+        if (index==-1 || index>=link.options.length)    
+        {    
+          return;    
+        }    
+        var value = link.options[index].value;    
+        var obj = document.getElementById("hu17");    
+        obj.href = value;
+        var wburlid =link.options[index].getAttribute("aa189465aa");
+        _addDynClicks('wburl',1409799244,wburlid)
+            
+                     obj.target = "_blank"
+                    
+         if(document.all){
+          obj.click();     
+        }         
+         else 
+        { 
+          window.open(value);
+         }
+       
+       if(o.selectedIndex != 0)    
+       {    
+           o.selectedIndex = 0;    
+       }    
+    }    
+-->    
+</script>  
+<table>    
+    <tr><td align="center">    
+            <span class="titlestyle189465"></span> <a id="hu17"></a>    
+            <select name="su17" class="selectstyle189465" onChange="doLinksu17(this)">    
+                <option value="">====生活服务====</option>    
+                <option vsbhrefname="value" aa189465aa="36439" value="info/1208/1935.htm">餐厅信息    
+                <option vsbhrefname="value" aa189465aa="36440" value="info/1208/1936.htm">心理咨询    
+                <option vsbhrefname="value" aa189465aa="36441" value="info/1208/1937.htm">学生社团及课余活动    
+                <option vsbhrefname="value" aa189465aa="36442" value="info/1208/1938.htm">市内交通    
+                <option vsbhrefname="value" aa189465aa="36443" value="info/1208/1939.htm">节假日、票务及旅游    
+                <option vsbhrefname="value" aa189465aa="36444" value="info/1208/1940.htm">银行服务    
+                <option vsbhrefname="value" aa189465aa="36445" value="info/1208/1941.htm">网络服务    
+                <option vsbhrefname="value" aa189465aa="36446" value="info/1208/1942.htm">邮政电话服务    
+                <option vsbhrefname="value" aa189465aa="36447" value="info/1208/1943.htm">住宿及生活设施    
+                <option vsbhrefname="value" aa189465aa="36448" value="info/1208/1944.htm">安全服务    
+                <option vsbhrefname="value" aa189465aa="37048" value="index/sxjy.htm">实习就业信息    
+                </select>    
+        </td><tr></table>    
+    
+    
+    
+  
+
+    
+<script language="javascript">    
+<!--    
+    function doLinksu18(o)    
+    {    
+        var link=document.getElementsByName("su18")[0];    
+        var index=link.selectedIndex;    
+        if (index==-1 || index>=link.options.length)    
+        {    
+          return;    
+        }    
+        var value = link.options[index].value;    
+        var obj = document.getElementById("hu18");    
+        obj.href = value;
+        var wburlid =link.options[index].getAttribute("aa189466aa");
+        _addDynClicks('wburl',1409799244,wburlid)
+            
+                     obj.target = "_blank"
+                    
+         if(document.all){
+          obj.click();     
+        }         
+         else 
+        { 
+          window.open(value);
+         }
+       
+       if(o.selectedIndex != 0)    
+       {    
+           o.selectedIndex = 0;    
+       }    
+    }    
+-->    
+</script>  
+<table>    
+    <tr><td align="center">    
+            <span class="titlestyle189466"></span> <a id="hu18"></a>    
+            <select name="su18" class="selectstyle189466" onChange="doLinksu18(this)">    
+                <option value="">====签证服务====</option>    
+                <option vsbhrefname="value" aa189466aa="37049" value="info/1209/1947.htm">常用签证、居留证件类型    
+                <option vsbhrefname="value" aa189466aa="37050" value="info/1209/1948.htm">签证、居留证件办理    
+                <option vsbhrefname="value" aa189466aa="37051" value="info/1209/1949.htm">住宿登记办理    
+                <option vsbhrefname="value" aa189466aa="37052" value="info/1209/1950.htm">护照遗失和补办    
+                <option vsbhrefname="value" aa189466aa="37053" value="info/1209/1951.htm">签证和拘留证件注销    
+                <option vsbhrefname="value" aa189466aa="37054" value="info/1209/1952.htm">非法居留的处罚    
+                <option vsbhrefname="value" aa189466aa="37055" value="info/1209/1953.htm">出入境法规    
+                </select>    
+        </td><tr></table>    
+    
+    
+    
+  
+
+    
+<script language="javascript">    
+<!--    
+    function doLinksu19(o)    
+    {    
+        var link=document.getElementsByName("su19")[0];    
+        var index=link.selectedIndex;    
+        if (index==-1 || index>=link.options.length)    
+        {    
+          return;    
+        }    
+        var value = link.options[index].value;    
+        var obj = document.getElementById("hu19");    
+        obj.href = value;
+        var wburlid =link.options[index].getAttribute("aa189467aa");
+        _addDynClicks('wburl',1409799244,wburlid)
+            
+                     obj.target = "_blank"
+                    
+         if(document.all){
+          obj.click();     
+        }         
+         else 
+        { 
+          window.open(value);
+         }
+       
+       if(o.selectedIndex != 0)    
+       {    
+           o.selectedIndex = 0;    
+       }    
+    }    
+-->    
+</script>  
+<table>    
+    <tr><td align="center">    
+            <span class="titlestyle189467"></span> <a id="hu19"></a>    
+            <select name="su19" class="selectstyle189467" onChange="doLinksu19(this)">    
+                <option value="">====院系链接====</option>    
+                <option vsbhrefname="value" aa189467aa="37056" value="http://www.pku.edu.cn/academics/index.htm">院系链接    
+                </select>    
+        </td><tr></table></div>
+</div>
+<!--main end-->
+<div class="bottom" style="width: 100%; background-color: rgb(111,111,111)">
+  <div class="footer cf">
+    <div class="f-left">
+      <p><a href="http://www.pku.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 37057)">北大首页</a>&nbsp;|&nbsp;
+<a href="http://www.oir.pku.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36459)">国合首页</a>&nbsp;|&nbsp;
+<a href="index.htm" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36460)">返回首页</a>&nbsp;|&nbsp;
+<a href="HOME.htm" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1409799244, 36461)">English Version</a>
+</p>
+      <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>北京大学国际合作部留学生办公室 版权所有</p><p>通讯地址：中国北京市北京大学新太阳学生中心 留学生办公室 100871</p></div>
+    <div class="f-right">    <img alt="" src="dfiles/15965/phpcms/templates/peking/images/pek_liu_chat.jpg" width="65" height="65" style="width:65px;height:65px;"> 
+<p>北大留办微信</p>
+</div>
+  </div>
+</div>
+<xix style="display:none"><a href="http://webscan.360.cn/index/checkwebsite/url/www.isd.pku.edu.cn" name="7d87ba46ee0c4e00717151c949985055">360网站安全检测平台</a><xix>
+</body>
+</html>

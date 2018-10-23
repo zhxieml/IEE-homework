@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+                            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+<title>清华大学科学技术与社会研究所</title>
+<link href="/publish/ists/css/common.css" type="text/css" rel="stylesheet" />
+<link href="/publish/ists/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*截取信息简介
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+ function cutDate(summaryStr,lengTh){
+     summaryStr=summaryStr.substring(5,lengTh);
+    document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/ists/css/style_index.css" rel="stylesheet"  type="text/css" /> 
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!--container开始处-->
+ <div id="container">
+      <!--header开始处-->
+        <div id="header">
+<!--logo开始处-->
+   <div id="logo">
+    <h1>科学技术与社会研究所<span>Institute of Science, Technology and Society</span></h1>
+   </div>
+   <!--logo结束处-->
+   <!--search开始处-->
+   <div id="search">
+ <form id="searchForm" action="#" method="post" target="_blank" >
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+    <p><a href="/publish/istsen/index.html">English Version</a> 
+<span> <a href="http://www.tsinghua.edu.cn">清华主页</a> </span> 
+搜索<input type="button" name="btn" style="height:10px" tabindex="0" class="btn" onclick="javascript:document.getElementById('searchForm').submit()" />
+<input type="text" name="Q" tabindex="1" class="sch" /></p>
+</form>  </div>
+   <!--search结束处-->
+</div>   <!--header结束处-->
+      <!--s_content开始处-->
+      <div id="s_content">
+        <!--second_nav开始处-->
+         <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu4292 = ms.addMenu(document.getElementById("menu_4292"));
+menu4292.addItem("公告栏","/publish/ists/4340/index.html","");
+        menu4292.addItem("图片新闻","/publish/ists/4341/index.html","");
+        menu4292.addItem("历年新闻","/publish/ists/8248/index.html","");
+        var menu4293 = ms.addMenu(document.getElementById("menu_4293"));
+menu4293.addItem("概述","/publish/ists/4335/index.html","");
+        menu4293.addItem("历史沿革","/publish/ists/4337/index.html","");
+        menu4293.addItem("历任领导","/publish/ists/4338/index.html","");
+        var menu4294 = ms.addMenu(document.getElementById("menu_4294"));
+menu4294.addItem("校级中心","/publish/ists/10305/index.html","");
+        menu4294.addItem("院级中心","/publish/ists/10306/index.html","");
+        var menu4295 = ms.addMenu(document.getElementById("menu_4295"));
+menu4295.addItem("教授","/publish/ists/4325/index.html","");
+        menu4295.addItem("副教授","/publish/ists/4326/index.html","");
+        menu4295.addItem("讲师","/publish/ists/4327/index.html","");
+        menu4295.addItem("长江学者","/publish/ists/4328/index.html","");
+        menu4295.addItem("兼职教授","/publish/ists/4330/index.html","");
+        menu4295.addItem("返聘教授","/publish/ists/4332/index.html","");
+        menu4295.addItem("中心研究人员","/publish/ists/4333/index.html","");
+        var menu4296 = ms.addMenu(document.getElementById("menu_4296"));
+menu4296.addItem("研究方向","/publish/ists/4315/index.html","");
+        menu4296.addItem("研究成果","/publish/ists/4318/index.html","");
+        var subMenu4296_1 = menu4296.addMenu(menu4296.items[1]);
+       subMenu4296_1.addItem("著作类","/publish/ists/4318/index.html","");
+    subMenu4296_1.addItem("发表论文","/publish/ists/4319/index.html","");
+    subMenu4296_1.addItem("课题项目","/publish/ists/4320/index.html","");
+      menu4296.addItem("博士后","/publish/ists/4321/index.html","");
+        var subMenu4296_2 = menu4296.addMenu(menu4296.items[2]);
+       subMenu4296_2.addItem("哲学博士后流动站","/publish/ists/4321/index.html","");
+    subMenu4296_2.addItem("历年受资助情况","/publish/ists/4322/index.html","");
+    subMenu4296_2.addItem("在站博士后名单","/publish/ists/4323/index.html","");
+    subMenu4296_2.addItem("已出站博士后名单","/publish/ists/4324/index.html","");
+      var menu4297 = ms.addMenu(document.getElementById("menu_4297"));
+menu4297.addItem("学科点介绍","/publish/ists/4312/index.html","");
+        menu4297.addItem("课程设置","/publish/ists/4313/index.html","");
+        menu4297.addItem("精品课与精品教材","/publish/ists/4314/index.html","");
+        var menu4298 = ms.addMenu(document.getElementById("menu_4298"));
+menu4298.addItem("科学社会学与政策学沙龙","/publish/ists/4306/index.html","");
+        menu4298.addItem("科学哲学与技术哲学沙龙","/publish/ists/4307/index.html","");
+        menu4298.addItem("科学技术史沙龙","/publish/ists/4308/index.html","");
+        menu4298.addItem("STS博士论坛","/publish/ists/4309/index.html","");
+        menu4298.addItem("学术会议","/publish/ists/4310/index.html","");
+        menu4298.addItem("其他学术活动","/publish/ists/4311/index.html","");
+        var menu4299 = ms.addMenu(document.getElementById("menu_4299"));
+menu4299.addItem("招生信息","/publish/ists/4304/index.html","");
+        menu4299.addItem("招聘信息","/publish/ists/4305/index.html","");
+        var menu4300 = ms.addMenu(document.getElementById("menu_4300"));
+menu4300.addItem("学生活动","/publish/ists/4301/index.html","");
+        menu4300.addItem("在学学生名单","/publish/ists/4302/index.html","");
+        menu4300.addItem("已毕业学生名单","/publish/ists/4303/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<div id="second_nav">
+          <ul>
+            <li><a href="/publish/ists/index.html">首页</a></li>
+<li id="menu_4292"><a href="/publish/ists/4292/index.html" title="动态新闻">动态新闻</a>
+            </li>
+            <li id="menu_4293"><a href="/publish/ists/4335/index.html" title="所简介">所简介</a>
+            </li>
+            <li id="menu_4294"><a href="/publish/ists/4294/index.html" title="机构设置">机构设置</a>
+            </li>
+            <li id="menu_4295"><a href="/publish/ists/4295/index.html" title="师资队伍">师资队伍</a>
+            </li>
+            <li id="menu_4296" class="width_100"><a href="/publish/ists/4315/index.html" title="科学研究">科学研究</a>
+            </li>
+            <li id="menu_4297"><a href="/publish/ists/4312/index.html" title="教学培养">教学培养</a>
+            </li>
+   <li id="menu_4298"><a href="/publish/ists/4298/index.html" title="学术活动">学术活动</a>
+            </li>
+   <li id="menu_4299"><a href="/publish/ists/4304/index.html" title="招生招聘">招生招聘</a>
+            </li>
+            <li id="menu_4300" class="no_bg"><a href="/publish/ists/4301/index.html" title="学生园地">学生园地</a>
+            </li> 
+</ul>
+</div>
+<script language="JavaScript">initMenuData();</script>        <!--second_nav结束处-->
+        <!--s_con_left开始处-->
+        
+        <!--s_con_left-->
+        <!--s_con_right开始处-->
+        <div id="s_con">
+          <p>&nbsp;<A href='/publish/ists/index.html' class='navigation_style'>首页</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4298/index.html' class='navigation_style'>学术活动</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span><A href='/publish/ists/4310/index.html' class='navigation_style'>学术会议</a><span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</span>内容</p>          <!--s2_right_con开始处-->
+          <div id="right_con">
+            <h2><span>我所承办中国社会学会2017年学术年会“科学社会学分论坛”</span></h2>
+       <p>2017年7月14日-16日，&ldquo;迈向共建共享的全面小康社会&rdquo;&mdash;&mdash;中国社会学会2017年学术年会在上海大学（宝山校区）成功举办。由中国社会学会科学社会学专业委员会、清华大学科学技术与社会研究所、南开大学社会学系与中国科技发展战略研究院科技与社会发展研究所共同主办的&ldquo;科学社会学分论坛&rdquo;顺利举行。本次&ldquo;科学社会学分论坛&rdquo;的主题为&ldquo;实践中的‘技科学’和作为一种方法的STS&rdquo;，共收到投稿约40篇。本论坛推选的论文 &ldquo;洁净与危险：文化人类学视角下的空气污染感知&rdquo;（王书言、洪伟）获得本次年会优秀论文二等奖。来自清华大学、北京大学、南开大学、中国科技大学、人民大学、上海大学、浙江大学、复旦大学、中国科学技术战略发展研究院、中国科协创新战略研究院、中国科学院科技战略咨询研究院等近20所高校或科研机构的约50位学者参加了本论坛。</p><p style="TEXT-ALIGN: center"><img title="2017科学社会学分论坛参会人员合影.jpg" src="/publish/ists/4292/20170823115622639960068/1503460730791.jpg"/></p><p>&nbsp;&nbsp;&nbsp; 7月15日下午-16日上午，30余位与会学者围绕科学社会学理论与方法、科学技术与社会热点、科研人员及其责任与产出、当代科学社会学研究议题等内容进行了分享与交流，现将主要议题与观点简要梳理如下。</p><p style="LINE-HEIGHT: 150%"><strong>一、科学社会学理论与方法</strong></p><p>多位学者围绕行动者网络理论（ANT）展开研究。北京大学医学人文研究所副教授赖立里以&ldquo;药食同源&rdquo;为切入点来理解民族医药实践中的行动者网络，强调&ldquo;去人类中心&rdquo;、将&ldquo;物&rdquo;引入研究视野的对称路径，探索推动民族医药人类学的另一种可能。湖南科技大学副教授陈玉林希望扩展ANT的组织理论维度，他从方法论角度，梳理了自20世纪90年代以来多位学者将结构理论视角整合到ANT之中的尝试，这些尝试希望实现对社会组织、社会结构或文化背景的分析。华侨大学社会学系副教授郭荣茂从转译社会学出发，考察了闽南春节&ldquo;禁炮&rdquo;的环境治理机制，分析作为&ldquo;禁炮&rdquo;行动发起者的政府采取的四个转译策略，探寻相关行动者为有效解决这一矛盾的路径，最终形成一个异质型行动者网络。浙江大学本科生李浩明借助行动者网络理论的框架和视角，对作为科技实践活动重要场域之一的实验室进行考察，探索行动中的科技实践的风险建构过程，分析实验室科技实践活动的运行机制及其对科技风险起源的影响。</p><p>在科学社会学研究方法方面，中国科协创新战略研究院博士后李政等探讨了语义统计中的概念界定问题，即质性数据分析中的编码问题；从逻辑、语言、历史、数理化生以及政经心理等十个学科的角度讨论了现有理论对于语义统计这一社会学研究方法的参照和借鉴意义。</p><p style="LINE-HEIGHT: 150%"><strong>二、科学技术与社会热点问题</strong></p><p>网络技术。广州行政学院校刊部教授李三虎指出，面对新网络社会中出现的解组行为和越轨行为等问题，信息网络工程创新应具有全景式的治理作用，网络社会也有一定的共景式自我治理本能，而法制化则是维护网络社会安全和确立网络社会秩序的外部力量。中国科技大学博士生吴爽、教授徐飞提出Science 2.0这一新的科学运行机制必将引发科学发现优先权和知识产权的一系列新问题：优先权的判定由以科研成果为主转向关注整个研究过程，优先权归属面临判定难题；科研成果发布方式从传统媒介转向在线网络，优先权确认机制亟待更新；集体协作对数据分享的急迫要求等使得知识产权政策必须正视并予以及时更新和调整。</p><p>大数据。中国科协创新战略研究院的方伟、王达分析了大数据社会排斥的技术基础，阐述了大数据社会排斥的现状及影响，并从法律、政府和企业等层面探讨如何改善大数据社会排斥问题，最后提出对我国改善大数据社会排斥问题的启发与借鉴。复旦大学社会学系副教授黄荣贵探讨了大数据时代值得关注的新研究议题、对大数据方法论提出批判性反思，并在此基础上指出，大数据以及大数据分析已经成为理解当代社会的关键构成性要素，而不仅是外在于社会的研究方法和分析技术。</p><p>环境治理。南京理工大学副教授刘崇俊从科学技术论的互构论这一新视角出发，以厦门PX项目的选址决策为例，&ldquo;深描&rdquo;了在充满价值争议和认知不确定性的情境中，政策专家是如何借助专家知识的民主化，来实时、动态、原位地勾勒PX项目蕴含的价值诉求、内生的科技风险以及衍生的人为风险。清华大学科学技术与社会研究所硕士生王书言、副教授洪伟关注&ldquo;雾霾&rdquo;问题，通过对2013年中国综合社会调查数据、空气质量数据和新闻报道信息的分析，以及多场点的人类学观察，指出公众的空气污染感知受到媒体、社交网络等风险放大站的形塑，是带有社会文化属性的个体感受，其中关于洁净与肮脏的分类系统，是建构公众感知的重要中介。清华大学深圳研究生院副教授李平、侯小硕以新能源汽车为案例，探讨低碳经济创新体系的组织&ldquo;合法性&rdquo;，认为新能源汽车在中国的商业化与推广前景取决于规制合法性、规范合法性与文化认知合法性的一致；在构建低碳创新体系时，需要在行动者间建立这三个层面的合法性，以成功实现低碳创新的培育。</p><p>创新创业。中国科技大学博士生范璐等深入思考了破环性创新竞争优势的来源问题，通过比较破坏性创新与延续性创新的核心能力，以微信为例进行实证研究，分析得出破坏性创新核心能力的演变模型，进一步完善了破坏性创新的理论体系。中国科学技术发展战略研究院副研究员卢阳旭利用世界知识产权组织的全球创新指数和哈佛大学的社会进步指数数据，系统分析了社会包容对国家科技创新绩效的影响研究；研究发现，社会包容能够显著提高一国与科技创新相关的软创新水平。清华大学科学技术与社会研究所博士生乌仕明探讨了当前的创客运动浪潮对我国科技企业孵化器经营与运作的影响；创客运动是在互联网时代下，个人对其掌握的技术进行实做与创作活动的兴起，国内的科技企业孵化器则是在政府高度支持下配合市场运作的组织，他针对两者的发展历程，阐释了创客运动在科技企业孵化体系中的地方化过程。</p><p style="LINE-HEIGHT: 150%"><strong>三、科研人员及其责任与产出</strong></p><p>中国科学技术发展战略研究院博士后廖苗讨论了科研人员的责任问题，她认为，近年欧美科技政策领域兴起的 &ldquo;负责任创新&rdquo;这一理念拓展了&ldquo;责任&rdquo;概念的内涵及视角，从以往主要基于回溯性的、分工明确的责任转向强调前瞻性的、共同的责任，对科研人员的责任提出了新的要求。清华大学科学技术与社会研究所博士生梁帅、教授李正风运用扎根理论，以访谈录等资料为数据基础，系统分析了我国建国初期留美科学家的归国动因及影响因素之间的因果关系；他们发现，新中国建设远景为纽带的政党认同、爱国主义和历史使命感等内在因素是留美科学家归国的重要因素。</p><p>中国科学技术发展战略研究院朱依娜、何光喜使用2015年一项全国性调查数据，对科研人员使用不同社交网站的基本情况进行图景式描述分析，并分析不同社交网站对科研活动的影响；探讨了对不同社交网站的使用，是否会通过中介变量最终影响科研人员的科研产出。</p><p>中国科学技术发展战略研究院副研究员石长慧、研究员赵延东以全国规模的问卷调查数据为基础，分析了我国中小学青少年将来从事科学职业的意愿；研究发现，总体来说，我国中小学青少年从事科学职业的意愿不高，个体兴趣越高、熟人中有科学家的青少年对从业科学职业的意愿越强。中国科学技术发展战略研究院研究员赵延东等人认为有必要对新闻从业人员的科学素质进行评估和检测，并设计了一套符合新闻从业人员职业要求的科学素质测量体系；在我国31个省（区、市）应用此套体系发现，我国新闻从业人员的科学知识和科学精神水平相对较好，但科学方法是&ldquo;短板&rdquo;。</p><p style="LINE-HEIGHT: 150%"><strong>四、当代科学社会学研究议题</strong></p><p>南开大学博士生王俊雅、教授赵万里关注科学与人文的关系，&ldquo;两种文化&rdquo;、 &ldquo;索卡尔事件&rdquo;、 &ldquo;科学大战&rdquo;以及相对主义哲学的兴起、后现代主义的冲击等人文思想的兴起对科学的发展产生了不同程度的影响；面对科学和人文的对立，我国的教育模式也做出了相应的调整。中国科技大学博士生沈楠、教授徐飞全面分析了&ldquo;索卡尔&rdquo;诈文的主题、内容及其表现形式，进而剖析了其中折射出的学科交流不畅、学术意识形态化和学术权力的运作等问题，由此提出解决&ldquo;斯诺命题&rdquo;的关键或许可以从倡导价值无涉、提倡谦虚宽容的学术态度做起。</p><p>清华大学科学技术与社会研究所博士后姚靓以建国初期的劳动保护饮品&ldquo;盐汽水&rdquo;为例，探讨了科学技术的范畴，以及盐汽水作为科学技术产品的现实性，论证了盐汽水的出现是社会构建的产物；盐汽水不仅是工厂公共卫生安全方面一次重要的科学性改革，而且是社会主义国家工人福利的象征和工人阶级当家做主的身份体现。清华大学科学技术与社会研究所博士生郭覃硕分析了20世纪八九十年代清华大学环境工程系为解决北京啤酒厂高浓度有机废水污染问题所进行的UASB技术研发，揭示了过程中各种社会要素的影响；研究发现，市民和环保技术研究者的环境诉求、政府的协调、生产部门的积极参与是环境技术发展并实现环境技术社会功能的有利因素。上海大学社会学系硕士生叶锦涛结合美国普林斯顿大学社会学系谢宇教授《美国科学衰落了吗》一书，分析了社会科学家自身变化、社会对于科学的态度和美国科教体制的变化等社会因素对科学研究方向、基础科学研究和青年对于科学追求态度等方面的影响。</p><p>中国科学院科技战略咨询研究院助理研究员赵超立足于当代&ldquo;知识&mdash;社会&rdquo;关系，探讨美剧&ldquo;生活大爆炸&rdquo;The Big Bang Theory（TBBT）热播背后的情境和结构性因素；研究表明，TBBT文本的特质是用常人的眼光去审视原本作为审视者的科学，这背后折射出当代知识&mdash;社会形态结构的重大变迁；当民主原则渗透到社会认知结构最深层的时候，将从认知模式层面重塑科学本身。清华大学科学技术与社会研究所博士生武晨箫、教授李正风将大卫？古斯顿的委托-代理理论与科学基金制度相结合，提出由政府、科学基金会与科学共同体构成的双重委托-代理模型，强调科学基金会需要协调政治与科学两种不同的价值观；并指出科学基金评议制度作为一种特殊的同行评议制度，在双重委托-代理模型中起到连结科学与政治的作用。中国人民大学博士生李瞳认为中医和西医这两个理论上截然不同的体系会在实践中表现出一定的融合，医学首先是作为一种立足实践的救助技术而存在，而在实践中寻找一套行为的金标准是无法成立的；只有走向情境的医学才能实现救死扶伤、促进健康的目的，体现其价值与责任。</p><p>&nbsp;</p><p>中国社会学会科学社会学专业委员会理事长李正风教授对本次&ldquo;科学社会学分论坛&rdquo;进行了总结，他回顾了&ldquo;科学社会学分论坛&rdquo;设立5年来取得的进步与成果，并对我国科学社会学的未来发展进行了展望。他指出，第一，应加强科学社会学专业委员会的组织建设，吸收新鲜血液，促进学科发展；第二，要坚持本论坛的特色，将科学与技术视为一种有内在结构的社会活动，打开科学与技术的黑箱，既关注科学技术与社会的关系，也深入研究科学、技术自身的社会问题；第三，希望能够以&ldquo;科学社会学分论坛&rdquo;为契机，促进学术交流，构建合作网络，开展更具影响、更大规模的研究课题，相互深化、形成合力，共同推进我国科学社会学研究的发展。</p><p>&ldquo;科学社会学分论坛&rdquo;自2013年开始举办。2015年12月，中国社会学会科学社会学专业委员会正式成立。中国社会学会2018年学术年会计划在南京大学举办，中国科技大学将承办下届&ldquo;科学社会学分论坛&rdquo;。</p>
+          </div>
+          <!--s2_right_con结束处-->
+        </div>
+        <!--s_con_right开始处-->
+      </div>
+   <!--s_content结束处-->
+      <!--footer开始处-->
+        <div id="footer"><p>版权所有&copy;清华大学科学技术与社会研究所  地址:北京市海淀区清华大学  邮编:100084</p></div>   <!--footer结束处-->
+    </div>
+ <!--container结束处-->
+</body>
+</html>

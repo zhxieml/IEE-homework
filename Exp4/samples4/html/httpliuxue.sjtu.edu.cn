@@ -1,0 +1,949 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><link href="css/css.css" rel="stylesheet" />
+    <script src="js/browserRedirect.js"></script>
+    <title>
+	上海交通大学国际教育: 留学桥,海外考试,ALevel课程,语言培训
+</title><meta name="keywords" content="留学桥官网,交大留学桥,国际课程,预备课程,留学预科,出国留学,留学咨询,留学服务,留学申请" /><meta name="description" content="上海交通大学国际教育官方网站。为准备到英国、美国、澳大利亚、加拿大、北欧、法国、日本及香港地区的中国学生设置的留学预备课程。" /></head>
+<script>
+    var pc_style = "";
+    var browser = {
+        versions: function () {
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {
+                trident: u.indexOf('Trident') > -1,
+                presto: u.indexOf('Presto') > -1,
+                webKit: u.indexOf('AppleWebKit') > -1,
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/) && u.indexOf('QIHU') && u.indexOf('Chrome') < 0,
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+                iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1,
+                iPad: u.indexOf('iPad') > -1,
+                webApp: u.indexOf('Safari') == -1,
+                ua: u
+            };
+        }(),
+        language: (navigator.browserLanguage || navigator.language).toLowerCase()
+    }
+    if (browser.versions.mobile && !browser.versions.iPad && browser.versions.webApp) {
+        this.location = "../wap/index.aspx";
+    }
+</script>
+<body class="bg">
+    
+<div class="header">
+    <div class="main relative">
+        <div class="headerNav"><a href="javascript:void(0);" class="relative headerNavWX">官方微信<img src="images/m33.jpg" /></a>  |  <a href="http://www.sjtu.edu.cn/" target="_blank">交大首页</a>  |  <a target="_blank" href="http://mail.sjtu.edu.cn/">校园邮箱</a></div>
+       <a href="http://liuxue.sjtu.edu.cn/"> <img src="/upload/201804/27/201804271411129095.png" alt="上海交通大学" /></a>
+        <div class="tel yahei">
+            <span id="Top_lbPhone1_1">021-</span><span>
+                <span id="Top_lbPhone1_2">62934256</span>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="main nav">
+    <span>
+        <a href="../index.aspx" class="navList active">首页</a>
+    </span>
+    <span>
+        <a href="../webInfo.aspx?ID=1" class="navList">了解学院</a>
+        <ul class="navTwoList">
+            
+                    <li><a href="webInfo.aspx?ID=1" class="ellipsis">关于我们</a></li>
+                
+                    <li><a href="webInfo.aspx?ID=2" class="ellipsis">校方寄语</a></li>
+                
+                    <li><a href="webInfo.aspx?ID=3" class="ellipsis">办学成果</a></li>
+                
+            <li><a href="../school.aspx">对接院校</a></li>
+        </ul>
+    </span>
+    <span>
+        <a class="navList" href="../newalevel.aspx">核心课程</a>
+        <ul class="navTwoList">
+        	<li><a href="http://liuxue.sjtu.edu.cn/alevel/" class="ellipsis">ALevel课程</a></li>
+        	<li><a href="http://liuxue.sjtu.edu.cn/liuxueqiao/" class="ellipsis">英美澳留学桥</a></li>
+			<li><a href="http://liuxue.sjtu.edu.cn/kaoshi/" class="ellipsis">海外考试中心</a></li>
+            <li><a href="http://sjtuidp.sjtu.edu.cn/IDP/index.aspx" class="ellipsis">IDP文凭课程</a></li>
+        </ul>
+    </span>
+    <span>
+        <a href="../teamList.aspx?TeacherTypeID=2" class="navList">教学管理</a>
+        <ul class="navTwoList">
+            <li style="display:none;"><a href="../Course.aspx" class="ellipsis">课程设置</a></li>
+            
+                    <li><a href="../teamList.aspx?TeacherTypeID=2" class="ellipsis">师资团队</a></li>
+                
+            <li><a href="../TeacherActive_List.aspx" class="ellipsis">教研活动</a></li>
+            <li><a href="../photoList.aspx" class="ellipsis">宿舍与设施</a></li>
+            <li><a href="http://202.120.29.16:81/admin" target="_blank" class="ellipsis">辅教系统</a></li>
+        </ul>
+    </span>
+    <span>
+        <a href="../xyfcList.aspx" class="navList">学生风采</a>
+        <ul class="navTwoList">
+            <li><a href="../xyfcList.aspx?ID=1" class="ellipsis">校园风采</a></li>
+             <li><a href="../xyfcList.aspx?ID=2" class="ellipsis">学生活动</a></li>
+            
+                    <li><a href="../Student.aspx?ID=3" class="ellipsis">优秀学员</a></li>
+                
+        </ul>
+    </span>
+    <span>
+        <a href="../auditionList.aspx?VideoTypeID=1" class="navList">在线试听</a>
+        <ul class="navTwoList" style="display:none;">
+            
+                    <li><a href="../auditionList.aspx?VideoTypeID=1" class="ellipsis">托福</a></li>
+                
+                    <li><a href="../auditionList.aspx?VideoTypeID=2" class="ellipsis">SAT</a></li>
+                
+                    <li><a href="../auditionList.aspx?VideoTypeID=3" class="ellipsis">数学</a></li>
+                
+                    <li><a href="../auditionList.aspx?VideoTypeID=4" class="ellipsis">物理</a></li>
+                
+                    <li><a href="../auditionList.aspx?VideoTypeID=5" class="ellipsis">化学</a></li>
+                
+                    <li><a href="../auditionList.aspx?VideoTypeID=6" class="ellipsis">雅思</a></li>
+                
+        </ul>
+    </span>
+    <span>
+        <a href="../articleList.aspx?NewsTypeID=4" class="navList">新闻资讯</a>
+        <ul class="navTwoList">
+            
+                    <li><a href="../articleList.aspx?NewsTypeID=4" class="ellipsis">新闻公告</a></li>
+                
+                    <li><a href="../articleList.aspx?NewsTypeID=5" class="ellipsis">留学资讯</a></li>
+                
+                    <li><a href="../articleList.aspx?NewsTypeID=8" class="ellipsis">高分与录取</a></li>
+                
+        </ul>
+    </span>
+  
+     <span>
+        <a href="../register.aspx" class="navList">招生报名</a>
+        <ul class="navTwoList">
+            <li><a href="../register.aspx">招生报名</a></li>
+            <li><a href="../contact.aspx">联系我们</a></li>
+        </ul>
+    </span>
+</div>
+
+    <div class="main banner">
+        <div class="left">
+            <div id="banner" class="slider">
+                <div class="conbox">
+                    
+                            <a href="https://mp.weixin.qq.com/s/tHS-XPsLrlNPcDnywNUqUg##" title="">
+                                <img src="/upload/201809/29/201809291002174626.jpg" />
+                            </a>
+                        
+                            <a href="https://mp.weixin.qq.com/s/ohoEH358Cx8Ps6Qqq95c7A" title="">
+                                <img src="/upload/201810/18/201810180937229169.jpg" />
+                            </a>
+                        
+                            <a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=476#" title="">
+                                <img src="/upload/201805/25/201805251640251136.png" />
+                            </a>
+                        
+                            <a href="http://liuxue.sjtu.edu.cn/liuxueqiao/baoming/index.html" title="">
+                                <img src="/upload/201806/07/201806071107287680.jpg" />
+                            </a>
+                        
+                            <a href="https://mp.weixin.qq.com/s/mraM2z-Af6qP6Mygz9Qk3g#" title="">
+                                <img src="/upload/201806/14/201806141651082962.jpg" />
+                            </a>
+                        
+                            <a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=485#" title="">
+                                <img src="/upload/201807/12/201807121546403093.jpg" />
+                            </a>
+                        
+                            <a href="https://mp.weixin.qq.com/s/JfKz848EcNd8qbc81lRArw" title="">
+                                <img src="/upload/201808/24/201808241639317788.jpg" />
+                            </a>
+                        
+                </div>
+                <div class="switcher">
+                    
+                            <a href="javascript:void(0);" class="cur"></a>
+                        
+                            <a href="javascript:void(0);" class=""></a>
+                        
+                            <a href="javascript:void(0);" class=""></a>
+                        
+                            <a href="javascript:void(0);" class=""></a>
+                        
+                            <a href="javascript:void(0);" class=""></a>
+                        
+                            <a href="javascript:void(0);" class=""></a>
+                        
+                            <a href="javascript:void(0);" class=""></a>
+                        
+                </div>
+            </div>
+        </div>
+        <div class="apply_block">
+            <h3>英美澳留学桥<br/>IDP课程说明会</h3>
+            <p class="rizli">2019年春季班招生开始
+ </p>
+            <p class="rizti">2019年3月入学 1.5年/3.5年</p>
+            <p class="rizimg">
+                <a href="http://liuxue.sjtu.edu.cn/register.aspx" target="_blank">
+                    <img src="http://zhaosheng.onlinesjtu.com/images/yueyubm.png" width="150" height="33">
+                </a>
+            </p>
+        </div>
+
+        <a class="indexNewsListLink" href="http://liuxue.sjtu.edu.cn/chaxun/index.asp">
+            <img src="/upload/201805/11/201805111745479079.png" style="width: 362px; height: 80px; margin-top: 5px; margin-left: 15px;" />
+        </a>
+        <div class="clear"></div>
+    </div>
+    <div class="main indexRecommend">
+        <a>
+            <img src="images/tj1.jpg" /></a>
+        
+                <a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=467#ALevel" target="_blank">
+                    <img src="/upload/201805/09/201805091729151010.png" title="ALevel国际课程" /></a>
+            
+                <a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=467#lxq" target="_blank">
+                    <img src="/upload/201804/27/201804271455089780.png" title="英美澳留学桥" /></a>
+            
+                <a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=467#IDP" target="_blank">
+                    <img src="/upload/201804/27/201804271455571208.png" title="IDP国际文凭课程" /></a>
+            
+                <a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=467#kaoshi" target="_blank">
+                    <img src="/upload/201804/27/201804271456198250.png" title="海外考试中心" /></a>
+            
+                <a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=487#" target="_blank">
+                    <img src="/upload/201807/24/201807241542106422.jpg" title="招生预警" /></a>
+            
+                <a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=488#" target="_blank">
+                    <img src="/upload/201807/24/201807241621192522.jpg" title="报道注册流程" /></a>
+            
+    </div>
+
+    <div class="main indexEducation">
+        <div class="left">
+            <div class="indexModelTitle"><span>国际课程</span></div>
+            <div class="indexEducationMain">
+                
+                        <span class=" clearMargin indexEducationW1">
+                            <img src="/upload/201804/19/201804191724300782.jpg" style="min-height: 127px; min-width: 173px;" />
+                            <a href="http://liuxue.sjtu.edu.cn/alevel/#">
+                                <div class="indexEducationDesc slideRight">
+                                    <div class="blue"></div>
+                                    <div class="indexEducationDescP slideRight">
+                                        <div class="indexEducationDescT ellipsis">
+                                            ALevel国际课程中心
+                                        </div>
+                                        <div class="indexEducationDescs">
+                                            英国官方考试局爱德思EDEXCEL联合主办，是华东地区最大的爱德思基地。<br/>
+前往ALevel专题>>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </span>
+                    
+                        <span class=" clearMargin indexEducationW2">
+                            <img src="/upload/201805/09/201805091718274160.png" style="min-height: 127px; min-width: 173px;" />
+                            <a href="http://liuxue.sjtu.edu.cn/liuxueqiao/#">
+                                <div class="indexEducationDesc slideRight">
+                                    <div class="blue"></div>
+                                    <div class="indexEducationDescP slideRight">
+                                        <div class="indexEducationDescT ellipsis">
+                                            英美澳留学桥
+                                        </div>
+                                        <div class="indexEducationDescs">
+                                            美国精英班：Top50高校<br/>
+英国精英班：Top30高校<br/>
+澳洲精英班：澳洲八大
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </span>
+                    
+                        <span class=" clearMargin indexEducationW3">
+                            <img src="/upload/201804/19/201804191731062198.jpg" style="min-height: 127px; min-width: 173px;" />
+                            <a href="http://sjtuidp.sjtu.edu.cn/IDP/index.aspx">
+                                <div class="indexEducationDesc slideRight">
+                                    <div class="blue"></div>
+                                    <div class="indexEducationDescP slideRight">
+                                        <div class="indexEducationDescT ellipsis">
+                                            IDP国际文凭课程
+                                        </div>
+                                        <div class="indexEducationDescs">
+                                            英美加澳3年制国际本硕IDP课程 (International Diploma Program)
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </span>
+                    
+                        <span class=" clearMargin">
+                            <img src="/upload/201805/09/201805091722092227.png" style="min-height: 127px; min-width: 173px;" />
+                            <a href="http://liuxue.sjtu.edu.cn/zty2.aspx?ID=26">
+                                <div class="indexEducationDesc slideLeft">
+                                    <div class="blue"></div>
+                                    <div class="indexEducationDescP slideLeft">
+                                        <div class="indexEducationDescT ellipsis">
+                                            硕士留学
+                                        </div>
+                                        <div class="indexEducationDescs">
+                                            访问硕士留学专题页>>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </span>
+                    
+                        <span class=" clearMargin">
+                            <img src="/upload/201804/19/201804191554389263.jpg" style="min-height: 127px; min-width: 173px;" />
+                            <a href="http://liuxue.sjtu.edu.cn/kaoshi/#">
+                                <div class="indexEducationDesc slideLeft">
+                                    <div class="blue"></div>
+                                    <div class="indexEducationDescP slideLeft">
+                                        <div class="indexEducationDescT ellipsis">
+                                            海外考试中心
+                                        </div>
+                                        <div class="indexEducationDescs">
+                                            访问海外考试专题>>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </span>
+                    
+                        <span class=" clearMargin">
+                            <img src="/upload/201805/09/201805091748260576.jpg" style="min-height: 127px; min-width: 173px;" />
+                            <a href="http://liuxue.sjtu.edu.cn/zty2.aspx?ID=20">
+                                <div class="indexEducationDesc slideLeft">
+                                    <div class="blue"></div>
+                                    <div class="indexEducationDescP slideLeft">
+                                        <div class="indexEducationDescT ellipsis">
+                                            香港 日本
+                                        </div>
+                                        <div class="indexEducationDescs">
+                                            <style>
+#a:link,#a:visited
+{
+display:block;
+font-weight:bold;
+font-size:12px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+background-color:#ab0614;
+width:100%;
+text-align:center;
+padding:0px;
+text-decoration:none;
+}
+#a:hover,#a:active
+{
+background-color:#db5659;
+}
+</style>
+
+<a id="a" href="http://liuxue.sjtu.edu.cn/zty2.aspx?ID=20" target="_blank">香港留学桥专题页>></a>
+<a id="a" href="http://liuxue.sjtu.edu.cn/zty2.aspx?ID=23" target="_blank">日本留学桥专题页>></a> 
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </span>
+                    
+                        <span class=" clearMargin">
+                            <img src="/upload/201805/09/201805091731405132.png" style="min-height: 127px; min-width: 173px;" />
+                            <a href="/zty2.aspx?ID=21#">
+                                <div class="indexEducationDesc slideLeft">
+                                    <div class="blue"></div>
+                                    <div class="indexEducationDescP slideLeft">
+                                        <div class="indexEducationDescT ellipsis">
+                                            法国 北欧 国际艺术
+                                        </div>
+                                        <div class="indexEducationDescs">
+                                            <a id="a" href="/zty2.aspx?ID=21#" target="_blank">法国>></a>
+<a id="a" href="liuxueqiao/Brochure.aspx?TradeID=4" target="_blank">国际艺术>></a>
+<a id="a" href="upload/201807/09/201807091133155357.pdf" target="_blank">北欧>></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </a>
+                        </span>
+                    
+            </div>
+        </div>
+        <div class="right">
+            <div class="indexModelTitle">
+                <span>新闻公告</span>
+                <a href="articleList.aspx?NewsTypeID=4" class="more">>>更多</a>
+            </div>
+            <!--头部移植-->
+            <div class="indexNewsList relative">
+
+                <img src="images/news.png" class="indexNewsListNew" onclick="openurl()" style="display: none;" />
+                <div class="indexNewsListTop relative" style="display: none;">
+                    <!--<a href="articleDetail.aspx?NewsID=0">
+                        <img src="" /></a>-->
+                    <a href="articleDetail.aspx?NewsID=0" class="indexNewsListTopTitle"></a>
+                    <div class="indexNewsListTopDesc"></div>
+                </div>
+                <ul class="indexNewsListM">
+                    
+                            <li><span style="float:right">2018/10/10</span><a href="articleDetail.aspx?NewsID=498">2016/2017届IDP优秀奖学金评选结果公示 </a></li>
+                        
+                            <li><span style="float:right">2018/09/27</span><a href="https://mp.weixin.qq.com/s?__biz=MzAxMDMyNjQwMQ==&mid=2651951681&idx=1&sn=87dcf0e4f8f984eb96cae78de1cb5559&chksm=80b72aafb7c0a3b920e1ca69d1d634024e3fbbdd6da7c8a6675b1fcb2e13deabc06cfd4b5779&scene=0#rd#">升学路路通 | 金秋十月，升学讲座预告第一波来袭 </a></li>
+                        
+                            <li><span style="float:right">2018/09/27</span><a href="https://mp.weixin.qq.com/s/tHS-XPsLrlNPcDnywNUqUg#">IDP－BTEC英方外审圆满结束 我院BTEC项目再获好评 </a></li>
+                        
+                            <li><span style="float:right">2018/09/21</span><a href="https://mp.weixin.qq.com/s/RxkzPW_NehuYYoJOE5mLgQ#">在交大国际课堂C位出道的外教天团 </a></li>
+                        
+                            <li><span style="float:right">2018/09/19</span><a href="articleDetail.aspx?NewsID=499">继续教育学院召开2018年秋季市场部工作会议 </a></li>
+                        
+                            <li><span style="float:right">2018/09/12</span><a href="https://mp.weixin.qq.com/s/PJhM0BOf986pdILkpDZCQw">师“道”系列 | 地表最强英语教研天团 </a></li>
+                        
+                            <li><span style="float:right">2018/09/12</span><a href="https://mp.weixin.qq.com/s/tbDaLXBZTQP8r1gOdtE__g#">开学季 | 飘洋过海来交大，2018留学生预科开学啦 </a></li>
+                        
+                            <li><span style="float:right">2018/08/01</span><a href="articleDetail.aspx?NewsID=488">18秋国际教育第二次报到注册通知（8月13日） </a></li>
+                        
+                </ul>
+            </div>
+            <a class="indexNewsListLink" href="" style="display: none;">
+                <img src="123" /></a>
+
+        </div>
+        <div class="right" style="display: none;">
+            <div class="indexModelTitle">
+                <span>试听课程</span>
+                <a href="auditionList.aspx" class="more">>>更多</a>
+            </div>
+            <div class="indexCampusStyle">
+                <div class="left">
+                    
+                </div>
+                <div class="right">
+                    <ul class="indexCampusStyleList" style="width: 180px; height: 168px;">
+                        
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="indexCampusStyleVideo relative">
+                <a href="auditionDetail.aspx?VideoID=0">
+                    <img src="" width="385" height="175" /></a>
+                <div class="indexCampusStyleVideoBG"></div>
+                <a href="auditionDetail.aspx?VideoID=0">
+                    <img src="images/s.png" class="indexCampusStyleVideoBtn" /></a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="main indexMain">
+        <div class="index_msfc">
+            <div class="indexModelTitle">
+                <span>名师风采</span>
+                <a href="teamList.aspx" class="more">>>更多</a>
+            </div>
+            <div class="index_msfc_list" id="index_list1">
+                <a class="aleft pointer" title="左移"></a>
+                <div class="imglist_w">
+                    <ul class="imglist">
+                        
+                                <li>
+                                    <a href="teamList.aspx">
+                                        <img src="/upload/201704/01/201704011502425270.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="teamList.aspx" class="ellipsis">泮雪 老师</a>
+                                        <div>
+                                            物理教研组组长，A-Level课程物理和数学力学老师，毕业于英国剑桥大学，拥有工程系硕士学位。有多年海外留学经验，能使用流利的中英文进行双语教学，熟悉A-Level课程及升学流程。因自身在英国学习过两年A-Level，了解学生将要面临的困难和挑战，在教授专业课的同时乐于与学生分享心得体会。
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="teamList.aspx">
+                                        <img src="/upload/201607/04/201607041419234158.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="teamList.aspx" class="ellipsis">冯金金 博士</a>
+                                        <div>
+                                            冯金金老师：留学桥专业主任，上海交通大学外国语言学及应用语言学博士，获上海交通大学“教学新秀”荣誉称号、校优秀教师，及上海交通大教学成果一等奖（主要完成人）等。曾赴多国访学。研究海外桥梁课程，从事相关教学及管理工作。
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="teamList.aspx">
+                                        <img src="/upload/201607/04/201607041419297442.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="teamList.aspx" class="ellipsis">冯莉 老师</a>
+                                        <div>
+                                            听力教研组组长，毕业于西安交通大学，英语语言文学硕士, 大学教龄20年。 近十年来主要从事雅思教学。具有丰富的教学及教材编写经验，已出版十多部教材及教辅作品。冯莉老师能够准确把握考试方向，结合考生实际情况，摸索出一套应对考试行之有效的教学理论与方法，在留学备考、A-level等国际课程的教学实践中，培养出大批高分学员，被牛津大学，帝国理工学院，伦敦政治经济学院，多伦多大学等世界名校录取。
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="teamList.aspx">
+                                        <img src="/upload/201607/04/201607041419355570.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="teamList.aspx" class="ellipsis">陶明忠 博士</a>
+                                        <div>
+                                            副教授，语言学博士，曾在加拿大麦吉尔大学和荷兰阿姆斯特丹大学进修语言学和英语教学理论。1991年以来一直从事英语教学工作；对托福写作和雅思阅读比较熟悉；在教学中强调知识的系统性，具有较强的科研能力和合作精神。
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="teamList.aspx">
+                                        <img src="/upload/201607/04/201607041419454324.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="teamList.aspx" class="ellipsis">康怡 老师</a>
+                                        <div>
+                                            ESL教研组组长，上海交通大学英语教师，英国利兹大学硕士。十五年高校英语教学经历，长期从事高校大学英语、专业英语教学，多年国际教育和海外考试培训经验。参与出版多本英语教材，并在ESL、IELTS、中高级口译等教学和考试中积累了丰富的教学经验，获上海交通大学优秀教师和优秀员工等奖项。
+上课细致认真，思路缜密，尤其擅长课堂教学气氛的调动。在教学中针对学生自身情况及不同水平的要求因材施教，把语言教学和跨文化研究的学术背景有机融合，深受学生欢迎。
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="teamList.aspx">
+                                        <img src="/upload/201805/09/201805091515138450.png" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="teamList.aspx" class="ellipsis">檀晓红 博士</a>
+                                        <div>
+                                            国际教育教学中心主任，上海交通大学计算机应用学博士、副教授，德国人工智能研究所(DFKI) 访问学者，多次出访英国、德国、澳洲、香港等多所大学。致力于智能学习、中西方教育差异研究，参与欧盟ROLE项目、科技部支撑计划、国家自然科学基金等项目，多次参加国际学术会议。多年来讲授数学、数据结构、离散数学、组合数学等相关课程，国家精品课程获得者，并获得国家级教学成果二等奖、上海市教学成果二等奖、上海交通大学教学成果特等奖。授课深入浅出、思维清晰，善于启发式教学。
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                    </ul>
+                </div>
+                <a class="aright pointer" title="右移"></a>
+            </div>
+        </div>
+        <div class="index_msfc">
+            <div class="indexModelTitle">
+                <span>优秀毕业生</span>
+                <a href="Student.aspx?ID=3" class="more">>>更多</a>
+            </div>
+            <div class="index_msfc_list" id="index_list2">
+                <a class="aleft pointer" title="左移"></a>
+                <div class="imglist_w">
+                    <ul class="imglist">
+                        
+                                <li>
+                                    <a href="Student.aspx?ID=3">
+                                        <img src="/upload/201706/07/201706070953158706.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="Student.aspx?StudentTypeID=3" class="ellipsis">杜元喜 [2016级哈佛班]</a>
+                                        <div>
+                                            录取学校：帝国理工大学、伦敦大学学院、牛津大学（面试）<br/><!—不要超过2行-->
+雅思成绩：8分<br/>
+ALevel成绩：数学A* ，物理 A，化学A*
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="Student.aspx?ID=3">
+                                        <img src="/upload/201611/30/201611301633300307.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="Student.aspx?StudentTypeID=3" class="ellipsis">娄耀辉 [2014春季哈佛班]</a>
+                                        <div>
+                                            录取学校：多伦多大学、普渡大学、埃默里大学、曼彻斯特大学、约克大学
+<br/>
+<!—不要超过2行-->
+托福成绩：107（听力 28，写作25，口语28，阅读26）
+<br/>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="Student.aspx?ID=3">
+                                        <img src="/upload/201611/20/201611202347486094.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="Student.aspx?StudentTypeID=3" class="ellipsis">姚书远 [2014级哈佛班]</a>
+                                        <div>
+                                            录取学校：牛津大学、帝国理工学院、伦敦大学学院、多伦多大学<br/><!—不要超过2行-->
+雅思成绩：8分<br/>
+ALevel成绩：数学A*，高数A*，物理A*，化学A*
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="Student.aspx?ID=3">
+                                        <img src="/upload/201703/29/201703291711247701.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="Student.aspx?StudentTypeID=3" class="ellipsis">何其欣 [2013秋季精英班]</a>
+                                        <div>
+                                            录取学校：牛津大学、帝国理工学院、伦敦大学学院、曼彻斯特大学、伯明翰大学<br/><!—不要超过2行-->
+雅思成绩：7.5分 （听力9，阅读9，写作7，口语7）<br/>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="Student.aspx?ID=3">
+                                        <img src="/upload/201706/07/201706071700578874.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="Student.aspx?StudentTypeID=3" class="ellipsis">贝弘 [2016级澳洲精英班]</a>
+                                        <div>
+                                            录取院校：莫纳什大学<br/><!—不要超过2行-->
+雅思成绩：7.5分<br/>
+在交大学习一个学期，在相关学科方面的收获和进步是明显的。老师在学科知识和应考套路上的传授还是相当到位的。但是相对的高中，压力非常小，管理也不会非常严格，这个时候就需要高度的自律，在这一点上我做的并不好，望以我为反面教材。在未来，也希望交大留学桥项目能够和更多更好的名校签约，帮助更多的同学获得更好的前途。
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="Student.aspx?ID=3">
+                                        <img src="/upload/201706/07/201706071017473878.jpg" style="max-width: 360px;" /></a>
+                                    <div class="imglistDescBG"></div>
+                                    <div class="imglistDesc">
+                                        <a href="Student.aspx?StudentTypeID=3" class="ellipsis">应姿 [2016级哈佛班]</a>
+                                        <div>
+                                            录取学校：多伦多大学、加拿大滑铁卢大学、西安大略大学、维多利亚大学<br/><!—不要超过2行-->
+托福成绩：91分<br/>
+ALevel成绩：数学A* ，高数A，物理 A，化学B
+                                        </div>
+                                    </div>
+                                </li>
+                            
+                    </ul>
+                </div>
+                <a class="aright pointer" title="右移"></a>
+            </div>
+        </div>
+        <div class="index_xyfc">
+            <div class="indexModelTitle">
+                <span>校园风采</span>
+                <a href="xyfcList.aspx" class="more">>>更多</a>
+            </div>
+            <div class="index_msfc_list" id="index_list3">
+                <a class="aleft pointer" title="左移"></a>
+                <div class="imglist_w">
+                    <ul class="imglist">
+                        
+                                <li>
+                                    <a href="xyfcList.aspx?StudentTypeID=1">
+                                        <img src="/upload/201703/17/201703171022041487.jpg" /></a>
+                                    <div class="imglistDesc">
+                                        <a href="xyfcList.aspx?StudentTypeID=1" class="ellipsis">17岁少年运筹帷幄，赢取净资产13亿？</a>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="xyfcList.aspx?StudentTypeID=1">
+                                        <img src="/upload/201703/23/201703231051250996.jpg" /></a>
+                                    <div class="imglistDesc">
+                                        <a href="xyfcList.aspx?StudentTypeID=1" class="ellipsis">暖一场相逢，赏这季offer雨</a>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="xyfcList.aspx?StudentTypeID=1">
+                                        <img src="/upload/201703/21/201703211612149810.jpg" /></a>
+                                    <div class="imglistDesc">
+                                        <a href="xyfcList.aspx?StudentTypeID=1" class="ellipsis">校园篮球赛 | 火力全开，赴一场青春盛会</a>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="xyfcList.aspx?StudentTypeID=1">
+                                        <img src="/upload/201711/15/201711151721098530.jpg" /></a>
+                                    <div class="imglistDesc">
+                                        <a href="xyfcList.aspx?StudentTypeID=1" class="ellipsis">缘聚交大 力学笃行 | 留学生预科开学六周记</a>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="xyfcList.aspx?StudentTypeID=1">
+                                        <img src="/upload/201712/13/201712131326015738.jpg" /></a>
+                                    <div class="imglistDesc">
+                                        <a href="xyfcList.aspx?StudentTypeID=1" class="ellipsis">一人一剑战天下—— 英语能力大赛圆满收官</a>
+                                    </div>
+                                </li>
+                            
+                                <li>
+                                    <a href="xyfcList.aspx?StudentTypeID=1">
+                                        <img src="/upload/201712/15/201712150959546240.jpg" /></a>
+                                    <div class="imglistDesc">
+                                        <a href="xyfcList.aspx?StudentTypeID=1" class="ellipsis">国际艺术设计生作品，惊艳了时间和你我</a>
+                                    </div>
+                                </li>
+                            
+                    </ul>
+                </div>
+                <a class="aright pointer" title="右移"></a>
+            </div>
+            <div>
+<a href="http://liuxue.sjtu.edu.cn/articleDetail.aspx?NewsID=443">
+                                        <img src="http://liuxue.sjtu.edu.cn/gaofen1.jpg" /></a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="main footerCooperate">
+        <div class="footerCooperateTitle">
+            部分对接院校
+        </div>
+        <div><a href="school.aspx" style="float: right; margin-right: 10px; font-size: 14px; color: #ab0614;">查看更多</a></div>
+        <ul class="footerCooperateList">
+            
+                    <li  >
+                        <a href="http://www.ox.ac.uk/">
+                            <img src="/upload/201612/07/201612071019062381.jpg" width="120" height="120" /></a>
+                        <a href="http://www.ox.ac.uk/" class="ellipsis">牛津大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="https://www2.warwick.ac.uk/">
+                            <img src="/upload/201701/10/201701101108332489.jpg" width="120" height="120" /></a>
+                        <a href="https://www2.warwick.ac.uk/" class="ellipsis">华威大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="https://www.unsw.edu.au/">
+                            <img src="/upload/201701/09/201701091641357596.jpg" width="120" height="120" /></a>
+                        <a href="https://www.unsw.edu.au/" class="ellipsis">新南威尔士大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.hku.hk/">
+                            <img src="/upload/201701/10/201701101044540165.jpg" width="120" height="120" /></a>
+                        <a href="http://www.hku.hk/" class="ellipsis">香港大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.u-tokyo.ac.jp/en/index.html">
+                            <img src="/upload/201701/09/201701091634161937.jpg" width="120" height="120" /></a>
+                        <a href="http://www.u-tokyo.ac.jp/en/index.html" class="ellipsis">东京大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.unimelb.edu.au/">
+                            <img src="/upload/201701/10/201701101101379031.jpg" width="120" height="120" /></a>
+                        <a href="http://www.unimelb.edu.au/" class="ellipsis">墨尔本大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="https://www.purdue.edu/">
+                            <img src="/upload/201701/09/201701091636344184.jpg" width="120" height="120" /></a>
+                        <a href="https://www.purdue.edu/" class="ellipsis">普渡大学</a>
+                    </li>
+                
+                    <li class="clearMargin" style="padding-top:8px;">
+                        <a href="https://www.sheffield.ac.uk/">
+                            <img src="/upload/201701/09/201701091637252018.jpg" width="120" height="120" /></a>
+                        <a href="https://www.sheffield.ac.uk/" class="ellipsis">谢菲尔德大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.manchester.ac.uk">
+                            <img src="/upload/201701/09/201701091637501716.jpg" width="120" height="120" /></a>
+                        <a href="http://www.manchester.ac.uk" class="ellipsis">曼彻斯特大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.mq.edu.au/">
+                            <img src="/upload/201701/10/201701101106382906.jpg" width="120" height="120" /></a>
+                        <a href="http://www.mq.edu.au/" class="ellipsis">麦考瑞大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.osaka-u.ac.jp/en">
+                            <img src="/upload/201701/10/201701101043241844.jpg" width="120" height="120" /></a>
+                        <a href="http://www.osaka-u.ac.jp/en" class="ellipsis">大阪大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.hit-u.ac.jp/index.html">
+                            <img src="/upload/201701/10/201701101032032648.jpg" width="120" height="120" /></a>
+                        <a href="http://www.hit-u.ac.jp/index.html" class="ellipsis">一桥大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.kyoto-u.ac.jp/ja">
+                            <img src="/upload/201701/10/201701101043461229.jpg" width="120" height="120" /></a>
+                        <a href="http://www.kyoto-u.ac.jp/ja" class="ellipsis">京都大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.cuhk.edu.hk/chinese/index.html">
+                            <img src="/upload/201701/10/201701101044458599.jpg" width="120" height="120" /></a>
+                        <a href="http://www.cuhk.edu.hk/chinese/index.html" class="ellipsis">香港中文大学</a>
+                    </li>
+                
+                    <li  >
+                        <a href="http://www.bath.ac.uk/">
+                            <img src="/upload/201611/29/201611291508435322.jpg" width="120" height="120" /></a>
+                        <a href="http://www.bath.ac.uk/" class="ellipsis">巴斯大学</a>
+                    </li>
+                
+                    <li class="clearMargin" style="padding-top:8px;">
+                        <a href="">
+                            <img src="/upload/201611/23/201611231541024628.jpg" width="120" height="120" /></a>
+                        <a href="" class="ellipsis">早稻田大学</a>
+                    </li>
+                
+            <div class="clear"></div>
+        </ul>
+    </div>
+    
+<div class="main links">
+    友情链接：
+    
+            <a href="http://sce.sjtu.edu.cn/#">上海交大继续教育学院</a>
+        
+            <a href="http://liuxue.sjtu.edu.cn/liuxueqiao/#">上海交大留学桥</a>
+        
+            <a href="http://liuxue.sjtu.edu.cn/alevel/#">上海交大ALevel课程</a>
+        
+            <a href="http://liuxue.sjtu.edu.cn/kaoshi/#">上海交大海外考试中心</a>
+        
+            <a href="http://weibo.com/p/1002065881865962/home?from=page_100206&mod=TAB&is_all=1#place#">上海交大国际课程官方微博</a>
+        
+            <a href="https://www.birmingham.ac.uk/index.aspx#">英国伯明翰大学</a>
+        
+</div>
+<div class="main footerNav">
+    <a href="../index.aspx">首页</a>        |
+	<a href="./contact.aspx">联系我们</a>    |
+	<a href="../newalevel.aspx">核心课程</a>    |
+	<a href="../webInfo.aspx?ID=1">学院介绍</a>    |
+	<a href="../teamList.aspx">教学管理</a>    |
+	<a href="../xyfcList.aspx">学生风采</a>    |
+	<a href="../articleList.aspx">新闻资讯</a>    |
+	<a href="../auditionList.aspx">在线试听</a>
+</div>
+<div id="Footer_txtFooter" class="main footer"><p>
+	<span style="line-height:1;font-family:Microsoft YaHei;">版权所有：上海交通大学继续教育学院国际教育部 &copy;沪交ICP备20151573. All Rights Reserved.</span> 
+</p>
+<p>
+	<span style="line-height:1;font-family:Microsoft YaHei;">地址：上海市法华镇路535号安泰大楼4楼 &nbsp; 电话：021-62934256 &nbsp; 021-62933375</span> 
+</p>
+<p>
+	<span style="line-height:1;font-family:Microsoft YaHei;">投诉信箱：jdlx@sjtu.edu.cn&nbsp;&nbsp; 投诉电话：021-62934256</span> 
+</p></div>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1259916247'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259916247' type='text/javascript'%3E%3C/script%3E"));</script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?efa3b4c222b091a7d3bbf89a513f0bb6";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+    
+
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F774b5192536c4a286736743c1f6f3c8f' type='text/javascript'%3E%3C/script%3E")) </script>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.Xslider.js"></script>
+<script src="js/slider.js"></script>
+<script>
+    $(function () {
+        $('.nav span').hover(function () {
+            $(this).find('.navTwoList').stop().slideDown(200);
+        }, function () {
+            $(this).find('.navTwoList').stop().slideUp(200);
+        });
+        $('.index_search_btn').click(function () {
+            window.location.href = "/liuxueqiao/Result.aspx?IDCard=" + $("#txtidcard").val();
+        });
+
+        $('.headerNavWX').hover(function () {
+            $(this).find('img').stop().fadeIn(200);
+        }, function () {
+            $(this).find('img').stop().fadeOut(200);
+        });
+
+        $("#banner").Xslider({
+            affect: 'fade',
+            ctag: 'a',
+            speed: 800, //动画速度
+            space: 2000, //时间间隔
+            auto: true, //自动滚动
+        });
+
+        $('.indexEducation .indexEducationMain span').hover(function () {
+            $(this).addClass('slideIn');
+        }, function () {
+            $(this).removeClass('slideIn');
+        });
+
+        $('.index_msfc').mousemove(function () {
+            $('.index_msfc').removeClass('isHover');
+            $(this).addClass('isHover');
+        });
+
+        $('.index_msfc').hover(function () {
+            $('.index_msfc').removeClass('isHover');
+
+        });
+
+
+        $("#index_list1,#index_list2").xslider({
+            unitdisplayed: 1,
+            movelength: 1,
+            unitlen: 360,
+            autoscroll: 3000,
+        });
+
+        $("#index_list3").xslider({
+            unitdisplayed: 1,
+            movelength: 1,
+            unitlen: 358,
+            autoscroll: 3000,
+        });
+
+        // 客服
+        $('#return').on('click', function () {
+            $('body').scrollTop(0);
+        });
+        $('#open,#retract,.kefuSmall img').on('click', function () {
+            $('#kefu').toggleClass('big small');
+        });
+    });
+
+    function openurl() {
+        window.location.href = "articleList.aspx?NewsTypeID=4";
+    }
+
+</script>

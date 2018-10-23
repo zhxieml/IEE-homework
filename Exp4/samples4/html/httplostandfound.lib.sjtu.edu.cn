@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="styles/skeleton.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/inner.css" />
+    <link rel="stylesheet" href="styles/color.css" />
+	<link rel="stylesheet" href="styles/layout.css" />
+    
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<script language="javascript" type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>上海交通大学图书馆失物招领系统</title>
+
+</head>
+
+
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    
+        <!-- HEADER -->
+        <div id="outerheader">
+        	<div class="container">
+            <header id="top" class="twelve columns">
+            	<div id="logo" class="three columns alpha"><a href="index.asp"><img src="images/logo.png" alt="" /></a></div>
+                <div id="headerright" class="nine columns omega">
+                	<form method="post" action="search.asp" id="searchform" />
+                    <div class="search">
+                    	<input type="text" name="searchstr" id="s" size="35" />
+                        <input type="submit" value="查询" />&nbsp;&nbsp;&nbsp;&nbsp;<a href="ad_search.asp" style="text-decoration:underline">高级检索</a>
+                    </div>
+                    </form>
+                    
+                </div>
+                <div class="clear"></div>
+            </header>
+            </div>
+        </div>
+        <!-- END HEADER -->   
+
+<!-- MAIN CONTENT -->
+
+
+<!-- MAIN CONTENT -->
+<div id="outermain" class="inner">
+  	<div class="container">
+      	<section id="maincontent" class="twelve columns">
+			<section id="content" class="positionleft nine columns alpha"> 
+               	<div class="padcontent">              
+                	<article class="post">
+                        <div class="entry-content">
+                            <p><font color="#CC3333">请以下读者带上有效证件（如学生证）到指定的领取地点认领</font></p>
+                            <table width="100%"  border="1">
+                                <tr >
+                                    <td width="5%" height="35"><div align="center"><strong>ID</strong></div></td>
+                                    <td width="25%"><div align="center"><strong>失物名称</strong></div></td>
+                                    <td width="20%"><div align="center"><strong>检拾地点</strong></div></td>
+                                    <td width="19%"><div align="center"><strong>捡拾日期</strong></div></td>
+                                    <td width="19%"><div align="center"><strong>领取地点</strong></div></td>
+                                    <td width="12%"><div align="center"><strong>失物去向</strong></div></td>
+                                </tr>
+
+
+
+<tr ><td width='5%' height='35'><div align='center'>1</div></td><td width='25%'><div align='center'>水杯</div></td><td width='20%'><div align='center'>主馆一楼服务台</div></td><td width='19%'><div align='center'>2017/11/21</div></td><td width='19%'><div align='center'>主馆-一楼总咨询台</div></td><td width='12%'><div align='center'>未领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>2</div></td><td width='25%'><div align='center'>手表</div></td><td width='20%'><div align='center'>包玉刚图书馆四楼经济阅览区</div></td><td width='19%'><div align='center'>2017/11/8</div></td><td width='19%'><div align='center'>包玉刚馆-一楼流通台</div></td><td width='12%'><div align='center'>未领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>3</div></td><td width='25%'><div align='center'>手机</div></td><td width='20%'><div align='center'>包玉刚图书馆二楼阅览室</div></td><td width='19%'><div align='center'>2017/9/14</div></td><td width='19%'><div align='center'>包玉刚馆-一楼流通台</div></td><td width='12%'><div align='center'>已领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>4</div></td><td width='25%'><div align='center'>钱包和阳伞</div></td><td width='20%'><div align='center'>包玉刚图书馆门前，思源湖边</div></td><td width='19%'><div align='center'>2017/6/23</div></td><td width='19%'><div align='center'>包玉刚馆-一楼流通台</div></td><td width='12%'><div align='center'>未领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>5</div></td><td width='25%'><div align='center'>U盘（纪念版）</div></td><td width='20%'><div align='center'>包玉刚</div></td><td width='19%'><div align='center'>2017/6/2</div></td><td width='19%'><div align='center'>包玉刚馆-一楼流通台</div></td><td width='12%'><div align='center'>未领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>6</div></td><td width='25%'><div align='center'>充电宝</div></td><td width='20%'><div align='center'>包玉刚馆三楼东艺术语言阅览室</div></td><td width='19%'><div align='center'>2017/5/18</div></td><td width='19%'><div align='center'>包玉刚馆-一楼流通台</div></td><td width='12%'><div align='center'>未领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>7</div></td><td width='25%'><div align='center'>校园卡</div></td><td width='20%'><div align='center'>李政道图书馆</div></td><td width='19%'><div align='center'>2017/4/2</div></td><td width='19%'><div align='center'>李政道馆-二楼总服务台</div></td><td width='12%'><div align='center'>未领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>8</div></td><td width='25%'><div align='center'>钥匙</div></td><td width='20%'><div align='center'>李馆阅览室二楼</div></td><td width='19%'><div align='center'>2017/3/23</div></td><td width='19%'><div align='center'>李政道馆-二楼总服务台</div></td><td width='12%'><div align='center'>未领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>9</div></td><td width='25%'><div align='center'>手表</div></td><td width='20%'><div align='center'>李政道图书馆2楼</div></td><td width='19%'><div align='center'>2017/1/11</div></td><td width='19%'><div align='center'>李政道馆-二楼总服务台</div></td><td width='12%'><div align='center'>未领取</div></td></tr><tr ><td width='5%' height='35'><div align='center'>10</div></td><td width='25%'><div align='center'>校园卡-宋晓彤</div></td><td width='20%'><div align='center'>包玉刚图书馆</div></td><td width='19%'><div align='center'>2017/1/3</div></td><td width='19%'><div align='center'>包玉刚馆-一楼流通台</div></td><td width='12%'><div align='center'>未领取</div></td></tr></table><div class='clearfix'></div></div></article><div class='wp-pagenavi'><span class='pages'>Page 1 of 24</span><span class='current'>1</span><a href='index.asp?page=2' class='page'>2</a><a href='index.asp?page=3' class='page'>3</a><a href='index.asp?page=4' class='page'>4</a><a href='index.asp?page=5' class='page'>5</a><a href='index.asp?page=6' class='page'>更多</a></div>
+
+
+                                        
+                </div>
+            </section>
+
+            
+
+                <aside id="sidebar"  class="positionright three columns omega">
+                    <ul>
+                         <li class="widget-container">
+                            <h2 class="widget-title">失物招领公告&nbsp;&nbsp;&nbsp;<img src="images/notice.png"  width="30" style="margin-bottom:-6px;"></h2>
+                            <ul>
+
+
+                             
+                            </ul>
+                        </li>
+                   
+              
+                    </ul>
+                    
+                     <p><a href="notice_all.asp" class="button" style="float:right">更多</a></p>
+                </aside>
+
+                <aside id="sidebar1" class="positionright three columns omega" style="padding-top:170px;">
+                    <ul>
+                        <li class="widget-container">
+                            <h2 class="widget-title" style="margin-bottom:10px;">友情链接&nbsp;&nbsp;&nbsp;<img src="images/link.jpg"  width="20" style="margin-bottom:-6px;"></h2>
+                            <ul>
+                                <li><a href="http://aixinwu.sjtu.edu.cn/index.php/home/lostandfound" target="_black">绿色爱心屋失物招领</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+                                
+        <div class="clear"></div><!-- clear float --> 
+        </section>
+    </div>
+</div>
+<!-- END MAIN CONTENT -->
+
+
+        
+<!-- FOOTER -->
+<div id="outerfooter">
+    <div class="container">
+        <div id="footercontainer" class="twelve columns">
+            <footer id="footer">版权所有&copy;上海交通大学图书馆 2014</footer>
+        </div>
+    </div>
+</div>
+<!-- END FOOTER -->
+       
+</div><!-- end outercontainer -->
+</div><!-- end bodychild -->
+
+
+</body>
+</html>

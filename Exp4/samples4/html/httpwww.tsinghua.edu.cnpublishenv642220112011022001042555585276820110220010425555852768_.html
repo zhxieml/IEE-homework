@@ -1,0 +1,540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- IE8 兼容 -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" type="image/x-icon" href="/public/icon/favicon.ico" />
+                                        <title>清华大学环境学院</title>
+<link href="/publish/env/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/publish/env/css/grid.css" rel="stylesheet" type="text/css" />
+<script src="/public/jquery/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="/publish/env/js/grayscale.js" type="text/javascript"></script>
+<script src="/publish/env/js/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+/*
+*env
+*summaryStr:String 信息简介
+*lengTh:int 截取的长度
+*/
+ function cutSummary(summaryStr,lengTh){
+   if(summaryStr.length>lengTh){
+     summaryStr=summaryStr.substring(0,lengTh)+"...";
+   }
+   document.write(summaryStr);
+ }
+/*
+*jQuery:所有外域链接在新窗口打开
+*/
+$(document).ready(function() {
+ $("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])")
+ .addClass("external")
+ .attr("target","_blank")
+});
+</script><SCRIPT language="JavaScript" src="/public/plugin/source/global.js"></SCRIPT>
+<!-- 导航下拉菜单 -->
+<link type="text/css" rel="stylesheet" href="/public/plugin/source/nav/css/mt_dropdown.css" />
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdownc.min.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" src="/public/plugin/source/nav/js/mt_dropdown_initialize.min.js"></SCRIPT>
+
+<script language="JavaScript">
+
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+
+  window.open(theURL,winName,features);
+
+}
+$(document).ready(function(){
+
+  init();
+
+});
+
+//-->
+</script>
+
+
+<!-- 导航下拉菜单 --><link href="/publish/env/css/style_second.css" rel="stylesheet" type="text/css" />
+<!-- 导入全局模板 -->
+<SCRIPT language="JavaScript" src="/public/plugin/source/global_twain.js"></SCRIPT></head>
+<body>
+ <!-- 整体区域开始 -->
+ <div class="wrapper nomalwclassth auto">
+    
+     <!-- 页头区域开始 -->
+       <!-- 页头区域开始 -->
+  <div class="header nomalwidth auto" style="height:140px;background-image:url(/publish/env/images/banner2018.jpg)">
+      
+       <!--<div class="logo_text">
+         <p class="cn">&nbsp;</p>
+         <p class="en">&nbsp;</p>
+        </div>-->
+  
+                <div class="hot_links" style="top: 40px;"><a href="/publish/enven/index.html">English</a></div>
+    
+         <!-- <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="960" height="140">
+    <param name="movie" value="/publish/env/images/banner.swf" />
+    <param name="quality" value="high" />
+    <param name="wmode" value="opaque" />
+    <param name="swfversion" value="6.0.65.0" />
+    
+    <param name="expressinstall" value="30years/expressInstall.swf" />
+    <param name="menu" value="false" />
+   
+    <object type="application/x-shockwave-flash" data="/publish/env/images/banner.swf" width="960" height="140">
+     
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <param name="expressinstall" value="/publish/env/images/expressInstall.swf" />
+      <param name="menu" value="false" />
+     
+      <div>
+        <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+      </div>
+     
+    </object>
+   
+  </object>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>-->
+</div>
+<!-- 页头区域结束 -->        <!-- 页头区域结束 -->
+        
+        <!-- nav start -->
+        <SCRIPT language="JavaScript">
+function initMenuData(){
+if (mtDropDown.isSupported()) {
+var ms = new mtDropDownSet(mtDropDown.direction.down, 0, 0, mtDropDown.reference.bottomLeft);
+var menu6326 = ms.addMenu(document.getElementById("menu_6326"));
+menu6326.addItem("栏目概述","/publish/env/6327/index.html","");
+        menu6326.addItem("教研教师","/publish/env/6329/index.html","");
+        var subMenu6326_1 = menu6326.addMenu(menu6326.items[1]);
+       subMenu6326_1.addItem("院士","/publish/env/6329/index.html","");
+    subMenu6326_1.addItem("千人计划","/publish/env/6330/index.html","");
+    subMenu6326_1.addItem("教研所师资","/publish/env/6331/index.html","");
+      menu6326.addItem("兼职教授","/publish/env/6334/index.html","");
+        menu6326.addItem("实验教师","/publish/env/6817/index.html","");
+        menu6326.addItem("行政教师","/publish/env/6818/index.html","");
+        menu6326.addItem("合同制教师","/publish/env/6335/index.html","");
+        menu6326.addItem("博士后","/publish/env/6336/index.html","");
+        menu6326.addItem("访问学者","/publish/env/6819/index.html","");
+        menu6326.addItem("荣退教师","/publish/env/6337/index.html","");
+        var menu6317 = ms.addMenu(document.getElementById("menu_6317"));
+menu6317.addItem("组织机构","/publish/env/6318/index.html","");
+        menu6317.addItem("学术机构","/publish/env/6319/index.html","");
+        menu6317.addItem("研究机构","/publish/env/6321/index.html","");
+        var subMenu6317_2 = menu6317.addMenu(menu6317.items[2]);
+       subMenu6317_2.addItem("研究所","/publish/env/6321/index.html","");
+    subMenu6317_2.addItem("国家级研究机构","/publish/env/6322/index.html","");
+    subMenu6317_2.addItem("省部级研究机构","/publish/env/6323/index.html","");
+    subMenu6317_2.addItem("校级研究机构","/publish/env/6324/index.html","");
+    subMenu6317_2.addItem("联合研究机构","/publish/env/6325/index.html","");
+      var menu6312 = ms.addMenu(document.getElementById("menu_6312"));
+menu6312.addItem("学院简介","/publish/env/6313/index.html","");
+        menu6312.addItem("现任领导","/publish/env/7208/index.html","");
+        menu6312.addItem("历任领导","/publish/env/6314/index.html","");
+        menu6312.addItem("历史沿革","/publish/env/6315/index.html","");
+        menu6312.addItem("大事年表","/publish/env/6316/index.html","");
+        var menu6338 = ms.addMenu(document.getElementById("menu_6338"));
+menu6338.addItem("栏目概述","/publish/env/6339/index.html","");
+        menu6338.addItem("本科生教学","/publish/env/6341/index.html","");
+        var subMenu6338_1 = menu6338.addMenu(menu6338.items[1]);
+       subMenu6338_1.addItem("专业介绍","/publish/env/6341/index.html","");
+    subMenu6338_1.addItem("课程介绍","/publish/env/6342/index.html","");
+    subMenu6338_1.addItem("精品课程","/publish/env/6343/index.html","");
+    subMenu6338_1.addItem("专业设置","/publish/env/6344/index.html","");
+    subMenu6338_1.addItem("培养方案","/publish/env/6345/index.html","");
+    subMenu6338_1.addItem("实践教学","/publish/env/6346/index.html","");
+    subMenu6338_1.addItem("留学生","/publish/env/6347/index.html","");
+      menu6338.addItem("硕士生教学","/publish/env/6349/index.html","");
+        var subMenu6338_2 = menu6338.addMenu(menu6338.items[2]);
+       subMenu6338_2.addItem("导师介绍","/publish/env/6349/index.html","");
+    subMenu6338_2.addItem("培养方案（硕士）","/publish/env/6350/index.html","");
+    subMenu6338_2.addItem("培养方案（工程硕士）","/publish/env/6351/index.html","");
+    subMenu6338_2.addItem("开设课程","/publish/env/6352/index.html","");
+    subMenu6338_2.addItem("留学生","/publish/env/6353/index.html","");
+      menu6338.addItem("博士生教学","/publish/env/6355/index.html","");
+        var subMenu6338_3 = menu6338.addMenu(menu6338.items[3]);
+       subMenu6338_3.addItem("导师介绍（博士）","/publish/env/6355/index.html","");
+    subMenu6338_3.addItem("培养方案（博士）","/publish/env/6356/index.html","");
+    subMenu6338_3.addItem("留学生","/publish/env/6357/index.html","");
+      menu6338.addItem("继续教育","/publish/env/6358/index.html","");
+        menu6338.addItem("出版教材","/publish/env/6359/index.html","");
+        menu6338.addItem("教学成果","/publish/env/6360/index.html","");
+        
+var menu6361 = ms.addMenu(document.getElementById("menu_6361"));
+menu6361.addItem("栏目概述","/publish/env/6362/index.html","");
+        menu6361.addItem("本科生","/publish/env/6363/index.html","");
+        menu6361.addItem("研究生","/publish/env/6364/index.html","");
+        menu6361.addItem("学生绿色协会","/publish/env/6365/index.html","");
+        menu6361.addItem("环境友好科技竞赛","/publish/env/6366/index.html","");
+        menu6361.addItem("博士生学术会议","/publish/env/6367/index.html","");
+        menu6361.addItem("陶氏-可持续发展创新挑战赛","/publish/env/7841/index.html","");
+        menu6361.addItem("清源协会","/publish/env/8478/index.html","");
+        menu6361.addItem("奖学金","/publish/env/10530/index.html","");
+        var menu6368 = ms.addMenu(document.getElementById("menu_6368"));
+menu6368.addItem("栏目概述","/publish/env/6369/index.html","");
+        menu6368.addItem("研究领域","/publish/env/6370/index.html","");
+        menu6368.addItem("研究成果","/publish/env/6372/index.html","");
+        var subMenu6368_2 = menu6368.addMenu(menu6368.items[2]);
+       subMenu6368_2.addItem("各类奖项","/publish/env/6372/index.html","");
+    subMenu6368_2.addItem("编著译著","/publish/env/6373/index.html","");
+    subMenu6368_2.addItem("知识产权","/publish/env/6374/index.html","");
+      menu6368.addItem("编辑期刊","/publish/env/6376/index.html","");
+        var subMenu6368_3 = menu6368.addMenu(menu6368.items[3]);
+       subMenu6368_3.addItem("期刊简介","/publish/env/6376/index.html","");
+    subMenu6368_3.addItem("编委会","/publish/env/6378/index.html","");
+    subMenu6368_3.addItem("征稿简则","/publish/env/6379/index.html","");
+    subMenu6368_3.addItem("稿件模板","/publish/env/6380/index.html","");
+      menu6368.addItem("主办会议","/publish/env/6381/index.html","");
+        menu6368.addItem("重大专项","/publish/env/6384/index.html","");
+        var menu6385 = ms.addMenu(document.getElementById("menu_6385"));
+menu6385.addItem("栏目概述","/publish/env/6386/index.html","");
+        menu6385.addItem("合作机构","/publish/env/6387/index.html","");
+        menu6385.addItem("重要项目","/publish/env/6388/index.html","");
+        var menu6390 = ms.addMenu(document.getElementById("menu_6390"));
+menu6390.addItem("环境节能楼","/publish/env/6391/index.html","");
+        menu6390.addItem("实验教学中心","/publish/env/6392/index.html","");
+        menu6390.addItem("公共研究平台","/publish/env/6393/index.html","");
+        menu6390.addItem("环境图书馆","/publish/env/6394/index.html","");
+        var menu6395 = ms.addMenu(document.getElementById("menu_6395"));
+menu6395.addItem("本科生","/publish/env/6396/index.html","");
+        menu6395.addItem("硕士生","/publish/env/6398/index.html","");
+        var subMenu6395_1 = menu6395.addMenu(menu6395.items[1]);
+       subMenu6395_1.addItem("硕士","/publish/env/6398/index.html","");
+    subMenu6395_1.addItem("工程硕士","/publish/env/6399/index.html","");
+    subMenu6395_1.addItem("工程管理硕士","/publish/env/9171/index.html","");
+      menu6395.addItem("博士生","/publish/env/6400/index.html","");
+        menu6395.addItem("留学生","/publish/env/6401/index.html","");
+        menu6395.addItem("继续教育","/publish/env/6402/index.html","");
+        var menu6404 = ms.addMenu(document.getElementById("menu_6404"));
+menu6404.addItem("教师招聘","/publish/env/6405/index.html","");
+        menu6404.addItem("博士后招聘","/publish/env/6406/index.html","");
+        menu6404.addItem("合同制人员招聘","/publish/env/6407/index.html","");
+        var menu6408 = ms.addMenu(document.getElementById("menu_6408"));
+menu6408.addItem("综合新闻","/publish/env/6409/index.html","");
+        menu6408.addItem("图片新闻","/publish/env/6410/index.html","");
+        menu6408.addItem("人物新闻","/publish/env/6411/index.html","");
+        menu6408.addItem("工作简报","/publish/env/6413/index.html","");
+        var menu6414 = ms.addMenu(document.getElementById("menu_6414"));
+menu6414.addItem("电话电邮","/publish/env/6415/index.html","");
+        menu6414.addItem("邮寄地址","/publish/env/6416/index.html","");
+        menu6414.addItem("来访路线","/publish/env/6417/index.html","");
+        mtDropDown.renderAll();
+}
+} 
+</SCRIPT>
+<!-- nav start -->
+        <div class="nav nomalwidth auto">
+         <ul>
+<li><a href="/publish/env/index.html" title="&nbsp;">首页</a></li>
+<li id="menu_6312"  class="first"><a href="/publish/env/6313/index.html" title="学院概况">学院概况</a></li>
+<li id="menu_6317"><a href="/publish/env/6318/index.html" title="机构设置">机构设置</a></li>
+<li id="menu_6326"><a href="/publish/env/6327/index.html" title="师资队伍">师资队伍</a></li>
+<li id="menu_6338"><a href="/publish/env/6339/index.html" title="教务教学">教务教学</a></li>
+<li id="menu_6361"><a href="/publish/env/6362/index.html" title="学生生活">学生生活</a></li>
+<li id="menu_6368"><a href="/publish/env/6369/index.html" title="科学研究">科学研究</a></li>
+<li id="menu_6385"><a href="/publish/env/6386/index.html" title="合作交流">合作交流</a></li>
+<li id="menu_6390"><a href="/publish/env/6391/index.html" title="基础设施">基础设施</a></li>
+<li id="menu_6395"><a href="/publish/env/6396/index.html" title="招生信息">招生信息</a></li>
+<li id="menu_6404"><a href="/publish/env/6405/index.html" title="招聘人才">招聘人才</a></li>
+<li id="menu_6408"><a href="/publish/env/6409/index.html" title="新闻">新闻</a></li>
+<li id="menu_6414"><a href="/publish/env/6415/index.html" title="联系我们" class="clear">联系我们</a></li>
+</ul>
+        </div>
+  <script language="JavaScript">initMenuData();</script>
+        <!-- nav end -->        <!-- nav end -->
+        
+        <!-- 中部区域开始 -->
+        <div class="content auto">
+         
+            <!-- start -->
+            <table width="0" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="box_left">
+                 
+                    <!-- start -->
+                    <div class="s_menu">
+<p><img src="/publish/env/images/left_menu_pic.gif" width="200" height="76" /></p>
+                    </div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <div class="menu_bg_line"></div>
+                    <!-- end -->
+                    
+                    <!-- start -->
+                    <form id="searchForm" name="form1" method="post" action="#" target="_blank">
+<input type="hidden" id="searchVpath" name="vpath" value=""/>
+<div class="search auto"><p class="left"><input name="Q" type="text" /></p><p class="right"><a href="javascript:document.form1.submit();" title="搜索"></a></p></div>
+</form>                    <!-- end -->
+                    
+                    <!-- start -->
+                    <!-- start -->
+                    <div class="info_02 auto"><a href='http://100.tsinghua.edu.cn'><img width='190' height='67' src='/publish/env/images/100year_02.gif' /></a></div>
+                    <!-- end -->                    <!-- end -->
+                                                            
+                </td>
+                <td class="box_right">
+                 
+                    <!-- c_top start -->
+<!-- c_top start -->
+<div class="c_top">
+  <ul class="nav_01">
+    <li>&nbsp;您所在的位置：<A href="/publish/env/index.html" >首页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A href="/publish/env/6422/index.html" >教师个人主页</a>&nbsp;&nbsp;&#8250;</li>
+    <li><A>教师详细信息</A></li>
+    <li style="width:400px; text-align:right;"><A href="javascript:history.go(-1);">返&nbsp;&nbsp;回</A></li>
+  </ul>
+</div>
+<!-- c_bottom end -->                    <!-- c_bottom end -->
+                    <!-- start -->
+                <!--s2_right_con开始处-->
+                      <div id="s2_right_con">
+<img src="/publish/env/6422/20110220010425555852768/20120118171110897289461.jpg" />
+<table style="width: 348px; height: 212px" border="1" cellspacing="1" cellpadding="1" width="348">
+    <tbody>
+        <tr>
+            <td>姓　　名：</td>
+            <td>王书肖</td>
+        </tr>
+        <tr>
+            <td>所在单位：</td>
+            <td>大气污染与控制教研所</td>
+        </tr>
+        <tr>
+            <td>职　　称：</td>
+            <td>教授/研究员</td>
+        </tr>
+        <tr>
+            <td>职　　务：</td>
+            <td>大气污染与控制教研所所长</td>
+        </tr>
+        <tr>
+            <td>邮寄地址：</td>
+            <td>清华大学环境学院</td>
+        </tr>
+        <tr>
+            <td>办公电话：</td>
+            <td>62771466</td>
+        </tr>
+        <tr>
+            <td>电子邮件：</td>
+            <td><a href="mailto:shxwang@tsinghua.edu.cn">shxwang@tsinghua.edu.cn</a></td>
+        </tr>
+        <tr>
+            <td>办公地点：</td>
+            <td>清华大学环境楼</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+                        <h4>教育背景</h4>
+<p>1991.9至1995.7 天津大学 化学工程系&nbsp;&nbsp;&nbsp;工学学士 </p><p>
+1995.9至1998.3 天津大学 化学工程系&nbsp;&nbsp;&nbsp;工学硕士 </p><p>
+1998.3至2001.9 清华大学 环境科学与工程系&nbsp;工学博士</p>
+<p>&nbsp;</p>
+                        <h4>工作履历</h4>
+<p>2011.12～&nbsp;&nbsp;&nbsp;清华大学环境学院 研究员</p><p>
+2006.12至2011.12&nbsp;&nbsp;清华大学环境科学与工程系 副研究员</p><p>
+2003.12至2006.12&nbsp;清华大学环境科学与工程系 助理研究员 </p><p>
+2000.8至2000.9&nbsp;&nbsp;哈佛大学环境委员会 访问学者 </p><p>
+2001.11至2003.12 &nbsp;哈佛大学环境中心 博士后 </p><p>
+2003.1 &nbsp;&nbsp;&nbsp;&nbsp;美国大气研究中心（NCAR） 访问学者 </p><p>
+2006.7至2006.8 &nbsp;&nbsp;哈佛大学环境中心 高级访问学者</p><p>
+2010.6至2010.8 &nbsp;&nbsp;田纳西大学土木与环境系&nbsp;高级访问学者</p><p>
+2011.6至2011.8 &nbsp;&nbsp;田纳西大学土木与环境系&nbsp;高级访问学者&nbsp;</p>
+<p><strong>教学</strong></p>
+<p>国家精品课程《大气污染控制工程》（本科生）</p><p>
+《大气污染控制工程案例》（研究生）</p><p>
+&nbsp;</p>
+                        <h4>研究领域</h4>
+<p>1. 区域大气复合污染形成与控制</p><p>
+&mdash;大气污染物排放特征与排放清单</p><p>
+&mdash;区域大气污染物的传输与转化</p><p>
+&mdash;大气污染与气候的相互影响</p><p>
+&mdash;大气污染控制对策</p><p>
+2. 汞污染与防治</p><p>
+&mdash;大气汞排放</p><p>
+&mdash;大气汞污染观测</p><p>
+&mdash;汞污染的生态环境影响</p><p>
+&mdash;汞污染防治策略</p><p>
+&nbsp;</p>
+                        <h4>研究概况</h4>
+<p>1、主要在研项目：</p><p>
+1)&nbsp;长江三角洲地区大气灰霾特征与控制途径预研究，环保公益性行业专项，2010-2013</p><p>
+2)&nbsp;国内外研究的集成总结与国家大气环境关键问题识别，环保公益性行业专项，2010-2013</p><p>
+3)&nbsp;典型行业VOCs控制技术评估研究，环保公益性行业专项，2011-2014</p><p>
+4)&nbsp;RSM技术研究及其在中国区应用，中美国际合作，2011-2013</p><p>
+5)&nbsp;大型发展中经济：当前及未来对气候变化的潜在贡献，中挪国际合作项目，2010-2012</p><p>
+6)&nbsp;评估短寿命污染物的气候和空气质量影响，中欧国际合作，2011-2014</p><p>
+7)&nbsp;亚洲减少能源消耗/CO2排放以改善空气质量，中日国际合作，2008-2012</p><p>
+8)&nbsp;燃煤烟气中汞在飞灰表面的非均相反应机理研究，国家自然科学基金项目，2011-2013</p><p>
+9)&nbsp;我国环境汞污染的来源、化学特征与转化机制研究，自然科学基金重点项目，2010-2013</p><p>
+10)&nbsp;我国大气汞污染排放清单及控制对策研究，环保公益性行业专项，2009-2012</p><p>
+11)&nbsp;汞污染控制谈判支撑关键技术与对策研究，环保公益性行业专项，2012-2014</p><p>
+12)&nbsp;中国汞污染控制能力建设项目二期，中挪政府间合作项目，2010-2013</p><p>
+13)&nbsp;典型无意排放领域现状调查评估及排放源清单建立，国家环境保护专项，2011-2015</p><p>
+14)&nbsp;燃煤锅炉除尘脱硫技术的协同脱汞效果研究，横向课题，2011-2012</p><p>
+15)&nbsp;无意排放领域汞公约谈判应对策略研究，国家环境保护专项，2011-2012</p><p>
+16)&nbsp;我国有色金属冶炼过程汞排放控制技术选择，国家环境保护专项，2011</p>
+<p></p><p>
+2、主要完成项目：</p><p>
+1)&nbsp;我国酸沉降相关物质的排放特征及强度研究，科技部973计划课题，2005-2010</p><p>
+2)&nbsp;区域大气污染源识别与动态源清单技术及应用，科技部863计划课题，2006-2010</p><p>
+3)&nbsp;中国燃煤大气汞污染控制研究，联合国环境规划署，2009-2011</p><p>
+4)&nbsp;长三角区域环境空气质量联动机制研究，上海世博环境保障课题，2010-2011</p><p>
+5)&nbsp;集中供热燃煤锅炉汞排放水平监测与评估，北京市环境保护项目，2011</p><p>
+6)&nbsp;大气污染防治规划框架设计与规划指标体系研究，环境保护部科研专项，2009-2010</p><p>
+7)&nbsp;中国城市群复合大气污染控制策略研究，中日国际合作项目，2006-2010</p><p>
+8)&nbsp;室内空气污染，中挪国际合作，2008-2010</p><p>
+9)&nbsp;中国贵州省农村能源改善的费用效益分析，中挪国际合作，2007-2009</p><p>
+10)&nbsp;中国汞污染控制能力建设-贵州省案例研究，中挪政府间合作项目，2006-2009</p><p>
+11)&nbsp;中国炼锌大气汞排放研究，中美国际合作，2008-2010</p><p>
+12)&nbsp;中国燃煤大气汞排放研究，中意国际合作，2008-2009 </p><p>
+13)&nbsp;中国燃煤电厂大气汞排放控制技术选择，环境保护部，2008-2009</p><p>
+14)&nbsp;考虑中国新兴都市的成长构筑排放限值，中日国际合作，2008-2009</p><p>
+15)&nbsp;中国大气环境保护战略研究，环境保护部科研专项，2007-2008</p><p>
+16)&nbsp;奥运期间北京市空气质量保障措施研究，北京市环境保护项目，2006-2008</p><p>
+17)&nbsp;北京奥运期间措施实施后效果评估，北京市环境保护科技计划，2008</p><p>
+18)&nbsp;城市大气细粒子PM2.5污染特征与形成机制研究，国家自然科学基金重大国际合作项目2005-2008</p><p>
+&nbsp;</p>
+                        <h4>奖励与荣誉</h4>
+<p>1.&nbsp;国家科技进步二等奖&ldquo;我国二氧化硫减排理论与关键技术&rdquo;（2011）</p><p>
+2.&nbsp;国家科技进步二等奖&ldquo;特大城市空气质量改善理论与技术及其应用&rdquo;（2010）</p><p>
+3.&nbsp;国家教育部新世纪优秀人才支持计划（2010）</p><p>
+4.&nbsp;国家环境保护部、中国工程院&ldquo;环境保护宏观战略研究&rdquo;先进个人（2010）</p><p>
+5.&nbsp;教育部高等学校科学技术奖一等奖&ldquo;大气颗粒物及其前体物排放与复合污染特征&rdquo;（2008）</p><p>
+6.&nbsp;中国环境科学学会优秀环境科技工作者（2008）</p><p>
+7.&nbsp;清华大学优秀班主任（2008）</p><p>
+8.&nbsp;国家环保科技二等奖&ldquo;宁波市经济社会发展环境承载力及环境保护对策研究&rdquo;（2007）</p><p>
+9.&nbsp;清华大学优秀教材一等奖（2004）</p><p>
+&nbsp;</p>
+                        <h4>学术成果</h4>
+<p>出版著作</p>
+<p>1.&nbsp;Wang Shuxiao and Zhao Y. Air Pollution and Lung Cancer Risks. In: Nriagu JO (ed.) Encyclopedia of Environmental Health, volume 1, pp. 26&ndash;38 Burlington: Elsevier, 2011.</p><p>
+2.&nbsp;Jiming Hao, Wang Shuxiao. Air Pollution Control Strategy in the People&rsquo;s Republic of China. In Economic Growth and Environmental Regulation-The People's Republic of China's Path to a Brighter Future, Routledge, 2009</p><p>
+3.&nbsp;Streets DG, Hao JM, Wang Shuxiao, Wu Y. Mercury emissions from coal combustion in China. In: Mercury fate and transport in the global atmosphere: emissions, measurements and models, Springer, 2009</p><p>
+4.&nbsp;Wang Shuxiao, Jiming Hao, Ji Li, Yongqi Lu. Local Population Exposure to Pollutants from the Major Industrial Sectors and Transportation. In: Clearing the Air: The Health and Economic Damage of Air Pollution in China (edited by M S Ho and C P Nielsen). MIT Press, 2007.</p><p>
+5.&nbsp;郝吉明，马广大，王书肖。大气污染控制工程，高等教育出版社，2010</p><p>
+6.&nbsp;郝吉明，王书肖，王丽涛。大气污染控制工程习题与例题。北京：高等教育出版社，2003</p><p>
+7.&nbsp;郝吉明，王书肖，陆永琪。燃煤二氧化硫污染控制技术手册。北京：化学工业出版社，2001</p>
+<p>发表论文</p>
+<p>1、国际期刊论文：</p><p>
+1)&nbsp;Wang Shuxiao, Xing J, Jang C, Zhu Y, Fu J, Hao JM. Impact assessment of ammonia emissions on inorganic aerosols in east China using response surface modeling technique. Environmental Science and Technology, 2011, DOI: 10.1021/es2022347</p><p>
+2)&nbsp;Wang Shuxiao, Hao JM. Air quality management in China: issues, challenges, and options. Journal of Environmental Sciences, 2012</p><p>
+3)&nbsp;Li XH, Wang Shuxiao, Duan L, Hao JM, Long ZW Design of a compact dilution sampler for stationary combustion sources. Journal of the Air &amp; Waste Management Association, 2011, 61: 1124&ndash;1130. Doi: 10.1080/10473289.2011.604556 </p><p>
+4)&nbsp;Schreifels J J, Wang Shuxiao, Hao JM. Design and operational considerations for selective catalytic reduction technologies at coal-fired boilers. Frontiers of Energy, 2011, Doi: 10.1007/s11708-012-0171-4</p><p>
+5)&nbsp;Kragie SX, Barry R P, Bergin M H, Wang Shuxiao. Airborne trace metals from coal combustion in Beijing. Air Quality and Atmospheric Health, 2011, Doi: 10.1007/s11869-011-0157-0 </p><p>
+6)&nbsp;Wang Shuxiao, Xing J, Chatani S, Hao JM, Klimont Z, Cofala J, Amann M. Verification of anthropogenic emissions of China by satellite and ground observations. Atmospheric Environment, 2011, 45: 6347-6358</p><p>
+7)&nbsp;Wei W, Wang Shuxiao, Hao JM, Cheng SY. Projection of anthropogenic volatile organic compounds (VOCs) emissions in China for the period 2010-2020. Atmospheric Environment, 2011, doi:10.1016/j.atmosenv.2011.01.013</p><p>
+8)&nbsp;Zhang HF, Hu DW, Chen JM, Ye XN, Wang Shuxiao, Hao JM, Wang L, Zhang RY, An ZS. Particle size distribution and polycyclic aromatic hydrocarbons emissions from agricultural crop residue burning. Environmental Science and Technology, 2011, 45: 5477-5482 </p><p>
+9)&nbsp;Xing J, Wang Shuxiao, Jang C, Zhu Y, Hao JM.&nbsp;Nonlinear response of ozone to precursor emission changes in China: a modeling study using response surface methodology. Atmospheric Chemistry and Physics, 2011, 11: 5027&ndash;5044</p><p>
+10)&nbsp;Xing J, Wang Shuxiao, Chatani S, Zhang CY, Wei W, Hao JM, Klimont Z, Cofala J, Amann M. Projections of air pollutant emissions and its impacts on regional air quality in China in 2020. Atmospheric Chemistry and Physics, 2011, 11: 3119&ndash;3136</p><p>
+11)&nbsp;Xing J, Zhang Y, Wang Shuxiao, Liu XH, Cheng SH, Zhang Q, Chen YS, Streets D G, Jang C, Hao JM, Wang WX. Modeling study on the Air Quality Impacts from Emission Reductions and Atypical Meteorological Conditions during the 2008 Beijing Olympics. Atmospheric Environment, 2011, 45: 1786-1798</p><p>
+12)&nbsp;Wang Shuxiao, Zhao M, Xing J, Wu Y, Zhou Y, Lei Y, He KB, Fu LX, Hao JM. Quantifying the air pollutants emission reduction during the 2008 Olympic games in Beijing. Environmental Science &amp; Technology, 2010, 44: 2490-2496</p><p>
+13)&nbsp;Wang Shuxiao, Zhang L, Li G,Wu Y, Hao JM, Pirrone N, Sprovieri F, Ancora MP. Mercury emission and speciation of coal-fired power plants in China, Atmospheric Chemistry and Physics, 2010, 10: 1183&ndash;1192</p><p>
+14)&nbsp;Wang Shuxiao, Song JX, Li GH, Wu Y, Zhang L, Wan Q, Streets DG, Chin C, Hao JM. Estimating mercury emissions from a zinc smelter in relation to China&rsquo;s mercury control policies. Environmental Pollution, 2010, 158, 3347-3353</p><p>
+15)&nbsp;Wang Shuxiao, Zhang L, Wu Y, Ancora MP, Zhao Y, Hao JM. Synergistic mercury removal by conventional pollutant control strategies for coal-fired power plants in China. Journal of the Air &amp; Waste Management Association, 2010, 60: 722-730</p><p>
+16)&nbsp;Wang Shuxiao, Wei W, Du L, Aunan K, Hao JM. Air pollutants in rural homes in Guizhou, China - concentrations, speciation and size distribution. Atmospheric Environment, 2010, 44: 4575-4581</p><p>
+17)&nbsp;Zhao Y, Wang Shuxiao, Nielsen CP, Li XH, Hao JM. Establishment of a database of emission factors for atmospheric pollutants from Chinese coal-fired power plants. Atmospheric Environment, 2010, 44: 1515-1523</p><p>
+18)&nbsp;Wu Y, Streets DG, Wang Shuxiao, Hao JM. Uncertainties in estimating mercury emissions from coal-fired power plants in China. Atmospheric Chemistry and Physics, 2010, 10: 2937&ndash;2947</p><p>
+19)&nbsp;Mullen NA, Liu C, Zhang YP, Wang Shuxiao, Nazaroff WW. Ultrafine particle concentrations and exposures in four high-rise Beijing apartments. Atmospheric Environment, 2010, doi:10.1016/j.atmosenv.2010.07.060</p><p>
+20)&nbsp;Zhou Y, Wu Y, Yang L, Fu LX, He KB, Wang Shuxiao, Hao JM, Chen JC, Li CY. The impact of transportation control measures on emission reductions during the 2008 Olympic Games in Beijing, China. Atmospheric Environment 2010, 44: 285-293</p><p>
+21)&nbsp;Wang Shuxiao, Wei W, Du L, Li GH, Hao JM. Characteristics of gaseous pollutants from biofuel-stoves in rural China. Atmospheric Environment, 2009, 43:4148-4154</p><p>
+22)&nbsp;Li XH, Wang Shuxiao, Duan L, Hao JM, Nie YF. Carbonaceous aerosol emissions from household biofuel combustion in China. Environmental Science and Technology, 2009, 43: 6076-6081</p><p>
+23)&nbsp;Li XH, Wang Shuxiao, Duan L, Hao JM. Characterization of non-methane hydrocarbons emitted from open burning of wheat straw and corn stover in China. Environmental Research Letter, 2009, 4: 044015 doi:10.1088/1748-9326/4/4/044015</p><p>
+24)&nbsp;Zhao Y, Wang Shuxiao, Chen GC, Wang F, Aunan K, Hao JM. Microenvironmental time-activity patterns in Chongqing, China. Front. Environ. Sci. Engin. China, 2009, 3: 200-209</p><p>
+25)&nbsp;Klimont Z, Cofala J, Xing J, Wei W, Zhang C, Wang Shuxiao, Jiang KJ, Bhandari P, Mathur R, Purohit P, Rafaj P, Chambers A, Amman M. Projections of SO2, NOx, and carbonaceous aerosols emissions in Asia. Tellus B, 2009, 61: 602-617, doi: 10.1111/j.1600-0889.2009.00428.x </p><p>
+26)&nbsp;Zhao Y, Wang Shuxiao, Duan L, Lei Y, Cao PF, Hao JM. Primary air pollutant emissions of coal-fired power plants in China: Current status and future prediction. Atmospheric Environment, 2008, 42：8442-8452</p><p>
+27)&nbsp;Wang Shuxiao, Zhao Y, Chen GC, Wang F, Aunan K, Hao JM. Assessment of Population Exposure to Particulate Matter Pollution in Chongqing, China. Environmental Pollution, 2008, 153:247-256</p><p>
+28)&nbsp;Wei W, Wang Shuxiao, Chatani S, Klimont Z, Cofala J, Hao JM. Emission and speciation of non-methane volatile organic compounds from anthropogenic sources in China. Atmospheric Environment, 2008, 42: 4976-4988</p><p>
+29)&nbsp;Wang LT, Hao JM, He KB, Wang Shuxiao, Li JH, Zhang Q, Streets DG, Fu JS, Carey CJ, Takekawa H, Chatani S. A modeling study of coarse particulate matter pollution in Beijing: Regional source contributions and control implications for the 2008 summer Olympics. Journal of The Air &amp; Waste Management Association, 2008, 58: 1057-1069&nbsp;</p><p>
+30)&nbsp;Li XH, Wang Shuxiao, Duan L, Hao JM, Li C, Chen YS, Yang L. Particulate and trace gas emissions from open burning of wheat straw and corn stover in China. Environmental Science and Technology, 2007, 41: 6052-6058</p><p>
+31)&nbsp;Li XH, Duan L, Wang Shuxiao, Duan JC, Guo XM, Yi HH, Hu JN, Li C, Hao JM. Emission characteristics of particulate matter from rural household biofuel combustion in China. Energy &amp; Fuels, 2007, 21: 845-851</p><p>
+32)&nbsp;Mestl HES, Aunan K, Seip H, Wang Shuxiao, Zhao Y, Zhang D. Urban and rural exposure to indoor air pollution from domestic biomass and coal burning across China. Science of the Total Environment, 2007, 377: 12-26</p><p>
+33)&nbsp;Wu Y, Wang Shuxiao, Streets DG, Hao JM, Chan M, Jiang JK. Trends in Anthropogenic Mercury Emissions in China from 1995 to 2003. Environmental Science &amp; Technology. 2006, 40: 5312-5318</p><p>
+34)&nbsp;Wang Shuxiao, Hao JM, Ho M, Li J, Lu YQ. Intake fractions of industrial air pollutants in China: Estimation and application. Science of the Total Environment. 2006, 354: 127-141 </p><p>
+35)&nbsp;Zhao Y, Wang Shuxiao, Aunan K, Seip H, Hao JM. Air Pollution and Lung Cancer Risks in China &ndash; a Meta-analysis. Science of the Total Environment. 2006, 366: 500&ndash; 513</p><p>
+36)&nbsp;Hao JM, Wang Shuxiao, Liu BJ, He KB. Designation of sulfur dioxide and acid rain pollution control zones and its impacts on energy industry in China. Journal of Chemical Engineering of Japan, 2001,34(9): 1108-1113</p><p>
+37)&nbsp;Hao JM, Wang Shuxiao, Liu BJ, He KB. Plotting of acid rain and SO2 pollution control zones and integrated control planning in China. Water, Air, and Soil Pollution, 2001,130: 259-264</p><p>
+38)&nbsp;Hao JM, Wang Shuxiao, Liu BJ, He KB. Designation of acid rain and SO2 pollution control zones and control policies in China. Journal of Environmental Science and Health (Part A), 2000, 35 (6): 1901-1914</p><p>
+39)&nbsp;Hao JM, Wang Shuxiao, Liu BJ, He KB. The control strategy for sulfur dioxide and acid rain pollution in China. Journal of Environmental Sciences, 2000, 12 (4): 385-393</p><p>
+40)&nbsp;Hao JM, Wang Shuxiao, Lu YQ, He KB. Study on SO2 emission mitigation of thermal power plants in China. Tsinghua Science and Technology, 2000, 5(3): 252-261</p>
+<p>2、国内期刊论文：</p><p>
+41)&nbsp;李兴华，王书肖，郝吉明. 民用生物质燃烧挥发性有机化合物排放特征. 环境科学，2011，32: 54-60</p><p>
+42)&nbsp;魏巍，王书肖, 郝吉明. 中国人为源VOC排放清单不确定性研究. 环境科学, 2011, 02: 305-312 </p><p>
+43)&nbsp;朱云, 王书肖, Lin C, 郝吉明, Jang C, 王龙. 大气汞污染模拟研究进展及控制策略优化方法. 环境科学, 2011, 06: 1851-1856</p><p>
+44)&nbsp;于超，王书肖，郝吉明. 电厂NOx控制政策与技术: 美国的经验及对我国的启示. 环境工程学报，2011，6: 2013-2020 </p><p>
+45)&nbsp;宋敬祥，王书肖，李广辉. 中国锌精矿中的汞含量及其空间分布. 中国科技论文在线. 2010, 5: 472-475 </p><p>
+46)&nbsp;于超，王书肖，郝吉明. 基于模糊评价方法的燃煤电厂氮氧化物控制技术评价，环境科学，2010，31: 1464-1469&nbsp;</p><p>
+47)&nbsp;董文煊，邢佳，王书肖. 1994～2006年中国人为源大气氨排放时空分布. 环境科学，2010，31: 1457-1463&nbsp; </p><p>
+48)&nbsp;王书肖，赵秀娟，李兴华，魏巍，郝吉明. 工业燃煤链条炉细粒子排放特征研究. 环境科学. 2009，30：963-968 &nbsp;</p><p>
+49)&nbsp;魏巍，王书肖，郝吉明. 中国涂料应用过程挥发性有机物的排放计算及未来发展趋势预测. 环境科学. 2009， 30：2809-2815 </p><p>
+50)&nbsp;张楚莹，王书肖，邢佳，赵瑜，郝吉明. 中国能源相关的氮氧化物排放现状与趋势分析 . 环境科学学报，2008，28：2470-2479&nbsp; </p><p>
+51)&nbsp;王书肖，陈瑶晟，许嘉鈺，郝吉明. 北京市燃煤的空气质量影响及其控制研究. 环境工程学报，2010，4：151-158</p><p>
+52)&nbsp;张楚莹，王书肖，赵瑜，郝吉明. 中国人为源颗粒物排放现状与趋势分析. 环境科学，2009，30：1881-1887</p><p>
+53)&nbsp;王书肖，张楚莹. 中国秸秆露天焚烧大气污染物排放时空分布. 中国科技论文在线，2008, 5: 329-333</p><p>
+54)&nbsp;刘敏，王书肖, 段雷. 北京市和房山区环境污染与经济增长的关系研究. 环境保护科学，2007，33: 56-59 </p><p>
+55)&nbsp;刘敏，王书肖, 段雷. 环境承载力理论在北京市和房山区的应用. 城市环境与城市生态，2006，19: 12-14 </p><p>
+56)&nbsp;王书肖，刘敏，吴烨，蒋靖坤，郝吉明，D Streets.&nbsp;中国非燃煤大气汞排放量估算. 环境科学，2006，27: 35-40&nbsp;</p><p>
+57)&nbsp;郭兴明，郝吉明，田贺忠，王书肖，赵喆.&nbsp;固定源氮氧化物排放及控制技术应用. 环境污染治理技术与设备， 2006，7：116－121</p><p>
+58)&nbsp;赵瑜，王书肖，胡京南，郝吉明. 试论中国污染物排放技术标准发展战略. 环境污染与防治，2005，No.3 </p><p>
+59)&nbsp;段振亚, 胡金榜, 宗润宽, 王书肖. 文丘里洗涤器压力损失模型. 化学工程，2004，32（6）：31-34</p><p>
+60)&nbsp;王晋刚, 胡金榜, 段振亚, 王书肖. 文丘里洗涤器轴向压力损失的试验研究. 天津师范大学学报, 2004, 24(4): 17-19</p><p>
+61)&nbsp;段振亚, 胡金榜, 胡玲玲, 王书肖, 胡文庆. 文丘里洗涤器压力损失试验研究. 安全与环境学报，2004，4(6)：70-73</p><p>
+62)&nbsp;王书肖，郝吉明，陆永琪，周中平. 火电厂烟气脱硫技术的模糊综合评价. 中国电力，2001，34 (12): 58-62</p><p>
+63)&nbsp;王书肖，郝吉明，陆永琪，田贺忠. 模糊理论在烟气脱硫技术综合评价中的应用. 中国电机工程学报，2001，21 (141): 311-316 </p><p>
+64)&nbsp;田贺忠，陆永琪，郝吉明，王书肖，薛志刚. 我国酸雨和二氧化硫污染控制历程及进展. 中国电力，2001，9: 21-26</p><p>
+65)&nbsp;胡金榜, 陈志强, 宗润宽, 王书肖，田天，王凤东. 文丘里洗涤器除尘操作参数的优化设计与工程实践. 环境工程，1999, 17 (5): 35-39</p><p>
+66)&nbsp;胡金榜, 陈志强, 宗润宽, 王书肖. 大型文丘里式脱硫除尘器的优化. 化工设计, 1999, 9(4): 32-34</p><p>
+67)&nbsp;胡金榜, 王书肖. D300-43型煤气鼓风机叶轮应力分析及其应用. 流体机械，1998, 26 (6): 26-29</p>
+<p>3、国际会议论文</p><p>
+68)&nbsp;Wang Shuxiao, Wu QR, Zhang L, Meng Y, Streets D, Chin C. Atmospheric mercury emission from Chinese copper smelters in 2007. The 10th International Conference on Mercury as a Global Pollutant (ICMGP), Halifax, July 24-29, 2011</p><p>
+69)&nbsp;Wang Shuxiao, Zhang L, Meng Y, Hao JM. Current state and future trends of mercury emissions from coal-fired power plants in China. The 10th International Conference on Mercury as a Global Pollutant (ICMGP), Halifax, July 24-29, 2011</p><p>
+70)&nbsp;Zhang L, Wang Shuxiao, Meng Y, Wu QR, Hao JM. Onsite measurements of mercury emissions from zinc, lead and copper smelters in China. The 10th International Conference on Mercury as a Global Pollutant (ICMGP), Halifax, July 24-29, 2011</p><p>
+71)&nbsp;Wang Shuxiao, Xing J, He KB, Hao JM. Emission trends of air pollutants leading to acid rain and their impacts in China. Acid Rain 2011, June 15-18, 2011</p><p>
+72)&nbsp;Wang Shuxiao. Atmospheric mercury emissions and control in China. The 6th International Conference on Regional Air Quality Management. Beijing,</p><p>
+October 11-12, 2010</p><p>
+73)&nbsp;Xing J, Wang Shuxiao, Jang C, Hao JM. Sensitivity Study of the ammonia emission impacts on inorganic fine particulate matter in China. The Air &amp; Waste Management Association's (AWMA) International Specialty Conference on Leapfrogging Opportunities for Air Quality Improvement, Xi&rsquo;an, May 10-14, 2010</p><p>
+74)&nbsp;Xing J, Wang Shuxiao, Chatani S, Zhao M, Zhang CY, Hao JM. Future Emission projection and air quality prospect over China up to 2020. The 11th International Conference on Atmospheric Sciences and Applications to Air Quality (ASAAQ). Jinan, April 21~24, 2009</p><p>
+75)&nbsp;Wang Shuxiao, Wei W, Du L. Monitoring indoor air quality at rural residential room in Guiyang, China. The 7th International Conference on Air Quality - Science and Application, Istanbul, 24-27 March, 2009</p><p>
+76)&nbsp;Wang Shuxiao, Zhao M, Wu Y, He KB, Fu LX, Hao JM. Photochemical air pollution in mega city in China. The 50th Conference on the Japan Society of Atmospheric Environment. Yokohama, September 16-18, 2009</p><p>
+77)&nbsp;Wang Shuxiao, Zhang L, Wu Y, Hao JM. Mercury emissions from coal combustion in China. The 9th International Conference on Mercury as a Global Pollutant (ICMGP), Guiyang, June 6-12, 2011</p><p>
+78)&nbsp;Wang Shuxiao, Wu Y, Zhang L, Zhao Y, Hao JM. Multi-pollutant emissions and reduction potential of coal-fired power plants in China. The International Conference on Multi-pollutant Control Technology, Yantai, November 10-11, 2008</p><p>
+79)&nbsp;Wang Shuxiao, Li XH, Duan L, Hao JM. Particulate and trace gas emissions from biomass open burning in China. The 11th International Conference on Atmospheric Sciences and Applications to Air Quality (ASAAQ). Hong Kong, May 14~16, 2007</p><p>
+80)&nbsp;Wu Y，Wang Shuxiao, Streets DG, Hao JM, Chan M. Mercury emissions from coal combustion in china: current status and future trends. The A&amp;WMA&rsquo;S 99th Annual Conference &amp; Exhibition, 2006, June 20-23, New Orleans, USA</p>
+<p>重要咨询报告：</p><p>
+1.&nbsp;Wang SX, Zhang L, Meng Y. Reducing mercury emissions from coal combustion in the energy sector. United Nations Environment Programme, UNEP Chemicals, 11-13 Chemin des Ane？mones, Feburary, 2011. Available at: <a href="http://www.unep.org/hazardoussubstances/Mercury/PrioritiesforAction/Coalcombusti">http://www.unep.org/hazardoussubstances/Mercury/PrioritiesforAction/Coalcombusti</a> on/Reports/tabid/4492/language/en-US/Default.aspx</p><p>
+2.&nbsp;郝吉明，王书肖. 中国大气环境保护战略研究报告，2008</p><p>
+3.&nbsp;Markus A, Jiang K, Hao JM, Wang SX, Wei W, Xing J, Zhang CY, GAINS-ASIA Scenarios for cost-effective control of air pollution and greenhouse gases in China. Laxenburg, International Institute for Applied Systems Analysis (IIASA), November, 2008</p><p>
+4.&nbsp;He KB, Wang SX, Lei Y, Jang C, Streets DG, Fu J, Lin J, Zhang Q. Air quality benefits of energy saving and pollution abatement measures for the electric power sector. In US-China Joint Economic Study: Economic analyses of energy saving and pollution abatement policies for the electric power sectors of China and the United States. December 2007. Available at: <a href="http://www.epa.gov/airmarkt/international/china/JES_Summary.pdf">www.epa.gov/airmarkt/international/china/JES_Summary.pdf</a></p><p>
+5.&nbsp;Wang SX. Improve the estimates of anthropogenic mercury emissions in China. October 2006. Available at <a href="http://www.chem.unep.ch/mercury/China%20emission%20inventory%20.pdf">http://www.chem.unep.ch/mercury/China%20emission%20inventory%20.pdf</a></p>
+<p>&nbsp;</p>
+                  </div>
+                      <!--s2_right_con结束处-->
+                    <!-- end -->
+                                                              
+                </td>
+              </tr>
+            </table>
+            <!-- end -->
+                                       
+       </div>
+        <!-- 中部区域结束 -->
+        
+        <!-- 页脚区域开始 -->
+        <!-- 页脚区域开始 -->
+        <div class="footer nomalwidth auto"><div class="footer nomalwidth auto"><p style="text-align: center;"><span style="color: rgb(51, 51, 51);">Copyright&nbsp;<img title="copyright_black.png" src="/publish/env/6421/20110117161025461497872/1492675051132.png"/> 2017&nbsp;清华大学环境学院<span style="color: rgb(0, 0, 0);"> </span></span></p><p style="text-align: center;"><span style="color: rgb(51, 51, 51);"></span><span style="color: rgb(51, 51, 51);">地址：清华大学中意环境节能楼&nbsp;&nbsp;100084</span></p></div><!-- 页脚区域结束 --><!-- 页脚区域结束 --><!-- 整体区域结束 --></div>
+<!-- 页脚区域结束 -->        <!-- 页脚区域结束 -->
+        
+ </div>
+    <!-- 整体区域结束 -->
+</body>
+</html>

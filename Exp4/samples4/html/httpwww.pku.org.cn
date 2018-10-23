@@ -1,0 +1,539 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> 北京大学校友网</title>
+		<link rel="stylesheet" type="text/css" href="css/A.style.css,q20140303.pagespeed.cf.KkSReDUVvl.css">
+		<style>
+			.layout {
+				background-image: url('images/xbg.jpg.pagespeed.ic.Xpp6vXzUUZ.jpg')
+			}
+		</style>
+		<script type="text/javascript">
+			var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fafc6a334e82d0ee23d872d2272de1389' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script src="js/jquery-1.10.2.min.js.pagespeed.jm.ZzSiN_5Whq.js" type="text/javascript"></script>
+		<script src="js/app.js,q20140223.pagespeed.jm.NxPgfJ4lNE.js" type="text/javascript"></script>
+
+	</head>
+
+	<body>
+
+		<div class="layout">
+			<!--header-->
+			<div class="header header_index">
+			<div class="header_top">
+				<div class="header_top_l">
+				    						<a href="http://www.pku.edu.cn" target="_new">北京大学</a>
+                    						<a href="https://h5.sosho.cn/page/beida/form/" target="_new">燕缘</a>
+                    						<a href="http://www.pkuef.org/pkuef/giveNow.php" target="_new">校友捐赠</a>
+                    						<a href="http://old.pku.org.cn" target="_new">旧版网站</a>
+                    				</div>
+				<div class="header_top_r">
+					<a href="https://h5.sosho.cn/page/beida/form/" target="_new">登录</a>
+					<a href="https://h5.sosho.cn/page/beida/form/" target="_new">注册</a>
+				</div>
+			</div>
+			<div class="header_logo">
+				<a href="index.htm" class="logo"></a>
+			</div>
+			<div class="header_nav">
+									<a href="news/index.htm">新闻 
+						<span>News</span>
+					</a>
+									<a href="association/index.htm">校友会 
+						<span>Association</span>
+					</a>
+									<a href="people/index.htm">人物 
+						<span>People</span>
+					</a>
+									<a href="memory/index.htm">回忆 
+						<span>Memory</span>
+					</a>
+									<a href="service/index.htm">服务 
+						<span>Service</span>
+					</a>
+									<a href="giving/index.htm">捐赠 
+						<span>Giving</span>
+					</a>
+									<a href="journal/index.htm">刊物 
+						<span>Journal</span>
+					</a>
+									<a href="photovideo/index.htm">照片和视频  
+						<span>Photo&Video</span>
+					</a>
+								<a href="https://h5.sosho.cn/page/beida/form/" target="_new" class="fr">燕缘 <span>Yanyuan</span></a>
+			</div>
+			<ul class="sub_nav hide">
+									<li>
+													<a href="news/xykkx/index.htm">校友会快讯</a><br>
+													<a href="news/yyxw/index.htm">燕园新闻</a><br>
+													<a href="news/tzyg/index.htm">通知预告</a><br>
+													<a href="news/rwdt/index.htm">人物动态</a><br>
+											</li>
+									<li>
+													<a href="association/xykjj/index.htm">校友会简介</a><br>
+													<a href="association/gzzd/index.htm">规章制度</a><br>
+													<a href="association/zzjg/index.htm">组织机构</a><br>
+													<a href="association/bazz/index.htm">备案组织</a><br>
+													<a href="association/zxns/index.htm">招贤纳士</a><br>
+											</li>
+									<li>
+													<a href="people/rwft/index.htm">人物访谈</a><br>
+													<a href="people/dsff/index.htm">大师风范</a><br>
+													<a href="people/xzfc/index.htm">学子风采</a><br>
+													<a href="people/xyjy/index.htm">行业精英</a><br>
+													<a href="people/rzhw/index.htm">人在海外</a><br>
+													<a href="people/yyxr/index.htm">燕园学人</a><br>
+											</li>
+									<li>
+													<a href="memory/yyfw/index.htm">燕园风物</a><br>
+													<a href="memory/bdjs/index.htm">北大旧事</a><br>
+													<a href="memory/bdjw/index.htm">北大旧闻</a><br>
+													<a href="memory/byqs/index.htm">博雅情深</a><br>
+											</li>
+									<li>
+													<a href="service/xyq/index.htm">校友卡</a><br>
+													<a href="http://mail.pku.org.cn/">校友邮箱</a><br>
+													<a href="service/xyqyzp/index.htm">校友企业招聘</a><br>
+													<a href="service/zybdxyq/index.htm">中银北大信用卡</a><br>
+													<a href="service/zybdbjxyq/index.htm">中银北大白金信用卡</a><br>
+													<a href="service/wxpt/index.htm">微信平台</a><br>
+													<a href="http://pkucy.org/">创新创业扶持计划</a><br>
+											</li>
+									<li>
+													<a href="giving/jzxxcx/index.htm">捐赠信息查询</a><br>
+													<a href="giving/jzhk/index.htm">捐赠回馈</a><br>
+													<a href="giving/jzpt/index.htm">捐赠平台</a><br>
+													<a href="giving/jzxm/index.htm">捐赠项目</a><br>
+											</li>
+									<li>
+													<a href="journal/bdr/index.htm">北大人</a><br>
+													<a href="journal/xyjj/index.htm">校友聚焦</a><br>
+											</li>
+									<li>
+													<a href="photovideo/zpq/index.htm">照片墙</a><br>
+													<a href="photovideo/sp/index.htm">视频</a><br>
+											</li>
+							</ul>
+		</div>
+		<!--search-->
+		<div class="header_search">
+<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+     <input name="siteID" value="65967" type = "hidden">
+     <input name="query" type="text">
+     <input name="Submit" type="submit" value="搜 索">
+   </form>
+			<!--form action="/cms/search/searchResults.jsp">
+				<input type="text" name="s"><button></button>
+			</form-->
+		</div>
+
+			<!--header end-->
+
+			<!--main-->
+			<div class="index_main">
+				<div class="index_main_l">
+					<div href="" class="index_main_l_title">专题报道<i class="on"></i></div>
+					
+
+
+	<div class="news_box">
+						
+				<!--		
+						
+						<a href="zt/7778jrx40zn/index.htm" class="news_images" data-bind="specialCoverage1Link"><img src="images/zuocezhuanti2.jpg" alt="" data-bind="specialCoverage1Image"></a>
+						<p>
+							<a href="zt/7778jrx40zn/index.htm" data-bind="specialCoverage1Title">北京大学1977-1978级入学四十周年返校活动
+
+</a>
+						</p>
+						<a href="zt/84jby30zn/index.htm" class="news_images" data-bind="specialCoverage2Link"><img src="images/zuocezhuanti3.jpg" alt="" data-bind="specialCoverage2Image"></a>
+						<p>
+							<a href="zt/84jby30zn/index.htm" data-bind="specialCoverage2Title">热烈庆祝北京大学1984级校友毕业30周年</a>
+						</p>
+
+<a href="zt/2018lkxyyl/index.htm" class="news_images" data-bind="specialCoverage3Link"><img src="images/content/2018-04/20180419101319214210.jpg" alt="" data-bind="specialCoverage3Image"></a>
+
+						<p>
+							<a href="zt/2018lkxyyl/index.htm" data-bind="specialCoverage3Title">2018年全国两会校友代表言论</a>
+						</p>
+
+-->
+		
+	
+						<a href="zt/bjdx120znxq/index.htm" class="news_images" data-bind="specialCoverage1Link"><img src="images/20180712133426198569.jpg" alt="" data-bind="specialCoverage1Image"></a>
+						<p>
+							<a href="zt/bjdx120znxq/index.htm" data-bind="specialCoverage1Title">北京大学120周年校庆
+</a>
+				</p>						<a href="zt/7778jrx40zn/index.htm" class="news_images" data-bind="specialCoverage2Link"><img src="images/20180621193502867043.jpg" alt="" data-bind="specialCoverage2Image"></a>
+						<p>
+							<a href="zt/7778jrx40zn/index.htm" data-bind="specialCoverage2Title">北京大学1977-1978级入学四十周年返校活动</a>
+						</p>
+<a href="zt/84jby30zn/index.htm" class="news_images" data-bind="specialCoverage3Link"><img src="images/20180621193520091105.jpg" alt="" data-bind="specialCoverage3Image"></a>
+
+						<p>
+							<a href="zt/84jby30zn/index.htm" data-bind="specialCoverage3Title">热烈庆祝北京大学1984级校友毕业30周年</a>
+						</p>
+
+
+
+
+			</div>
+					
+					<div class="news_title">视频剪辑<i></i></div>
+					<div class="index_video">
+												<p>
+							<a href="https://v.qq.com/x/page/j0681rmvj6p.html" class="index_video_title">
+								<img src="images/content/2018-06/20180621124851739507.jpg" alt="">
+							</a>
+						</p>
+						<p class="index_video_summary">《青春燕园·归来仍少年——北京大学2018后校园原创音乐盛典》</p>
+												<p>
+							<a href="photovideo/sp/index.htm">查看更多</a>
+						</p>
+					</div>
+					
+					<div class="news_title">联系我们<i></i></div>
+					<div class="index_concat">
+						<span href="" class="fl"><i class="tele"></i> 010-62758419 </span>
+						<a href="mailto:pkuaa@pku.org.cn" class="fr"><i class="mail"></i> pkuaa@pku.org.cn</a>
+						<a href="http://e.weibo.com/pkuoaa" class="fl" target="_new"><i class="weibo"></i> @北京大学校友会</a>
+						<span href="" class="fr"><i class="weixin"></i> <i class="code"></i></span>
+					</div>
+				</div>
+				<div class="index_main_r">
+					
+					<div class="latest_news">
+						<div class="news_title">热点新闻<i></i></div>
+						
+<p class="mb18">
+							<a href="http://www.pku.org.cn/zt/2018jbdbyb/index.htm" data-bind="topLineLink">	
+
+								<img data-bind="topLineImage" src="images/content/2018-07/20180712132915746969.jpg">
+
+							</a>
+						</p>
+
+						<h3 class="mb10">
+							<a href="http://www.pku.org.cn/zt/2018jbdbyb/index.htm" data-bind="topLineTitle">2018届北大毕业帮</a>
+						</h3>
+						<p class="mb10 des" data-bind="topLineSummary">
+							2018，北大校友会将一路与你同行！更多详情请点击…… 
+						</p>
+						<p class="mb18">
+							<a href="http://www.pku.org.cn/zt/2018jbdbyb/index.htm" class="more" data-bind="topLineLink">查看详细内容</a>
+						</p>
+												<hr class="dark mb20">
+													<a href="news/xykkx/1293980.htm" target="_new" class="latest_news_links">
+								北京大学西班牙语专业1964级系友座谈会举行
+							</a>
+							<hr>
+													<a href="news/yyxw/1293978.htm" target="_new" class="latest_news_links">
+								80后数学家许晨阳获科学第一巨奖
+							</a>
+							<hr>
+													<a href="news/xykkx/1293975.htm" target="_new" class="latest_news_links">
+								情系校友|重阳拜访校友系列活动
+							</a>
+							<hr>
+													<a href="news/xykkx/1293850.htm" target="_new" class="latest_news_links">
+								2018年“诺辉健康杯”北大校友桥牌赛开赛
+							</a>
+							<hr>
+													<a href="news/yyxw/1293797.htm" target="_new" class="latest_news_links">
+								校友柴洋教授当选美国国家医学科学院院士
+							</a>
+							<hr>
+												
+						<p class="mb18">
+							<a href="news/index.htm" target="_new" class="more">查看更多</a>
+						</p>
+					</div>
+					<div class="recommand_activity">
+						<div class="news_title">推荐活动<i></i></div>
+						<div class="activity_list">
+							
+														<div class="activity_item">
+								<dl class="calendar">
+									<dt>7月</dt>
+									<dd>13</dd>
+								</dl>
+								<dl class="activity">
+									<dt><a href="tjhd/1279264.htm">2018暑假期间暂停现场办卡通知</a></dt>
+									<dd>
+										<p class="time"></p>
+										<p class="location"></p>
+									</dd>
+								</dl>
+							</div>
+														<div class="activity_item">
+								<dl class="calendar">
+									<dt>7月</dt>
+									<dd>13</dd>
+								</dl>
+								<dl class="activity">
+									<dt><a href="tjhd/1279227.htm">校友工作办公室2018年暑假值班表</a></dt>
+									<dd>
+										<p class="time"></p>
+										<p class="location"></p>
+									</dd>
+								</dl>
+							</div>
+														<div class="activity_item">
+								<dl class="calendar">
+									<dt>6月</dt>
+									<dd>20</dd>
+								</dl>
+								<dl class="activity">
+									<dt><a href="tjhd/1262920.htm">北美校友庆祝母校120周年校庆活动【10.13—10.14】</a></dt>
+									<dd>
+										<p class="time"></p>
+										<p class="location"></p>
+									</dd>
+								</dl>
+							</div>
+														
+							<p>
+								<a href="" class="red mr15">北京大学校友活动 <i class="arrow_r_red"></i></a>
+								<a href="" class="red">活动日历 <i class="arrow_r_red"></i></a>
+							</p>
+						</div>
+					</div>
+					<div class="index_comunity">
+						<div class="news_title">北大社区<i></i></div>
+						<p class="mb10">
+							<a href="https://h5.sosho.cn/page/beida/form/"><img src="images/xindex_community.jpg.pagespeed.ic.JfHtHPZweu.jpg" alt=""></a>
+						</p>
+						<p class="mb20">到社区寻找你的老同学，发表最新动态，建立你的联系圈子</p>
+						<p>
+							<a href="https://h5.sosho.cn/page/beida/form/" target="_blank" class="red mr15">登录北京大学社区 <i class="arrow_r_red"></i></a>
+							<a href="https://h5.sosho.cn/page/beida/form/" target="_blank" class="red">注册 <i class="arrow_r_red"></i></a>
+						</p>
+					</div>
+					<div class="clear_both mb40"></div>
+					<div class="index_tabs">
+						<div class="index_tabs_title">
+							<a href="people/index.htm" target="_new" class="on">人物</a>
+							<a href="memory/index.htm" target="_new">回忆</a>
+							<a href="giving/index.htm" target="_new" class="last">捐赠</a>
+						</div>
+						<div class="index_tabs_content">
+							<div class="index_tabs_item">
+																
+								<a href="rwsy/1242131.htm" class="fl">
+									<img src="images/content/2018-06/20180619100008665337.jpg" alt="">
+								</a>
+								<div class="clear">
+									<h6><a href="rwsy/1242131.htm">世界之巅！北大登山队成功登顶珠穆朗玛峰！</a></h6>
+									<p class="index_tabs_item_summary"></p>
+									<hr class="mb20">
+									<div class="index_tabs_item_list">
+																				<p>
+											<a href="people/xyjy/1285761.htm" target="_new">叶子隆: 用人生最精彩的二十年,只为做好一件事 | 遇见·演讲</a>
+										</p>
+																				<p>
+											<a href="people/rwft/1242144.htm" target="_new">【校友专访】北京大学马来西亚校友会会长——1995级经院校友赖贞瑝 </a>
+										</p>
+																				<p>
+											<a href="people/xzfc/1242135.htm" target="_new">90后北大光华博士任武夷山副市长的200天和献给当地的99首诗 </a>
+										</p>
+																			</div>
+								</div>
+															</div>
+							<div class="index_tabs_item hide">
+																<a href="memory/bdjw/83958.htm" class="fl">
+									<img src="images/content/2018-03/20180311202214814731.jpg" alt="">
+								</a>
+								<div class="clear">
+									<h6><a href="memory/bdjw/83958.htm">燕园人物｜巾帼不让须眉</a></h6>
+									<p class="index_tabs_item_summary">百年北大，才女如星汉灿烂，她们在历史的舞台上书写着属于女性的凯歌。</p>
+									<hr class="mb20">
+									<div class="index_tabs_item_list">
+																				<p>
+											<a href="memory/byqs/1276538.htm" target="_new">北大湖北校友会理事彭颜红：北大百廿年校庆的繁华与深沉</a>
+										</p>
+																				<p>
+											<a href="memory/byqs/1275705.htm" target="_new">青春永不散场 ——北京大学2018后校园原创音乐盛典所忆所感</a>
+										</p>
+																				<p>
+											<a href="memory/bdjs/1224239.htm" target="_new">1978，我的大学｜此间·读四十年北大</a>
+										</p>
+																			</div>
+								</div>
+															</div>
+							<div class="index_tabs_item hide">
+								<a href="http://www.pkuef.org/pkuef/giveNow.php" target="_new" class="fl">
+									<img src="images/ZilS8A5nrv.jpg" alt="">
+								</a>
+								<div class="clear">
+									<h6><a href="http://www.pkuef.org/pkuef/giveNow.php" target="_new">“我爱母校”年度捐赠——追忆似水流年 再续北大情缘</a></h6>
+									<p>北大岁月是我们一生的珍藏。为了把您的这份记忆化作永远与燕园共在的鲜活影像，我们于2003年校庆期间启动了“我爱母校”校友年度捐资项目。每年捐赠与母校建校周年数相等的人民币款额（2003年105元、2004年106元，2005年107元，2006年108元……），您将得到一套精美的捐赠纪念卡。纪念卡虽小，却寄托着美好的北大记忆，也记载着您对母校的深情回报。</p>
+									<p>本次捐赠活动完全本着校友自愿的原则开展，可以逐年捐赠，也可以一次捐足四年全部款项。所有捐款将注入北京大学校友基金统一管理。</p>
+									<p>博雅塔高，未名水长。创建世界一流大学，是你我共同的光荣与梦想。</p>
+									<hr class="mb20">
+									<a href="http://www.pkuef.org/pkuef/giveNow.php" target="_new" class="more">点击查看捐赠方式 </a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="index_others">
+						<div class="news_title">其他<i></i></div>
+						<div class="index_others_content">
+							<a href="news/tzyg/index.htm" class="blue">通知</a>
+							<a href="" class="olive">社交媒体下载</a>
+							<a href="" class="gray">应用推荐</a>
+							<a href="service/index.htm" class="orange">校友服务</a>
+						</div>
+					</div>
+				</div>
+				<div class="clear_both mb40"></div>
+				<div class="index_scroll">
+					 <link rel="stylesheet" type="text/css" href="css/flexslider.css" />
+      <script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $(".flexslider").flexslider({
+		animation: "slide",
+    animationLoop: true,
+	slideshow: false,
+    itemWidth: 171,
+    itemMargin: 9,
+    minItems: 6,
+	move: 1,
+    maxItems: 4
+   // pausePlay: true
+	});
+});	
+</script>
+      
+      <div class="flexslider carousel">
+          <ul class="slides">
+            <li><img src="images/content/2018-03/20180306161942300144.jpg" /><p>首页图片</p></li>
+                     <li><img src="images/content/2018-03/20180306161936556096.jpg" /><p>首页图片</p></li>
+                     <li><img src="images/content/2018-03/20180306161931494940.jpg" /><p>首页图片</p></li>
+                     <li><img src="images/content/2018-03/20180306161925744812.jpg" /><p>首页图片</p></li>
+                     <li><img src="images/content/2018-03/20180306161920573712.jpg" /><p>首页图片</p></li>
+                     <li><img src="images/content/2018-03/20180306161915320611.jpg" /><p>首页图片</p></li>
+                     <li><img src="images/content/2018-03/20180306161909351587.jpg" /><p>首页图片</p></li>
+                     <li><img src="images/content/2018-03/20180306161852428411.jpg" /><p>首页图片</p></li>
+                   </ul>
+     	</div>
+      
+      
+      
+      </div>
+				<!--友情链接-->
+				<div class="friend_links">
+					<span>友情链接</span>
+											<a href="http://www.pku.edu.cn" target="_new">北京大学</a>
+											<a href="http://www.pkuef.org" target="_new">北京大学教育基金会</a>
+											<a href="http://pkunews.pku.edu.cn" target="_new">北京大学新闻网</a>
+											<a href="http://ruyi.ai" target="_new">ruyi.ai个性化聊天机器人</a>
+									</div>
+				<!--合作伙伴-->
+				<div class="friend_links" style="margin-top:20px;">
+					<span>合作伙伴</span>
+											<a href="http://www.suanhua.org/" target="_new">算话征信服务（上海）有限公司</a>
+											<a href="http://berkgen.shiwangyi.com" target="_new">江苏伯克生物医药股份有限公司</a>
+											<a href="http://www.sosho.cn" target="_new">杭州友笑网络科技有限公司</a>
+									</div>
+			</div>
+			<!--main end-->
+			<!--footer-->
+			<div class="footer_layout">
+				
+<div class="footer">
+				<div class="footer_content">
+					
+																	<dl>
+													<dt><a href="news/index.htm">新闻</a></dt>
+							<dd>
+																<a href="news/xykkx/index.htm">校友会快讯</a><br>
+																<a href="news/yyxw/index.htm">燕园新闻</a><br>
+																<a href="news/tzyg/index.htm">通知预告</a><br>
+																<a href="news/rwdt/index.htm">人物动态</a><br>
+															</dd>
+						</dl>
+																	<dl>
+													<dt><a href="association/index.htm">校友会</a></dt>
+							<dd>
+																<a href="association/xykjj/index.htm">校友会简介</a><br>
+																<a href="association/gzzd/index.htm">规章制度</a><br>
+																<a href="association/zzjg/index.htm">组织机构</a><br>
+																<a href="association/bazz/index.htm">备案组织</a><br>
+																<a href="association/zxns/index.htm">招贤纳士</a><br>
+															</dd>
+						</dl>
+																	<dl>
+													<dt><a href="people/index.htm">人物</a></dt>
+							<dd>
+																<a href="people/rwft/index.htm">人物访谈</a><br>
+																<a href="people/dsff/index.htm">大师风范</a><br>
+																<a href="people/xzfc/index.htm">学子风采</a><br>
+																<a href="people/xyjy/index.htm">行业精英</a><br>
+																<a href="people/rzhw/index.htm">人在海外</a><br>
+																<a href="people/yyxr/index.htm">燕园学人</a><br>
+															</dd>
+						</dl>
+																	<dl class="half">
+													<dt><a href="memory/index.htm">回忆</a></dt>
+							<dd>
+																<a href="memory/yyfw/index.htm">燕园风物</a><br>
+																<a href="memory/bdjs/index.htm">北大旧事</a><br>
+																<a href="memory/bdjw/index.htm">北大旧闻</a><br>
+																<a href="memory/byqs/index.htm">博雅情深</a><br>
+															</dd>
+						</dl>
+																	<dl>
+													<dt><a href="service/index.htm">服务</a></dt>
+							<dd>
+																<a href="service/xyq/index.htm">校友卡</a><br>
+																<a href="http://mail.pku.org.cn/">校友邮箱</a><br>
+																<a href="service/xyqyzp/index.htm">校友企业招聘</a><br>
+																<a href="service/zybdxyq/index.htm">中银北大信用卡</a><br>
+																<a href="service/zybdbjxyq/index.htm">中银北大白金信用卡</a><br>
+																<a href="service/wxpt/index.htm">微信平台</a><br>
+																<a href="http://pkucy.org/">创新创业扶持计划</a><br>
+															</dd>
+						</dl>
+																	<dl>
+													<dt><a href="giving/index.htm">捐赠</a></dt>
+							<dd>
+																<a href="giving/jzxxcx/index.htm">捐赠信息查询</a><br>
+																<a href="giving/jzhk/index.htm">捐赠回馈</a><br>
+																<a href="giving/jzpt/index.htm">捐赠平台</a><br>
+																<a href="giving/jzxm/index.htm">捐赠项目</a><br>
+															</dd>
+						</dl>
+																	<dl>
+													<dt><a href="journal/index.htm">刊物</a></dt>
+							<dd>
+																<a href="journal/bdr/index.htm">北大人</a><br>
+																<a href="journal/xyjj/index.htm">校友聚焦</a><br>
+															</dd>
+						</dl>
+																	<dl class="last">
+													<dt><a href="photovideo/index.htm">照片和视频 </a></dt>
+							<dd>
+																<a href="photovideo/zpq/index.htm">照片墙</a><br>
+																<a href="photovideo/sp/index.htm">视频</a><br>
+															</dd>
+						</dl>
+									</div>				
+			</div>
+			<div class="copyright">
+				北京大学校友会版权所有   Peking University Alumni Association   
+				<a target="_blank" href="http://www.miibeian.gov.cn/">京ICP备05005089号</a> 
+				<a target="_blank" href="><img src="images/logo.png" alt="" height="14" width＝"50"="" title＝""=""></a>
+			</div>			</div>
+			<!--footer end-->
+			<a href="javascript:void(0);" class="go_top hide"></a>
+		</div>
+	
+</body></html>

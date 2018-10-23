@@ -1,0 +1,20 @@
+
+/* 全局背景控制 */
+body { background:#fff; }  
+
+
+/* 全局字体控制 */
+body{ font:12px/1.2 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif; color:#454545; }
+a:focus{ outline:1px dotted; }
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+
+/* 全局默认链接 */
+a { color:#009; text-decoration:none; outline: none; }  /* 链接颜色 */
+a:hover { color:#939; text-decoration:underline; }      /* 鼠标经过时状态 */
+
+
+/* 全局宽度 */
+.nomalwidth { width:960px; }
+
+

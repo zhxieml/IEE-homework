@@ -1,0 +1,408 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="SiteName" content="上海交通大学新闻学术网">
+    <meta name="SiteDomain" content="www.sjtu.edu.cn"> 
+    <meta name="ColumnDescription" content="交大要闻">
+    <meta name="ColumnKeywords" content="交大要闻">
+    <meta name="ColumnType" content="交大要闻">
+    <meta name="ColumnName" content="交大要闻">
+    <title>讲座检索_上海交通大学新闻学术网</title>
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/css/ETUI/ETUI3.min.css">
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/css/ETUI/ETUI3.Utility.css">
+    <!-- Widget -->
+    <link href="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/infinitypush/jquery.ma.infinitypush.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/wow/animate.min.css">
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/css/keyframes.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/css/style.css">
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/css/style-responsive.css">
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/css/style-compatible.css">
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/select/select.css">
+    <link rel="stylesheet" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/datetimepicker/bootstrap-datetimepicker.css">
+    <!-- Site Icon -->
+    <link rel="shortcut icon" href="http://news.sjtu.edu.cn/resource/static/shjd/assets/img/ico/favicon.png">
+    
+	<script type="text/javascript">
+		function onsubmmit(){
+			$("#pageIndex").val(1);
+			$("#searchForm").submit();
+		}
+		function onselsubmmit(){
+			$("#pageIndex").val(1);
+			$("#searchForm").submit();
+		}
+		function psubmmit(pageIndex){
+			$("#pageIndex").val(pageIndex);
+			$("#searchForm").submit();
+		}
+	</script>
+</head>
+
+<body>
+	
+	
+    <div id="main-container">
+        <div class="TopLine"></div>
+        <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/js/header.js"></script>
+        
+        <form id="searchForm" action="/search-report/lectureSearch" method="post" >
+		<input type="hidden" name="pageIndex" id="pageIndex" value=""/>
+        <div id="main" class="main">
+            <div class="container">
+                <div class="row row-full-width">
+                    <div class="col-sm-8">
+                        <div class="form-search form-search-box">
+                            <div class="form-group">
+                                <input type="text" id="keyword" name="keyword" class="form-control no-border" placeholder="讲座搜索" value="">
+                                <div class="addOn">
+                                    <a href="javascript:;"  onclick='onsubmmit()' >
+                                		<i class="iconfont icon-sousuo"></i>
+                            		</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Lecture">
+                    <div class="form-search-option">
+                        <div class="row row-full-width">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="picktime" class="col-sm-4 control-label">选择时间段</label>
+                                    <div class="col-sm-3">
+                                        <input class="form-control search-date-picker no-margin" type="text" placeholder="请选择开始时间" id="searchStartDate" id="searchStartDate" name="searchStartDate" value="" onchange="onselsubmmit()">
+                                    </div>
+                                    <div class="col-sm-1 text-center text-left-sm padding-hz-5">
+                                        <label for="">-</label>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <input class="form-control search-date-picker no-margin" type="text" placeholder="请选择结束时间" id="searchEndDate" name="searchEndDate" value="" onchange="onselsubmmit()">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="position" class="col-sm-4 control-label">选择讲座地点</label>
+                                    <div class="col-sm-7">
+                                        <select class="selectpicker form-control" data-size="10" id="position" id="lecturePlaceFlg" name="lecturePlaceFlg" onchange="onselsubmmit()">
+                                        	
+												
+												
+												
+												
+													<option value="-1" selected="selected">全 部</option>
+													<option value="0">其他地点</option>
+												
+											
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Lecture-content">
+                        <ul class="list list-5 bg-white no-circle">
+                        	
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20181017/85011.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月25日 &nbsp;&nbsp;11:50—13:20</span>
+                                    </div>
+                                    <p class="dot title">对导师方的一点思考</p>
+                                    <span class="tag dot">教学发展中心导师沙龙（总第9期）</span>
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		 闵行校区陈瑞球楼 504室
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		邓涛
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20181016/84929.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月25日 &nbsp;&nbsp;13:30</span>
+                                    </div>
+                                    <p class="dot title">“人工智能+”与行为认知</p>
+                                    <span class="tag dot">社会认知与行为科学系列沙龙（40）</span>
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		 徐汇校区浩然高科大厦 1208室
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		钱彦旻  吴梦玥  丁红卫  吕宝粮  ​刘海春
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20181017/85013.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月23日 &nbsp;&nbsp;12:00-13:00</span>
+                                    </div>
+                                    <p class="dot title">青年教师成长之路（二）</p>
+                                    <span class="tag dot">教学发展中心午餐会(总第116期)</span>
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		 闵行校区陈瑞球楼 504室
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		唐鸿志
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20181012/84653.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月18日 &nbsp;&nbsp;10:00</span>
+                                    </div>
+                                    <p class="dot title">美国工程院院士Kam W Leong：生物材料转化医学研究</p>
+                                    <span class="tag dot">分子医学学术讲座</span>
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		  六楼会议室 / 仁济东院六号楼
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		Kam W Leong教授
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20181011/84619.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月18日 &nbsp;&nbsp;12:00-13:00</span>
+                                    </div>
+                                    <p class="dot title">成功的大学教师兼研究者的特质</p>
+                                    <span class="tag dot">教学发展中心午餐会(总第115期)</span>
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		 闵行校区陈瑞球楼 504室
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		J. N. REDDY
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20181011/84599.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月17日 &nbsp;&nbsp;13:30-16:30</span>
+                                    </div>
+                                    <p class="dot title">2018年第三期在线课程建设应用培训报名通知</p>
+                                    
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		 闵行校区陈瑞球楼 504室
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		蒋建伟
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20181012/84633.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月12日 &nbsp;&nbsp;16:00-17:30</span>
+                                    </div>
+                                    <p class="dot title">稀土功能材料的基础研究与应用</p>
+                                    <span class="tag dot">大师讲坛第109期</span>
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		  200号 / 闵行校区逸夫楼200号
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		张洪杰
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20180927/84017.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月09日 &nbsp;&nbsp;11:50—13:20</span>
+                                    </div>
+                                    <p class="dot title">讨论式教学法</p>
+                                    <span class="tag dot">教学发展中心教学工作坊(总第136期)</span>
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		 闵行校区陈瑞球楼 504室
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		邢磊
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20180922/83841.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月07日 &nbsp;&nbsp;14:00—17:00</span>
+                                    </div>
+                                    <p class="dot title">“让世界认识贾平凹” 嘉宾对话会暨签书会</p>
+                                    <span class="tag dot">大师讲坛第109期</span>
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		  文治堂 / 徐汇校区
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		贾平凹
+                                    </div>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="http://news.sjtu.edu.cn/xsjz/20180912/82847.html" target="_blank" class="item">
+                                    <div class="time">
+                                        <span>2018年10月06日 &nbsp;&nbsp;9:00—10.08 11:00</span>
+                                    </div>
+                                    <p class="dot title">首届中国文学国际传播上海交通大学论坛贾平凹作品专题研讨会</p>
+                                    
+                                    <div class="address">
+                                        <i class="iconfont icon-dingwei"></i>
+                                      		 徐汇校区浩然高科大厦 一楼主会场
+                                    </div>
+                                    <div class="person">
+                                        <i class="iconfont icon-yonghu"></i>
+                                       		 贾平凹  陈众议  许钧  王宁  查明建  陈思和  栾梅健
+                                    </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                                              
+                            <div class="pagination">
+                                <div class="whj_jqueryPaginationCss-1">
+                                	
+                                		<div class="whj_border whj_padding whj_bgc whj_hoverDisable" name="whj_previousPage">首 页</div>
+										<div class="whj_border whj_padding whj_bgc whj_hoverDisable" name="whj_previousPage">«上一页</div>
+                                	
+                                	
+                                    
+										
+											<div class="whj_border whj_padding whj_bgc whj_checked" name="whj_page" data-page="1">1</div>
+										
+										
+									
+										
+										
+											<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_page" data-page="2" onclick="psubmmit(2)">2</div>
+										
+									
+										
+										
+											<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_page" data-page="3" onclick="psubmmit(3)">3</div>
+										
+									
+										
+										
+											<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_page" data-page="4" onclick="psubmmit(4)">4</div>
+										
+									
+										
+										
+											<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_page" data-page="5" onclick="psubmmit(5)">5</div>
+										
+									
+										
+										
+											<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_page" data-page="6" onclick="psubmmit(6)">6</div>
+										
+									
+										
+										
+											<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_page" data-page="7" onclick="psubmmit(7)">7</div>
+										
+									
+										
+										
+											<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_page" data-page="8" onclick="psubmmit(8)">8</div>
+										
+									
+										
+										
+											<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_page" data-page="9" onclick="psubmmit(9)">9</div>
+										
+									
+                                    
+                                    
+                                    	<div class="whj_border whj_padding whj_bgc whj_hover" name="whj_nextPage" onclick="psubmmit(2)">下一页 »</div>
+                                    
+                                </div>
+                            </div>  
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+
+        <div class="container">
+            <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/js/footer.js"></script>
+        </div>
+    </div>
+	
+	
+	<!--Core JS-->
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/js/ETUI/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/js/ETUI/html5shiv.min.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/js/ETUI/respond.min.js"></script>
+    <![endif]-->
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/js/ETUI/ETUI3.min.js"></script>
+    <!-- Widget -->
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/stickUp/stickUp.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/infinitypush/jquery.ma.infinitypush.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/datetimepicker/bootstrap-datetimepicker.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/datetimepicker/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/wow/wow.min.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/jquery.nicescroll.min.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/ImgCrop.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/dotdotdot/jquery.dotdotdot.js"></script>
+    <!--Custom JS-->
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/js/main.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/select/select.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/datetimepicker/bootstrap-datetimepicker.js"></script>
+    <script src="http://news.sjtu.edu.cn/resource/static/shjd/assets/plugin/datetimepicker/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            Main.init();
+            $('.des').each(function () {
+                $(this).text($(this).text());
+            });
+
+        });
+    </script>
+
+</body>
+</html>

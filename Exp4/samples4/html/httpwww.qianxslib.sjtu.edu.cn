@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<base href="http://www.qianxslib.sjtu.edu.cn"/>
+<meta charset="utf-8">
+<!-- <meta content="IE=EmulateIE8" http-equiv="X-UA-Compatible"> -->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<title>钱学森图书馆</title>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="style/normalize.css">
+<link rel="stylesheet" type="text/css" href="style/jscrollpane.css">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/bannerslider_main.css">
+        <!--[if lt IE 9]>
+          <script src="scripts/html5.js"></script>
+        <![endif]-->
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/mousewheel.js"></script>
+        <script src="scripts/jscrollpane.js"></script>
+        <script src="scripts/jquery.hoverIntent.minified.js"></script>
+        <script src="scripts/jquery.ui.min.js"></script>
+		<script src="scripts/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+        <script src="scripts/bannerslider_main.js" type="text/javascript"></script>
+        <script>
+			jQuery(function() {
+				var tw=$('#roundBackground').width();
+				var rw=tw-190;
+				if(rw>1090){
+					rw=1090
+				}
+				var rh=rw*857/1477;
+				if(rh>632){
+					rh=632
+				}
+				var slider01=jQuery('#slider01').allinone_bannerRotator({
+					skin: 'universal',
+					width: rw,
+					height: rh,
+					width100Proc:false,
+					responsive:true,
+					thumbsWrapperMarginBottom:10,				
+					autoHideBottomNav:false,
+					showPreviewThumbs:false,
+					showCircleTimer:false,
+					showAllControllers:false,
+					autoPlay:8
+				});	
+				$('#rightContent').css('background','url(images/back0001.jpg) 1070px top no-repeat');
+			});
+		</script>
+        <style>
+		section{background:#333;}
+		#roundBackground{
+			min-width:1000px;
+		}
+		#mainVisual{
+			max-width:1090px;
+			position:relative;
+		}
+		.Alayer{
+			position:absolute;
+			width:85px;
+			right:0;
+			left:auto;
+			z-index:9;
+			background:url(images/gray1.png) right top repeat-y;
+		}
+		.FloatBtn{
+			z-index:10;
+		}
+.allinone_bannerRotator_text_line{position:absolute;}
+		.VisualBtnInner a{background:none;}
+		
+		#roundBackground{
+			max-width:1270px;
+			margin:0 auto;
+		}
+		
+		.allinone_bannerRotator_texts p{
+	-webkit-text-shadow:#222 -1px -1px 5px;
+	-moz-text-shadow:#222 -1px -1px 5px;
+	text-shadow:#222 -1px -1px 5px;
+		}
+		</style>
+	</head>
+    <body>
+        <div class="RoundBackground" id="roundBackground">
+        	<div class="RoundInner">
+            	<header>
+                	<div class="Logo">
+                    	<a href="index.php" onFocus="this.blur();"><img src="images/logo01.png" title="钱学森图书馆 数字化博物馆"/></a>
+                    </div>
+                    <div class="LogoRight">
+                    	<div class="TopNav">
+                        	<ul>
+                            	<li>
+                                	<a href="http://www2.qianxslib.sjtu.edu.cn" target="_blank">旧版入口</a>
+                                </li>
+                            	<li>
+                                	<a href="qna.php">疑难解答</a>
+                                </li>
+                                <li>
+                                	<a href="http://www2.qianxslib.sjtu.edu.cn/qxstsg/login1.jsp" target="_blank">馆内通道</a>
+                                </li>
+                                <li>
+                                	<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt" target="_blank" style="font-size:14px;">社交平台</a>
+</div>
+
+                                	
+                                </li>
+                                <li>
+                                	<a href="sitemap.php">网站导航</a>
+                                </li>
+                                <li>
+                                	<a href="en/index.php?forcelang=english">English</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="Search">
+	                        <form id="searchForm" action="search.php">
+	                        	<div class="SearchInput">
+		                        	<input type="text" id="searchInput" name="keyword"/>
+		                        	<span id="userTip">请输入关键字</span>
+	                        	</div>
+	                            <a id="searchBtn" href="javascript:void(0);" onFocus="this.blur()" class="SearchBtn">&nbsp;</a>
+	                            <div class="clear"></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </header>
+                <section>
+                	<div class="LeftNav" id="leftNav">
+                    	<div class="LeftNavInner" id="leftInner">
+                            <div class="Menu">
+                                <ul>
+                                                                        <li>
+                                        <a href="index.php"   class="MenuItem">首页</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="people/people01.php"   class="MenuItem">钱学森</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="visit/visit01.php"   class="MenuItem">参观</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="exhibit/exhibit01.php"   class="MenuItem">展览</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="media/media01.php"   class="MenuItem">影像</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="news/news02.php"   class="MenuItem">资讯</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="edu/edu01.php"   class="MenuItem">教育</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="research/research03.php"   class="MenuItem">研究</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="research/research01.php"   class="MenuItem">捐赠</a>
+                                    </li>
+                                                                        <li>
+                                        <a href="intro/intro07.php"   class="MenuItem">关于钱馆</a>
+                                    </li>
+                                                                    </ul>
+                            </div>
+                            <div class="UnderMenu">
+                            	<p class="UnderMenuTitle">开放时间</p>
+                                <p>每周二至周日<br/>9:00-17:00</p>
+                                <p class="UnderMenuTitle">预约电话</p>
+                                <p>021-62932068</p>
+                                <p class="UnderMenuTitle">邮箱地址</p>
+                                <p><a href="mailto:qxstsg@sjtu.edu.cn">qxslibrary@sjtu.edu.cn</a></p>
+                                <p class="UnderMenuTitle">展馆地址</p>
+                                <p>上海市徐汇区<br/>华山路1800号</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="RightContent" id="rightContent">
+                    	<div class="Visual" id="mainVisual">
+                        	<!-- 
+                        	<div class="Alayer" id="alayer"></div>
+                        	 -->
+                        	<div id="slider01" style="display:none;">
+	                            <ul class="allinone_bannerRotator_list">
+	                                	                                <li data-text-id="#2"  id="backimg"  ><img src="/tess//upload//images//14/144/1449563960_UqY.jpg"/></li>
+	                                	                                <li data-text-id="#9"   ><img src="/tess//upload//images//14/144/1449564011_Ouy.jpg"/></li>
+	                                	                            </ul>
+		                        		                        <div id="2" class="allinone_bannerRotator_texts">
+	                                <div class="allinone_bannerRotator_text_line textElement11_universal_FullWidth" data-initial-left="230" data-initial-top="550" data-final-left="230" data-final-top="550" data-duration="0.5" data-fade-start="0" data-delay="0">
+	                                	<p style="font-size:16px;color:#fff;width:770px;text-align:right;"></p>
+	                                </div>
+	                           	</div>   
+	                           			                        <div id="9" class="allinone_bannerRotator_texts">
+	                                <div class="allinone_bannerRotator_text_line textElement11_universal_FullWidth" data-initial-left="230" data-initial-top="550" data-final-left="230" data-final-top="550" data-duration="0.5" data-fade-start="0" data-delay="0">
+	                                	<p style="font-size:16px;color:#fff;width:770px;text-align:right;"></p>
+	                                </div>
+	                           	</div>   
+	                           	  
+	                       </div>
+                        	
+                        	
+                            
+                            <div class="VisualBtn" style="z-index:8;">
+                            	<div class="VisualBtnInner">
+                                	<div class="VisualBtnList">
+                                        <a href="#"></a>
+                                        <a href="#"></a>
+                                        <a href="#"></a>
+                                        <a href="#"></a>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="UnderVisual">
+                        	<div class="UnderVisualInner">
+                                <div class="UnderVisualItem">
+                                    <div class="UnderVisualImg">
+                                        <a href="news/news03.php" ><img src="/tess//upload//images//15/153/1539593602_mGo.JPG"/></a>
+                                    </div>
+                                    <div class="UnderVisualTxt">
+                                        <h2>
+                                            <a href="news/news03.php" class="UnderVisualTxtTitle">新闻动态</a>
+                                        </h2>
+                                        <div class="clear"></div>
+                                        <div class="UnderVisualTxtContent">
+                                                                                        <p><a href="news/news03_details.php?articleid=2248" title="钱馆党总支开展庆祝改革开放40周年主题党日活动">钱馆党总支开展庆祝改革开放40周年主题党日活动</a></p>
+                                                                                        <p><a href="news/news03_details.php?articleid=2247" title="“月宫一号”总设计师刘红教授作客钱馆讲述未来“太空生存”">“月宫一号”总设计师刘红教授作客钱馆讲述未来“太空生存”</a></p>
+                                                                                    </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                
+                                <div class="UnderVisualItem">
+                                    <div class="UnderVisualImg">
+                                        <a href="news/news02.php" ><img src="/tess//upload//images//14/149/1497518523_lS5.jpg"/></a>
+                                    </div>
+                                    <div class="UnderVisualTxt">
+                                        <h2>
+                                            <a href="news/news02.php" class="UnderVisualTxtTitle">公告资讯</a>
+                                        </h2>
+                                        <div class="clear"></div>
+                                        <div class="UnderVisualTxtContent">
+                                                                                        <p><a href="news/news02_details.php?articleid=2236" title="招标公告：大型音乐诗剧《仰望星空》音乐创作">招标公告：大型音乐诗剧《仰望星空》音乐创作</a></p>
+                                                                                        <p><a href="news/news02_details.php?articleid=2235" title="钱学森图书馆关于2018年国庆节、中秋节放假期间运行开放安排的公告">钱学森图书馆关于2018年国庆节、中秋节放假期间运行开放安排的公告</a></p>
+                                                                                    </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="UnderVisualItem">
+                                    <div class="UnderVisualImg">
+                                        <a href="research/research04.php" ><img src="/tess//upload//images//14/144/1448265922_BRt.jpg"/></a>
+                                    </div>
+                                    <div class="UnderVisualTxt">
+                                        <h2>
+                                            <a href="research/research04.php" class="UnderVisualTxtTitle">藏品研究</a>
+                                        </h2>
+                                        <div class="clear"></div>
+                                        <div class="UnderVisualTxtContent">
+                                                                                        <p><a href="research/research04.php" title="“国家杰出贡献科学家”荣誉称号证书、一级英模奖章">“国家杰出贡献科学家”荣誉称号证书、一级英模奖章</a></p>
+                                                                                        <p><a href="research/research04.php" title="掌握信息和知识的“武器”——剪报">掌握信息和知识的“武器”——剪报</a></p>
+                                                                                    </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                
+                                
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="clear"></div>
+                    <div class="FloatBtn" style="overflow:hidden;">
+                        <div class="FloatItem">
+	                        <a href="exhibit/exhibit06.php" target="_blank"><img src="images/icon01.png"/><span>360虚拟游览</span></a>
+	                    </div>
+	                    <div class="FloatItem">
+	                        <a href="edu/edu0501.php"><img src="images/icon02.png"/><span>志愿者</span></a>
+	                    </div>
+	                    <div class="FloatItem">
+	                        <a href="intro/intro04.php"><img src="images/icon03.png"/><span>联系我们</span></a>
+	                    </div>
+	                    <div class="FloatItem">
+	                        <a href="research/research01.php"><img src="images/icon001.png"/><span>我要捐赠</span></a>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                	<div class="FooterLeft">
+	                		                	<div>
+	                    	<ul>
+	                        		                        	<li><a href="http://www.moe.edu.cn/" onClick="this.blur();" target="_blnank">教育部</a></li>
+	                            	                            <li>|</li>
+	                            	                            	                        	<li><a href="http://www.sjtu.edu.cn/" onClick="this.blur();" target="_blnank">上海交通大学</a></li>
+	                            	                            <li>|</li>
+	                            	                            	                        	<li><a href="http://www.chnmuseum.cn/default.aspx?AspxAutoDetectCookieSupport=1" onClick="this.blur();" target="_blnank">国家博物馆</a></li>
+	                            	                            <li>|</li>
+	                            	                            	                        	<li><a href="http://www.jb.mil.cn/" onClick="this.blur();" target="_blnank">中国人民革命军事博物馆</a></li>
+	                            	                            <li>|</li>
+	                            	                            	                        	<li><a href="http://airandspacemuseum.buaa.edu.cn/" onClick="this.blur();" target="_blnank">北京航空航天博物馆</a></li>
+	                            	                            <li>|</li>
+	                            	                            	                        	<li><a href="http://www.spacechina.com/n25/index.html" onClick="this.blur();" target="_blnank">中国航天科技集团公司</a></li>
+	                            	                            <li>|</li>
+	                            	                            	                        	<li><a href="http://www.casic.com.cn/" onClick="this.blur();" target="_blnank">中国航天科工集团公司</a></li>
+	                            	                            <li></li>
+	                            	                            	                        </ul>
+	                        <div class="clear"></div>
+	                    </div>
+	                    	                    <div style="margin-top:10px;padding-left:15px;margin-bottom:10px;">
+	                    	<p>Copyright © 2012 钱学森图书馆 All Rights Reserved.&nbsp;&nbsp;
+	                    		<a href="http://www.bluenion.com" target="_blank" style="color:#e2907d;font-size:12px;" onClick="this.blur();" title="技术支持：佰路得信息技术（上海）有限公司">
+	                    			<img style="margin-bottom:-7px;" src="images/logo005.png"/></a>
+	                    	</p>
+	                    	<p>
+	                    		备案号： 沪交ICP备20101030
+	                    	</p>
+	                    </div>
+	                </div>
+	                <div class="FooterRight">
+	                	<img src="images/img101.jpg" title="微信"/>&nbsp;&nbsp;&nbsp;
+	                	<a href="http://weibo.com/qxslib" target="_blank"><img src="images/img101_2.jpg" title="微博"/></a>
+	                </div>
+	                <div class="clear"></div>
+                </footer>
+                <script>
+					$($('.MenuItem')[0]).addClass('selected');
+					$($('.SubMenuItem')[100]).addClass('selected');
+				</script>
+				<script type="text/javascript" >
+var jiathis_config={
+	summary:"钱学森图书馆数字化博物馆",
+	shortUrl:false,
+	hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?fb738af3cef5ce3c6172ea178e54a147";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- JiaThis Button END -->
+            </div>
+        </div>
+        <script src="scripts/common.js"></script>
+        <script src="scripts/jquery.hoverIntent.minified.js"></script>
+        <script>
+		$('.FloatItem').hoverIntent(function(){
+			$(this).animate({'left':'0'},100);
+		},function(){
+			$(this).animate({'left':'110px'},100);
+		});
+        </script>
+       	            </body>
+</html>
