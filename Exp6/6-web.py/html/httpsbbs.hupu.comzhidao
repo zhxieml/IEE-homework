@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html class="expanded">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>
+虎扑knowing - 虎扑社区
+</title>
+<link rel="dns-prefetch" href="//b1.hoopchina.com.cn" />
+<link rel="dns-prefetch" href="//b3.hoopchina.com.cn" />
+<link rel="apple-touch-icon" href="//b1.hoopchina.com.cn/common/apple-touch-icon.png" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.hupu.com/bbs/1218" />
+<meta name="mobile-agent" content="format=html5;url=https://m.hupu.com/bbs/1218" />
+<link rel="canonical" href="https://bbs.hupu.com/zhidao" />
+<link rel="alternate" href="android-app://com.hupu.games/huputiyu/bbs/board/1218?r=hupucom"/>
+<script type='text/javascript'>var __daceDataNameOfForum='1218';var __daceDataNameOfCategory = '1'; var __daceDataNameOfProject='basketball';var __daceDataNameOfChannel='nba';</script>
+
+
+<meta name="keywords" content="虎扑knowing" />
+<meta name="description" content="虎扑knowing来自虎扑社区, 解答hooper各种问题，让更多热爱篮球的人了解到更多相关知识——有趣的、艰深的、复杂的、渐渐被人遗忘的。" />
+
+<meta name="apple-itunes-app" content="app-id=906632439" />
+<link rel="shortcut icon" href="//b3.hoopchina.com.cn/common/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="//b3.hoopchina.com.cn/common/common-v1.css" />
+<script src="//b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js"></script> 
+<script src="//b3.hoopchina.com.cn/common/common-v1.js"></script>
+<script type="text/javascript">
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+
+    </script>
+
+<style type="text/css">
+      .bd-gx{
+        position:relative;
+      }
+      .bd-gx:before{
+        display:block; position: absolute; content:"";width:100%;height:100%;left:0;top:0;
+        background:url("//b1.hoopchina.com.cn/images/bbs/yigouwang.jpg") no-repeat;
+        background-size:100% auto; z-index:999;
+      }
+      .bg-gx img {display:none;}
+    </style>
+
+<link rel="stylesheet" type="text/css" href="//b3.hoopchina.com.cn/web/channel/bbs/static/common/pkg/bbsCommon_61a28dd.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/pkg/bbsSubPages_e79f3ae.css"/><link rel="stylesheet" type="text/css" href="//b3.hoopchina.com.cn/web/channel/bbs/static/common/widget/bxjTab/bxjTab_9c2d97e.css"/><link rel="stylesheet" type="text/css" href="//b1.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/showdiv/showdiv_81f63a0.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/message/message_d801d2c.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/plateTit/plateTit_e5aab99.css"/></head>
+<body>
+<!--topbarNav star-->
+                        <div id="hp-topbarNav">
+                            <div class="hp-topbarNav-bd">
+                                <ul class="hp-quickNav">
+                                    <li class="mobileWeb"><a href="javascript:void(0)" onclick="hp_quick_touch()"><i class="ico-mobile"></i>手机虎扑</a></li>
+                                    <li class="line">|</li>
+                                    <li class="mobileclientDown"><a class="red" href="https://mobile.hupu.com/?_r=globalNav" target="_blank">虎扑客户端</a></li>
+                                    <li class="line">|</li>
+                                    <li class="hp-dropDownMenu topFollowBlog">
+                                        <a href="javascript:void(0)" class="hp-set">关注虎扑<s class="setArrow"></s></a>
+                                        <div class="hp-drapDown followLayer">
+                                            <a class="weibo" target="_blank" rel="nofollow" href="//weibo.com/liangle4u"><i class="hp-ico-weibo"></i>新浪微博</a>
+											<a class="weixin" target="_blank" href="https://voice.hupu.com/other/1581560.html"><i class="hp-ico-weixin"></i>官方微信</a>
+                                            <a class="instagram" target="_blank" rel="nofollow" href="https://voice.hupu.com/other/1634334.html"><i class="hp-ico-instagram"></i>Instagram</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="hp-topLogin-info"></div>
+                            </div>
+                        </div>
+                        <!--topbarNav ent--><!--header star--><div class="hp-header hp-header-A"><div class="hp-logo"><a title="虎扑篮球" href="https://nba.hupu.com/"><img src="https://b3.hoopchina.com.cn/images/logo2017/v1/hp_logo_nba.png" alt="NBA" width="140px" height="52px"/></a>
+                            </div>
+                            <div class="hp-mainNav hp-mainNav-B">
+                                <div class="hp-nav">
+                                    <div class="hp-nav-bd">
+                                        <ul class="hp-nav-item"><li><a href="https://www.hupu.com/" >虎扑首页</a></li><li class="line">|</li><li class="on"><a href="https://nba.hupu.com/" >NBA</a></li><li class="line">|</li><li><a href="https://cba.hupu.com/" >CBA</a></li><li class="line">|</li><li><a href="https://gg.hupu.com" >电竞</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com" >国际足球</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com/china/" >中国足球</a></li><li class="line">|</li><li><a href="http://racing.hupu.com/" >赛车</a></li><li class="line">|</li><li><a href="http://zb.hupu.com/" target="_blank">装备</a></li><li class="line">|</li><li><a href="http://www.shihuo.cn/" target="_blank">识货</a></li><li class="line">|</li><li><a href="https://bbs.hupu.com/" >社区</a></li><li class="line">|</li><li><a href="https://bbs.hupu.com/all-gambia" >步行街</a></li><li class="line">|</li><li><a href="http://www.liangle.com" target="_blank">路人王</a></li><li class="line">|</li><li class="hp-dropDownMenu hp-moreNav">
+                                                <a href="javascript:void(0)" class="hp-set">更多<s class="setArrow"></s></a>
+                                                <div class="hp-drapDown hp-moreNav-drapDown"><a href="https://shop311048929.taobao.com/" target="_blank">虎扑优选</a><a href="http://outdoor.hupu.com/" >户外</a><a href="http://run.hupu.com/" >健身</a><a href="http://ymq.hupu.com/" >羽毛球</a><a href="http://xgame.hupu.com/" target="_blank">xgames</a><a href="http://www.nflchina.com/" target="_blank">NFL</a><s class="arrow-top"><s class="arrowbd"></s></s>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="hp-subNav">
+    <ul class="hp-subNav-item">
+        <li><a title="虎扑篮球" target="_blank" href="https://nba.hupu.com">首页</a></li>
+        <li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a target="_blank"  href="https://voice.hupu.com/nba">新闻</a>
+        </li>
+        <li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a target="_blank" href="http://photo.hupu.com/nba" class="hp-set">图片</a>
+            <div class="hp-drapDown">
+                <a target="_blank" href="http://photo.hupu.com/nba/tag/%E7%BE%A4%E6%98%9F">球星</a>
+                <a target="_blank" href="http://photo.hupu.com/nba/tag/%E6%90%9E%E7%AC%91">搞笑</a>
+                <a target="_blank" href="http://photo.hupu.com/nba/tag/%E6%BC%AB%E7%94%BB">漫画</a>
+                <a target="_blank" href="http://photo.hupu.com/nba/tag/cba">中国篮球</a>
+                <a target="_blank" href="http://photo.hupu.com/soccer">足球</a>
+                <a target="_blank" href="http://photo.hupu.com/ent/tag/%E7%BE%8E%E5%A5%B3">美女</a>
+                <a target="_blank" href="http://photo.hupu.com/ent/tag/%E5%A8%B1%E4%B9%90">娱乐</a>
+                <a target="_blank" href="http://photo.hupu.com/nba/new">新鲜</a>
+                <s class="arrow-top"><s class="arrowbd"></s></s>
+            </div>
+        </li>
+        <li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a href="https://nba.hupu.com/games" class="hp-set" target="_blank">比赛中心</a>
+            <div class="hp-drapDown">
+                <a href="https://nba.hupu.com/standings" target="_blank">战绩排行</a>
+                <s class="arrow-top"><s class="arrowbd"></s></s>
+            </div>
+        </li>
+        <li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a href="https://nba.hupu.com/schedule" class="hp-set" target="_blank">赛程</a>
+            <div class="hp-drapDown">
+                <a href="https://nba.hupu.com/schedule" target="_blank">NBA赛程</a>
+                <a href="https://nba.hupu.com/schedule/rockets" target="_blank">火箭赛程</a>
+                <a href="https://nba.hupu.com/schedule/cavaliers" target="_blank">骑士赛程</a>
+                <a href="https://nba.hupu.com/schedule/warriors" target="_blank">勇士赛程</a>
+                <a href="https://nba.hupu.com/schedule/spurs" target="_blank">马刺赛程</a>
+                <a href="https://nba.hupu.com/schedule/lakers" target="_blank">湖人赛程</a>
+                <s class="arrow-top"><s class="arrowbd"></s></s>
+            </div>
+        </li>
+        <li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a target="_blank" href="https://nba.hupu.com/teams" class="hp-set">球队</a>
+            <div class="hp-drapDown">
+                <a href="https://nba.hupu.com/teams/rockets" target="_blank">火箭</a>
+                <a href="https://nba.hupu.com/teams/cavaliers" target="_blank">骑士</a>
+                <a href="https://nba.hupu.com/teams/lakers" target="_blank">湖人</a>
+                <a href="https://nba.hupu.com/teams/warriors" target="_blank">勇士</a>
+                <a href="https://nba.hupu.com/teams/spurs" target="_blank">马刺</a>
+                <a target="_blank" href="https://voice.hupu.com/nba">球队新闻</a>
+                <a target="_blank" href="https://nba.hupu.com/players">球队球员</a>
+                <a target="_blank" href="https://nba.hupu.com/stats/players">球员数据</a>
+                <a target="_blank" href="https://nba.hupu.com/stats/teams">球队数据</a>
+                <s class="arrow-top"><s class="arrowbd"></s></s>
+            </div>
+        </li>
+        <li class="line">|</li>
+        <li><a href="https://nba.hupu.com/draft/"  target="_blank">选秀</a></li>
+        <li class="line">|</li>
+        <li><a href="https://nba.hupu.com/wiki/"  target="_blank">百科</a></li>
+        <li class="line">|</li>
+        <li><a href="https://bbs.hupu.com/streetball"  target="_blank">街球</a></li>
+        <li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a target="_blank" href="https://bbs.hupu.com/all-nba" class="hp-set">NBA论坛</a>
+            <div class="hp-drapDown">
+                <a target="_blank" href="https://bbs.hupu.com/rockets">火箭</a>
+                <a target="_blank" href="https://bbs.hupu.com/cavaliers">骑士</a>
+                <a target="_blank" href="https://bbs.hupu.com/warriors">勇士</a>
+                <a target="_blank" href="https://bbs.hupu.com/spurs">马刺</a>
+                <a target="_blank" href="https://bbs.hupu.com/lakers">湖人</a>
+                <a target="_blank" href="https://bbs.hupu.com/thunder">雷霆</a>
+                <a target="_blank" href="https://bbs.hupu.com/celtics">凯尔特人</a>
+                <a target="_blank" href="https://bbs.hupu.com/nba">篮球场</a>
+                <a target="_blank" href="https://bbs.hupu.com/vote">湿乎乎的话题</a>
+                <a target="_blank" href="https://bbs.hupu.com/shenlan">深篮讨论</a>
+                <a target="_blank" href="https://bbs.hupu.com/hbl">耐克高中联赛</a>
+                <s class="arrow-top"><s class="arrowbd"></s></s>
+            </div>
+        </li>
+    </ul>
+</div>
+
+                                <i class="hp-roundPoint-br-tl roundPoint-br-tl"></i>
+                                <i class="hp-roundPoint-br-tr roundPoint-br-tr"></i>
+                                <i class="hp-roundPoint-br-bl roundPoint-br-bl"></i>
+                                <i class="hp-roundPoint-br-br roundPoint-br-br"></i>
+                            </div>
+                        </div>
+
+<script>
+  googletag.cmd.push(function() {
+                googletag.defineSlot('\/1016953\/nba_bbs_list_right_320x60', [320, 60], 'nba_bbs_list_right_320x60').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/hoopchina-bbs-right-Optimus-120x600', [120, 600], 'hoopchina-bbs-right-Optimus-120x600').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/nba_bbs_list_1x1', [1, 1], 'nba_bbs_list_1x1').addService(googletag.pubads());
+              googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+</script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/js/jquery/jquery-1.12.0.min_71bada2.js"></script>
+<div class="hp-threeNav">
+<div class="hp-threeNav-bd">
+<ul class="hp-threeNav-item">
+<li>
+<a href="/all-nba">首页</a>
+</li>
+<li>
+<a href="/bxj">步行街主干道</a>
+</li>
+<li>
+<a href="/vote">湿乎乎的话题</a>
+</li>
+<li>
+<a href="/rockets">火箭</a>
+</li>
+<li>
+<a href="/lakers">湖人</a>
+</li>
+<li>
+<a href="/warriors">勇士</a>
+</li>
+<li>
+<a href="/spurs">马刺</a>
+</li>
+<li>
+<a href="/thunder">雷霆</a>
+</li>
+<li>
+<a href="/celtics">凯尔特人</a>
+</li>
+<li>
+<a href="/sixers">76人</a>
+</li>
+<li>
+<a href="">NBA 球队</a>
+<div class="hp-drapDown   hp-draplong">
+<a href="/cavaliers">骑士</a>
+<a href="/mavericks">独行侠</a>
+<a href="/raptors">猛龙</a>
+<a href="/heat">热火</a>
+<a href="/timberwolves">森林狼</a>
+<a href="/hawks">老鹰</a>
+<a href="/clippers">快船</a>
+<a href="/wizards">奇才</a>
+<a href="/nets">篮网</a>
+<a href="/suns">太阳</a>
+<a href="/blazers">开拓者</a>
+<a href="/jazz">爵士</a>
+<a href="/kings">国王</a>
+<a href="/bulls">公牛</a>
+<a href="/pelicans">鹈鹕</a>
+<a href="/knicks">尼克斯</a>
+<a href="/nuggets">掘金</a>
+<a href="/grizzlies">灰熊</a>
+<a href="/bucks">雄鹿</a>
+<a href="/pistons">活塞</a>
+<a href="/pacers">步行者</a>
+<a href="/hornets">黄蜂</a>
+<a href="/magic">魔术</a>
+</div>
+</li>
+<li>
+<a href="/nba">篮球场</a>
+</li>
+<li>
+<a class="on" href="">更多</a>
+<div class="hp-drapDown   hp-draplong">
+<a href="/shenlan">深篮讨论</a>
+<a href="/caipan">裁判</a>
+<a href="/fba">FBA-Fantasy-NBA</a>
+<a href="/nba-draft-ncaa">NBA选秀-NCAA</a>
+<a href="/fiba">世界篮球-FIBA</a>
+<a href="/Spinacia">菠菜</a>
+<a href="/jeremylin">林书豪</a>
+<a href="/zhidao">虎扑knowing</a>
+<a href="/streetball">街球实战</a>
+<a href="/home">同城约战</a>
+<a href="/freestyle">花式篮球</a>
+</div>
+</li>
+</ul>
+</div>
+<div class="hp-search">
+<a target="_blank" id="hp-form-search"  href="">
+</a>
+<input type="text" placeholder="搜索视频、帖子" id="showfoucs1" class="it-search it-search-for">
+<input type="button" value="搜索" class="btn-searchs">
+<input type="hidden"  class="btn-search">
+<div id="hp-search-choose" class="hp-search-choose">
+<ul>
+<li id="tiezi">
+<p><span>帖子</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="videos">
+<p><span>视频</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="rizhi">
+<p><span>日志</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="cyuan">
+<p><span>成员</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="shihuo" >
+<p><span>识货</span>搜索：<label class="searchval"></label></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="" style="width:px; height:px;">
+<script>
+        googletag.cmd.push(function() { googletag.display(''); });
+  </script>
+</div>
+<div class="showdiv">
+<div class="pop">
+<div class="pop_content">
+<h2 class="mpop"><a onclick="closepop()"></a>
+推荐版块</h2>
+<ul class="pop_commend">
+<form name="rm_form">
+<li>推荐语：</li>
+<li><textarea name="tjmsg" id="tjmsg" class="j_enter j_enter_this"></textarea></li>
+<li>
+<input name="cid" id="cid" type="hidden" value="1218">
+<input name="fid" type="hidden" value="1218">
+<input name="Input2" type="button" class="btns2 j_tjmsg" id="j_recs" value="推 荐">&nbsp; &nbsp;<input name="Input2" type="button" class="btnb2" value="取 消" onclick="closepop()">
+</li>
+</form>
+</ul>
+</div>
+</div>
+</div>
+<div id="j_tip" class="tips_up_pop">
+<div id="j_tip_t">
+<div class="tips_pop"></div>
+</div>
+</div>
+<div class="bbs-content">
+<div id="container">
+<div class="container_padd">
+<div class="bbsPlate">
+<div class="showPlate">
+<div id="J-t-plate">
+<script id="J-plate-tpl" type="text/template">
+      <@if(datas.length>0){@>
+      <p class="forMyplate">
+        <span class="forhot">我关注的版块</span>
+       <a class="guanli" href="//bbs.hupu.com/myboardadmin.php?url=https://bbs.hupu.com/" onclick="window.open('/myboardadmin.php?url=https://bbs.hupu.com/','o','width=300,height=700,left=200,top=100,scrollbars=1,resizable=1');return false;">管理</a>
+      </p>
+     <ul class="bbs-showMyPlate">
+            <li>
+              <a href="/i"><span class="showname">我关注的版块帖子</span></a>
+            </li>
+            <@ $(datas).each(function(index,item){ @>
+              <li>
+                <a href="<@=item.url@>"  title="<@=item.bname@>">
+                  <span class="showname"><@=item.bname@></span>
+                  <@if(item.tpost>0){@>
+                  <span class="num"><@=item.tpost@></span>
+                  <@ } @>
+                </a>
+              </li>
+            <@ }); @>
+
+    </ul>
+      <@ } @>
+  </script>
+</div>
+<p class="forMyplate" style="margin-top:8px;">
+<span class="forhot" >版块分类</span>
+</p>
+<ul class="bbs_banner">
+<li  data-num="0">
+<a href="/all-nba"  class="data-1" data-fid="1">NBA论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="1">
+<a href="/all-cba"  class="data-232" data-fid="232">CBA论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="2">
+<a href="/all-soccer"  class="data-198" data-fid="198">国际足球论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="3">
+<a href="/all-csl"  class="data-4596" data-fid="4596">中国足球论坛</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="4">
+<a href="/all-gg"  class="data-234" data-fid="234">游戏电竞</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="5">
+<a href="/all-gambia"  class="data-174" data-fid="174">步行街</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="6">
+<a href="/all-boards"  class="data-238" data-fid="238">自建版块</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="7">
+<a href="/all-gear"  class="data-233" data-fid="233">运动和装备</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="8">
+<a href="/all-sports"  class="data-41" data-fid="41">综合体育</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="9">
+<a href="/all-lottery"  class="data-42" data-fid="42">彩票中心</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="10">
+<a href="/all-group"  class="data-114" data-fid="114">虎扑社团</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+<li  data-num="11">
+<a href="/all-feedback"  class="data-7" data-fid="7">站务管理</a>
+<div class="bbs_banner_over">
+<div class="bbs_banner_bg">
+<dl class="showdata">
+</dl>
+</div>
+</div>
+</li>
+</ul>
+<p class="morebbs">
+<a href="//bbs.hupu.com/boards.php" >更多版块»</a>
+</p>
+
+</div>
+<div class="leftad" id="hoopchina-bbs-right-Optimus-120x600" style="width:120px; height:600px; ">
+<script>
+                     googletag.cmd.push(function() { googletag.display('hoopchina-bbs-right-Optimus-120x600'); });
+               </script>
+</div>
+</div>
+<div class="bbsHotPit" style="width:1020px;">
+<a id="isadmin" style="display:none">0</a>
+<div class="bbs_head" >
+<div class="breadCrumbs">
+<a href="/">社区</a>&nbsp;»&nbsp;<a href="/all-nba">NBA论坛</a>
+&nbsp;»&nbsp;<a href="/vote">湿乎乎的话题</a>
+</div>
+<div class="titpres"  id="nba_bbs_list_right_320x60" style="width:320px; ">
+<script>
+         googletag.cmd.push(function() { googletag.display('nba_bbs_list_right_320x60'); });
+   </script>
+</div>
+<div class="right">
+<input type="text" placeholder="搜索本版帖子"class="it-search lit-search-tit">
+<input type="button" class="btn-search lit-search-btn">
+</div>
+<h1 class="left">
+<span class="infoname" id="forumname" fid="1218" fidurl="zhidao">虎扑knowing</span>
+</h1>
+<div class="pl_nav">
+
+<span class="pl_d">&nbsp;</span>
+<div class="pl_top ">
+版块介绍：<span id="des_forum">解答hooper各种问题，让更多热爱篮球的人了解到更多相关知识——有趣的、艰深的、复杂的、渐渐被人遗忘的。</span>
+<br>
+版主：<a class="u" target="_blank" href="https://my.hupu.com/81956000123243">lvwei3661</a>
+<span class="f666"></span>
+&nbsp;&nbsp;<a class="u" target="_blank" href="https://my.hupu.com/4374468752552">0613032089</a>
+<span class="f666"></span>
+&nbsp;&nbsp;<a class="u" target="_blank" href="https://my.hupu.com/183874581170605">麦迪天神jk</a>
+<span class="f666"></span>
+&nbsp;&nbsp;<a class="u" target="_blank" href="https://my.hupu.com/119896515368254">麦克米兰</a><span>(实习)</span>
+&nbsp;&nbsp;</div>
+<div id="navigation" style="">
+<span id="nav_change">
+<ul>
+<li><a href="http://bbs.hoopchina.com/1207916.html?from-icon" class="" target="_blank">Knowing区资源集束(持续装修中&amp;#46;&amp;#46;.&amp;#41;</a></li>
+<li><a href="http://bbs.hoopchina.com/746176.html" class="" target="_blank">虎扑Knowing区版规（新增视频图片音乐类悬赏标签，高额度悬赏将被加色）</a></li>
+<li><a href="http://bbs.hoopchina.com/2787261.html" class="" target="_blank">【公告】关于一些筒子进入不了视频区的问题解答</a></li>
+<li><a href="http://bbs.hoopchina.com/1623132.html" class="" target="_blank">Knowing区用户组成立，一起来加入“智囊团”</a></li>
+</ul>
+</span>
+</div>
+</div>
+</div>
+<div class="tabs_header zoom" id="tabs_header">
+<ul class="left">
+<li class="selected"><a href="/zhidao">主题</a></li>
+<li  ><a href="/zhidao-digest">精华</a></li>
+<li><a href="/zhidao/highlights" >亮了</a></li>
+<li><a href="/zhidao/members">成员</a></li>
+<li><a href="/zhidao/ranking"><span>赞赏排行</span></a></li>
+</ul>
+<div class="right">
+<a id="g_n" class="issue_button"   rel="nofollow me noopener noreferrer" href="/post.php?fid=1218">发新帖</a>
+</div>
+<div class="clearfix tabs_border"></div>
+</div>
+<div id="sort">
+<div class="fr">
+<form style="display:inline">
+<input type="hidden" value="1" data-name="zhidao" class="orderpagenum"  />
+<select id="orderway-new" style="vertical-align:middle; _vertical-align:top;">
+<option value="null" selected="">排序方式</option>
+<option value="lastpost">按回帖时间排序</option>
+<option value="postdate">按发帖时间排序</option>
+</select>
+</form>
+</div>
+<a class="blue" href="/zhidao-type1">提问</a>
+<a class="blue" href="/zhidao-type2">求视频</a>
+<a class="blue" href="/zhidao-type3">求图片</a>
+<a class="blue" href="/zhidao-type4">求音乐</a>
+<a class="blue" href="/zhidao-type5">已解决</a>
+<a class="blue" href="/zhidao-type6">资料</a>
+<div class="clearfix" style="*height:0;"></div>
+</div>
+<i id="level2header" title="NBA论坛"></i>
+<form  id="ajaxtable">
+<div class="show-list">
+<p class="show-tit">
+<span class="t1">主题</span>
+<span class="t2">作者</span>
+<span class="t3">回复/浏览</span>
+<span class="t4">最后回复</span>
+</p>
+<ul class="for-list">
+<li>
+<div class="titlelink box" style="width:645px;">
+<span style="color:#b50000">[置顶]</span>
+<a   href="/746176.html" class="truetit"target="_blank" ><b>虎扑knowing区版规（即日起发帖不再扣30卡）</b></a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/91855939369504" >奥贝斯坦</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2009-07-14</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;9707</span>
+<div class="endreply box">
+<a href="746176.html#o" target="_blank">2009-07-14</a>
+<br />
+<span class="endauthor ">奥贝斯坦</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/24035112.html" class="truetit" target="_blank">讲道理，有人来科普下湖人名宿 &nbsp; 8号科比和24号科比，哪个综合实力强</a>
+<span class="light_r  ">
+<a title="有5个亮了的回帖">&nbsp;</a>
+</span>
+[&nbsp;<span class="multipage">
+<a href="/24035112-2.html" target="_blank">2</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/271451047901275" >默默契脾气</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-22</a>
+</div>
+<span class="ansour box">33&nbsp;/&nbsp;5039</span>
+<div class="endreply box">
+<a href="24035112-2.html#o" >10-22</a>
+<br />
+<span class="endauthor ">0216永不分离</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23800628.html" class="truetit" target="_blank">不懂就问  今年常规赛什么时候开打</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/152575005797339" >爽啊爽啊爽啊</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-03</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;111</span>
+<div class="endreply box">
+<a href="23800628.html#o" target="_blank">10-22</a>
+<br />
+<span class="endauthor ">何必LA布莱恩特</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type5">已解决</a>]<a style="color:silver"  class="truetit"  href="/13483844.html" target="_blank">虎扑论坛如何升级</a>
+<span class="light_r  ">
+<a title="有1个亮了的回帖">&nbsp;</a>
+</span>
+[&nbsp;<span class="multipage">
+<a href="/13483844-2.html" target="_blank">2</a>
+<a href="/13483844-3.html" target="_blank">3</a>...<a href="/13483844-10.html" target="_blank">10</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/160752843459294" >单翼天使3</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2015-08-18</a>
+</div>
+<span class="ansour box">193&nbsp;/&nbsp;14115</span>
+<div class="endreply box">
+<a href="13483844-10.html#o" >10-20</a>
+<br />
+<span class="endauthor ">超级JRS</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23958184.html" class="truetit" target="_blank">关于运球训练脖子和腰疼的问题</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/177022286856159" >最毒的黑曼巴</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-16</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;233</span>
+<div class="endreply box">
+<a href="23958184.html#o" target="_blank">10-17</a>
+<br />
+<span class="endauthor ">最毒的黑曼巴</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/23968957.html" class="truetit" target="_blank">reddit里总提到的nephew是什么意思？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/29569328745979" >Jacob_Feng</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-17</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;633</span>
+<div class="endreply box">
+<a href="23968957.html#o" target="_blank">10-17</a>
+<br />
+<span class="endauthor ">Jacob_Feng</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23963974.html" class="truetit" target="_blank">东南亚国家在哪观看NBA比赛直播？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/114484105931526" >yjr1036631296</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-17</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;462</span>
+<div class="endreply box">
+<a href="23963974.html#o" target="_blank">10-17</a>
+<br />
+<span class="endauthor ">无昵称666</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23953107.html" class="truetit" target="_blank">小托马斯目前在哪个队？上个赛季在湖人，这个赛季呢？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/182229345504280" >大不了走</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-16</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;1512</span>
+<div class="endreply box">
+<a href="23953107.html#o" target="_blank">10-16</a>
+<br />
+<span class="endauthor ">REAL____</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23888964.html" class="truetit" target="_blank">求解：灰熊的3J和魔术的班巴为什么都没提上首发？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/28178737811970" >永恒国度2</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-11</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;200</span>
+<div class="endreply box">
+<a href="23888964.html#o" target="_blank">10-15</a>
+<br />
+<span class="endauthor ">美国评论员</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23891220.html" class="truetit" target="_blank">不懂就问，湖人和勇士这三分线外面的粉线是什么意思啊</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/181491355826257" >研究国际关系的</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-11</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;1303</span>
+<div class="endreply box">
+<a href="23891220.html#o" target="_blank">10-15</a>
+<br />
+<span class="endauthor ">美国评论员</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23901056.html" class="truetit" target="_blank">新人第一帖，求科普，nba球员收入得交多少税？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/63996591534043" >spurs一生</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-12</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;254</span>
+<div class="endreply box">
+<a href="23901056.html#o" target="_blank">10-12</a>
+<br />
+<span class="endauthor ">衢州勒布朗</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23881390.html" class="truetit" target="_blank">为什么唠嗑和老詹的号码会变？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/66817400024589" >丹尼格林说</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-10</a>
+</div>
+<span class="ansour box">14&nbsp;/&nbsp;3088</span>
+<div class="endreply box">
+<a href="23881390.html#o" target="_blank">10-10</a>
+<br />
+<span class="endauthor ">风幕涯</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23851957.html" class="truetit" target="_blank">各位大佬，请问推特应该关注哪些人？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/171091322700072" >charger15</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-08</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;195</span>
+<div class="endreply box">
+<a href="23851957.html#o" target="_blank">10-08</a>
+<br />
+<span class="endauthor ">虚伪违心</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23846675.html" class="truetit" target="_blank">求解，卡莱尔教练西装上的这几个标志是什么意思？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/9868666463445" >macgraday3150</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-07</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;137</span>
+<div class="endreply box">
+<a href="23846675.html#o" target="_blank">10-07</a>
+<br />
+<span class="endauthor ">macgraday3150</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23807538.html" class="truetit" target="_blank">抢断打手算犯规吗？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/133668293602659" >qq617383368</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-10-03</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;1097</span>
+<div class="endreply box">
+<a href="23807538.html#o" target="_blank">10-05</a>
+<br />
+<span class="endauthor ">qq617383368</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23772154.html" class="truetit" target="_blank"> 万能的Jrs，求J博士一个一打五动图视频出处！</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/255307699821997" >JeezyMan</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-09-30</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;483</span>
+<div class="endreply box">
+<a href="23772154.html#o" target="_blank">09-30</a>
+<br />
+<span class="endauthor ">饭盒35</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23368329.html" class="truetit" target="_blank">不懂就问，在识货买鞋，鞋子迟迟不发货，加了店家微信发信息也不回，结果看到下图</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/192866305745671" >华hua华</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-26</a>
+</div>
+<span class="ansour box">6&nbsp;/&nbsp;721</span>
+<div class="endreply box">
+<a href="23368329.html#o" target="_blank">09-30</a>
+<br />
+<span class="endauthor ">华hua华</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/23749616.html" class="truetit" target="_blank">不懂就问，求选秀科普</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/179411037045444" >wulj</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-09-28</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;248</span>
+<div class="endreply box">
+<a href="23749616.html#o" target="_blank">09-28</a>
+<br />
+<span class="endauthor ">wulj</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type3">求图片</a>]<a  href="/23740684.html" class="truetit" target="_blank">请问哪位JRS有当时一哥还在76人时，对位联盟顶级外线球员防守数据的图片吗？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/222732117798027" >manzcl</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-09-27</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;206</span>
+<div class="endreply box">
+<a href="23740684.html#o" target="_blank">09-27</a>
+<br />
+<span class="endauthor ">manzcl</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23411116.html" class="truetit" target="_blank">NBA现役拿50+的人有哪些</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/70726283738196" >林forthree</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-30</a>
+</div>
+<span class="ansour box">18&nbsp;/&nbsp;878</span>
+<div class="endreply box">
+<a href="23411116.html#o" target="_blank">09-26</a>
+<br />
+<span class="endauthor ">谭诗妍</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23717435.html" class="truetit" target="_blank">詹密进来 帮个小忙～</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/253415751605385" >就不拿三双</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-09-25</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;149</span>
+<div class="endreply box">
+<a href="23717435.html#o" target="_blank">09-25</a>
+<br />
+<span class="endauthor ">南湖湖畔黄鹤楼下</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a style="color:orange"  class="truetit"  href="/22751935.html" target="_blank">2000卡求2014年西决G5雷霆vs马刺高清录像</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/145705567003174" >夏海里伽子</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-06-29</a>
+</div>
+<span class="ansour box">10&nbsp;/&nbsp;501</span>
+<div class="endreply box">
+<a href="22751935.html#o" target="_blank">09-20</a>
+<br />
+<span class="endauthor ">必须吃饭吐血日</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a style="color:orange"  class="truetit"  href="/23337201.html" target="_blank">2000卡求一部雷吉米勒的专访视频</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/254202500455529" >lcj哈登</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-23</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;159</span>
+<div class="endreply box">
+<a href="23337201.html#o" target="_blank">08-28</a>
+<br />
+<span class="endauthor ">0613032089</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type6">资料</a>]<a  href="/23272050.html" class="truetit" target="_blank">求助！谁能帮忙上传这几个盖帽视频到腾讯和B站？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/138934447365189" >5381115</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-18</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;180</span>
+<div class="endreply box">
+<a href="23272050.html#o" target="_blank">08-26</a>
+<br />
+<span class="endauthor ">华hua华</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/23284429.html" class="truetit" target="_blank">求教哪里可以查询nba球员的pie数值（Player Impact Estimate）？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/109034084460997" >历史二十大</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-19</a>
+</div>
+<span class="ansour box">9&nbsp;/&nbsp;916</span>
+<div class="endreply box">
+<a href="23284429.html#o" target="_blank">08-19</a>
+<br />
+<span class="endauthor ">bodao10000</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/22983624.html" class="truetit" target="_blank">不懂就问，四大中锋是哪四大？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/113643047476764" >小小小小小小小7</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-23</a>
+</div>
+<span class="ansour box">7&nbsp;/&nbsp;1194</span>
+<div class="endreply box">
+<a href="22983624.html#o" target="_blank">08-17</a>
+<br />
+<span class="endauthor ">wocai608</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23231964.html" class="truetit" target="_blank">想问一下有没有大佬有 2010/ 11赛季常规赛的几场高清视频</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/263553874692522" >乐布朗詹姆斯先生</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-14</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;323</span>
+<div class="endreply box">
+<a href="23231964.html#o" target="_blank">08-14</a>
+<br />
+<span class="endauthor ">乐布朗詹姆斯先生</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22976589.html" class="truetit" target="_blank">大家还记得泰劳森吗？当年他的合同究竟是怎么回事？</a>
+<span class="light_r  ">
+<a title="有1个亮了的回帖">&nbsp;</a>
+</span>
+[&nbsp;<span class="multipage">
+<a href="/22976589-2.html" target="_blank" >2</a>
+<a href="/22976589-3.html" target="_blank">3</a>
+</span>
+&nbsp;]&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/248440469931668" >dongbin0308</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-22</a>
+</div>
+<span class="ansour box">48&nbsp;/&nbsp;7102</span>
+<div class="endreply box">
+<a href="22976589-3.html#o" >08-12</a>
+<br />
+<span class="endauthor ">ELSONGWH</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23203606.html" class="truetit" target="_blank">有人知道2018的传奇明星赛，会如期举行么？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/153626821547170" >Stack4life</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-12</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;203</span>
+<div class="endreply box">
+<a href="23203606.html#o" target="_blank">08-12</a>
+<br />
+<span class="endauthor ">Stack4life</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23107834.html" class="truetit" target="_blank">求科普联盟规则</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/260648709124833" >幽彌狂</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-03</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;229</span>
+<div class="endreply box">
+<a href="23107834.html#o" target="_blank">08-12</a>
+<br />
+<span class="endauthor ">ELSONGWH</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/23107010.html" class="truetit" target="_blank">小卡如果留在马刺，是不是今年夏天可以按指定老将条款续约</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/270177116860870" >cgd95123</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-08-03</a>
+</div>
+<span class="ansour box">13&nbsp;/&nbsp;2065</span>
+<div class="endreply box">
+<a href="23107010.html#o" target="_blank">08-04</a>
+<br />
+<span class="endauthor ">烟台流川枫</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/20720242.html" class="truetit" target="_blank">话说一哥的号码为什么换了？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/228366356690635" >不用下辈子</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2017-11-14</a>
+</div>
+<span class="ansour box">10&nbsp;/&nbsp;2569</span>
+<div class="endreply box">
+<a href="20720242.html#o" target="_blank">08-01</a>
+<br />
+<span class="endauthor ">不用下辈子</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22848405.html" class="truetit" target="_blank">不懂就问，关于买断费</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/158250367441839" >剑风23</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-08</a>
+</div>
+<span class="ansour box">10&nbsp;/&nbsp;962</span>
+<div class="endreply box">
+<a href="22848405.html#o" target="_blank">08-01</a>
+<br />
+<span class="endauthor ">茉莉詹姆斯</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23079564.html" class="truetit" target="_blank">[伸手党]第一次在shh发帖。。求助各位jrs</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/69126842679184" >ColdHoop</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-31</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;321</span>
+<div class="endreply box">
+<a href="23079564.html#o" target="_blank">07-31</a>
+<br />
+<span class="endauthor ">ColdHoop</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/23038182.html" class="truetit" target="_blank">发个帖子求问一件事</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/182131808642012" >TheDuncan</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-27</a>
+</div>
+<span class="ansour box">6&nbsp;/&nbsp;663</span>
+<div class="endreply box">
+<a href="23038182.html#o" target="_blank">07-27</a>
+<br />
+<span class="endauthor ">TheDuncan</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/22878143.html" class="truetit" target="_blank">求助哪里可以买到詹姆斯湖人正版球衣（定制的跟淘宝的不要）</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/257549750798994" >布莱恩特维斯布鲁克</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-11</a>
+</div>
+<span class="ansour box">12&nbsp;/&nbsp;4215</span>
+<div class="endreply box">
+<a href="22878143.html#o" target="_blank">07-26</a>
+<br />
+<span class="endauthor ">c591816</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22992597.html" class="truetit" target="_blank">想问下步行者球迷和詹蜜，师弟的持球怎么样</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/129542816915715" >chrrispaul</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-24</a>
+</div>
+<span class="ansour box">9&nbsp;/&nbsp;1073</span>
+<div class="endreply box">
+<a href="22992597.html#o" target="_blank">07-24</a>
+<br />
+<span class="endauthor ">JesseLeu</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22766972.html" class="truetit" target="_blank">求纳什那张桌布</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/38241190725579" >GoranDragic</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-01</a>
+</div>
+<span class="ansour box">5&nbsp;/&nbsp;1055</span>
+<div class="endreply box">
+<a href="22766972.html#o" target="_blank">07-20</a>
+<br />
+<span class="endauthor ">leibobobo</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22808132.html" class="truetit" target="_blank">94年状元大狗罗宾逊为什么在虎扑的介绍这么少？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/28178737811970" >永恒国度2</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-04</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;577</span>
+<div class="endreply box">
+<a href="22808132.html#o" target="_blank">07-14</a>
+<br />
+<span class="endauthor ">诚之部屋</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/22903361.html" class="truetit" target="_blank">已解决</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/138934447365189" >5381115</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-14</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;128</span>
+<div class="endreply box">
+<a href="22903361.html#o" target="_blank">07-14</a>
+<br />
+<span class="endauthor ">5381115</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22884118.html" class="truetit" target="_blank">小卡和安东尼的去向最晚哪天揭晓？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/279347901108297" >丶丶丶丶绿</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-11</a>
+</div>
+<span class="ansour box">13&nbsp;/&nbsp;3532</span>
+<div class="endreply box">
+<a href="22884118.html#o" target="_blank">07-12</a>
+<br />
+<span class="endauthor ">Saleoj</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22881309.html" class="truetit" target="_blank">在哪能查到nba的防守数据</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/63913065978344" >18勒布朗詹姆斯夺冠</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-11</a>
+</div>
+<span class="ansour box">3&nbsp;/&nbsp;477</span>
+<div class="endreply box">
+<a href="22881309.html#o" target="_blank">07-11</a>
+<br />
+<span class="endauthor ">18勒布朗詹姆斯夺冠</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type1">提问</a>]<a  href="/22866707.html" class="truetit" target="_blank">有秒拍达人能解決我的疑难吗?</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/95004419486603" >得意孔明</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-10</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;97</span>
+<div class="endreply box">
+<a href="22866707.html#o" target="_blank">07-10</a>
+<br />
+<span class="endauthor ">得意孔明</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22865874.html" class="truetit" target="_blank">NBA球队的经理和教练哪个工资高一些？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/90657000778234" >胡子登13</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-09</a>
+</div>
+<span class="ansour box">11&nbsp;/&nbsp;1790</span>
+<div class="endreply box">
+<a href="22865874.html#o" target="_blank">07-10</a>
+<br />
+<span class="endauthor ">sk198902</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22823914.html" class="truetit" target="_blank">向各位大佬请教一下这球有没有走步？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/13834205956983" >泰坦VinceC</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-05</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;260</span>
+<div class="endreply box">
+<a href="22823914.html#o" target="_blank">07-06</a>
+<br />
+<span class="endauthor ">我选z</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type2">求视频</a>]<a  href="/22821791.html" class="truetit" target="_blank">求2018-7-4NBL贵州对重庆队下半时的录像</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/92607004882486" >Donjin</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-05</a>
+</div>
+<span class="ansour box">0&nbsp;/&nbsp;195</span>
+<div class="endreply box">
+<a href="22821791.html#o" target="_blank">07-05</a>
+<br />
+<span class="endauthor ">Donjin</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type1">提问</a>]<a  href="/22814692.html" class="truetit" target="_blank">不懂就问，买断球员是否可以分期到合同之外？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/152237102479847" >Caranegra</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-04</a>
+</div>
+<span class="ansour box">2&nbsp;/&nbsp;142</span>
+<div class="endreply box">
+<a href="22814692.html#o" target="_blank">07-05</a>
+<br />
+<span class="endauthor ">Caranegra</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22816254.html" class="truetit" target="_blank">萌新问几个问题，求大佬解答</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/212342322822576" >猛龙凯尔洛瑞</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-04</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;81</span>
+<div class="endreply box">
+<a href="22816254.html#o" target="_blank">07-04</a>
+<br />
+<span class="endauthor ">猛龙凯尔洛瑞</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+[<a href="/zhidao-type1">提问</a>]<a  href="/22775803.html" class="truetit" target="_blank">请问哪里能查到历年的顶薪是多少？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/152189601082468" >废废de竹竿</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-01</a>
+</div>
+<span class="ansour box">1&nbsp;/&nbsp;270</span>
+<div class="endreply box">
+<a href="22775803.html#o" target="_blank">07-04</a>
+<br />
+<span class="endauthor ">废废de竹竿</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22770792.html" class="truetit" target="_blank">真*不懂就问，关于顶薪</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/14747603517860" >我亲人健康快乐</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-07-01</a>
+</div>
+<span class="ansour box">4&nbsp;/&nbsp;324</span>
+<div class="endreply box">
+<a href="22770792.html#o" target="_blank">07-01</a>
+<br />
+<span class="endauthor ">我火余孽zzz</span>
+</div>
+</li>
+<li>
+<div class="titlelink box" style="width:645px;">
+<a  href="/22751282.html" class="truetit" target="_blank">季后赛对决最多的球队是那两只？</a>
+&nbsp;</div>
+<div class="author box">
+<a class="aulink" target="_blank" href="https://my.hupu.com/103430309227054" >隆多多多多</a>
+<br />
+<a style="color:#808080;cursor: initial; ">2018-06-29</a>
+</div>
+<span class="ansour box">4&nbsp;/&nbsp;1178</span>
+<div class="endreply box">
+<a href="22751282.html#o" target="_blank">06-29</a>
+<br />
+<span class="endauthor ">Bin1213</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="rss" >
+<a target="_blank" href="https://bbs.hupu.com/rss.php?fid=1218" title="通过RSS订阅虎扑knowing的帖子"></a>
+</div>
+</form>
+<div class="showpage">
+<div class="page downpage" style="width:620px; float:left"></div>
+<input type="hidden" class="typenum" value="0" />
+<div class="pageright">
+虎扑knowing共21639主题 /173766回复  今日0帖</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bottom_tools" >
+<a id="scrollUp"   title="返回顶部" style="display:none;cursor:pointer;"></a>
+</div>
+<div class="hp-footer">
+                    
+                    <div class="hp-copyright">
+                    
+                    Copyright by 虎扑JRs &amp;
+                    <a href="https://www.hupu.com/" target="_blank" title="虎扑">虎扑</a> -
+                    <a href="http://jobs.hupu.com/" target="_blank">在虎扑工作</a> -
+                    <a href="http://marketing.hupu.com/contact/" target="_blank">联系我们</a> -
+                    <a href="https://m.hupu.com/" target="_blank">手机虎扑网</a> -
+                    <a href="https://mobile.hupu.com/" target="_blank">虎扑App</a> -
+                    <a href="https://www.hupu.com/policies/terms" target="_blank">服务协议</a> -
+                    <a href="https://www.hupu.com/sitemap.html" target="_blank">网站地图</a> -
+                    <a href="https://nba.hupu.com/" target="_blank" title="NBA">NBA</a> -
+                    <a href="https://cba.hupu.com/" target="_blank" title="CBA">CBA</a>  -
+                    <a href="https://soccer.hupu.com/" target="_blank" title="足球">足球</a> -
+                    <a href="https://soccer.hupu.com/china/" target="_blank" title="中超">中超</a> -
+                    <a href="http://racing.hupu.com/" target="_blank" title="赛车">赛车</a> 
+                    </div>
+                    
+                </div>
+</body><script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/mod_96dd55b.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/jquery/jquery-1.8.3_a6ffa58.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/widget/ui-dace/ui-dace_85cd6f2.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/global/global_7fa80c2.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/js/underscore/underscore_48198ee.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/js/common-v1_c756bbd.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/postList_c058006.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/subpages/pagelist_93e6d6f.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/return_1b6b007.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/widget/bbsPlate/bbsPlate_f382325.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/getName/id_to_name_1af4143.js"></script>
+<script type="text/javascript">var __ready = [];__ready.push(function(){
+        //dace统计
+        var __daceDataNameOfChannel = 'bbs';
+
+        //公共头尾
+        window._common && _common.init({project:"sports"});
+
+        //baidu统计
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?39fc58a7ab8a311f2f6ca4dc1222a96e";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    });
+__ready.push(function(){    var getName = require("subpages:widget/getName/id_to_name");
+      getName.init();
+    });
+__ready.push(function(){//三级导航
+$(".hp-threeNav-item li").mouseover(function(){
+  $(this).find(".hp-drapDown").css("display","block");
+}).mouseout(function(){
+  $(this).find(".hp-drapDown").css("display","none");
+})
+//搜索
+$(".it-search-for").bind('input propertychange', function() {
+    var $value=$(".it-search-for").val();
+  if($value.length>0){
+      $(".hp-search-choose").show();
+      $(".searchval").html($value);
+  }else{
+      $(".hp-search-choose").hide();
+  }
+});
+    //搜索按钮
+    $(".btn-searchs").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('//my.hupu.com/search?q='+$value,'_blank');
+    })
+      // 回车键事件
+    $(".it-search-for").keypress(function(e) {
+       if(e.which == 13) {
+         var $value=$(".it-search-for").val();
+        window.open('//my.hupu.com/search?q='+$value,'_blank');
+       }
+   });
+   //帖子
+   $("#tiezi").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('//my.hupu.com/search?q='+$value,'_blank');
+    })
+  //视频
+  $("#videos").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('//v.liangle.com/nba/s_'+$value,'_blank');
+   })
+   //日志
+   $("#rizhi").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('https://my.hupu.com/search/blog-'+$value+'-5000','_blank');
+    })
+  //成员
+  $("#cyuan").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('https://my.hupu.com/search/member-0-2---'+$value+'-1','_blank');
+   })
+  //识货
+  $("#shihuo").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('http://www.shihuo.cn/search?keywords='+$value+'&channelType=12','_blank');
+   })
+
+});
+__ready.push(function(){  $(".showdiv").css("height",$(document).height()+"px");
+});
+__ready.push(function(){       var bbsPlate= require("common:widget/bbsPlate/bbsPlate");
+       bbsPlate.init();
+
+     });
+__ready.push(function(){//搜索按钮
+$(".lit-search-tit").bind('input propertychange', function() {
+});
+$(".lit-search-btn").click(function(){
+ var $value=$(".lit-search-tit").val();
+ console.log($value)
+ window.open('//my.hupu.com/search?fid=1218&type=topic&q='+$value,'_blank');
+})
+
+// 回车键事件
+$(".lit-search-tit").keypress(function(e) {
+ if(e.which == 13) {
+   var $value=$(".lit-search-tit").val();
+ window.open('//my.hupu.com/search?fid=1218&type=topic&q='+$value,'_blank');
+ }
+});
+
+
+});
+__ready.push(function(){  
+
+
+    var maxpage=0;
+    if(100>100){
+      maxpage=100;
+    }else{
+      maxpage=100;
+    }
+    var harf='';
+    var loc=location.pathname.slice(1);
+    var postdate=location.pathname.indexOf('postdate')|| -1;
+    if(0==1){
+          harf='zhidao-digest'
+    }else{
+      if(0>0){
+        if(postdate>0){
+          harf='zhidao-type0-postdate'
+        }else{
+          harf='zhidao-type0'
+        }
+      }else{
+        if(postdate>0){
+          harf='zhidao-postdate'
+        }else{
+          harf='zhidao'
+        }
+      }
+
+    }
+    $(".for-list li").mouseover(function(event) {
+      $(this).find(".caozhuo").css("visibility","visible");
+    }).mouseout(function(){
+      $(this).find(".caozhuo").css("visibility","hidden");
+    });
+    if(1>1){
+      $(".downpage").css("margin-left","-185px");
+    }
+    if(1>=5){
+      $(".downpage").css("margin-left","-194px");
+    }
+
+
+    $('.page').createPage(function(n){
+
+    },{
+    	pageCount:maxpage,//总页码,默认10
+    	current:1,//当前页码
+      name:harf+'-',//标记
+      hname:'zhidao',
+    	showNear:1,//显示当前页码前多少页和后多少页，默认2
+    	pageSwap:true,
+      align:'right',
+    	showSumNum:false,//是否显示总页码
+      maxpage:100,
+      is_poslist:1,
+      is_read:0
+
+    });
+    $(".nextPage").css({
+      "height":"16px",
+      "line-height":"16px"
+    });
+  });window.initEvent && window.initEvent();</script></html>

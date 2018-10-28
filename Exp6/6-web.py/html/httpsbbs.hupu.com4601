@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="expanded">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>
+虎扑社区
+</title>
+<link rel="dns-prefetch" href="//b1.hoopchina.com.cn" />
+<link rel="dns-prefetch" href="//b3.hoopchina.com.cn" />
+<link rel="apple-touch-icon" href="//b1.hoopchina.com.cn/common/apple-touch-icon.png" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.hupu.com/bbs" />
+<meta name="mobile-agent" content="format=html5;url=https://m.hupu.com/bbs" />
+<link rel="alternate" href="android-app://com.hupu.games/huputiyu/bbs/board/?r=hupucom"/>
+
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<meta name="apple-itunes-app" content="app-id=906632439" />
+<link rel="shortcut icon" href="//b3.hoopchina.com.cn/common/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="//b3.hoopchina.com.cn/common/common-v1.css" />
+<script src="//b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js"></script> 
+<script src="//b3.hoopchina.com.cn/common/common-v1.js"></script>
+<script type="text/javascript">
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+
+    </script>
+
+
+<link rel="stylesheet" type="text/css" href="//b3.hoopchina.com.cn/web/channel/bbs/static/common/pkg/bbsCommon_61a28dd.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/pkg/bbsSubPages_e79f3ae.css"/></head>
+<body>
+<!--topbarNav star-->
+                        <div id="hp-topbarNav">
+                            <div class="hp-topbarNav-bd">
+                                <ul class="hp-quickNav">
+                                    <li class="mobileWeb"><a href="javascript:void(0)" onclick="hp_quick_touch()"><i class="ico-mobile"></i>手机虎扑</a></li>
+                                    <li class="line">|</li>
+                                    <li class="mobileclientDown"><a class="red" href="https://mobile.hupu.com/?_r=globalNav" target="_blank">虎扑客户端</a></li>
+                                    <li class="line">|</li>
+                                    <li class="hp-dropDownMenu topFollowBlog">
+                                        <a href="javascript:void(0)" class="hp-set">关注虎扑<s class="setArrow"></s></a>
+                                        <div class="hp-drapDown followLayer">
+                                            <a class="weibo" target="_blank" rel="nofollow" href="//weibo.com/liangle4u"><i class="hp-ico-weibo"></i>新浪微博</a>
+											<a class="weixin" target="_blank" href="https://voice.hupu.com/other/1581560.html"><i class="hp-ico-weixin"></i>官方微信</a>
+                                            <a class="instagram" target="_blank" rel="nofollow" href="https://voice.hupu.com/other/1634334.html"><i class="hp-ico-instagram"></i>Instagram</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="hp-topLogin-info"></div>
+                            </div>
+                        </div>
+                        <!--topbarNav ent--><!--header star--><div class="hp-header hp-header-B"><div class="hp-logo"><a title="社区" href="https://bbs.hupu.com/"><img src="https://b3.hoopchina.com.cn/images/logo2017/v1/hp_logo_sports.png" alt="社区" width="140px" height="52px"/></a>
+                            </div>
+                            <div class="hp-mainNav hp-mainNav-B">
+                                <div class="hp-nav">
+                                    <div class="hp-nav-bd">
+                                        <ul class="hp-nav-item"><li><a href="https://www.hupu.com/" >虎扑首页</a></li><li class="line">|</li><li><a href="https://nba.hupu.com/" >NBA</a></li><li class="line">|</li><li><a href="https://cba.hupu.com/" >CBA</a></li><li class="line">|</li><li><a href="https://gg.hupu.com" >电竞</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com" >国际足球</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com/china/" >中国足球</a></li><li class="line">|</li><li><a href="http://racing.hupu.com/" >赛车</a></li><li class="line">|</li><li><a href="http://zb.hupu.com/" target="_blank">装备</a></li><li class="line">|</li><li><a href="http://www.shihuo.cn/" target="_blank">识货</a></li><li class="line">|</li><li class="on"><a href="https://bbs.hupu.com/" >社区</a></li><li class="line">|</li><li><a href="https://bbs.hupu.com/all-gambia" >步行街</a></li><li class="line">|</li><li><a href="http://www.liangle.com" target="_blank">路人王</a></li><li class="line">|</li><li class="hp-dropDownMenu hp-moreNav">
+                                                <a href="javascript:void(0)" class="hp-set">更多<s class="setArrow"></s></a>
+                                                <div class="hp-drapDown hp-moreNav-drapDown"><a href="https://shop311048929.taobao.com/" target="_blank">虎扑优选</a><a href="http://outdoor.hupu.com/" >户外</a><a href="http://run.hupu.com/" >健身</a><a href="http://ymq.hupu.com/" >羽毛球</a><a href="http://xgame.hupu.com/" target="_blank">xgames</a><a href="http://www.nflchina.com/" target="_blank">NFL</a><s class="arrow-top"><s class="arrowbd"></s></s>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="hp-subNav">
+    <ul class="hp-subNav-item">
+        <li><a href="/">首页</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-nba">NBA版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-cba">CBA版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-soccer">国际足球版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/china-soccer">中国足球版</a></li><li class="line">|</li>
+        <li><a target="_blank" href="https://bbs.hupu.com/all-sports">综合体育</a></li><li class="line">|</li>
+        <li class="hp-dropDownMenu">
+            <a target="_blank" href="https://bbs.hupu.com/all-gear">装备版</a>
+            <div class="hp-drapDown">
+                <a href="https://bbs.hupu.com/c2c">交易区</a>
+                <a href="https://bbs.hupu.com/jersey">球衣区</a>
+                <a href="https://bbs.hupu.com/outdoorgear">户外装备</a>
+            </div>
+        </li>
+		<li class="line">|</li>
+        <li class="hp-dropDownMenu">
+			<a href="/all-gambia" class="hp-set">步行街</a>
+			<div class="hp-drapDown">
+				<a href="https://bbs.hupu.com/bxj">步行街主干道</a>
+				<a href="https://bbs.hupu.com/ent">影视区</a>
+				<a href="https://bbs.hupu.com/acg">ACG区</a>
+				<a href="https://bbs.hupu.com/nba2k">NBA2K区</a>
+				<a href="https://bbs.hupu.com/game">电竞区</a>
+				<a href="https://bbs.hupu.com/cars">车友交流</a>
+				<a href="https://bbs.hupu.com/music">音乐区</a>
+				<a href="https://bbs.hupu.com/love">情感区</a>
+				<a target="_blank" href="https://bbs.hupu.com/all-gambia">更多</a>
+				<s class="arrow-top"><s class="arrowbd"></s></s>
+			</div>
+		</li><li class="line">|</li>	
+        <li class="hp-dropDownMenu">
+			<a href="/all-lottery" class="hp-set">彩票版</a>
+			<div class="hp-drapDown">
+				<a href="https://bbs.hupu.com/lancai">篮彩神棍区</a>
+				<a href="https://bbs.hupu.com/zucai">足彩讨论区</a>
+				<a href="https://bbs.hupu.com/shuzicai">数字彩讨论区</a>
+				<a href="https://bbs.hupu.com/caipiao">虎扑彩票客服区</a>
+				<s class="arrow-top"><s class="arrowbd"></s></s>
+			</div>
+		</li><li class="line hp-hide-w1024">|</li>
+		<li class="hp-hide-w1024"><a href="/all-group">虎扑社团</a></li><li class="line">|</li>
+		<li><a target="_blank" href="https://bbs.hupu.com/all-boards">自建版块</a></li><li class="line">|</li>
+		<li><a target="_blank" href="https://bbs.hupu.com/all-feedback">站务版</a></li>
+    </ul>
+</div>
+
+                                <i class="hp-roundPoint-br-tl roundPoint-br-tl"></i>
+                                <i class="hp-roundPoint-br-tr roundPoint-br-tr"></i>
+                                <i class="hp-roundPoint-br-bl roundPoint-br-bl"></i>
+                                <i class="hp-roundPoint-br-br roundPoint-br-br"></i>
+                            </div>
+                        </div>
+
+<div class="bbs-content">
+<div id="container">
+<div class="container_padd" style="background:#fff !important;">
+<div id="search_main">
+<h2></h2>
+<div class="t_tips">
+<h4>
+嗯，出错了...<span>楼工团·JR访为加密版块，需密码验证。<form >
+<center>
+<br><br>
+请输入密码&nbsp;<input type="password" class="password" size="20" maxlength="75" name="wind_password">
+<input type="hidden" class="fid"  data-fid="4601">
+<input type="hidden" name="wind_action" value="wind_fpwd">
+<input type="button" class="encry" value="提 交">
+<label class="showmeg" ></label>
+</center>
+</form>
+</span>
+</h4>
+<ul>
+<script>
+              function backprevious(){
+              	if(history.length>1){
+              		history.back();return false;
+              	}else{
+              		return true;
+              	}
+              }
+              </script>
+<li class="p1"><a class="blue" onclick="backprevious();">回到上一页</a></li>
+<li class="p1"><a class="blue" href="https://my.hupu.com">返回我的首页</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hp-footer">
+                    
+                    <div class="hp-copyright">
+                    
+                    Copyright by 虎扑JRs &amp;
+                    <a href="https://www.hupu.com/" target="_blank" title="虎扑">虎扑</a> -
+                    <a href="http://jobs.hupu.com/" target="_blank">在虎扑工作</a> -
+                    <a href="http://marketing.hupu.com/contact/" target="_blank">联系我们</a> -
+                    <a href="https://m.hupu.com/" target="_blank">手机虎扑网</a> -
+                    <a href="https://mobile.hupu.com/" target="_blank">虎扑App</a> -
+                    <a href="https://www.hupu.com/policies/terms" target="_blank">服务协议</a> -
+                    <a href="https://www.hupu.com/sitemap.html" target="_blank">网站地图</a> -
+                    <a href="https://nba.hupu.com/" target="_blank" title="NBA">NBA</a> -
+                    <a href="https://cba.hupu.com/" target="_blank" title="CBA">CBA</a>  -
+                    <a href="https://soccer.hupu.com/" target="_blank" title="足球">足球</a> -
+                    <a href="https://soccer.hupu.com/china/" target="_blank" title="中超">中超</a> -
+                    <a href="http://racing.hupu.com/" target="_blank" title="赛车">赛车</a> 
+                    </div>
+                    
+                </div>
+</body><script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/mod_96dd55b.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/jquery/jquery-1.8.3_a6ffa58.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/widget/ui-dace/ui-dace_85cd6f2.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/global/global_7fa80c2.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/js/underscore/underscore_48198ee.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/js/common-v1_c756bbd.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/encryption_92f4b54.js"></script>
+<script type="text/javascript">var __ready = [];__ready.push(function(){
+        //dace统计
+        var __daceDataNameOfChannel = 'bbs';
+
+        //公共头尾
+        window._common && _common.init({project:"sports"});
+
+        //baidu统计
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?39fc58a7ab8a311f2f6ca4dc1222a96e";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    });window.initEvent && window.initEvent();</script></html>

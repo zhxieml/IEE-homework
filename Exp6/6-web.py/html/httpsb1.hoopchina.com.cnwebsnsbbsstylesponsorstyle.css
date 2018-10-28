@@ -1,0 +1,230 @@
+.pull-left {float: left;}
+.pull-right {float: right;}
+.rank-hidden {display: none;}
+.rank-sponsor {
+  width: 545px;
+  margin-left: 16px;
+
+}
+.rank-sponsored {
+  width: 545px;
+  margin-right: 16px;
+}
+
+.pt-16 {padding-top: 16px;}
+
+.rank-sponsor-title,
+.rank-sponsored-title,
+.rank-bxj-sponsor-title,
+.rank-bxj-sponsored-title {
+  margin-left: 8px;
+  color: #000;
+  font-size: 20px;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+ .rank-bxj-sponsor-title,
+ .rank-bxj-sponsored-title {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    color: #b50000;
+    font-size: 12px;
+ }
+
+.rank-sponsor-list {
+  margin-top: 8px;
+  background: url(//b1.hoopchina.com.cn/web/sns/bbs/images/sponsor/bg-border-top.png) 0 0 no-repeat;
+}
+.rank-bxj-sponsor-list {
+  background: none;
+}
+.rank-sponsor-list-header {
+  margin-left: 3px;
+  padding-top: 8px;
+  height: 29px;
+  border-bottom: 1px solid #c1c1c1;
+}
+.rank-bxj-sponsor-list-header {
+  height: 24px;
+}
+.rank-sponsor-list-header li {
+  float: left;
+  width: 52px;
+  height: 23px;
+  padding-top: 4px;
+  color: #444;
+  border-top: 2px solid #fff;
+  background-color: #fff;
+}
+.rank-sponsor-list-header li.first span,
+.rank-sponsor-list-header li.third span {
+  border-right: none;
+}
+.rank-bxj-sponsor-list-header li {
+  float: right;
+  height: 20px;
+  padding-top: 2px;
+  color: #444;
+}
+.rank-bxj-sponsor-list-header li.first {
+  border-left: none;
+}
+.rank-bxj-sponsor-list-header li.third {
+  border-right: none;
+}
+
+.rank-sponsor-list-header li.active {
+  color: #b50000;
+  border-top: 2px solid #a92229;
+  border-right: 1px solid #c1c1c1;
+  border-bottom: 2px solid #fff;
+  border-left: 1px solid #c1c1c1;
+}
+
+.rank-sponsor-list-header li span {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 51px;
+  height: 14px;
+  line-height: 1;
+  *line-height: 1.4;
+  font-size: 12px;
+  text-align: center;
+  border-right: 1px solid #c1c1c1;
+  cursor: pointer;
+}
+.rank-bxj-sponsor-list-header li span {
+  height: 12px;
+}
+
+.rank-sponsor-list-content {
+  padding-top: 8px;
+  padding-left: 33px;
+}
+.rank-bxj-sponsor-list-content {
+  padding-left: 0;
+}
+.rank-sponsor-list-content li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 8px;
+  padding-bottom: 28px;
+  border-bottom: 1px dashed #ddd;
+}
+.rank-bxj-sponsor-list-content li {
+  padding-bottom: 5px;
+}
+.rank-badge {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: absolute;
+  left: -25px;
+  top: 10px;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  background: url(//b1.hoopchina.com.cn/web/sns/bbs/images/sponsor/red-circle-1.png) 0 0 no-repeat;
+}
+.rank-badge-red-2 {
+  background: url(//b1.hoopchina.com.cn/web/sns/bbs/images/sponsor/red-circle-2.png?t=2014111201) 0 0 no-repeat !important;
+}
+.rank-badge-yellow-1 {
+  background: url(//b1.hoopchina.com.cn/web/sns/bbs/images/sponsor/yellow-circle-1.png) 0 0 no-repeat !important;
+}
+.rank-badge-yellow-2 {
+  background: url(//b1.hoopchina.com.cn/web/sns/bbs/images/sponsor/yellow-circle-2.png?t=2014111201) 0 0 no-repeat !important;
+}
+.rank-bxj-sponsor-list-content .rank-badge {
+  position: relative;
+  top: -2px;
+  left: 0;
+}
+.rank-avatar {
+  position: absolute;
+}
+
+.rank-sponsor-item {
+  *position: relative;
+  *top: -20px;
+  padding-left: 60px;
+  *zoom: 1;
+}
+.rank-bxj-sponsor-item {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.rank-sponsor-item-header {
+  position: relative;
+  top: 5px;
+  line-height: 1;
+}
+.rank-sponsor-item-content {
+  padding-top: 14px !important;
+  color: #444;
+  *zoom: 1;
+}
+.rank-username {
+  float: left;
+  color: #005ec0;
+  font-size: 12px;
+}
+.rank-bxj-username {
+  float: none !important;
+  margin-left: 15px;
+}
+.rank-bar {
+  float: right;
+  position: relative;
+  width: 152px;
+  height: 6px;
+  border: 1px solid #c1c1c1;
+  overflow: hidden;
+}
+.rank-bxj-sponsor-item {
+  position: absolute;
+  right: 2px;
+  top: 6px;
+  width: 152px;
+}
+.rank-bxj-sponsor-item .rank-sponsor-item-header {
+  top: 0;
+}
+.rank-bar-inner {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 154px;
+}
+.rank-bar-value {
+  background-color: #5ea7e3;
+  width: 154px;
+  height: 8px;
+}
+
+/*==============================================
+ *
+ * 步行街排行榜
+ *
+ ==============================================*/
+.rank-bxj {
+  margin-top: 15px;
+}
+
+.rank-bxj-sponsor {
+  position: relative;
+  float: left;
+  width: 480px;
+}
+.rank-bxj-sponsored {
+  position: relative;
+  float: right;
+  width: 480px;
+}

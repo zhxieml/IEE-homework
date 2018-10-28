@@ -1,0 +1,2053 @@
+<!DOCTYPE html>
+<html class="expanded">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>
+浅谈匹克设计：为什么好像总是没那么好？ - 运动装备 - 虎扑社区
+</title>
+<link rel="dns-prefetch" href="//b1.hoopchina.com.cn" />
+<link rel="dns-prefetch" href="//b3.hoopchina.com.cn" />
+<link rel="apple-touch-icon" href="//b1.hoopchina.com.cn/common/apple-touch-icon.png" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.hupu.com/bbs/22531583.html" />
+<meta name="mobile-agent" content="format=html5;url=https://m.hupu.com/bbs/22531583.html" />
+<link rel="canonical" href="https://bbs.hupu.com/22531583.html" />
+<link rel="alternate" href="android-app://com.hupu.games/huputiyu/bbs/topic/22531583?r=hupucom"/>
+<script type='text/javascript'>var __daceDataNameOfForum='49';var __daceDataNameOfCategory = '233'; var __daceDataNameOfProject='zb';var __daceDataNameOfChannel='';</script>
+
+
+
+<meta name="apple-itunes-app" content="app-id=906632439" />
+<link rel="shortcut icon" href="//b3.hoopchina.com.cn/common/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="//b3.hoopchina.com.cn/common/common-v1.css" />
+<script src="//b3.hoopchina.com.cn/web/module/dace/1.0.0/dace.js"></script> 
+<script src="//b3.hoopchina.com.cn/common/common-v1.js"></script>
+<script type="text/javascript">
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+
+    </script>
+<script>
+    //跳转
+
+    </script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/pcbbs/js/j15.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="//b3.hoopchina.com.cn/web/channel/bbs/static/common/pkg/bbsCommon_61a28dd.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/pkg/bbsSubPages_e79f3ae.css"/><link rel="stylesheet" type="text/css" href="//b3.hoopchina.com.cn/web/channel/bbs/static/common/widget/bxjTab/bxjTab_9c2d97e.css"/><link rel="stylesheet" type="text/css" href="//b1.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/showdiv/showdiv_81f63a0.css"/><link rel="stylesheet" type="text/css" href="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/message/message_d801d2c.css"/></head>
+<body>
+<!--topbarNav star-->
+                        <div id="hp-topbarNav">
+                            <div class="hp-topbarNav-bd">
+                                <ul class="hp-quickNav">
+                                    <li class="mobileWeb"><a href="javascript:void(0)" onclick="hp_quick_touch()"><i class="ico-mobile"></i>手机虎扑</a></li>
+                                    <li class="line">|</li>
+                                    <li class="mobileclientDown"><a class="red" href="https://mobile.hupu.com/?_r=globalNav" target="_blank">虎扑客户端</a></li>
+                                    <li class="line">|</li>
+                                    <li class="hp-dropDownMenu topFollowBlog">
+                                        <a href="javascript:void(0)" class="hp-set">关注虎扑<s class="setArrow"></s></a>
+                                        <div class="hp-drapDown followLayer">
+                                            <a class="weibo" target="_blank" rel="nofollow" href="//weibo.com/liangle4u"><i class="hp-ico-weibo"></i>新浪微博</a>
+											<a class="weixin" target="_blank" href="https://voice.hupu.com/other/1581560.html"><i class="hp-ico-weixin"></i>官方微信</a>
+                                            <a class="instagram" target="_blank" rel="nofollow" href="https://voice.hupu.com/other/1634334.html"><i class="hp-ico-instagram"></i>Instagram</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="hp-topLogin-info"></div>
+                            </div>
+                        </div>
+                        <!--topbarNav ent--><!--header star--><div class="hp-header hp-header-A"><div class="hp-logo"><a title="虎扑装备" href="http://zb.hupu.com/"><img src="https://b3.hoopchina.com.cn/images/logo2017/v1/hp_logo_zb.png" alt="装备" width="140px" height="52px"/></a>
+                            </div>
+                            <div class="hp-mainNav hp-mainNav-B">
+                                <div class="hp-nav">
+                                    <div class="hp-nav-bd">
+                                        <ul class="hp-nav-item"><li><a href="https://www.hupu.com/" >虎扑首页</a></li><li class="line">|</li><li><a href="https://nba.hupu.com/" >NBA</a></li><li class="line">|</li><li><a href="https://cba.hupu.com/" >CBA</a></li><li class="line">|</li><li><a href="https://gg.hupu.com" >电竞</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com" >国际足球</a></li><li class="line">|</li><li><a href="https://soccer.hupu.com/china/" >中国足球</a></li><li class="line">|</li><li><a href="http://racing.hupu.com/" >赛车</a></li><li class="line">|</li><li class="on"><a href="http://zb.hupu.com/" target="_blank">装备</a></li><li class="line">|</li><li><a href="http://www.shihuo.cn/" target="_blank">识货</a></li><li class="line">|</li><li><a href="https://bbs.hupu.com/" >社区</a></li><li class="line">|</li><li><a href="https://bbs.hupu.com/all-gambia" >步行街</a></li><li class="line">|</li><li><a href="http://www.liangle.com" target="_blank">路人王</a></li><li class="line">|</li><li class="hp-dropDownMenu hp-moreNav">
+                                                <a href="javascript:void(0)" class="hp-set">更多<s class="setArrow"></s></a>
+                                                <div class="hp-drapDown hp-moreNav-drapDown"><a href="https://shop311048929.taobao.com/" target="_blank">虎扑优选</a><a href="http://outdoor.hupu.com/" >户外</a><a href="http://run.hupu.com/" >健身</a><a href="http://ymq.hupu.com/" >羽毛球</a><a href="http://xgame.hupu.com/" target="_blank">xgames</a><a href="http://www.nflchina.com/" target="_blank">NFL</a><s class="arrow-top"><s class="arrowbd"></s></s>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="hp-subNav">
+            <ul class="hp-subNav-item">
+				<li class="hp-dropDownMenu">
+					<a class="hp-set"  title="装备中心" href="http://zb.hupu.com">装备中心</a>
+					<div class="hp-drapDown">
+                        <a target="_blank" title="装备新闻" href="http://voice.hupu.com/zb">新闻</a>
+						<a  title="装备列表" href="http://zb.hupu.com/list">装备列表</a>
+						<a  title="榜单" href="http://zb.hupu.com/rank">榜单</a>
+						<s class="arrow-top"><s class="arrowbd"></s></s>
+					</div>
+				</li>
+				<li class="hp-dropDownMenu">
+					<a class="hp-set" target="_blank" title="识货" href="http://www.shihuo.cn">识货</a>
+					<div class="hp-drapDown">
+						<a target="_blank" title="发现好货" href="http://www.shihuo.cn/find">发现好货</a>
+						<a target="_blank" title="运动鞋" href="http://www.shihuo.cn/shoe">运动鞋</a>
+                        <a target="_blank" title="团购" href="http://www.shihuo.cn/tuangou">团购</a>
+						<a target="_blank" title="推荐店铺" href="http://www.shihuo.cn/shop">推荐店铺</a>
+						<a target="_blank" title="亚马逊专区" href="http://www.shihuo.cn/amazon">亚马逊专区</a>
+						<s class="arrow-top"><s class="arrowbd"></s></s>
+					</div>
+				</li>
+                
+                <li><a target="_blank" href="http://www.shihuo.cn/shop">推荐店铺</a></li><li class="line">|</li>
+                <li><a href="http://zb.hupu.com/rank">榜单</a></li><li class="line">|</li>                
+				<li class="hp-dropDownMenu">
+					<a class="hp-set" target="_blank" title="装备论坛" href="http://bbs.hupu.com/all-gear">装备论坛</a>
+					<div class="hp-drapDown">
+						<a target="_blank" title="装备区" href="http://bbs.hupu.com/gear">装备区</a>
+						<a target="_blank" title="交易区" href="http://bbs.hupu.com/c2c">交易区</a>
+                                                <a target="_blank" title="户外装备" href="http://bbs.hupu.com/outdoorgear">户外装备</a>
+						<s class="arrow-top"><s class="arrowbd"></s></s>
+					</div>
+				</li><li class="line">|</li> 
+				<li><a href="http://zb.hupu.com/soccer">足球装备中心</a></li><li class="line">
+				<li class="line">|</li> 
+				<li><a href="http://zb.hupu.com/tennis">网球装备中心</a></li><li class="line">
+            </ul>
+</div>
+                                <i class="hp-roundPoint-br-tl roundPoint-br-tl"></i>
+                                <i class="hp-roundPoint-br-tr roundPoint-br-tr"></i>
+                                <i class="hp-roundPoint-br-bl roundPoint-br-bl"></i>
+                                <i class="hp-roundPoint-br-br roundPoint-br-br"></i>
+                            </div>
+                        </div>
+
+<script>
+  googletag.cmd.push(function() {
+                googletag.defineSlot('\/1016953\/bbs_c2c_middle_883x60', [883, 60], 'bbs_c2c_middle_883x60').addService(googletag.pubads());
+                                googletag.defineSlot('\/1016953\/gear_content_1x1', [1, 1], 'gear_content_1x1').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/hoopchina-bbs-content-right-250x250-2', [250, 250], 'hoopchina-bbs-content-right-250x250-2').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/hupu_bbs_250x250_3_gear', [250, 250], 'hupu_bbs_250x250_3_gear').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/hoopchina-bbs-content-bottom-200x200', [200, 200], 'hoopchina-bbs-content-bottom-200x200').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/bbs_ball_content_1x1', [1, 1], 'bbs_ball_content_1x1').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/word_bbs_content', [300, 20], 'word_bbs_content').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/bbs_nba_content_1x1_ls', [1, 1], 'bbs_nba_content_1x1_ls').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/hoopchina-bbs-right-bottom', [250, 250], 'hoopchina-bbs-right-bottom').addService(googletag.pubads());
+                      googletag.defineSlot('\/1016953\/bbs_content_right_last', [250, 250], 'bbs_content_right_last').addService(googletag.pubads());
+              googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+
+      // var shihuo='<a class="shihuomes"  target="_blank" href="https://goto.hupu.com/?a=goClick&id=14968&from=pc">错过又要等一年！快来领取双十一福利红包吧！</a>';
+      // $(".hp-quickNav").after(shihuo);
+      // $(".shihuomes").css({
+      //   "margin-left":"10px",
+      //   "position":"absolute",
+      //   "color":"#a41f24"
+      // });
+      $("font").css("white-space","initial");
+      var only_m=document.cookie.indexOf("only_m" + "=")
+      if(screen.width<=600){
+        if(only_m>1){
+           if(22531583!=''||22531583!=null){
+             window.location='//m.hupu.com/bbs/22531583.html'
+           }
+         }
+      }
+</script>
+<style>
+.lazy-gif{
+  min-height: 180px;
+}
+#container .left{
+  display:block !important;
+}
+.details #container{
+  background: #fff;
+}
+.hp-copyright a{
+  color:#999 !important;
+}
+</style>
+<script type="text/javascript" src="https://hm.baidu.com/h.js?39fc58a7ab8a311f2f6ca4dc1222a96e" async="async"></script>
+<div class="hp-threeNav">
+<div class="hp-threeNav-bd">
+<ul class="hp-threeNav-item">
+<li>
+<a href="/all-gear">首页</a>
+</li>
+<li>
+<a class="on" href="/gear">运动装备</a>
+</li>
+<li>
+<a href="/jersey">球衣</a>
+</li>
+<li>
+<a href="/in">潮流</a>
+</li>
+<li>
+<a href="/kixDesign">球鞋手稿</a>
+</li>
+<li>
+<a href="/qanda">装备咨询问答</a>
+</li>
+<li>
+<a href="/jianding">鉴定中心</a>
+</li>
+<li>
+<a href="/c2c">交易(新品)</a>
+</li>
+<li>
+<a href="/2">二手交易</a>
+</li>
+<li>
+<a href="/qiugou">求购</a>
+</li>
+<li>
+<a href="/paimai">拍卖</a>
+</li>
+<li>
+<a href="/brandfeedback">品牌建议</a>
+</li>
+<li>
+<a href="">更多</a>
+<div class="hp-drapDown   hp-draplong">
+<a href="/shihuo">虎扑识货</a>
+<a href="/gearfeedback">装备意见受理</a>
+<a href="/all-nba">NBA论坛</a>
+<a href="/all-cba">CBA论坛</a>
+<a href="/all-soccer">国际足球论坛</a>
+<a href="/china-soccer">中国足球</a>
+<a href="/f1">F1赛车场</a>
+<a href="/all-sports">综合体育</a>
+<a href="/all-gambia">步行街</a>
+<a href="/all-lottery">彩票中心</a>
+<a href="/all-webgame">网页游戏</a>
+<a href="/all-group">虎扑社团</a>
+<a href="/all-boards">自建版块</a>
+<a href="/all-feedback">站务管理</a>
+</div>
+</li>
+</ul>
+</div>
+<div class="hp-search">
+<a target="_blank" id="hp-form-search"  href="">
+</a>
+<input type="text" placeholder="搜索视频、帖子" id="showfoucs1" class="it-search it-search-for">
+<input type="button" value="搜索" class="btn-searchs">
+<input type="hidden"  class="btn-search">
+<div id="hp-search-choose" class="hp-search-choose">
+<ul>
+<li id="tiezi">
+<p><span>帖子</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="videos">
+<p><span>视频</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="rizhi">
+<p><span>日志</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="cyuan">
+<p><span>成员</span>搜索：<label class="searchval"></label></p>
+</li>
+<li id="shihuo" >
+<p><span>识货</span>搜索：<label class="searchval"></label></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="showdiv">
+<div class="pop">
+<div class="pop_content">
+<h2 class="mpop"><a onclick="closepop()"></a>
+推荐帖子</h2>
+<ul class="pop_commend">
+<form name="rm_form">
+<li>推荐语：</li>
+<li><textarea name="tjmsg" id="tjmsg" class="j_enter j_enter_this"></textarea></li>
+<li>
+<input name="cid" id="cid" type="hidden" value="49">
+<input name="fid" type="hidden" value="49">
+<input name="Input2" type="button" class="btns2 j_tjmsg" id="j_recs" value="推 荐">&nbsp; &nbsp;<input name="Input2" type="button" class="btnb2" value="取 消" onclick="closepop()">
+</li>
+</form>
+</ul>
+</div>
+</div>
+</div>
+<div id="j_tip" class="tips_up_pop">
+<div id="j_tip_t">
+<div class="tips_pop"></div>
+</div>
+</div>
+<div class="hp-wrap details">
+<div id="container" class="rel">
+<div id="container_nopadd">
+<div id="sub_line">
+<div id="t_main" class="hidden">
+<div class="index_bbs"></div>
+<div itemscope="" itemtype="http://schema.org/WebPage" class="bbs_head" style="margin-top:0">
+<div itemprop="breadcrumb" class="breadCrumbs">
+<a  href="/">社区</a>&nbsp;»&nbsp;<a href="/all-gear">运动和装备</a>
+»&nbsp;<a href="/gear">运动装备</a>
+</div>
+<div class="bbs-hd-h1">
+<h1 id="j_data" data-maxpage="9" data-title="浅谈匹克设计：为什么好像总是没那么好？" tid="22531583" fid="49" fidname="运动装备" data-replies="176" last="1533800065" csrftoken="92e98814d1" pushtohot="0">浅谈匹克设计：为什么好像总是没那么好？</h1>
+<span class="browse">
+<span>176回复</span>
+<span>
+/6亮&nbsp;</span>
+<span class="liulan"></span>
+<span style="position: relative; left: -3px;">浏览</span>
+</span>
+<i id="level2header" title="装备论坛"></i>
+</div>
+<div class="bbstopic_set clearfix" id="bbstopic_set" data-maxpage="9">
+<div class="page toppage" style="float:left!important; margin-left:-5px!important;"></div>
+<a style="display:none" id="light_btn">0</a>
+<div class="right">
+</div>
+</div>
+</div>
+<form name="delatc" action="/masingle.php?action=delatc" method="post">
+<input type="hidden" name="fid" value="49">
+<input type="hidden" name="tid" value="22531583">
+<div id="tpc" class="floor">
+<div class="floor-show">
+<div class="user" style="z-index:39">
+<div class="j_u" uid="16945730" uname="梦归肖恩">
+<a class="headpic" target="_blank" href="https://my.hupu.com/126552237633145">
+<img src="https://i3.hoopchina.com.cn/user/header/20180414/152363658929637_small_3.jpg" width="45" height="45" alt="梦归肖恩"></a>
+</div>
+</div>
+<div class="floor_box">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/126552237633145">梦归肖恩</a>
+<span class="f666">(<a title="梦归肖恩的帖子" target="_blank" href="https://my.hupu.com/126552237633145/topic">21级</a>)</span>
+<span class="post-owner">楼主</span>&nbsp;<span class="stime">2018-06-09 01:46</span></div>
+<div class="right f666">
+<a href="javascript:void(0);" onclick="report(8,0);return false;">举报</a>
+<a href="/22531583_126552237633145.html" rel="nofollow">只看此人</a>
+<a title="收藏本帖到“我的空间”" onclick="addFavor();return false;" rel="nofollow me noopener noreferrer" href="/job.php?action=favor&amp;job=addfavor&amp;tid=22531583">收藏本帖</a>
+<a id="0" class="floornum" href="/22531583.html#tpc">楼主</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div class="subhead">
+<span>浅谈匹克设计：为什么好像总是没那么好？</span>&nbsp;由  &nbsp;梦归肖恩&nbsp;发表在<a class="" target="_blank" href="http://zb.hupu.com">虎扑装备</a>·<a href="/gear">运动装备</a>
+<a  href="/gear">https://bbs.hupu.com/gear</a></div>
+<div class="quote-content">
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">浅谈匹克鞋类设计：为什么好像总是没那么好？<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">以下仅代表个人愚见，仅仅是综合了自己的一些看法和对匹克球鞋的体验做出的浅显的探讨，欢迎理性讨论，不喜勿<a href="http://www.shihuo.cn/sports/detail/412.html#from=gearbbs" target="_brank">喷</a>。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">前言：<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">从初一打球起到现在大一，六七年时间过去穿过的球鞋仅是寥寥，开始的球鞋是一双坑了爹的<span lang="EN-US">nike</span>：<span lang="EN-US">air max destiny tb</span>（如图）<div><img src="https://i1.hoopchina.com.cn/blogfile/201806/09/BbsImg152847952852690_126552237633145_800x800.jpg?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="752"><br><br></div><span lang="EN-US"><span style="text-indent: 21pt;">很像</span><span lang="EN-US" style="text-indent: 21pt;">HD2011</span><span style="text-indent: 21pt;">对吧，除此之外，它满足不了它任何你对篮球鞋的想法。售价</span><span lang="EN-US" style="text-indent: 21pt;">300</span><span style="text-indent: 21pt;">上下，可以说是深坑，心疼当时不富裕的爸爸掏钱给我买了这双鞋子。</span></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">之后我开始接触虎扑，接触装备区，得到了这样一种论调 ：<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">“低端钩子杠子不如国产签名球鞋。”<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">从现在看来或许真是如此，抛开任何品牌倾向，国产球鞋，真的不差。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">在当时，我便了解到了匹克，而<a href="https://nba.hupu.com/players/shanebattier-20.html" target="_brank">巴蒂尔</a>也成为了我至今的偶像。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><b>一<span lang="EN-US">.</span>末世之战系列，或为匹克“<span lang="EN-US">PEAK</span>（巅峰）”之作<span lang="EN-US"><o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">记得那年<span lang="EN-US">12</span>年，匹克是<span lang="EN-US">nba</span>的官方合作伙伴，推出了末世之战系列的四款战靴，分别为巴蒂尔七代，飓风一代，闪电一代和猛兽一代，除开因巴蒂尔退役而结束的球星系列，其他几个系列都延续至今。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">广告图：（图片来自网络，侵删）</p><p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US"><span style="text-indent: 21pt;"><div><img src="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg152847955560015_126552237633145_936x422.png?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="337"><br><img src="https://i1.hoopchina.com.cn/blogfile/201806/09/BbsImg152847955920618_126552237633145_934x482.png?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="385"><br><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i2.hoopchina.com.cn/blogfile/201806/09/BbsImg152847956611161_126552237633145_937x475.png?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="380"><br><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg152847958793479_126552237633145_938x486.png?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="388"><br><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i1.hoopchina.com.cn/blogfile/201806/09/BbsImg152847959332273_126552237633145_937x490.png?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="392"><br><br></div>这个系列是我所认为的，匹克设计的巅峰，出色的款式线路安排，杰出的球鞋设计，还有这个广告，在当时简直赚足了噱头。尤其是巴蒂尔七代，大</span><span lang="EN-US" style="text-indent: 21pt;">X</span><span style="text-indent: 21pt;">绑带，鞋帮类似护踝的设计把当时的我迷得神魂颠倒。哭着喊着让爸爸给我买下了这第一双匹克战靴。</span></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">我对巴蒂尔七的感情很深，它对于当时的我来说简直是一种升上天堂的感动，比起坑了爹的<span lang="EN-US">air max destiny </span>它有着出色的包裹，乳胶鞋垫<span lang="EN-US">+</span>三级缓震带来的舒适缓震，于我而言简直再适合不过。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">除此之外，前锋款飓风在四款鞋子里相对较少人问津，但是也有着不俗的实战体验，而由闪电一代魔改而成的<span lang="EN-US">TP9</span>在当时广受球迷追捧，而猛兽系列则是以极其强悍的大底升任一届球场霸主。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">这个时间点的匹克，似乎有同于专升本一样的前途光明。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><b>二<span lang="EN-US">.</span>设计的掣肘，力求突破却又难挣脱桎梏<span lang="EN-US"><o:p></o:p></span></b></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">在此之后，匹克在篮球鞋方面开始发力，推出了一个当时让我惊叹的挑战者系列（如图，来自网络，侵删）<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US"><span style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg152847965386903_126552237633145_1000x750.jpg?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="562"><br><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg152847965534831_126552237633145_976x790.jpg?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="608"><br><br></div>从这两张照片看上去简直不要太帅，可是当挑战者系列登上网商平台，便有种原形暴露之感。（图片来自网络，侵删）</span></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg15284796776412_126552237633145_440x284.png?x-oss-process=image/resize,w_800/format,webp" data-w="440" data-h="284"><br><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg152847968183999_126552237633145_514x395.png?x-oss-process=image/resize,w_800/format,webp" data-w="514" data-h="395"><br><br></div><br></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">大家有没有看出买家秀卖家秀的些许不同？<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">是的，比起照片，实物实在是臃肿了许多。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">我不知道匹克那边是怎么想的，可是就这么多年来，球鞋看起来臃肿，不凌厉，不具速度感的问题始终存在，李宁，<span lang="EN-US">nike</span>，<span lang="EN-US">adi</span>的鞋子开始追求快速，追求轻便，追求酷炫尖锐的球鞋设计，而匹克还像是那个笨笨胖胖的男孩。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">下面是李宁同时代产品，个人感觉设计感可谓高下立判。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i1.hoopchina.com.cn/blogfile/201806/09/BbsImg152847969796530_126552237633145_496x383.png?x-oss-process=image/resize,w_800/format,webp" data-w="496" data-h="383"><br><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i1.hoopchina.com.cn/blogfile/201806/09/BbsImg152847970131983_126552237633145_496x288.png?x-oss-process=image/resize,w_800/format,webp" data-w="496" data-h="288"><br><br></div><br></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">在此之后，匹克的设计还陷入了另外一个问题：换面不换底。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">闪电一代二代<span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal" align="left" style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i1.hoopchina.com.cn/blogfile/201806/09/BbsImg152847973153123_126552237633145_670x369.png?x-oss-process=image/resize,w_800/format,webp" data-w="670" data-h="369"><br><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i2.hoopchina.com.cn/blogfile/201806/09/BbsImg152847973655611_126552237633145_820x457.png?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="415"><br><br></div><br></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US"><span style="text-indent: 21pt;">飓风一代二代</span></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US"><span style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg15284797562145_126552237633145_612x421.png?x-oss-process=image/resize,w_800/format,webp" data-w="612" data-h="421"><br><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i2.hoopchina.com.cn/blogfile/201806/09/BbsImg152847976043499_126552237633145_647x407.png?x-oss-process=image/resize,w_800/format,webp" data-w="647" data-h="407"><br><br></div>&nbsp; &nbsp; &nbsp; &nbsp;你觉得这样的换面已经很过分了吗？你应该看看匹克猛兽系列（图片来自网络，侵删）<div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg152847978827020_126552237633145_482x523.png?x-oss-process=image/resize,w_800/format,webp" data-w="482" data-h="523"><br><br></div></span></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">当然我不能去断定这样的做法是好是坏，我穿过希尔代言猛兽的“季后赛风林火山“系列的那一款猛兽，它的中底表现其实还是很出色的，优点就是耐磨，非常耐磨，但是同样因此，匹克设计师就能偷偷懒了，改改鞋面又是一款新鞋，而这款中底鞋底较宽带来的前掌包裹松弛，也成了历史遗留问题。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">除开这些，另外的设计上的掣肘就是，<span lang="EN-US">logo</span>位置的摆放问题<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">先说说几款我觉得<span lang="EN-US">logo</span>放的很好的设计<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US"><span style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i1.hoopchina.com.cn/blogfile/201806/09/BbsImg152847980644193_126552237633145_550x382.jpg?x-oss-process=image/resize,w_800/format,webp" data-w="550" data-h="382"><br><br></div>&nbsp; &nbsp; &nbsp; &nbsp;<a href="https://nba.hupu.com/players/tonyparker-700.html" target="_brank">帕克</a>一代（结合于中底，非常巧妙）<div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i2.hoopchina.com.cn/blogfile/201806/09/BbsImg152847983188530_126552237633145_750x482.jpg?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="482"><br><br></div></span></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US"><span style="text-indent: 21pt;">闪电二代（</span><span lang="EN-US" style="text-indent: 21pt;">logo</span><span style="text-indent: 21pt;">斜放，非常难得的侵略感）</span></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US"><span style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg152847984482371_126552237633145_750x597.jpg?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="597"><br><br></div>&nbsp; &nbsp; &nbsp; &nbsp;<a href="https://nba.hupu.com/players/georgehill-3180.html" target="_brank">乔治希尔</a></span><span lang="EN-US" style="text-indent: 21pt;">PE</span><span style="text-indent: 21pt;">大三角（无需多言的经典设计）</span></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">上述三款的共同点就是结合，和球鞋本身的设计结合的非常的好。受限于匹克自身的<span lang="EN-US">logo</span>一个规规矩矩的三角形，实在是很难有很亮眼的表现，而同样有这种问题的<span lang="EN-US">adi</span>，聪明的德国人疯狂魔改成了现在享誉的三条杠，而且花样极多，兼容性极强。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">总而言之，在我看来，匹克的设计显得有些跟不上时代，像是小球时代里的古典大中锋，而匹克的<span lang="EN-US">logo</span>则缺少了<span lang="EN-US">nike</span>和<span lang="EN-US">adi</span>的兼容性，以及李宁的侵略性。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">没错，我最想吐槽的就是最近放出谍照的<span lang="EN-US">DH4</span>，随性的<span lang="EN-US">logo</span>摆放，粗犷的设计，作为匹克唯二的签名球鞋款，我真希望设计师大大能够用心一些。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US"><b style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i2.hoopchina.com.cn/blogfile/201806/09/BbsImg152847986621924_126552237633145_1421x1062.jpg?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="562"><br><br></div>三<span lang="EN-US">.</span>球鞋科技发展滞碍，<span lang="EN-US">P-motive</span>魔弹科技是否会成为匹克革命助推器？</b></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">说说我穿过的匹克球鞋<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><b><span lang="EN-US">1.</span>巴蒂尔<span lang="EN-US">7</span>代</b>，三级缓震，乳胶鞋垫带来的绵软脚感，<span lang="EN-US">pu</span>皮革鞋面，完全不透气但带来了不错的包裹，<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><b><span lang="EN-US">2.</span>飓风二代</b>，三级缓震，罕见的换成了<span lang="EN-US">O</span>记鞋垫（闪电二代上同样做了更换，但是由于表现不佳，在世界杯配色上又换回了乳胶鞋垫）脚感偏硬，热熔塑料斜面，不及<span lang="EN-US">nike adi</span>的塑料鞋面轻薄透气贴脚，时间长了松松垮垮，包裹丧失严重。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><b><span lang="EN-US">3.</span>闪电三代</b>，我想把这个鞋子定性为辣鸡球鞋，三级缓震，乳胶鞋垫，热熔塑料鞋面老三样，关键是这鞋子底盘太重了，一支<span lang="EN-US">42</span>码球鞋重达一斤还美其名曰后卫专用，让人既不想突破，也不想投射，穿这鞋子实在太累<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><b><span lang="EN-US">4.</span>乔治希尔<span lang="EN-US">PE</span>猛兽“火”系列</b>，三级缓震
+<span lang="EN-US">O</span>记鞋垫，中规中矩，没什么好说的。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">大家都发现了，匹克的缓震科技在很长的一段时间里都没有进步，三级缓震撑起所有，而缓震感的根本来源是厚实密度低的乳胶鞋垫，这种缓震感属于软而不弹，一脚陷下去却不想突破不想投球。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">在闪电三和猛兽之间，我还上脚了李宁云三的魅影（如图，侵删）<span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal" align="left" style="text-indent: 21pt;"><div><img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i3.hoopchina.com.cn/blogfile/201806/09/BbsImg152847993491711_126552237633145_910x606.jpg?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="496"><br><br></div><br></p>
+
+<p class="MsoNormal" align="left">&nbsp; &nbsp; &nbsp; &nbsp;我当时穿完真的感叹<span lang="EN-US">that</span>‘<span lang="EN-US">s the sneaker</span>，这才是实战球鞋，云三蜜月期时真正能够感觉到的弹的感觉。和三级缓震的软完全不同，另外这鞋子的鞋面表现得也很好，包裹足够，也有一定的透气，在我看来是李宁近些年来除英豪枭雄玄机那些老一辈之外，最好的实战球鞋。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">我想说的是，匹克的科技实在是少的可怜，甚至有些科技都是用来凑数的：据我所知，早些年的科技就是三样：<span lang="EN-US">foothold</span>（其实就是<span lang="EN-US">tpu</span>）<span lang="EN-US">coolfree</span>（其实就是塑料鞋面）以及三级缓震。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">随着帕克一发布的还有全新的缓震科技：“梯度缓震科技”，这个科技在我看来也是噱头大于使用，因为帕克系列依旧采用的是乳胶鞋垫，丧失了对梯度缓震科技的直观感受。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">最近<a href="https://nba.hupu.com/players/dwighthoward-683.html" target="_brank">霍华德</a>三代饱受好评，除了综合时尚和休闲的鞋面，更重要的是全新缓震科技的应用——<span lang="EN-US">p motive </span>魔弹科技，据说能感觉到非常弹的脚感。若能解决中底过重的问题，或许魔弹科技会是匹克的革命助推器。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">四<span lang="EN-US">.</span>落笔总结<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">闲来无事做了这么一篇帖子，真是感慨时间飞逝，六七年便过去了，李宁在国产篮球鞋独树一帜，安踏凭借<span lang="EN-US">adi</span>挖角的设计师和北京爷们瞬间崛起，而匹克却在默默无闻之中逐渐失去了竞争实力，仅仅靠着表面标<span lang="EN-US">599</span>实际只需<span lang="EN-US">199</span>的性价比苟且。我作为曾经的匹克粉心中有些失落，但我也希望匹克能够有所进步，在我看来，匹克需要做到这些。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;"><span lang="EN-US">1.</span>更出色更主流的外观设计<span lang="EN-US">2.</span>对于<span lang="EN-US">logo</span>的应用要更加得体<span lang="EN-US">3.</span>暴力攀科技树，抛开消费者对匹克球鞋的老观念<span lang="EN-US">4.</span>寻觅更好的代言人重新打响名号。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">码字至此已经<span lang="EN-US">1</span>：<span lang="EN-US">35</span>。心血如上，就此停笔，欢迎大家讨论，也可不吝惜时间帮我点赞一楼。<span lang="EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal" align="left" style="text-indent: 21pt;">祝国产球鞋越来越好！</p>
+
+
+
+
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+<table border="0" cellspacing="0" cellpadding="0" class="cm">
+<tbody>
+<tr>
+<td>
+<div class="bbs-sponsor-gold">
+<span class="pay-btn">
+<span style="position:relative;" class="zanzhu clearfix"></span>
+<a href="javascript:" token="52fb8814241010248efb08e7f9cc9b3b" ttime="1540272854.8765" data-isauthor="0" fid="49" author="梦归肖恩" tid="22531583" pid="0" id="gold_pay" class="btn">我要赞赏</a>
+</span>
+<div id="showmjrs">
+</div>
+</div>
+<div class="right" style="width:505px;">
+<div class="commend01" style="float:right;">
+<span id="rm_list_div">
+<span id="Recers"><a href="#" onclick="getRecers(tid,1); return false;" class="blue">333人</a>推荐</span>
+</span>
+<a class="commend" href="javascript:show_rm_div()">我要推荐</a>
+<span id="shareTo" class="rel">
+<div class="c_share">
+<span class="n">转发到：</span>
+<a title="分享到微信" class="ico_share weixin J_show_layer" href="javascript:void(0);" dace_clk="clk_bbs_butwx"></a>
+<a title="分享到新浪微博" class="ico_share tsina" href="javascript:readShare('weibo','tpc');" dace_clk="clk_bbs_butxlwb"></a>
+<a title="分享到QQ空间" class="ico_share qzone" href="javascript:readShare('qzone','tpc');" dace_clk="clk_bbs_butqqkj"></a>
+</span>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="sign">
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+
+<div class="w_reply clearfix">
+<h5 id="highlights"><span>这些回帖亮了</span></h5>
+<div id="readfloor">
+<div class="floor" id="21309" style="z-index:79">
+<div class="user">
+<div uname="梦归肖恩" uid="126552237633145" class="j_u">
+<a href="https://my.hupu.com/126552237633145" target="_blank" class="headpic"><img src="https://i3.hoopchina.com.cn/user/header/20180414/152363658929637_small_3.jpg" width="45" height="45" alt="梦归肖恩"></a>
+</div>
+</div>
+<div class="floor_box">
+<div class="author">
+<div class="left">
+<a class="u" href="https://my.hupu.com/126552237633145" target="_blank">梦归肖恩</a>
+<span class="post-owner">楼主</span>
+<span class="stime">2018-06-09 01:48</span>&nbsp;
+<span class="f666 21309 button-light-inner " pid="21309" uid="126552237633145" style="position:relative">
+</span>
+<span class="f444 21309" pid="21309" uid="126552237633145" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">609</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="badb40dd04413a431f725b1fcea66fcd" ttime="1540272854.8988" data-isauthor="0"  fid="49" author="梦归肖恩" tid="22531583" pid="21309">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21309);return false;">举报</a>
+<a href="/22531583_126552237633145.html" rel="nofollow">只看此人</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i2.hoopchina.com.cn/blogfile/201806/09/BbsImg15284800751889_126552237633145_2000x1181.png?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="448"><br>福利上我拓地板图，点赞这一楼谢谢了您内！<br/>
+
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="floor" id="21881" style="z-index:79">
+<div class="user">
+<div uname="小白的狐狸" uid="43359801639084" class="j_u">
+<a href="https://my.hupu.com/43359801639084" target="_blank" class="headpic"><img src="https://i1.hoopchina.com.cn/user/405/20523405/20523405-1504585960.jpeg@45h_45w_2e" width="45" height="45" alt="小白的狐狸"></a>
+</div>
+</div>
+<div class="floor_box">
+<div class="author">
+<div class="left">
+<a class="u" href="https://my.hupu.com/43359801639084" target="_blank">小白的狐狸</a>
+<span class="stime">2018-06-09 01:59</span>&nbsp;
+<span class="f666 21881 button-light-inner " pid="21881" uid="43359801639084" style="position:relative">
+</span>
+<span class="f444 21881" pid="21881" uid="43359801639084" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">212</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="e5af53effdadd4482e9d424389611586" ttime="1540272854.8988" data-isauthor="0"  fid="49" author="小白的狐狸" tid="22531583" pid="21881">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21881);return false;">举报</a>
+<a href="/22531583_43359801639084.html" rel="nofollow">只看此人</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+这贴子才是装备区该有的样子
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="floor" id="21417" style="z-index:79">
+<div class="user">
+<div uname="大球哥222" uid="105669983543262" class="j_u">
+<a href="https://my.hupu.com/105669983543262" target="_blank" class="headpic"><img src="https://i1.hoopchina.com.cn/user/262/105669983543262/105669983543262-1539438243.jpeg" width="45" height="45" alt="大球哥222"></a>
+</div>
+</div>
+<div class="floor_box">
+<div class="author">
+<div class="left">
+<a class="u" href="https://my.hupu.com/105669983543262" target="_blank">大球哥222</a>
+<span class="stime">2018-06-09 01:50</span>&nbsp;
+<span class="f666 21417 button-light-inner " pid="21417" uid="105669983543262" style="position:relative">
+</span>
+<span class="f444 21417" pid="21417" uid="105669983543262" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">146</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="c7e1b0b660f6f0b27ec1721d49d7c738" ttime="1540272854.8988" data-isauthor="0"  fid="49" author="大球哥222" tid="22531583" pid="21417">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21417);return false;">举报</a>
+<a href="/22531583_105669983543262.html" rel="nofollow">只看此人</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+就冲楼主打了这么多字，反手就是一个👍
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="floor" id="30660" style="z-index:79">
+<div class="user">
+<div uname="US85" uid="50612319561477" class="j_u">
+<a href="https://my.hupu.com/50612319561477" target="_blank" class="headpic"><img src="https://i1.hoopchina.com.cn/user/038/17602038/17602038_small_4.jpg" width="45" height="45" alt="US85"></a>
+</div>
+</div>
+<div class="floor_box">
+<div class="author">
+<div class="left">
+<a class="u" href="https://my.hupu.com/50612319561477" target="_blank">US85</a>
+<span class="stime">2018-06-09 07:10</span>&nbsp;
+<span class="f666 30660 button-light-inner " pid="30660" uid="50612319561477" style="position:relative">
+</span>
+<span class="f444 30660" pid="30660" uid="50612319561477" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">110</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="de903a60b05aa84942aa754db4aca196" ttime="1540272854.8988" data-isauthor="0"  fid="49" author="US85" tid="22531583" pid="30660">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,30660);return false;">举报</a>
+<a href="/22531583_50612319561477.html" rel="nofollow">只看此人</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p>这是我在虎扑第一个推荐的帖子！早几年我也是匹克的粉，我甚至认为匹克是国内最好的篮球鞋品牌，然而可怕的是这么多年匹克一直原地踏步，甚至出现了倒退的迹象，随着李宁安踏越来越好，匹克的关注度真是降到了冰点。我觉得，什么时候匹克摒弃了那个鸡肋的乳胶鞋垫，真正靠中底来承担缓震了，什么时候也也就崛起了。</p>
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia10" target="_blank">发自虎扑iPhone客户端</a></small>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="floor" id="21856" style="z-index:79">
+<div class="user">
+<div uname="枫飞尘舞" uid="70580975915058" class="j_u">
+<a href="https://my.hupu.com/70580975915058" target="_blank" class="headpic"><img src="https://i3.hoopchina.com.cn/user/56/18219056/18219056-1495129353.jpeg@45h_45w_2e" width="45" height="45" alt="枫飞尘舞"></a>
+</div>
+</div>
+<div class="floor_box">
+<div class="author">
+<div class="left">
+<a class="u" href="https://my.hupu.com/70580975915058" target="_blank">枫飞尘舞</a>
+<span class="stime">2018-06-09 01:58</span>&nbsp;
+<span class="f666 21856 button-light-inner " pid="21856" uid="70580975915058" style="position:relative">
+</span>
+<span class="f444 21856" pid="21856" uid="70580975915058" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">66</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="00081a04fb46e340e14933162226a9d9" ttime="1540272854.8988" data-isauthor="0"  fid="49" author="枫飞尘舞" tid="22531583" pid="21856">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21856);return false;">举报</a>
+<a href="/22531583_70580975915058.html" rel="nofollow">只看此人</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+看到匹克的标就觉得丑到失去购买欲望。。
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="floor" id="22211" style="z-index:79">
+<div class="user">
+<div uname="梦归肖恩" uid="126552237633145" class="j_u">
+<a href="https://my.hupu.com/126552237633145" target="_blank" class="headpic"><img src="https://i3.hoopchina.com.cn/user/header/20180414/152363658929637_small_3.jpg" width="45" height="45" alt="梦归肖恩"></a>
+</div>
+</div>
+<div class="floor_box">
+<div class="author">
+<div class="left">
+<a class="u" href="https://my.hupu.com/126552237633145" target="_blank">梦归肖恩</a>
+<span class="post-owner">楼主</span>
+<span class="stime">2018-06-09 02:06</span>&nbsp;
+<span class="f666 22211 button-light-inner " pid="22211" uid="126552237633145" style="position:relative">
+</span>
+<span class="f444 22211" pid="22211" uid="126552237633145" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">11</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="549461ea45862c04f1b16f08ceabfbf2" ttime="1540272854.8988" data-isauthor="0"  fid="49" author="梦归肖恩" tid="22531583" pid="22211">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,22211);return false;">举报</a>
+<a href="/22531583_126552237633145.html" rel="nofollow">只看此人</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<blockquote><p><b>引用 @<a class="u" target="_blank" href="https://my.hupu.com/43359801639084" >小白的狐狸</a> 发表的</b>:<br>这贴子才是装备区该有的样子</p></blockquote><br>我由衷的希望匹克能变得更好 也希望装备区越来越好hhh
+<br /><small class="f999">发自手机虎扑 m.hupu.com</small>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<span class="right mp"><a class="blue" target="_blank" href="/gear/highlights">运动装备更多亮了的回帖»</a></span>
+</div>
+<div id="bbs_c2c_middle_883x60" style="width:883px; height:60px;">
+<script>
+                      googletag.cmd.push(function() { googletag.display('bbs_c2c_middle_883x60'); });
+                </script>
+</div>
+<div id="21309" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="126552237633145" uname="梦归肖恩">
+<a class="headpic" target="_blank" href="https://my.hupu.com/126552237633145"><img src="https://i3.hoopchina.com.cn/user/header/20180414/152363658929637_small_3.jpg" width="45" height="45" alt="梦归肖恩"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/126552237633145">梦归肖恩</a><span class="f666">&nbsp;(<a title="梦归肖恩的帖子" target="_blank" href="https://my.hupu.com/126552237633145/topic">21级</a>)</span>&nbsp;<span class="stime">2018-06-09 01:48</span>&nbsp;<span class="post-owner">楼主</span>
+<span class="f666 21309 button-light-inner " pid="21309" uid="126552237633145" style="position:relative">
+</span>
+<span class="f444 21309" pid="21309" uid="126552237633145" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">609</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="6193caedd0876c7004a2942d3b718ef6" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="梦归肖恩" tid="22531583" pid="21309">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21309);return false;">举报</a>
+<a href="/22531583_126552237633145.html" rel="nofollow">只看此人</a>
+<a id="1" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#21309">1楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<img src="https://b1.hoopchina.com.cn/web/sns/bbs/images/placeholder.png" data-original="https://i2.hoopchina.com.cn/blogfile/201806/09/BbsImg15284800751889_126552237633145_2000x1181.png?x-oss-process=image/resize,w_800/format,webp" data-w="750" data-h="448"><br>福利上我拓地板图，点赞这一楼谢谢了您内！<br/>
+
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="21417" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="105669983543262" uname="大球哥222">
+<a class="headpic" target="_blank" href="https://my.hupu.com/105669983543262"><img src="https://i1.hoopchina.com.cn/user/262/105669983543262/105669983543262-1539438243.jpeg" width="45" height="45" alt="大球哥222"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/105669983543262">大球哥222</a><span class="f666">&nbsp;(<a title="大球哥222的帖子" target="_blank" href="https://my.hupu.com/105669983543262/topic">16级</a>)</span>&nbsp;<span class="stime">2018-06-09 01:50</span>&nbsp;<span class="f666 21417 button-light-inner " pid="21417" uid="105669983543262" style="position:relative">
+</span>
+<span class="f444 21417" pid="21417" uid="105669983543262" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">146</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="341113a7aa41e6954c24be7aa1e747c9" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="大球哥222" tid="22531583" pid="21417">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21417);return false;">举报</a>
+<a href="/22531583_105669983543262.html" rel="nofollow">只看此人</a>
+<a id="2" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#21417">2楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+就冲楼主打了这么多字，反手就是一个👍
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="21777" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="126552237633145" uname="梦归肖恩">
+<a class="headpic" target="_blank" href="https://my.hupu.com/126552237633145"><img src="https://i3.hoopchina.com.cn/user/header/20180414/152363658929637_small_3.jpg" width="45" height="45" alt="梦归肖恩"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/126552237633145">梦归肖恩</a><span class="f666">&nbsp;(<a title="梦归肖恩的帖子" target="_blank" href="https://my.hupu.com/126552237633145/topic">21级</a>)</span>&nbsp;<span class="stime">2018-06-09 01:56</span>&nbsp;<span class="post-owner">楼主</span>
+<span class="f666 21777 button-light-inner " pid="21777" uid="126552237633145" style="position:relative">
+</span>
+<span class="f444 21777" pid="21777" uid="126552237633145" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">5</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="ecaad19d3471c731efc5529ee112a446" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="梦归肖恩" tid="22531583" pid="21777">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21777);return false;">举报</a>
+<a href="/22531583_126552237633145.html" rel="nofollow">只看此人</a>
+<a id="3" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#21777">3楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<blockquote><p><b>引用 @<a class="u" target="_blank" href="https://my.hupu.com/105669983543262" >大球哥222</a> 发表的</b>:<br>就冲楼主打了这么多字，反手就是一个👍</p></blockquote><br>谢谢你～晚安JRS 早些睡吧
+<br /><small class="f999">发自手机虎扑 m.hupu.com</small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="21856" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="70580975915058" uname="枫飞尘舞">
+<a class="headpic" target="_blank" href="https://my.hupu.com/70580975915058"><img src="https://i3.hoopchina.com.cn/user/56/18219056/18219056-1495129353.jpeg@45h_45w_2e" width="45" height="45" alt="枫飞尘舞"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/70580975915058">枫飞尘舞</a><span class="f666">&nbsp;(<a title="枫飞尘舞的帖子" target="_blank" href="https://my.hupu.com/70580975915058/topic">31级</a>)</span>&nbsp;<span class="stime">2018-06-09 01:58</span>&nbsp;<span class="f666 21856 button-light-inner " pid="21856" uid="70580975915058" style="position:relative">
+</span>
+<span class="f444 21856" pid="21856" uid="70580975915058" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">66</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="205056e774acfe0d09d6b548f04aaeef" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="枫飞尘舞" tid="22531583" pid="21856">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21856);return false;">举报</a>
+<a href="/22531583_70580975915058.html" rel="nofollow">只看此人</a>
+<a id="4" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#21856">4楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+看到匹克的标就觉得丑到失去购买欲望。。
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="21881" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="43359801639084" uname="小白的狐狸">
+<a class="headpic" target="_blank" href="https://my.hupu.com/43359801639084"><img src="https://i1.hoopchina.com.cn/user/405/20523405/20523405-1504585960.jpeg@45h_45w_2e" width="45" height="45" alt="小白的狐狸"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/43359801639084">小白的狐狸</a><span class="f666">&nbsp;(<a title="小白的狐狸的帖子" target="_blank" href="https://my.hupu.com/43359801639084/topic">12级</a>)</span>&nbsp;<span class="stime">2018-06-09 01:59</span>&nbsp;<span class="f666 21881 button-light-inner " pid="21881" uid="43359801639084" style="position:relative">
+</span>
+<span class="f444 21881" pid="21881" uid="43359801639084" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">212</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="d5e53f53ad50e525efd4742b7e4871ef" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="小白的狐狸" tid="22531583" pid="21881">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,21881);return false;">举报</a>
+<a href="/22531583_43359801639084.html" rel="nofollow">只看此人</a>
+<a id="5" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#21881">5楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+这贴子才是装备区该有的样子
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="22211" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="126552237633145" uname="梦归肖恩">
+<a class="headpic" target="_blank" href="https://my.hupu.com/126552237633145"><img src="https://i3.hoopchina.com.cn/user/header/20180414/152363658929637_small_3.jpg" width="45" height="45" alt="梦归肖恩"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/126552237633145">梦归肖恩</a><span class="f666">&nbsp;(<a title="梦归肖恩的帖子" target="_blank" href="https://my.hupu.com/126552237633145/topic">21级</a>)</span>&nbsp;<span class="stime">2018-06-09 02:06</span>&nbsp;<span class="post-owner">楼主</span>
+<span class="f666 22211 button-light-inner " pid="22211" uid="126552237633145" style="position:relative">
+</span>
+<span class="f444 22211" pid="22211" uid="126552237633145" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">11</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="002943ed0a2dc6639ff2819bd7aafda3" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="梦归肖恩" tid="22531583" pid="22211">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,22211);return false;">举报</a>
+<a href="/22531583_126552237633145.html" rel="nofollow">只看此人</a>
+<a id="6" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#22211">6楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<blockquote><p><b>引用 @<a class="u" target="_blank" href="https://my.hupu.com/43359801639084" >小白的狐狸</a> 发表的</b>:<br>这贴子才是装备区该有的样子</p></blockquote><br>我由衷的希望匹克能变得更好 也希望装备区越来越好hhh
+<br /><small class="f999">发自手机虎扑 m.hupu.com</small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="22311" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="70715299166184" uname="rlhitian">
+<a class="headpic" target="_blank" href="https://my.hupu.com/70715299166184"><img src="https://i2.hoopchina.com.cn/user/577/16308577/16308577_small_7.jpg" width="45" height="45" alt="rlhitian"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/70715299166184">rlhitian</a><span class="f666">&nbsp;(<a title="rlhitian的帖子" target="_blank" href="https://my.hupu.com/70715299166184/topic">34级</a>)</span>&nbsp;<span class="stime">2018-06-09 02:09</span>&nbsp;<span class="f666 22311 button-light-inner " pid="22311" uid="70715299166184" style="position:relative">
+</span>
+<span class="f444 22311" pid="22311" uid="70715299166184" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">0</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="d773b808f80cf46d73d8754cefa8dcd8" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="rlhitian" tid="22531583" pid="22311">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,22311);return false;">举报</a>
+<a href="/22531583_70715299166184.html" rel="nofollow">只看此人</a>
+<a id="7" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#22311">7楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p>晚安了您内，明儿起来再看</p>
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia10" target="_blank">发自虎扑iPhone客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="22400" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="71989485380859" uname="火云鞋馆">
+<a class="headpic" target="_blank" href="https://my.hupu.com/71989485380859"><img src="https://i2.hoopchina.com.cn/user/123/3916123/3916123_small_10.jpg" width="45" height="45" alt="火云鞋馆"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/71989485380859">火云鞋馆</a><span class="f666">&nbsp;(<a title="火云鞋馆的帖子" target="_blank" href="https://my.hupu.com/71989485380859/topic">27级</a>)</span>&nbsp;<span class="stime">2018-06-09 02:10</span>&nbsp;<span class="f666 22400 button-light-inner " pid="22400" uid="71989485380859" style="position:relative">
+</span>
+<span class="f444 22400" pid="22400" uid="71989485380859" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">0</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="ac7bc28cc77eb8ddf2e77093848003fa" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="火云鞋馆" tid="22531583" pid="22400">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,22400);return false;">举报</a>
+<a href="/22531583_71989485380859.html" rel="nofollow">只看此人</a>
+<a id="8" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#22400">8楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+寻常看不见，偶尔露峥嵘
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="23314" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="181829260758935" uname="就tm喜欢霍华德">
+<a class="headpic" target="_blank" href="https://my.hupu.com/181829260758935"><img src="https://i1.hoopchina.com.cn/user/default_small.jpg" width="45" height="45" alt="就tm喜欢霍华德"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/181829260758935">就tm喜欢霍华德</a><span class="f666">&nbsp;(<a title="就tm喜欢霍华德的帖子" target="_blank" href="https://my.hupu.com/181829260758935/topic">3级</a>)</span>&nbsp;<span class="stime">2018-06-09 02:32</span>&nbsp;<span class="f666 23314 button-light-inner " pid="23314" uid="181829260758935" style="position:relative">
+</span>
+<span class="f444 23314" pid="23314" uid="181829260758935" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">4</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="c58a852c80c8441051ac9b2298adcd1a" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="就tm喜欢霍华德" tid="22531583" pid="23314">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,23314);return false;">举报</a>
+<a href="/22531583_181829260758935.html" rel="nofollow">只看此人</a>
+<a id="9" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#23314">9楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p>身为一个霍华德的粉丝真的觉得可以不要那么臃肿吗 而且霍4把logo去掉真的好看很多</p>
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia10" target="_blank">发自虎扑iPhone客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="23698" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="45421203377680" uname="RaoEva">
+<a class="headpic" target="_blank" href="https://my.hupu.com/45421203377680"><img src="https://i1.hoopchina.com.cn/user/header/20171008/150745130494774_small_1.jpg" width="45" height="45" alt="RaoEva"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/45421203377680">RaoEva</a><span class="f666">&nbsp;(<a title="RaoEva的帖子" target="_blank" href="https://my.hupu.com/45421203377680/topic">6级</a>)</span>&nbsp;<span class="stime">2018-06-09 02:44</span>&nbsp;<span class="f666 23698 button-light-inner " pid="23698" uid="45421203377680" style="position:relative">
+</span>
+<span class="f444 23698" pid="23698" uid="45421203377680" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">0</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="f58064f09890e18f171edd54e3c9344a" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="RaoEva" tid="22531583" pid="23698">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,23698);return false;">举报</a>
+<a href="/22531583_45421203377680.html" rel="nofollow">只看此人</a>
+<a id="10" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#23698">10楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p>匹克最早我穿是战神九，后面因为设计。你懂的</p>
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia10" target="_blank">发自虎扑iPhone客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="23959" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="25376488281119" uname="不存在的">
+<a class="headpic" target="_blank" href="https://my.hupu.com/25376488281119"><img src="https://i1.hoopchina.com.cn/user/978/15429978/15429978_small_6.jpg" width="45" height="45" alt="不存在的"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/25376488281119">不存在的</a><span class="f666">&nbsp;(<a title="不存在的的帖子" target="_blank" href="https://my.hupu.com/25376488281119/topic">12级</a>)</span>&nbsp;<span class="stime">2018-06-09 02:53</span>&nbsp;<span class="f666 23959 button-light-inner " pid="23959" uid="25376488281119" style="position:relative">
+</span>
+<span class="f444 23959" pid="23959" uid="25376488281119" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">2</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="ff744e5748bc6f2ec59ec395c1008a98" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="不存在的" tid="22531583" pid="23959">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,23959);return false;">举报</a>
+<a href="/22531583_25376488281119.html" rel="nofollow">只看此人</a>
+<a id="11" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#23959">11楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+帕克四代买了一双，我穿其他牌子的鞋都是40码，匹克的需要41码。确实臃肿，而且很重。<br/>匹克的鞋有些出色的耐磨性，启动速度很舒服，还有就是因为一直以来没有采用轻量化的鞋面，所以鞋面的贴合很跟脚。缺点也同样明显，设计出来不好看，很肥大，重量很重，缓震全靠鞋垫。
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="24387" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="161278013633925" uname="槑槑槑123">
+<a class="headpic" target="_blank" href="https://my.hupu.com/161278013633925"><img src="https://i1.hoopchina.com.cn/user/925/161278013633925/161278013633925-1526752255.jpeg@45h_45w_2e" width="45" height="45" alt="槑槑槑123"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/161278013633925">槑槑槑123</a><span class="f666">&nbsp;(<a title="槑槑槑123的帖子" target="_blank" href="https://my.hupu.com/161278013633925/topic">3级</a>)</span>&nbsp;<span class="stime">2018-06-09 03:10</span>&nbsp;<span class="f666 24387 button-light-inner " pid="24387" uid="161278013633925" style="position:relative">
+</span>
+<span class="f444 24387" pid="24387" uid="161278013633925" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">1</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="66403a119380863f4718cb507896bbb5" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="槑槑槑123" tid="22531583" pid="24387">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,24387);return false;">举报</a>
+<a href="/22531583_161278013633925.html" rel="nofollow">只看此人</a>
+<a id="12" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#24387">12楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+闪电我真的是无力吐槽了，当时想买战士9不过价格有点贵要八九百，就想先买双国产吧。然后挂了三百多快四百买了闪电2，结果打了四五次球前掌硬如板砖，空如大海……也可能是我太重吧，高中开始打球，到现在也穿了不少国产鞋了，用的来说国产给我的感觉就是衰减太快，没多久鞋底就感觉踩塌了。所以条件许可还是选ZOOM吧
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="24711" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="144412325643794" uname="轩尘H">
+<a class="headpic" target="_blank" href="https://my.hupu.com/144412325643794"><img src="https://i1.hoopchina.com.cn/user/794/144412325643794/144412325643794-1516807461.jpeg" width="45" height="45" alt="轩尘H"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/144412325643794">轩尘H</a><span class="f666">&nbsp;(<a title="轩尘H的帖子" target="_blank" href="https://my.hupu.com/144412325643794/topic">8级</a>)</span>&nbsp;<span class="stime">2018-06-09 03:24</span>&nbsp;<span class="f666 24711 button-light-inner " pid="24711" uid="144412325643794" style="position:relative">
+</span>
+<span class="f444 24711" pid="24711" uid="144412325643794" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">0</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="27a6772fb7421803955ea14969bf349d" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="轩尘H" tid="22531583" pid="24711">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,24711);return false;">举报</a>
+<a href="/22531583_144412325643794.html" rel="nofollow">只看此人</a>
+<a id="13" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#24711">13楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+粉色挑战者2有一双 包裹没的说 缓震中规中矩 可是重的一批  打一个多小时 都不想走路了
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="26376" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="132507980803729" uname="我爱8娜娜">
+<a class="headpic" target="_blank" href="https://my.hupu.com/132507980803729"><img src="https://i1.hoopchina.com.cn/user/765/3849765/3849765_small_50.jpg" width="45" height="45" alt="我爱8娜娜"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/132507980803729">我爱8娜娜</a><span class="f666">&nbsp;(<a title="我爱8娜娜的帖子" target="_blank" href="https://my.hupu.com/132507980803729/topic">27级</a>)</span>&nbsp;<span class="stime">2018-06-09 05:14</span>&nbsp;<span class="f666 26376 button-light-inner " pid="26376" uid="132507980803729" style="position:relative">
+</span>
+<span class="f444 26376" pid="26376" uid="132507980803729" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">0</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="82173ff4c2987fd74c9a9a3363b76db1" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="我爱8娜娜" tid="22531583" pid="26376">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,26376);return false;">举报</a>
+<a href="/22531583_132507980803729.html" rel="nofollow">只看此人</a>
+<a id="14" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#26376">14楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+说难听点匹克的设计语言很陈旧过时，完全比不上李宁安踏同时期出的鞋子
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="26855" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="279221306088914" uname="萌萌的洋葱头">
+<a class="headpic" target="_blank" href="https://my.hupu.com/279221306088914"><img src="https://i3.hoopchina.com.cn/user/761/19650761/19650761-1465170268.jpeg@45h_45w_2e" width="45" height="45" alt="萌萌的洋葱头"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/279221306088914">萌萌的洋葱头</a><span class="f666">&nbsp;(<a title="萌萌的洋葱头的帖子" target="_blank" href="https://my.hupu.com/279221306088914/topic">15级</a>)</span>&nbsp;<span class="stime">2018-06-09 05:51</span>&nbsp;<span class="f666 26855 button-light-inner " pid="26855" uid="279221306088914" style="position:relative">
+</span>
+<span class="f444 26855" pid="26855" uid="279221306088914" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">1</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="12dfa7a5ff48435df53673bfbd9e4976" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="萌萌的洋葱头" tid="22531583" pid="26855">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,26855);return false;">举报</a>
+<a href="/22531583_279221306088914.html" rel="nofollow">只看此人</a>
+<a id="15" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#26855">15楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+匹克最早穿的是天行者，第一次让我感受到了硅胶鞋垫，后来陆续买了帕克二三四代感觉鞋子越来越好看性能也越来越棒
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="27491" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="104544583552332" uname="安英俊">
+<a class="headpic" target="_blank" href="https://my.hupu.com/104544583552332"><img src="https://i3.hoopchina.com.cn/user/063/17384063/17384063_small_2.jpg" width="45" height="45" alt="安英俊"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/104544583552332">安英俊</a><span class="f666">&nbsp;(<a title="安英俊的帖子" target="_blank" href="https://my.hupu.com/104544583552332/topic">25级</a>)</span>&nbsp;<span class="stime">2018-06-09 06:15</span>&nbsp;<span class="f666 27491 button-light-inner " pid="27491" uid="104544583552332" style="position:relative">
+</span>
+<span class="f444 27491" pid="27491" uid="104544583552332" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">1</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="fc0baa51fc0ea013620179edbcdeb14e" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="安英俊" tid="22531583" pid="27491">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,27491);return false;">举报</a>
+<a href="/22531583_104544583552332.html" rel="nofollow">只看此人</a>
+<a id="16" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#27491">16楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+最早穿过刘玉栋的战神一代，质感非常好，纯皮鞋面，但是脚感太差，就是靠鞋垫。以后改穿and1了，再没染指。
+
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="27780" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="24047999225365" uname="渣渣苏">
+<a class="headpic" target="_blank" href="https://my.hupu.com/24047999225365"><img src="https://i1.hoopchina.com.cn/user/365/24047999225365/24047999225365-1531123250.jpg@45h_45w_2e" width="45" height="45" alt="渣渣苏"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/24047999225365">渣渣苏</a><span class="f666">&nbsp;(<a title="渣渣苏的帖子" target="_blank" href="https://my.hupu.com/24047999225365/topic">5级</a>)</span>&nbsp;<span class="stime">2018-06-09 06:24</span>&nbsp;<span class="f666 27780 button-light-inner " pid="27780" uid="24047999225365" style="position:relative">
+</span>
+<span class="f444 27780" pid="27780" uid="24047999225365" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">1</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="cd8656b39e99cd039d6d3f0b7279ec47" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="渣渣苏" tid="22531583" pid="27780">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,27780);return false;">举报</a>
+<a href="/22531583_24047999225365.html" rel="nofollow">只看此人</a>
+<a id="17" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#27780">17楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+曾经看过路人穿过匹克的一双鞋子，设计很漂亮，当是去官网去没看到，可惜
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="29070" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="23415936506289" uname="skhang">
+<a class="headpic" target="_blank" href="https://my.hupu.com/23415936506289"><img src="https://i1.hoopchina.com.cn/user/837/27996837/27996837-1466379069.jpg@45h_45w_2e" width="45" height="45" alt="skhang"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/23415936506289">skhang</a><span class="f666">&nbsp;(<a title="skhang的帖子" target="_blank" href="https://my.hupu.com/23415936506289/topic">44级</a>)</span>&nbsp;<span class="stime">2018-06-09 06:55</span>&nbsp;<span class="f666 29070 button-light-inner " pid="29070" uid="23415936506289" style="position:relative">
+</span>
+<span class="f444 29070" pid="29070" uid="23415936506289" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">0</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="643b469bc561c188eeb131ac040479d9" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="skhang" tid="22531583" pid="29070">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,29070);return false;">举报</a>
+<a href="/22531583_23415936506289.html" rel="nofollow">只看此人</a>
+<a id="18" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#29070">18楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+匹克的设计风格跟它的科技一样没怎么变过
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia10" target="_blank">发自虎扑iPhone客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="29427" class="floor">
+<div class="floor-show  ">
+<div class="user" >
+<div class="j_u" uid="36382487184817" uname="Music.Super.Pad">
+<a class="headpic" target="_blank" href="https://my.hupu.com/36382487184817"><img src="https://i2.hoopchina.com.cn/user/788/17579788/17579788-1486092199.jpeg@45h_45w_2e" width="45" height="45" alt="Music.Super.Pad"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/36382487184817">Music.Super.Pad</a><span class="f666">&nbsp;(<a title="Music.Super.Pad的帖子" target="_blank" href="https://my.hupu.com/36382487184817/topic">17级</a>)</span>&nbsp;<span class="stime">2018-06-09 06:59</span>&nbsp;<span class="f666 29427 button-light-inner " pid="29427" uid="36382487184817" style="position:relative">
+</span>
+<span class="f444 29427" pid="29427" uid="36382487184817" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">0</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="f3cbaeed558c47be97c6935b3432f436" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="Music.Super.Pad" tid="22531583" pid="29427">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,29427);return false;">举报</a>
+<a href="/22531583_36382487184817.html" rel="nofollow">只看此人</a>
+<a id="19" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#29427">19楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<blockquote><p><b>引用 @<a class="u" target="_blank" href="https://my.hupu.com/126552237633145" >梦归肖恩</a> 发表的</b>:<br>我由衷的希望匹克能变得更好 也希望装备区越来越好hhh</p></blockquote><br>你说的款式我都很喜欢，其实匹克篮球鞋大多不错的，用料足，而且设计也很有自己的风格
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia9" target="_blank">发自虎扑Android客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="30660" class="floor">
+<div class="floor-show  ">
+<div class="user" id="o">
+<div class="j_u" uid="50612319561477" uname="US85">
+<a class="headpic" target="_blank" href="https://my.hupu.com/50612319561477"><img src="https://i1.hoopchina.com.cn/user/038/17602038/17602038_small_4.jpg" width="45" height="45" alt="US85"></a>
+</div>
+</div>
+<div class="floor_box ">
+<div class="author">
+<div class="left">
+<a class="u" target="_blank" href="https://my.hupu.com/50612319561477">US85</a><span class="f666">&nbsp;(<a title="US85的帖子" target="_blank" href="https://my.hupu.com/50612319561477/topic">46级</a>)</span>&nbsp;<span class="stime">2018-06-09 07:10</span>&nbsp;<span class="f666 30660 button-light-inner " pid="30660" uid="50612319561477" style="position:relative">
+</span>
+<span class="f444 30660" pid="30660" uid="50612319561477" style="position:relative">
+<span class="ilike_icon_list"><a class="ilike_icon " mid="1" href="javascript:;" style="width:25px;" dace_clk="clk_bbs_rlights">亮了</a>
+(<span class="stime">110</span>)</span>
+</span>
+</div>
+<div class="right f666">
+<a title="我要赞赏" class="reply-sponsor-button" onclick="" href="javascript:" _orighref="javascript:" _tkworked="true" token="7b9129d9459e346892f313e2c16efe32" ttime="1540272854.9311" data-isauthor="0"  fid="49" author="US85" tid="22531583" pid="30660">我要赞赏</a>
+<a href="javascript:void(0);" onclick="report(8,30660);return false;">举报</a>
+<a href="/22531583_50612319561477.html" rel="nofollow">只看此人</a>
+<a id="20" class="floornum" title="直达本楼回帖的链接" href="/22531583.html#30660">20楼</a>
+</div>
+</div>
+<table class="case" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p>这是我在虎扑第一个推荐的帖子！早几年我也是匹克的粉，我甚至认为匹克是国内最好的篮球鞋品牌，然而可怕的是这么多年匹克一直原地踏步，甚至出现了倒退的迹象，随着李宁安踏越来越好，匹克的关注度真是降到了冰点。我觉得，什么时候匹克摒弃了那个鸡肋的乳胶鞋垫，真正靠中底来承担缓震了，什么时候也也就崛起了。</p>
+<br /><small class="f999"><a style="color:#999" href="https://mobile.hupu.com/?_r=bbsvia10" target="_blank">发自虎扑iPhone客户端</a></small>
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+<div class="liangShare">&nbsp;</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<a name="o" id="showkey" data-hasfu="0"></a>
+</form>
+<div class="page downpage" style="float:left!important; margin-left:-7px;"></div>
+<div class="clearfix"></div>
+<div class="breadCrumbs">
+<a href="/">社区</a>&nbsp;»&nbsp;<a href="/all-gear">运动和装备</a>
+»&nbsp;<a href="/gear">运动装备</a>
+</div>
+<div id="back">
+<form id="fastform" name="FORM" class="j_atc_content left" method="post" action="/post.php?action=reply" onsubmit="textConvert('fastform', 'atc_content')">
+<div id="re" class="box">
+<div id="re_top"></div>
+<div id="re_box">
+<div class="input_login" style="left:180px">您需要登录后才可以回复，请<a class="blue" onclick="show_login();ga('bbs-read-reply-showLogin'); return false;" href="https://passport.hupu.com/login?from=bbsPost">登录</a>或者<a class="blue" href="https://passport.hupu.com/register?project=bxj&amp;from=bbsPost">立即注册</a>
+</div>
+<div class="left">
+<img width="45" height="45" src="https://i1.hoopchina.com.cn/user/default_small.jpg">
+<a class="blue" style="" href="https://my.hupu.com/set.php?s=picture">更新头像</a>
+</div>
+<div class="input">
+<a id="j_face" class="face_button" title="点击选择你要添加的表情"></a>
+<div class="plate_03" style="position:absolute;top:0;right:5px;font-size:14px;">
+<div id="word_bbs_content" data-google-query-id="CMW766nvj9YCFZggKgodUXIB4w">
+<script type="text/javascript">
+							googletag.cmd.push(function() {
+								googletag.display('word_bbs_content');
+							});
+						</script>
+<div id="google_ads_iframe_/1016953/word_bbs_content_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1016953/word_bbs_content_0" title="3rd party ad content" name="google_ads_iframe_/1016953/word_bbs_content_0" width="300" height="20" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe></div>
+</div>
+</div>
+<div id="face_lable" class="face_img" style="display:none;overflow-y:scroll;">
+<div id="leftface" class="left"></div>
+</div>
+<textarea  style="resize: none" name="atc_content" id="atc_content"  class="j_enter" rows="8"></textarea>
+<input name="postfast" type="hidden" value="2">
+<input id="fastbtn" class="btns2" type="submit" value="回 复" title="按 Ctrl + Enter 可提交回复">
+</div>
+<div class="clearfix"></div>
+</div>
+<div id="re_bottom"></div>
+</div>
+<input type='hidden' name="atc_title" value="Re:浅谈匹克设计：为什么好像总是没那么好？" size="65">
+<input type='hidden' name="atc_usesign" value="1">
+<input type='hidden' name='atc_convert' value='1'>
+<input type='hidden' name='atc_autourl' value='1'>
+<input type='hidden' value='2' name='step'>
+<input type='hidden' value="reply" name='action'>
+<input type='hidden' value='49' name='fid'>
+<input type='hidden' value='22531583' name='tid'>
+<input type='hidden' value='浅谈匹克设计：为什么好像总是没那么好？' name='subject'>
+<input type='hidden' value='1' name='editor'>
+<input type='hidden' value='none' name='atc_attachment'>
+<input type='hidden' value='' name='replayofpage'>
+<input type='hidden' value='1' name='replaymeta'>
+<input type='hidden' value='' name=''>
+</form>
+<div class="ad_reply">
+<div id="hoopchina-bbs-content-bottom-200x200" style="width:200px; height:200px;">
+<script>
+						googletag.cmd.push(function() { googletag.display('hoopchina-bbs-content-bottom-200x200'); });
+			</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="sub_sidebar" style="padding-top:72px;">
+<div class="sidebar-bd" style="left:auto; top:-250px;">
+<div class="hp-ad250-250 sidebar-ad-A">
+<iframe width="250" height="250" scrolling="no" frameborder="0" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="https://t1.hoopchina.com.cn/topn-v2.html#!zone-6306393"></iframe>
+</div>
+<div class="feedhome sidebar-col-A" style="margin-bottom:10px;" id="sideTopic">
+<h3>
+<a href="/gear">运动装备最新帖子</a></h3>
+<ul>
+<li>
+<span>-</span>
+<a href="/24048566.html">【2018年双11抢超级红包 双11超级红包可以抢啦，还有0元购】</a>
+<em class="f666">(0回复)</em>
+</li>
+<li>
+<span>-</span>
+<a href="/24048532.html">【2018年双11抢超级红包 双11超级红包可以抢啦，还有0元购】</a>
+<em class="f666">(0回复)</em>
+</li>
+<li>
+<span>-</span>
+<a href="/24048508.html">开个箱，前两天发售的荧光黄绿AF1，喜欢就上</a>
+<em class="f666">(1回复)</em>
+</li>
+<li>
+<span>-</span>
+<a href="/24048505.html">【2018年双11抢超级红包 双11超级红包可以抢啦，还有0元购】</a>
+<em class="f666">(0回复)</em>
+</li>
+<li>
+<span>-</span>
+<a href="/24048478.html">【2018年双11抢超级红包 双11超级红包可以抢啦，还有0元购】</a>
+<em class="f666">(0回复)</em>
+</li>
+</ul>
+</div>
+<div class="hp-ad250-250 sidebar-ad-B __dace_event_id" style="width:250px; margin-bottom:10px; height:250px;">
+<div id="hoopchina-bbs-content-right-250x250-2" style="width:250px; height:250px;">
+<script>
+              googletag.cmd.push(function() { googletag.display('hoopchina-bbs-content-right-250x250-2'); });
+        </script>
+</div>
+</div>
+<div class="maxHdBox">
+<div class="hp-ad250-250 sidebar-ad-C">
+<link rel="stylesheet" type="text/css" href="https://b3.hoopchina.com.cn/css/bbs/read-shihuo-photo-ad.css?20170122">
+<script type="text/javascript" src="https://b3.hoopchina.com.cn/pcbbs/js/read-shihuo-photo-ad.js?20170207"></script>
+<div class="shihuo_photo_news">
+<a href="https://goto.hupu.com/?a=goClick&amp;id=6362" target="_blank">
+<div class="shihuo-photo-title"></div>
+</a>
+<div class="J_ui_picSwitch" style="width: 248px; height: 193px;">
+<ul class="J_ui_post J_ui_postPost">
+<li>
+<a href="/" target="_blank" alt="/">
+<img src="/"></a>
+</li>
+</ul>
+<div class="fade_back"></div>
+<div class="shihuo-photo-fonts" title="/" >
+<a href="/" target="_blank">
+<p class="shihuo-photo-fonts-tit">/</p></a>
+<p class="txt_detil">
+<span class="pop_join" ><label style="font-size:12px !important;">/人参加</label></span>团购/元&nbsp;<s>/元</s>
+</p>
+</div>
+</div>
+<div class="shihuo-photo-btn">
+<div class="J_ui_a">
+<i class="j1"></i>
+<span class="btns">
+<span class="" style="padding:8px 3px;">
+<s class=""></s>
+</span>
+</span>
+<i class="j2"></i>
+</div>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<div class="feedhome sidebar-col-C" style="margin-top:10px;">
+<h3>
+<a href="/all-gear">热门帖子</a></h3>
+<ul>
+<li>
+<span>-</span>
+<a href="/24047702.html">终于轮到我了，晚上和StockX高管吃饭，大家有什么要问的吗</a>
+<em class="f666">(37回复)</em>
+</li>
+<li>
+<span>-</span>
+<a href="/24044267.html">2018.10.21 LI-NING·拿鞋说话·沈阳站回顾 我们十一月成都再见</a>
+<em class="f666">(48回复)</em>
+</li>
+<li>
+<span>-</span>
+<a href="/24045090.html">理财产品终于能买鞋了</a>
+<em class="f666">(101回复)</em>
+</li>
+<li>
+<span>-</span>
+<a href="/24046837.html">曝光一个无良商家</a>
+<em class="f666">(44回复)</em>
+</li>
+<li>
+<span>-</span>
+<a href="/24047027.html">意外发现使节11不错然后就入了一双，为什么使节关注度这么低呢</a>
+<em class="f666">(21回复)</em>
+</li>
+</ul>
+</div>
+</div>
+<div class="hp-ad250-250 sidebar-ad-A" id="hoopchina-bbs-right-bottom" style="width:250px; height:250px;">
+<script>
+          googletag.cmd.push(function() { googletag.display('hoopchina-bbs-right-bottom'); });
+    </script>
+</div>
+
+</div>
+</div>
+</div>
+<div class="bottom_tools" >
+<a id="scrollUp"   title="返回顶部" style="display:none;cursor:pointer;"></a>
+</div>
+<div id="bbs_ball_content_1x1" style="display:none" >
+<script>
+        googletag.cmd.push(function() { googletag.display('bbs_ball_content_1x1'); });
+  </script>
+</div>
+<div id="bbs_nba_content_1x1_ls"  style="display:none">
+<script>
+        googletag.cmd.push(function() { googletag.display('bbs_nba_content_1x1_ls'); });
+  </script>
+</div>
+<input type="hidden" id="userinfouid" value="" />
+<input type="hidden" id="j_next" />
+<script type="text/javascript"> (function(win,doc){ var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0]; if (!win.alimamatk_show) { s.charset = "gbk"; s.async = true; s.src = "//alimama.alicdn.com/tkapi.js"; h.insertBefore(s, h.firstChild); }; var o = { pid: "mm_31576222_7994052_67146792",appkey: "",unid: ""}; win.alimamatk_onload = win.alimamatk_onload || []; win.alimamatk_onload.push(o); })(window,document);</script>
+<div class="hp-footer">
+                    
+                    <div class="hp-copyright">
+                    
+                    Copyright by 虎扑JRs &amp;
+                    <a href="https://www.hupu.com/" target="_blank" title="虎扑">虎扑</a> -
+                    <a href="http://jobs.hupu.com/" target="_blank">在虎扑工作</a> -
+                    <a href="http://marketing.hupu.com/contact/" target="_blank">联系我们</a> -
+                    <a href="https://m.hupu.com/" target="_blank">手机虎扑网</a> -
+                    <a href="https://mobile.hupu.com/" target="_blank">虎扑App</a> -
+                    <a href="https://www.hupu.com/policies/terms" target="_blank">服务协议</a> -
+                    <a href="https://www.hupu.com/sitemap.html" target="_blank">网站地图</a> -
+                    <a href="https://nba.hupu.com/" target="_blank" title="NBA">NBA</a> -
+                    <a href="https://cba.hupu.com/" target="_blank" title="CBA">CBA</a>  -
+                    <a href="https://soccer.hupu.com/" target="_blank" title="足球">足球</a> -
+                    <a href="https://soccer.hupu.com/china/" target="_blank" title="中超">中超</a> -
+                    <a href="http://racing.hupu.com/" target="_blank" title="赛车">赛车</a> 
+                    </div>
+                    
+                </div>
+</body><script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/mod_96dd55b.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/lazyload_d004a7f.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/jquery/jquery-1.8.3_a6ffa58.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/widget/ui-dace/ui-dace_85cd6f2.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/common/js/global/global_7fa80c2.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/common/js/underscore/underscore_48198ee.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/js/common-v1_c756bbd.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/return_1b6b007.js"></script>
+<script type="text/javascript" src="//b1.hoopchina.com.cn/web/channel/bbs/static/subpages/pagelist_93e6d6f.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/subpages/groupon_76ed20c.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/bbs-extra_5fb2c0e.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/subpages/forlist_90d5a57.js"></script>
+<script type="text/javascript" src="//b2.hoopchina.com.cn/web/channel/bbs/static/subpages/showdetail_3d568a2.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/js/qrcode/qrcode.min_c299d3d.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/subpages/widget/getName/id_to_name_1af4143.js"></script>
+<script type="text/javascript" src="//b3.hoopchina.com.cn/web/channel/bbs/static/common/widget/ui-attention/attention_b548767.js"></script>
+<script type="text/javascript">var __ready = [];__ready.push(function(){
+        //dace统计
+        var __daceDataNameOfChannel = 'bbs';
+
+        //公共头尾
+        window._common && _common.init({project:"sports"});
+
+        //baidu统计
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "//hm.baidu.com/hm.js?39fc58a7ab8a311f2f6ca4dc1222a96e";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    });
+__ready.push(function(){     var getName = require("subpages:widget/getName/id_to_name");
+       getName.init();
+     });
+__ready.push(function(){//三级导航
+$(".hp-threeNav-item li").mouseover(function(){
+  $(this).find(".hp-drapDown").css("display","block");
+}).mouseout(function(){
+  $(this).find(".hp-drapDown").css("display","none");
+})
+//搜索
+$(".it-search-for").bind('input propertychange', function() {
+    var $value=$(".it-search-for").val();
+  if($value.length>0){
+      $(".hp-search-choose").show();
+      $(".searchval").html($value);
+  }else{
+      $(".hp-search-choose").hide();
+  }
+});
+    //搜索按钮
+    $(".btn-searchs").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('//my.hupu.com/search?q='+$value,'_blank');
+    })
+      // 回车键事件
+    $(".it-search-for").keypress(function(e) {
+       if(e.which == 13) {
+         var $value=$(".it-search-for").val();
+        window.open('//my.hupu.com/search?q='+$value,'_blank');
+       }
+   });
+   //帖子
+   $("#tiezi").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('//my.hupu.com/search?q='+$value,'_blank');
+    })
+  //视频
+  $("#videos").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('//v.liangle.com/nba/s_'+$value,'_blank');
+   })
+   //日志
+   $("#rizhi").click(function(){
+     var $value=$(".it-search-for").val();
+      window.open('https://my.hupu.com/search/blog-'+$value+'-5000','_blank');
+    })
+  //成员
+  $("#cyuan").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('https://my.hupu.com/search/member-0-2---'+$value+'-1','_blank');
+   })
+  //识货
+  $("#shihuo").click(function(){
+    var $value=$(".it-search-for").val();
+     window.open('http://www.shihuo.cn/search?keywords='+$value+'&channelType=12','_blank');
+   })
+
+});
+__ready.push(function(){  $(".showdiv").css("height",$(document).height()+"px");
+});
+__ready.push(function(){  var detail_url = 22531583;
+      detail_url += '';
+
+  var pageNum=0;
+  if(9>10){
+    pageNum=2;
+  }else{
+    pageNum=10;
+  }
+   $("#close").click(function(){
+      $(".md-content").hide()
+      console.log(11)
+    })
+
+$('.page').createPage(function(n){
+  if(n==9){
+    $(".page").css({
+      "margin-left":"0px"
+    })
+  }
+  document.onkeydown=function(e){
+   e=window.event||e;
+   var host=window.location.host;
+   var hosts=host.replace(/\/.*?([^\.]+\.(com\.cn|org\.cn|net\.cn|[^\.]+))\/.+/, "$1");
+     switch(e.keyCode){
+     case 37: //左键
+          if($("#showkey").attr("data-hasfu")!="1"){
+            if(n>1){
+              n-=1;
+              var url=$(".page").find('.page'+n+'').attr("href");
+              if(url!=undefined){
+                window.location.href='https://bbs.hupu.com/'+url+'';
+            }
+          }
+        }
+       break;
+     case 39: //右键
+          if($("#showkey").attr("data-hasfu")!="1"){
+            if(n<9){
+              n+=1;
+              var url=$(".page").find('.page'+n+'').attr("href");
+              if(url!=undefined){
+                window.location.href='https://bbs.hupu.com/'+url+'';
+            }
+          }
+        }
+       break;
+     default:
+       break;
+   }
+
+  }
+},{
+  pageCount:9,//总页码,默认10
+  current:1,//当前页码
+  name:detail_url+'-',//标记
+  hname:detail_url,
+  showNear:pageNum,//显示当前页码前多少页和后多少页，默认2
+  pageSwap:true,
+  align:'right',
+  is_read:1,
+  showSumNum:false,//是否显示总页码
+  maxpage:9
+});
+$(".toppage").css("margin-left","-6px");
+
+
+
+try{
+      if(window.top != window.self){
+        var topHost = top.document.location.hostname;
+        if (topHost.indexOf('hupu.com') < 0 && topHost.indexOf('liangle.com') < 0 && topHost.indexOf('shihuo.cn') < 0){
+          window.top.location.href = window.self.location.href;
+        }
+      }
+    }catch(e){}
+
+    $(function(){
+        if ($("#lpub_ad")[0]) {
+            function findPos_top(obj) {
+                var top = obj.offsetTop || 0;
+                while (obj = obj.offsetParent) {
+                    top += obj.offsetTop;
+                }
+                return top;
+            }
+
+            function findPos_left(obj) {
+                var l = obj.offsetLeft;
+                while (obj.offsetParent != null) {
+                    obj = obj.offsetParent;
+                    l += obj.offsetLeft;
+                }
+                return l;
+            }
+
+            ifSideSticky = (IE6 == 'sucks') ? false : true;
+            var pubPos = findPos_top($("#bbs_banner")[0]) - findPos_top($("#sidenav_bbs")[0]) + 403;
+            $("#lpub_ad").css('top', pubPos + 'px');
+            $("#lpub_ad").show();
+            if (!isMobile() && ifSideSticky && document.documentElement.clientHeight > 670) {
+                var contentwitdth = $("#content").width();
+                var sideSticky = function () {
+                    var now_top = document.body.scrollTop || document.documentElement.scrollTop || 0;
+                    if (now_top > pubPos + 100) {
+                        $("#lpub_ad").attr('style', 'position: fixed; _position: absolute; top:10px;left:' + (findPos_left($("#container_padd")[0]) + 13 - document.documentElement.scrollLeft) + 'px');
+                    } else {
+                        $("#lpub_ad").removeAttr('style').css('left', '-133px').css('top', pubPos + 'px');
+                    }
+                };
+                $(window).bind('scroll', sideSticky).resize(function () {
+                    $(window).unbind("scroll");
+                    $("#lpub_ad").removeAttr('style').css('left', '-133px').css('top', pubPos + 'px');
+                });
+            }
+        }
+        if ($("div .c2c_ad")[0]) {
+            if ($(".level2header").attr('title')) {
+                $("div .c2c_ad").css('top', "-66px").show();
+            } else {
+                $("div .c2c_ad").css('top', '-114px').show();
+            }
+        }
+    })
+
+    /**
+     * check is mobile device
+     */
+    function isMobile() {
+        var userAgent = navigator.userAgent.toLowerCase(),
+                mobile = /Mobile/i.test( userAgent ) || 'ontouchstart' in document.documentElement;
+        return mobile;
+    }
+
+(function() {
+   _fmOpt = {
+       partner: 'hupu',
+       appName: 'hupu_web',
+       token: 'da8acad841ee1c401451155d4b7f06f8'
+   };
+   var cimg = new Image(1,1);
+   cimg.onload = function() {
+       _fmOpt.imgLoaded = true;
+
+   };
+   cimg.src = "https://fp.fraudmetrix.cn/fp/clear.png?partnerCode=hupu&appName=hupu_web&tokenId=" + _fmOpt.token;
+   var fm = document.createElement('script'); fm.type = 'text/javascript'; fm.async = true;
+   fm.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'static.fraudmetrix.cn/fm.js?ver=0.1&t=' + (new Date().getTime()/3600000).toFixed(0);
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fm, s);
+
+
+})();
+
+//跳转
+function getCookie(name){
+  var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+  if(arr=document.cookie.match(reg)){
+      return (arr[2]);
+  }else{
+      return null;
+  }
+}
+
+
+function delCookie(name)
+{
+    var exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    var cval=getCookie(name);
+    if(cval!=null)
+        document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+}
+
+
+$('#hp_quick_touch').click(function(){
+  window.location='https://m.hupu.com'
+  delCookie('__nmj');
+
+})
+
+    //关注
+    var attention = require("common:widget/ui-attention/attention");
+    attention.init({
+        'fid':'49',
+        'uid':''
+    });
+
+});window.initEvent && window.initEvent();</script></html>
