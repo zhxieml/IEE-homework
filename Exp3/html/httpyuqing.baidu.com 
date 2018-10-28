@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html class="expanded entry-html">
+<head>
+<meta charset="utf-8"/>
+<meta content="百度舆情是一款专业的互联网舆情分析系统，它具有强大的网页内容抓取与语义分析能力，对互联网上相关舆情的实时监控和深度分析， 为舆情分析者全面掌握舆情动态、做出正确舆论引导提供依据。" name="description">
+<meta content="舆情，舆情监测，舆情分析，舆情系统，观点分析，语义分析，情感分析" name="keywords">
+<link rel="shortcut icon" href="/zhengwu/static/common/favicon/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/zhengwu/static/common/favicon/favicon.ico" type="image/x-icon">
+<title>百度舆情-互联网舆情专业分析系统</title>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?43ddfc834d4e8a0f8e9876a2682cd8b1";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<link rel="stylesheet" type="text/css" href="/zhengwu/static/home/User/normalize_c615676.css"/><link rel="stylesheet" type="text/css" href="/zhengwu/static/home/pkg/hbase_2df540f.css"/><link rel="stylesheet" type="text/css" href="/zhengwu/static/common/widget/dialog/dialog_9424bd1.css"/><link rel="stylesheet" type="text/css" href="/zhengwu/static/home/widget/di-external/di-external_9c5642c.css"/><link rel="stylesheet" type="text/css" href="/zhengwu/static/home/User/entry_9a95f3e.css"/><link rel="stylesheet" type="text/css" href="/zhengwu/static/home/User/login_4cb1622.css"/></head>
+<body>
+<div class="di-header">
+<div id="_versionType" data-name="noSelect" style="display:none"></div>
+<a href="/saas/intro/newindex" class="tj-logo-wrapper">
+<img src="/zhengwu/static/home/Intro/header/@2x_logo_yuqing_e1ea83b.png" height="40">
+</a>
+<div class="di-header__middle">
+<a href="/saas/intro/newindex" class="di-header__middle-btn">首页</a>
+<div class="di-header__middle-btn product_btn">
+<span>舆情产品</span>
+<ul class="di-header__middle-dropdown product_dropdown">
+<li>
+<a href="/saas/Product/personal">舆情个人版</a>
+</li>
+<li>
+<a href="/saas/Product/company">舆情政企版</a>
+</li>
+<li>
+<a href="/saas/Product/api">舆情API版</a>
+</li>
+</ul>
+</div>
+<div class="di-header__middle-btn solution_btn">
+<span>解决方案</span>
+<ul class="di-header__middle-dropdown solution_dropdown">
+<li>
+<a href="/saas/Solution/media">媒体舆情解决方案</a>
+</li>
+<li class="pad">政务舆情解决方案<span>（敬请期待）</span></li>
+</ul>
+</div>
+<div class="di-header__middle-btn solution_btn">
+<span>技术演示</span>
+<ul class="di-header__middle-dropdown solution_dropdown">
+<li>
+<a href="/saas/ai/index">图片舆情分析</a>
+</li>
+<li>
+<a href="/saas/ai/video">视频舆情分析</a>
+</li>
+<li>
+<a href="/saas/ai/screen">大屏可视化系统</a>
+</li>
+</ul>
+</div>
+<a href="/saas/Product/FAQ" class="di-header__middle-btn" target="_blank">帮助文档</a>
+<a class="di-header__middle-btn J_consociation">申请试用</a>
+</div>
+<div class="di-header__action">
+<a class="entry-login J_login di-header__action-item" data-r="/saas/intro/judgestatus?loginType=saas">个人版登录</a>
+<a class="entry-login J_login di-header__action-item" data-r="/saas/intro/judgestatus?loginType=enterprise" data-v="uc">政企版登录</a>
+</div>
+<div class="di-header__toggle">
+<a href="javascript:void(0);">
+<img src="/zhengwu/static/home/Intro/header/di-icon-bar_ada2230.png" width="16" height="12">
+</a>
+</div>
+</div>
+<ul class="di-header__dropdown-idep">
+<li>
+<a href="http://di.baidu.com/product/minos" target="_blank">百度大数据传输Minos</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/pingo" target="_blank">百度离线处理Pingo</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/palo" target="_blank">百度数据仓库Palo</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/habo" target="_blank">百度大数据可视化Habo</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/intellis" target="_blank">百度在线计算IntelliS</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/bes" target="_blank">百度Elasticsearch</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/tuijian" target="_blank">百度推荐</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/tongji" target="_blank">百度网站统计</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/mtj" target="_blank">百度移动统计</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/stj" target="_blank">百度店铺统计（智客）</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/yuqing" target="_blank">百度舆情平台</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/opinion" target="_blank">百度舆情API</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/insurancerisk" target="_blank">保险风险识别</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/insurancefraud" target="_blank">理赔反欺诈</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/sinan" target="_blank">百度司南</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/huwai" target="_blank">百度司南户外</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/keqing" target="_blank">百度客情分析</a>
+</li>
+<li>
+<a href="http://di.baidu.com/product/shangqing" target="_blank">百度商情分析</a>
+</li>
+<li>
+<a href="http://di.baidu.com/solution/retail" target="_blank">泛零售行业解决方案</a>
+</li>
+<li>
+<a href="http://di.baidu.com/solution/finance" target="_blank">金融行业解决方案</a>
+</li>
+<li>
+<a href="http://di.baidu.com/solution/government" target="_blank">政务领域方案</a>
+</li>
+<li>
+<a href="http://di.baidu.com/solution/media" target="_blank">媒体行业方案</a>
+</li>
+<li>
+<a href="http://di.baidu.com/solution/lot" target="_blank">物联网行业方案</a>
+</li>
+</ul>
+<script src="/zhengwu/static/common/uc/online/api.js?1539181556"></script>
+<div id="entry-main">
+<div class="entry-carsouel-wrapper" id="section-0">
+<div class="entry-carsouel-dline-wrapper">
+<div class="entry-carsouel-dline"></div>
+</div>
+<div class="entry-carsouel-dline-wrapper">
+<div class="entry-carsouel-dline"></div>
+</div>
+<div class="entry-carsouel-dline-wrapper">
+<div class="entry-carsouel-dline"></div>
+</div>
+<div class="entry-carsouel-dline-wrapper">
+<div class="entry-carsouel-dline"></div>
+</div>
+<div class="entry-carsouel-dline-wrapper">
+<div class="entry-carsouel-dline"></div>
+</div>
+<div class="entry-carsouel-dline-wrapper">
+<div class="entry-carsouel-dline"></div>
+</div>
+<div class="entry-carsouel-bg-wrapper">
+<img class="entry-carsouel-bg" src="/zhengwu/static/home/User/entry/new-wave-0-0_bf6b63f.png">
+</div>
+<div class="entry-main-container clearfix">
+<div class="entry-carsouel-txt">
+<h2>专业、开放、易用的互联网舆论分析平台</h2>
+<p>全方位分析互联网舆论，提供实时舆情、语义分析、搜索指数及事件脉络等数据与分析能力，助力客户把握时事脉搏。</p>
+<a class="bag-blue J_consociation">申请试用</a>
+</div>
+</div>
+</div>
+<div class="entry-section-intro" id="section-1">
+<h3 class="is-animated">领先的舆情产品与服务</h3>
+<ul class="entry-version-list main-container is-animated">
+<li>
+<h3>
+<span class="entry-ver-icon entry-ver-user"></span>
+个人版</h3>
+<p>服务于舆情分析师、学生、教师等个人用户，可以免费开通账号，按模块购买使用。提供舆情监控、舆情分析、相关搜索词分析、受众画像、简报导出等功能。</p>
+<div class="entry-version-action">
+<a class="get-detail" data-url="/saas/Product/personal" data-name="个人版">了解详情<i class="entry-icon entry-icon-arrow-right"></i></a>
+<a class="J_login" data-r="/saas/intro/judgestatus?loginType=saas">登录使用<i class="entry-icon entry-icon-arrow-right"></i></a>
+</div>
+</li>
+<li>
+<h3>
+<span class="entry-ver-icon entry-ver-zhengwu"></span>
+政企版</h3>
+<p>服务于政府、企业等大型客户。可申请开通试用权限，正式版按年付费使用。提供舆情监控、舆情分析、相关搜索词分析、受众画像、简报、对比分析报告等功能。</p>
+<div class="entry-version-action">
+<a class="get-detail" data-url="/saas/Product/company" data-name="政企版">了解详情<i class="entry-icon entry-icon-arrow-right"></i></a>
+<a class="J_consociation" data-from="1">申请试用<i class="entry-icon entry-icon-arrow-right"></i></a>
+</div>
+</li>
+<li>
+<h3>
+<span class="entry-ver-icon entry-ver-api"></span>
+API版</h3>
+<p>服务于有定制化需求的政府或企业客户。提供数据订阅、地域风向标等数百个数据接口，打包大数据平台工具，提供定制化解决方案。</p>
+<div class="entry-version-action entry-action-api">
+<a class="get-detail" data-url="/saas/Product/api" data-name="API版">了解详情<i class="entry-icon entry-icon-arrow-right"></i></a>
+<a class="J_consociation" data-from="3">申请试用<i class="entry-icon entry-icon-arrow-right"></i></a>
+</div>
+</li>
+</ul>
+</div>
+<div class="entry-section-feature" id="section-2">
+<h3 class="is-animated">专业的定制化解决方案</h3>
+<div class="entry-underline-list is-animated">
+<ul>
+<li>媒体舆情</li>
+<li>政务舆情</li>
+</ul>
+<div id="entry-underline-line"></div>
+</div>
+<ul class="entry-carsouel is-animated">
+<li class="active solution_media">
+<div class="entry-feature-carsouel-wrapper slide-animated">
+<h4>媒体舆情解决方案</h4>
+<p>面向传统媒体和新媒体行业，针对内容生产、观点及传播分析、运营数据展示等业务场景，结合云方案，提供新闻线索发现、热点新闻预测、网民观点分析、新闻传播分析、运营监控等服务落地，帮助媒体行业实现大数据转型。</p>
+<a class="get-detail" data-url="/saas/Solution/media" data-name="媒体舆情解决方案">了解详情</a>
+</div>
+</li>
+<li class="solution_government">
+<div class="entry-feature-carsouel-wrapper slide-animated">
+<h4>政务舆情解决方案</h4>
+<p>即将上线...</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="entry-section-advantage" id="section-3">
+<h3 class="is-animated">助力客户高效协作</h3>
+<div class="entry-advantage-list not-animated main-container">
+<div class="is-animated">
+<h4 class="entry-advantage-icon entry-advantage-data">某汽车品牌</h4>
+<p>在售前、售中、售后三个环节的公众趋势分析场景中，通过利用百度舆情分析平台，配置相应的监控任务进行全网公众观点、情感、UGC内容、媒体风向的监测。</p>
+</div>
+<div class="is-animated">
+<h4 class="entry-advantage-icon entry-advantage-analyze">某省级电视台</h4>
+<p>量身定制打造融媒体指挥大屏，提供从互联网内容采集、舆情信息加工、API接口调用，到可视化大屏的一整套解决方案，将有价值的舆情线索会与媒资库打通，汇总数据追踪传播效果。</p>
+</div>
+<div class="is-animated">
+<h4 class="entry-advantage-icon entry-advantage-reponse">某新闻网站</h4>
+<p>通过持续性的大数据实时分析，形成报社稿件在各种渠道中的版权跟踪；结合采编生产数据，实现传播影响力分析；结合对同业媒体的稿件传播分析，形成同业传播影响力比较，助力业务转型升级。</p>
+</div>
+</div>
+</div>
+<div class="entry-section-apply" id="section-4">
+<h3 class="is-animated">携手百度舆情合作共赢</h3>
+<a class="is-animated J_consociation">申请试用</a>
+</div>
+</div>
+<div class="di-footer">
+<div class="main-container">
+<div class="di-footer__product">
+<div class="entry-footer-qrcode">
+<div class="entry-footer-qrcode-item">
+<img src="/zhengwu/static/home/User/footer_weixin_82159f9.jpg" alt="">
+<div>
+<h4>扫码关注</h4>
+<p>舆情官网微信</p>
+</div>
+</div>
+<div class="entry-footer-qrcode-item">
+<img src="/zhengwu/static/home/User/footer_ios_794abe2.jpg" alt="">
+<div>
+<h4>手机客户端</h4>
+<p>iOS版</p>
+</div>
+</div>
+<div class="entry-footer-qrcode-item">
+<img src="/zhengwu/static/home/User/footer_andorid_797368c.jpg" alt="">
+<div>
+<h4>手机客户端</h4>
+<p>Android版</p>
+</div>
+</div>
+</div>
+<div class="entry-footer-link">
+<ul>
+<li>友情链接：<a href="http://sinan.baidu.com/" target="_blank">百度司南</a><a href="https://cloud.baidu.com/product/byapi.html" target="_blank" class="yuqing-api">舆情API服务</a></li>
+<li>联系邮箱：<a href="mailto:yuqing-help@baidu.com">yuqing-help@baidu.com</a></li>
+</ul>
+</div>
+</div>
+<div class="di-footer__unit">
+<ul class="di-footer__list">
+<li><a href="http://di.baidu.com/" target="_blank">百度数智平台</a></li>
+<li>
+<a href="javascript: void(0);" target="_blank" class="di-footer__hover">
+微信公众号<img src="/zhengwu/static/home/Intro/header/di-qr-code_dbe073f.png" alt="微信公众号" width="100" height="100">
+</a>
+</li>
+<li><a href="mailto:dihelp@baidu.com" target="_blank">售前咨询：dihelp@baidu.com</a></li>
+<li><a href="mailto:diquestion@baidu.com" target="_blank">售后咨询：diquestion@baidu.com</a></li>
+<li><a href="//shang.qq.com/wpa/qunwpa?idkey=8a7a8a175136d0c8111e972a9980d3b1f26074c187630b7a5f2f452a51fb8f99" target="_blank">QQ群：650596829</a></li>
+</ul>
+</div>
+<div class="di-footer__copyright">
+<ul class="di-footer__list">
+<li>
+<a href="javascript:void(0);" class="disabled">©2018Baidu</a>
+</li>
+<li>
+<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</body><script type="text/javascript" src="/zhengwu/static/common/pkg/aio_fe2909d.js"></script>
+<script type="text/javascript" src="/zhengwu/static/home/widget/jquery.scroll.lock/jquery.scroll.lock_b4051d4.js"></script>
+<script type="text/javascript" src="/zhengwu/static/home/widget/di-external/di-external_ad771f4.js"></script>
+<script type="text/javascript" src="/zhengwu/static/home/widget/entry-header/entry-header_fd1654e.js"></script>
+<script type="text/javascript" src="/zhengwu/static/home/User/entry_d6c3eb5.js"></script>
+<script type="text/javascript">!function(){require('home:widget/entry-header/entry-header.js');
+}();
+!function(){(function () {
+    var originRedirect = '/saas/Public/public';
+    var customRedirect = '';
+    var $ = require('common:widget/jquery/jquery.js');
+    var origin = location.protocol.replace(':', '') + '://' + location.host;
+    var configs = {
+        container:'login',
+        appid: '315',
+        memberPass: 1,
+        AUTO: 0,
+        appscope: [1, 2, 3, 4, 5],
+        product: 'mn',
+        staticPage: origin + '/zhengwu/static/home/uc/v3Jump.html',
+        multiLogin: 1,
+        passport_sms: 1,
+        passport_qrcode: 1,
+        ucTitle: '百度商业账号',
+        passportTitle: '百度账号',
+        passportTip: '提示：与百度搜索、百度贴吧、百度云盘、百度知道、百度文库等产品通用',
+        ucTip: '提示：百度推广、百度网盟、百度联盟、百度统计、百度司南等账号在此登录。',
+        isLayer: 1,
+        isSmall: 0,
+        rendered: function () {
+            $('<h2 class="login-info-h2">欢迎来到百度舆情，请登录</h2>').prependTo($('#common-login'));
+            $('#uc-common-account').attr('placeholder', '手机/邮箱/用户名');
+        },
+        registerPassLink: 'https://passport.baidu.com/v2/?reg&tpl=mn&u=http%3A%2F%2Fyuqing.baidu.com%2Fsaas%2FPublic%2Fpublic',
+        registerUcLink: 'https://u.baidu.com/ucweb/?module=Reguser&controller=reg&action=index&appid=315',
+        success: function () {
+            location.href = customRedirect ? customRedirect : originRedirect;
+        }
+    };
+    ucCommonLogin.init(configs);
+
+    $('.J_login').on('click', function (e) {
+        var $target = $(e.target);
+        var version = $target.data('v');
+        if (!$target.hasClass('disabled')) {
+            customRedirect = $target.data('r');
+            if (version === 'uc') {
+                $('#change-login').hide();
+                $('#common-login .login-info-h2').show();
+                window.$('#change-login #choose-uc-login').click();
+            } else {
+                $('#change-login').show();
+                window.$('#change-login .passport-account').click();
+                $('#common-login .login-info-h2').hide();
+            }
+            ucCommonLogin.show();
+            e.preventDefault();
+        }
+    });
+    $(document).on('click', '#login-close', function () {
+        $('#login-wrapper').toggle();
+    });
+    /*
+    $(document).on('click', '.uc-register', function () {
+        _hmt && _hmt.push(['_trackEvent', '首页-注册', '点击']);
+    });
+    $(document).on('click', '#submit-form', function () {
+        _hmt && _hmt.push(['_trackEvent', '首页-登录', '点击']);
+    });
+    */
+})();
+}();</script></html>
+<!--15559908470863448586101022-->
+<script> var _trace_page_logid = 1555990847; </script>

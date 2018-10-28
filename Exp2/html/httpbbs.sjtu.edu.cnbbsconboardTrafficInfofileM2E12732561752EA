@@ -1,0 +1,71 @@
+<html>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<link rel=stylesheet type=text/css href='/file/bbs/bbs.css'>
+<title>[原创]上海轨道交通实用手册(2010.5) Expo版 - 饮水思源</title><script type="text/javascript" src="/check.js"></script>
+<script type="text/javascript">
+function jumpUrl(x){
+	var url = '', e = encodeURIComponent, s = screen, d = document, title = d.title, u = d.location;
+	if(x=='douban'){
+		url ="http://www.douban.com/recommend/?url="+e(u.href)+"&title="+e(title);
+	}else if(x=='renren'){
+		url ="http://share.renren.com/share/buttonshare?link="+e(u.href)+"&title="+e(title);
+	}else if(x=='kaixin'){
+		url ="http://www.kaixin001.com/repaste/share.php?rurl="+e(u.href)+"&rtitle="+e(title);
+	}else if(x=='qzone'){
+		url ="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?to=xiaoyou&url="+e(u.href);
+	}else if(x=='sina'){
+		url ="http://v.t.sina.com.cn/share/share.php?title="+e(title)+"&url="+e(u.href);
+	}
+	function a(){
+		if (!window.open(url))
+			u.href = [url].join('');
+	}
+	if (/Firefox/.test(navigator.userAgent)){
+		setTimeout(a, 0);
+	}else{
+		a();
+	}
+}
+</script>
+<link rel=stylesheet type=text/css href='/file/bbs/blue.css'>
+<body><center>
+<font class="title">饮水思源 - 文章阅读　　</font>[讨论区: TrafficInfo]<hr>[<a href=bbsfwd?board=TrafficInfo&file=M.1273256175.A>转寄/推荐</a>][<a href=bbsccc?board=TrafficInfo&file=M.1273256175.A>转贴</a>][<a onclick='return confirm("你真的要删除本文吗?")' href=bbsdel?board=TrafficInfo&file=M.1273256175.A>删除</a>][<a href=bbsedit?board=TrafficInfo&file=M.1273256175.A>修改</a>][<a href=bbsdocnore?board=TrafficInfo&file=M.1273256175.A&num=15460>设置可RE属性</a>][<a href=bbscon,board,TrafficInfo,file,M.1273248172.A.html>上一篇</a>][<a href="bbsdoc,board,TrafficInfo,page,773.html">返回讨论区</a>][<a href=bbscon,board,TrafficInfo,file,M.1273285718.A.html>下一篇</a>][<a href='bbspst?board=TrafficInfo&file=M.1273256175.A&reid=1273256175'>回文章</a>][<a href='bbstfind0?board=TrafficInfo&reid=1273256175'>同主题列表</a>][<a href='bbstcon,board,TrafficInfo,reid,1273256175.html'>同主题阅读</a>][<a href='bbstcon,board,TrafficInfo,reid,1273256175,file,M.1273256175.A.html'>从这里展开</a>]<table class=show_border width=610>
+<tr><td>
+<pre>发信人: risesun (Metro Life), 信区: TrafficInfo
+标  题: [原创]上海轨道交通实用手册(2010.5) Expo版
+发信站: 饮水思源 (2010年05月08日02:16:15 星期六)
+
+上海轨道交通实用手册已更新至2010.5版，并增加了世博专栏
+
+1. 新增了轨道交通2号线东延伸段、西西延伸段和10号线的票价和时刻表
+2. 重新核对并更新了既有线路的票价表和时刻表
+
+推荐新功能：
+车站票价表——选择线路和车站，即可得到从该车站到达网络内任何一个站点的票价表，
+并排版成2张A4纸大小，方便随身携带
+
+为方便游客乘坐轨道交通线路参观游览世博园区，特增加了世博专栏：
+收录了世博园区轨道交通专用线、涉博线路站点详细信息和涉博线路临时开行离园专线的
+信息。
+
+<a target=_blank href='/file/TrafficInfo/1273306347249714.rar'>http://bbs.sjtu.edu.cn/file/TrafficInfo/1273306347249714.rar</a>
+
+注：脚本已修改成引用分线票价表，但删除总票价表后另存为Excel 2003兼容格式以后，
+用Excel 2003打开后发现所有格式皆消失，故暂只发布Excel 2007版本。
+--
+</font><font class='c33'>友情提示</font><font class='c37'>：为了您的生命财产安全，请不要乘坐</font><font class='c31'>无证黑车</font><font class='c37'>。
+欢迎乘坐958路(广元西路华山路-闵行)、江川3路、江川5路。
+
+
+
+
+
+</font><font class='c37'>※ 来源:·饮水思源 bbs.sjtu.edu.cn·[FROM: 218.1.49.226]</font><font class='c37'>
+
+</font><font class='c36'>※ 修改内容:·risesun 于 05月08日16:12:48 修改本文·[FROM: 218.1.49.200]</font><font class='c37'>
+</pre>
+</table><hr>
+[<a href=bbsfwd?board=TrafficInfo&file=M.1273256175.A>转寄/推荐</a>][<a href=bbsccc?board=TrafficInfo&file=M.1273256175.A>转贴</a>][<a onclick='return confirm("你真的要删除本文吗?")' href=bbsdel?board=TrafficInfo&file=M.1273256175.A>删除</a>][<a href=bbsedit?board=TrafficInfo&file=M.1273256175.A>修改</a>][<a href=bbsdocnore?board=TrafficInfo&file=M.1273256175.A&num=15460>设置可RE属性</a>][<a href=bbscon,board,TrafficInfo,file,M.1273248172.A.html>上一篇</a>][<a href="bbsdoc,board,TrafficInfo,page,773.html">返回讨论区</a>][<a href=bbscon,board,TrafficInfo,file,M.1273285718.A.html>下一篇</a>][<a href='bbspst?board=TrafficInfo&file=M.1273256175.A&reid=1273256175'>回文章</a>][<a href='bbstfind0?board=TrafficInfo&reid=1273256175'>同主题列表</a>][<a href='bbstcon,board,TrafficInfo,reid,1273256175.html'>同主题阅读</a>][<a href='bbstcon,board,TrafficInfo,reid,1273256175,file,M.1273256175.A.html'>从这里展开</a>]<br/><br/>
+<a href="javascript:void(0)" onclick="jumpUrl('kaixin')"><img src="fav/kaixin001.ico" height=16 width=16 title="分享到开心" border="0"></a><a href="javascript:void(0)" onclick="jumpUrl('renren')"><img src="fav/renren.png" height=16 width=16 title="分享到人人" border="0"></a><a href="javascript:void(0)" onclick="jumpUrl('douban')"><img src="fav/douban.ico" height=16 width=16 title="分享到豆瓣" border="0"></a><a href="javascript:void(0)" onclick="jumpUrl('sina')"><img src="fav/sina.ico" height=16 width=16 title="分享到新浪" border="0"></a><a href="javascript:void(0)" onclick="jumpUrl('qzone')"><img src="fav/qq.png" height=16 width=16 title="分享到QQ校友" border="0"></a></center>
+
+</html>

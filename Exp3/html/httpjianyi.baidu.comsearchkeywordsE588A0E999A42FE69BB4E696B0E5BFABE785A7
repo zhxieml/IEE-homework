@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="zh-CN">
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?fb481430f1a5a6c7044229532823b9fd";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="baidu-site-verification" content="GaTo5YnIV9" />
+    <title>百度用户服务中心-搜索结果</title>
+    <meta name="keywords" content="百度服务中心、百度意见反馈、百度投诉反馈、百度倾听、百度帮助中心、百度产品投诉、百度产品意见">
+    <meta name="description" content="百度服务中心是百度客服官方网站，为您解决使用百度产品过程中遇到的问题，帮助用户更了解百度，也让百度更懂用户。">
+    <link rel="shortcut icon" href="/resources/images/favicon.ico"/>
+    
+
+<!--[if lt IE 9]>
+<script>window.location.href=replace(window.location.href, 'search', 'search2');</script>
+<![endif]-->
+
+
+
+        <link type="text/css" rel="stylesheet" href="/resources/pc/css/normalize.min.css?timestamp=20180719" />
+    <link type="text/css" rel="stylesheet" href="/resources/pc/css/global.min.css?timestamp=20180719" />
+        
+<link type="text/css" rel="stylesheet" href="/resources/pc/css/search.min.css?timestamp=20180719"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/resources/pc/js/lib/tangram-2.0.2.1.min.js"></script>
+    <!--[if (!IE)|(gte IE 9)]><!-->
+    <script type="text/javascript" src="/resources/pc/js/lib/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=201810102335"></script>
+        <script type="text/javascript" src="/resources/pc/js/dist/common.min.js?timestamp=20180719"></script>
+        <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/resources/js/lib/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="/resources/js/common.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        $(function () {
+            login.init('https://passport.baidu.com', 'http://help.baidu.com/resources/html/jump.html', 'service_feedback');
+        });
+    </script>
+</head>
+<body>
+
+            <div class="header clear">
+    <div class="header-container">
+        <div class="logo">
+            <a href="/index"><span class="logo-span"></span></a>
+        </div>
+        <form class="search-form" action="/search" name="f" id="searchForm">
+            <input id="search_txt" value="删除/更新快照" placeholder="请简单描述您遇到的问题" type="text" class="search-key" x-webkit-speech="true"  name="keywords" autocomplete="off"/>
+            <button id="searchbutton" class="search-btn" type="submit" value=""></button>
+            <ul id="searchSuggest" class="suggestion" style="display:none;"></ul>
+        </form>
+        <div class="loginfo">
+                        <div class="unlogin">
+                <a href="#" id="btnLogin">登录</a>
+                <a href="https://passport.baidu.com/v2/?reg&tpl=service_feedback&u=">注册</a>
+            </div>
+                    </div>
+    </div>
+</div>
+    
+
+<div class="banner">
+    <div class="title">
+        <span><a href="/">服务中心</a></span><span>></span><span>搜索结果</span>
+    </div>
+</div>
+<div class="sec-main">
+    <div class="prod-bar fl" id="prodBar">
+    <ul>
+                        <li class="on" data-id="79">
+            <div class="picon">
+                <img src="/resources/images/icon/wangye_74.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度搜索</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="99">
+            <div class="picon">
+                <img src="/resources/images/icon/zhanzhang_64.png" class="icon-img">
+            </div>
+            <div class="pname"><span>站长平台</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="82">
+            <div class="picon">
+                <img src="/resources/images/icon/map_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度地图</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="87">
+            <div class="picon">
+                <img src="/resources/images/icon/baike_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百科</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="86">
+            <div class="picon">
+                <img src="/resources/images/icon/zhidao_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>知道</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="88">
+            <div class="picon">
+                <img src="/resources/images/icon/tieba_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>贴吧</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="119">
+            <div class="picon">
+                <img src="/resources/images/icon/browser_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度浏览器</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="122">
+            <div class="picon">
+                <img src="/resources/images/icon/shurufa_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度输入法</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="138">
+            <div class="picon">
+                <img src="/resources/images/icon/baiduyun_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度网盘</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="175">
+            <div class="picon">
+                <img src="/resources/images/icon/koubei_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度口碑</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="90">
+            <div class="picon">
+                <img src="/resources/images/icon/wenku_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>文库</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="145">
+            <div class="picon">
+                <img src="/resources/images/icon/passport_64.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度帐号</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="167">
+            <div class="picon">
+                <img src="/resources/images/icon/weishi_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度卫士</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="92">
+            <div class="picon">
+                <img src="/resources/images/icon/soucang_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度搜藏</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="150">
+            <div class="picon">
+                <img src="/resources/images/icon/shadu_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度杀毒</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="120">
+            <div class="picon">
+                <img src="/resources/images/icon/shipin_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度影音</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="84">
+            <div class="picon">
+                <img src="/resources/images/icon/image_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>图片搜索</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="158">
+            <div class="picon">
+                <img src="/resources/images/icon/jingyan_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>经验</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="155">
+            <div class="picon">
+                <img src="/resources/images/icon/licai_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度理财</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="83">
+            <div class="picon">
+                <img src="/resources/images/icon/xinwen_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度新闻</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="117">
+            <div class="picon">
+                <img src="/resources/images/icon/lvyou_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度旅游</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="170">
+            <div class="picon">
+                <img src="/resources/images/icon/bainuolian_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百糯连</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="98">
+            <div class="picon">
+                <img src="/resources/images/icon/kaifang_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>数据开放平台</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="85">
+            <div class="picon">
+                <img src="/resources/images/icon/cidian_57.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度词典</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="200">
+            <div class="picon">
+                <img src="/resources/images/icon/iotscan_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度锐眼智能设备安全检测</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="125">
+            <div class="picon">
+                <img src="/resources/images/icon/fanyi_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度翻译</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="102">
+            <div class="picon">
+                <img src="/resources/images/icon/zhishu_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度指数</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="113">
+            <div class="picon">
+                <img src="/resources/images/icon/hao123_65.png" class="icon-img">
+            </div>
+            <div class="pname"><span>Hao123</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="159">
+            <div class="picon">
+                <img src="/resources/images/icon/piaowu_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度票务</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="101">
+            <div class="picon">
+                <img src="/resources/images/icon/fengyun_64.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度风云榜</span><br><span>相关问题</span></div>
+                    </li>
+                <li class="" data-id="147">
+            <div class="picon">
+                <img src="/resources/images/icon/zhongce_72.png" class="icon-img">
+            </div>
+            <div class="pname"><span>百度众测</span><br><span>相关问题</span></div>
+                    </li>
+            </ul>
+    <!--<div class="search-more">
+        <a class="prev-prod" href="javascript:void(0);"><i></i></a>
+        <span>查看更多产品</span>
+        <a class="next-prod" href="javascript:void(0);"><i></i></a>
+    </div>-->
+</div>    <div class="content fl" id="mainContent">
+        <ul class="q-list">
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=256&id=1375" target="_blank">如何<span style="color:#ff0000;">删除/更新快照</span>？</a></div>
+        <div class="q-summary">快照删除与更新提交步骤：方法一：1. 请先登录百度账号 
+
+
+    2. 找到想要投诉的搜索结果点击 “ 百度快照 ”
+
+
+    
+
+
+    3. 在打开的百度快照页面上方点击 “ 投诉快照 ” 
+
+
+    
+
+
+    
+
+
+    4.按照提示填写信息进行提交。方法二：1.复制您要删除/更新的快照地址2. 前往百度服务...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=257&id=3333" target="_blank">如何<span style="color:#ff0000;">删除</span>搜索结果/搜索提示词？</a></div>
+        <div class="q-summary">您可以通过以下方法进行删除：1、删除搜索结果或更新快照前，请您确保原网站内容已经删除或者更新，然后在百度服务中心——网页入口-【 快照删除与更新 】按提示进行填写和提交。 如果您提交的网页符合处理标准，一般会在提交后48小时内完成处理。2、搜索提示词包含下拉提示词、为您...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=253&id=1335" target="_blank">怎么<span style="color:#ff0000;">删除</span>百度搜索记录？</a></div>
+        <div class="q-summary">1.  鼠标指向想要删除的历史记录  （注意是指向，不是点击）  ，点击右侧出现的“删除”，即可删除此条记录。 2.百度会保护用户的相关隐私，在登录状态下可做相关设置。如果您希望今后不再显示搜索记录，点击页面右上角的“搜索设置”；  在“搜索历史记录”选项后选择”不显示“，保存设置即可。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=259&id=3331" target="_blank">投诉后，投诉内容没有<span style="color:#ff0000;">删除</span>怎么办?</a></div>
+        <div class="q-summary">如果您投诉的内容没有删除，有可能是：1.您投诉的页面为正常页面，不违规2.您没有提供相关资质3.您提供了相关资质，但资质不齐全或者不清晰导致无法判断请您登录投诉时的账号或提交投诉时填写的邮箱，仔细查看具体回复，找到原因。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=264&id=1341" target="_blank">搜索结果泄露个人隐私，或造成个人伤害，如何<span style="color:#ff0000;">删除</span>这类不良信息。</a></div>
+        <div class="q-summary">请您在搜索结果页底部点击”给百度提建议”，选择您认为存在问题的搜索结果条目，并按页面中的引导进行一些必要的信息填写并进行提交，百度的审核人员将对您提交的申诉进行审核，审核通过后将会进行相应的处理。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=249&id=1369" target="_blank">什么是百度<span style="color:#ff0000;">快照</span>？</a></div>
+        <div class="q-summary">每条搜索结果下都有“百度快照”字样，点击后的页面即为百度快照，页面地址栏中的链接即为百度快照地址。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=267&id=1348" target="_blank">网页搜索中发现色情/反动/违法等不良信息，怎么办？</a></div>
+        <div class="q-summary">如果您在使用百度搜索产品中，发现相关不良信 息，可以按如下方式发 起举报。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=263&id=1349" target="_blank">百度招聘产品中存在虚假招聘信息, 如何投诉并<span style="color:#ff0000;">删除</span>？</a></div>
+        <div class="q-summary">对于虚假招聘信息可以通过邮件反馈到 ask@baidu.com 进行删除申诉。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=266&id=1347" target="_blank">百度搜索推广有欺诈/违规问题，怎么办？</a></div>
+        <div class="q-summary">关于百度搜索推广的欺诈、违规问题，请在百度举报平台进行提交。根据国家法律法规，搜索推广信息是否涉嫌欺诈、违规，需百度与国家相关主管部门共同判定。百度将收集您的投诉举报信息，与主管单位共同判定后进行处理。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=277&id=1338" target="_blank">网站链接打不开/异常（收录、排名等问题），怎么办？</a></div>
+        <div class="q-summary">1. 如果您是站长，请去站长平台2. 如果您不是站长，由于您所访问的网站所提供的网络服务不稳定，导致无法打开，建议过段时间再访问，若长时间无法访问可能是因为该网站管理员不再维护运营。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=283&id=1417" target="_blank">纳入网民权益保障计/赔付的网站有哪些？</a></div>
+        <div class="q-summary">纳入网民权益保障计/赔付的网站如下：  1. 百度搜索结果列表中带有“保”字保障标识的搜索结果网站   2. 百度搜索结果列表中 带有百度信誉“V”标识的搜索结果网站  3. 在百度信誉档案页点击商家“基础信息”栏目中的“网站地址”进入的网站  4. 百度联盟网站上带有“百度网盟推广”链接标识的网站 ...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=254&id=1354" target="_blank">为什么在浏览器内查看百度页面的字体过小/过大？</a></div>
+        <div class="q-summary">可能您针对百度的页面对浏览器进行了页面字体大小的控制，请在浏览器的菜单栏上通过“查看→文字大小”进行设置。</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=254&id=1370" target="_blank">无法正常使用浏览器搜索功能，解决办法是什么？</a></div>
+        <div class="q-summary">如果您在使用百度过程中遇到了一些影响搜索体验的事情，比如出现乱码，或有一些匪夷所思的搜索结果出现时，这可能意味着您的网络存在异常。  方式一：我们建议您使用加密链接https://www.baidu.com/ 进行搜索，看看是否已经解决问题。  方式二： 如果您的IE浏览器版本较低，...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=689&id=1001778" target="_blank">搜索投诉指引</a></div>
+        <div class="q-summary">亲爱的用户您好，百度搜索仅为网民提供信息检索服务，自身并不能对被第三方网站的原始内容进行编辑。当您发现搜索结果中包含侵权、违法违规等问题时，建议您首先联系原网站（第三方网页）进行删除或更新。由于侵权、违法违规内容存在于第三方网页中，为了更好更快的解决您的问题，建议您...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=275&id=1001777" target="_blank">搜索结果可能无法正常访问？</a></div>
+        <div class="q-summary">如您在百度搜索结果中看到此提示：“该页面因更换网址或页面服务不稳定等原因可能无法正常访问”，表示百度蜘蛛访问此页面失败无法取读页面详实信息。1.如果您对此页面没有所有权此页面因更换网址或页面服务不稳定等原因，导致蜘蛛访问时...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=252&id=1374" target="_blank">为什么输入百度首页，进去以后却是别的网站？</a></div>
+        <div class="q-summary">可能您的机器被某些恶意站点的病毒代码所感染。建议您下载最新版百度杀毒进行病毒查杀，使浏览器恢复正常状态；也可以前往百度服务中心发送求助信息。如果以上方法无法解决您的问题，您可以尝试用以下手段来定位问题：步骤1：ping点击【开始】，运行程序【cmd】打开命令提示符窗口，先输...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=259&id=1333" target="_blank">网页搜索如何发起投诉？</a></div>
+        <div class="q-summary">1.  快照删除与更新内容投诉： 第一步：登录百度账号 , 找到想要投诉的搜索结果点击 “ 百度快照 ”-- 在打开的百度快照页面上方点击 “ 投诉快照 ” ，或 前往百度服务中心发起投诉    第二步：复制百度快照地址（如果通过 “ 百度快照 ” 点击 “ 投诉快照 ” 进入投诉...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=271&id=1397" target="_blank">网页搜索被骗了该怎么办？</a></div>
+        <div class="q-summary">1. 如果您已经被骗造成财产损失：请尽快到最近的公安机关报案，请求公安机关协助找回您的财产损失并惩治欺诈犯罪者，百度公司也会配合公安机关对实施诈骗的个人或团伙追究其相应法律责任。2. 如您是在登录百度账户的情况下：若因点击百度保障范围内的网站，相关网站经营者采取假冒官网或...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=270&id=1393" target="_blank">安全上网—网购机票</a></div>
+        <div class="q-summary">安全购票，需注意如下几点:1. 认准官网标识去伪存真，熟记域名，认准唯一官网标识；2. 辨识页面选择资质完备可信的网站。核对网站信息，包括icp备案、公司名称、联系方式、地址等。另外，提供航空机票预订服务的网站均具有中国航协颁发的《资格认可证书》，可在中国航协官网进行查询验证...</div>
+    </li>
+        <li>
+        <div class="q-tit"><a href="/question?prod_en=webmaster&class=251&id=1361" target="_blank">输入query点击搜索后，自动跳回百度首页</a></div>
+        <div class="q-summary">当您使用百度搜索出现上述情况时，极有可能是您被 “ 劫持 ” 了。 解决方案：1、建议您尝试加密连接https://www.baidu.com进行搜索，看看问题是否依然存在。（1）需要注意的是，如果您的 IE 浏览器版本较低，比如在 IE8 及以下版本...</div>
+    </li>
+    </ul>
+
+<div class="page" id="page"></div>
+<input type="hidden" id="hidPageNum" value="1">
+<input type="hidden" id="hidTotalPage" value="5">
+<input type="hidden" id="hidTotalCount" value="83">    </div>
+</div>
+
+<div class="floatbar">
+    <a><i class="robot"></i></a>
+    <a href="javascript:window.scroll(0,0);"><i class="totop"></i></a>
+</div>
+<script type="text/javascript">
+
+    function initRobot() {
+        $('.robot').click(function () {
+            var pid = '' || '' || $('#pid').val();
+            if (pid) {
+                window.open('https://ikefu.baidu.com/web/bdhelp?pid=' + pid);
+            } else {
+                window.open('https://ikefu.baidu.com/web/bdhelp');
+            }
+        });
+    }
+    initRobot();
+
+</script>
+
+
+    <div class="footer">
+	<div class="footer-container">
+		<div class="about">
+			<a href="http://home.baidu.com" target="_blank">关于百度</a>
+			<a href="http://ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome" target="_blank">ABOUT BAIDU</a>
+			<a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>
+            <a href="/statement">举报受理声明</a>
+		</div>
+		<p>京ICP证030173号&emsp;京网文[2013]0934-983号&emsp;Copyright &copy;<script>document.write((new Date()).getFullYear());</script> Baidu</p>
+	</div>
+</div>
+<script>var sugapi="http://"+window.location.host;</script>
+<script type="text/javascript" src="/resources/pc/js/src/sug.js"></script>
+
+<script type="text/javascript" src="/resources/pc/js/dist/help.ui.min.js?timestamp=20180719"></script>
+<script type="text/javascript">
+    showPage(1, 5, 83, true, 'page');
+    var keywords = '%E5%88%A0%E9%99%A4%2F%E6%9B%B4%E6%96%B0%E5%BF%AB%E7%85%A7';
+    $(function () {
+        searchPage.init(keywords);
+    });
+</script>
+
+</body>
+
+
+</html>

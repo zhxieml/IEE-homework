@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>百度杀毒—主动防御、实时监控、自主查杀，更快更安全</title>
+    <meta name="keywords" content="百度杀毒 卡巴芯 百度云 不骚扰 不胁迫 不窃取 免费 轻巧 不死机。"/>
+    <meta name="description" content="百度杀毒是百度公司全新出品的专业杀毒软件，秉持不骚扰、不胁迫、不窃取的三不原则，依托百度强大的云端计算、海量数据学习能力与百度自主研发的反病毒引擎专业能力，让你拥有“极速扫描”、“闪电查杀”，轻巧不卡机的产品体验。"/>
+    <link href="//img1sw.baidu.com/statics/shaduMain/v3.1.0/imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- build:css({.tmp,shadu-src}) /css/index.css -->
+    <link rel="stylesheet" href="//img1sw.baidu.com/statics/shaduMain/v3.1.0/css/main-82e2873f.css">
+    <!-- endbuild -->
+
+    <!--[if IE 8]><script  src="//img1sw.baidu.com/statics/shaduMain/v3.1.0/js/commons/html5shiv-831d9bca.js"></script><![endif]-->
+    <!--[if lte IE 7]>
+        <script  src="//img1sw.baidu.com/statics/shaduMain/v3.1.0/js/commons/html5shiv-831d9bca.js"></script>
+        <link rel="stylesheet" href="http://img5sw.baidu.com/min/common/css/ie67_v1.0.css" />
+        <script type="text/javascript" src="http://img5sw.baidu.com/min/common/js/ie67_v1.0.js"></script>
+    <![endif]-->
+    <script type="text/javascript"> var _hmt = _hmt || [];</script>
+
+
+</head>
+<body>
+<header class="header">
+    <div class="header_cnt">
+        <h1 class="logo"></h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#" class="on">首页</a></li>
+                <li class="split"></li>
+                <li><a href="/shadu/update.html" onclick="_hmt.push(['_trackPageview', '/shadu/nav_log']);">更新日志</a></li>
+                <li class="split"></li>
+                <li><a href="/shadu/help.html" onclick="_hmt.push(['_trackPageview', '/shadu/nav_help']);">使用帮助</a></li>
+                <li class="split"></li>
+                <li><a href="/anquan/index.html" target="_blank" onclick="_hmt.push(['_trackPageview', '/shadu/nav_anquan']);">安全中心</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="container">
+    <div class="sec1 setwinh">
+        <h2 class="summary">百度杀毒<span>5</span>执着于心</h2>
+        <h3 class="summary-tips">安静的，坚守您的电脑安全。</h3>
+        
+    </div>
+    <div class="sec2" id="sec_jx" style="display: none;">
+        <h2 class="title clo_black">匠心</h2>
+        <h3 class="subtitle clo_subblack">全新界面 极致的轻快体验    </h3>
+        <p class="subsubtitle clo_subsubblack">我们不断打磨每个细节，追求更极致的体验。不仅想成为好用的安全软件，更希望成为您信赖的朋友。</p>
+        <div class="switchbar">
+            <div class="switch-img" id="switch_imgs">
+            </div>
+            <div class="switch-num"></div>
+        </div>
+    </div>
+    <div class="sec3 sec3-bg" data-cname="sec3-bg" style="display: none;">
+        <h2 class="title col_white">信心</h2>
+        <h3 class="subtitle col_white">新一代雪狼引擎 更强、更智能</h3>
+        <p class="subsubtitle col_blue">我们不断突破技术瓶颈，首创智能化引擎识别技术，全面根除病毒残留痕迹，解决病毒死灰复燃的问题。</p>
+        <div id="circlebar">
+            <div class="circle_wrap circle_icon load-bg" data-cname="circle_wrap-bg"></div>
+            <div class="circle_moon circle_icon load-bg" data-cname="circle_moon-bg"></div>
+            <div class="circle_line circle_icon load-bg" data-cname="circle_line-bg"></div>
+            <div class="circle_j circle_icon load-bg" data-cname="circle_j-bg"></div>
+            <div class="circle_wolf load-bg" data-cname="circle_wolf-bg"></div>
+        </div>
+    </div>
+    <div class="sec2 sec22" style="display: none;">
+        <h2 class="title clo_black">静心</h2>
+        <h3 class="subtitle clo_black">弹窗拦截 静心守护</h3>
+        <p class="subsubtitle clo_subsubblack">我们不会容忍恶意骚扰，创新推出弹窗精准拦截功能，全面拦截软件弹窗，陪您享受清静的网络世界。</p>
+        <div class="winbar" id="winbar">
+
+        </div>
+    </div>
+
+    <div class="sec4 sec4-bg" data-cname="sec4-bg" style="display: none;">
+        <h2 class="title col_white">初心</h2>
+        <h3 class="subtitle col_white">安静源于内心的自信</h3>
+        <p class="subsubtitle col_blue">我们不会有多余的弹窗，也绝不捆绑安装软件，安静的捍卫您的电脑安全是唯一任务。</p>
+        <div class="btn_btdownload" id="">
+            <a href="http://w.x.baidu.com/go/mini/2/10100" class="download-url" onclick="_hmt.push(['_trackPageview', '/shadu/bottom_download']);"><i></i><span class="download-txt">立即下载</span></a>
+        </div>
+    </div>
+</div>
+<div class="foot">
+    <div class="fcnt">
+        <div class="pfcnt">
+            <div class="fcnt-unit">
+                <h3>产品站点</h3>
+                <ul>
+                    <li><a href="/weishi/" target="_blank" onclick="_hmt.push(['_trackPageview', '/weishi/link_weishi']);">百度卫士</a></li>
+                    <li><a href="/shadu/"onclick="_hmt.push(['_trackPageview', '/weishi/link_shadu']);">百度杀毒</a></li>
+                    <li><a href="http://liulanqi.baidu.com/" target="_blank" onclick="_hmt.push(['_trackPageview', '/weishi/link_llq']);">百度浏览器</a></li>
+                    <li><a href="http://rj.baidu.com/" target="_blank" onclick="_hmt.push(['_trackPageview', '/weishi/link_soft']);">软件中心</a></li>
+                </ul>
+            </div>
+            <div class="fcnt-unit">
+                <h3>关于我们</h3>
+                <ul>
+                    <li><a href="/anquan/index.html" target="_blank">了解安全中心</a></li>
+                    <li><a href="/bbs/thread-139307-1-1.html?status=1" target="_blank">联系我们</a></li>
+                    <li><a href="/bbs/index/" target="_blank">安全论坛</a></li>
+                    <li><a href="/shadu/shadu_form.html" target="_blank">申诉误报</a></li>
+                </ul>
+            </div>
+            <div class="fcnt-unit fcnt-unit-last">
+                <h3>联系我们</h3>
+                <ul>
+                    <!-- li>400-810-8198</li> -->
+
+                    <li>客服时间10:00-17:00</li>
+                    <li><a href="javascript:void(0);"  class="iweixi" id="iweixi"></a><a href="http://weibo.com/baidushadu"  class="isina" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="foot-info">
+<span>©2016 Baidu<span><span class="split">|</span><a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a><span class="split">|</span><a href="/weishi/privacy.html" target="_blank">百度卫士用户使用许可协议</a><span class="split">|</span><a href="/shadu/privacy.html" target="_blank">百度杀毒用户使用许可协议</a>
+</div>
+<iframe src="" style="width: 0; height: 0; display: none;" id="download_furl"></iframe>
+<div class="brbar" id="brbar">
+    <a href="#" class="to-top"></a>
+</div>
+<script type="text/template" id="tpl_weixinma"><div class="weixinma" id="weixinma" style="left:{left}px;top:{top}px"><p>加百度安全微信好友</p></div></script>
+
+
+<!-- build:js({.tmp,shadu-src}) /js/index-f794d23d.js -->
+<script type="text/javascript" src="//img1sw.baidu.com/statics/shaduMain/v3.1.0/js/commons/jquery-1.9.0-7aba8039.js"></script>
+<script type="text/javascript">
+        var statics = "//img1sw.baidu.com/statics/shaduMain/v3.1.0";
+        var domain = "//anquan.baidu.com"+"";
+</script>
+<script type="text/javascript" src="//img1sw.baidu.com/statics/shaduMain/v3.1.0/js/index-f794d23d.js"></script>
+<!-- endbuild -->
+<script type="text/javascript">
+    //统计脚本
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F76d2e9efb74a8a3c384d120077fcccbe' type='text/javascript'%3E%3C/script%3E"));
+
+    _hmt.push(['_trackPageview', '/_site_uv']);
+    _hmt.push(['_trackPageview', '/_site_uv_shadu']);
+
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?a7f8f2d2af1b1b81723ffb82fdc5cf97";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+</script>
+</body>
+</html>

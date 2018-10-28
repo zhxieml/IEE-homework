@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="X-ZA-Response-Id" content="eb3f8b844b41bfadaa9a380b88ff2bf">
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<meta name="renderer" content="webkit" />
+<meta name="description" content="中文互联网最大的知识平台，帮助人们便捷地分享彼此的知识、经验和见解。"/>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<title>知乎 - 发现更大的世界</title>
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon" />
+<link rel="dns-prefetch" href="p1.zhimg.com"/>
+<link rel="dns-prefetch" href="p2.zhimg.com"/>
+<link rel="dns-prefetch" href="p3.zhimg.com"/>
+<link rel="dns-prefetch" href="p4.zhimg.com"/>
+<link rel="dns-prefetch" href="comet.zhihu.com"/>
+<link rel="dns-prefetch" href="static.zhihu.com"/>
+<link rel="dns-prefetch" href="upload.zhihu.com"/>
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/pages/unlogin-index/main.f214513a.css">
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+<meta name="baidu-site-verification" content="KPFppAFoYF4Kkdv9" />
+<meta property="qc:admins" content="00544670776201056375" />
+<link rel="canonical" href="http://www.zhihu.com" />
+<meta id="znonce" name="znonce" content="8bc7d484a61a43f6b5e54c00b4c5bc98">
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+</head>
+<body class="zhi ">
+
+
+
+
+<div class="index-main-org">
+<div class="index-main-body-org">
+<div class="index-header-org">
+<h1 class="org-logo hide-text">知乎</h1>
+
+<div class="index-header-org-right">
+<a target="_blank" href="http://zhstatic.zhihu.com/org/org-account-guide-2018.pdf">机构号开通指南</a>
+<span class="divider"></span>
+已有帐号？
+<a href="/signin?no_qrcode=1">登录</a>
+</div>
+
+</div>
+
+<div class="desk-front sign-flow sign-flow-org clearfix sign-flow-simple">
+
+
+
+<div class="view view-signin" data-za-module="SignInForm">
+<form method="POST">
+<input type="hidden" name="_xsrf" value="c8632f71c13fe39cfa8f2a7326ea2ce2"/>
+<div class="group-inputs">
+
+<div class="account input-wrapper">
+
+<input type="text" name="account" aria-label="邮箱" placeholder="邮箱" required>
+</div>
+<div class="verification input-wrapper">
+<input type="password" name="password" aria-label="密码" placeholder="密码" required /><button type="button" class="send-code-button">获取验证码</button>
+</div>
+
+<div class="Captcha input-wrapper" data-type="cn" data-za-module="Captcha">
+<div class="Captcha-operate">
+<input type="hidden" name="captcha" required data-rule-required="true" data-msg-required="请点击图中所有倒立的文字">
+<input type="hidden" name="captcha_type" value="cn" required>
+<label class="Captcha-prompt">请点击图中所有倒立的文字</label>
+<span class="Captcha-refresh js-refreshCaptcha sprite-index-icon-refresh"></span>
+</div>
+<div class="Captcha-imageConatiner">
+<img class="Captcha-image" alt="验证码" >
+</div>
+</div>
+
+</div>
+<div class="button-wrapper command">
+<button class="sign-button submit" type="submit">登录</button>
+</div>
+<div class="signin-misc-wrapper clearfix">
+
+<a class="unable-login" href="#">无法登录？</a>
+</div>
+
+</form>
+
+
+<div class="QRCode">
+<button class="QRCode-toggleButton">
+<span class="sprite-global-icon-qrcode"></span>
+<span class="QRCode-toggleButtonText ">下载知乎 App</span>
+</button>
+<div class="QRCode-card">
+<div class="QRCode-image"></div>
+<div class="sprite-index-icon-arrow"></div>
+</div>
+</div>
+
+
+</div>
+<div class="view view-org view-signup-org view-signup selected" data-za-module="SignUpForm">
+
+<div class="signup-intro">
+<span class="signup-intro-title">知乎机构号</span>
+<span class="signup-intro-slogan">用知识，连接世界</span>
+<p class="signup-intro-desc">知乎机构号是基于知乎社区生态体系设计的、机构用户专属的知乎帐号。支持提问、回答、写文章等8大功能，实现机构号在社区的互动沟通与传播。更有多重营销工具和运营工具，助力机构号高效成长与传播。<br><br><a target="_blank" href="//zhstatic.zhihu.com/org/org-introduction-2017.08.pdf">了解更多</a></p>
+</div>
+
+<form class="zu-side-login-box" action="/register/email" id="sign-form-1" autocomplete="off" method="POST">
+<input type="password" hidden> 
+<input type="hidden" name="_xsrf" value="c8632f71c13fe39cfa8f2a7326ea2ce2"/>
+
+<span class="signup-title">注册机构号</span>
+
+<div class="group-inputs">
+
+
+<div class="email input-wrapper">
+<input required type="text" class="account" name="account"
+aria-label="机构或企业官方邮箱" placeholder="机构或企业官方邮箱">
+</div>
+<div class="input-wrapper">
+<input required type="password" name="password" aria-label="密码" placeholder="密码（不少于 8 位）" autocomplete="off">
+</div>
+
+
+<div class="Captcha input-wrapper" data-type="cn" data-za-module="Captcha">
+<div class="Captcha-operate">
+<input type="hidden" name="captcha" required data-rule-required="true" data-msg-required="请点击图中所有倒立的文字">
+<input type="hidden" name="captcha_type" value="cn" required>
+<label class="Captcha-prompt">请点击图中所有倒立的文字</label>
+<span class="Captcha-refresh js-refreshCaptcha sprite-index-icon-refresh"></span>
+</div>
+<div class="Captcha-imageConatiner">
+<img class="Captcha-image" alt="验证码" >
+</div>
+</div>
+
+</div>
+<div class="button-wrapper command">
+<button class="sign-button submit" type="submit">注册</button>
+</div>
+
+<p class="agreement-tip agreement-tip--org">
+注册即代表同意
+<a href="/org_service_agreement" target="_blank">《知乎机构号入驻服务协议》</a>
+<a href="/terms/privacy" target="_blank">《隐私政策》</a>
+</p>
+
+</form>
+
+</div>
+</div>
+</div>
+
+
+<div class="footer">
+<a target="_blank" href="https://zhuanlan.zhihu.com">知乎专栏</a>
+<span class="dot">·</span>
+<a target="_blank" href="/roundtable">知乎圆桌</a>
+<span class="dot">·</span>
+<a target="_blank" href="/explore" data-za-c="explore" data-za-a="visit_explore" data-za-l="home_bottom_explore">发现</a>
+<span class="dot">·</span>
+<a target="_blank" href="/app">移动应用</a>
+<span class="dot">·</span>
+<a href="/contact" class="footer-mobile-show">联系我们</a>
+<span class="dot">·</span>
+<a target="_blank" href="/careers">来知乎工作</a>
+<span class="dot">·</span>
+<a target="_blank" href="/org/signup">注册机构号</a>
+<br />
+<span>&copy; 2018 知乎</span>
+<span class="dot">·</span>
+<a href="http://www.miibeian.gov.cn/" target="_blank">京 ICP 证 110745 号</a>
+<span class="dot">·</span>
+<span>京公网安备 11010802010035 号</span>
+<span class="dot">·</span>
+<a href="http://zhstatic.zhihu.com/assets/zhihu/publish-license.jpg" target="_blank">出版物经营许可证</a>
+<br />
+<a target="_blank" href="https://zhuanlan.zhihu.com/p/28852607">侵权举报</a>
+<span class="dot">·</span>
+<a target="_blank" href="http://www.12377.cn">网上有害信息举报专区</a>
+<span class="dot">·</span>
+<a target="_blank" href="/jubao">儿童色情信息举报专区</a>
+<span class="dot">·</span>
+<span>违法和不良信息举报：010-82716601</span>
+<div class="chengxing">
+<a id='___szfw_logo___' href='https://credit.szfw.org/CX20170607038331320388.html' target='_blank'>
+<img src="https://static.zhihu.com/static/revved/img/index/chengxing_logo@2x.65dc76e8.png" border='0' />
+</a>
+<script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+</div>
+</div>
+
+
+</div>
+
+
+<script type="text/json" class="json-inline" data-name="is_org_page">true</script>
+
+
+<script type="text/json" class="json-inline" data-name="disabled_components">["back_to_top"]</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1539183731000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-index.0c91eeec.js"></script>
+<meta name="entry" content="ZH.entrySignPage" data-module-id="page-index">
+
+
+<input type="hidden" name="_xsrf" value="c8632f71c13fe39cfa8f2a7326ea2ce2"/>
+</body>
+</html>

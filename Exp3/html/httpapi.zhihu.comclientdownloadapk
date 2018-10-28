@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>知乎</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
+<link rel="shortcut icon" href="http://static.zhihu.com/static/img/favicon.ico" />
+</head>
+<body>
+<p id="prompt"></p>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-20961733-1']);
+_gaq.push(['_setSampleRate', '0.1']);
+_gaq.push(['_trackPageview', document.location.pathname + document.location.search ]);
+var _zao = _zao || { uid: 0 };
+function createFrame(u){
+window.location.replace(u);
+//var obj = document.createElement('iframe');obj.style.height = '1px';obj.style.display = 'none';obj.src = u;
+//document.body.appendChild(obj);return obj;
+setTimeout(function () {
+if (window.location.href == u) {
+var n = document.getElementById('prompt'); n.textContent = '跳转成功';
+}
+}, 300);
+}
+function getParameterByName(name, url) {
+if (!url) {
+url = window.location.href;
+}
+name = name.replace(/[\[\]]/g, "\\$&");
+var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+results = regex.exec(url);
+if (!results) return null;
+if (!results[2]) return '';
+return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+var za = document.createElement('script'); za.type = 'text/javascript'; za.async = true;
+za.src = 'http://static.analytics.zhihu.com/static/za.js?v=4';
+s.parentNode.insertBefore(za, s);
+var isload = false;
+function load() {
+if (isload) return;
+isload = true;
+createFrame('https://pkg.zhimg.com/zhihu/futureve-mobile-apk-release-5.27.1(933).apk');
+}
+function checkIfAnalyticsLoaded() {
+if (((window._gat && window._gat._getTracker) || window.urchinTracker) && isTrackUrlLoaded) {
+load();
+} else {
+// Probably want to cap the total number of times you call this.
+setTimeout(function () {checkIfAnalyticsLoaded();}, 300);
+}
+}
+checkIfAnalyticsLoaded();
+var isTrackUrlLoaded = false
+var trackUrl = 'https://api.zhihu.com/channel/ad/ge9/link?auth_key=6d13269a14bc76e18df43f05283cf545'
+var utmCampaign = getParameterByName('utm_campaign')
+var utmContent = getParameterByName('utm_content')
+if (utmContent) trackUrl += '&pub_id=' + utmContent
+if (utmCampaign === 'ge9') {
+var trackImage = new Image()
+trackImage.onload = function () {
+isTrackUrlLoaded = true
+}
+trackImage.src = trackUrl
+} else {
+isTrackUrlLoaded = true
+}
+setTimeout(function () { load(); }, 2000);
+})();
+</script>
+</body>
+</html>

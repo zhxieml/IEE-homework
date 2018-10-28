@@ -1,0 +1,750 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<style>
+		html,body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, code,em, img, q, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+		img{border:none;}
+		li{list-style:none;}
+		table{ border-collapse:collapse; width:100%;}
+		body{ font-family: Arial,'微软雅黑'; font-size:14px; color:#000; background-color:#FFF;}
+		a{ text-decoration:none;color:#000;}
+		a:hover{text-decoration:underline;}
+		a:active{color:green;}
+
+		.hide{ display:none;}
+		.gray-bg{ background-color:#EFEDED;}
+		.em{color:#054da1;}
+		.cls:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+		.cls{zoom:1;}
+		/*---all---*/
+		.hd,.bd,.ft{text-align:center;}
+		.hd{border-bottom:2px solid #32AF00;background:url(http://www.hao123.com/redian/images/m-hd-main-bg.png) repeat-x;height:89px;}
+		.hd-inner{width:960px;margin:0 auto;position:relative;}
+		.ft{ text-align:center; color:#999; font-size:12px; margin-top:15px; padding-bottom:15px;}
+
+		.searchfod1 {font-weight: bold; color: #05974c; text-align:center; width:49px; font-size:14px}
+		.searchfod2 {cursor: pointer; text-align:center; width:49px; font-size:14px}
+
+		.logo{position:absolute; top:20px; left:0;}
+		.m-hd-search{position:absolute; top:42px; left:240px;}
+		.m-hd-search_color_gray{ color:#CECECE;}
+		.m-hd-search_d{ display:block; background:url(http://www.hao123.com/redian/images/m-hd-search-decorated-bg.png) no-repeat; height:28px; width:2px;}/*d-> decorated*/
+		.m-hd-search_text{background:url(http://www.hao123.com/redian/images/m-hd-search-text-bg.png) repeat-x; width:342px; outline:none; padding:7px 0px 6px 7px;border:none; height:28px}
+		.m-hd-search_btn{ height:28px; width:95px;background:url(http://www.hao123.com/redian/images/m-hd-search-btn-bg.png) no-repeat; border:none; outline:none; cursor:pointer;}/*btn-button*/
+		.m-hd-search_table{ width:auto;}
+
+		.search-list{position:absolute;left:240px;top:20px;}
+		.search-list li{float:left;}
+
+		.ft .links{height:24px;}
+		.ft .links a{color:#666;}
+		.ft .feedback a{color:#0053a5;}
+		/*---content---*/
+		.main{width:960px;text-align:left;margin:15px auto 0;color:#666;font-size:14px;}
+		.topbar{margin:8px 0;font-size:12px;}
+		.content{width:958px;border:solid 1px #dfdfe0;border-top:none;}
+		.location{float:left;}
+		.tool-box{float:right;}
+		.set-home,.response,.font{display:inline-block;padding:0 5px 0 20px;background:url(http://www.hao123.com/redian/images/icon.png) no-repeat;}
+		.set-home{background-position:0 -40px;}
+		.response{background-position:6px -70px;padding-left:24px;}
+		.font{background-position:8px -101px;}
+
+
+		.title-bar .item-content{padding:0 70px 25px;background-color:#f8fafc;height:65px;}
+		.title-bar .item-title{height:39px;line-height:38px;font-size:14px;font-weight:bold;background:url(http://www.hao123.com/redian/images/bg_sprites.png) repeat-x;}
+		.title-bar .item-inner{padding-top:25px;}
+		.title-bar .item-inner-title{margin-bottom:10px;}
+
+
+		.item{margin-bottom:2px;}
+		.item .item-content .item-inner{padding:0 70px 25px;}
+		.item .item-intro{height:36px;margin:13px;padding-left:40px;line-height:36px;background-color:#f1f1f1;}
+		.item .item-title{display:block;height:42px;line-height:42px;color:#054da1;font-size:14px;}
+
+		.icon-title{display:inline-block;float:left;height:38px;width:45px;background:url(http://www.hao123.com/redian/images/icon.png) no-repeat 13px 8px;}
+		/*展开样式*/
+		.extend{background:url(http://www.hao123.com/redian/images/bg_title.png) repeat-x 0px 0px;}
+		.extend:hover{background-color:#f0f0f0;background-position:0 -72px;}
+		.extend .icon-title{background:url(http://www.hao123.com/redian/images/icon_extend.png) no-repeat 11px 9px;}
+		.extend:hover .icon-title{background-position:11px -76px;}
+		/*收缩样式*/
+		.folder{background:url(http://www.hao123.com/redian/images/bg_title.png) repeat-x 0px -141px;}
+		.folder:hover{background-color:#f0f0f0;background-position:0 -72px;}
+		.folder .icon-title{background:url(http://www.hao123.com/redian/images/icon_extend.png) no-repeat 11px -33px;}
+		.folder:hover .icon-title{background-position:11px -120px;}
+
+		.item .item-inner{position:relative;}
+		.item .item-inner .down-img{position:absolute;top:5px;right:20px;line-height:41px;}
+		.item .item-inner-title{margin-bottom:10px;line-height:34px;}
+
+		a.link-img{display:inline-block;outline:none;text-indent:-999em;height:32px;width:177px;background:url(http://www.hao123.com/redian/images/quick.png) no-repeat 0 7px;}
+		a.link-hao123img{display:inline-block;outline:none;text-indent:-999em;height:32px;width:177px;background:url(http://www.hao123.com/redian/images/juziliulanqi.png) no-repeat 0 1px;}
+		/*浏览器icon*/
+		.icon-bro{display:inline-block;height:38px;width:27px;float:left;background:url(http://s0.hao123img.com/res/images/icon_browser04.png) no-repeat;}
+		.ico-liebao{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/liebao.JPG) no-repeat 0 10px;}
+        .ico-hao123{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/baidu.png) no-repeat 0 10px;}
+		.ico-ie{background-position:0 10px;}
+                .ico-juzi{background: url(http://www.hao123.com/redian/juzi.png) no-repeat 0 7px;}
+		.ico-360{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/360.png) no-repeat 0 10px;}
+		.ico-360js{background-position:0 -70px;}
+		.ico-aoyou{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/aoyou.png) no-repeat 0 10px;}
+		.ico-sougou{background-position:0 -151px;}
+		.ico-qq{background-position:0 -194px;}
+		.ico-tt{background-position:0 -231px;}
+		.ico-ff{display:inline-block;height:38px;width:27px;float:left;background:url(http://www.hao123.com/redian/images/huohu2014.png) no-repeat 0 10px;}
+		.ico-chrome{background-position:0 -317px;}
+		.ico-opera{background-position:0 -357px;}
+		.ico-world{background-position:0 -400px;}
+		.ico-safari{background-position:0 -440px;}
+		.ico-green{background-position:0 -480px;}
+                .ico-worldjs{background-position:0 -555px;}
+		.ico-kr{background-position:0 -520px;}
+		.ico-greenjs{background-position:0 -480px;}
+
+
+	</style>
+<base target="_blank">
+<title>hao123设首问题_hao123上网导航</title>
+<script src="http://www.hao123.com/js/base.js"></script>
+<script src="http://www.hao123.com/js/config_201106211200.js"></script>
+<script src="http://www.hao123.com/js/usertrack.js"></script>
+</head>
+<body>
+<SCRIPT  language=javascript>
+    (function (WIN) {
+        var host = 'http://www.hao123.com/images/track.gif',
+			hash = WIN.location.hash.substring(1),
+			data = {
+			    "level": "2",
+			    "page": "sheshouyef"
+			};
+
+        WIN.sendUserTrack = function (o) {
+            var k, undef;
+            if (!o) return;
+            for (k in o) {
+                o[k] != undef && (data[k] = o[k]);
+            }
+            UserTrack.send(data, host);
+        };
+
+        hash && sendUserTrack({
+            "type": "access",
+            "position": hash
+        });
+    })(this);
+
+
+    var haoCurrHighLight = document.getElementById("haoweb");
+    function trim(str) {
+        return str.replace(/(^\s*)|(\s*$)/g, "");
+    }
+    function setStyle(a, b) {
+        var c = document.styleSheets[0];
+        if (c.addRule) {
+            c.addRule(a, b);
+        } else if (c.insertRule) {
+            c.insertRule(a + " { " + b + " }", c.cssRules.length);
+        }
+    }
+    function haoValidate(source) {
+        wval = trim(f.word.value);
+        changeIputName("word");
+        if (f.sc.value == "post") {
+            f.kw.value = f.word.value
+            f.ct.value = ""
+            f.tn.value = ""
+            f.rn.value = ""
+            f.lm.value = ""
+            f.rs2.value = 0
+            f.myselectvalue.value = 1
+            f.ie.value = ""
+            f.cl.value = ""
+            f.z.value = ""
+            f.from.value = ""
+        }
+        if (f.sc.value == "img") {
+            f.ct.value = 201326592
+            f.lm.value = -1
+            f.cl.value = 2
+            f.tn.value = "baiduimage"
+            f.pv.value = ""
+            f.rs2.value = ""
+            f.myselectvalue.value = ""
+            f.ie.value = ""
+            f.z.value = 0
+            f.rn.value = ""
+            f.from.value = ""
+            f.f.value = ""
+        }
+        if (f.sc.value == "zhidao") {
+            f.ct.value = 17
+            f.tn.value = "ikaslist"
+            f.rn.value = 10
+            f.lm.value = ""
+            f.cl.value = ""
+            f.ie.value = ""
+            f.rs2.value = ""
+            f.f.value = ""
+            f.myselectvalue.value = ""
+            f.z.value = ""
+            f.from.value = ""
+        }
+        if (f.sc.value == "web") {
+            f.cl.value = 3
+            f.tn.value = "hao123"
+            f.ct.value = 0
+            f.ie.value = "gb2312"
+            f.myselectvalue.value = ""
+            f.rn.value = ""
+            f.rs2.value = ""
+            f.z.value = ""
+            f.from.value = ""
+            f.lm.value = ""
+        }
+        if (f.sc.value == "mp3") {
+            changeIputName("key");
+            f.ct.value = 134217728;
+            f.lm.value = -1;
+            f.rn.value = "";
+            f.cl.value = "";
+            f.tn.value = "baidump3";
+            f.f.value = "ms";
+            f.myselectvalue.value = "";
+            f.ie.value = "gb2312";
+            f.z.value = "";
+            f.from.value = "";
+            f.fr.value = "hao123";
+        }
+        if (f.sc.value == "news") {
+            f.tn.value = "news"
+            f.cl.value = 2
+            f.rn.value = 20
+            f.ct.value = 0
+            f.z.value = ""
+            f.from.value = "news"
+            f.ie.value = ""
+            f.myselectvalue.value = ""
+            f.lm.value = ""
+            f.rs2.value = ""
+        }
+        return true;
+    }
+    function changeIputName(flag) {
+        if (flag == "key") {
+            G("kww").name = "key";
+        } else {
+            G("kww").name = "word";
+        }
+    }
+    function haoSubSearch(sc) {
+        changePage(sc);
+        if (sc != "baidu") {
+            if (sc == "post") {
+                f.action = "http://tieba.baidu.com/f";
+
+            }
+            else if (sc == "zhidao") {
+                f.action = "http://zhidao.baidu.com/q";
+
+            }
+            else if (sc == "mp3") {
+                f.action = "http://music.baidu.com/search";
+
+            }
+            else if (sc == "img") {
+                f.action = "http://image.baidu.com/i";
+
+            }
+            else if (sc == "news") {
+                f.action = "http://news.baidu.com/ns";
+
+            }
+            else if (sc == "video") {
+                f.action = "http://video.baidu.com/v";
+
+            }
+            else {
+                f.action = "http://www.baidu.com/s";
+
+            }
+            f.sc.value = sc;
+        }
+        else {
+            f.sc.value = "post";
+            haoGoSoba();
+        }
+    }
+
+    function haoGoSoba() {
+
+        f.action = "http://www.baidu.com/s";
+        f.kw.value = f.word.value;
+    }
+    function G(id) {
+        return document.getElementById(id);
+    }
+    function changePage(sc) {
+        if (haoCurrHighLight == null) {
+            haoCurrHighLight = document.getElementById("haoweb");
+        }
+        haoCurrHighLight.className = "searchfod2";
+        haoCurrHighLight = document.getElementById("hao" + sc);
+        haoCurrHighLight.className = "searchfod1";
+//        document.f.word.focus()
+        f.word.value = "";
+    }
+    function isSoba() {
+        if (haoCurrHighLight == document.getElementById("haosoba")) {
+            haoGoSoba();
+            return true;
+        }
+        else {
+            return true;
+        }
+    }
+    function goSearch() {
+        if (!haoValidate(1)) {
+            return false;
+        }
+        else {
+            return false;
+        }
+    }
+
+</SCRIPT>
+<div class="hd">
+	<div class="hd-inner">
+		 <div class="logo"><a href="http://www.hao123.com" id="setHome" target="_self" class="m"><img src="http://www.hao123.com/redian/images/logo_new.gif" alt="hao123网址之家www.hao123.com" border="0"></a></div>
+		 <div class="search">
+				<ul class="search-list"><li  valign=bottom class=searchfod1 id=haoweb onClick="haoSubSearch('web');goSearch()">网页</li><li valign=bottom class=searchfod2 id=haomp3 onClick="haoSubSearch('mp3');goSearch()">音乐</li> <li width="4"></li><li valign=bottom   class=searchfod2 id=haoimg onClick="haoSubSearch('img');goSearch()">图片</li><li valign=bottom class=searchfod2 id=haopost onClick="haoSubSearch('post');goSearch()">贴吧</li><li  valign=bottom class=searchfod2 id=haozhidao onClick="haoSubSearch('zhidao');goSearch()">知道</li><li  valign=bottom class=searchfod2 id=haonews onClick="haoSubSearch('news');goSearch()">新闻</li><li valign=bottom class=searchfod2 id=haovideo onClick="haoSubSearch('video');goSearch()">视频</li><li  width=240 valign=bottom> </li></ul>
+				<form onSubmit="return haoValidate();" action=http://www.baidu.com/s name=f id="search-form" target="_blank" class="m-hd-search">
+			  	   <table class="m-hd-search_table">
+					  <tbody><tr>
+					    <td><span class="m-hd-search_d"></span></td>
+	   					<td><input type="text" tabindex="1" id="kww" name="word" autocomplete="off" class="m-hd-search_text kw" value=""></td>
+    					<td><input type="submit" tabindex="2" class="m-hd-search_btn" value="" id="search-btn" class="sb"></td>
+  					  </tr>
+					</tbody></table>
+                    <div id="search-args" style="display:none">
+                        <input type="hidden" name="kw">
+						<input type="hidden" name="sc" value="web">
+						<input type="hidden" value="3" name="cl">
+						<input type="hidden" value="hao123" name="tn">
+						<input type="hidden" name="ct" value="0">
+						<input type="hidden" name="rn" value="">
+						<input type="hidden" name="lm" value="">
+						<input type="hidden" name="boxpos" value="hao123-netbuy">
+						<input type="hidden" name="ie" value="gb2312">
+						<input type="hidden" name="rs2" value="">
+						<input type="hidden" name="myselectvalue" value="">
+						<input type="hidden" name="f" value="ms">
+						<input type="hidden" name="pv">
+						<input type="hidden" name="z" value="">
+                        <input type="hidden" name="fr" value="">
+						<input type="hidden" name="from" value="">
+                    </div>
+			  </form>
+		</div>
+	</div>
+</div>
+
+  <div class="bd">
+	<div class="main">
+		<div class="content" id="content">
+			<div class="title-bar">
+				<h3 class="item-title" style="position:relative;"><span class="icon-title"></span>如何手动设置hao123为主页</h3>
+			</div>
+                        <div class="item">
+				<a href="#01" target="_self" name="01" class="item-title extend"><span class="icon-title"></span><span class="icon-bro ico-ie"></span>IE浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">
+						  <p>按照如下方式操作：<br>
+						  1、打开IE浏览器，点击工具 - Internet选项，如图所示：<br>
+						  <img src="http://s0.hao123img.com/res/r/image/2017-03-13/1d59a78934be9c0db7b7ddb26681ec65.png" width="567" height="283" class="pcbottom"><br>
+						  2、选择常规选项，在地址栏里输入<a class="em" href="https://www.hao123.com/"> https://www.hao123.com/ </a><br>
+						  <img width="424" height="505" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-13/ae834ded3d6ed80dc8db5d272d5de75a.png" hao123=""><br>
+						  3、点击确定后，重启浏览器后主页就是 hao123 了。<br>
+						  4、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<a href="#02" target="_self" name="01" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-chrome"></span>Chrome浏览器</a>
+				<div class="item-content" style="display: block;">
+
+					<div class="item-inner">
+						<div class="item-inner-title">
+						  <p>按照如下方式操作：<br>
+						  1、打开Chrome浏览器，点击自定义及控制Google Chrome—设置，如图所示：<br>
+						  <img src="https://gss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-12-19/35f85402d5763e39c8cb6ae941f76800.png" width="432" height="476" class="pcbottom"><br>
+						  2、选择 打开特定网页或一组网页。点击 设置网页，输入https://www.hao123.com/，确定即可。<br>
+						  <img width="554" height="255" class="pcbottom" src="https://gss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-12-19/fff5813bd4eb43413b59e4f990a2d48a.jpg"><br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+            <p></p>
+
+
+
+			<p></p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="item">
+				<a href="#03" target="_self" name="02" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-360"></span>360浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">按照如下方式操作：<br>1、打开浏览器，打开菜单-选项/设置，如图所示：<br>
+<img width="392 height="431" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-13/3f1d6941ae68723c2e46034ae7a14600.jpg"><br>
+2、点击修改主页，输入https://www.hao123.com/，确定即可。<br>
+<img width="670" height="430" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-13/df6daa2e75496198dac4e06f655acfee.png">
+						  <br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+						  <ul>
+
+
+					      </ul>
+					  </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<a href="#04" target="_self" name="05" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-qq"></span>QQ浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">按照如下方式操作：<br>1、	打开QQ浏览器，点击菜单-设置，如图所示：<br><img class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-13/72bc09d676aaceac8085779a77ab6efe.png">
+<br>2、	选择主页，在自定义网站里输入https://www.hao123.com/，确定即可。<br><img class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/2527fb22eb43a4fd18763a1906ef6da3.png"><br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+						  <ul>
+
+
+					      </ul>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href="#05" target="_self" name="14" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-sougou"></span>搜狗浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">按照如下方式操作：<br>1、打开搜狗浏览器，点击菜单里的工具 - 选项，如图所示：<br><img width="488" height="278" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-13/27501e490cc47688c9912bb54e1c627a.png"><br>2、选择自定义标签，输入https://www.hao123.com/，设置自动保存。<br><img width="670" height="365" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-13/5f18e2d5b2f8a47612d347c482995e69.png"><br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+						  <ul></ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<a href="#06" target="_self" name="16" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-liebao"></span>猎豹浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">按照如下方式操作：<br>1、打开猎豹浏览器，点击浏览器图标-选项/设置，如图所示：<br><img width="316" height="564" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-13/d3eeef187a275188f38248d7154b60af.png"><br>2、	选择打开主页标签，在主页设置里输入https://www.hao123.com/，设置自动保存，重启浏览器即可。<br><img width="786" height="374" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-13/12d2f05b1a62262f718a420628ba44ec.png"><br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<a href="#07" target="_self" name="09" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-hao123"></span>百度浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">按照如下方式操作：<br>1、	打开百度浏览器，菜单-浏览器设置，如图所示：<br><img width="482" height="555" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/976804def3d48641ffbe90ce8bec31cb.png"><br>
+						  2、在主页内输入 http://www.hao123.com/ ，设置自动保存。<br>
+<img width="482" height="300" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/d4e77ac5bcc51008183269975bbc8491.png"><br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+						  <ul>
+
+
+					      </ul>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href="#08" target="_self" name="10" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-ff"></span>Firefox浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">按照如下方式操作：<br>1、打开Firefox浏览器，打开菜单—选项，如图所示：<br><img width="363" height="549" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/a6d5bd9baea5f1dcf86f26a73516f527.png"><br>
+						  2、选择显示我的主页，在 主页 里输入https://www.hao123.com/，设置自动保存，重启浏览器即可。<br>
+<img width="500" height="215" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/917fd6d97873c06775c8ab719c75fc9d.png"><<br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+						  <ul>
+
+
+					      </ul>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href="#09" target="_self" name="11" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-opera"></span>Opera浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">
+						  <p>按照如下方式操作：<br>
+						  1、打开Opera浏览器，点击菜单按钮—设置，如图所示：<br>
+						  <img src="http://s0.hao123img.com/res/r/image/2017-03-14/b65e887aefd30998f6388da2a5518eb0.png" width="291" height="499" class="pcbottom"><br>
+						  2、选择 打开一个特定页面或一组页面，点击设置页面。<br>
+						  <img width="713" height="388" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/69ef4e97f730604a2a2649982e4dd31b.png"><br>
+						  3、在 启动页面 里 输入https://www.hao123.com/，确定即可。<br><img width="503" height="240" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/7c6c71a1c1f6453912a794c2c0867a40.png"><br>
+						  4、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+						  <br>
+						              </p>
+            <p></p><div>&nbsp;&nbsp;</div>
+
+
+
+			<p></p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<a href="#10" target="_self" name="12" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-aoyou"></span>傲游浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">按照如下方式操作：<br>1、	打开傲游浏览器，点击菜单—设置，如图所示：<br><img width="343" height="502" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/b5e62e0f89ca4a5fde5c8ead743bc1c3.png"><br>2、点击 设置主页 ，输入https://www.hao123.com/，确定即可。<br><img width="650" height="366" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/c437d3f1abee6993b75064a79ed03c08.png"><br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+						  <ul>
+
+
+					      </ul>
+					</div>
+				</div>
+			</div>
+
+<div class="item">
+				<a href="#11" target="_self" name="15" class="item-title folder"><span class="icon-title"></span><span class="icon-bro ico-safari"></span>Safari浏览器</a>
+				<div class="item-content">
+					<div class="item-inner">
+						<div class="item-inner-title">按照如下方式操作：<br>1、打开浏览器-菜单-偏好设置，如图所示：<br><img width="528" height="510" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/ebea88e9e68b7ddc65790e7acb1bd369.jpg"><br>
+						  2、常规-主页内输入https://www.hao123.com/,关闭即可 。<br>
+<img width="558" height="436" class="pcbottom" src="http://s0.hao123img.com/res/r/image/2017-03-14/f05348337de5e3a6f6d33697c01c3e8f.jpg"><br>
+						  3、若想设置其他为主页，请重复上述步骤把网址设为空白页或输入您想要的网站地址。</p>
+						  <ul>
+
+
+					      </ul>
+					</div>
+				</div>
+		  </div>
+
+		</div>
+<div style="margin-top:10px;margin-left:75px;">如果以上方式未能成功设置您的主页，请在<a href="http://www.hao123.com/feedback" target="_blank" style="color:#0053a5;">用户反馈</a>中给我们留言，我们会根据具体情况帮您解决！</div>
+	</div>
+  </div>
+<div class='ft'>
+   <div class="feedback">&copy;2017 hao123&nbsp;&nbsp;<a href="http://feedback.hao123.com/?catalog_id=3">反馈</a></div>
+</div>
+</body>
+<script>
+    document.getElementById("content").onclick = function (e) {
+        e = e || window.event;
+        var el = e.srcElement || e.target,
+		href;
+        el.tagName === "A" && (href = el.href.split("#")[1]) && sendUserTrack({
+            "type": "click",
+            "position": href
+        });
+    }
+</script>
+<script src="/js/sethome.js"></script>
+<script language=javascript>
+
+    document.f.word.focus()
+    window.onload = function () {
+        haoSubSearch("web");
+        goSearch();
+        try {
+            if (window.location.hash.indexOf("ff") === 1) {
+                document.getElementById("ff").scrollIntoView(true);
+            }
+        }
+        catch (e)
+        { }
+    }
+    var browserList = ["ie", "chrome", "360", "qq", "sougou", "liebao", "hao123", "ff", "opera", "aoyou", "safari"];
+
+    (function () {
+        init();
+        var list = getElementsByClass("item", document.getElementById("content"));
+
+        var len = list.length, i = 0;
+        for (; i < len; i++) {
+            addEvent(getElementsByClass("item-title", list[i])[0], "click", toggle);
+        }
+    })();
+
+
+    function getBrowser() {
+
+        var ua = window.navigator.userAgent;
+        // alert(ua);
+        var isIE = !!window.ActiveXObject || "ActiveXObject" in window;
+        var isChrome = ua.indexOf('Chrome') && window.chrome;
+
+        if (isIE) {
+
+            return 'ie';
+        }
+        else if (ua.indexOf('QQBrowser') != -1) {
+
+            return 'qq';
+        }
+        else if (ua.indexOf('SE 2.X') != -1) {
+
+            return 'sougou';
+        }
+        else if (ua.indexOf('BIDUBrowser') != -1) {
+
+            return 'hao123';
+        }
+        else if (ua.indexOf('Firefox') != -1) {
+
+            return 'ff';
+        }
+        else if (ua.indexOf('OPR') != -1) {
+
+            return 'opera';
+        }
+        else if (ua.indexOf('Maxthon') != -1) {
+
+            return 'aoyou';
+        }
+        else if (ua.indexOf('Chrome') != -1) {
+
+            return 'chrome';
+        }
+        else if (ua.indexOf('Safari') != -1) {
+
+            return 'safari';
+        }
+
+        return '';
+
+    }
+
+    function init() {
+        var url = location.href;
+        var str;
+        if (url.indexOf("#") != -1) {
+            str = url.split("#")[1];
+        }
+
+        var len = browserList.length;
+        for (var i = 0; i < len; i++) {
+            var target = getElementsByClass("ico-" + browserList[i])[0].parentNode;
+            var node = getElementsByClass("item-content", target.parentNode)[0];
+            if (str == i + 1 || browserList[i] == str) {
+                node.style.display = "block";
+                target.className = "item-title extend";
+            } else {
+                node.style.display = "none";
+                target.className = "item-title folder";
+            }
+        }
+
+        if (typeof(str) === 'undefined') {
+
+            str = getBrowser();
+
+            for (var i = 0; i < len; i++) {
+                var target = getElementsByClass("ico-" + browserList[i])[0].parentNode;
+                var node = getElementsByClass("item-content", target.parentNode)[0];
+                if (browserList[i] == str) {
+                    node.style.display = "block";
+                    target.className = "item-title extend";
+                } else {
+                    node.style.display = "none";
+                    target.className = "item-title folder";
+                }
+            }
+
+        }
+    }
+    //展开、收缩内容
+    function toggle(event) {
+        var e = event || window.event,
+			target = e.srcElement || e.target,
+			el = target;
+
+        //stopDefault();
+
+        var len = browserList.length;
+        while (el && el.className != 'item') {
+            el = el.parentNode;
+        }
+
+        if (!el) {
+            return;
+        }
+
+        var aNode = el.getElementsByTagName('a')[0];
+
+        var content = getElementsByClass("item-content", el)[0];
+
+        if (aNode.className.indexOf('extend') > -1) {
+            aNode.className = 'item-title folder';
+            content.style.display = 'none';
+        } else {
+            aNode.className = 'item-title extend';
+            content.style.display = 'block';
+        }
+
+        for (var i = 0; i < len; i++) {
+            var target = getElementsByClass("ico-" + browserList[i])[0].parentNode;
+            var node = getElementsByClass("item-content", target.parentNode)[0];
+
+            if (aNode == target) {
+                continue;
+            }
+            node.style.display = "none";
+            target.className = "item-title folder";
+
+        }
+    }
+
+    function getElementsByClass(searchClass, node, tag) {
+        var classElements = new Array();
+        if (node == null)
+            node = document;
+        if (tag == null)
+            tag = '*';
+        var els = node.getElementsByTagName(tag);
+        var elsLen = els.length;
+        var pattern = new RegExp("(^|\\s)" + searchClass + "(\\s|$)");
+        for (i = 0, j = 0; i < elsLen; i++) {
+            if (pattern.test(els[i].className)) {
+                classElements[j] = els[i];
+                j++;
+            }
+        }
+        return classElements;
+    }
+    function stopDefault(e) {
+        if (e && e.preventDefault) {
+            e.preventDefault;
+        } else {
+            window.event.returnValue = false;
+        }
+        return false;
+    }
+    function addEvent(obj, type, fn) {
+        if (obj.attachEvent) {
+            obj['e' + type + fn] = fn;
+            obj[type + fn] = function () { obj['e' + type + fn](window.event); }
+            obj.attachEvent('on' + type, obj[type + fn]);
+        } else {
+            obj.addEventListener(type, fn, false);
+        }
+    }
+
+</script>
+<script defer="defer">    (function initTrack(o) { var d = document, x = d.createElement("script"); x.src = "http://s0.hao123img.com/res/js/track.js?" + ~(new Date / 36e5); var a = []; if (o) { for (i in o) { a.push(i + ":" + (o[i])) } var config = a.join(";"); x.setAttribute("data-log-config", config); var s = d.getElementsByTagName("script")[0].parentNode; var p = s || d.head; if (p) { setTimeout(function () { p.appendChild(x) }, 0); } } })({ pageId: "hao123-redian-sheshouyef", page: "hao123-redian-sheshouyef", level: 2 });</script>
+</html>

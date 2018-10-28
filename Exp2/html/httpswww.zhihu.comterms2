@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="d68b58b93587a849fd21234a8772bcd1">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<title>知乎社区管理规定（试行） - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/terms2">
+<meta id="znonce" name="znonce" content="2ace6efa36b34414b90e621864aa1868">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+<style>
+.zh-terms-content { padding-left: 110px }
+@media (max-width: 650px) {
+.zh-terms-sidenav { display: none }
+.zh-terms-content { padding-left: 0 }
+}
+.zh-terms-sidenav {
+position: fixed;
+top: 73px;
+list-style: none;
+}
+.zh-terms-sidenav li {
+margin-bottom: 10px;
+}
+.zh-terms-sidenav a,
+.zh-terms-sidenav a:hover,
+.zh-terms-sidenav a:visited {
+color: #333;
+}
+.zh-terms-content ol,
+.zh-terms-content ul {
+margin-left: 2em;
+}
+.zh-terms-content ul li:not(.sub-list):after{
+content: '；'
+}
+.zh-terms-content ul li:not(.sub-list):last-child:after{
+content: '。'
+}
+.zh-terms-content h1,
+.zh-terms-content h2,
+.zh-terms-content p,
+.zh-terms-content li {
+margin-bottom: 10px;
+}
+.zh-terms-content li ul {
+margin-top: 10px;
+}
+</style>
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix no-sidebar "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+<div class="zh-terms">
+<ol class="zh-terms-sidenav">
+<li><a href="#sec-all">总则</a></li>
+<li><a href="#sec-judge">违规行为界定</a></li>
+<li><a href="#sec-workflow">违规行为处理流程</a></li>
+<li><a href="#sec-complain">申诉</a></li>
+</ol>
+<div class="zh-terms-content">
+<a name="sec-all" class="zg-anchor-hidden"></a>
+<h1>知乎社区管理规定（试行）</h1>
+<p>知乎致力于提供一个由用户创造高质量内容的问答社区。为了保护用户创造的内容、维护良好的社区氛围，知乎团队和知乎授权的社区管理员将依据<a href="/terms">知乎协议</a>和本规范中的条款对注册知乎的用户和发布在知乎的内容进行管理。采取的措施包括但不限于更改或删除用户发布的内容、暂停或终止用户使用知乎的权利。</p>
+<p>
+所有有意的降低内容质量、伤害社区氛围的行为（下称「破坏」）都是不能容忍的。多数情况下社区中的其他用户会优先选择对破坏行为做出劝诫、建议和引导，知乎团队也会先发出警告并给予用户改正自己不当行为的机会，但不表示知乎团队在采取任何措施前必须首先发出警告。
+</p>
+<div id="section-content">
+<a name="sec-judge" class="zg-anchor-hidden"></a>
+<h2>违规行为界定</h2>
+<ol>
+<li>
+<p>违反法律法规：发布违反国家<a href="http://www.cac.gov.cn/2016-06/25/c_1119109085.htm" target="_blank">相关法律法规</a>及「<a href="http://www.isc.org.cn/zxzx/xhdt/listinfo-27187.html" target="_blank">七条底线</a>」、「<a href="http://www.cac.gov.cn/2000-09/30/c_126193701.htm" target="_blank">九不准</a>」管理规定的信息，主要表现为：</p>
+<ul>
+<li>反对宪法所确定的基本原则</li>
+<li>危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一</li>
+<li>损害国家荣誉和利益</li>
+<li>煽动民族仇恨、民族歧视，破坏民族团结</li>
+<li>侮辱、滥用英烈形象，否定英烈事迹，美化粉饰侵略战争行为的</li>
+<li>破坏国家宗教政策，宣扬邪教和封建迷信</li>
+<li>散布谣言，扰乱社会秩序，破坏社会稳定</li>
+<li>宣扬淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪</li>
+<li>煽动非法集会、结社、游行、示威、聚众扰乱社会秩序</li>
+<li>诽谤他人，泄露他人隐私，侵害他人合法权益</li>
+<li>含有法律、行政法规禁止的其他内容的信息</li>
+</ul>
+</li>
+<li>
+<p>不友善行为：不尊重知乎用户及其所贡献内容的行为，主要表现为：</p>
+<ul>
+<li>轻蔑：贬低、轻视他人及其劳动成果</li>
+<li>诽谤：捏造、散布虚假事实，损害他人名誉</li>
+<li>嘲讽：以比喻、夸张、侮辱性的手法对他人或其行为进行揭露或描述，以此来激怒他人</li>
+<li>挑衅：以不友好的方式激怒他人，意图使对方对自己的言论作出回应，蓄意制造事端</li>
+<li>羞辱：贬低他人的能力、行为、生理或身份特征，让对方难堪</li>
+<li>谩骂：以不文明的语言对他人进行负面评价</li>
+<li>歧视：针对他人的民族、种族、宗教、性取向、性别、年龄、地域、生理特征等身份或者归类的攻击</li>
+<li>威胁：许诺以不良的后果来迫使他人服从自己的意志</li>
+</ul>
+</li>
+<li>
+<p>发布垃圾广告信息：用户以推广曝光为目的，发布影响用户体验、扰乱知乎社区秩序的内容，或进行相关行为。</p>
+<ul>
+<li class="sub-list">多次发布包含售卖产品、提供服务、宣传推广内容的垃圾广告。包括但不限于以下几种形式：
+<ul>
+<li>单个帐号多次发布包含垃圾广告的内容</li>
+<li>多个广告帐号互相配合发布包含垃圾广告的内容</li>
+<li>多次发布包含欺骗性外链的内容，如未注明的淘宝客链接、跳转网站等，诱骗用户点击链接</li>
+<li>发布大量包含 SEO 推广链接、产品、品牌等内容获取搜索引擎中的不正当曝光</li>
+</ul>
+</li>
+<li class="sub-list">购买或出售帐号之间虚假地互动，发布干扰社区秩序的推广内容及相关交易。包括但不限于以下几种形式：
+<ul>
+<li>购买机器注册帐号，或人工操控帐号的关注，伪造在社区内的影响力</li>
+<li>购买机器注册帐号，或人工操控帐号点击赞同，谋求回答的不正当曝光</li>
+<li>使用机器、恶意程序手段或人为有组织性地操控帐号进行点赞、回答等扰乱秩序的行为</li>
+</ul>
+</li>
+<li class="sub-list">使用严重影响用户体验的违规手段进行恶意营销。包括但不限于以下几种形式：
+<ul>
+<li>不规范转载或大篇幅转载他人内容同时加入推广营销内容</li>
+<li>发布包含欺骗性的恶意营销内容，如通过伪造经历、冒充他人等方式进行恶意营销</li>
+</ul>
+</li>
+<li>使用特殊符号、图片等方式规避垃圾广告内容审核的广告内容</li>
+<li>恶意注册使用知乎帐号，包括但不限于机器注册、频繁注册、批量注册、滥用多个知乎帐号</li>
+</ul>
+</li>
+<li>
+<p>恶意行为：滥用产品功能，进行影响用户体验，危及平台安全及损害他人权益的行为。主要表现为：</p>
+<ul>
+<li>恶意编辑，指清空或删除有效内容，添加无关信息，破坏内容结构等降低公共编辑内容质量的编辑</li>
+<li>冒充他人，通过头像、用户名等个人信息暗示自己与他人或机构相等同或有关联</li>
+<li class="sub-list">重复发布干扰正常用户体验的内容。包括但不限于以下几种形式：
+<ul>
+<li>重复的回答内容多次发布在不同问题下</li>
+<li>频繁发布难以辨识涵义影响阅读体验的字符、数字等无意义乱码</li>
+<li>骚扰他人，以评论、@ 他人、私信等方式对他人反复发送重复或者相似的诉求</li>
+</ul>
+</li>
+<li>诱导投票或关注，如通过点赞抽奖、集赞更新等形式诱导投票或者诱导关注</li>
+<li>制作及传播外挂或者用于操作帐号功能的恶意程序或相关教程</li>
+<li>发布含有潜在危险的内容，如钓鱼网站、木马、病毒网站等</li>
+</ul>
+</li>
+<li>
+<p>色情低俗，主要表现为：</p>
+<ul>
+<li>包含自己或他人性经验的细节描述或露骨的感受描述</li>
+<li>涉及色情段子、两性笑话的低俗内容</li>
+<li>配图、头图中包含庸俗或挑逗性图片的内容</li>
+</ul>
+</li>
+<li>
+<p>存在不实信息，主要表现为：</p>
+<ul>
+<li>知乎帐号存在伪造身份、冒充他人等行为</li>
+<li>可能存在事实性错误或者造谣等内容</li>
+<li>内容中存在事实夸大、伪造虚假经历并存在误导他人</li>
+</ul>
+</li>
+<li>
+<p>发布封建迷信内容，主要表现为：</p>
+<ul>
+<li class="sub-list">找人算命、测字、占卜、解梦、化解厄运、使用迷信方式治病：
+<ul>
+<li>求推荐算命看相大师</li>
+<li>针对具体风水等问题进行求助或咨询</li>
+<li>问自己或他人的八字、六爻、星盘、首相、面相、五行缺失，包括通过占卜方法问婚姻、前程、运势，东西宠物丢了能不能找回、取名改名等</li>
+<li>解梦类内容</li>
+</ul>
+</li>
+<li class="sub-list">宣扬鼓励封建迷信等活动，推广算命等理论知识学习及讨论：
+<ul>
+<li>询问某种算命结果、说法是否准确</li>
+<li>在回答或文章中推荐关注算命、占卜等封建迷信活动</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>文章标题党，主要表现为：</p>
+<ul>
+<li>存在各种夸张、猎奇、不合常理的内容表现手法等行为来诱导用户</li>
+<li>内容与标题之间存在严重不实或者原意扭曲</li>
+</ul>
+</li>
+</ol>
+</div>
+<div id="section-usage">
+<a name="sec-workflow" class="zg-anchor-hidden"></a>
+<h2>违规行为处理流程</h2>
+<p>站方通过主动发现和接受用户举报两种方式发现违规行为。用户可以使用知乎页面上的「举报」功能对涉嫌违规的行为和用户进行举报。违规的信息由知乎站方根据本规定直接处理。</p>
+</div>
+<div id="section-userinfo">
+<a name="sec-complain" class="zg-anchor-hidden"></a>
+<h2>申诉</h2>
+<p>知乎站方可以随着社区管理经验的不断丰富，出于维护知乎社区氛围和秩序的目的，不断完善本规定。</p>
+<p>如果知乎用户对知乎基于本规范做出的处理有异议，可以通过页面右下角的「建议反馈」功能向知乎进行反馈。</p>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/terms/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2018 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1539163588000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script type="text/json" class="json-inline" data-name="disabled_components">["tooltip","back_to_top"]</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-misc.2ba8b8ed.js"></script>
+<meta name="entry" content="ZH.entryTerms" data-module-id="page-misc">
+
+<script type="text/zscript" znonce="2ace6efa36b34414b90e621864aa1868"></script>
+
+<input type="hidden" name="_xsrf" value="d4e6ffa3ae621c6ad4af90fad6c0c15f"/>
+</body>
+</html>

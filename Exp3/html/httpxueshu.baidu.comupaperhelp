@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="zh">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <link rel="dns-prefetch" href="//s1.bdstatic.com"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu.svg">
+
+    <script src="https://ts.bdimg.com/libs/blueimp-md5/1-0-1/md5.min.js"></script>
+    <script>var token = '806483f61a624e7eb879542b73cf55e76ac30184d0109301802907b54ac080a7'</script>
+    <title>百度学术-文献互助</title>
+
+    
+<link type="text/css" rel="stylesheet" href="/lib/static/scholar/cache/paperhelp/css/logic_982b157.css" />
+
+    
+<script type="text/javascript" src="/lib/static/scholar/cache/jquery/jquery-1.10.2.min_45ac1eb.js"></script>
+<script>
+var bds = {
+    se : {},
+    util : {},
+    //js通用数据
+    comm : {
+        qid:'3717504541',
+        lid:'3717504541',
+        bsToken: 'the fisrt two args should be string type:0,1!',
+        user: '',
+        username: '',
+        userlevel: '',
+        currNav: 'help_hall',
+        currStatus: '0,1',
+        currType: '0',
+        serverTime: '1539181655',
+        serverIP: '10.42.110.14',
+        uploadDownHost: '//xueshupload.baidu.com',
+        loginAction: [],
+        host: window.location.host,
+        subpro: 'xueshu_paperhelp',
+        clientTime:+new Date(),
+        userFortune: 0    }
+};
+
+window.A = {};
+A.ui = {};
+
+var supportCanvas = !!document.createElement('canvas').getContext;
+// 用户奖品激励
+var paperHelpPrize = null;
+
+function G (id) {
+    return document.getElementById(id);
+}
+
+// 发送统计
+var _hmt = _hmt || [];
+function c (data) {
+    if (!data['type'] || !data['actblock']) {
+        return;
+    }
+    data['category'] = 'paperhelp';
+    _hmt.push(['_trackEvent', data['category'], data['actblock'], data['type']]);
+}
+
+function ns_c_xs(q){
+    var p = encodeURIComponent(window.document.location.href), sQ = '',wd="", sV = '', mu='', img = window["BD_PS_C" + (new Date()).getTime()] = new Image();
+    for (v in q) {
+        switch (v) {
+            case "title":
+                sV = encodeURIComponent(q[v].replace(/<[^<>]+>/g, ""));
+                break;
+            case "url":
+                sV = encodeURIComponent(q[v]);
+                break;
+            default:
+                sV = q[v]
+        }
+        sQ += v + "=" + sV + "&";
+    }
+    mu= "&mu=" + p;
+    img.src = "http://nsclick.baidu.com/v.gif?pid=201&pj=mp_xueshu&qid=" + bds.comm.qid + "&" + sQ + "f=&fr=ae_xueshu_paperhelp&path=" + p + "&tn=ae_xueshu_paperhelp&t=" + new Date().getTime();
+    return true;
+}
+</script><script type="text/javascript">
+
+	
+	var list = {
+        "graph.baidu.com": "http://graph.baidu.com",
+		"p.qiao.baidu.com":"http://p.qiao.baidu.com",
+		"vse.baidu.com":"http://vse.baidu.com",
+		"hdpreload.baidu.com":"http://hdpreload.baidu.com",
+		"lcr.open.baidu.com":"http://lcr.open.baidu.com",
+		"kankan.baidu.com":"http://kankan.baidu.com",
+		"xapp.baidu.com":"http://xapp.baidu.com",
+		"dr.dh.baidu.com":"http://dr.dh.baidu.com",
+		"xiaodu.baidu.com":"http://xiaodu.baidu.com",
+		"sensearch.baidu.com":"http://sensearch.baidu.com",
+		"s1.bdstatic.com":"http://s1.bdstatic.com",
+		"olime.baidu.com":"http://olime.baidu.com",
+		"app.baidu.com":"http://app.baidu.com",
+		"i.baidu.com":"http://i.baidu.com",
+		"c.baidu.com":"http://c.baidu.com",
+		"sclick.baidu.com":"http://sclick.baidu.com",
+		"nsclick.baidu.com":"http://nsclick.baidu.com",
+		"sestat.baidu.com":"http://sestat.baidu.com",
+		"eclick.baidu.com":"http://eclick.baidu.com",
+		"api.map.baidu.com":"http://api.map.baidu.com",
+		"ecma.bdimg.com":"http://ecma.bdimg.com",
+		"ecmb.bdimg.com":"http://ecmb.bdimg.com",
+        "t1.baidu.com":"http://t1.baidu.com",
+        "t2.baidu.com":"http://t2.baidu.com",
+        "t3.baidu.com":"http://t3.baidu.com",
+		"t10.baidu.com":"http://t10.baidu.com",
+		"t11.baidu.com":"http://t11.baidu.com",
+		"t12.baidu.com":"http://t12.baidu.com",
+		"i7.baidu.com":"http://i7.baidu.com",
+		"i8.baidu.com":"http://i8.baidu.com",
+		"i9.baidu.com":"http://i9.baidu.com",
+		"b1.bdstatic.com":"http://b1.bdstatic.com",
+		"ss.bdimg.com":"http://ss.bdimg.com",
+		"opendata.baidu.com":"http://opendata.baidu.com",
+		"api.open.baidu.com":"http://api.open.baidu.com",
+		"tag.baidu.com":"http://tag.baidu.com",
+		"f3.baidu.com":"http://f3.baidu.com",
+		"s.share.baidu.com":"http://s.share.baidu.com",	
+		"bdimg.share.baidu.com":"http://bdimg.share.baidu.com",
+        "1.su.bdimg.com":"http://1.su.bdimg.com",
+        "2.su.bdimg.com":"http://2.su.bdimg.com",
+        "3.su.bdimg.com":"http://3.su.bdimg.com",
+        "4.su.bdimg.com":"http://4.su.bdimg.com",
+        "5.su.bdimg.com":"http://5.su.bdimg.com",
+        "6.su.bdimg.com":"http://6.su.bdimg.com",
+        "7.su.bdimg.com":"http://7.su.bdimg.com",
+        "8.su.bdimg.com":"http://8.su.bdimg.com",
+        "hiphotos.baidu.com":"http://hiphotos.baidu.com",
+        "nssug.baidu.com":"http://nssug.baidu.com",
+        "baidu.bigan.net":"http://baidu.bigan.net",
+        "a.xueshu.baidu.com":"http://a.xueshu.baidu.com"
+	};
+//https域名转换工具
+bds.util = bds.util || {};
+bds.util.domain = (function(){
+	
+
+var get = function(url) {
+		if(location.protocol === "http") {
+			return url;
+		}
+		var reg = /^(http[s]?:\/\/)?([^\/]+)(.*)/,
+			reg2 = /^(http[s]?:\/\/)?(s1.bdstatic.com\/r\/www\/cache\/mid\/static)(.*)/,
+		matches = url.match(reg),
+		//s1.bdstatic.com静态域名特殊处理
+		matches2 = url.match(reg2);
+		if(matches2){
+			url = "https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/mid/static/protocol/https"+ matches2[3];
+			return url;
+		}else{
+			//判断传入参数是域名还是地址，分别做处理
+			url = list.hasOwnProperty(matches[2])&&(list[matches[2]] + matches[3]) || url;
+			return url;
+		}	
+	},
+	set = function(kdomain,vdomain) {
+		list[kdomain] = vdomain;
+	}; 
+	return {
+		get : get,
+		set : set
+	}
+})();
+</script>
+
+
+    
+        <script type="text/javascript">
+bds = bds || {};
+bds.cf = {};
+bds.cf.ts = "1539181655";
+bds.cf.token = "806483f61a624e7eb879542b73cf55e76ac30184d0109301802907b54ac080a7";
+bds.cf.sign = "a8848e2b01dc4680c738db620ab49e04";
+
+function getCfStr() {
+    return "&_ts=" + bds.cf.ts 
+        + "&_token=" + bds.cf.token 
+        + "&_sign=" + bds.cf.sign;
+}
+
+function getCfObj() {
+    return {
+            '_ts' : bds.cf.ts,
+            '_token' : bds.cf.token,
+            '_sign' : bds.cf.sign
+        }
+}
+</script>
+    
+</head>
+
+<body>
+    
+    <div id="wrapper">
+    
+        
+                                                                                
+
+<div id="head_wr" class=" "><div id="head" class="LOG_WR  " data-log="{'actblock': 'head'}"><div class="headCont "><div id="u" class=" "><span id="setting"><a class="settingicon" href="javascript:;"><i style="font-size:18px;" class="iconfont  head-icon-set-gray">&#xe61b;</i></a><div class="menuarrow"><i class="head-icon head-icon-menu-triangle"></i></div><div id="setMenu" class="menuDropList"><div><a href="javascript:;" class="feedback">意见反馈</a></div></div></span><a id="lb" href="https://passport.baidu.com/v2/?login&tpl=xueshu&u=http%3A%2F%2Fxueshu.baidu.com%2F">登录</a><a href="https://passport.baidu.com/v2/?reg&regType=1&tpl=xueshu&u=http%3A%2F%2Fxueshu.baidu.com%2F" target="_blank" class="reg">注册</a></div>
+
+                            <div class="headtags">
+                <a href="//xueshu.baidu.com" class="home" target="_blank">                                            <img src="/lib/static/scholar/cache/global/img/logo_new_ff7641d.png" width="110" height="35" border="0" alt="到学术首页" title="到学术首页">
+                                    </a>                </div>
+                <div class="s_form_wr">
+                    <form class="fm" action="//xueshu.baidu.com/s" target="_blank">
+                        <input name="wd" autocomplete="off" id="kw" value="" maxlength="256">
+                        <input type="submit" class="head-icon head-icon-search-g s_btn" value="">
+                        <input type="hidden" name="ie" value="utf-8">
+                        <input type="hidden" name="tn" value="SE_baiduxueshu_c1gjeupa">
+                    </form>
+                </div>
+                    </div>
+    </div>
+</div>
+
+
+        
+
+        <div id="container">
+            
+                
+                <div id="left_menu_content" class="LOG_WR " data-log="{'actblock':'menu'}">
+    <div class="left_menu_logo">
+        <a href="/">
+                <img class="sologan onlyOn"  width="144" src="/lib/static/scholar/cache/global_30/img/sologan_876dc43.png" />
+                <i class="iconfont onlyOff logosim">&#xe607;</i>
+        </a>
+    </div>
+    <div class="main_menu_wr">
+        <div class="sch_main_menu">
+                        <p class="onlyOn">搜索</p>
+                        <div class="menu_listitem">
+                <a href="/" class=""  data-log="{'type':'xueshu_sch'}" target="_blank">
+                    <i class="iconfont i-wx">&#xe602;</i><span>文献</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/usercenter/data/journal" class="" data-log="{'type':'journal'}">
+                <i class="iconfont i-qk">&#xe604;</i><span>期刊</span>
+                </a>
+            </div>
+            <div class="menu_listitem dotPromote">
+                <a href="/usercenter/data/authorchannel?cmd=frontpage" data-log="{'type':'authorchannel'}" class="">
+                <i class="iconfont i-xz">&#xe600;</i><span>学者</span>
+                </a>
+            </div>
+                        <p class="onlyOn">服务</p>
+                        <div class="menu_listitem">
+                <a href="/usercenter" data-log="{'type':'mycollect'}" class="">
+                    <i class="iconfont i-dy">&#xe60b;</i><span>订阅</span><i id="msimsg"></i>
+                </a>
+            </div>
+
+            <div class="menu_listitem">
+                <a href="/usercenter/?tab=collect" data-log="{'type':'mycollect'}" class="">
+                    <i class="iconfont i-sc">&#xe601;</i><span>收藏</span>
+                </a>
+            </div>
+
+            <div class="menu_listitem">
+                <a href="/usercenter/papercheck/index?tag=check&upload=1" data-log="{'type':'authorchannel'}" class="paperCheck ">
+                    <i class="iconfont i-lwck">&#xe60a;</i><span>论文查重</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/biye/?tag=paper" class="" data-log="{'type':'journal'}">
+                    <i class="iconfont i-ktfx">&#xe606;</i><span>开题分析</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/ppv" data-log="{'type':'ppv'}" class="">
+                    <i class="iconfont i-dpgm">&#xe62d;</i><span>单篇购买</span>
+                </a>
+            </div>
+            <div class="menu_listitem">
+                <a href="/u/paperhelp" data-log="{'type':'paperhelp'}" class="">
+                    <i class="iconfont i-wxhz">&#xe603;</i><span>文献互助</span>
+                </a>
+            </div>
+                        <p class="onlyOn">账户</p>
+                        <div class="menu_listitem">
+                <a href="/u/user" class="" data-log="{'type':'user'}">
+                    <i class="iconfont i-yhzx">&#xe605;</i><span>用户中心</span><i id="ucimsg"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+                
+                <div id="right_content" class="content_wr">
+                
+                    <div class="right_content_main">
+                    
+<div id="topnav" class="c_font"><div class="tnav_r"><a href="/u/paperhelp" class="tnav_r_item tnav_sel" data-target="help_hall">互助大厅</a><a href="/u/paperhelp?tab=my_sos" class="tnav_r_item" data-target="my_sos">我的求助</a><a href="/u/paperhelp?tab=my_help" class="tnav_r_item" data-target="my_help">我的应助</a><a href="/u/paperhelp?tab=help_center" class="tnav_r_item" data-target="help_center">帮助中心</a></div></div>
+
+
+<div class="base-popup dialog-common-confirm">
+    <a href="javascript:;" class="close-icon dialog-close c-icon-close-hover"><i class="c-icon c-icon-close"></i></a>
+    
+    <div class="infos">
+        <span class="emphasize" style="text-align: center;">
+            是否重新发起求助？
+        </span>
+    </div>
+    <div class="operations">
+        <span class="button submit dialog-submit">确认</span>
+        <span class="button cancel dialog-cancel">放弃</span>
+    </div>
+</div>
+
+<div class="base-popup upload-paper-form-dialog">
+    <a href="javascript:;" class="close-icon dialog-close c-icon-close-hover"><i class="c-icon c-icon-close"></i></a>
+    <p class="emphasize">上传全文</p>
+    
+    <form class="infos" method="POST" enctype="multipart/form-data" action="//xueshupload.baidu.com/usercenter/data/paperhelp?cmd=upload_text">
+        <div class="fileUpload">
+            <span class="display-btn">浏览</span>
+            <span class="display-filename"></span>
+            <input id="upload-paper-file" name="file" type="file" class="upload" />
+            <input type="hidden" name="id" value="10" class="paperid">
+            <input type="hidden" name="bsToken" value="the fisrt two args should be string type:0,1!">
+            <input type="hidden" name="host" value="" class="hostname">
+        </div>
+        <span class="comment">
+            <span class="title">注：</span>
+            1. 允许上传文件类型为:pdf,txt,doc,docx,zip,rar,caj，其他格式请压缩后上传。<br />
+            2. 文件大小不能超过30M,超限文件可先上传至百度云盘再提供下载地址给求助者。<br />
+            3. 请确保上传文献的真实性、完整性，不得对文献做任何修改<br />
+            4. 如因应助错误7天内被投诉3次，将24小时无法应助。
+        </span>
+        <div class="operations">
+            <input type="submit" class="button submit file-upload-submit" value="确定"></input>
+        </div>
+        <div class="upload-file-loading" style="display:none;">请耐心等待，文件上传中...</div>
+        <div class="upload-file-fail-tips" style="display:none;"></div>
+    </form>
+</div>
+
+<div class="base-popup get-feedback-dialog">
+    <a href="javascript:;" class="close-icon dialog-close c-icon-close-hover"><i class="c-icon c-icon-close"></i></a>
+    <div class="myhelp-feedback">
+        <div class="infos">
+            <span class="emphasize">查看反馈</span>
+            <span class="normal">
+            </span>
+        </div>
+        <div class="download">
+            <a href="" class="download-link">下载全文</a>
+        </div>
+        <div class="operations">
+            <span class="button submit dialog-close">确认</span>
+            <span class="button submit feedback-complain-btn">投诉</span>
+        </div>
+    </div>
+    
+    <div class="feedback-complain-content" style="display:none;">
+        <span class="emphasize">投诉</span>
+        <textarea name="" id="" placeholder="在此输入投诉理由，最多输入100个字" maxlength="100"></textarea>
+        <p class="error-tips" style="display:none;"></p>
+        <div class="button-wr">
+            <span class="button submit feedback-complain-submit">提交</span>
+        </div>
+    </div>
+    
+</div>
+
+<div class="base-popup common-fadein-dialog">
+    <a href="javascript:;" class="close-icon dialog-fadein-close c-icon-close-hover"><i class="c-icon c-icon-close"></i></a>
+    <span class="emphasize"></span>
+    <p class="normal"></p>
+</div>
+
+<div class="base-popup dialog-common">
+    <a href="javascript:;" class="close-icon dialog-close c-icon-close-hover"><i class="c-icon c-icon-close"></i></a>
+    
+    <div class="infos">
+        <span class="emphasize">
+        </span>
+    </div>
+    <div class="operations">
+        <span class="button submit dialog-close">确认</span>
+    </div>
+</div>
+
+    <div class="paperhelpcontainer align-center c-clearfix">
+            
+<div id="lobby-left-container" class="c_font">
+<div class="lobby-paperlist-content">
+<ul class="nav-tabs LOG_WR" data-log="{'actblock':'lobby', 'type': 'tab'}">
+    <li class="help-paper-tab-resquest tab-item first-item lobby-left-helphall tab-seletcted" data-type="0" data-status="0,1">待应助(<span class="count">4221</span>)</li>
+    <li class="help-paper-tab-resquest tab-item " data-type="1" data-status="0,1">攻关栏(<span class="count">8899</span>)</li>
+    <li class="help-paper-tab-resquest tab-item " data-type="2">我要求助</li>
+</ul>
+    <div class="lobby-left-content">
+
+    <ul class="sub-nav-tabs LOG_WR" data-log="{'actblock':'lobby', 'type': 'subtab'}">
+        <li class="help-paper-tab-resquest tab-item tab-seletcted" data-status="0,1" data-type="0">全部</li>
+        <li class="help-paper-tab-resquest tab-item " data-status="1" data-type="0">应助中</li>
+        <li class="help-paper-tab-resquest tab-item last-item " data-status="0" data-type="0">等待应助</li>
+    </ul>
+    <table class="help-res-list c_font">
+<tbody>
+    <tr class="help-res-list-first-item help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=0ede5996c3600f482ab4d70f82945e5b&title=%E7%81%AB%E7%AE%AD%E5%8F%91%E5%8A%A8%E6%9C%BA%E5%8F%98%E8%9E%BA%E8%B7%9D%E8%AF%B1%E5%AF%BC%E8%BD%AE%E9%A2%84%E5%8E%8B%E6%B6%A1%E8%BD%AE%E6%B3%B5%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6" target="_blank">火箭发动机变螺距诱导轮预压涡轮泵技术研究</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>李向阳</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://cdmd.cnki.com.cn/Article/CDMD-10701-2010038289.htm</span></p>
+                                    <p><span class="res-label">求助者：</span><span>lgx0126</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:27</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010097" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=b42634e9d975e2096691642578c9fdd4&title=Use%20of%20a%205-Item%20Modified%20Frailty%20Index%20for%20Risk%20Stratification%20in%20Patients%20Undergoing%20Surgical%20Management%20of%20Distal%20Radius%20Fractures." target="_blank">Use of a 5-Item Modified Frailty Index for Risk Stratification in Patients Undergoing Surgical Management of Distal Radius Fractures.</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>JM Wilson</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://europepmc.org/abstract/MED/29980394</span></p>
+                                    <p><span class="res-label">求助者：</span><span>非一行</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:27</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010096" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=1c44140f820b30769254bb05fe37cdb0&title=Recent%20Extensions%20of%20Gurson%E2%80%99s%20Model%20for%20Porous%20Ductile%20Metals" target="_blank">Recent Extensions of Gurson’s Model for Porous Ductile Metals</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>M. Gologanu</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://link.springer.com/10.1007/978-3-7091-2662-2_2</span></p>
+                                    <p><span class="res-label">求助者：</span><span>百度用户#5201974154</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:27</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010094" data-selfsos="" data-fortune="3">
+                        <p class="res-help-txt-org">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
+                <span class="res-help-name">"yongmou_test"</span>应助中...
+            </p>
+                                                
+                                                                                            <p class="res-help-tip">距应助截止还剩
+                <span class="res-help-time-tip" update-time="1539181652" data-time="1539182553"><em>14</em>分<em>58</em>秒</span>
+            </p>
+            </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                    <a href="//xueshu.baidu.com/s?wd=Detection%20of%20Short-Waved%20Spin%20Waves%20in%20Individual%20Microscopic%20Spin-Wave%20Waveguides%20Using%20the%20Inverse%20Spin%20Hall%20Effect&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8" target="_blank">Detection of Short-Waved Spin Waves in Individual Microscopic Spin-Wave Waveguides Using the Inverse Spin Hall Effect</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>Bracher, T. Fabre, M. Meyer, T.</span></p>
+                        <p><span class="res-label">全文链接：</span><span>&lt;Go to ISI&gt;://WOS:000418393300010 https://pubs.acs.org/doi/10.1021/acs.nanolett.7b02458</span></p>
+                                    <p><span class="res-label">求助者：</span><span>啊姨妈i</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:27</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010095" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=e624b2d287f2857f9766fc673115ac68&title=Fractography%20of%20Slow%20Fracture%20in%20Glass" target="_blank">Fractography of Slow Fracture in Glass</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>TA Michalske</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://www.astm.org/DIGITAL_LIBRARY/STP/PAGES/STP37109S.htm</span></p>
+                                    <p><span class="res-label">求助者：</span><span>梦中铜合页</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:27</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010093" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=09a32c7a1418cfc3dbce02c477827c30&title=%E8%B6%B3%E5%B0%BA%E7%A0%8C%E4%BD%93%E5%A1%AB%E5%85%85%E5%A2%99RC%E6%A1%86%E6%9E%B6%E6%8A%97%E9%9C%87%E6%80%A7%E8%83%BD%E8%AF%95%E9%AA%8C%E7%A0%94%E7%A9%B6" target="_blank">足尺砌体填充墙RC框架抗震性能试验研究</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>林超</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://www.cnki.com.cn/Article/CJFDTotal-JZJB20180703003.htm</span></p>
+                                    <p><span class="res-label">求助者：</span><span>旋风</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:26</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010092" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=161f33f5cbdf42b086c13ee777940b3b&title=ICU%E6%82%A3%E8%80%85%E8%A1%80%E6%B5%81%E6%84%9F%E6%9F%93%E7%97%85%E5%8E%9F%E8%8F%8C%E5%88%86%E5%B8%83%E7%89%B9%E7%82%B9%E5%8F%8A%E8%80%90%E8%8D%AF%E6%80%A7%E5%88%86%E6%9E%90" target="_blank">ICU患者血流感染病原菌分布特点及耐药性分析</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>李少增</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://www.cnki.com.cn/Article/CJFDTotal-ZHYY201321087.htm</span></p>
+                                    <p><span class="res-label">求助者：</span><span>yiliu0111487</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:26</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010091" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=b6ee945636fb43e00fb772d137af802b&title=%E7%9A%AE%E8%82%A4%E8%BD%AF%E7%BB%84%E7%BB%87%E6%84%9F%E6%9F%93%E6%82%A3%E8%80%85%E5%88%86%E7%A6%BB%E7%9A%84%E9%87%91%E9%BB%84%E8%89%B2%E8%91%A1%E8%90%84%E7%90%83%E8%8F%8C%E6%AF%92%E5%8A%9B%E5%9F%BA%E5%9B%A0%E5%88%86%E5%B8%83%E7%A0%94%E7%A9%B6" target="_blank">皮肤软组织感染患者分离的金黄色葡萄球菌毒力基因分布研究</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>汪英俊</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://www.cnki.com.cn/Article/CJFDTotal-ZHYY201802003.htm</span></p>
+                                    <p><span class="res-label">求助者：</span><span>你们家小白</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:26</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010090" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=2667ffee444f0ea3d685e7b3b9fb565e&title=%E7%A8%B3%E5%AE%9A%E5%8C%96%E7%BA%B3%E7%B1%B3%E9%9B%B6%E4%BB%B7%E9%93%81%E7%9A%84%E5%88%B6%E5%A4%87%E5%8F%8A%E5%9C%A8%E5%85%AD%E4%BB%B7%E9%93%AC%E6%B1%A1%E6%9F%93%E7%8E%AF%E5%A2%83%E6%B2%BB%E7%90%86%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8" target="_blank">稳定化纳米零价铁的制备及在六价铬污染环境治理中的应用</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>徐小龙</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://cdmd.cnki.com.cn/Article/CDMD-10426-1017719648.htm</span></p>
+                                    <p><span class="res-label">求助者：</span><span>嘻嘻你爹</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:26</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010089" data-selfsos="" data-fortune="5">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">5</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=1fd95272d9f4f9d5a73aadb48ffbb8ad&title=%E6%B8%A9%E9%98%B3%E8%A1%A5%E8%82%BE%E6%B3%95%E7%BB%93%E5%90%88%E8%BF%90%E5%8A%A8%E6%8C%87%E5%AF%BC%E5%AF%B9%E9%A2%84%E9%98%B2%E5%8D%B5%E5%B7%A2%E4%BD%8E%E5%8F%8D%E5%BA%94%E6%82%A3%E8%80%85%E9%AA%A8%E8%B4%A8%E7%96%8F%E6%9D%BE%E7%9A%84%E6%95%88%E6%9E%9C" target="_blank">温阳补肾法结合运动指导对预防卵巢低反应患者骨质疏松的效果</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>王晓霜</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://www.cqvip.com/QK/98262X/201805/90897467504849564853485053.html</span></p>
+                                    <p><span class="res-label">求助者：</span><span>konghaijun0626</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:26</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010088" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=85419ebee9d06994a906e1e3db20b795&title=Meta-analysis%20in%20psychology%3A%20a%20bibliometric%20study" target="_blank">Meta-analysis in psychology: a bibliometric study</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>Georgina Guilera</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://link.springer.com/article/10.1007/s11192-012-0761-2</span></p>
+                                    <p><span class="res-label">求助者：</span><span>406291139</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:26</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010087" data-selfsos="" data-fortune="3">
+                        <p class="res-help-txt-org">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>
+                <span class="res-help-name">"0ab...6@163.com"</span>应助中...
+            </p>
+                                                
+                                                                                            <p class="res-help-tip">距应助截止还剩
+                <span class="res-help-time-tip" update-time="1539181576" data-time="1539182477"><em>13</em>分<em>42</em>秒</span>
+            </p>
+            </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=c3fba8d7eac3613f1045a5995d459413&title=%E5%9B%9B%E8%87%AA%E7%94%B1%E5%BA%A6%E5%86%97%E4%BD%99%E9%A9%B1%E5%8A%A8%E5%B9%B6%E8%81%94%E6%9C%BA%E6%9E%84%E8%BF%90%E5%8A%A8%E5%AD%A6%E4%B8%8E%E9%9D%99%E5%8A%9B%E5%AD%A6%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90" target="_blank">四自由度冗余驱动并联机构运动学与静力学性能分析</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>陈林林</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://d.wanfangdata.com.cn/Thesis/Y2676867</span></p>
+                                    <p><span class="res-label">求助者：</span><span>朱女士王</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:26</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010086" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=1df72ee85a801a88723c7c48cdc81f0a&title=%E6%B6%B2%E6%B0%A7%E6%B6%A1%E8%BD%AE%E6%B3%B5%E5%86%85%E9%83%A8%E6%B5%81%E5%9C%BA%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97%E5%8F%8A%E5%88%86%E6%9E%90" target="_blank">液氧涡轮泵内部流场数值计算及分析</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>蔡尚炅</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://d.wanfangdata.com.cn/Thesis/D239407</span></p>
+                                    <p><span class="res-label">求助者：</span><span>lgx0126</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:25</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010085" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=821f3106f746b30531732e7ba42d20aa&title=%E4%B8%80%E7%A7%8D%E6%B7%B7%E5%87%9D%E5%9C%9F%E8%A1%A8%E9%9D%A2%E5%BE%AE%E5%B0%8F%E8%A3%82%E7%BC%9D%E7%9A%84%E5%AE%9A%E4%BD%8D%E6%96%B9%E6%B3%95" target="_blank">一种混凝土表面微小裂缝的定位方法</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>雷冬</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://d.wanfangdata.com.cn/Patent/CN201110214492.0/</span></p>
+                                    <p><span class="res-label">求助者：</span><span>fdks001</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:25</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010082" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=3471965367170fb24e43bb3f9b34319f&title=%E7%9A%82%E8%A7%92%E5%88%BA%E5%8C%96%E5%AD%A6%E6%88%90%E5%88%86%E5%8F%8A%E8%8D%AF%E7%90%86%E4%BD%9C%E7%94%A8%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95" target="_blank">皂角刺化学成分及药理作用研究进展</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>杨晓峪</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://d.wanfangdata.com.cn/Periodical/zgyszwzy201503010</span></p>
+                                    <p><span class="res-label">求助者：</span><span>bewithyouzyy</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:25</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010083" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=dcee9a4ab22582052ea1ecada8a3724d&title=%E8%82%BF%E7%98%A4%E8%BD%AC%E7%A7%BB%E5%89%8D%E5%BE%AE%E7%8E%AF%E5%A2%83%E7%9A%84%E7%89%B9%E5%BE%81%E4%B8%8E%E4%BD%9C%E7%94%A8" target="_blank">肿瘤转移前微环境的特征与作用</a>
+        </h2>
+                        <p><span class="res-label">全文链接：</span><span>http://d.wanfangdata.com.cn/Periodical/zgzlswzlzz201708021</span></p>
+                                    <p><span class="res-label">求助者：</span><span>dscshichang</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:25</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010081" data-selfsos="" data-fortune="5">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">5</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=f6e974b49de91a4c9b7841f49d26d9df&title=%E5%B9%B4%E8%BD%BB%E6%81%92%E5%89%8D%E7%89%99%E5%86%A0%E6%8A%98%E9%9C%B2%E9%AB%93%E5%90%8E%E6%B4%BB%E9%AB%93%E5%88%87%E6%96%AD%E6%9C%AF%E7%9A%84%E7%96%97%E6%95%88%E8%A7%82%E5%AF%9F" target="_blank">年轻恒前牙冠折露髓后活髓切断术的疗效观察</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>李艳芳</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://www.cnki.com.cn/Article/CJFDTotal-YYXK201318181.htm</span></p>
+                                    <p><span class="res-label">求助者：</span><span>扭蓉</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:25</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010079" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=a23ba02cd53369a8caf233b74bd29074&title=%E4%B8%80%E7%A7%8D%E5%9F%BA%E4%BA%8E%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E7%9B%B8%E5%85%B3%E7%9A%84%E8%A3%82%E7%BA%B9J%E7%A7%AF%E5%88%86%E6%B5%8B%E9%87%8F%E6%96%B9%E6%B3%95" target="_blank">一种基于数字图像相关的裂纹J积分测量方法</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>蒋玮</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://d.wanfangdata.com.cn/Patent/CN201510003450.0/</span></p>
+                                    <p><span class="res-label">求助者：</span><span>fdks001</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:25</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010078" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=4f05de5be0a5855c5f7479461bfebd07&title=%E5%8A%A8%E8%84%89%E5%83%B5%E7%A1%AC%E5%BA%A6%E5%AE%9A%E9%87%8F%E5%88%86%E6%9E%90%E6%88%90%E5%83%8F%E6%8A%80%E6%9C%AF%E5%AF%B9%E5%86%A0%E5%BF%83%E7%97%85%E6%82%A3%E8%80%85%E9%A2%88%E5%8A%A8%E8%84%89%E5%BC%B9%E6%80%A7%E7%9A%84%E8%AF%84%E4%BB%B7" target="_blank">动脉僵硬度定量分析成像技术对冠心病患者颈动脉弹性的评价</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>尹贻梅</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://www.cnki.com.cn/article/cjfdtotal-jhyx201406016.htm</span></p>
+                                    <p><span class="res-label">求助者：</span><span>XNBTFXY</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:25</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010077" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+    <tr class=" help-res-list-item">
+        <td class="detail-col">
+                <div class="res-intro">
+        <h2 class="res-title">
+                                                                    <a href="//xueshu.baidu.com/usercenter/data/paperhelp?cmd=paper_forward&longsign=4f7e7d2379eb9fd2c16a4e0fd7ba0183&title=%E6%B1%82%E5%8A%A8%E5%9C%86%E5%9C%86%E5%BF%83%E8%BD%A8%E8%BF%B9%E7%9A%84%E8%A7%84%E5%BE%8B%E6%80%A7%E8%A7%A3%E6%B3%95" target="_blank">求动圆圆心轨迹的规律性解法</a>
+        </h2>
+                <p><span class="res-label">作者：</span><span>于忠风</span></p>
+                        <p><span class="res-label">全文链接：</span><span>http://www.cqvip.com/QK/80517X/200112/12349004.html</span></p>
+                                    <p><span class="res-label">求助者：</span><span>liugangsrz</span></p>
+            <p><span class="res-label">求助时间：</span><span>2018-10-10 22:25</span></p>
+            </div>
+        </td>
+        <td class="result-col">
+                <div class="res-status" data-id="11010076" data-selfsos="" data-fortune="3">
+                                    <span class="res-help-btn help-will-help">
+                <i class="c-icon c-icon-fortune-min"></i><span class="res-help-fortune">3</span>我来应助
+            </span>
+                        </div>
+        </td>
+    </tr>
+</tbody>
+</table>
+    
+                        <div class="res-pages-wr">
+        <p class="res-page">
+            <a href="#" class="c-icon-page-prev-hover res-page-pre" data-num="0" style="display:none">
+                <i class="c-icon c-icon-page-prev"></i>
+            </a>
+                                                                <span class="res-page-number-now" data-num="1">1</span>
+                                                                <span class="res-page-number" data-num="2">2</span>
+                                                                <span class="res-page-number" data-num="3">3</span>
+                                                                <span class="res-page-number" data-num="4">4</span>
+                                                                <span class="res-page-number" data-num="5">5</span>
+                                                                <span class="res-page-more" data-num="...">...</span>
+                                                                <span class="res-page-number" data-num="212">212</span>
+                        <a href="#" class="c-icon-page-next-hover res-page-next" data-num="2">
+            <i class="c-icon c-icon-page-next"></i>
+            </a>
+        </p>
+    </div>
+</div>
+
+</div>
+</div>
+        <div id="lobby-right-container">
+    <div class="base-info c_font">
+                    <span class="right-tab-unresolved item4style">
+            <span class="title">待应助</span>
+            <span class="count">13120</span>
+        </span>
+        
+        <a class="right-tab-mysos item4style" href="/u/paperhelp?tab=my_sos">
+            <span class="title">我的求助</span>
+                        <span class="tips">需登录</span>
+                    </a>
+        <a class="right-tab-myhelp item4style " href="/u/paperhelp?tab=my_help">
+            <span class="title">我的应助</span>
+                        <span class="tips">需登录</span>
+                    </a>
+    </div>
+
+
+        <div class="top-list">
+        <h2 class="title c_font">周应助达人排行榜</h2>
+        <ul class="month-list">
+                    <li class="list-item">
+                <span class="order top3">1</span>
+                <span class="name">lovol94</span>
+                <span class="count">2161</span>
+            </li>
+                    <li class="list-item">
+                <span class="order top3">2</span>
+                <span class="name">fly1558</span>
+                <span class="count">2056</span>
+            </li>
+                    <li class="list-item">
+                <span class="order top3">3</span>
+                <span class="name">勿念_歆怡</span>
+                <span class="count">2019</span>
+            </li>
+                    <li class="list-item">
+                <span class="order">4</span>
+                <span class="name">JieHZhang</span>
+                <span class="count">1765</span>
+            </li>
+                    <li class="list-item">
+                <span class="order">5</span>
+                <span class="name">白兔堂堂球</span>
+                <span class="count">1750</span>
+            </li>
+                    <li class="list-item">
+                <span class="order">6</span>
+                <span class="name">wang76990480</span>
+                <span class="count">1488</span>
+            </li>
+                    <li class="list-item">
+                <span class="order">7</span>
+                <span class="name">最爱GloriaGG</span>
+                <span class="count">1041</span>
+            </li>
+                    <li class="list-item">
+                <span class="order">8</span>
+                <span class="name">ww_smile</span>
+                <span class="count">622</span>
+            </li>
+                    <li class="list-item">
+                <span class="order">9</span>
+                <span class="name">Romarola2015</span>
+                <span class="count">619</span>
+            </li>
+                    <li class="list-item">
+                <span class="order">10</span>
+                <span class="name">gdzcxtime</span>
+                <span class="count">432</span>
+            </li>
+                </ul>
+    </div>
+                </div>
+        </div>
+
+                    </div>
+                
+                </div>
+                
+                
+                
+<div class="pagefoot"><div class="footcon"><span class="lawinfo"><h4>版权说明</h4><p>本平台互助文献仅用于学术交流之用，请勿做商业之用，如有涉侵犯著作权人的版权等信息，请及时反馈，我们会在3个工作日内做出处理和答复，谢谢。<a href="/usercenter/show/baiducas?cmd=page" target="_blank" style="color: #38f;">了解更多>></a></p></span><span class="contact"><h4>联系我们</h4><div class="innerCont"><a href="http://weibo.com/baiduxueshu" target="_blank"><p class="wb"><span class=""></span></p></a><p class="wx"><span class="qrcode weixincode biye_bg"></span></p><a href="mailto:xueshu_support@baidu.com" target="_blank"><p class="help"></p></a></div></span><span class="productManual"> <a href="http://static.open.baidu.com/media/ch10/pdf/BaiduScholar-Manual.pdf" target="_blank">下载产品手册</a> &nbsp;&nbsp;&nbsp;|</span><span class="suggest"><a href="javascript:;" class="feedback">意见反馈</a></span></div><p class="foottext">©2018 Baidu 百度学术声明 <a href="https://www.baidu.com/duty/" target="_blank">使用百度前必读</a></p></div>
+
+            
+        </div>
+        <div class="dialog_bg hover-screen"></div>
+    </div>
+
+    
+<script type="text/javascript" src="/lib/static/scholar/cache/paperhelp/js/logic_20eb122.js"></script>
+
+    
+<div style="display:none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?0bd6d893c8df80f311d5ce53f6b34dea";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</div>
+
+</body>
+</html>

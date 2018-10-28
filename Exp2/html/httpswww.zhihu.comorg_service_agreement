@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth 
+page-terms-org-service-agreement enable-dark-theme
+">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="4c9655c16da4a92f93f5f7666b001c3d">
+
+<meta http-equiv="X-ZA-Experiment" content="default:None,ge3:ge3_9,ge2:ge2_1,nwebQAGrowth:experiment,is_office:false,nweb_growth_people:default,app_store_rate_dialog:close,nweb_search_suggest:default,search_advert_position:1,live_store:ls_a2_b2_c1_f2,nweb_search:nweb_search_heifetz,search_hybrid_tabs:pin-3#album-7,new_live_feed_mediacard:new,hybrid_zhmore_video:yes,ad_r:a,growth_search:s2,qaweb_related_readings_content_control:close,android_pass_through_push:all,new_sign_bg:new,new_mobile_app_header:true,np:1,android_search_tab_style:search_tab_style_b,android_db_recommend_action:open,android_db_feed_hash_tag_style:button,mobile_feed_guide:block,is_new_noti_panel:no">
+<title>知乎机构号服务协议 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/org_service_agreement">
+<meta id="znonce" name="znonce" content="5e56015385c4485197b1c9ba32cf8408">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.3e5da9dd.css">
+
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/pages/terms/main.644acd1e.css">
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.35b468b8.js"></script>
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容…">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix no-sidebar "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+<div class="zh-terms">
+<ol class="zh-terms-sidenav zh-document-sidenav">
+<li><a href="#sec-principle">协议范围</a></li>
+<li><a href="#sec-signup">帐号入驻流程</a></li>
+<li><a href="#sec-specification">机构号使用规则</a></li>
+<li><a href="#sec-account">帐号管理</a></li>
+<li><a href="#sec-data-storage">数据储存和信息披露</a></li>
+<li><a href="#sec-disclaimer">风险及免责</a></li>
+<li><a href="#sec-law">法律责任</a></li>
+<li><a href="#sec-others">其他</a></li>
+</ol>
+<div class="zh-terms-content zh-document">
+<h1>知乎机构号入驻服务协议</h1>
+<div class="section no-counter">
+<p>
+欢迎您入驻并使用知乎机构号。
+</p>
+<p>
+<b>
+为入驻、使用知乎机构号（以下简称「机构号」），您应当阅读并遵守《知乎机构号入驻服务协议》（以下简称「本协议」）。请您务必审慎阅读、充分理解本协议各条款内容，特别是免除或限制责任的相应条款。限制、免责条款可能以加粗形式提示您注意。
+</b>
+</p>
+<p>
+<b>
+您以任何形式入驻、使用机构号，都将视为您已阅读、理解并同意接受本协议的约束。如果您对本协议的任何条款表示异议，您可以选择不入驻或使用机构号。
+</b>
+</p>
+</div>
+<div id="sec-principle" class="TermSection" data-section="sec-principle">
+<a name="sec-principle" class="zg-anchor-hidden"></a>
+<h2>一、协议范围</h2>
+<ol>
+<li>
+本协议是您与知乎之间关于您入驻、使用机构号所订立的协议，知乎是指北京智者天下科技有限公司及其相关服务可能存在的运营关联单位。机构号是知乎向公司、单位、社会组织、政府机构等法人或非法人实体（以下将更多的称呼为「您」或「用户」）提供的知乎入驻渠道，以便您能够以本机构名义使用知乎提供的各项互联网技术服务。
+</li>
+<li>
+入驻完成后，您可以通过知乎机构号进行以下操作：帐号设置与管理、内容发布与管理、参与社区互动、查看站内消息与私信等。
+</li>
+</ol>
+</div>
+<div id="sec-signup" class="TermSection" data-section="sec-signup">
+<a name="sec-signup" class="zg-anchor-hidden"></a>
+<h2>二、帐号入驻流程</h2>
+<ol>
+<li>
+知乎机构号通过电子邮箱帐号进行注册并绑定激活，请您使用未与知乎个人帐号和其他机构号绑定的电子邮箱帐号。您激活邮箱后，该邮箱即成为您的机构号登录帐号。知乎有权根据用户需求和产品需要对机构号的注册和绑定的方式进行变更。
+</li>
+<li>
+您在入驻时需要选择机构类型并填写入驻资料，知乎有权将您选择的机构类型作为入驻资料的审核依据，入驻完成后将无法更改。您应当如实填写和提交帐号入驻资料，并指定机构号负责人一名。入驻审核包括机构资质、帐号基本信息、运营负责人信息登记等信息的审核。
+</li>
+<li>
+为向您提供更专业的服务，您同意知乎对您所提交的入驻资料进行核查、校验和审核，知乎也可能会在法律允许和审核需要的范围内对您提交的资料、信息及相关背景信息、关联信息进行查询，并根据审核情况作出入驻是否成功的判断。
+</li>
+<li>
+<b>
+机构号入驻审核仅限于对您提交的资料及信息进行合理、谨慎的形式审查，在知乎的合法权限和合理能力范围内，知乎无法实质审查您的实际经营、运营以及推广等行为，并不为此提供任何担保。如您提交给知乎的信息存在不全、无效或虚假，或因您行为导致与其他用户或第三方发生争议的，将由您独立对外承担责任，因此给知乎或第三方造成损害的，您应当依法予以全额赔偿。
+</b>
+</li>
+<li>
+<b>
+您应遵循入驻流程完成信息登记，并对资料的真实性、合法性、准确性和有效性承担责任。知乎依据您填写和提交的帐号资料，在法律允许的范围内向其他用户展示您的信息。
+</b>
+</li>
+<li>
+<b>
+您理解并同意，您为入驻知乎所提供的所有信息构成您的真实意思表示，否则知乎有权依照本协议及相关知乎帐号规范对您进行处罚。
+</b>
+</li>
+<li>
+<b>
+如您从事的行业或在知乎站内所发表、推广的内容需要取得相关法律法规规定的许可或进行备案的，您应当在帐号入驻时，遵循诚实信用原则，自行提交相应的许可或备案证明。否则，知乎有权拒绝或随时终止提供机构号相关服务，并依照本协议对违规帐号进行处罚。因此给知乎或第三方造成损害的，您应当依法予以全额赔偿。
+</b>
+</li>
+<li>
+为了享受更多的机构号权益，您可以在完成入驻后申请知乎平台认证。通过认证后，机构号将享受多种权益，包括但不限于查看机构号相关数据报表、查看机构盐值并按机构盐值等级享受权益、开设专栏、开办知乎Live等。关于机构号认证服务的具体规则，请您阅读并遵守《知乎机构号认证服务协议》。
+</li>
+</ol>
+</div>
+<div id="sec-specification" class="TermSection" data-section="sec-specification">
+<a name="sec-specification" class="zg-anchor-hidden"></a>
+<h2>三、机构号使用规则</h2>
+<ol>
+<li>
+<b>
+机构号是知乎为用户提供的多种帐号形式中的一种，因此除遵守本协议外，您还应当遵守《<a href="/terms">知乎协议（草案）</a>》、《<a href="/terms2">知乎社区管理规定（试行）</a>》、《知乎机构号使用规范（试行）》、《知乎隐私政策》等与知乎帐号相关的各项制度规范（以下简称「专项规则」）。本协议内容与上述内容存在冲突的，以本协议为准。
+</b>
+</li>
+<li>
+<b>
+您在入驻、使用机构号过程中所制作、复制、发布、传播的任何内容都受到本协议及专项规则的约束，包括但不限于您入驻、使用机构号所产生的机构号头像、名称、用户说明等入驻信息或文字、语音、图片、视频、图文等发送、回复和相关链接页面，以及其他使用机构号所产生的内容。
+</b>
+</li>
+<li>
+<b>
+您理解并同意，知乎一直致力于提供文明健康、规范有序、科学和谐的网络环境，您应当遵照知乎已发布的所有帐号相关的使用规则，不得利用机构号直接或间接从事任何违反中国法律法规以及社会公德的行为。您不得利用机构号制作、上载、复制、发布、传播或者转载如下内容，否则知乎有权删除、屏蔽相关内容，并根据违规程度对该机构号采取相应的处理措施。
+</b>
+<ol>
+<li>
+违反国家法律法规的内容；
+</li>
+<li>
+侵害他人名誉权、肖像权、知识产权、商业秘密等合法权利的内容；
+</li>
+<li>
+涉及他人隐私、个人信息或资料的内容；
+</li>
+<li>
+骚扰信息及垃圾信息或含有任何性或性暗示的内容；
+</li>
+<li>
+发布不符合国家相关法律法规规定的广告，包括但不限于发布国家禁止发布的广告内容，未事先经过有关部门的审查但法律法规要求审查的广告内容等。
+</li>
+<li>
+其他违反法律法规、政策及公序良俗、社会公德或干扰知乎正常运营和侵犯其他用户或第三方合法权益内容的信息。
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="sec-account" class="TermSection" data-section="sec-account">
+<a name="sec-account" class="zg-anchor-hidden"></a>
+<h2>四、帐号管理</h2>
+<ol>
+<li>
+<b>
+机构号的所有权归北京智者天下科技有限公司所有，使用权仅属于初始申请入驻主体。帐号使用权禁止赠与、借用、租用、转让或售卖。
+</b>
+</li>
+<li>
+您在申请入驻时还应指定机构号负责人一名，并向知乎提供机构号负责人的真实姓名、手机号、身份证及相关身份材料。知乎有权对机构号负责人的身份进行核查。未成年人不得作为机构号负责人。
+</li>
+<li>
+机构号负责人负责对帐号进行日常运营管理，包括但不限于帐号登录、密码找回、安全验证、机构号事务联系、申请机构号认证等。机构号使用过程中可变更负责人，变更流程需按「帐号设置」的提示操作。变更申请提交后，进入等待审核的状态期间，机构号依然可以正常使用，帐号对应负责人仍为原负责人。变更审核通过后，帐号对应负责人更新。
+</li>
+<li>
+机构号密码由您自行设定。知乎特别提醒您应妥善保管您的帐号和密码。知乎与您共同负有维护帐号安全的责任。知乎会采取并不断更新技术措施，努力保护您的帐号在服务器端的安全。您需要采取特定措施保护您的帐号安全，包括但不限于妥善保管机构号与密码、安装防病毒木马软件、定期更改密码等措施。当您使用完毕后，应安全退出。
+</li>
+<li>
+您同意在任何情况下不向他人透露帐号或密码信息。<b>因您保管不善可能导致帐号被他人使用（包括但不限于遭受盗号、密码失窃）或信息数据泄漏，责任由您自行承担。</b>您理解并同意，在您未进行投诉或提出帐号申诉等方式明确告知知乎帐号被他人使用或信息数据泄漏等情况并提供相关证明材料前，知乎有理由相信该帐号行为是您使用帐号的行为。
+</li>
+<li>
+在您怀疑他人在使用您的帐号或密码时，您同意立即通知知乎。如果您当前使用的机构号并不是您初始申请入驻的或者通过知乎提供的其他途径获得的，但您却知悉该帐号当前的密码，您不得用该帐号登录或进行任何操作，并请您在第一时间通知知乎或者该帐号的初始申请入驻主体。如果知乎发现您并非该帐号初始申请入驻主体，知乎有权在未经通知的情况下终止您使用该帐号。
+</li>
+<li>
+<b>
+如您违反相关法律法规、本协议以及专项规则的规定，知乎有权进行独立判断并随时限制、冻结或终止您对机构号的使用，且根据实际情况决定是否恢复使用。由此给您带来的损失（包括但不限于通信中断，用户资料及相关数据清空等），由您自行承担。
+</b>
+</li>
+<li>
+如果您的机构号被盗、密码遗忘或因其他原因导致无法正常登录，责任由您自行承担。您可以按照知乎的申诉途径进行申诉（org@zhihu.com），但知乎并不承诺您一定能通过申诉找回帐号。
+</li>
+<li>
+为了充分利用帐号资源，如果您存在长期未完成入驻审核验证、入驻后未及时进行初次登录使用，或长期未登陆使用机构号等情形，知乎有权暂停或终止该帐号的使用。
+</li>
+</ol>
+</div>
+<div id="sec-data-storage" class="TermSection" data-section="sec-data-storage">
+<a name="sec-data-storage" class="zg-anchor-hidden"></a>
+<h2>五、数据储存和信息披露</h2>
+<ol>
+<li>
+<b>
+知乎不对您在机构号中相关数据的删除或储存失败负责。
+</b>
+</li>
+<li>
+<b>
+知乎有权根据实际情况自行决定单个用户在机构号中数据的最长储存期限，并在服务器上为其分配数据最大存储空间等。您可根据自己的需要自行备份机构号中的相关数据。
+</b>
+</li>
+<li>
+<b>
+如果您停止使用机构号或相关服务被终止或取消，知乎可以从服务器上永久地删除您的数据。在服务停止、终止或取消后，知乎没有义务向您返还任何数据。
+</b>
+</li>
+<li>
+知乎将按照法律法规的规定、行业规范及《知乎隐私政策》使用您的数据和信息，不向任何无关的第三方披露您入驻和使用帐号时提供的非公开信息以及机构号负责人的个人信息，<b>但您理解并同意，有下列情形之一的除外：</b>
+<ol>
+<li>
+事先获得了您的明确授权；
+</li>
+<li>
+为了维护公众以及知乎的合法利益；
+</li>
+<li>
+<b>
+知乎可能会与第三方合作向您提供相关的网络服务，在此情形下，如果该等第三方同意承担与知乎同等的信息保护责任，则知乎有权将您的信息提供给该等第三方，无需获得您的的另行同意；
+</b>
+</li>
+<li>
+相关法律法规或主管部门、司法机关的要求。
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="sec-disclaimer" class="TermSection" data-section="sec-disclaimer">
+<a name="sec-disclaimer" class="zg-anchor-hidden"></a>
+<h2>六、风险及免责</h2>
+<ol>
+<li>
+您理解并同意：为了向您提供有效的服务，机构号的使用会利用您终端设备的处理器和带宽等资源。机构号使用过程中可能产生数据流量的费用，您需自行向运营商了解相关资费信息，并自行承担相关费用。
+</li>
+<li>
+<b>
+您在使用机构号时，须自行承担如下知乎不可掌控的风险内容，包括但不限于：
+</b>
+<ol>
+<li>
+由于受到计算机病毒、木马或其他恶意程序、黑客攻击的破坏等不可抗拒因素可能引起的信息丢失、泄漏等风险；
+</li>
+<li>
+您或知乎的电脑软件、系统、硬件和通信线路出现故障；
+</li>
+<li>
+您操作不当或通过非知乎授权的方式使用机构号；
+</li>
+<li>
+由于网络信号不稳定等原因，所引起的机构号登录失败、资料同步不完整、页面打开速度慢等风险；
+</li>
+<li>
+由于法律法规和相关政策的改变，导致服务停止或中断；
+</li>
+<li>
+知乎无法控制或合理预见的其他情形。
+</li>
+</ol>
+</li>
+<li>
+<b>您理解并同意，您通过机构号发表的内容可能会被其他用户或第三方复制、转载、修改或做其他用途，脱离您的预期和控制，您应充分意识到此类风险的存在，任何您不愿被他人获知的信息都不应在机构号发布。</b>如果相关行为侵犯了您的合法权益，您可以向机构号投诉，我们将依法进行处理。
+</li>
+<li>
+<b>
+知乎依据本协议约定获得处理违法违规内容或行为的权利，但这一权利不构成知乎的义务或承诺，知乎不能保证及时发现违法违规情形或进行相应处理。
+</b>
+</li>
+<li>
+<b>
+您理解并同意，因业务发展需要，知乎保留单方面对机构号的全部或部分服务内容在任何时候不经任何通知的情况下变更、暂停、限制、终止或撤销的权利，用户需承担此风险。
+</b>
+</li>
+<li>
+<b>
+您理解并同意，机构号仅为您提供信息分享、传播及获取的平台，您必须为您的机构号下的一切行为负责，包括您所发表的任何内容、帐号负责人行为以及由此产生的任何后果。您应对机构号中的内容自行加以判断，并承担因使用内容而引起的所有风险，包括因对内容的正确性、完整性或适用性的依赖而产生的风险。知乎无法且不会对因前述风险而导致的任何损失或损害承担责任。
+</b>
+</li>
+</ol>
+</div>
+<div id="sec-law" class="TermSection" data-section="sec-law">
+<a name="sec-law" class="zg-anchor-hidden"></a>
+<h2>七、法律责任</h2>
+<ol>
+<li>
+<b>如果知乎发现或收到他人投诉您违反本协议约定的，知乎有权不经通知随时对相关内容进行删除、屏蔽，并视行为情节对违规帐号处以包括但不限于警告、删除部分或全部关注用户、限制或禁止使用部分或全部功能、永久封禁帐号的处罚，并公告处理结果。知乎也有权依照本协议及专项规则的规定，拒绝再向您提供服务。</b>如果您发现任何人违反本协议规定或以其他不当的方式使用机构号服务，请立即向知乎投诉，我们将依法进行处理。
+</li>
+<li>
+如果知乎发现或收到他人投诉您违反本协议约定的，知乎有权不经通知随时对相关内容进行删除、屏蔽，并视行为情节对违规帐号处以包括但不限于警告、删除部分或全部关注用户、限制或禁止使用部分或全部功能、永久封禁帐号的处罚，并公告处理结果。知乎也有权依照本协议及专项规则的规定，拒绝再向您提供服务。如果您发现任何人违反本协议规定或以其他不当的方式使用机构号服务，请立即向知乎投诉，我们将依法进行处理。
+</li>
+</ol>
+</div>
+<div id="sec-others" class="TermSection" data-section="sec-others">
+<a name="sec-others" class="zg-anchor-hidden"></a>
+<h2>八 、其他</h2>
+<ol>
+<li>
+您使用机构号即视为您已阅读并同意受本协议的约束。知乎有权在必要时修改本协议条款。您可以在相关服务页面查阅最新版本的条款。本协议条款变更后，如果您继续使用机构号服务，即视为您已接受修改后的协议。如果您不接受修改后的协议，应当停止使用机构号服务。
+</li>
+<li>
+本协议签订地为中华人民共和国北京市海淀区。
+</li>
+<li>
+本协议的成立、生效、履行、解释及纠纷解决，适用中华人民共和国大陆地区法律（不包括冲突法）。
+</li>
+<li>
+若您与知乎之间发生任何纠纷或争议，首先应友好协商解决；协商不成的，双方同意将纠纷或争议提交本协议签订地有管辖权的人民法院解决。
+</li>
+</ol>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/terms/privacy" target="_blank">隐私政策</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2018 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{}</script>
+<script type="text/template" class="unblock-dialog-template">
+<div>
+你的帐号由于存在异常⾏为暂时被限制使⽤。如需恢复，请
+<a target="_blank" href="/account/unblock">解封帐号</a>
+</div>
+</script>
+<script type="text/json" class="json-inline" data-name="current_user">["","","","-1","",0,0]</script>
+<script type="text/json" class="json-inline" data-name="front_web_config">{"realname_win_config":{"timestamp":1501344000,"tip":"\u5e94\u56fd\u5bb6\u6cd5\u89c4\u5bf9\u4e8e\u5e10\u53f7\u5b9e\u540d\u7684\u8981\u6c42\uff0c\u8fdb\u884c\u4e0b\u4e00\u6b65\u64cd\u4f5c\u524d\uff0c\u9700\u8981\u5148\u5b8c\u6210\u624b\u673a\u7ed1\u5b9a\u3002","continue":0,"continue_time":3600,"skip_ut_verification":0}}</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,{"message":"\u60a8\u7684\u5e10\u53f7\u7531\u4e8e\u5b58\u5728\u5f02\u5e38\u884c\u4e3a\u6682\u65f6\u88ab\u77e5\u4e4e\u53cd\u4f5c\u5f0a\u7cfb\u7edf\u9650\u5236\u4f7f\u7528","by_antispam":true},false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":0,"now":1539163589000,"abtest_mask":"------------------------------","user_attr":[0,0,0,"-","-"],"user_hash":0}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.773358e5.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.36707672.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.1f64e458.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.a5a8951a.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.5a5b078a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.b0136566.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.9e284cd9.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.8eaa69f7.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.1e4cdac8.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.a94bf518.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.275ffa2a.js"}</script>
+
+<script type="text/json" class="json-inline" data-name="disabled_components">["tooltip","back_to_top"]</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.5330209e.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.d4dc2d3f.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6bd142d3.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-misc.2ba8b8ed.js"></script>
+<meta name="entry" content="ZH.entryTerms" data-module-id="page-misc">
+
+<script type="text/zscript" znonce="5e56015385c4485197b1c9ba32cf8408"></script>
+
+<input type="hidden" name="_xsrf" value="b7d538d9faa796df8ce51797fb9929d1"/>
+</body>
+</html>

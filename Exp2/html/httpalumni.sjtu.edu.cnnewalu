@@ -1,0 +1,716 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>上海交通大学校友会</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="css/nav.css" rel="stylesheet" type="text/css" />
+    <link href="css/cyclegallery.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/nav.js" type="text/javascript"></script>
+  </head>
+<body>
+
+<div>
+  <div id="main">
+      <div id="header">
+  <div class="gridouter">
+    <div class="grid">
+      <div id="top">
+        <div id="logo">
+          <img  src="image/logo1.png"  width="307" height="80" />
+        </div>
+        <div id="topSearch">
+          <!--Baidu站内搜索开始-->
+            <form action="http://www.baidu.com/baidu" target="_blank">
+            <input type=text name=word size=10>
+            <input type="submit" value="站内搜索">
+            <input name=tn type=hidden value="bds">
+            <input name=cl type=hidden value="3">
+            <input name=ct type=hidden value="2097152">
+            <input name=si type=hidden value="alumni.sjtu.edu.cn">
+            </form>
+          <!--Baidu站内搜索结束-->
+        </div>
+        <div id="widget">
+          <div id="mywid">
+            <div style="width:480px; height:87px; background-color:transparent;">
+              <img border="0px" src="image/yssy.png"    width="480px" height="87px" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <ul id="nav">
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/" class="top_link"><span>首页</span></a></li>
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/newslist.php?page=1&type=0" class="top_link"><span class="down">新闻公告</span></a>
+          <ul class="sub">
+            <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/newslist.php?page=1&type=0" class="top_link">总会新闻</a></li>
+            <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/newslist.php?page=1&type=1" class="top_link">各地新闻</a></li>
+            <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/newslist.php?page=1&type=2" class="top_link">公告栏</a></li>
+          </ul>
+          </li>
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/activity.php?page=1" class="top_link"><span class="down">校友活动</span></a></li>
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/sjtuperson.php?page=1" class="top_link"><span class="down">校友风采</span></a></li>
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/kwindex.php" class="top_link"><span class="down">校友刊物</span></a>
+            <ul class="sub">
+              <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/siyuanlist.php?page=1" class="top_link">《思源》</a></li>
+              <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/xyymblist.php?page=1" class="top_link">《校友月末版》</a></li>
+              <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/dzxxblist.php?page=1" class="top_link">《电子信息报》</a></li>
+              <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/zhiyuanlist.php?page=1" class="top_link">《致远》</a></li>
+            </ul>
+          </li>
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/gdxy.php?page=1" class="top_link"><span>校友组织</span></a>
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/anudonate.php" class="top_link"><span>年度捐赠</span></a></li>
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/gywm.php" class="top_link"><span>关于我们</span></a></li>
+          <li class="top"><a href="http://alumni.sjtu.edu.cn/newalu/xyfw.php" class="top_link"><span>校友服务</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+      <div id="prim">
+        <div class="cont">
+          <div class="grid2">
+            <div id="slider-wrapper">
+              <div id="myGallery">
+                
+<div id="carousel-news" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+        <div class="item active">
+      <img style="width:100%;" class="d-block img-fluid" src="http://p40w37rb1.bkt.clouddn.com/20180911.png?imageView2/1/w/710/h/340/q/100" alt="9月9日，上海交通大学2018级新生开学典礼在闵行校区霍英东体育中心举行。来自世界各地的13000余名新生汇聚交大校园，开启本科和研究生阶段学习之旅。">
+      <div class="carousel-caption">
+        <p><a href="https://mp.weixin.qq.com/s/E7IKVHDc3M5RJ0go0Xu2NQ" >9月9日，上海交通大学2018级新生开学典礼在闵行校区霍英东体育中心举行。来自世界各地的13000余名新生汇聚交大校园，开启本科和研究生阶段学习之旅。</a></p>
+      </div>
+    </div>
+        <div class="item ">
+      <img style="width:100%;" class="d-block img-fluid" src="http://p40w37rb1.bkt.clouddn.com/20180717_055017_437.jpg?imageView2/1/w/710/h/340/q/100" alt="上海交通大学第九届全球校友组织会长秘书长联席会议举行">
+      <div class="carousel-caption">
+        <p><a href="http://alumni.sjtu.edu.cn/newalu/newsshow.php?id=3756" >7月14日，上海交通大学第九届全球校友组织会长秘书长联席会议暨“思源致远，砥砺奋进”校友教育思想大讨论活动在广州隆重举行。</a></p>
+      </div>
+    </div>
+        <div class="item ">
+      <img style="width:100%;" class="d-block img-fluid" src="http://p40w37rb1.bkt.clouddn.com/20180907.png?imageView2/1/w/710/h/340/q/100" alt="上海交通大学校友会集成电路分会成立大会暨集成电路助力人工智能产业化高峰论坛活动">
+      <div class="carousel-caption">
+        <p><a href="http://alumni.sjtu.edu.cn/newalu/newsshow.php?id=3771" >9月1日下午，上海交通大学校友会集成电路分会成立大会暨集成电路助力人工智能产业化高峰论坛活动在徐汇校区文治堂举行。</a></p>
+      </div>
+    </div>
+        <div class="item ">
+      <img style="width:100%;" class="d-block img-fluid" src="http://p40w37rb1.bkt.clouddn.com/20180619-1.jpg?imageView2/1/w/710/h/340/q/100" alt="四十载白驹过隙，6月9日上午，上海交大77、78 级校友入学四十周年纪念大会暨文艺演出在徐汇校区举行。">
+      <div class="carousel-caption">
+        <p><a href="http://alumni.sjtu.edu.cn/newalu/newsshow.php?id=3729" >四十载白驹过隙，6月9日上午，上海交大77、78 级校友入学四十周年纪念大会暨文艺演出在徐汇校区举行。</a></p>
+      </div>
+    </div>
+      </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-news" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-news" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+              </div>
+            </div>
+            <div id="newsout">
+              <div id="news">
+    <h1>校友会新闻</h1>
+    <ul class="latestpost style-1">
+              <li><h2><a title=[置顶]欢迎你，上海交通大学2018级新交大人！  href="https://mp.weixin.qq.com/s/E7IKVHDc3M5RJ0go0Xu2NQ" target=_blank>
+                &nbsp;&nbsp;
+        [置顶]欢迎你，上海交通大学2018级新交大人！        </a></h2></li>
+              <li><h2><a title=[置顶]上海交通大学各地校友会举办2018年迎新送新活动  href="newsshow.php?id=3776">
+                &nbsp;&nbsp;
+        [置顶]上海交通大学各地校友会举办2018年迎新送        </a></h2></li>
+              <li><h2><a title=[置顶]上海交通大学校友会成立集成电路分会并举行集成电路助力人工智能产业化高峰论坛  href="newsshow.php?id=3771">
+                &nbsp;&nbsp;
+        [置顶]上海交通大学校友会成立集成电路分会并举行集        </a></h2></li>
+              <li><h2><a title=[置顶]上海交通大学第九届全球校友组织会长秘书长联席会议举行  href="newsshow.php?id=3756">
+                &nbsp;&nbsp;
+        [置顶]上海交通大学第九届全球校友组织会长秘书长联        </a></h2></li>
+              <li><h2><a title=北京校友会第三期“思享汇”成功举办  href="newsshow.php?id=3783">
+                &nbsp;&nbsp;
+        北京校友会第三期“思享汇”成功举办        </a></h2></li>
+              <li><h2><a title=安泰经济与管理学院1998届涉外会计本科校友毕业20周年返校  href="newsshow.php?id=3782">
+                &nbsp;&nbsp;
+        安泰经济与管理学院1998届涉外会计本科校友毕业2        </a></h2></li>
+              <li><h2><a title=安泰经济与管理学院21141班校友毕业20年返校  href="newsshow.php?id=3781">
+                &nbsp;&nbsp;
+        安泰经济与管理学院21141班校友毕业20年返校        </a></h2></li>
+              <li><h2><a title=北京校友会“青春不毕业”北京校友合唱团成立  href="newsshow.php?id=3780">
+                &nbsp;&nbsp;
+        北京校友会“青春不毕业”北京校友合唱团成立        </a></h2></li>
+              <li><h2><a title=南京校友会首次摄影交流活动圆满落幕  href="newsshow.php?id=3777">
+                &nbsp;&nbsp;
+        南京校友会首次摄影交流活动圆满落幕        </a></h2></li>
+              <li><h2><a title=北京校友会专场金融职业发展沙龙成功举办  href="newsshow.php?id=3775">
+                &nbsp;&nbsp;
+        北京校友会专场金融职业发展沙龙成功举办        </a></h2></li>
+              <li><h2><a title=福建校友会2018年年会暨迎新送新活动举行  href="newsshow.php?id=3774">
+                &nbsp;&nbsp;
+        福建校友会2018年年会暨迎新送新活动举行        </a></h2></li>
+          </ul>
+    <a href="http://alumni.sjtu.edu.cn/newalu/newslist.php?page=1&type=0" style="float:right;" class="button">所有新闻</a>
+</div>
+              <div id="magazine">
+                  <h1>校友会刊物</h1>
+                  <ul>
+                    <li>
+                      <img src="/images/siyuan.png" />
+                      <p>《思源》</p>
+                    </li>
+                    <li>
+                      <img src="/images/alumni.jpg" />
+                      <p>《校友月末版》</p>
+                    </li>
+                    <li>
+                      <img src="/images/info.png" />
+                      <p>《电子信息报》</p>
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-primary"><a href="./subscribe.php">我要订阅</a></button>
+
+                  <div class="modal fade" id="subscribe-modal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">请填写订阅信息</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+  <form action="http://alumni.sjtu.edu.cn/newmanage/subscribe" method="post" id="subscribe-form">
+    <div class="form-group row">
+      <label for="name" class="col-2 col-form-label">姓名：</label>
+      <div class="col-10">
+        <input type="text" class="form-control" id="name" name="name">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="session" class="col-2 col-form-label">届别：</label>
+      <div class="col-10">
+        <input type="text" class="form-control" id="session" name="session">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="school" class="col-2 col-form-label">院系：</label>
+      <div class="col-10">
+        <input type="text" class="form-control" id="school" name="school">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="major" class="col-2 col-form-label">专业：</label>
+      <div class="col-10">
+        <input type="text" class="form-control" id="major" name="major">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="address" class="col-2 col-form-label">地址：</label>
+      <div class="col-10">
+        <input type="text" class="form-control" id="address" name="address">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="email" class="col-2 col-form-label">邮箱：</label>
+      <div class="col-10">
+        <input type="email" class="form-control" id="email" name="email">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="postcode" class="col-2 col-form-label">邮编：</label>
+      <div class="col-10">
+        <input type="text" class="form-control" id="postcode" name="postcode">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="mobile" class="col-2 col-form-label">联系电话：</label>
+      <div class="col-10">
+        <input type="text" class="form-control" id="mobile" name="mobile">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-2 col-form-label">订阅种类：</label>
+      <div class="col-10">
+        <div class="form-check disabled">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" id="siyuan-paper" disabled name="siyuan-paper"> 《思源》杂志纸质版（<a href="http://giving.sjtu.edu.cn/project.action?id=7321">点此捐赠</a>）
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" id="siyuan-ebook" name="siyuan-ebook"> 《思源》杂志电子版
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" id="yuemo-paper" name="yuemo-paper"> 《上海交大报》（校友月末版）纸质版
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" id="yuemo-ebook" name="yuemo-ebook"> 《上海交大报》（校友月末版）电子版
+          </label>
+        </div>
+        <div class="form-check" style="display: none">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" id="infomation-paper" name="infomation-paper"> 《上海交大校友电子信息报》纸质版
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" id="infomation-ebook" name="infomation-ebook"> 《上海交大校友电子信息报》电子版
+          </label>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                          <button type="button" class="btn btn-primary" id="subscribe-form-submit">确定</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="words">
+  <h1>校友寄语</h1>
+  <ul class="post_list">
+        <li ><p><span style="font-size: small;"><span style="font-family: 宋体; text-indent: 27pt;">捐赠略表薄意，望宏志学子刻苦攻读，报效祖国。</span></span></p>
+<p class="MsoNormal" align="left" style="text-indent: 27pt;"><span lang="EN-US" style="font-size: 13.5pt; font-family: Tahoma, sans-serif;"><o:p></o:p></span></p><br><span style=" float:right;">--1965届无线通讯系钟梅中学长&nbsp;</span></li>
+        <li ><p><span style="font-family: 宋体; font-size: small; text-indent: 36px;">孺子有成四十载，饮水思源念母校，杯水车薪难作为，抔土仅明拳拳心。此记。</span></p><br><span style=" float:right;">--1949届土木系罗克强学长&nbsp;</span></li>
+      </ul>
+</div>
+              <div id="links">
+  <h1>友情链接</h1>
+  <div>
+    <a href="http://www.sjtu.edu.cn" target="_blank">
+      <img src="http://foundation.sjtu.edu.cn/site/images/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6.png" style="height:40px; margin-right:25px; margin-bottom: 10px;">
+    </a>
+    <a href="http://foundation.sjtu.edu.cn" target="_blank">
+      <img src="http://foundation.sjtu.edu.cn/site/images/logo-foundation.png" style="height:40px; margin-right:25px; margin-bottom: 10px;">
+    </a>
+  </div>
+</div>
+            </div>
+            <div id="middle">
+              <div id="notice">
+  <h1>校友会公告</h1>
+  <ul class="latestpost style-1">
+        <li><h2 class="text-ellipsis"><a title=[置顶]徐汇校区校友会办公地点及校友活动室搬迁通告  href="newsshow.php?id=3450">
+        &nbsp;&nbsp;
+    [置顶]徐汇校区校友会办公地点及校友活动室搬迁通告    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=[置顶] 关于上海交通大学教育发展基金会捐赠税收的说明  href="newsshow.php?id=3054">
+        &nbsp;&nbsp;
+    [置顶] 关于上海交通大学教育发展基金会捐赠税收的说明    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=[置顶]关于向上海交通大学校友开放统一身份认证jAccount和校友邮箱的通告  href="newsshow.php?id=2903">
+        &nbsp;&nbsp;
+    [置顶]关于向上海交通大学校友开放统一身份认证jAccount和校友邮箱的通告    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=[置顶]校友办理成绩单及学历学位认证流程说明  href="newsshow.php?id=3569">
+        &nbsp;&nbsp;
+    [置顶]校友办理成绩单及学历学位认证流程说明    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=[置顶]关于校友卡试发行安排的通知  href="newsshow.php?id=3448">
+        &nbsp;&nbsp;
+    [置顶]关于校友卡试发行安排的通知    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=欢迎2018届毕业生申领中银交大校友认同卡！  href="newsshow.php?id=2533">
+        &nbsp;&nbsp;
+    欢迎2018届毕业生申领中银交大校友认同卡！    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=上海交通大学校友会集成电路分会成立大会暨集成电路助力人工智能产业化高峰论坛通告  href="newsshow.php?id=3767">
+        &nbsp;&nbsp;
+    上海交通大学校友会集成电路分会成立大会暨集成电路助力人工智能产业化高峰论坛通告    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=关于调整校友访问图书馆电子资源的通知  href="newsshow.php?id=3765">
+        &nbsp;&nbsp;
+    关于调整校友访问图书馆电子资源的通知    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=上海交通大学校友总会办公室2018年暑假值班表  href="newsshow.php?id=3751">
+        &nbsp;&nbsp;
+    上海交通大学校友总会办公室2018年暑假值班表    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=关于聘任144名同学为2018届（本科生）班级理事的公告  href="newsshow.php?id=3737">
+        &nbsp;&nbsp;
+    关于聘任144名同学为2018届（本科生）班级理事的公告    </a></h2></li>
+        <li><h2 class="text-ellipsis"><a title=上海交通大学荷兰校友会成立大会通告  href="newsshow.php?id=3723">
+        &nbsp;&nbsp;
+    上海交通大学荷兰校友会成立大会通告    </a></h2></li>
+      </ul>
+  <a href="http://alumni.sjtu.edu.cn/newalu/newslist.php?page=1&type=1" style="float:right;" class="button">所有公告</a>
+</div>
+              <div id="widget-content">
+  <h1>近期校友活动</h1>
+  <ul class="latestpost style-3">
+    <li class="sticky">
+      <div class="thumb fnone">
+        <img width="347" height="136" src="image/zhuangshi.jpg"/>
+      </div>
+    </li>
+    <table id="activity"  width="347"  style="text-align:left; font-size:13px; line-height:13px;">
+      <tr  bgcolor="#B11F05" style="color:#FFFFFF; text-align:center;">
+        <th width="27%">时间</th>
+        <th width="40%">活动名称</th>
+        <th width="20%">分会</th>
+        <th width="13%">状态</th>
+      </tr>
+          <tr>
+        <td>2018-07-29</td>
+        <td><a href="activityshow.php?id=90">SAIF校友会赛艇俱乐部成立大会暨名家讲堂王石:巅峰上的人生管理</a></td>
+        <td>
+                    校友总会        </td>
+        <td>已结束</td>
+      </tr>
+            <tr>
+        <td>2018-02-25</td>
+        <td><a href="activityshow.php?id=89">日本校友会双创研究会 主题论坛</a></td>
+        <td>
+                    日本        </td>
+        <td>已结束</td>
+      </tr>
+            <tr>
+        <td>2018-02-24</td>
+        <td><a href="activityshow.php?id=88">达福校友会2018新春活动</a></td>
+        <td>
+                    达福        </td>
+        <td>已结束</td>
+      </tr>
+            <tr>
+        <td>2017-11-25</td>
+        <td><a href="activityshow.php?id=87">上海交通大学德国校友会2017年召集令</a></td>
+        <td>
+                    德国        </td>
+        <td>已结束</td>
+      </tr>
+            <tr>
+        <td>2017-11-18</td>
+        <td><a href="activityshow.php?id=86">上海交通大学杭州校友会成立大会</a></td>
+        <td>
+                    杭州        </td>
+        <td>已结束</td>
+      </tr>
+            <tr>
+        <td>2017-07-26</td>
+        <td><a href="activityshow.php?id=85">“交大好项目”硅谷站系列活动火热报名中！</a></td>
+        <td>
+                    硅谷        </td>
+        <td>已结束</td>
+      </tr>
+            <tr>
+        <td>2017-06-24</td>
+        <td><a href="activityshow.php?id=84"> 上海交通大学南通校友会成立大会   </a></td>
+        <td>
+                    南通        </td>
+        <td>已结束</td>
+      </tr>
+          </table>
+    <a  style="float:right;" class="button " href="http://alumni.sjtu.edu.cn/newalu/activity.php?page=1">更多</a>
+  </ul>
+</div>
+              <div id="my_cyclewidget-2" class="widget_my_cyclewidget widget-content">
+  <h1>视频资料</h1>
+  <ul class="video wrapper">
+        <li>
+      <figure class="featured-thumbnail">
+        <a href="http://v.youku.com/v_show/id_XNDIwMDg1MDE2.html">
+          <img src="image/v3.jpg"></img>
+          <span class="play"></span>
+          <h2>今日交大(2012)</h2>
+        </a>
+      </figure>
+    </li>
+        <li>
+      <figure class="featured-thumbnail">
+        <a href="http://v.youku.com/v_show/id_XMTk5OTUyMTg0.html">
+          <img src="image/v2.jpg"></img>
+          <span class="play"></span>
+          <h2>今日交大（英文版）</h2>
+        </a>
+      </figure>
+    </li>
+        <li>
+      <figure class="featured-thumbnail">
+        <a href="http://v.youku.com/v_show/id_XMjUzNDYyNDAw.html">
+          <img src="image/v1.jpg"></img>
+          <span class="play"></span>
+          <h2>今日交大(2011)</h2>
+        </a>
+      </figure>
+    </li>
+      </ul>
+</div>
+            </div>
+          </div>
+          <div id="sidebar">
+            <div id="sidebar-inner">
+              <div id="login">
+                <!-- 侧边栏校友服务板块 -->
+<section class="alumni-service">
+    <header>
+        <h3>校友服务</h3>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <a href="https://register.alumni.sjtu.edu.cn/" target=_blank>
+                    <figure class="figure">
+                      <img src="./images/alumni_service_01.png" class="figure-img img-fluid" alt="社区登录">
+                      <figcaption class="figure-caption">社区登录</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="https://mail.alumni.sjtu.edu.cn" target=_blank>
+                    <figure class="figure">
+                      <img src="./images/alumni_service_02.png" class="figure-img img-fluid" alt="邮箱登录（新）">
+                      <figcaption class="figure-caption">邮箱登录（新）</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="http://portal.office365.com" target=_blank>
+                    <figure class="figure">
+                      <img src="./images/alumni_service_03.png" class="figure-img img-fluid" alt="邮箱登录（老）">
+                      <figcaption class="figure-caption">邮箱登录（老）</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <a href="https://register.alumni.sjtu.edu.cn/alumniReg" target=_blank>
+                    <figure class="figure">
+                      <img src="./images/alumni_service_04.png" class="figure-img img-fluid" alt="我要注册">
+                      <figcaption class="figure-caption">我要注册</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="http://alumni.sjtu.edu.cn/alumni/xiaoyouhui/upgrade/upgrade.html" target=_blank>
+                    <figure class="figure">
+                      <img src="./images/alumni_service_05.png" class="figure-img img-fluid" alt="常见问题">
+                      <figcaption class="figure-caption">常见问题</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div>
+              <div class="col-md-4 text-center">
+                  <a href="./contact-us.php" target=_blank>
+                      <figure class="figure">
+                        <img src="./images/alumni_service_06.png" class="figure-img img-fluid" alt="留言板">
+                        <figcaption class="figure-caption">建言献策</figcaption>
+                      </figure>
+                  </a>
+              </div>
+              
+            </div>
+        </div>
+    </div>
+</section>
+
+              </div>
+              <div id="weibo" style="height:400">
+                <iframe width="218" height="400" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=218&height=400&fansRow=2&ptype=1&speed=0&skin=2&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=2107561493&verifier=a8c6bf2e&dpc=1"></iframe>
+              </div>
+            </div>
+            <div class="donate" style="height:430px">
+  <h1>最新捐赠&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size:14px;color:#F33" href="http://giving.sjtu.edu.cn" target="_blank">在线捐赠</a></h1>
+  <div style="margin-left:5px; width:220px">
+    <span>思源校友年度捐赠"是上海交通大学校友会为弘扬"饮水思源、爱国荣校"的光荣传统，凝聚庆海内外校友关爱母校、支持母校的深情，为母校一流大学建设助力加油的一项长期的资金募集活动。每一年度，国内校友捐赠以人民币30元起，海外校友捐赠以美金30元起，参与年度捐赠活动，重在参与、自愿捐赠，用先辈关怀后辈的方式聚沙成塔、集腋成裘，共襄科教兴国的壮举。</span>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div id="footer" style="width:100%;  background: #111; float:left;margin:0 auto;font-size:12px;font-family:宋体;text-align:center; margin-top:0px;color:#FFFFFF">
+  <ul>
+    <center>上海交通大学校友会版权所有 2001-2014
+    Shanghai Jiao Tong University Alumni Association
+    <br>沪交ICP备2010785</center>
+  </ul>
+</div>
+</div>
+
+<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd67509dafc7f229939cb3cc403b3a866' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+
+
+ <script language="javascript" type="text/javascript">
+     window.onload=createCode();
+     var code ; //在全局 定义验证码
+     function createCode()
+     {
+       code = "";
+       var codeLength = 4;//验证码的长度
+       var checkCode = document.getElementById("checkCode");
+       var selectChar = new Array(0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');//所有候选组成验证码的字符，当然也可以用中文的
+
+       for(var i=0;i<codeLength;i++)
+       {
+
+
+       var charIndex = Math.floor(Math.random()*36);
+       code +=selectChar[charIndex];
+
+
+       }
+//       alert(code);
+       if(checkCode)
+       {
+         checkCode.className="code";
+         checkCode.value = code;
+       }
+
+     }
+
+     function validate ()
+     {
+       var inputCode = document.getElementById("input1").value;
+       var Name = document.getElementById('UserName').value;
+       var PassWord = document.getElementById('PassWord').value;
+     if(Name=="")
+    {
+    alert('请输入用户名');
+    }
+     else if(PassWord=="")
+    {
+     alert('请输入密码');
+    }
+      else if(inputCode.length <=0)
+       {
+           alert("请输入验证码！");
+       }
+       else if(inputCode.toUpperCase() != code.toUpperCase() )
+       {
+          alert("验证码输入错误！");
+          createCode();//刷新验证码
+       }
+       else
+       {
+
+
+            window.open("http://community.sjtu.org/SysAdmin/LoginCenter.aspx?UserName="+Name+"&PassWord="+PassWord);
+       }
+
+       }
+
+
+
+    </script>
+
+    <script>
+        // 进行表单有效性校验
+        function checkSubscribeForm(event) {
+          var $name = $('#subscribe-form #name'),
+            $session = $('#subscribe-form #session'),
+            $school = $('#subscribe-form #school'),
+            $major = $('#subscribe-form #major'),
+            $address = $('#subscribe-form #address'),
+            $email = $('#subscribe-form #email'),
+            $postcode = $('#subscribe-form #postcode'),
+            $siyuanEbook = $('#subscribe-form #siyuan-ebook'),
+            $yuemoPaper = $('#subscribe-form #yuemo-paper'),
+            $yuemoEbook = $('#subscribe-form #yuemo-ebook'),
+            $infomationPaper = $('#subscribe-form #infomation-paper'),
+            $infomationEbook = $('#subscribe-form #infomation-ebook');
+
+          var isValidate = true;
+          if ($name.val() == '') {
+            $name.parent().closest('.form-group').addClass('has-danger');
+            isValidate = false;
+          } else {
+            $name.parent().closest('.form-group').addClass('has-success');
+          }
+
+          if ($session.val() == '') {
+            $session.parent().closest('.form-group').addClass('has-danger');
+            isValidate = false;
+          } else {
+            $session.parent().closest('.form-group').addClass('has-success');
+          }
+
+          if ($school.val() == '') {
+            $school.parent().closest('.form-group').addClass('has-danger');
+            isValidate = false;
+          } else {
+            $school.parent().closest('.form-group').addClass('has-success');
+          }
+
+          if ($major.val() == '') {
+            $major.parent().closest('.form-group').addClass('has-danger');
+            isValidate = false;
+          } else {
+            $major.parent().closest('.form-group').addClass('has-success');
+          }
+
+          if (!$siyuanEbook.prop('checked') &&
+            !$yuemoPaper.prop('checked') &&
+            !$yuemoEbook.prop('checked') &&
+            !$infomationPaper.prop('checked') &&
+            !$infomationEbook.prop('checked')) {
+            // 未选择任何杂志
+            $siyuanEbook.parent().closest('.form-group').addClass('has-danger');
+            isValidate = false;
+          } else {
+            $siyuanEbook.parent().closest('.form-group').addClass('has-success');
+          }
+          if ($siyuanEbook.prop('checked') || $yuemoEbook.prop('checked') || $infomationEbook.prop('checked')) {
+            // 选择了电子版杂志，必须输入电子邮箱
+            if ($email.val() == '') {
+              $email.parent().closest('.form-group').addClass('has-danger');
+              isValidate = false;
+            } else {
+              $email.parent().closest('.form-group').addClass('has-success');
+            }
+          }
+          if ($yuemoPaper.prop('checked') || $infomationPaper.prop('checked')) {
+            // 选择了纸质版杂志，必须输入地址和邮编
+            if ($address.val() == '') {
+              $address.parent().closest('.form-group').addClass('has-danger');
+              isValidate = false;
+            } else {
+              $address.parent().closest('.form-group').addClass('has-success');
+            }
+            if ($postcode.val() == '') {
+              $postcode.parent().closest('.form-group').addClass('has-danger');
+              isValidate = false;
+            } else {
+              $postcode.parent().closest('.form-group').addClass('has-success');
+            }
+          }
+          return isValidate;
+        }
+        $('#subscribe-form').submit(function(event) {
+          event.preventDefault();
+          var isValidate = checkSubscribeForm(event);
+          if (isValidate) {
+            $.ajax('http://alumni.sjtu.edu.cn/newmanage/subscribe.php', {
+              method: 'POST',
+              data: $('#subscribe-form').serialize(),
+              success: function(data, status) {
+                alert('订阅成功');
+                $('#subscribe-modal').modal('hide');
+              }
+            });
+          }
+        });
+        $('#subscribe-form-submit').click(function() {
+          $('#subscribe-form').submit();
+        });
+
+    </script>
+
+</body>
+</html>
