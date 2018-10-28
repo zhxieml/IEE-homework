@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription  xmlns="http://a9.com/-/spec/opensearch/1.1/">
-	<InputEncoding>GB2312</InputEncoding>
-	<ShortName>淘宝购物</ShortName>
-	<Description>淘宝购物搜索 - 只有你想不到，没有你淘不到</Description>
-	<Image height="16" width="16" type="image/vnd.microsoft.icon">http://pics.taobao.com/favicon.ico</Image>
-	<Url type="text/html" template="http://search1.taobao.com/browse/search_auction.htm?q={searchTerms}"/>
-</OpenSearchDescription>
