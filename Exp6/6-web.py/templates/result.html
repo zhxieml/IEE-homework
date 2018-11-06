@@ -1,6 +1,58 @@
-$def with (name)
+$def with (data, input)
+<html>
+<head>
+    <style type="text/css">
+        div.container
+{
+width:100%;
+margin:0px;
+border:1px solid gray;
+line-height:150%;
+}
 
-$if name:
-    I just wanted to say <em>hello</em> to $name.
+div.header
+{
+padding:0.5em;
+color:white;
+background-color:gray;
+clear:left;
+}
+
+h1.header
+{
+<!—header类的h1标题-->
+padding:0;
+margin:0;
+}
+
+div.Content
+{
+
+border-left:1px solid gray;
+padding:1em;
+}
+
+
+    </style>
+</head>
+$if data:
+    <font size="20">Search Result for "$input"</font>
+    <br>
+    $for web in data:
+        <font color="blue"><a href=$web['url'] target="_blank">$web['title']</a></font>
+        <br>
+        $web['context'][0]
+        <font color="red">
+            $input
+        </font>
+        $web['context'][1]
+        <!--I just wanted to say <em>hello</em> to <font color="red">$data</font>.-->
+        <br>
+        <font color="green">$web['url']</font>
+        <br>
+        <br>
+        <br>
+
 $else:
-    <em>Hello</em>, world!
+    No Results!
+
